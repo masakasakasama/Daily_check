@@ -1,120 +1,101 @@
 {
-  "version": 2,
+  "version": 3,
   "currentDate": "2026-09-15",
   "updatedAt": "2026-09-15T19:47:32+09:00",
   "days": [
     {
       "date": "2026-09-15",
+      "alerts": [],
+      "references": [
+        {
+          "id": "ai-news-韓国-自律aiエ-ジェント向けセキュリティ指針を",
+          "category": "AI",
+          "score": 65,
+          "title": "韓国、自律AIエージェント向けセキュリティ指針を策定へ",
+          "summary": "AIエージェントの自律性拡大に対応する新しいセキュリティ指針。制度化前の策定段階のため75点未満",
+          "publishedAt": "2026/09/15",
+          "checkName": "AIニュース",
+          "source": {
+            "label": "reuters.com",
+            "url": "https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"
+          }
+        },
+        {
+          "id": "ai-news-元google-deepmind研究者が高度ai",
+          "category": "AI",
+          "score": 60,
+          "title": "元Google DeepMind研究者が高度AIの破局リスクを警告",
+          "summary": "AI安全性への警告として注目度は高いが、新モデル・新制度・実装変更ではなく発言中心",
+          "publishedAt": "2026/09/15",
+          "checkName": "AIニュース",
+          "source": {
+            "label": "reuters.com",
+            "url": "https://www.reuters.com/technology/ex-google-deepmind-researcher-adds-warnings-that-ai-could-kill-all-humans-2026-09-15/"
+          }
+        },
+        {
+          "id": "ai-news-ai開発減速論で投資家がai支出の鈍化を警戒",
+          "category": "AI",
+          "score": 55,
+          "title": "AI開発減速論で投資家がAI支出の鈍化を警戒",
+          "summary": "半導体・AIインフラ投資への市場影響が論点。AI技術そのものの新規ブレークスルーではない",
+          "publishedAt": "2026/09/15",
+          "checkName": "AIニュース",
+          "source": {
+            "label": "reuters.com",
+            "url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/"
+          }
+        },
+        {
+          "id": "sdv-nissan-actia-hpcでcockpit-ai-ada",
+          "category": "SDV",
+          "score": 60,
+          "title": "ACTIA、HPCでCockpit・AI・ADASを統合するSDVデモ",
+          "summary": "単一HPC上でHMI、ADAS、AI、コネクティビティを統合。SDV実装として有用だが9/14発表で今日の重大新規ではない",
+          "publishedAt": "2026/09/14",
+          "checkName": "SDV / Nissanニュース",
+          "source": {
+            "label": "actia.com",
+            "url": "https://www.actia.com/en/software-defined-vehicle-2/"
+          }
+        }
+      ],
       "checks": [
         {
           "id": "ai-news",
           "name": "AIニュース",
-          "priority": 1,
           "status": "clear",
-          "summary": "75点以上の新規AIニュースなし",
-          "details": [
-            "通知対象は0件",
-            "75点未満の新規情報は参考情報として別表示"
-          ],
+          "summary": "重要更新なし",
           "checkedAt": "2026-09-15T19:47:32+09:00",
-          "sources": [],
-          "referenceItems": [
-            {
-              "title": "韓国、自律AIエージェント向けセキュリティ指針を策定へ",
-              "score": 65,
-              "summary": "AIエージェントの自律性拡大に対応する新しいセキュリティ指針。制度化前の策定段階のため75点未満",
-              "date": "2026/09/15",
-              "url": "https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"
-            },
-            {
-              "title": "元Google DeepMind研究者が高度AIの破局リスクを警告",
-              "score": 60,
-              "summary": "AI安全性への警告として注目度は高いが、新モデル・新制度・実装変更ではなく発言中心",
-              "date": "2026/09/15",
-              "url": "https://www.reuters.com/technology/ex-google-deepmind-researcher-adds-warnings-that-ai-could-kill-all-humans-2026-09-15/"
-            },
-            {
-              "title": "AI開発減速論で投資家がAI支出の鈍化を警戒",
-              "score": 55,
-              "summary": "半導体・AIインフラ投資への市場影響が論点。AI技術そのものの新規ブレークスルーではない",
-              "date": "2026/09/15",
-              "url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/"
-            }
-          ]
+          "alertCount": 0,
+          "referenceCount": 3
         },
         {
           "id": "sdv-nissan",
           "name": "SDV / Nissanニュース",
-          "priority": 2,
           "status": "clear",
-          "summary": "実務上重要な新規SDV / Nissan情報なし",
-          "details": [
-            "通知対象は0件",
-            "関連する低重要度情報は参考情報として別表示"
-          ],
+          "summary": "重要更新なし",
           "checkedAt": "2026-09-15T19:47:32+09:00",
-          "sources": [
-            {
-              "label": "Nissan SDV Platform",
-              "url": "https://www.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/"
-            }
-          ],
-          "referenceItems": [
-            {
-              "title": "ACTIA、HPCでCockpit・AI・ADASを統合するSDVデモ",
-              "score": 60,
-              "summary": "単一HPC上でHMI、ADAS、AI、コネクティビティを統合。SDV実装として有用だが9/14発表で今日の重大新規ではない",
-              "date": "2026/09/14",
-              "url": "https://www.actia.com/en/software-defined-vehicle-2/"
-            }
-          ]
+          "alertCount": 0,
+          "referenceCount": 1
         },
         {
           "id": "codex-reset",
           "name": "Codexリセット時刻監視",
-          "priority": 4,
           "status": "clear",
-          "summary": "前回確認以降、リセット時刻・周期の新しい公式確定情報なし",
-          "details": [
-            "OpenAI公式Help Centerを確認",
-            "保存済み/購入リセットで5時間枠と週次枠が更新される仕様は既存情報で、新規差分ではない",
-            "具体的な次回リセット時刻は引き続きアカウントのSettings → Usage表示が基準"
-          ],
+          "summary": "重要更新なし",
           "checkedAt": "2026-09-15T19:47:32+09:00",
-          "sources": [
-            {
-              "label": "OpenAI: Codex plans and limits",
-              "url": "https://help.openai.com/ja-jp/articles/11369540"
-            },
-            {
-              "label": "OpenAI: Banked Codex resets",
-              "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
-            }
-          ],
-          "referenceItems": []
+          "alertCount": 0,
+          "referenceCount": 0
         },
         {
           "id": "permanent-residency",
           "name": "主要国の永住条件",
-          "priority": 5,
           "status": "clear",
-          "summary": "前回確認以降、主要国の永住条件に実質的な新規変更なし",
-          "details": [
-            "日本・英国・カナダ等の公式情報を確認",
-            "日本の2026/10/1在留許可手数料改定や英国9/3公表のImmigration Rules変更は既知の既存変更で、本チェック時点の新規差分ではない"
-          ],
+          "summary": "重要更新なし",
           "checkedAt": "2026-09-15T19:47:32+09:00",
-          "sources": [
-            {
-              "label": "日本 出入国在留管理庁",
-              "url": "https://www.moj.go.jp/isa/01_00644.html"
-            },
-            {
-              "label": "UK Immigration Rules HC 584",
-              "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026"
-            }
-          ],
-          "referenceItems": []
+          "alertCount": 0,
+          "referenceCount": 0
         }
       ]
     }
