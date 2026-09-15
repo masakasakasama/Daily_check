@@ -64,4 +64,14 @@ h2{margin:0;font-size:22px;letter-spacing:-.02em}
 footer{display:flex;justify-content:space-between;align-items:center;margin-top:42px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}
 footer a{color:var(--muted);text-decoration:none}
 .error{margin-top:20px;padding:13px;border-radius:12px;background:rgba(255,107,107,.08);color:#ffc0c0;font-size:12px}
+
+.reference-list{display:grid;gap:10px}
+.reference-card{border:1px solid var(--line);border-radius:16px;background:rgba(18,23,34,.72);padding:15px}
+.reference-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.reference-top strong{font-size:14px;line-height:1.45}
+.reference-score{flex:0 0 auto;border:1px solid rgba(122,162,247,.24);background:rgba(122,162,247,.08);color:#b9ccff;border-radius:999px;padding:4px 8px;font-size:11px;font-weight:800}
+.reference-card p{margin:9px 0 0;color:#c6ceda;font-size:13px;line-height:1.6}
+.reference-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;color:var(--muted);font-size:11px}
+.reference-card>a{display:inline-block;margin-top:11px;color:#b9ccff;text-decoration:none;font-size:11px}
+
 @media(max-width:420px){.shell{padding-left:14px;padding-right:14px}.summary-grid{gap:7px}.metric{padding:13px 11px}.metric strong{font-size:23px}.card-title{font-size:16px}}
