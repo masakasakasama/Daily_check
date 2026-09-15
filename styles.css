@@ -264,3 +264,17 @@ footer a{color:var(--faint);text-decoration:none}
   .metric{padding:0 10px}
   .metric strong{font-size:18px}
 }
+
+.header-actions{display:flex;align-items:center;gap:6px}
+.view-switch{display:flex;align-items:center;padding:2px;background:#11151a;border:1px solid var(--line);border-radius:10px}
+.view-button{border:0;background:transparent;color:var(--faint);padding:6px 9px;border-radius:8px;font-size:10px;font-weight:700;cursor:pointer}
+.view-button.active{background:#1a2028;color:var(--text)}
+.week-period{margin:22px 0 8px;color:var(--muted);font-size:12px;font-weight:650}
+.week-headline{margin:0;padding:0 0 18px;border-bottom:1px solid var(--line);font-size:16px;font-weight:700;line-height:1.55;letter-spacing:-.015em}
+.week-categories{margin-top:18px;border-top:1px solid var(--line)}
+.week-category{display:grid;grid-template-columns:54px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.week-category strong{font-size:11px;color:var(--text)}
+.week-category p{margin:0;color:var(--muted);font-size:11px;line-height:1.55}
+.week-more{margin-top:26px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.week-more>summary{list-style:none;padding:12px 0;color:var(--muted);font-size:11px;cursor:pointer}
+.week-more>summary::-webkit-details-marker{display:none}
