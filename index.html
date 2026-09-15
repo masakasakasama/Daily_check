@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="color-scheme" content="dark">
+  <title>Daily Check</title>
+  <meta name="description" content="毎日の監視結果をひとつにまとめるダッシュボード">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">DAILY CHECK</p>
+        <h1>毎日の更新</h1>
+        <p id="updatedAt" class="muted">読み込み中</p>
+      </div>
+      <button id="refreshButton" class="icon-button" type="button" aria-label="再読み込み">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5M4 18v-5h5M18.4 9A7 7 0 0 0 6.8 6.8L4 9m16 6-2.8 2.2A7 7 0 0 1 5.6 15"/></svg>
+      </button>
+    </header>
+
+    <nav class="date-strip" aria-label="日付">
+      <button id="prevDay" class="date-nav" type="button" aria-label="前の日">‹</button>
+      <div>
+        <p id="dayLabel" class="day-label">----</p>
+        <p id="weekdayLabel" class="weekday-label">----</p>
+      </div>
+      <button id="nextDay" class="date-nav" type="button" aria-label="次の日">›</button>
+    </nav>
+
+    <section class="summary-grid" aria-label="概要">
+      <article class="metric">
+        <span>更新あり</span>
+        <strong id="alertCount">0</strong>
+      </article>
+      <article class="metric">
+        <span>変化なし</span>
+        <strong id="clearCount">0</strong>
+      </article>
+      <article class="metric">
+        <span>確認済み</span>
+        <strong id="checkedCount">0</strong>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">PRIORITY</p>
+          <h2>更新あり</h2>
+        </div>
+        <span id="priorityBadge" class="pill">0件</span>
+      </div>
+      <div id="priorityList" class="card-list"></div>
+      <div id="emptyPriority" class="empty-state" hidden>
+        <span class="empty-icon">✓</span>
+        <div>
+          <strong>重要な更新なし</strong>
+          <p>通知条件に該当する新規情報はありません</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">ALL CHECKS</p>
+          <h2>監視一覧</h2>
+        </div>
+      </div>
+      <div id="allList" class="card-list"></div>
+    </section>
+
+    <footer>
+      <p>Daily Check</p>
+      <a href="https://github.com/masakasakasama/Daily_check" target="_blank" rel="noreferrer">GitHub</a>
+    </footer>
+
+    <p id="errorMessage" class="error" hidden></p>
+  </main>
+
+  <template id="cardTemplate">
+    <article class="check-card">
+      <div class="card-top">
+        <div class="title-row">
+          <span class="status-dot"></span>
+          <h3 class="card-title"></h3>
+        </div>
+        <span class="status-chip"></span>
+      </div>
+      <p class="card-summary"></p>
+      <ul class="detail-list"></ul>
+      <div class="source-list"></div>
+      <div class="card-meta">
+        <span class="checked-at"></span>
+        <span class="priority"></span>
+      </div>
+    </article>
+  </template>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
