@@ -435,21 +435,22 @@
           setText('overviewSub','成功 '+success+'/'+checks.length+' · 失敗 '+errors+' · 未実行 '+pending+' · 重要 '+alerts.length+'件 · 参考 '+refs.length+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
         }else if(alerts.length===0){
           setText('overviewTitle','重要な更新はありません');
-          setText('overviewSub','監視 '+success+'/'+checks.length+'完了 · 参考 '+refs.length+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
+          setText('overviewSub','参考 '+refs.length+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
         }else{
           setText('overviewTitle','重要な更新 '+alerts.length+'件');
-          setText('overviewSub','監視 '+success+'/'+checks.length+'完了 · 参考 '+refs.length+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
+          setText('overviewSub','参考 '+refs.length+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
         }
       }
 
       if(important)important.hidden=alerts.length===0;
       if(reference)reference.hidden=false;
-      if(monitor)monitor.hidden=false;
+      if(monitor)monitor.hidden=checks.length>0&&errors===0&&pending===0;
 
       setText('alertSectionCount',alerts.length?alerts.length+'件':'');
       setText('referenceSectionCount',refs.length?refs.length+'件':'');
       if(checks.length===0)setText('monitorSummary','監視データなし');
-      else setText('monitorSummary','成功'+success+' · 失敗'+errors+' · 未実行'+pending+(latest?' · '+fmtTime(latest):''));
+      else if(errors||pending)setText('monitorSummary','失敗'+errors+' · 未実行'+pending+(latest?' · '+fmtTime(latest):''));
+      else setText('monitorSummary','');
 
       $('alertList')?.replaceChildren(...alerts.map(x=>createFeedItem(x,'important')));
       $('referenceList')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference')));
