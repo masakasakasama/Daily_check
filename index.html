@@ -526,9 +526,10 @@
       return [...(state.data?.days||[])].sort((a,b)=>a.date.localeCompare(b.date));
     }
     function getDay(){
-      return (state.data?.days||[]).find(x=>x.date===state.date)||{
-        date:state.date,alerts:[],references:[],checks:[]
-      };
+      return (state.data?.days||[]).find(x=>x.date===state.date)||null;
+    }
+    function isFutureDate(date){
+      return date > (state.data?.currentDate||date);
     }
     function getWeek(){
       const weeks=state.data?.weeks||[];
@@ -542,10 +543,8 @@
       history.replaceState(null,'',u);
     }
     function updateDateNav(){
-      const days=getDays();
-      const i=days.findIndex(x=>x.date===state.date);
-      if($('prevDay'))$('prevDay').disabled=i<=0;
-      if($('nextDay'))$('nextDay').disabled=i<0||i>=days.length-1;
+      if($('prevDay'))$('prevDay').disabled=false;
+      if($('nextDay'))$('nextDay').disabled=false;
     }
     function createFeedItem(item,type){
       const row=document.createElement('article');
@@ -629,6 +628,25 @@
       fmtDateLabel(state.date);
       updateDateNav();
 
+      if(!day){
+        const future=isFutureDate(state.date);
+        setText('alertCount','–');
+        setText('referenceCount','–');
+        setText('checkedCount','–');
+        setText('alertSectionCount','');
+        setText('referenceSectionCount','');
+        setText('monitorSummary',future?'未実行':'履歴なし');
+        $('alertList')?.replaceChildren();
+        $('referenceList')?.replaceChildren();
+        $('monitorList')?.replaceChildren();
+        if($('emptyAlerts')){
+          $('emptyAlerts').textContent=future?'この日はまだ未実行':'この日の履歴データなし';
+          $('emptyAlerts').hidden=false;
+        }
+        if($('emptyReferences'))$('emptyReferences').hidden=true;
+        return;
+      }
+
       const alerts=day.alerts||[];
       const references=day.references||[];
       const checks=day.checks||[];
@@ -646,8 +664,14 @@
       $('referenceList')?.replaceChildren(...references.map(x=>createFeedItem(x,'reference')));
       $('monitorList')?.replaceChildren(...checks.map(createMonitorRow));
 
-      if($('emptyAlerts'))$('emptyAlerts').hidden=alerts.length>0;
-      if($('emptyReferences'))$('emptyReferences').hidden=references.length>0;
+      if($('emptyAlerts')){
+        $('emptyAlerts').textContent='通知条件を満たす新規情報なし';
+        $('emptyAlerts').hidden=alerts.length>0;
+      }
+      if($('emptyReferences')){
+        $('emptyReferences').textContent='新規の参考情報なし';
+        $('emptyReferences').hidden=references.length>0;
+      }
     }
     function renderWeek(){
       const week=getWeek();
@@ -694,11 +718,9 @@
       window.scrollTo({top:0,behavior:'smooth'});
     }
     function moveRecordedDay(delta){
-      const days=getDays();
-      const i=days.findIndex(x=>x.date===state.date);
-      const next=days[i+delta];
-      if(!next)return;
-      state.date=next.date;
+      const d=new Date(state.date+'T00:00:00+09:00');
+      d.setDate(d.getDate()+delta);
+      state.date=d.toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});
       render();
       window.scrollTo({top:0,behavior:'smooth'});
     }
