@@ -1,15 +1,15 @@
 # Daily Check
 
-毎日の監視結果を「重要更新」「参考情報」「監視状況」に分けて表示するモバイル向けダッシュボード
+毎日の監視結果とローリング7日サマリーを1ページで確認するモバイル向けダッシュボード
 
-公開URL: https://daily-check-ui-masakasakasamas-projects.vercel.app/
+公開URL:
+https://raw.githack.com/masakasakasama/Daily_check/7a6061c88c499e8387bb2cf6dfdee7b2d7a04ecc/index.html
 
-## データ更新
+7日サマリー:
+https://raw.githack.com/masakasakasama/Daily_check/7a6061c88c499e8387bb2cf6dfdee7b2d7a04ecc/index.html?view=week
 
-毎日8:00の親スケジュールが `data/daily-checks.json` を更新します
+## 更新方法
 
-- `alerts`: 通知条件を満たす重要更新
-- `references`: 通知未満だが新規性のある参考情報
-- `checks`: 監視ごとの実行結果
-
-サイト本体はGitHub上の最新JSONを表示時に取得するため、日次データ更新で再デプロイは不要です
+親スケジュールタスクが `data/daily-checks.json` を更新します
+日次は `days`、ローリング7日サマリーは `weeks` に保持します
+サイト本体は固定し、表示時にGitHub上の最新JSONを取得します
