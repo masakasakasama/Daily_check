@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "currentDate": "2026-09-15",
+  "updatedAt": "2026-09-15T19:15:00+09:00",
+  "days": [
+    {
+      "date": "2026-09-15",
+      "checks": [
+        {
+          "id": "ai-news",
+          "name": "AIニュースランキング",
+          "priority": 1,
+          "status": "pending",
+          "summary": "親スケジュール統合後の初回実行待ち",
+          "details": [
+            "75点以上の新規ニュースのみ通知"
+          ],
+          "checkedAt": null,
+          "sources": []
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "Nissan / SDVニュース",
+          "priority": 2,
+          "status": "pending",
+          "summary": "親スケジュール統合後の初回実行待ち",
+          "details": [
+            "前回確認以降の重要な新規情報のみ"
+          ],
+          "checkedAt": null,
+          "sources": []
+        },
+        {
+          "id": "codex-reset",
+          "name": "Codexリセット時刻監視",
+          "priority": 4,
+          "status": "pending",
+          "summary": "親スケジュール統合後の初回実行待ち",
+          "details": [
+            "OpenAI公式ソースの新しい確定情報のみ"
+          ],
+          "checkedAt": null,
+          "sources": []
+        },
+        {
+          "id": "permanent-residency",
+          "name": "主要国の永住条件",
+          "priority": 5,
+          "status": "pending",
+          "summary": "親スケジュール統合後の初回実行待ち",
+          "details": [
+            "実質的な制度変更のみ通知"
+          ],
+          "checkedAt": null,
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
