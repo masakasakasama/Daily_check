@@ -2,10 +2,10 @@
 
 毎日の監視結果を1ページで確認するモバイル向けダッシュボード
 
-公開URL: https://raw.githack.com/masakasakasama/Daily_check/main/index.html
+公開URL: https://raw.githack.com/masakasakasama/Daily_check/main/dashboard.html
 
 昨日分の表示テスト:
-https://raw.githack.com/masakasakasama/Daily_check/main/index.html?date=2026-09-14
+https://raw.githack.com/masakasakasama/Daily_check/main/dashboard.html?date=2026-09-14
 
 ## 更新方法
 
