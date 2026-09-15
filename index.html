@@ -16,12 +16,20 @@
         <h1>Daily Check</h1>
         <p id="updatedAt" class="muted">読み込み中</p>
       </div>
-      <button id="refreshButton" class="icon-button" type="button" aria-label="再読み込み">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M20 6v5h-5M4 18v-5h5M18.4 9A7 7 0 0 0 6.8 6.8L4 9m16 6-2.8 2.2A7 7 0 0 1 5.6 15"/>
-        </svg>
-      </button>
+      <div class="header-actions">
+        <div class="view-switch" aria-label="表示期間">
+          <button id="dayMode" class="view-button active" type="button">今日</button>
+          <button id="weekMode" class="view-button" type="button">7日</button>
+        </div>
+        <button id="refreshButton" class="icon-button" type="button" aria-label="再読み込み">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 6v5h-5M4 18v-5h5M18.4 9A7 7 0 0 0 6.8 6.8L4 9m16 6-2.8 2.2A7 7 0 0 1 5.6 15"/>
+          </svg>
+        </button>
+      </div>
     </header>
+
+    <section id="dayView">
 
     <nav class="date-strip" aria-label="日付">
       <button id="prevDay" class="date-nav" type="button" aria-label="前の記録">‹</button>
@@ -66,6 +74,28 @@
       </summary>
       <div id="monitorList" class="monitor-list"></div>
     </details>
+
+    </section>
+
+    <section id="weekView" hidden>
+      <div class="week-period">
+        <span id="weekPeriod"></span>
+      </div>
+
+      <p id="weekHeadline" class="week-headline"></p>
+
+      <div id="weekCategories" class="week-categories"></div>
+
+      <section class="section">
+        <h2>重要トピック</h2>
+        <div id="weekHighlights" class="news-list section-list"></div>
+      </section>
+
+      <details class="week-more">
+        <summary id="weekMoreSummary"></summary>
+        <div id="weekReferences" class="news-list"></div>
+      </details>
+    </section>
 
     <p id="errorMessage" class="error" hidden></p>
   </main>
