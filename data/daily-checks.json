@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "currentDate": "2026-09-15",
   "updatedAt": "2026-09-15T19:47:32+09:00",
   "days": [
@@ -13,14 +13,32 @@
           "status": "clear",
           "summary": "75点以上の新規AIニュースなし",
           "details": [
-            "2026/09/15の主要AIニュースを固定基準で再評価",
-            "元Google DeepMind研究者のAIリスク警告などは確認したが、業界構造を変える新規リリース・規制施行・大型案件には該当せず75点未満"
+            "通知対象は0件",
+            "75点未満の新規情報は参考情報として別表示"
           ],
           "checkedAt": "2026-09-15T19:47:32+09:00",
-          "sources": [
+          "sources": [],
+          "referenceItems": [
             {
-              "label": "Reuters: AI safety warning",
+              "title": "韓国、自律AIエージェント向けセキュリティ指針を策定へ",
+              "score": 65,
+              "summary": "AIエージェントの自律性拡大に対応する新しいセキュリティ指針。制度化前の策定段階のため75点未満",
+              "date": "2026/09/15",
+              "url": "https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"
+            },
+            {
+              "title": "元Google DeepMind研究者が高度AIの破局リスクを警告",
+              "score": 60,
+              "summary": "AI安全性への警告として注目度は高いが、新モデル・新制度・実装変更ではなく発言中心",
+              "date": "2026/09/15",
               "url": "https://www.reuters.com/technology/ex-google-deepmind-researcher-adds-warnings-that-ai-could-kill-all-humans-2026-09-15/"
+            },
+            {
+              "title": "AI開発減速論で投資家がAI支出の鈍化を警戒",
+              "score": 55,
+              "summary": "半導体・AIインフラ投資への市場影響が論点。AI技術そのものの新規ブレークスルーではない",
+              "date": "2026/09/15",
+              "url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/"
             }
           ]
         },
@@ -29,19 +47,24 @@
           "name": "SDV / Nissanニュース",
           "priority": 2,
           "status": "clear",
-          "summary": "前回確認以降、実務上重要な新規SDV / Nissan情報なし",
+          "summary": "実務上重要な新規SDV / Nissan情報なし",
           "details": [
-            "日産公式のSDV/AIDV関連と業界SDVニュースを確認",
-            "9/14のACTIA HPC展示など既存情報はあるが、19:47時点で新規の重大発表は確認できず"
+            "通知対象は0件",
+            "関連する低重要度情報は参考情報として別表示"
           ],
           "checkedAt": "2026-09-15T19:47:32+09:00",
           "sources": [
             {
               "label": "Nissan SDV Platform",
               "url": "https://www.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/"
-            },
+            }
+          ],
+          "referenceItems": [
             {
-              "label": "ACTIA SDV 2026/09/14",
+              "title": "ACTIA、HPCでCockpit・AI・ADASを統合するSDVデモ",
+              "score": 60,
+              "summary": "単一HPC上でHMI、ADAS、AI、コネクティビティを統合。SDV実装として有用だが9/14発表で今日の重大新規ではない",
+              "date": "2026/09/14",
               "url": "https://www.actia.com/en/software-defined-vehicle-2/"
             }
           ]
@@ -67,7 +90,8 @@
               "label": "OpenAI: Banked Codex resets",
               "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
             }
-          ]
+          ],
+          "referenceItems": []
         },
         {
           "id": "permanent-residency",
@@ -89,7 +113,8 @@
               "label": "UK Immigration Rules HC 584",
               "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026"
             }
-          ]
+          ],
+          "referenceItems": []
         }
       ]
     }
