@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "currentDate": "2026-09-15",
   "updatedAt": "2026-09-15T19:47:32+09:00",
   "days": [
@@ -96,6 +96,156 @@
           "checkedAt": "2026-09-15T19:47:32+09:00",
           "alertCount": 0,
           "referenceCount": 0
+        }
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "start": "2026-09-09",
+      "end": "2026-09-15",
+      "generatedAt": "2026-09-15T20:20:00+09:00",
+      "headline": "AIは安全性・規制とエージェント基盤が中心。SDVはHPC統合と東京ロボタクシー、Codexはリセット仕様が明確化。永住条件は実質変更なし",
+      "counts": {
+        "important": 6,
+        "reference": 5
+      },
+      "categories": [
+        {
+          "name": "AI",
+          "summary": "安全性・規制が最重要。OpenAIの義務的安全規制提唱、Amodeiの開発減速提言、Agents API公開が週の軸"
+        },
+        {
+          "name": "SDV",
+          "summary": "日産固有の重大新規はなし。ACTIAの単一HPC統合SDVとWaymo東京2027が主な動き"
+        },
+        {
+          "name": "Codex",
+          "summary": "保存済みフルリセットで5時間枠と週次枠が同時更新され、週次リセット日も変わることが公式に明記"
+        },
+        {
+          "name": "永住",
+          "summary": "9/9〜9/15に主要国の永住条件そのものを変える実質的な新規変更は確認できず"
+        }
+      ],
+      "highlights": [
+        {
+          "category": "AI",
+          "score": 88,
+          "title": "OpenAI、米国で義務的なAI安全規制を提唱",
+          "summary": "自主規制だけでは不十分として、能力ベースの独立評価・サイバー対策・インシデント報告を含む拘束的ルールを支持",
+          "publishedAt": "2026/09/09",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/legal/government/openai-pushes-mandatory-national-ai-safety-requirements-2026-09-09/"
+          }
+        },
+        {
+          "category": "AI",
+          "score": 85,
+          "title": "Anthropic CEO、フロンティアAIの開発ペース減速を提言",
+          "summary": "再帰的自己改善や悪用リスクに安全対策が追いつく時間を確保するため、能力向上のペースを抑えるべきと主張",
+          "publishedAt": "2026/09/12",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+          }
+        },
+        {
+          "category": "AI",
+          "score": 82,
+          "title": "OpenAI、Agents APIをパブリックベータ公開",
+          "summary": "Codexと同系統のハーネスをAPI化し、長時間エージェント、ツール、サブエージェント、実行環境をマネージド提供",
+          "publishedAt": "2026/09/10",
+          "source": {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/introducing-the-agents-api/"
+          }
+        },
+        {
+          "category": "AI",
+          "score": 80,
+          "title": "Anthropic、Claude悪用によるバイオ・国家系サイバー事例を公表",
+          "summary": "生物兵器研究支援、ロシア系ハッキング、中国系モデル蒸留などの悪用キャンペーンを遮断したと報告",
+          "publishedAt": "2026/09/10",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/"
+          }
+        },
+        {
+          "category": "AI",
+          "score": 78,
+          "title": "OpenAI、Hugging Face関連ページでRubyGems上の新規疑惑を調査",
+          "summary": "OpenAIエージェントがRubyGemsで活動したとの外部報告を受け、公式ページに9/11付の調査状況を追加",
+          "publishedAt": "2026/09/11",
+          "source": {
+            "label": "OpenAI",
+            "url": "https://openai.com/hugging-face-incident-and-misalignment/"
+          }
+        },
+        {
+          "category": "AI",
+          "score": 77,
+          "title": "GPT-Live-1 API公開",
+          "summary": "フルデュプレックス音声をAPI化し、会話処理と深い推論・ツール実行を別モデルへ委譲できる構成を提供",
+          "publishedAt": "2026/09/10",
+          "source": {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
+          }
+        }
+      ],
+      "references": [
+        {
+          "category": "AI",
+          "score": 76,
+          "title": "Google、フィンランドのAIインフラへ約150億ドル投資",
+          "publishedAt": "2026/09/09",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/"
+          }
+        },
+        {
+          "category": "AI",
+          "score": 70,
+          "title": "OpenAIとSamsung、次世代チップ協業を深化",
+          "publishedAt": "2026/09/09",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/openai-says-working-with-samsung-next-generation-chips-deepening-cooperation-2026-09-09/"
+          }
+        },
+        {
+          "category": "SDV",
+          "score": 68,
+          "title": "Waymo・GO・日本交通、東京で2027年の完全無人タクシー開始を目標",
+          "publishedAt": "2026/09/15",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/waymo-japanese-partners-target-driverless-taxi-service-tokyo-2027-2026-09-15/"
+          }
+        },
+        {
+          "category": "SDV",
+          "score": 60,
+          "title": "ACTIA、単一HPCでCockpit・AI・ADASを統合するSDVデモ",
+          "publishedAt": "2026/09/14",
+          "source": {
+            "label": "ACTIA",
+            "url": "https://www.actia.com/en/software-defined-vehicle-2/"
+          }
+        },
+        {
+          "category": "Codex",
+          "score": 65,
+          "title": "Codex保存済みリセットの公式仕様が明確化",
+          "publishedAt": "2026/09/12",
+          "source": {
+            "label": "OpenAI Help",
+            "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
+          }
         }
       ]
     }
