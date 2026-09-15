@@ -10,6 +10,13 @@ function fmtDateTime(iso){
   }).format(new Date(iso));
 }
 
+function fmtTime(iso){
+  if(!iso)return '未確認';
+  return new Intl.DateTimeFormat('ja-JP',{
+    timeZone:'Asia/Tokyo',hour:'2-digit',minute:'2-digit'
+  }).format(new Date(iso));
+}
+
 function fmtDateLabel(date){
   const d=new Date(date+'T00:00:00+09:00');
   $('dayLabel').textContent=new Intl.DateTimeFormat('ja-JP',{
@@ -47,50 +54,52 @@ function makeNewsCard(item,type){
   const node=$('newsTemplate').content.firstElementChild.cloneNode(true);
   node.classList.add(type);
   node.querySelector('.category-chip').textContent=item.category||'OTHER';
-  const score=node.querySelector('.score-chip');
-  score.textContent=item.score!=null?item.score+'点':'参考';
+  node.querySelector('.score-chip').textContent=item.score!=null?item.score+'点':'参考';
   node.querySelector('.news-title').textContent=item.title||'無題';
   node.querySelector('.news-summary').textContent=item.summary||'';
+
   const meta=node.querySelector('.news-meta');
   if(item.publishedAt){
     const s=document.createElement('span');
-    s.textContent='発生日 '+item.publishedAt;
+    s.textContent=item.publishedAt;
     meta.appendChild(s);
   }
-  if(item.checkName){
-    const s=document.createElement('span');
-    s.textContent=item.checkName;
-    meta.appendChild(s);
-  }
+
   const a=node.querySelector('.news-source');
   if(item.source?.url){
     a.href=item.source.url;
-    a.textContent=item.source.label||'出典を開く';
+    a.textContent=item.source.label||'出典';
   }else{
     a.hidden=true;
   }
   return node;
 }
 
-function statusLabel(status){
-  return ({clear:'変化なし',update:'更新あり',error:'エラー',pending:'未確認'})[status]||status;
-}
-
 function makeMonitorRow(item){
   const node=$('monitorTemplate').content.firstElementChild.cloneNode(true);
   node.classList.add(item.status||'pending');
   node.querySelector('.monitor-name').textContent=item.name;
-  node.querySelector('.monitor-text').textContent=item.summary||statusLabel(item.status);
-  node.querySelector('.monitor-time').textContent='確認 '+fmtDateTime(item.checkedAt);
-
+  node.querySelector('.monitor-text').textContent=item.summary||'';
   const counts=node.querySelector('.monitor-counts');
-  const a=document.createElement('span');
-  a.className='count important-count';
-  a.textContent='重要 '+(item.alertCount||0);
-  const r=document.createElement('span');
-  r.className='count reference-count';
-  r.textContent='参考 '+(item.referenceCount||0);
-  counts.append(a,r);
+
+  if(item.alertCount){
+    const a=document.createElement('span');
+    a.className='count important-count';
+    a.textContent='重要 '+item.alertCount;
+    counts.appendChild(a);
+  }
+  if(item.referenceCount){
+    const r=document.createElement('span');
+    r.className='count reference-count';
+    r.textContent='参考 '+item.referenceCount;
+    counts.appendChild(r);
+  }
+  if(!item.alertCount&&!item.referenceCount){
+    const z=document.createElement('span');
+    z.className='count';
+    z.textContent='0';
+    counts.appendChild(z);
+  }
   return node;
 }
 
@@ -100,19 +109,22 @@ function render(){
   updateDateNav();
   syncUrl();
 
-  $('updatedAt').textContent='最終更新 '+fmtDateTime(state.data.updatedAt);
+  $('updatedAt').textContent='更新 '+fmtDateTime(state.data.updatedAt);
 
   const alerts=day.alerts||[];
   const references=day.references||[];
   const checks=day.checks||[];
   const checked=checks.filter(x=>x.status!=='pending');
+  const latestCheck=checked
+    .map(x=>x.checkedAt)
+    .filter(Boolean)
+    .sort()
+    .at(-1);
 
   $('alertCount').textContent=alerts.length;
   $('referenceCount').textContent=references.length;
-  $('checkedCount').textContent=checked.length;
-  $('alertBadge').textContent=alerts.length+'件';
-  $('referenceBadge').textContent=references.length+'件';
-  $('monitorSummary').textContent=checked.length+'/'+checks.length+' 確認済み';
+  $('checkedCount').textContent=checked.length+'/'+checks.length;
+  $('monitorSummary').textContent=checked.length+'/'+checks.length+(latestCheck?' · '+fmtTime(latestCheck):'');
 
   $('alertList').replaceChildren(...alerts.map(x=>makeNewsCard(x,'important')));
   $('referenceList').replaceChildren(...references.map(x=>makeNewsCard(x,'reference')));
