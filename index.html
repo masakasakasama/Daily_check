@@ -5,829 +5,509 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#09090b">
   <meta name="color-scheme" content="dark">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
   <title>Daily Check</title>
   <meta name="description" content="毎日の重要更新と参考情報を確認するダッシュボード">
   <style>
     :root{
-      --bg:#09090b;
-      --surface:#111113;
-      --surface2:#161619;
-      --line:#242428;
-      --line-soft:#1b1b1f;
-      --text:#f4f4f5;
-      --sub:#a1a1aa;
-      --muted:#71717a;
-      --accent:#9b9cff;
-      --important:#f0c674;
-      --ok:#66c2a5;
-      --danger:#ff7b7b;
+      --bg:#09090b;--surface:#111113;--surface2:#17171a;--line:#25252a;
+      --line2:#1d1d21;--text:#f4f4f5;--sub:#b8b8c1;--muted:#8b8b95;
+      --accent:#9b9cff;--important:#efc36c;--ok:#61c99c;--danger:#ff7474;--pending:#d2a85e
     }
     *{box-sizing:border-box}
     html{background:var(--bg)}
     body{
-      margin:0;
-      min-height:100vh;
-      color:var(--text);
-      background:var(--bg);
+      margin:0;min-height:100vh;background:var(--bg);color:var(--text);
       font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-      -webkit-font-smoothing:antialiased;
-      text-rendering:optimizeLegibility;
+      -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility
     }
     button,a{font:inherit;-webkit-tap-highlight-color:transparent}
     button{color:inherit}
     [hidden]{display:none!important}
-    .app{
-      width:min(100%,680px);
-      margin:0 auto;
-      padding:18px 18px calc(40px + env(safe-area-inset-bottom));
-    }
-    .topbar{
-      display:flex;
-      align-items:flex-start;
-      justify-content:space-between;
-      gap:14px;
-      padding-bottom:18px;
-    }
-    .brand{
-      min-width:0;
-    }
-    .brand-row{
-      display:flex;
-      align-items:center;
-      gap:9px;
-    }
-    .mark{
-      width:8px;
-      height:8px;
-      border-radius:50%;
-      background:var(--accent);
-      box-shadow:0 0 18px rgba(155,156,255,.45);
-    }
-    h1{
-      margin:0;
-      font-size:19px;
-      line-height:1.2;
-      letter-spacing:-.025em;
-      font-weight:720;
-    }
-    .updated{
-      margin:6px 0 0 17px;
-      color:var(--muted);
-      font-size:10px;
-      font-variant-numeric:tabular-nums;
-    }
-    .top-actions{
-      display:flex;
-      align-items:center;
-      gap:8px;
-    }
-    .segmented{
-      display:flex;
-      padding:2px;
-      border:1px solid var(--line);
-      background:#0d0d0f;
-      border-radius:9px;
-    }
-    .segmented button{
-      border:0;
-      background:transparent;
-      color:var(--muted);
-      padding:6px 10px;
-      border-radius:7px;
-      font-size:10px;
-      font-weight:700;
-      cursor:pointer;
-    }
-    .segmented button.active{
-      color:var(--text);
-      background:var(--surface2);
-    }
-    .refresh{
-      width:30px;
-      height:30px;
-      border:1px solid var(--line);
-      border-radius:9px;
-      display:grid;
-      place-items:center;
-      background:transparent;
-      color:var(--muted);
-      cursor:pointer;
-    }
-    .refresh svg{
-      width:14px;height:14px;
-      fill:none;stroke:currentColor;stroke-width:1.8;
-      stroke-linecap:round;stroke-linejoin:round;
-    }
-    .datebar{
-      display:grid;
-      grid-template-columns:30px 1fr 30px;
-      align-items:center;
-      gap:8px;
-      padding:12px 0 13px;
-      border-top:1px solid var(--line-soft);
-      border-bottom:1px solid var(--line);
-    }
-    .date-button{
-      width:30px;height:30px;
-      border:0;
-      border-radius:8px;
-      background:transparent;
-      color:var(--muted);
-      display:grid;
-      place-items:center;
-      font-size:21px;
-      cursor:pointer;
-    }
-    .date-button:disabled{opacity:.18;cursor:default}
+    .app{width:min(100%,700px);margin:0 auto;padding:18px 18px calc(44px + env(safe-area-inset-bottom))}
+    .topbar{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding-bottom:16px}
+    .brand-row{display:flex;align-items:center;gap:10px}
+    .mark{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 16px rgba(155,156,255,.45)}
+    h1{margin:0;font-size:25px;line-height:1.15;letter-spacing:-.035em;font-weight:760}
+    .updated{margin:7px 0 0 19px;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+    .top-actions{display:flex;align-items:center;gap:8px}
+    .segmented{display:flex;padding:2px;border:1px solid var(--line);background:#0d0d0f;border-radius:10px}
+    .segmented button{min-height:40px;border:0;background:transparent;color:var(--muted);padding:8px 12px;border-radius:8px;font-size:13px;font-weight:720;cursor:pointer}
+    .segmented button.active{color:var(--text);background:var(--surface2)}
+    .refresh{width:42px;height:42px;border:1px solid var(--line);border-radius:11px;display:grid;place-items:center;background:transparent;color:var(--muted);cursor:pointer}
+    .refresh:disabled{opacity:.5;cursor:default}
+    .refresh svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+    .datebar{display:grid;grid-template-columns:44px 1fr 44px;align-items:center;gap:8px;padding:13px 0;border-top:1px solid var(--line2);border-bottom:1px solid var(--line)}
+    .date-button{width:44px;height:44px;border:0;border-radius:11px;background:transparent;color:var(--muted);display:grid;place-items:center;font-size:28px;cursor:pointer}
+    .date-button:active,.refresh:active{background:var(--surface2)}
     .date-center{text-align:center}
-    .date-main{
-      margin:0;
-      font-size:15px;
-      font-weight:720;
-      letter-spacing:-.015em;
-    }
-    .date-sub{
-      margin:3px 0 0;
-      color:var(--muted);
-      font-size:9px;
-    }
-    .stats{
-      display:flex;
-      align-items:center;
-      gap:0;
-      min-height:42px;
-      border-bottom:1px solid var(--line);
-    }
-    .stat{
-      display:flex;
-      align-items:baseline;
-      gap:5px;
-      padding-right:14px;
-      margin-right:14px;
-      border-right:1px solid var(--line-soft);
-      white-space:nowrap;
-    }
+    .date-main{margin:0;font-size:21px;font-weight:760;letter-spacing:-.02em}
+    .date-sub{margin:4px 0 0;color:var(--muted);font-size:13px}
+    .stats{display:flex;align-items:center;gap:0;min-height:54px;border-bottom:1px solid var(--line)}
+    .stat{display:flex;align-items:baseline;gap:6px;padding-right:16px;margin-right:16px;border-right:1px solid var(--line2);white-space:nowrap}
     .stat:last-child{border-right:0;margin-right:0;padding-right:0}
-    .stat-label{
-      color:var(--muted);
-      font-size:10px;
-    }
-    .stat-value{
-      color:var(--text);
-      font-size:13px;
-      font-weight:740;
-      font-variant-numeric:tabular-nums;
-    }
+    .stat-label{color:var(--muted);font-size:13px}
+    .stat-value{font-size:17px;font-weight:780;font-variant-numeric:tabular-nums}
     .stat.important .stat-value{color:var(--important)}
     .stat.reference .stat-value{color:var(--accent)}
-    .section{
-      margin-top:26px;
-    }
-    .missing-state{
-      margin-top:18px;
-      padding:12px 0;
-      border-top:1px solid var(--line-soft);
-      border-bottom:1px solid var(--line-soft);
-      color:var(--muted);
-      font-size:11px;
-    }
-    .section-head{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      margin-bottom:8px;
-    }
-    h2{
-      margin:0;
-      font-size:13px;
-      line-height:1.2;
-      font-weight:720;
-      letter-spacing:-.012em;
-    }
-    .section-count{
-      color:var(--muted);
-      font-size:10px;
-      font-variant-numeric:tabular-nums;
-    }
-    .empty-line{
-      display:flex;
-      align-items:center;
-      gap:8px;
-      padding:11px 0 12px;
-      border-top:1px solid var(--line-soft);
-      border-bottom:1px solid var(--line-soft);
-      color:var(--muted);
-      font-size:11px;
-    }
-    .empty-line::before{
-      content:"";
-      width:6px;height:6px;
-      border-radius:50%;
-      background:var(--ok);
-    }
-    .feed{
-      border-top:1px solid var(--line-soft);
-    }
-    .feed-item{
-      display:grid;
-      grid-template-columns:96px minmax(0,1fr);
-      gap:14px;
-      padding:16px 0;
-      border-bottom:1px solid var(--line-soft);
-      align-items:start;
-    }
-    .thumb-wrap{
-      position:relative;
-      width:96px;
-      height:72px;
-      overflow:hidden;
-      border-radius:10px;
-      border:1px solid var(--line);
-      background:linear-gradient(135deg,#141418,#202027);
-      display:grid;
-      place-items:center;
-    }
-    .thumb-fallback{
-      color:var(--muted);
-      font-size:12px;
-      font-weight:800;
-      letter-spacing:.06em;
-    }
-    .thumb{
-      position:absolute;
-      inset:0;
-      width:100%;
-      height:100%;
-      display:block;
-      object-fit:cover;
-      object-position:center;
-      background:var(--surface2);
-    }
+    .health-row{display:flex;align-items:center;gap:9px;min-height:42px;border-bottom:1px solid var(--line2);color:var(--sub);font-size:13px}
+    .health-dot{width:7px;height:7px;border-radius:50%;background:var(--ok)}
+    .health-row.warn .health-dot{background:var(--danger)}
+    .health-row.pending .health-dot{background:var(--pending)}
+    .section{margin-top:28px}
+    .section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:9px}
+    h2{margin:0;font-size:19px;line-height:1.2;font-weight:760;letter-spacing:-.02em}
+    .section-count{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+    .empty-line{display:flex;align-items:center;gap:9px;padding:13px 0;border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);color:var(--sub);font-size:14px}
+    .empty-line::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--ok);flex:0 0 auto}
+    .empty-line.warn::before{background:var(--danger)}
+    .missing-state{margin-top:18px;padding:14px 0;border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);color:var(--sub);font-size:14px}
+    .missing-action{margin-left:8px;border:0;background:transparent;color:var(--accent);font-weight:700;padding:0;cursor:pointer}
+    .feed{border-top:1px solid var(--line2)}
+    .feed-item{display:grid;grid-template-columns:104px minmax(0,1fr);gap:14px;padding:17px 0;border-bottom:1px solid var(--line2);align-items:start}
+    .thumb-link{display:block;width:104px;height:78px;border-radius:11px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(135deg,#151519,#202027);text-decoration:none}
+    .thumb-wrap{position:relative;width:100%;height:100%;display:grid;place-items:center}
+    .thumb-fallback{color:var(--muted);font-size:13px;font-weight:800;letter-spacing:.06em}
+    .thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
     .feed-body{min-width:0}
-    .feed-kicker{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-      margin-bottom:5px;
-    }
-    .feed-category{
-      color:var(--accent);
-      font-size:11px;
-      font-weight:760;
-      letter-spacing:.02em;
-    }
-    .feed-item.important .feed-category{color:var(--important)}
-    .feed-score{
-      color:var(--accent);
-      font-size:12px;
-      font-weight:780;
-      font-variant-numeric:tabular-nums;
-    }
-    .feed-item.important .feed-score{color:var(--important)}
-    .feed-title{
-      margin:0;
-      color:var(--text);
-      font-size:16px;
-      line-height:1.42;
-      font-weight:700;
-      letter-spacing:-.015em;
-    }
-    .feed-summary{
-      margin:6px 0 0;
-      color:var(--sub);
-      font-size:13px;
-      line-height:1.5;
-      display:-webkit-box;
-      -webkit-line-clamp:2;
-      -webkit-box-orient:vertical;
-      overflow:hidden;
-    }
-    .feed-meta{
-      display:flex;
-      align-items:center;
-      gap:8px;
-      margin-top:8px;
-      color:var(--muted);
-      font-size:11px;
-    }
-    .feed-meta .dot::before{content:"·";margin-right:7px}
-    .source{
-      color:var(--muted);
-      text-decoration:none;
-    }
-    .source:hover{color:var(--text)}
-    .week-range{
-      padding:14px 0 4px;
-      color:var(--muted);
-      font-size:10px;
-      font-variant-numeric:tabular-nums;
-    }
-    .week-headline{
-      margin:0;
-      padding:0 0 18px;
-      border-bottom:1px solid var(--line);
-      color:var(--text);
-      font-size:16px;
-      line-height:1.55;
-      font-weight:690;
-      letter-spacing:-.018em;
-    }
-    .category-grid{
-      margin-top:18px;
-      border-top:1px solid var(--line-soft);
-    }
-    .category-row{
-      display:grid;
-      grid-template-columns:62px 1fr;
-      gap:12px;
-      padding:11px 0;
-      border-bottom:1px solid var(--line-soft);
-    }
-    .category-name{
-      color:var(--text);
-      font-size:10px;
-      font-weight:750;
-    }
-    .category-summary{
-      margin:0;
-      color:var(--sub);
-      font-size:10px;
-      line-height:1.55;
-    }
-    details.monitor{
-      margin-top:28px;
-      border-top:1px solid var(--line);
-      border-bottom:1px solid var(--line);
-    }
-    details.monitor>summary,
-    details.more>summary{
-      list-style:none;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-      padding:11px 0;
-      color:var(--muted);
-      font-size:10px;
-      cursor:pointer;
-    }
-    details.monitor>summary::-webkit-details-marker,
-    details.more>summary::-webkit-details-marker{display:none}
-    .monitor-list{border-top:1px solid var(--line-soft)}
-    .monitor-row{
-      display:grid;
-      grid-template-columns:1fr auto;
-      gap:8px;
-      padding:10px 0;
-      border-bottom:1px solid var(--line-soft);
-    }
+    .feed-kicker{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+    .feed-category{color:var(--accent);font-size:13px;font-weight:780}
+    .feed-score{color:var(--accent);font-size:14px;font-weight:800;font-variant-numeric:tabular-nums}
+    .feed-item.important .feed-category,.feed-item.important .feed-score{color:var(--important)}
+    .feed-title-link{color:inherit;text-decoration:none}
+    .feed-title{margin:0;font-size:17px;line-height:1.43;font-weight:740;letter-spacing:-.016em}
+    .feed-title-link:active .feed-title{opacity:.72}
+    .feed-summary{margin:7px 0 0;color:var(--sub);font-size:14px;line-height:1.56}
+    .feed-summary.collapsed{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .read-more{margin-top:5px;border:0;background:transparent;color:var(--muted);font-size:12px;padding:0;cursor:pointer}
+    .feed-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:9px;color:var(--muted);font-size:12px}
+    .feed-meta .dot::before{content:"·";margin-right:8px}
+    .source{color:var(--muted);text-decoration:none}
+    .week-range{padding:15px 0 5px;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+    .week-generated{margin:0 0 12px;color:var(--muted);font-size:12px}
+    .week-headline{margin:0;padding:0 0 19px;border-bottom:1px solid var(--line);font-size:19px;line-height:1.56;font-weight:720;letter-spacing:-.018em}
+    .category-grid{margin-top:18px;border-top:1px solid var(--line2)}
+    .category-row{display:grid;grid-template-columns:70px 1fr;gap:13px;padding:12px 0;border-bottom:1px solid var(--line2)}
+    .category-name{font-size:13px;font-weight:800}
+    .category-summary{margin:0;color:var(--sub);font-size:13px;line-height:1.6}
+    details.monitor,details.more,details.criteria{margin-top:26px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    details.monitor>summary,details.more>summary,details.criteria>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;padding:10px 0;color:var(--sub);font-size:13px;cursor:pointer}
+    details.monitor>summary::-webkit-details-marker,details.more>summary::-webkit-details-marker,details.criteria>summary::-webkit-details-marker{display:none}
+    .monitor-list{border-top:1px solid var(--line2)}
+    .monitor-row{display:grid;grid-template-columns:1fr auto;gap:8px;padding:11px 0;border-bottom:1px solid var(--line2)}
     .monitor-row:last-child{border-bottom:0}
-    .monitor-left{
-      display:flex;
-      align-items:flex-start;
-      gap:8px;
-      min-width:0;
-    }
-    .status{
-      width:6px;height:6px;
-      margin-top:5px;
-      flex:0 0 auto;
-      border-radius:50%;
-      background:var(--muted);
-    }
-    .monitor-row.clear .status{background:var(--ok)}
-    .monitor-row.update .status{background:var(--important)}
-    .monitor-row.error .status{background:var(--danger)}
-    .monitor-name{
-      color:var(--text);
-      font-size:10px;
-      font-weight:680;
-    }
-    .monitor-summary-text{
-      margin:2px 0 0;
-      color:var(--muted);
-      font-size:9px;
-      line-height:1.45;
-    }
-    .monitor-count{
-      color:var(--muted);
-      font-size:9px;
-      font-variant-numeric:tabular-nums;
-    }
-    details.more{
-      margin-top:22px;
-      border-top:1px solid var(--line);
-      border-bottom:1px solid var(--line);
-    }
-    .error{
-      margin-top:18px;
-      padding:11px 0;
-      border-top:1px solid rgba(255,123,123,.28);
-      color:#ffaaaa;
-      font-size:10px;
-    }
+    .monitor-left{display:flex;align-items:flex-start;gap:9px;min-width:0}
+    .status-dot{width:7px;height:7px;margin-top:6px;flex:0 0 auto;border-radius:50%;background:var(--muted)}
+    .monitor-row.clear .status-dot,.monitor-row.update .status-dot{background:var(--ok)}
+    .monitor-row.error .status-dot{background:var(--danger)}
+    .monitor-row.pending .status-dot{background:var(--pending)}
+    .monitor-name{font-size:13px;font-weight:700}
+    .monitor-summary-text{margin:3px 0 0;color:var(--muted);font-size:12px;line-height:1.5}
+    .monitor-count{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+    .criteria-body{padding:12px 0;color:var(--sub);font-size:12px;line-height:1.65;border-top:1px solid var(--line2)}
+    .error{margin-top:18px;padding:12px 0;border-top:1px solid rgba(255,116,116,.35);color:#ffaaaa;font-size:13px}
+    .toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(calc(100% - 32px),520px);padding:11px 13px;border:1px solid var(--line);border-radius:11px;background:#17171b;color:var(--sub);font-size:12px;box-shadow:0 12px 42px rgba(0,0,0,.35);z-index:20}
     @media(max-width:420px){
-      .app{padding:16px 16px calc(34px + env(safe-area-inset-bottom))}
-      .topbar{padding-bottom:15px}
-      h1{font-size:22px}
-      .segmented button{padding:7px 10px}
-      .feed-item{grid-template-columns:88px minmax(0,1fr);gap:12px}
-      .thumb-wrap{width:88px;height:66px}
-      .feed-title{font-size:16px}
-      .feed-summary{font-size:13px}
-      .feed-meta{font-size:11px}
+      .app{padding:16px 16px calc(38px + env(safe-area-inset-bottom))}
+      h1{font-size:23px}.updated{font-size:12px}
+      .segmented button{min-height:42px;padding:8px 11px;font-size:13px}
+      .refresh{width:42px;height:42px}
+      .feed-item{grid-template-columns:94px minmax(0,1fr);gap:12px}
+      .thumb-link{width:94px;height:72px}
+      .feed-title{font-size:16px}.feed-summary{font-size:13.5px}
     }
   </style>
 </head>
 <body>
   <main class="app">
     <header class="topbar">
-      <div class="brand">
-        <div class="brand-row">
-          <span class="mark"></span>
-          <h1>Daily Check</h1>
-        </div>
+      <div>
+        <div class="brand-row"><span class="mark"></span><h1>Daily Check</h1></div>
         <p id="updatedAt" class="updated">読み込み中</p>
       </div>
       <div class="top-actions">
         <div class="segmented" aria-label="表示期間">
-          <button id="dayMode" class="active" type="button">今日</button>
-          <button id="weekMode" type="button">7日</button>
+          <button id="dayMode" class="active" type="button" aria-pressed="true">今日</button>
+          <button id="weekMode" type="button" aria-pressed="false">7日</button>
         </div>
-        <button id="refreshButton" class="refresh" type="button" aria-label="再読み込み">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M20 6v5h-5M4 18v-5h5M18.4 9A7 7 0 0 0 6.8 6.8L4 9m16 6-2.8 2.2A7 7 0 0 1 5.6 15"/>
-          </svg>
+        <button id="refreshButton" class="refresh" type="button" aria-label="再読み込み" aria-busy="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5M4 18v-5h5M18.4 9A7 7 0 0 0 6.8 6.8L4 9m16 6-2.8 2.2A7 7 0 0 1 5.6 15"/></svg>
         </button>
       </div>
     </header>
 
     <section id="dayView">
       <nav class="datebar" aria-label="日付">
-        <button id="prevDay" class="date-button" type="button" aria-label="前の記録">‹</button>
+        <button id="prevDay" class="date-button" type="button" aria-label="前日">‹</button>
         <div class="date-center">
           <p id="dayLabel" class="date-main">----</p>
           <p id="weekdayLabel" class="date-sub">----</p>
         </div>
-        <button id="nextDay" class="date-button" type="button" aria-label="次の記録">›</button>
+        <button id="nextDay" class="date-button" type="button" aria-label="翌日">›</button>
       </nav>
 
       <div class="stats" aria-label="概要">
-        <div class="stat important"><span class="stat-label">重要</span><strong id="alertCount" class="stat-value">0</strong></div>
-        <div class="stat reference"><span class="stat-label">参考</span><strong id="referenceCount" class="stat-value">0</strong></div>
-        <div class="stat"><span class="stat-label">監視</span><strong id="checkedCount" class="stat-value">0/0</strong></div>
+        <div class="stat important"><span class="stat-label">重要</span><strong id="alertCount" class="stat-value">–</strong></div>
+        <div class="stat reference"><span class="stat-label">参考</span><strong id="referenceCount" class="stat-value">–</strong></div>
+        <div class="stat"><span class="stat-label">成功</span><strong id="successCount" class="stat-value">–</strong></div>
+      </div>
+      <div id="healthRow" class="health-row" hidden><span class="health-dot"></span><span id="healthText"></span></div>
+
+      <div id="missingState" class="missing-state" hidden>
+        <span id="missingText"></span>
+        <button id="backTodayButton" class="missing-action" type="button">今日へ</button>
       </div>
 
-      <div id="missingState" class="missing-state" hidden>この日は未実行</div>
-
       <section id="importantSection" class="section">
-        <div class="section-head">
-          <h2>重要更新</h2>
-          <span id="alertSectionCount" class="section-count"></span>
-        </div>
+        <div class="section-head"><h2>重要更新</h2><span id="alertSectionCount" class="section-count"></span></div>
         <div id="alertList" class="feed"></div>
-        <div id="emptyAlerts" class="empty-line" hidden>通知条件を満たす新規情報なし</div>
+        <div id="emptyAlerts" class="empty-line" hidden></div>
       </section>
 
       <section id="referenceSection" class="section">
-        <div class="section-head">
-          <h2>参考情報</h2>
-          <span id="referenceSectionCount" class="section-count"></span>
-        </div>
+        <div class="section-head"><h2>参考情報</h2><span id="referenceSectionCount" class="section-count"></span></div>
         <div id="referenceList" class="feed"></div>
         <div id="emptyReferences" class="empty-line" hidden>新規の参考情報なし</div>
       </section>
 
       <details id="monitorPanel" class="monitor">
-        <summary>
-          <span>監視状況</span>
-          <span id="monitorSummary"></span>
-        </summary>
+        <summary><span>監視状況</span><span id="monitorSummary"></span></summary>
         <div id="monitorList" class="monitor-list"></div>
+      </details>
+
+      <details class="criteria">
+        <summary><span>判定基準</span><span>見る</span></summary>
+        <div class="criteria-body">AIは75点以上を重要更新として通知。75点未満でも新規性があるものは参考情報に保存。SDV/Nissan、Codex、永住条件は各監視の通知条件を満たすものだけ重要更新に分類。</div>
       </details>
     </section>
 
     <section id="weekView" hidden>
       <div id="weekPeriod" class="week-range"></div>
+      <p id="weekGenerated" class="week-generated"></p>
       <p id="weekHeadline" class="week-headline"></p>
       <div id="weekCategories" class="category-grid"></div>
 
       <section class="section">
-        <div class="section-head">
-          <h2>重要トピック</h2>
-          <span id="weekHighlightCount" class="section-count"></span>
-        </div>
+        <div class="section-head"><h2>重要トピック</h2><span id="weekHighlightCount" class="section-count"></span></div>
         <div id="weekHighlights" class="feed"></div>
       </section>
 
       <details class="more">
-        <summary>
-          <span>その他</span>
-          <span id="weekMoreSummary"></span>
-        </summary>
+        <summary><span>その他の参考情報</span><span id="weekMoreSummary"></span></summary>
         <div id="weekReferences" class="feed"></div>
       </details>
     </section>
 
     <p id="errorMessage" class="error" hidden></p>
   </main>
+  <div id="toast" class="toast" hidden></div>
 
   <script>
-    const DATA_URL='https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/daily-checks.json';
-    const state={data:null,date:null,view:'day'};
-    const $=id=>document.getElementById(id);
-    const setText=(id,value)=>{const el=$(id);if(el)el.textContent=value??''};
+    const API_URL='https://api.github.com/repos/masakasakasama/Daily_check/contents/data/daily-checks.json?ref=main';
+    const RAW_URL='https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/daily-checks.json';
+    const ALLOWED_STATUS=new Set(['clear','update','error','pending']);
+    const state={data:null,date:null,view:'day',requestSeq:0,controller:null};
 
+    const $=id=>document.getElementById(id);
+    const setText=(id,value)=>{const el=$(id);if(el)el.textContent=value==null?'':String(value)};
+
+    function todayJst(){
+      return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+    }
+    function isValidDateString(value){
+      if(!/^\d{4}-\d{2}-\d{2}$/.test(value||''))return false;
+      const parts=value.split('-').map(Number);
+      const d=new Date(Date.UTC(parts[0],parts[1]-1,parts[2]));
+      return d.getUTCFullYear()===parts[0]&&d.getUTCMonth()===parts[1]-1&&d.getUTCDate()===parts[2];
+    }
+    function addDays(value,delta){
+      const p=value.split('-').map(Number);
+      const d=new Date(Date.UTC(p[0],p[1]-1,p[2]+delta));
+      return d.toISOString().slice(0,10);
+    }
     function fmtDateTime(iso){
       if(!iso)return '未確認';
-      return new Intl.DateTimeFormat('ja-JP',{
-        timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',
-        hour:'2-digit',minute:'2-digit'
-      }).format(new Date(iso));
+      const d=new Date(iso);if(Number.isNaN(d.getTime()))return '未確認';
+      return new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(d);
     }
     function fmtTime(iso){
       if(!iso)return '';
-      return new Intl.DateTimeFormat('ja-JP',{
-        timeZone:'Asia/Tokyo',hour:'2-digit',minute:'2-digit'
-      }).format(new Date(iso));
+      const d=new Date(iso);if(Number.isNaN(d.getTime()))return '';
+      return new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',hour:'2-digit',minute:'2-digit'}).format(d);
     }
-    function fmtDateLabel(date){
-      const d=new Date(date+'T00:00:00+09:00');
-      setText('dayLabel',new Intl.DateTimeFormat('ja-JP',{
-        timeZone:'Asia/Tokyo',month:'long',day:'numeric'
-      }).format(d));
-      setText('weekdayLabel',new Intl.DateTimeFormat('ja-JP',{
-        timeZone:'Asia/Tokyo',year:'numeric',weekday:'short'
-      }).format(d));
+    function fmtDateLabel(value){
+      if(!isValidDateString(value))return;
+      const p=value.split('-').map(Number);
+      const d=new Date(Date.UTC(p[0],p[1]-1,p[2]));
+      setText('dayLabel',new Intl.DateTimeFormat('ja-JP',{timeZone:'UTC',month:'long',day:'numeric'}).format(d));
+      setText('weekdayLabel',new Intl.DateTimeFormat('ja-JP',{timeZone:'UTC',year:'numeric',weekday:'short'}).format(d));
     }
-    function shortDate(date){
-      const d=new Date(date+'T00:00:00+09:00');
-      return new Intl.DateTimeFormat('ja-JP',{
-        timeZone:'Asia/Tokyo',month:'numeric',day:'numeric'
-      }).format(d);
+    function shortDate(value){
+      if(!isValidDateString(value))return '';
+      const p=value.split('-').map(Number);
+      const d=new Date(Date.UTC(p[0],p[1]-1,p[2]));
+      return new Intl.DateTimeFormat('ja-JP',{timeZone:'UTC',month:'numeric',day:'numeric'}).format(d);
     }
-    function getDays(){
-      return [...(state.data?.days||[])].sort((a,b)=>a.date.localeCompare(b.date));
+    function normalizeItem(item){
+      if(!item||typeof item!=='object')return null;
+      const source=item.source&&typeof item.source==='object'?{label:String(item.source.label||'出典'),url:String(item.source.url||'')}:null;
+      return {
+        id:String(item.id||source?.url||item.title||''),
+        category:String(item.category||'OTHER'),
+        score:Number.isFinite(Number(item.score))?Number(item.score):null,
+        title:String(item.title||'無題'),
+        summary:String(item.summary||''),
+        publishedAt:String(item.publishedAt||''),
+        thumbnail:item.thumbnail?String(item.thumbnail):'',
+        source
+      };
     }
-    function getDay(){
-      return (state.data?.days||[]).find(x=>x.date===state.date)||null;
+    function normalizeData(raw){
+      if(!raw||typeof raw!=='object')throw new Error('JSON形式が不正');
+      if(!Array.isArray(raw.days))throw new Error('daysが不正');
+      const days=raw.days.map(day=>{
+        if(!day||!isValidDateString(String(day.date||'')))throw new Error('日付データが不正');
+        const checks=Array.isArray(day.checks)?day.checks.map(c=>{
+          const status=String(c?.status||'pending');
+          return {
+            id:String(c?.id||''),name:String(c?.name||'監視'),
+            status:ALLOWED_STATUS.has(status)?status:'error',
+            summary:String(c?.summary||''),checkedAt:String(c?.checkedAt||''),
+            alertCount:Number(c?.alertCount||0),referenceCount:Number(c?.referenceCount||0)
+          };
+        }):[];
+        return {
+          date:String(day.date),
+          alerts:(Array.isArray(day.alerts)?day.alerts:[]).map(normalizeItem).filter(Boolean),
+          references:(Array.isArray(day.references)?day.references:[]).map(normalizeItem).filter(Boolean),
+          checks
+        };
+      });
+      const weeks=Array.isArray(raw.weeks)?raw.weeks.filter(w=>w&&isValidDateString(String(w.start||''))&&isValidDateString(String(w.end||''))).map(w=>({
+        start:String(w.start),end:String(w.end),generatedAt:String(w.generatedAt||''),
+        headline:String(w.headline||''),categories:Array.isArray(w.categories)?w.categories:[],
+        highlights:(Array.isArray(w.highlights)?w.highlights:[]).map(normalizeItem).filter(Boolean),
+        references:(Array.isArray(w.references)?w.references:[]).map(normalizeItem).filter(Boolean)
+      })):[];
+      return {version:Number(raw.version||0),currentDate:String(raw.currentDate||''),updatedAt:String(raw.updatedAt||''),days,weeks};
     }
-    function isFutureDate(date){
-      return date > (state.data?.currentDate||date);
+    function getDay(){return state.data?.days.find(x=>x.date===state.date)||null}
+    function getWeek(){return state.data?.weeks.find(w=>state.date>=w.start&&state.date<=w.end)||null}
+    function canonicalMap(){
+      const map=new Map();
+      const days=[...(state.data?.days||[])].sort((a,b)=>b.date.localeCompare(a.date));
+      for(const day of days){
+        for(const item of [...day.alerts,...day.references]){
+          const key=item.source?.url||item.id;
+          if(key&&!map.has(key))map.set(key,item);
+        }
+      }
+      return map;
     }
-    function getWeek(){
-      const weeks=state.data?.weeks||[];
-      return weeks.find(w=>state.date>=w.start&&state.date<=w.end)||null;
+    function canonicalize(item){
+      const key=item.source?.url||item.id;
+      const base=canonicalMap().get(key);
+      if(!base)return item;
+      return {...item,id:base.id||item.id,category:base.category||item.category,score:base.score??item.score,title:base.title||item.title,thumbnail:base.thumbnail||item.thumbnail,source:base.source||item.source};
     }
     function syncUrl(){
       const u=new URL(location.href);
       u.searchParams.set('date',state.date);
-      if(state.view==='week')u.searchParams.set('view','week');
-      else u.searchParams.delete('view');
+      if(state.view==='week')u.searchParams.set('view','week');else u.searchParams.delete('view');
       history.replaceState(null,'',u);
     }
-    function updateDateNav(){
-      if($('prevDay'))$('prevDay').disabled=false;
-      if($('nextDay'))$('nextDay').disabled=false;
+    function setLoading(on){
+      const b=$('refreshButton');if(!b)return;
+      b.disabled=on;b.setAttribute('aria-busy',on?'true':'false');
     }
-    function createFeedItem(item,type){
-      const row=document.createElement('article');
-      row.className='feed-item '+type;
+    function showToast(message){
+      const t=$('toast');if(!t)return;
+      t.textContent=message;t.hidden=false;
+      clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>{t.hidden=true},3200);
+    }
+    function createFeedItem(raw,type){
+      const item=canonicalize(raw);
+      const row=document.createElement('article');row.className='feed-item '+type;
 
-      const media=document.createElement('div');
-      media.className='thumb-wrap';
-      const fallback=document.createElement('span');
-      fallback.className='thumb-fallback';
-      fallback.textContent=item.category||'NEWS';
+      const mediaLink=document.createElement('a');mediaLink.className='thumb-link';
+      if(item.source?.url){mediaLink.href=item.source.url;mediaLink.target='_blank';mediaLink.rel='noreferrer'}else mediaLink.removeAttribute('href');
+      const media=document.createElement('div');media.className='thumb-wrap';
+      const fallback=document.createElement('span');fallback.className='thumb-fallback';fallback.textContent=item.category||'NEWS';
       media.appendChild(fallback);
       if(item.thumbnail){
-        const img=document.createElement('img');
-        img.className='thumb';
-        img.src=item.thumbnail;
-        img.alt='';
-        img.loading='lazy';
-        img.decoding='async';
+        const img=document.createElement('img');img.className='thumb';img.src=item.thumbnail;img.alt='';img.loading='lazy';img.decoding='async';
         img.addEventListener('error',()=>img.remove());
         media.appendChild(img);
       }
+      mediaLink.appendChild(media);
 
-      const body=document.createElement('div');
-      body.className='feed-body';
-
-      const kicker=document.createElement('div');
-      kicker.className='feed-kicker';
-      const category=document.createElement('span');
-      category.className='feed-category';
-      category.textContent=item.category||'OTHER';
-      const score=document.createElement('span');
-      score.className='feed-score';
-      score.textContent=item.score!=null?item.score+'点':'参考';
+      const body=document.createElement('div');body.className='feed-body';
+      const kicker=document.createElement('div');kicker.className='feed-kicker';
+      const category=document.createElement('span');category.className='feed-category';category.textContent=item.category||'OTHER';
+      const score=document.createElement('span');score.className='feed-score';score.textContent=item.score!=null?item.score+'点':'参考';
       kicker.append(category,score);
 
-      const title=document.createElement('h3');
-      title.className='feed-title';
-      title.textContent=item.title||'無題';
+      const titleLink=document.createElement('a');titleLink.className='feed-title-link';
+      if(item.source?.url){titleLink.href=item.source.url;titleLink.target='_blank';titleLink.rel='noreferrer'}else titleLink.removeAttribute('href');
+      const title=document.createElement('h3');title.className='feed-title';title.textContent=item.title||'無題';
+      titleLink.appendChild(title);
 
-      const summary=document.createElement('p');
-      summary.className='feed-summary';
-      summary.textContent=item.summary||'';
+      const summary=document.createElement('p');summary.className='feed-summary';summary.textContent=item.summary||'';
+      if(item.summary.length>84)summary.classList.add('collapsed');
 
-      const meta=document.createElement('div');
-      meta.className='feed-meta';
+      const meta=document.createElement('div');meta.className='feed-meta';
+      if(item.publishedAt){const date=document.createElement('span');date.textContent=item.publishedAt;meta.appendChild(date)}
+      if(item.source?.url){const a=document.createElement('a');a.className='source dot';a.href=item.source.url;a.target='_blank';a.rel='noreferrer';a.textContent=item.source.label||'出典';meta.appendChild(a)}
 
-      if(item.publishedAt){
-        const date=document.createElement('span');
-        date.textContent=item.publishedAt;
-        meta.appendChild(date);
+      body.append(kicker,titleLink);
+      if(item.summary){
+        body.append(summary);
+        if(item.summary.length>84){
+          const more=document.createElement('button');more.className='read-more';more.type='button';more.textContent='続きを読む';
+          more.addEventListener('click',()=>{const closed=summary.classList.toggle('collapsed');more.textContent=closed?'続きを読む':'閉じる'});
+          body.append(more);
+        }
       }
-
-      if(item.source?.url){
-        const a=document.createElement('a');
-        a.className='source dot';
-        a.href=item.source.url;
-        a.target='_blank';
-        a.rel='noreferrer';
-        a.textContent=item.source.label||'出典';
-        meta.appendChild(a);
-      }
-
-      body.append(kicker,title);
-      if(item.summary)body.append(summary);
-      body.append(meta);
-      row.append(media,body);
-      return row;
+      body.append(meta);row.append(mediaLink,body);return row;
     }
     function createMonitorRow(item){
-      const row=document.createElement('article');
-      row.className='monitor-row '+(item.status||'pending');
-
-      const left=document.createElement('div');
-      left.className='monitor-left';
-
-      const dot=document.createElement('span');
-      dot.className='status';
-
+      const row=document.createElement('article');row.className='monitor-row '+item.status;
+      const left=document.createElement('div');left.className='monitor-left';
+      const dot=document.createElement('span');dot.className='status-dot';
       const text=document.createElement('div');
-      const name=document.createElement('div');
-      name.className='monitor-name';
-      name.textContent=item.name||'';
-      const summary=document.createElement('p');
-      summary.className='monitor-summary-text';
-      summary.textContent=item.summary||'';
-      text.append(name,summary);
-      left.append(dot,text);
-
-      const count=document.createElement('span');
-      count.className='monitor-count';
-      const parts=[];
-      if(item.alertCount)parts.push('重要 '+item.alertCount);
-      if(item.referenceCount)parts.push('参考 '+item.referenceCount);
-      count.textContent=parts.join(' · ')||'0';
-
-      row.append(left,count);
-      return row;
+      const name=document.createElement('div');name.className='monitor-name';name.textContent=item.name;
+      const summary=document.createElement('p');summary.className='monitor-summary-text';summary.textContent=item.summary;
+      text.append(name,summary);left.append(dot,text);
+      const count=document.createElement('span');count.className='monitor-count';
+      const parts=[];if(item.alertCount)parts.push('重要 '+item.alertCount);if(item.referenceCount)parts.push('参考 '+item.referenceCount);
+      if(item.status==='error')parts.push('失敗');if(item.status==='pending')parts.push('未実行');
+      count.textContent=parts.join(' · ')||'0';row.append(left,count);return row;
     }
     function renderDay(){
-      const day=getDay();
       fmtDateLabel(state.date);
-      updateDateNav();
-
+      const day=getDay();
+      const missing=$('missingState'),important=$('importantSection'),reference=$('referenceSection'),monitor=$('monitorPanel');
       if(!day){
-        const future=isFutureDate(state.date);
-        setText('alertCount','–');
-        setText('referenceCount','–');
-        setText('checkedCount','–');
-        setText('alertSectionCount','');
-        setText('referenceSectionCount','');
-        setText('monitorSummary',future?'未実行':'履歴なし');
-        $('alertList')?.replaceChildren();
-        $('referenceList')?.replaceChildren();
-        $('monitorList')?.replaceChildren();
-        if($('emptyAlerts')){
-          $('emptyAlerts').textContent=future?'この日はまだ未実行':'この日の履歴データなし';
-          $('emptyAlerts').hidden=false;
-        }
-        if($('emptyReferences'))$('emptyReferences').hidden=true;
+        setText('alertCount','–');setText('referenceCount','–');setText('successCount','–');
+        if(missing){missing.hidden=false;setText('missingText',state.date>todayJst()?'この日はまだ未実行':'この日の履歴データなし')}
+        if(important)important.hidden=true;if(reference)reference.hidden=true;if(monitor)monitor.hidden=true;
+        if($('healthRow'))$('healthRow').hidden=true;
         return;
       }
+      if(missing)missing.hidden=true;if(important)important.hidden=false;if(reference)reference.hidden=false;if(monitor)monitor.hidden=false;
 
-      const alerts=day.alerts||[];
-      const references=day.references||[];
-      const checks=day.checks||[];
-      const checked=checks.filter(x=>x.status!=='pending');
-      const latest=checked.map(x=>x.checkedAt).filter(Boolean).sort().at(-1);
+      const alerts=day.alerts||[],refs=day.references||[],checks=day.checks||[];
+      const success=checks.filter(x=>x.status==='clear'||x.status==='update').length;
+      const errors=checks.filter(x=>x.status==='error').length;
+      const pending=checks.filter(x=>x.status==='pending').length;
+      const latest=checks.map(x=>x.checkedAt).filter(Boolean).sort().at(-1);
 
-      setText('alertCount',alerts.length);
-      setText('referenceCount',references.length);
-      setText('checkedCount',checked.length+'/'+checks.length);
-      setText('alertSectionCount',alerts.length?alerts.length+'件':'');
-      setText('referenceSectionCount',references.length?references.length+'件':'');
-      setText('monitorSummary',checked.length+'/'+checks.length+(latest?' · '+fmtTime(latest):''));
+      setText('alertCount',alerts.length);setText('referenceCount',refs.length);setText('successCount',success+'/'+checks.length);
+      setText('alertSectionCount',alerts.length?alerts.length+'件':'');setText('referenceSectionCount',refs.length?refs.length+'件':'');
+      setText('monitorSummary','成功'+success+' · 失敗'+errors+' · 未実行'+pending+(latest?' · '+fmtTime(latest):''));
+
+      const health=$('healthRow');
+      if(health){
+        health.hidden=false;health.className='health-row'+(errors?' warn':pending?' pending':'');
+        setText('healthText',errors?'監視失敗 '+errors+'件 · 正常 '+success+'件':pending?'未実行 '+pending+'件 · 正常 '+success+'件':'監視 '+checks.length+'件すべて正常に完了');
+      }
 
       $('alertList')?.replaceChildren(...alerts.map(x=>createFeedItem(x,'important')));
-      $('referenceList')?.replaceChildren(...references.map(x=>createFeedItem(x,'reference')));
+      $('referenceList')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference')));
       $('monitorList')?.replaceChildren(...checks.map(createMonitorRow));
 
       if($('emptyAlerts')){
-        $('emptyAlerts').textContent='通知条件を満たす新規情報なし';
         $('emptyAlerts').hidden=alerts.length>0;
+        $('emptyAlerts').className='empty-line'+(errors||pending?' warn':'');
+        $('emptyAlerts').textContent=errors||pending?'重要更新0件 · ただし監視未完了あり':'通知条件を満たす新規情報なし';
       }
-      if($('emptyReferences')){
-        $('emptyReferences').textContent='新規の参考情報なし';
-        $('emptyReferences').hidden=references.length>0;
-      }
+      if($('emptyReferences'))$('emptyReferences').hidden=refs.length>0;
     }
     function renderWeek(){
       const week=getWeek();
       if(!week){
-        setText('weekPeriod','');
-        setText('weekHeadline','この日を含む7日サマリーはまだありません');
-        $('weekCategories')?.replaceChildren();
-        $('weekHighlights')?.replaceChildren();
-        $('weekReferences')?.replaceChildren();
-        setText('weekHighlightCount','');
-        setText('weekMoreSummary','0件');
-        return;
+        setText('weekPeriod','');setText('weekGenerated','');setText('weekHeadline','この日を含む保存済み7日サマリーはありません');
+        $('weekCategories')?.replaceChildren();$('weekHighlights')?.replaceChildren();$('weekReferences')?.replaceChildren();
+        setText('weekHighlightCount','');setText('weekMoreSummary','0件');return;
       }
-
-      setText('weekPeriod',shortDate(week.start)+' – '+shortDate(week.end));
+      setText('weekPeriod','保存済み7日サマリー · '+shortDate(week.start)+' – '+shortDate(week.end));
+      setText('weekGenerated',week.generatedAt?'生成 '+fmtDateTime(week.generatedAt):'');
       setText('weekHeadline',week.headline||'');
-
-      const categoryRows=(week.categories||[]).map(c=>{
-        const row=document.createElement('article');
-        row.className='category-row';
-        const name=document.createElement('div');
-        name.className='category-name';
-        name.textContent=c.name||'';
-        const summary=document.createElement('p');
-        summary.className='category-summary';
-        summary.textContent=c.summary||'';
-        row.append(name,summary);
-        return row;
+      const rows=(week.categories||[]).map(c=>{
+        const row=document.createElement('article');row.className='category-row';
+        const n=document.createElement('div');n.className='category-name';n.textContent=String(c.name||'');
+        const s=document.createElement('p');s.className='category-summary';s.textContent=String(c.summary||'');
+        row.append(n,s);return row;
       });
-      $('weekCategories')?.replaceChildren(...categoryRows);
-
-      const highlights=week.highlights||[];
-      const refs=week.references||[];
+      $('weekCategories')?.replaceChildren(...rows);
+      const highlights=(week.highlights||[]).map(canonicalize),refs=(week.references||[]).map(canonicalize);
       $('weekHighlights')?.replaceChildren(...highlights.map(x=>createFeedItem(x,'important')));
       $('weekReferences')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference')));
-      setText('weekHighlightCount',highlights.length?highlights.length+'件':'');
-      setText('weekMoreSummary',refs.length+'件');
+      setText('weekHighlightCount',highlights.length?highlights.length+'件':'');setText('weekMoreSummary',refs.length+'件');
     }
     function render(){
       setText('updatedAt','更新 '+fmtDateTime(state.data?.updatedAt));
-      if($('dayView'))$('dayView').hidden=state.view!=='day';
-      if($('weekView'))$('weekView').hidden=state.view!=='week';
-      $('dayMode')?.classList.toggle('active',state.view==='day');
-      $('weekMode')?.classList.toggle('active',state.view==='week');
+      if($('dayView'))$('dayView').hidden=state.view!=='day';if($('weekView'))$('weekView').hidden=state.view!=='week';
+      $('dayMode')?.classList.toggle('active',state.view==='day');$('weekMode')?.classList.toggle('active',state.view==='week');
+      $('dayMode')?.setAttribute('aria-pressed',state.view==='day'?'true':'false');$('weekMode')?.setAttribute('aria-pressed',state.view==='week'?'true':'false');
+      if(state.view==='day')renderDay();else renderWeek();syncUrl();
+    }
+    function goToday(){state.date=todayJst();state.view='day';render();window.scrollTo({top:0,behavior:'smooth'})}
+    function setWeek(){state.view='week';render();window.scrollTo({top:0,behavior:'smooth'})}
+    function moveDay(delta){state.date=addDays(state.date,delta);state.view='day';render();window.scrollTo({top:0,behavior:'smooth'})}
 
-      if(state.view==='day')renderDay();
-      else renderWeek();
-      syncUrl();
+    async function fetchViaApi(signal){
+      const r=await fetch(API_URL+'&_='+Date.now(),{cache:'no-store',signal,headers:{Accept:'application/vnd.github+json'}});
+      if(!r.ok)throw new Error('GitHub API '+r.status);
+      const payload=await r.json();
+      if(!payload.content)throw new Error('GitHub API contentなし');
+      const binary=atob(String(payload.content).replace(/\s/g,''));
+      const bytes=Uint8Array.from(binary,c=>c.charCodeAt(0));
+      return JSON.parse(new TextDecoder().decode(bytes));
     }
-    function setView(view){
-      state.view=view;
-      render();
-      window.scrollTo({top:0,behavior:'smooth'});
-    }
-    function moveRecordedDay(delta){
-      const d=new Date(state.date+'T00:00:00+09:00');
-      d.setDate(d.getDate()+delta);
-      state.date=d.toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});
-      render();
-      window.scrollTo({top:0,behavior:'smooth'});
+    async function fetchViaRaw(signal){
+      const r=await fetch(RAW_URL+'?v='+Date.now(),{cache:'no-store',signal});
+      if(!r.ok)throw new Error('Raw '+r.status);
+      return await r.json();
     }
     async function load(){
+      const seq=++state.requestSeq;
+      if(state.controller)state.controller.abort();
+      const controller=new AbortController();state.controller=controller;
+      const timer=setTimeout(()=>controller.abort(),10000);
+      setLoading(true);setText('updatedAt','更新中…');if($('errorMessage'))$('errorMessage').hidden=true;
+
       try{
-        if($('errorMessage'))$('errorMessage').hidden=true;
-        const r=await fetch(DATA_URL+'?v='+Date.now(),{cache:'no-store'});
-        if(!r.ok)throw new Error('HTTP '+r.status);
-        state.data=await r.json();
+        let raw;
+        try{raw=await fetchViaApi(controller.signal)}catch(apiError){if(controller.signal.aborted)throw apiError;raw=await fetchViaRaw(controller.signal)}
+        const normalized=normalizeData(raw);
+        if(seq!==state.requestSeq)return;
+        state.data=normalized;
 
         const params=new URLSearchParams(location.search);
         const requested=params.get('date');
-        state.date=/^\d{4}-\d{2}-\d{2}$/.test(requested||'')
-          ? requested
-          : state.data.currentDate||state.data.days?.[0]?.date;
+        state.date=isValidDateString(requested)?requested:todayJst();
         state.view=params.get('view')==='week'?'week':'day';
         render();
       }catch(e){
-        if($('errorMessage')){
-          $('errorMessage').textContent='データを読み込めません: '+e.message;
-          $('errorMessage').hidden=false;
+        if(seq!==state.requestSeq)return;
+        if(state.data){
+          setText('updatedAt','前回取得分を表示中');
+          showToast('更新に失敗しました。前回取得分を表示しています');
+        }else if($('errorMessage')){
+          $('errorMessage').textContent='データを読み込めません: '+(e.name==='AbortError'?'タイムアウト':e.message);
+          $('errorMessage').hidden=false;setText('updatedAt','取得失敗');
         }
+      }finally{
+        clearTimeout(timer);if(seq===state.requestSeq)setLoading(false);
       }
     }
 
     $('refreshButton')?.addEventListener('click',load);
-    $('prevDay')?.addEventListener('click',()=>moveRecordedDay(-1));
-    $('nextDay')?.addEventListener('click',()=>moveRecordedDay(1));
-    $('dayMode')?.addEventListener('click',()=>setView('day'));
-    $('weekMode')?.addEventListener('click',()=>setView('week'));
+    $('prevDay')?.addEventListener('click',()=>moveDay(-1));
+    $('nextDay')?.addEventListener('click',()=>moveDay(1));
+    $('dayMode')?.addEventListener('click',goToday);
+    $('weekMode')?.addEventListener('click',setWeek);
+    $('backTodayButton')?.addEventListener('click',goToday);
     load();
   </script>
 </body>
