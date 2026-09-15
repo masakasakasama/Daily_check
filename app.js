@@ -28,6 +28,11 @@ function makeCard(item){
   node.querySelector('.priority').textContent=item.priority?'Priority '+item.priority:'';
   return node;
 }
+function syncUrl(){
+  const u=new URL(location.href);
+  u.searchParams.set('date',state.date);
+  history.replaceState(null,'',u);
+}
 function render(){
   const data=state.data;if(!data)return;
   const daily=(data.days||[]).find(x=>x.date===state.date)||{date:state.date,checks:[]};
@@ -43,7 +48,8 @@ function render(){
   $('priorityBadge').textContent=alerts.length+'件';
   const p=$('priorityList');p.replaceChildren(...alerts.map(makeCard));
   $('emptyPriority').hidden=alerts.length>0;
-  const all=$('allList');all.replaceChildren(...checks.sort((a,b)=>(a.priority||99)-(b.priority||99)).map(makeCard));
+  const all=$('allList');all.replaceChildren(...[...checks].sort((a,b)=>(a.priority||99)-(b.priority||99)).map(makeCard));
+  syncUrl();
 }
 function shiftDay(delta){
   const d=new Date(state.date+'T00:00:00+09:00');d.setDate(d.getDate()+delta);
@@ -53,7 +59,10 @@ async function load(){
   try{
     $('errorMessage').hidden=true;
     const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);
-    state.data=await r.json();state.date=state.data.currentDate||state.data.days?.[0]?.date||new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});render();
+    state.data=await r.json();
+    const requested=new URLSearchParams(location.search).get('date');
+    state.date=requested||state.data.currentDate||state.data.days?.[0]?.date||new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});
+    render();
   }catch(e){$('errorMessage').textContent='データを読み込めません: '+e.message;$('errorMessage').hidden=false}
 }
 $('refreshButton').addEventListener('click',load);
