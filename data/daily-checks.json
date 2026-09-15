@@ -107,8 +107,8 @@
       "generatedAt": "2026-09-15T20:20:00+09:00",
       "headline": "AIは安全性・規制とエージェント基盤が中心。SDVはHPC統合と東京ロボタクシー、Codexはリセット仕様が明確化。永住条件は実質変更なし",
       "counts": {
-        "important": 6,
-        "reference": 5
+        "important": 7,
+        "reference": 4
       },
       "categories": [
         {
@@ -194,9 +194,7 @@
             "label": "OpenAI",
             "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
           }
-        }
-      ],
-      "references": [
+        },
         {
           "category": "AI",
           "score": 76,
@@ -206,7 +204,9 @@
             "label": "Reuters",
             "url": "https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/"
           }
-        },
+        }
+      ],
+      "references": [
         {
           "category": "AI",
           "score": 70,
