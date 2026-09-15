@@ -11,7 +11,7 @@ function fmtDay(date){
   $('dayLabel').textContent=new Intl.DateTimeFormat('ja-JP',{month:'long',day:'numeric',timeZone:'Asia/Tokyo'}).format(d);
   $('weekdayLabel').textContent=new Intl.DateTimeFormat('ja-JP',{weekday:'long',year:'numeric',timeZone:'Asia/Tokyo'}).format(d);
 }
-function label(status){return({update:'更新あり',clear:'変化なし',error:'エラー',pending:'待機中'})[status]||status}
+function label(status){return({update:'更新あり',clear:'重要更新なし',error:'エラー',pending:'待機中'})[status]||status}
 function makeCard(item){
   const node=$('cardTemplate').content.firstElementChild.cloneNode(true);
   node.classList.add(item.status||'pending');
@@ -28,6 +28,33 @@ function makeCard(item){
   node.querySelector('.priority').textContent=item.priority?'Priority '+item.priority:'';
   return node;
 }
+function makeReference(item,parent){
+  const article=document.createElement('article');
+  article.className='reference-card';
+  const top=document.createElement('div');
+  top.className='reference-top';
+  const title=document.createElement('strong');
+  title.textContent=item.title;
+  const score=document.createElement('span');
+  score.className='reference-score';
+  score.textContent=item.score!=null?item.score+'点':'参考';
+  top.append(title,score);
+  const summary=document.createElement('p');
+  summary.textContent=item.summary||'';
+  const meta=document.createElement('div');
+  meta.className='reference-meta';
+  const source=document.createElement('span');
+  source.textContent=parent.name;
+  meta.appendChild(source);
+  if(item.date){const date=document.createElement('span');date.textContent=item.date;meta.appendChild(date)}
+  article.append(top,summary,meta);
+  if(item.url){
+    const a=document.createElement('a');
+    a.href=item.url;a.target='_blank';a.rel='noreferrer';a.textContent='出典を開く';
+    article.appendChild(a);
+  }
+  return article;
+}
 function syncUrl(){
   const u=new URL(location.href);
   u.searchParams.set('date',state.date);
@@ -40,14 +67,17 @@ function render(){
   $('updatedAt').textContent='データ更新 '+fmtDate(data.updatedAt);
   const checks=daily.checks||[];
   const alerts=checks.filter(x=>x.status==='update');
-  const clears=checks.filter(x=>x.status==='clear');
   const checked=checks.filter(x=>x.status!=='pending');
+  const references=checks.flatMap(parent=>(parent.referenceItems||[]).map(item=>({item,parent})));
   $('alertCount').textContent=alerts.length;
-  $('clearCount').textContent=clears.length;
+  $('referenceCount').textContent=references.length;
   $('checkedCount').textContent=checked.length;
   $('priorityBadge').textContent=alerts.length+'件';
+  $('referenceBadge').textContent=references.length+'件';
   const p=$('priorityList');p.replaceChildren(...alerts.map(makeCard));
   $('emptyPriority').hidden=alerts.length>0;
+  const ref=$('referenceList');ref.replaceChildren(...references.map(({item,parent})=>makeReference(item,parent)));
+  $('emptyReference').hidden=references.length>0;
   const all=$('allList');all.replaceChildren(...[...checks].sort((a,b)=>(a.priority||99)-(b.priority||99)).map(makeCard));
   syncUrl();
 }
