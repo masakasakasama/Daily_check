@@ -1,4 +1,4 @@
-const DATA_URL='./data/daily-checks.json';
+const DATA_URL='https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/daily-checks.json';
 const state={data:null,date:null};
 const $=(id)=>document.getElementById(id);
 
@@ -29,7 +29,7 @@ function makeCard(item){
   return node;
 }
 function render(){
-  const data=state.data; if(!data)return;
+  const data=state.data;if(!data)return;
   const daily=(data.days||[]).find(x=>x.date===state.date)||{date:state.date,checks:[]};
   fmtDay(state.date);
   $('updatedAt').textContent='データ更新 '+fmtDate(data.updatedAt);
