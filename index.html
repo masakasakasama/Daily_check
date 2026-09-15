@@ -5,9 +5,294 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0d10">
   <meta name="color-scheme" content="dark">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>Daily Check</title>
   <meta name="description" content="毎日の重要更新と参考情報を確認するダッシュボード">
-  <link rel="stylesheet" href="./styles.css">
+  <style>
+:root{
+  --bg:#0b0d10;
+  --panel:#11151a;
+  --line:#232a33;
+  --text:#f4f6f8;
+  --muted:#8b949f;
+  --faint:#5f6873;
+  --blue:#8aa7ff;
+  --amber:#e8bd67;
+  --green:#55c99a;
+  --red:#ff7777;
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--text);
+  background:var(--bg);
+  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+button,a{-webkit-tap-highlight-color:transparent}
+button{font:inherit}
+.shell{width:min(100%,680px);margin:0 auto;padding:22px 18px 44px}
+.hero{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.eyebrow,.section-kicker{
+  margin:0 0 5px;
+  color:var(--faint);
+  font-size:10px;
+  font-weight:750;
+  letter-spacing:.14em;
+}
+h1{
+  margin:0;
+  font-size:27px;
+  line-height:1.12;
+  letter-spacing:-.035em;
+}
+h2{
+  margin:0;
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:-.015em;
+}
+.muted{margin:7px 0 0;color:var(--muted);font-size:11px}
+.icon-button,.date-nav{
+  display:grid;
+  place-items:center;
+  border:0;
+  background:transparent;
+  color:var(--muted);
+  cursor:pointer;
+}
+.icon-button{width:40px;height:40px;border-radius:10px}
+.icon-button:active,.date-nav:active{background:#14191f}
+.icon-button svg{
+  width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;
+  stroke-linecap:round;stroke-linejoin:round
+}
+.date-strip{
+  margin:22px 0 12px;
+  display:grid;
+  grid-template-columns:40px 1fr 40px;
+  align-items:center;
+  text-align:center;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  padding:11px 0;
+}
+.date-nav{width:40px;height:40px;font-size:25px}
+.date-nav:disabled{opacity:.18;cursor:default}
+.day-label{margin:0;font-size:18px;font-weight:750;letter-spacing:-.02em}
+.weekday-label{margin:3px 0 0;color:var(--faint);font-size:10px}
+.summary-grid{
+  display:flex;
+  align-items:center;
+  gap:0;
+  margin:0 0 28px;
+  border-bottom:1px solid var(--line);
+  padding:0 0 16px;
+}
+.metric{
+  flex:1;
+  min-width:0;
+  padding:0 12px;
+  border-left:1px solid var(--line);
+}
+.metric:first-child{padding-left:0;border-left:0}
+.metric:last-child{padding-right:0}
+.metric span{display:block;color:var(--faint);font-size:10px}
+.metric strong{
+  display:block;
+  margin-top:3px;
+  font-size:19px;
+  line-height:1;
+  font-variant-numeric:tabular-nums;
+}
+.metric-alert strong{color:var(--amber)}
+.metric-reference strong{color:var(--blue)}
+.section{margin-top:27px}
+.section-heading{
+  display:flex;
+  align-items:end;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:8px;
+}
+.pill{
+  color:var(--faint);
+  font-size:10px;
+  font-variant-numeric:tabular-nums;
+}
+.news-list{border-top:1px solid var(--line)}
+.news-card{
+  display:block;
+  padding:15px 0;
+  border-bottom:1px solid var(--line);
+}
+.news-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin-bottom:7px;
+}
+.category-chip{
+  color:var(--faint);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.05em;
+}
+.score-chip{
+  flex:0 0 auto;
+  color:var(--blue);
+  font-size:11px;
+  font-weight:750;
+  font-variant-numeric:tabular-nums;
+}
+.news-card.important .score-chip{color:var(--amber)}
+.news-title{
+  margin:0;
+  font-size:15px;
+  line-height:1.48;
+  font-weight:700;
+  letter-spacing:-.012em;
+}
+.news-summary{
+  margin:6px 0 0;
+  color:#b3bbc5;
+  font-size:12px;
+  line-height:1.58;
+}
+.news-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:8px;
+  color:var(--faint);
+  font-size:10px;
+}
+.news-source{
+  display:inline-block;
+  margin-top:8px;
+  color:var(--muted);
+  text-decoration:none;
+  font-size:10px;
+}
+.news-source:after{content:" ↗"}
+.empty-state{
+  padding:11px 0;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  color:var(--muted);
+  font-size:12px;
+}
+.empty-state .empty-icon{display:none}
+.empty-state strong{color:var(--muted);font-size:12px;font-weight:600}
+.empty-state p{display:none}
+.monitor-panel{
+  margin-top:34px;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.monitor-panel>summary{
+  list-style:none;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:13px 0;
+  cursor:pointer;
+}
+.monitor-panel>summary::-webkit-details-marker{display:none}
+.monitor-panel>summary .section-kicker{display:none}
+.monitor-panel>summary h2{font-size:12px;color:var(--muted);font-weight:600}
+.monitor-summary{
+  color:var(--faint);
+  font-size:10px;
+  font-variant-numeric:tabular-nums;
+}
+.monitor-list{border-top:1px solid var(--line)}
+.monitor-row{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:5px 10px;
+  padding:11px 0;
+  border-bottom:1px solid rgba(35,42,51,.65);
+}
+.monitor-row:last-child{border-bottom:0}
+.monitor-main{display:flex;align-items:flex-start;gap:9px;min-width:0}
+.status-dot{
+  flex:0 0 auto;
+  width:6px;height:6px;
+  margin-top:6px;
+  border-radius:50%;
+  background:var(--faint);
+}
+.monitor-row.clear .status-dot{background:var(--green)}
+.monitor-row.update .status-dot{background:var(--amber)}
+.monitor-row.error .status-dot{background:var(--red)}
+.monitor-name{display:block;font-size:12px;font-weight:650}
+.monitor-text{
+  margin:2px 0 0;
+  color:var(--faint);
+  font-size:10px;
+  line-height:1.45;
+}
+.monitor-counts{
+  display:flex;
+  gap:7px;
+  align-items:flex-start;
+  color:var(--faint);
+  font-size:10px;
+}
+.monitor-time{
+  grid-column:1/-1;
+  padding-left:15px;
+  color:var(--faint);
+  font-size:9px;
+}
+.count{font-variant-numeric:tabular-nums}
+.important-count{color:#bda36d}
+.reference-count{color:#788fca}
+footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:28px;
+  color:var(--faint);
+  font-size:9px;
+}
+footer a{color:var(--faint);text-decoration:none}
+.error{
+  margin-top:18px;
+  padding:10px 0;
+  border-top:1px solid rgba(255,119,119,.3);
+  color:#ffb4b4;
+  font-size:11px;
+}
+@media(max-width:420px){
+  .shell{padding:18px 16px 36px}
+  h1{font-size:25px}
+  .metric{padding:0 10px}
+  .metric strong{font-size:18px}
+}
+
+.header-actions{display:flex;align-items:center;gap:6px}
+.view-switch{display:flex;align-items:center;padding:2px;background:#11151a;border:1px solid var(--line);border-radius:10px}
+.view-button{border:0;background:transparent;color:var(--faint);padding:6px 9px;border-radius:8px;font-size:10px;font-weight:700;cursor:pointer}
+.view-button.active{background:#1a2028;color:var(--text)}
+.week-period{margin:22px 0 8px;color:var(--muted);font-size:12px;font-weight:650}
+.week-headline{margin:0;padding:0 0 18px;border-bottom:1px solid var(--line);font-size:16px;font-weight:700;line-height:1.55;letter-spacing:-.015em}
+.week-categories{margin-top:18px;border-top:1px solid var(--line)}
+.week-category{display:grid;grid-template-columns:54px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.week-category strong{font-size:11px;color:var(--text)}
+.week-category p{margin:0;color:var(--muted);font-size:11px;line-height:1.55}
+.week-more{margin-top:26px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.week-more>summary{list-style:none;padding:12px 0;color:var(--muted);font-size:11px;cursor:pointer}
+.week-more>summary::-webkit-details-marker{display:none}
+
+</style>
 </head>
 <body>
   <main class="shell">
@@ -126,6 +411,175 @@
     </article>
   </template>
 
-  <script src="./app.js" defer></script>
+  <script>
+const DATA_URL='https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/daily-checks.json';
+const state={data:null,date:null,view:'day'};
+const $=(id)=>document.getElementById(id);
+
+function fmtDateTime(iso){
+  if(!iso)return '未確認';
+  return new Intl.DateTimeFormat('ja-JP',{
+    timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',
+    hour:'2-digit',minute:'2-digit'
+  }).format(new Date(iso));
+}
+function fmtTime(iso){
+  if(!iso)return '未確認';
+  return new Intl.DateTimeFormat('ja-JP',{
+    timeZone:'Asia/Tokyo',hour:'2-digit',minute:'2-digit'
+  }).format(new Date(iso));
+}
+function fmtDateLabel(date){
+  const d=new Date(date+'T00:00:00+09:00');
+  $('dayLabel').textContent=new Intl.DateTimeFormat('ja-JP',{
+    timeZone:'Asia/Tokyo',month:'long',day:'numeric'
+  }).format(d);
+  $('weekdayLabel').textContent=new Intl.DateTimeFormat('ja-JP',{
+    timeZone:'Asia/Tokyo',year:'numeric',weekday:'long'
+  }).format(d);
+}
+function shortDate(date){
+  const d=new Date(date+'T00:00:00+09:00');
+  return new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric'}).format(d);
+}
+function getDays(){return [...(state.data?.days||[])].sort((a,b)=>a.date.localeCompare(b.date))}
+function getDay(){return (state.data?.days||[]).find(x=>x.date===state.date)||{date:state.date,alerts:[],references:[],checks:[]}}
+function getWeek(){
+  const weeks=state.data?.weeks||[];
+  return weeks.find(w=>state.date>=w.start&&state.date<=w.end)||weeks[0]||null;
+}
+function syncUrl(){
+  const u=new URL(location.href);
+  u.searchParams.set('date',state.date);
+  if(state.view==='week')u.searchParams.set('view','week');else u.searchParams.delete('view');
+  history.replaceState(null,'',u);
+}
+function updateDateNav(){
+  const days=getDays();
+  const i=days.findIndex(x=>x.date===state.date);
+  $('prevDay').disabled=i<=0;
+  $('nextDay').disabled=i<0||i>=days.length-1;
+}
+function makeNewsCard(item,type){
+  const node=$('newsTemplate').content.firstElementChild.cloneNode(true);
+  node.classList.add(type);
+  node.querySelector('.category-chip').textContent=item.category||'OTHER';
+  node.querySelector('.score-chip').textContent=item.score!=null?item.score+'点':'参考';
+  node.querySelector('.news-title').textContent=item.title||'無題';
+  node.querySelector('.news-summary').textContent=item.summary||'';
+  const meta=node.querySelector('.news-meta');
+  if(item.publishedAt){
+    const s=document.createElement('span');
+    s.textContent=item.publishedAt;
+    meta.appendChild(s);
+  }
+  const a=node.querySelector('.news-source');
+  if(item.source?.url){
+    a.href=item.source.url;
+    a.textContent=item.source.label||'出典';
+  }else a.hidden=true;
+  return node;
+}
+function makeMonitorRow(item){
+  const node=$('monitorTemplate').content.firstElementChild.cloneNode(true);
+  node.classList.add(item.status||'pending');
+  node.querySelector('.monitor-name').textContent=item.name;
+  node.querySelector('.monitor-text').textContent=item.summary||'';
+  const counts=node.querySelector('.monitor-counts');
+  if(item.alertCount){
+    const a=document.createElement('span');a.className='count important-count';a.textContent='重要 '+item.alertCount;counts.appendChild(a);
+  }
+  if(item.referenceCount){
+    const r=document.createElement('span');r.className='count reference-count';r.textContent='参考 '+item.referenceCount;counts.appendChild(r);
+  }
+  if(!item.alertCount&&!item.referenceCount){
+    const z=document.createElement('span');z.className='count';z.textContent='0';counts.appendChild(z);
+  }
+  return node;
+}
+function renderDay(){
+  const day=getDay();
+  fmtDateLabel(state.date);
+  updateDateNav();
+
+  const alerts=day.alerts||[];
+  const references=day.references||[];
+  const checks=day.checks||[];
+  const checked=checks.filter(x=>x.status!=='pending');
+  const latestCheck=checked.map(x=>x.checkedAt).filter(Boolean).sort().at(-1);
+
+  $('alertCount').textContent=alerts.length;
+  $('referenceCount').textContent=references.length;
+  $('checkedCount').textContent=checked.length+'/'+checks.length;
+  $('monitorSummary').textContent=checked.length+'/'+checks.length+(latestCheck?' · '+fmtTime(latestCheck):'');
+
+  $('alertList').replaceChildren(...alerts.map(x=>makeNewsCard(x,'important')));
+  $('referenceList').replaceChildren(...references.map(x=>makeNewsCard(x,'reference')));
+  $('monitorList').replaceChildren(...checks.map(makeMonitorRow));
+  $('emptyAlerts').hidden=alerts.length>0;
+  $('emptyReferences').hidden=references.length>0;
+}
+function renderWeek(){
+  const week=getWeek();
+  if(!week)return;
+  $('weekPeriod').textContent=shortDate(week.start)+'–'+shortDate(week.end);
+  $('weekHeadline').textContent=week.headline||'';
+  const categories=$('weekCategories');
+  categories.replaceChildren(...(week.categories||[]).map(c=>{
+    const row=document.createElement('article');
+    row.className='week-category';
+    const name=document.createElement('strong');name.textContent=c.name;
+    const p=document.createElement('p');p.textContent=c.summary;
+    row.append(name,p);
+    return row;
+  }));
+  $('weekHighlights').replaceChildren(...(week.highlights||[]).map(x=>makeNewsCard(x,'important')));
+  $('weekReferences').replaceChildren(...(week.references||[]).map(x=>makeNewsCard(x,'reference')));
+  $('weekMoreSummary').textContent='その他 '+(week.references||[]).length+'件';
+}
+function render(){
+  $('updatedAt').textContent='更新 '+fmtDateTime(state.data.updatedAt);
+  $('dayView').hidden=state.view!=='day';
+  $('weekView').hidden=state.view!=='week';
+  $('dayMode').classList.toggle('active',state.view==='day');
+  $('weekMode').classList.toggle('active',state.view==='week');
+  if(state.view==='day')renderDay();else renderWeek();
+  syncUrl();
+}
+function setView(view){state.view=view;render();window.scrollTo({top:0,behavior:'smooth'})}
+function moveRecordedDay(delta){
+  const days=getDays();
+  const i=days.findIndex(x=>x.date===state.date);
+  const next=days[i+delta];
+  if(!next)return;
+  state.date=next.date;
+  render();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+async function load(){
+  try{
+    $('errorMessage').hidden=true;
+    const r=await fetch(DATA_URL+'?v='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    state.data=await r.json();
+    const params=new URLSearchParams(location.search);
+    const requested=params.get('date');
+    const dates=(state.data.days||[]).map(x=>x.date);
+    state.date=dates.includes(requested)?requested:state.data.currentDate||state.data.days?.[0]?.date;
+    state.view=params.get('view')==='week'?'week':'day';
+    render();
+  }catch(e){
+    $('errorMessage').textContent='データを読み込めません: '+e.message;
+    $('errorMessage').hidden=false;
+  }
+}
+$('refreshButton').addEventListener('click',load);
+$('prevDay').addEventListener('click',()=>moveRecordedDay(-1));
+$('nextDay').addEventListener('click',()=>moveRecordedDay(1));
+$('dayMode').addEventListener('click',()=>setView('day'));
+$('weekMode').addEventListener('click',()=>setView('week'));
+load();
+
+</script>
 </body>
 </html>
