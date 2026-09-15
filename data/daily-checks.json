@@ -1,117 +1,95 @@
 {
   "version": 1,
   "currentDate": "2026-09-15",
-  "updatedAt": "2026-09-15T19:15:00+09:00",
+  "updatedAt": "2026-09-15T19:47:32+09:00",
   "days": [
     {
       "date": "2026-09-15",
       "checks": [
         {
           "id": "ai-news",
-          "name": "AIニュースランキング",
+          "name": "AIニュース",
           "priority": 1,
-          "status": "pending",
-          "summary": "親スケジュール統合後の初回実行待ち",
+          "status": "clear",
+          "summary": "75点以上の新規AIニュースなし",
           "details": [
-            "75点以上の新規ニュースのみ通知"
+            "2026/09/15の主要AIニュースを固定基準で再評価",
+            "元Google DeepMind研究者のAIリスク警告などは確認したが、業界構造を変える新規リリース・規制施行・大型案件には該当せず75点未満"
           ],
-          "checkedAt": null,
-          "sources": []
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "Nissan / SDVニュース",
-          "priority": 2,
-          "status": "pending",
-          "summary": "親スケジュール統合後の初回実行待ち",
-          "details": [
-            "前回確認以降の重要な新規情報のみ"
-          ],
-          "checkedAt": null,
-          "sources": []
-        },
-        {
-          "id": "codex-reset",
-          "name": "Codexリセット時刻監視",
-          "priority": 4,
-          "status": "pending",
-          "summary": "親スケジュール統合後の初回実行待ち",
-          "details": [
-            "OpenAI公式ソースの新しい確定情報のみ"
-          ],
-          "checkedAt": null,
-          "sources": []
-        },
-        {
-          "id": "permanent-residency",
-          "name": "主要国の永住条件",
-          "priority": 5,
-          "status": "pending",
-          "summary": "親スケジュール統合後の初回実行待ち",
-          "details": [
-            "実質的な制度変更のみ通知"
-          ],
-          "checkedAt": null,
-          "sources": []
-        }
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "checks": [
-        {
-          "id": "ai-news",
-          "name": "AIニュースランキング",
-          "priority": 1,
-          "status": "update",
-          "summary": "表示テスト、重要ニュース1件を検出した想定",
-          "details": [
-            "履歴表示と「更新あり」カードの表示確認用テストデータ",
-            "本番運用では75点以上の新規ニュースだけを表示"
-          ],
-          "checkedAt": "2026-09-14T08:00:00+09:00",
+          "checkedAt": "2026-09-15T19:47:32+09:00",
           "sources": [
             {
-              "label": "テスト用ソース",
-              "url": "https://github.com/masakasakasama/Daily_check"
+              "label": "Reuters: AI safety warning",
+              "url": "https://www.reuters.com/technology/ex-google-deepmind-researcher-adds-warnings-that-ai-could-kill-all-humans-2026-09-15/"
             }
           ]
         },
         {
           "id": "sdv-nissan",
-          "name": "Nissan / SDVニュース",
+          "name": "SDV / Nissanニュース",
           "priority": 2,
           "status": "clear",
-          "summary": "表示テスト、新規の重要更新なし",
+          "summary": "前回確認以降、実務上重要な新規SDV / Nissan情報なし",
           "details": [
-            "「変化なし」状態の表示確認用テストデータ"
+            "日産公式のSDV/AIDV関連と業界SDVニュースを確認",
+            "9/14のACTIA HPC展示など既存情報はあるが、19:47時点で新規の重大発表は確認できず"
           ],
-          "checkedAt": "2026-09-14T08:01:00+09:00",
-          "sources": []
+          "checkedAt": "2026-09-15T19:47:32+09:00",
+          "sources": [
+            {
+              "label": "Nissan SDV Platform",
+              "url": "https://www.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/"
+            },
+            {
+              "label": "ACTIA SDV 2026/09/14",
+              "url": "https://www.actia.com/en/software-defined-vehicle-2/"
+            }
+          ]
         },
         {
           "id": "codex-reset",
           "name": "Codexリセット時刻監視",
           "priority": 4,
           "status": "clear",
-          "summary": "表示テスト、公式の新規確定情報なし",
+          "summary": "前回確認以降、リセット時刻・周期の新しい公式確定情報なし",
           "details": [
-            "履歴カードの表示確認用テストデータ"
+            "OpenAI公式Help Centerを確認",
+            "保存済み/購入リセットで5時間枠と週次枠が更新される仕様は既存情報で、新規差分ではない",
+            "具体的な次回リセット時刻は引き続きアカウントのSettings → Usage表示が基準"
           ],
-          "checkedAt": "2026-09-14T08:02:00+09:00",
-          "sources": []
+          "checkedAt": "2026-09-15T19:47:32+09:00",
+          "sources": [
+            {
+              "label": "OpenAI: Codex plans and limits",
+              "url": "https://help.openai.com/ja-jp/articles/11369540"
+            },
+            {
+              "label": "OpenAI: Banked Codex resets",
+              "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
+            }
+          ]
         },
         {
           "id": "permanent-residency",
           "name": "主要国の永住条件",
           "priority": 5,
           "status": "clear",
-          "summary": "表示テスト、実質的な制度変更なし",
+          "summary": "前回確認以降、主要国の永住条件に実質的な新規変更なし",
           "details": [
-            "履歴カードの表示確認用テストデータ"
+            "日本・英国・カナダ等の公式情報を確認",
+            "日本の2026/10/1在留許可手数料改定や英国9/3公表のImmigration Rules変更は既知の既存変更で、本チェック時点の新規差分ではない"
           ],
-          "checkedAt": "2026-09-14T08:03:00+09:00",
-          "sources": []
+          "checkedAt": "2026-09-15T19:47:32+09:00",
+          "sources": [
+            {
+              "label": "日本 出入国在留管理庁",
+              "url": "https://www.moj.go.jp/isa/01_00644.html"
+            },
+            {
+              "label": "UK Immigration Rules HC 584",
+              "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026"
+            }
+          ]
         }
       ]
     }
