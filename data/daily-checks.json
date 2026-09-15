@@ -55,6 +55,65 @@
           "sources": []
         }
       ]
+    },
+    {
+      "date": "2026-09-14",
+      "checks": [
+        {
+          "id": "ai-news",
+          "name": "AIニュースランキング",
+          "priority": 1,
+          "status": "update",
+          "summary": "表示テスト、重要ニュース1件を検出した想定",
+          "details": [
+            "履歴表示と「更新あり」カードの表示確認用テストデータ",
+            "本番運用では75点以上の新規ニュースだけを表示"
+          ],
+          "checkedAt": "2026-09-14T08:00:00+09:00",
+          "sources": [
+            {
+              "label": "テスト用ソース",
+              "url": "https://github.com/masakasakasama/Daily_check"
+            }
+          ]
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "Nissan / SDVニュース",
+          "priority": 2,
+          "status": "clear",
+          "summary": "表示テスト、新規の重要更新なし",
+          "details": [
+            "「変化なし」状態の表示確認用テストデータ"
+          ],
+          "checkedAt": "2026-09-14T08:01:00+09:00",
+          "sources": []
+        },
+        {
+          "id": "codex-reset",
+          "name": "Codexリセット時刻監視",
+          "priority": 4,
+          "status": "clear",
+          "summary": "表示テスト、公式の新規確定情報なし",
+          "details": [
+            "履歴カードの表示確認用テストデータ"
+          ],
+          "checkedAt": "2026-09-14T08:02:00+09:00",
+          "sources": []
+        },
+        {
+          "id": "permanent-residency",
+          "name": "主要国の永住条件",
+          "priority": 5,
+          "status": "clear",
+          "summary": "表示テスト、実質的な制度変更なし",
+          "details": [
+            "履歴カードの表示確認用テストデータ"
+          ],
+          "checkedAt": "2026-09-14T08:03:00+09:00",
+          "sources": []
+        }
+      ]
     }
   ]
 }
