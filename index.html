@@ -37,8 +37,8 @@
         <strong id="alertCount">0</strong>
       </article>
       <article class="metric">
-        <span>変化なし</span>
-        <strong id="clearCount">0</strong>
+        <span>参考情報</span>
+        <strong id="referenceCount">0</strong>
       </article>
       <article class="metric">
         <span>確認済み</span>
@@ -60,6 +60,24 @@
         <div>
           <strong>重要な更新なし</strong>
           <p>通知条件に該当する新規情報はありません</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">REFERENCE</p>
+          <h2>参考情報</h2>
+        </div>
+        <span id="referenceBadge" class="pill">0件</span>
+      </div>
+      <div id="referenceList" class="reference-list"></div>
+      <div id="emptyReference" class="empty-state" hidden>
+        <span class="empty-icon">−</span>
+        <div>
+          <strong>参考情報なし</strong>
+          <p>通知基準未満の新規情報もありません</p>
         </div>
       </div>
     </section>
