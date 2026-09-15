@@ -2,100 +2,157 @@ const DATA_URL='https://raw.githubusercontent.com/masakasakasama/Daily_check/mai
 const state={data:null,date:null};
 const $=(id)=>document.getElementById(id);
 
-function fmtDate(iso){
+function fmtDateTime(iso){
   if(!iso)return '未確認';
-  return new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(iso));
+  return new Intl.DateTimeFormat('ja-JP',{
+    timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',
+    hour:'2-digit',minute:'2-digit'
+  }).format(new Date(iso));
 }
-function fmtDay(date){
+
+function fmtDateLabel(date){
   const d=new Date(date+'T00:00:00+09:00');
-  $('dayLabel').textContent=new Intl.DateTimeFormat('ja-JP',{month:'long',day:'numeric',timeZone:'Asia/Tokyo'}).format(d);
-  $('weekdayLabel').textContent=new Intl.DateTimeFormat('ja-JP',{weekday:'long',year:'numeric',timeZone:'Asia/Tokyo'}).format(d);
+  $('dayLabel').textContent=new Intl.DateTimeFormat('ja-JP',{
+    timeZone:'Asia/Tokyo',month:'long',day:'numeric'
+  }).format(d);
+  $('weekdayLabel').textContent=new Intl.DateTimeFormat('ja-JP',{
+    timeZone:'Asia/Tokyo',year:'numeric',weekday:'long'
+  }).format(d);
 }
-function label(status){return({update:'更新あり',clear:'重要更新なし',error:'エラー',pending:'待機中'})[status]||status}
-function makeCard(item){
-  const node=$('cardTemplate').content.firstElementChild.cloneNode(true);
-  node.classList.add(item.status||'pending');
-  node.querySelector('.card-title').textContent=item.name;
-  node.querySelector('.status-chip').textContent=label(item.status||'pending');
-  node.querySelector('.card-summary').textContent=item.summary||'まだ結果がありません';
-  const ul=node.querySelector('.detail-list');
-  (item.details||[]).forEach(x=>{const li=document.createElement('li');li.textContent=x;ul.appendChild(li)});
-  const sources=node.querySelector('.source-list');
-  (item.sources||[]).forEach((s,i)=>{
-    const a=document.createElement('a');a.href=s.url;a.target='_blank';a.rel='noreferrer';a.textContent=s.label||('出典 '+(i+1));sources.appendChild(a)
-  });
-  node.querySelector('.checked-at').textContent='確認 '+fmtDate(item.checkedAt);
-  node.querySelector('.priority').textContent=item.priority?'Priority '+item.priority:'';
-  return node;
+
+function getDays(){
+  return [...(state.data?.days||[])].sort((a,b)=>a.date.localeCompare(b.date));
 }
-function makeReference(item,parent){
-  const article=document.createElement('article');
-  article.className='reference-card';
-  const top=document.createElement('div');
-  top.className='reference-top';
-  const title=document.createElement('strong');
-  title.textContent=item.title;
-  const score=document.createElement('span');
-  score.className='reference-score';
-  score.textContent=item.score!=null?item.score+'点':'参考';
-  top.append(title,score);
-  const summary=document.createElement('p');
-  summary.textContent=item.summary||'';
-  const meta=document.createElement('div');
-  meta.className='reference-meta';
-  const source=document.createElement('span');
-  source.textContent=parent.name;
-  meta.appendChild(source);
-  if(item.date){const date=document.createElement('span');date.textContent=item.date;meta.appendChild(date)}
-  article.append(top,summary,meta);
-  if(item.url){
-    const a=document.createElement('a');
-    a.href=item.url;a.target='_blank';a.rel='noreferrer';a.textContent='出典を開く';
-    article.appendChild(a);
-  }
-  return article;
+
+function getDay(){
+  return (state.data?.days||[]).find(x=>x.date===state.date)||{
+    date:state.date,alerts:[],references:[],checks:[]
+  };
 }
+
 function syncUrl(){
   const u=new URL(location.href);
   u.searchParams.set('date',state.date);
   history.replaceState(null,'',u);
 }
+
+function updateDateNav(){
+  const days=getDays();
+  const i=days.findIndex(x=>x.date===state.date);
+  $('prevDay').disabled=i<=0;
+  $('nextDay').disabled=i<0||i>=days.length-1;
+}
+
+function makeNewsCard(item,type){
+  const node=$('newsTemplate').content.firstElementChild.cloneNode(true);
+  node.classList.add(type);
+  node.querySelector('.category-chip').textContent=item.category||'OTHER';
+  const score=node.querySelector('.score-chip');
+  score.textContent=item.score!=null?item.score+'点':'参考';
+  node.querySelector('.news-title').textContent=item.title||'無題';
+  node.querySelector('.news-summary').textContent=item.summary||'';
+  const meta=node.querySelector('.news-meta');
+  if(item.publishedAt){
+    const s=document.createElement('span');
+    s.textContent='発生日 '+item.publishedAt;
+    meta.appendChild(s);
+  }
+  if(item.checkName){
+    const s=document.createElement('span');
+    s.textContent=item.checkName;
+    meta.appendChild(s);
+  }
+  const a=node.querySelector('.news-source');
+  if(item.source?.url){
+    a.href=item.source.url;
+    a.textContent=item.source.label||'出典を開く';
+  }else{
+    a.hidden=true;
+  }
+  return node;
+}
+
+function statusLabel(status){
+  return ({clear:'変化なし',update:'更新あり',error:'エラー',pending:'未確認'})[status]||status;
+}
+
+function makeMonitorRow(item){
+  const node=$('monitorTemplate').content.firstElementChild.cloneNode(true);
+  node.classList.add(item.status||'pending');
+  node.querySelector('.monitor-name').textContent=item.name;
+  node.querySelector('.monitor-text').textContent=item.summary||statusLabel(item.status);
+  node.querySelector('.monitor-time').textContent='確認 '+fmtDateTime(item.checkedAt);
+
+  const counts=node.querySelector('.monitor-counts');
+  const a=document.createElement('span');
+  a.className='count important-count';
+  a.textContent='重要 '+(item.alertCount||0);
+  const r=document.createElement('span');
+  r.className='count reference-count';
+  r.textContent='参考 '+(item.referenceCount||0);
+  counts.append(a,r);
+  return node;
+}
+
 function render(){
-  const data=state.data;if(!data)return;
-  const daily=(data.days||[]).find(x=>x.date===state.date)||{date:state.date,checks:[]};
-  fmtDay(state.date);
-  $('updatedAt').textContent='データ更新 '+fmtDate(data.updatedAt);
-  const checks=daily.checks||[];
-  const alerts=checks.filter(x=>x.status==='update');
+  const day=getDay();
+  fmtDateLabel(state.date);
+  updateDateNav();
+  syncUrl();
+
+  $('updatedAt').textContent='最終更新 '+fmtDateTime(state.data.updatedAt);
+
+  const alerts=day.alerts||[];
+  const references=day.references||[];
+  const checks=day.checks||[];
   const checked=checks.filter(x=>x.status!=='pending');
-  const references=checks.flatMap(parent=>(parent.referenceItems||[]).map(item=>({item,parent})));
+
   $('alertCount').textContent=alerts.length;
   $('referenceCount').textContent=references.length;
   $('checkedCount').textContent=checked.length;
-  $('priorityBadge').textContent=alerts.length+'件';
+  $('alertBadge').textContent=alerts.length+'件';
   $('referenceBadge').textContent=references.length+'件';
-  const p=$('priorityList');p.replaceChildren(...alerts.map(makeCard));
-  $('emptyPriority').hidden=alerts.length>0;
-  const ref=$('referenceList');ref.replaceChildren(...references.map(({item,parent})=>makeReference(item,parent)));
-  $('emptyReference').hidden=references.length>0;
-  const all=$('allList');all.replaceChildren(...[...checks].sort((a,b)=>(a.priority||99)-(b.priority||99)).map(makeCard));
-  syncUrl();
+  $('monitorSummary').textContent=checked.length+'/'+checks.length+' 確認済み';
+
+  $('alertList').replaceChildren(...alerts.map(x=>makeNewsCard(x,'important')));
+  $('referenceList').replaceChildren(...references.map(x=>makeNewsCard(x,'reference')));
+  $('monitorList').replaceChildren(...checks.map(makeMonitorRow));
+
+  $('emptyAlerts').hidden=alerts.length>0;
+  $('emptyReferences').hidden=references.length>0;
 }
-function shiftDay(delta){
-  const d=new Date(state.date+'T00:00:00+09:00');d.setDate(d.getDate()+delta);
-  state.date=d.toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});render();
+
+function moveRecordedDay(delta){
+  const days=getDays();
+  const i=days.findIndex(x=>x.date===state.date);
+  const next=days[i+delta];
+  if(!next)return;
+  state.date=next.date;
+  render();
+  window.scrollTo({top:0,behavior:'smooth'});
 }
+
 async function load(){
   try{
     $('errorMessage').hidden=true;
-    const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);
+    const r=await fetch(DATA_URL+'?v='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
     state.data=await r.json();
+
     const requested=new URLSearchParams(location.search).get('date');
-    state.date=requested||state.data.currentDate||state.data.days?.[0]?.date||new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});
+    const dates=(state.data.days||[]).map(x=>x.date);
+    state.date=dates.includes(requested)
+      ? requested
+      : state.data.currentDate||state.data.days?.[0]?.date;
+
     render();
-  }catch(e){$('errorMessage').textContent='データを読み込めません: '+e.message;$('errorMessage').hidden=false}
+  }catch(e){
+    $('errorMessage').textContent='データを読み込めません: '+e.message;
+    $('errorMessage').hidden=false;
+  }
 }
+
 $('refreshButton').addEventListener('click',load);
-$('prevDay').addEventListener('click',()=>shiftDay(-1));
-$('nextDay').addEventListener('click',()=>shiftDay(1));
+$('prevDay').addEventListener('click',()=>moveRecordedDay(-1));
+$('nextDay').addEventListener('click',()=>moveRecordedDay(1));
 load();
