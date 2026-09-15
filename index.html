@@ -3,18 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0a0d12">
+  <meta name="theme-color" content="#0b0d10">
   <meta name="color-scheme" content="dark">
   <title>Daily Check</title>
-  <meta name="description" content="毎日の監視結果を、重要更新・参考情報・監視状況に分けて確認するダッシュボード">
+  <meta name="description" content="毎日の重要更新と参考情報を確認するダッシュボード">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <main class="shell">
     <header class="hero">
       <div>
-        <p class="eyebrow">DAILY CHECK</p>
-        <h1>今日の更新</h1>
+        <h1>Daily Check</h1>
         <p id="updatedAt" class="muted">読み込み中</p>
       </div>
       <button id="refreshButton" class="icon-button" type="button" aria-label="再読み込み">
@@ -35,72 +34,38 @@
 
     <section class="summary-grid" aria-label="概要">
       <article class="metric metric-alert">
-        <span>重要更新</span>
+        <span>重要</span>
         <strong id="alertCount">0</strong>
       </article>
       <article class="metric metric-reference">
-        <span>参考情報</span>
+        <span>参考</span>
         <strong id="referenceCount">0</strong>
       </article>
       <article class="metric">
-        <span>監視済み</span>
-        <strong id="checkedCount">0</strong>
+        <span>監視</span>
+        <strong id="checkedCount">0/0</strong>
       </article>
     </section>
 
     <section class="section">
-      <div class="section-heading">
-        <div>
-          <p class="section-kicker">IMPORTANT</p>
-          <h2>重要更新</h2>
-        </div>
-        <span id="alertBadge" class="pill">0件</span>
-      </div>
-      <div id="alertList" class="news-list"></div>
-      <div id="emptyAlerts" class="empty-state" hidden>
-        <span class="empty-icon">✓</span>
-        <div>
-          <strong>重要な更新なし</strong>
-          <p>通知条件を満たす新規情報はありません</p>
-        </div>
-      </div>
+      <h2>重要更新</h2>
+      <div id="alertList" class="news-list section-list"></div>
+      <div id="emptyAlerts" class="empty-state" hidden>重要な更新なし</div>
     </section>
 
     <section class="section">
-      <div class="section-heading">
-        <div>
-          <p class="section-kicker">REFERENCE</p>
-          <h2>参考情報</h2>
-        </div>
-        <span id="referenceBadge" class="pill">0件</span>
-      </div>
-      <div id="referenceList" class="news-list"></div>
-      <div id="emptyReferences" class="empty-state" hidden>
-        <span class="empty-icon muted-icon">−</span>
-        <div>
-          <strong>参考情報なし</strong>
-          <p>通知基準未満の新規情報もありません</p>
-        </div>
-      </div>
+      <h2>参考情報</h2>
+      <div id="referenceList" class="news-list section-list"></div>
+      <div id="emptyReferences" class="empty-state" hidden>参考情報なし</div>
     </section>
 
-    <section class="section">
-      <details class="monitor-panel">
-        <summary>
-          <div>
-            <p class="section-kicker">MONITORS</p>
-            <h2>監視状況</h2>
-          </div>
-          <span id="monitorSummary" class="monitor-summary"></span>
-        </summary>
-        <div id="monitorList" class="monitor-list"></div>
-      </details>
-    </section>
-
-    <footer>
-      <span>Daily Check</span>
-      <a href="https://github.com/masakasakasama/Daily_check" target="_blank" rel="noreferrer">GitHub</a>
-    </footer>
+    <details class="monitor-panel">
+      <summary>
+        <span>監視状況</span>
+        <span id="monitorSummary" class="monitor-summary"></span>
+      </summary>
+      <div id="monitorList" class="monitor-list"></div>
+    </details>
 
     <p id="errorMessage" class="error" hidden></p>
   </main>
@@ -114,7 +79,7 @@
       <h3 class="news-title"></h3>
       <p class="news-summary"></p>
       <div class="news-meta"></div>
-      <a class="news-source" target="_blank" rel="noreferrer">出典を開く</a>
+      <a class="news-source" target="_blank" rel="noreferrer"></a>
     </article>
   </template>
 
@@ -128,7 +93,6 @@
         </div>
       </div>
       <div class="monitor-counts"></div>
-      <span class="monitor-time"></span>
     </article>
   </template>
 
