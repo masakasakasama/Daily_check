@@ -18,7 +18,8 @@
           "source": {
             "label": "reuters.com",
             "url": "https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "id": "ai-news-元google-deepmind研究者が高度ai",
@@ -31,7 +32,8 @@
           "source": {
             "label": "reuters.com",
             "url": "https://www.reuters.com/technology/ex-google-deepmind-researcher-adds-warnings-that-ai-could-kill-all-humans-2026-09-15/"
-          }
+          },
+          "thumbnail": "https://i.insider.com/6a561c63eae3978eb7e5d31c?format=jpeg&width=1200"
         },
         {
           "id": "ai-news-ai開発減速論で投資家がai支出の鈍化を警戒",
@@ -44,7 +46,8 @@
           "source": {
             "label": "reuters.com",
             "url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/"
-          }
+          },
+          "thumbnail": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iA4qx_bfE8Q8/v3/piL.vZNnk8fG1FJf0SN7xW9FmdjS0dnCrU/-1x-1.png"
         }
       ],
       "checks": [
@@ -99,7 +102,8 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/world/us-senators-weigh-requiring-ai-giants-commit-preventing-catastrophe-2026-09-14/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         }
       ],
       "references": [
@@ -113,7 +117,8 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "id": "ai-slowdown-market-20260914",
@@ -125,7 +130,8 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "id": "sdv-actia-hpc-20260914",
@@ -137,7 +143,8 @@
           "source": {
             "label": "ACTIA",
             "url": "https://www.actia.com/en/software-defined-vehicle-2/"
-          }
+          },
+          "thumbnail": "https://www.actia.com.cn/uploadfile/202507/a6f5872f7fe3d01.png"
         }
       ],
       "checks": [
@@ -218,7 +225,8 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/legal/government/openai-pushes-mandatory-national-ai-safety-requirements-2026-09-09/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "category": "AI",
@@ -229,7 +237,8 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "category": "AI",
@@ -240,7 +249,8 @@
           "source": {
             "label": "OpenAI",
             "url": "https://openai.com/index/introducing-the-agents-api/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "category": "AI",
@@ -251,7 +261,8 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "category": "AI",
@@ -262,7 +273,8 @@
           "source": {
             "label": "OpenAI",
             "url": "https://openai.com/hugging-face-incident-and-misalignment/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "category": "AI",
@@ -273,7 +285,8 @@
           "source": {
             "label": "OpenAI",
             "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "category": "AI",
@@ -283,7 +296,8 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         }
       ],
       "references": [
@@ -295,7 +309,8 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/world/asia-pacific/openai-says-working-with-samsung-next-generation-chips-deepening-cooperation-2026-09-09/"
-          }
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
         },
         {
           "category": "SDV",
@@ -305,7 +320,8 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/world/asia-pacific/waymo-japanese-partners-target-driverless-taxi-service-tokyo-2027-2026-09-15/"
-          }
+          },
+          "thumbnail": "https://www.actia.com.cn/uploadfile/202507/a6f5872f7fe3d01.png"
         },
         {
           "category": "SDV",
@@ -315,7 +331,8 @@
           "source": {
             "label": "ACTIA",
             "url": "https://www.actia.com/en/software-defined-vehicle-2/"
-          }
+          },
+          "thumbnail": "https://www.actia.com.cn/uploadfile/202507/a6f5872f7fe3d01.png"
         },
         {
           "category": "Codex",
@@ -325,7 +342,8 @@
           "source": {
             "label": "OpenAI Help",
             "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
-          }
+          },
+          "thumbnail": "https://i.gzn.jp/img/2026/04/10/anthropic-building-own-ai-chips/01.jpg"
         }
       ]
     }
