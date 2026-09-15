@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b0d12">
+  <meta name="theme-color" content="#0a0d12">
   <meta name="color-scheme" content="dark">
   <title>Daily Check</title>
-  <meta name="description" content="毎日の監視結果をひとつにまとめるダッシュボード">
+  <meta name="description" content="毎日の監視結果を、重要更新・参考情報・監視状況に分けて確認するダッシュボード">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -14,34 +14,36 @@
     <header class="hero">
       <div>
         <p class="eyebrow">DAILY CHECK</p>
-        <h1>毎日の更新</h1>
+        <h1>今日の更新</h1>
         <p id="updatedAt" class="muted">読み込み中</p>
       </div>
       <button id="refreshButton" class="icon-button" type="button" aria-label="再読み込み">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6v5h-5M4 18v-5h5M18.4 9A7 7 0 0 0 6.8 6.8L4 9m16 6-2.8 2.2A7 7 0 0 1 5.6 15"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 6v5h-5M4 18v-5h5M18.4 9A7 7 0 0 0 6.8 6.8L4 9m16 6-2.8 2.2A7 7 0 0 1 5.6 15"/>
+        </svg>
       </button>
     </header>
 
     <nav class="date-strip" aria-label="日付">
-      <button id="prevDay" class="date-nav" type="button" aria-label="前の日">‹</button>
+      <button id="prevDay" class="date-nav" type="button" aria-label="前の記録">‹</button>
       <div>
         <p id="dayLabel" class="day-label">----</p>
         <p id="weekdayLabel" class="weekday-label">----</p>
       </div>
-      <button id="nextDay" class="date-nav" type="button" aria-label="次の日">›</button>
+      <button id="nextDay" class="date-nav" type="button" aria-label="次の記録">›</button>
     </nav>
 
     <section class="summary-grid" aria-label="概要">
-      <article class="metric">
-        <span>更新あり</span>
+      <article class="metric metric-alert">
+        <span>重要更新</span>
         <strong id="alertCount">0</strong>
       </article>
-      <article class="metric">
+      <article class="metric metric-reference">
         <span>参考情報</span>
         <strong id="referenceCount">0</strong>
       </article>
       <article class="metric">
-        <span>確認済み</span>
+        <span>監視済み</span>
         <strong id="checkedCount">0</strong>
       </article>
     </section>
@@ -49,17 +51,17 @@
     <section class="section">
       <div class="section-heading">
         <div>
-          <p class="section-kicker">PRIORITY</p>
-          <h2>更新あり</h2>
+          <p class="section-kicker">IMPORTANT</p>
+          <h2>重要更新</h2>
         </div>
-        <span id="priorityBadge" class="pill">0件</span>
+        <span id="alertBadge" class="pill">0件</span>
       </div>
-      <div id="priorityList" class="card-list"></div>
-      <div id="emptyPriority" class="empty-state" hidden>
+      <div id="alertList" class="news-list"></div>
+      <div id="emptyAlerts" class="empty-state" hidden>
         <span class="empty-icon">✓</span>
         <div>
           <strong>重要な更新なし</strong>
-          <p>通知条件に該当する新規情報はありません</p>
+          <p>通知条件を満たす新規情報はありません</p>
         </div>
       </div>
     </section>
@@ -72,9 +74,9 @@
         </div>
         <span id="referenceBadge" class="pill">0件</span>
       </div>
-      <div id="referenceList" class="reference-list"></div>
-      <div id="emptyReference" class="empty-state" hidden>
-        <span class="empty-icon">−</span>
+      <div id="referenceList" class="news-list"></div>
+      <div id="emptyReferences" class="empty-state" hidden>
+        <span class="empty-icon muted-icon">−</span>
         <div>
           <strong>参考情報なし</strong>
           <p>通知基準未満の新規情報もありません</p>
@@ -83,39 +85,50 @@
     </section>
 
     <section class="section">
-      <div class="section-heading">
-        <div>
-          <p class="section-kicker">ALL CHECKS</p>
-          <h2>監視一覧</h2>
-        </div>
-      </div>
-      <div id="allList" class="card-list"></div>
+      <details class="monitor-panel">
+        <summary>
+          <div>
+            <p class="section-kicker">MONITORS</p>
+            <h2>監視状況</h2>
+          </div>
+          <span id="monitorSummary" class="monitor-summary"></span>
+        </summary>
+        <div id="monitorList" class="monitor-list"></div>
+      </details>
     </section>
 
     <footer>
-      <p>Daily Check</p>
+      <span>Daily Check</span>
       <a href="https://github.com/masakasakasama/Daily_check" target="_blank" rel="noreferrer">GitHub</a>
     </footer>
 
     <p id="errorMessage" class="error" hidden></p>
   </main>
 
-  <template id="cardTemplate">
-    <article class="check-card">
-      <div class="card-top">
-        <div class="title-row">
-          <span class="status-dot"></span>
-          <h3 class="card-title"></h3>
+  <template id="newsTemplate">
+    <article class="news-card">
+      <div class="news-top">
+        <span class="category-chip"></span>
+        <span class="score-chip"></span>
+      </div>
+      <h3 class="news-title"></h3>
+      <p class="news-summary"></p>
+      <div class="news-meta"></div>
+      <a class="news-source" target="_blank" rel="noreferrer">出典を開く</a>
+    </article>
+  </template>
+
+  <template id="monitorTemplate">
+    <article class="monitor-row">
+      <div class="monitor-main">
+        <span class="status-dot"></span>
+        <div>
+          <strong class="monitor-name"></strong>
+          <p class="monitor-text"></p>
         </div>
-        <span class="status-chip"></span>
       </div>
-      <p class="card-summary"></p>
-      <ul class="detail-list"></ul>
-      <div class="source-list"></div>
-      <div class="card-meta">
-        <span class="checked-at"></span>
-        <span class="priority"></span>
-      </div>
+      <div class="monitor-counts"></div>
+      <span class="monitor-time"></span>
     </article>
   </template>
 
