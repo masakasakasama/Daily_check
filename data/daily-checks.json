@@ -1,7 +1,7 @@
 {
   "version": 4,
   "currentDate": "2026-09-15",
-  "updatedAt": "2026-09-15T19:47:32+09:00",
+  "updatedAt": "2026-09-15T20:35:00+09:00",
   "days": [
     {
       "date": "2026-09-15",
@@ -45,19 +45,6 @@
             "label": "reuters.com",
             "url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/"
           }
-        },
-        {
-          "id": "sdv-nissan-actia-hpcでcockpit-ai-ada",
-          "category": "SDV",
-          "score": 60,
-          "title": "ACTIA、HPCでCockpit・AI・ADASを統合するSDVデモ",
-          "summary": "単一HPC上でHMI、ADAS、AI、コネクティビティを統合。SDV実装として有用だが9/14発表で今日の重大新規ではない",
-          "publishedAt": "2026/09/14",
-          "checkName": "SDV / Nissanニュース",
-          "source": {
-            "label": "actia.com",
-            "url": "https://www.actia.com/en/software-defined-vehicle-2/"
-          }
         }
       ],
       "checks": [
@@ -77,7 +64,7 @@
           "summary": "重要更新なし",
           "checkedAt": "2026-09-15T19:47:32+09:00",
           "alertCount": 0,
-          "referenceCount": 1
+          "referenceCount": 0
         },
         {
           "id": "codex-reset",
@@ -103,11 +90,11 @@
       "date": "2026-09-14",
       "alerts": [
         {
-          "id": "ai-us-senate-catastrophe-safeguards",
+          "id": "ai-us-senate-safety-bill-20260914",
           "category": "AI",
-          "score": 78,
-          "title": "米上院、AI企業に重大事故防止策を義務付ける法案を検討",
-          "summary": "フロンティアAI企業に安全対策の立証や政府監査を求める案。成立前だが、実現すれば米国のAI開発ルールを大きく変え得る",
+          "score": 82,
+          "title": "米上院、AI大手に重大事故防止策を求める法案を検討",
+          "summary": "先端AI企業に安全対策の証明や政府監査を求める案。成立前だが、米国のAI規制枠組みに直結するため重要度は高い",
           "publishedAt": "2026/09/14",
           "source": {
             "label": "Reuters",
@@ -117,51 +104,39 @@
       ],
       "references": [
         {
-          "id": "ai-microsoft-human-control-code",
+          "id": "ai-anthropic-financial-advisors-20260914",
           "category": "AI",
-          "score": 72,
-          "title": "Microsoft、AIを人間の制御下に置く行動規範案を公表",
-          "summary": "AIは修正や停止を受け入れ、人間に理解可能な形で振る舞うことを求める社内ルール案を公開",
+          "score": 68,
+          "title": "Anthropic、金融アドバイザー向けClaudeを発表",
+          "summary": "BlackRockやSchwabなどの金融ツールと接続し、面談準備やポートフォリオレビューを支援する業界特化型展開",
           "publishedAt": "2026/09/14",
           "source": {
             "label": "Reuters",
-            "url": "https://www.reuters.com/legal/litigation/microsoft-drafts-code-conduct-keep-its-ai-under-human-control-2026-09-14/"
+            "url": "https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/"
           }
         },
         {
-          "id": "ai-deepseek-cfo-ipo",
+          "id": "ai-slowdown-market-20260914",
           "category": "AI",
-          "score": 62,
-          "title": "DeepSeek、IPO準備を見据え初のCFO起用へ",
-          "summary": "研究組織から企業体への移行を進め、資金調達・上場準備を強化",
+          "score": 60,
+          "title": "AI開発減速論で半導体株などが下落",
+          "summary": "AI安全性を巡る減速論が市場に波及。技術そのものの新規発表ではないため参考扱い",
           "publishedAt": "2026/09/14",
           "source": {
             "label": "Reuters",
-            "url": "https://www.reuters.com/legal/government/chinas-deepseek-hires-dealmaker-cfo-ahead-possible-ipo-2026-09-14/"
+            "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/"
           }
         },
         {
-          "id": "sdv-actia-hpc-iaa",
+          "id": "sdv-actia-hpc-20260914",
           "category": "SDV",
           "score": 60,
           "title": "ACTIA、単一HPCでCockpit・AI・ADASを統合するSDVデモ",
-          "summary": "1台のHPCでデジタルコックピット、AI、ADAS、通信、ソフトウェアサービスを統合する商用車向けSDV構成を公開",
+          "summary": "単一HPC上にデジタルコックピット、AI、ADAS、接続機能を統合。商用車向けSDV実装として参考度が高い",
           "publishedAt": "2026/09/14",
           "source": {
             "label": "ACTIA",
             "url": "https://www.actia.com/en/software-defined-vehicle-2/"
-          }
-        },
-        {
-          "id": "sdv-waymo-las-vegas",
-          "category": "SDV",
-          "score": 58,
-          "title": "Waymo、ラスベガスで一般向け自動運転配車を開始へ",
-          "summary": "ロボタクシーの商用展開地域をネバダ州へ拡大。SDVコア基盤ではないため参考扱い",
-          "publishedAt": "2026/09/14",
-          "source": {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/business/autos-transportation/waymo-bring-autonomous-ride-hailing-las-vegas-2026-09-14/"
           }
         }
       ],
@@ -170,7 +145,7 @@
           "id": "ai-news",
           "name": "AIニュース",
           "status": "update",
-          "summary": "重要1件・参考2件",
+          "summary": "重要1件、参考2件",
           "checkedAt": "2026-09-15T20:35:00+09:00",
           "alertCount": 1,
           "referenceCount": 2
@@ -179,16 +154,16 @@
           "id": "sdv-nissan",
           "name": "SDV / Nissanニュース",
           "status": "clear",
-          "summary": "Nissan重大新規なし・SDV参考2件",
+          "summary": "重要更新なし、参考1件",
           "checkedAt": "2026-09-15T20:35:00+09:00",
           "alertCount": 0,
-          "referenceCount": 2
+          "referenceCount": 1
         },
         {
           "id": "codex-reset",
           "name": "Codexリセット時刻監視",
           "status": "clear",
-          "summary": "9/14の新規公式確定情報なし",
+          "summary": "新しい公式確定情報なし",
           "checkedAt": "2026-09-15T20:35:00+09:00",
           "alertCount": 0,
           "referenceCount": 0
@@ -197,7 +172,7 @@
           "id": "permanent-residency",
           "name": "主要国の永住条件",
           "status": "clear",
-          "summary": "9/14の実質的な制度変更なし",
+          "summary": "実質的な制度変更なし",
           "checkedAt": "2026-09-15T20:35:00+09:00",
           "alertCount": 0,
           "referenceCount": 0
