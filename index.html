@@ -186,6 +186,14 @@
     .section{
       margin-top:26px;
     }
+    .missing-state{
+      margin-top:18px;
+      padding:12px 0;
+      border-top:1px solid var(--line-soft);
+      border-bottom:1px solid var(--line-soft);
+      color:var(--muted);
+      font-size:11px;
+    }
     .section-head{
       display:flex;
       align-items:center;
@@ -436,7 +444,9 @@
         <div class="stat"><span class="stat-label">監視</span><strong id="checkedCount" class="stat-value">0/0</strong></div>
       </div>
 
-      <section class="section">
+      <div id="missingState" class="missing-state" hidden>この日は未実行</div>
+
+      <section id="importantSection" class="section">
         <div class="section-head">
           <h2>重要更新</h2>
           <span id="alertSectionCount" class="section-count"></span>
@@ -445,7 +455,7 @@
         <div id="emptyAlerts" class="empty-line" hidden>通知条件を満たす新規情報なし</div>
       </section>
 
-      <section class="section">
+      <section id="referenceSection" class="section">
         <div class="section-head">
           <h2>参考情報</h2>
           <span id="referenceSectionCount" class="section-count"></span>
@@ -454,7 +464,7 @@
         <div id="emptyReferences" class="empty-line" hidden>新規の参考情報なし</div>
       </section>
 
-      <details class="monitor">
+      <details id="monitorPanel" class="monitor">
         <summary>
           <span>監視状況</span>
           <span id="monitorSummary"></span>
@@ -533,7 +543,7 @@
     }
     function getWeek(){
       const weeks=state.data?.weeks||[];
-      return weeks.find(w=>state.date>=w.start&&state.date<=w.end)||weeks[0]||null;
+      return weeks.find(w=>state.date>=w.start&&state.date<=w.end)||null;
     }
     function syncUrl(){
       const u=new URL(location.href);
@@ -675,7 +685,16 @@
     }
     function renderWeek(){
       const week=getWeek();
-      if(!week)return;
+      if(!week){
+        setText('weekPeriod','');
+        setText('weekHeadline','この日を含む7日サマリーはまだありません');
+        $('weekCategories')?.replaceChildren();
+        $('weekHighlights')?.replaceChildren();
+        $('weekReferences')?.replaceChildren();
+        setText('weekHighlightCount','');
+        setText('weekMoreSummary','0件');
+        return;
+      }
 
       setText('weekPeriod',shortDate(week.start)+' – '+shortDate(week.end));
       setText('weekHeadline',week.headline||'');
@@ -733,8 +752,7 @@
 
         const params=new URLSearchParams(location.search);
         const requested=params.get('date');
-        const dates=(state.data.days||[]).map(x=>x.date);
-        state.date=dates.includes(requested)
+        state.date=/^\d{4}-\d{2}-\d{2}$/.test(requested||'')
           ? requested
           : state.data.currentDate||state.data.days?.[0]?.date;
         state.view=params.get('view')==='week'?'week':'day';
@@ -748,8 +766,8 @@
     }
 
     $('refreshButton')?.addEventListener('click',load);
-    $('prevDay')?.addEventListener('click',()=>moveRecordedDay(-1));
-    $('nextDay')?.addEventListener('click',()=>moveRecordedDay(1));
+    $('prevDay')?.addEventListener('click',()=>moveCalendarDay(-1));
+    $('nextDay')?.addEventListener('click',()=>moveCalendarDay(1));
     $('dayMode')?.addEventListener('click',()=>setView('day'));
     $('weekMode')?.addEventListener('click',()=>setView('week'));
     load();
