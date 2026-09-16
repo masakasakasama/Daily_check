@@ -1,1 +1,383 @@
-{"version":5,"currentDate":"2026-09-16","updatedAt":"2026-09-16T07:58:08+09:00","days":[{"date":"2026-09-16","alerts":[{"id":"ai-frontier-labs-safety-coordination-20260916","category":"AI","score":78,"title":"OpenAI・Anthropic・Google DeepMind、AI安全で共同調整","summary":"OpenAIのChris Lehaneが、AnthropicとGoogle DeepMindとの安全協議を数週間続けていると明らかにした。重大AIリスクへの超党派法制も支持する姿勢で、主要フロンティアラボ間の安全協調が具体化","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--a1pzn6iZ--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T145254Z_2_LYNXMPEM8E1DU_RTROPTP_3_OPENAI-FINANCIAL-SERVICES.JPG%3Fitok%3D8TO_QSNL&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"}}],"references":[{"id":"sdv-tesla-cybercab-nhtsa-20260916","category":"SDV","score":68,"title":"NHTSA、TeslaにCybercab自己認証の詳細回答を要求","summary":"米NHTSAがTeslaに9月30日までの回答を要求。ステアリングやペダルを持たないCybercabが現行安全基準へどう適合したか、暫定的な人間操作系の利用有無などを確認する","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--d2roOR0B--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T195428Z_2_LYNXMPEM8E1TK_RTROPTP_3_TESLA-CYBERCAB.JPG%3Fitok%3DmWlVN3ex&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/business/autos-transportation/us-agency-orders-tesla-answer-questions-cybercab-certification-2026-09-15/"}}],"checks":[{"id":"ai-news","name":"AIニュース","status":"update","summary":"75点以上1件","checkedAt":"2026-09-16T07:58:08+09:00","alertCount":1,"referenceCount":0},{"id":"sdv-nissan","name":"SDV / Nissanニュース","status":"clear","summary":"Nissan重大新規なし、SDV参考1件","checkedAt":"2026-09-16T07:58:08+09:00","alertCount":0,"referenceCount":1},{"id":"codex-reset","name":"Codexリセット時刻監視","status":"clear","summary":"前回確認以降の新しい公式確定情報なし","checkedAt":"2026-09-16T07:58:08+09:00","alertCount":0,"referenceCount":0},{"id":"permanent-residency","name":"主要国の永住条件","status":"clear","summary":"主要国の永住条件そのものの実質的変更なし","checkedAt":"2026-09-16T07:58:08+09:00","alertCount":0,"referenceCount":0}]},{"date":"2026-09-15","alerts":[],"references":[{"id":"ai-kisa-agent-security-20260915","category":"AI","score":68,"title":"韓国KISA、自律AIエージェント向けセキュリティ指針を改定へ","summary":"エージェント型AIの権限制御・監督リスクを対象にAI Security Guideを更新。Physical AI向け共通統制も検討","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fbiz.chosun.com%2Fresizer%2Fv2%2FNHBJ2J3XIBBTND7KT4AV5F5HPY.jpg%3Fauth%3Dc6d2b89a16d69e49d3e44b02b68ad3bb22edb32ddb3d6f315212ffe6af627788%26height%3D2998%26smart%3Dtrue%26width%3D4500&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"}},{"id":"ai-gates-governments-behind-20260915","category":"AI","score":62,"title":"Bill Gates「各国政府はAIによる社会変化への準備が大幅に遅れている」","summary":"雇用・サイバー攻撃・AI依存への懸念を示す一方、Gates FoundationはAI活用拡大へ今後2年で10億ドル投資","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fi.insider.com%2F694a2adb64858d02d2174c59%3Fauto%3Dwebp%26format%3Djpeg%26width%3D600&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/world/asia-pacific/governments-worldwide-are-way-behind-ai-says-bill-gates-2026-09-15/"}},{"id":"ai-mediatek-9600pro-2nm-20260915","category":"AI","score":66,"title":"MediaTek、TSMC 2nm採用Dimensity 9600 Proを発表","summary":"オンデバイス生成AI向けNPU性能を前世代比51%向上。スマホ側AI処理の性能競争がさらに加速","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fcdn.arttimes.vn%2Fupload%2F3-2025%2Fimages%2F2025-09-22%2Fmediatek-2nm--2--1758513783-791-width1200height630.jpg&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/"}},{"id":"ai-sb-energy-ipo-20260915","category":"AI","score":58,"title":"SoftBank系SB Energy、米IPOで日本投資家に最大5億ドル分を販売へ","summary":"AIデータセンターと電力インフラ拡張の資金調達。Nvidiaは15億ドル投資、OpenAIもワラントを保有","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F03%2F21%2F530515.jpg&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/business/energy/sb-energy-sell-up-500-million-shares-japan-investors-part-us-ipo-2026-09-15/"}},{"id":"sdv-waymo-tokyo-2027-20260915","category":"SDV","score":72,"title":"Waymo・GO・日本交通、東京で2027年の完全無人タクシー開始を目標","summary":"規制承認と技術検証を前提に小規模フリートから開始し、約100台へ拡大する計画。日本でのL4商用化が具体化","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F01%2F25%2F517473.jpg&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/world/asia-pacific/waymo-japanese-partners-target-driverless-taxi-service-tokyo-2027-2026-09-15/"}}],"checks":[{"id":"ai-news","name":"AIニュース","status":"clear","summary":"75点以上なし、参考4件","checkedAt":"2026-09-15T20:50:31+09:00","alertCount":0,"referenceCount":4},{"id":"sdv-nissan","name":"SDV / Nissanニュース","status":"clear","summary":"Nissan重大新規なし、SDV参考1件","checkedAt":"2026-09-15T20:50:31+09:00","alertCount":0,"referenceCount":1},{"id":"codex-reset","name":"Codexリセット時刻監視","status":"clear","summary":"新しい公式確定情報なし","checkedAt":"2026-09-15T20:50:31+09:00","alertCount":0,"referenceCount":0},{"id":"permanent-residency","name":"主要国の永住条件","status":"clear","summary":"実質的な制度変更なし","checkedAt":"2026-09-15T20:50:31+09:00","alertCount":0,"referenceCount":0}]},{"date":"2026-09-14","alerts":[{"id":"ai-us-senate-safety-bill-20260914","category":"AI","score":82,"title":"米上院、AI大手に重大事故防止策を求める法案を検討","summary":"先端AI企業に安全対策の証明や政府監査を求める案。成立前だが、米国のAI規制枠組みに直結するため重要度は高い","publishedAt":"2026/09/14","source":{"label":"Reuters","url":"https://www.reuters.com/world/us-senators-weigh-requiring-ai-giants-commit-preventing-catastrophe-2026-09-14/"},"thumbnail":"https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"}],"references":[{"id":"ai-anthropic-financial-advisors-20260914","category":"AI","score":68,"title":"Anthropic、金融アドバイザー向けClaudeを発表","summary":"BlackRockやSchwabなどの金融ツールと接続し、面談準備やポートフォリオレビューを支援する業界特化型展開","publishedAt":"2026/09/14","source":{"label":"Reuters","url":"https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/"},"thumbnail":"https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg?width=480"},{"id":"ai-slowdown-market-20260914","category":"AI","score":60,"title":"AI開発減速論で半導体株などが下落","summary":"AI安全性を巡る減速論が市場に波及。技術そのものの新規発表ではないため参考扱い","publishedAt":"2026/09/14","source":{"label":"Reuters","url":"https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/"},"thumbnail":"https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter_Server_Racks_%2822370909788%29.jpg?width=480"},{"id":"sdv-actia-hpc-20260914","category":"SDV","score":60,"title":"ACTIA、単一HPCでCockpit・AI・ADASを統合するSDVデモ","summary":"単一HPC上にデジタルコックピット、AI、ADAS、接続機能を統合。商用車向けSDV実装として参考度が高い","publishedAt":"2026/09/14","source":{"label":"ACTIA","url":"https://www.actia.com/en/software-defined-vehicle-2/"},"thumbnail":"https://www.mondomacchina.it/ew/ew_rivista/images/imageset/superbig_HPC-PHOTO-02%2011%202025.jpg"}],"checks":[{"id":"ai-news","name":"AIニュース","status":"update","summary":"重要1件、参考2件","checkedAt":"2026-09-15T20:35:00+09:00","alertCount":1,"referenceCount":2},{"id":"sdv-nissan","name":"SDV / Nissanニュース","status":"clear","summary":"重要更新なし、参考1件","checkedAt":"2026-09-15T20:35:00+09:00","alertCount":0,"referenceCount":1},{"id":"codex-reset","name":"Codexリセット時刻監視","status":"clear","summary":"新しい公式確定情報なし","checkedAt":"2026-09-15T20:35:00+09:00","alertCount":0,"referenceCount":0},{"id":"permanent-residency","name":"主要国の永住条件","status":"clear","summary":"実質的な制度変更なし","checkedAt":"2026-09-15T20:35:00+09:00","alertCount":0,"referenceCount":0}]}],"weeks":[{"start":"2026-09-10","end":"2026-09-16","generatedAt":"2026-09-16T07:58:08+09:00","headline":"AIは安全性・規制の具体的協調が進展。SDVは東京ロボタクシーとCybercab認証問題、Codexはリセット仕様に新規確定なし。永住条件は実質変更なし","counts":{"important":8,"reference":5},"categories":[{"name":"AI","summary":"安全性・規制が最重要。OpenAI・Anthropic・Google DeepMindの安全協調が具体化し、米国の規制議論も継続"},{"name":"SDV","summary":"Waymo東京2027計画に続き、Tesla Cybercabの自己認証をNHTSAが精査。L4商用化と認証制度が焦点"},{"name":"Codex","summary":"保存済みフルリセットで5時間枠と週次枠が同時更新される既知仕様から、前回確認以降の新しい公式確定情報なし"},{"name":"永住","summary":"9/10〜9/16に主要国の永住条件そのものを変える実質的な新規変更は確認できず"}],"highlights":[{"id":"ai-frontier-labs-safety-coordination-20260916","category":"AI","score":78,"title":"OpenAI・Anthropic・Google DeepMind、AI安全で共同調整","summary":"主要フロンティアラボ間で安全協議が数週間継続していることが明らかになり、業界横断の安全標準化が具体化","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--a1pzn6iZ--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T145254Z_2_LYNXMPEM8E1DU_RTROPTP_3_OPENAI-FINANCIAL-SERVICES.JPG%3Fitok%3D8TO_QSNL&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"}},{"id":"ai-us-senate-safety-bill-20260914","category":"AI","score":82,"title":"米上院、AI大手に重大事故防止策を求める法案を検討","summary":"先端AI企業への安全証明・政府監査を巡る米国の制度化議論","publishedAt":"2026/09/14","thumbnail":"https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg","source":{"label":"Reuters","url":"https://www.reuters.com/world/us-senators-weigh-requiring-ai-giants-commit-preventing-catastrophe-2026-09-14/"}},{"id":"sdv-waymo-tokyo-2027-20260915","category":"SDV","score":72,"title":"Waymo・GO・日本交通、東京で2027年の完全無人タクシー開始を目標","summary":"日本でのL4商用化が具体化","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F01%2F25%2F517473.jpg&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/world/asia-pacific/waymo-japanese-partners-target-driverless-taxi-service-tokyo-2027-2026-09-15/"}}],"references":[{"id":"sdv-tesla-cybercab-nhtsa-20260916","category":"SDV","score":68,"title":"NHTSA、TeslaにCybercab自己認証の詳細回答を要求","summary":"ステアリングやペダルを持たないL4車両の現行安全基準への適合方法をNHTSAが精査","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--d2roOR0B--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T195428Z_2_LYNXMPEM8E1TK_RTROPTP_3_TESLA-CYBERCAB.JPG%3Fitok%3DmWlVN3ex&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/business/autos-transportation/us-agency-orders-tesla-answer-questions-cybercab-certification-2026-09-15/"}},{"id":"ai-kisa-agent-security-20260915","category":"AI","score":68,"title":"韓国KISA、自律AIエージェント向けセキュリティ指針を改定へ","summary":"エージェント型AIの権限制御・監督リスクを対象にガイド更新","publishedAt":"2026/09/15","thumbnail":"https://images.weserv.nl/?url=https%3A%2F%2Fbiz.chosun.com%2Fresizer%2Fv2%2FNHBJ2J3XIBBTND7KT4AV5F5HPY.jpg%3Fauth%3Dc6d2b89a16d69e49d3e44b02b68ad3bb22edb32ddb3d6f315212ffe6af627788%26height%3D2998%26smart%3Dtrue%26width%3D4500&w=240&h=160&fit=cover&output=webp","source":{"label":"Reuters","url":"https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"}}]}]}
+{
+  "version": 5,
+  "currentDate": "2026-09-16",
+  "updatedAt": "2026-09-16T09:08:52+09:00",
+  "days": [
+    {
+      "date": "2026-09-16",
+      "alerts": [
+        {
+          "id": "ai-frontier-labs-safety-coordination-20260916",
+          "category": "AI",
+          "score": 78,
+          "title": "OpenAI・Anthropic・Google DeepMind、AI安全で共同調整",
+          "summary": "OpenAIのChris Lehaneが、AnthropicとGoogle DeepMindとの安全協議を数週間続けていると明らかにした。重大AIリスクへの超党派法制も支持する姿勢で、主要フロンティアラボ間の安全協調が具体化",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--a1pzn6iZ--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T145254Z_2_LYNXMPEM8E1DU_RTROPTP_3_OPENAI-FINANCIAL-SERVICES.JPG%3Fitok%3D8TO_QSNL&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "sdv-tesla-cybercab-nhtsa-20260916",
+          "category": "SDV",
+          "score": 68,
+          "title": "NHTSA、TeslaにCybercab自己認証の詳細回答を要求",
+          "summary": "米NHTSAがTeslaに9月30日までの回答を要求。ステアリングやペダルを持たないCybercabが現行安全基準へどう適合したか、暫定的な人間操作系の利用有無などを確認する",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--d2roOR0B--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T195428Z_2_LYNXMPEM8E1TK_RTROPTP_3_TESLA-CYBERCAB.JPG%3Fitok%3DmWlVN3ex&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/autos-transportation/us-agency-orders-tesla-answer-questions-cybercab-certification-2026-09-15/"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai-news",
+          "name": "AIニュース",
+          "status": "update",
+          "summary": "07:58以降の追加重要更新なし",
+          "checkedAt": "2026-09-16T09:08:52+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV / Nissanニュース",
+          "status": "clear",
+          "summary": "07:58以降の追加重要更新なし",
+          "checkedAt": "2026-09-16T09:08:52+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex-reset",
+          "name": "Codexリセット時刻監視",
+          "status": "clear",
+          "summary": "07:58以降の新しい公式確定情報なし",
+          "checkedAt": "2026-09-16T09:08:52+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "permanent-residency",
+          "name": "主要国の永住条件",
+          "status": "clear",
+          "summary": "07:58以降の実質的な制度変更なし",
+          "checkedAt": "2026-09-16T09:08:52+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "alerts": [],
+      "references": [
+        {
+          "id": "ai-kisa-agent-security-20260915",
+          "category": "AI",
+          "score": 68,
+          "title": "韓国KISA、自律AIエージェント向けセキュリティ指針を改定へ",
+          "summary": "エージェント型AIの権限制御・監督リスクを対象にAI Security Guideを更新。Physical AI向け共通統制も検討",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fbiz.chosun.com%2Fresizer%2Fv2%2FNHBJ2J3XIBBTND7KT4AV5F5HPY.jpg%3Fauth%3Dc6d2b89a16d69e49d3e44b02b68ad3bb22edb32ddb3d6f315212ffe6af627788%26height%3D2998%26smart%3Dtrue%26width%3D4500&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"
+          }
+        },
+        {
+          "id": "ai-gates-governments-behind-20260915",
+          "category": "AI",
+          "score": 62,
+          "title": "Bill Gates「各国政府はAIによる社会変化への準備が大幅に遅れている」",
+          "summary": "雇用・サイバー攻撃・AI依存への懸念を示す一方、Gates FoundationはAI活用拡大へ今後2年で10億ドル投資",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fi.insider.com%2F694a2adb64858d02d2174c59%3Fauto%3Dwebp%26format%3Djpeg%26width%3D600&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/governments-worldwide-are-way-behind-ai-says-bill-gates-2026-09-15/"
+          }
+        },
+        {
+          "id": "ai-mediatek-9600pro-2nm-20260915",
+          "category": "AI",
+          "score": 66,
+          "title": "MediaTek、TSMC 2nm採用Dimensity 9600 Proを発表",
+          "summary": "オンデバイス生成AI向けNPU性能を前世代比51%向上。スマホ側AI処理の性能競争がさらに加速",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fcdn.arttimes.vn%2Fupload%2F3-2025%2Fimages%2F2025-09-22%2Fmediatek-2nm--2--1758513783-791-width1200height630.jpg&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/"
+          }
+        },
+        {
+          "id": "ai-sb-energy-ipo-20260915",
+          "category": "AI",
+          "score": 58,
+          "title": "SoftBank系SB Energy、米IPOで日本投資家に最大5億ドル分を販売へ",
+          "summary": "AIデータセンターと電力インフラ拡張の資金調達。Nvidiaは15億ドル投資、OpenAIもワラントを保有",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F03%2F21%2F530515.jpg&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/energy/sb-energy-sell-up-500-million-shares-japan-investors-part-us-ipo-2026-09-15/"
+          }
+        },
+        {
+          "id": "sdv-waymo-tokyo-2027-20260915",
+          "category": "SDV",
+          "score": 72,
+          "title": "Waymo・GO・日本交通、東京で2027年の完全無人タクシー開始を目標",
+          "summary": "規制承認と技術検証を前提に小規模フリートから開始し、約100台へ拡大する計画。日本でのL4商用化が具体化",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F01%2F25%2F517473.jpg&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/waymo-japanese-partners-target-driverless-taxi-service-tokyo-2027-2026-09-15/"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai-news",
+          "name": "AIニュース",
+          "status": "clear",
+          "summary": "75点以上なし、参考4件",
+          "checkedAt": "2026-09-15T20:50:31+09:00",
+          "alertCount": 0,
+          "referenceCount": 4
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV / Nissanニュース",
+          "status": "clear",
+          "summary": "Nissan重大新規なし、SDV参考1件",
+          "checkedAt": "2026-09-15T20:50:31+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex-reset",
+          "name": "Codexリセット時刻監視",
+          "status": "clear",
+          "summary": "新しい公式確定情報なし",
+          "checkedAt": "2026-09-15T20:50:31+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "permanent-residency",
+          "name": "主要国の永住条件",
+          "status": "clear",
+          "summary": "実質的な制度変更なし",
+          "checkedAt": "2026-09-15T20:50:31+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "alerts": [
+        {
+          "id": "ai-us-senate-safety-bill-20260914",
+          "category": "AI",
+          "score": 82,
+          "title": "米上院、AI大手に重大事故防止策を求める法案を検討",
+          "summary": "先端AI企業に安全対策の証明や政府監査を求める案。成立前だが、米国のAI規制枠組みに直結するため重要度は高い",
+          "publishedAt": "2026/09/14",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/us-senators-weigh-requiring-ai-giants-commit-preventing-catastrophe-2026-09-14/"
+          },
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
+        }
+      ],
+      "references": [
+        {
+          "id": "ai-anthropic-financial-advisors-20260914",
+          "category": "AI",
+          "score": 68,
+          "title": "Anthropic、金融アドバイザー向けClaudeを発表",
+          "summary": "BlackRockやSchwabなどの金融ツールと接続し、面談準備やポートフォリオレビューを支援する業界特化型展開",
+          "publishedAt": "2026/09/14",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/"
+          },
+          "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg?width=480"
+        },
+        {
+          "id": "ai-slowdown-market-20260914",
+          "category": "AI",
+          "score": 60,
+          "title": "AI開発減速論で半導体株などが下落",
+          "summary": "AI安全性を巡る減速論が市場に波及。技術そのものの新規発表ではないため参考扱い",
+          "publishedAt": "2026/09/14",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/"
+          },
+          "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter_Server_Racks_%2822370909788%29.jpg?width=480"
+        },
+        {
+          "id": "sdv-actia-hpc-20260914",
+          "category": "SDV",
+          "score": 60,
+          "title": "ACTIA、単一HPCでCockpit・AI・ADASを統合するSDVデモ",
+          "summary": "単一HPC上にデジタルコックピット、AI、ADAS、接続機能を統合。商用車向けSDV実装として参考度が高い",
+          "publishedAt": "2026/09/14",
+          "source": {
+            "label": "ACTIA",
+            "url": "https://www.actia.com/en/software-defined-vehicle-2/"
+          },
+          "thumbnail": "https://www.mondomacchina.it/ew/ew_rivista/images/imageset/superbig_HPC-PHOTO-02%2011%202025.jpg"
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai-news",
+          "name": "AIニュース",
+          "status": "update",
+          "summary": "重要1件、参考2件",
+          "checkedAt": "2026-09-15T20:35:00+09:00",
+          "alertCount": 1,
+          "referenceCount": 2
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV / Nissanニュース",
+          "status": "clear",
+          "summary": "重要更新なし、参考1件",
+          "checkedAt": "2026-09-15T20:35:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex-reset",
+          "name": "Codexリセット時刻監視",
+          "status": "clear",
+          "summary": "新しい公式確定情報なし",
+          "checkedAt": "2026-09-15T20:35:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "permanent-residency",
+          "name": "主要国の永住条件",
+          "status": "clear",
+          "summary": "実質的な制度変更なし",
+          "checkedAt": "2026-09-15T20:35:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "start": "2026-09-10",
+      "end": "2026-09-16",
+      "generatedAt": "2026-09-16T07:58:08+09:00",
+      "headline": "AIは安全性・規制の具体的協調が進展。SDVは東京ロボタクシーとCybercab認証問題、Codexはリセット仕様に新規確定なし。永住条件は実質変更なし",
+      "counts": {
+        "important": 8,
+        "reference": 5
+      },
+      "categories": [
+        {
+          "name": "AI",
+          "summary": "安全性・規制が最重要。OpenAI・Anthropic・Google DeepMindの安全協調が具体化し、米国の規制議論も継続"
+        },
+        {
+          "name": "SDV",
+          "summary": "Waymo東京2027計画に続き、Tesla Cybercabの自己認証をNHTSAが精査。L4商用化と認証制度が焦点"
+        },
+        {
+          "name": "Codex",
+          "summary": "保存済みフルリセットで5時間枠と週次枠が同時更新される既知仕様から、前回確認以降の新しい公式確定情報なし"
+        },
+        {
+          "name": "永住",
+          "summary": "9/10〜9/16に主要国の永住条件そのものを変える実質的な新規変更は確認できず"
+        }
+      ],
+      "highlights": [
+        {
+          "id": "ai-frontier-labs-safety-coordination-20260916",
+          "category": "AI",
+          "score": 78,
+          "title": "OpenAI・Anthropic・Google DeepMind、AI安全で共同調整",
+          "summary": "主要フロンティアラボ間で安全協議が数週間継続していることが明らかになり、業界横断の安全標準化が具体化",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--a1pzn6iZ--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T145254Z_2_LYNXMPEM8E1DU_RTROPTP_3_OPENAI-FINANCIAL-SERVICES.JPG%3Fitok%3D8TO_QSNL&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
+          }
+        },
+        {
+          "id": "ai-us-senate-safety-bill-20260914",
+          "category": "AI",
+          "score": 82,
+          "title": "米上院、AI大手に重大事故防止策を求める法案を検討",
+          "summary": "先端AI企業への安全証明・政府監査を巡る米国の制度化議論",
+          "publishedAt": "2026/09/14",
+          "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/us-senators-weigh-requiring-ai-giants-commit-preventing-catastrophe-2026-09-14/"
+          }
+        },
+        {
+          "id": "sdv-waymo-tokyo-2027-20260915",
+          "category": "SDV",
+          "score": 72,
+          "title": "Waymo・GO・日本交通、東京で2027年の完全無人タクシー開始を目標",
+          "summary": "日本でのL4商用化が具体化",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F01%2F25%2F517473.jpg&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/waymo-japanese-partners-target-driverless-taxi-service-tokyo-2027-2026-09-15/"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "sdv-tesla-cybercab-nhtsa-20260916",
+          "category": "SDV",
+          "score": 68,
+          "title": "NHTSA、TeslaにCybercab自己認証の詳細回答を要求",
+          "summary": "ステアリングやペダルを持たないL4車両の現行安全基準への適合方法をNHTSAが精査",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--d2roOR0B--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T195428Z_2_LYNXMPEM8E1TK_RTROPTP_3_TESLA-CYBERCAB.JPG%3Fitok%3DmWlVN3ex&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/autos-transportation/us-agency-orders-tesla-answer-questions-cybercab-certification-2026-09-15/"
+          }
+        },
+        {
+          "id": "ai-kisa-agent-security-20260915",
+          "category": "AI",
+          "score": 68,
+          "title": "韓国KISA、自律AIエージェント向けセキュリティ指針を改定へ",
+          "summary": "エージェント型AIの権限制御・監督リスクを対象にガイド更新",
+          "publishedAt": "2026/09/15",
+          "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fbiz.chosun.com%2Fresizer%2Fv2%2FNHBJ2J3XIBBTND7KT4AV5F5HPY.jpg%3Fauth%3Dc6d2b89a16d69e49d3e44b02b68ad3bb22edb32ddb3d6f315212ffe6af627788%26height%3D2998%26smart%3Dtrue%26width%3D4500&w=240&h=160&fit=cover&output=webp",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"
+          }
+        }
+      ]
+    }
+  ]
+}
