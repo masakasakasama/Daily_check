@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-17T22:27:51+09:00",
+  "lastSuccessfulAt": null,
+  "funnels": {
+    "OEM":{"lastSuccessfulAt":null},"Platform":{"lastSuccessfulAt":null},"Tier1Semi":{"lastSuccessfulAt":null},"CloudOS":{"lastSuccessfulAt":null},"RegSecurity":{"lastSuccessfulAt":null},"Cross":{"lastSuccessfulAt":null}
+  },
+  "unresolvedWindows": [],
+  "pendingBatch": {
+    "targetDate":"2026-09-17",
+    "windowStart":"2026-09-14T00:00:00+09:00",
+    "windowEnd":"2026-09-17T22:27:51+09:00",
+    "firstSeenAt":"2026-09-17T22:27:51+09:00",
+    "adoptedEventKeys":["GM|next-gen scalable UI software platform|2026-09-15|production rollout","HARMAN|SDVerse software portfolio|2026-09-15|marketplace availability","MOLIT-Hyundai|automotive cyber incident exercise|2026-09-15|OTA supply-chain response exercise"],
+    "status":"awaiting-daily-json-merge"
+  }
+}
