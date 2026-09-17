@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-17T22:27:51+09:00",
+  "sources": [
+    {"funnel":"OEM","name":"Nissan Global Innovation / News","url":"https://www.nissan-global.com/JP/INNOVATION/","type":"official","required":true},
+    {"funnel":"OEM","name":"Honda Global Newsroom","url":"https://global.honda/en/newsroom/","type":"official","required":true},
+    {"funnel":"OEM","name":"Toyota Global Newsroom","url":"https://global.toyota/en/newsroom/","type":"official","required":true},
+    {"funnel":"OEM","name":"GM News","url":"https://news.gm.com/","type":"official","required":true},
+    {"funnel":"Platform","name":"Automotive Grade Linux News","url":"https://www.automotivelinux.org/news/","type":"official","required":true},
+    {"funnel":"Platform","name":"COVESA News","url":"https://covesa.global/news/","type":"official","required":true},
+    {"funnel":"Platform","name":"Eclipse SDV","url":"https://eclipsesdv.org/","type":"official","required":true},
+    {"funnel":"Platform","name":"AUTOSAR News & Events","url":"https://www.autosar.org/news-events","type":"official","required":true},
+    {"funnel":"Platform","name":"SDVerse","url":"https://sdverse.auto/","type":"official","required":true},
+    {"funnel":"Tier1Semi","name":"HARMAN Newsroom","url":"https://news.harman.com/","type":"official","required":true},
+    {"funnel":"Tier1Semi","name":"Bosch Media Service","url":"https://www.bosch-presse.de/pressportal/de/en/","type":"official","required":true},
+    {"funnel":"Tier1Semi","name":"NXP Automotive","url":"https://www.nxp.com/applications/automotive","type":"official","required":false},
+    {"funnel":"CloudOS","name":"Vector SDV","url":"https://www.vector.com/en/industries/automotive/sdv/software-defined-vehicle/","type":"official","required":true},
+    {"funnel":"CloudOS","name":"Android Automotive","url":"https://source.android.com/docs/automotive","type":"official","required":false},
+    {"funnel":"CloudOS","name":"Red Hat Automotive","url":"https://www.redhat.com/en/solutions/automotive","type":"official","required":false},
+    {"funnel":"RegSecurity","name":"Korea MOLIT Press Releases","url":"https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp","type":"official","required":true},
+    {"funnel":"RegSecurity","name":"UNECE Vehicle Regulations","url":"https://unece.org/transport/vehicle-regulations","type":"official","required":false},
+    {"funnel":"Cross","name":"SDV Sector","url":"https://sdvsector.com/","type":"industry-media","required":false},
+    {"funnel":"Cross","name":"Reuters Automotive","url":"https://www.reuters.com/business/autos-transportation/","type":"major-media","required":false}
+  ]
+}
