@@ -1,17 +1,19 @@
 {
-  "version": 1,
-  "updatedAt": "2026-09-17T22:27:51+09:00",
-  "lastSuccessfulAt": null,
-  "funnels": {
-    "OEM":{"lastSuccessfulAt":null},"Platform":{"lastSuccessfulAt":null},"Tier1Semi":{"lastSuccessfulAt":null},"CloudOS":{"lastSuccessfulAt":null},"RegSecurity":{"lastSuccessfulAt":null},"Cross":{"lastSuccessfulAt":null}
+  "version":1,
+  "updatedAt":"2026-09-17T22:27:51+09:00",
+  "lastSuccessfulAt":"2026-09-17T22:27:51+09:00",
+  "funnels":{
+    "OEM":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":1},
+    "Platform":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":0},
+    "Tier1Semi":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":1},
+    "CloudOS":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":0},
+    "RegSecurity":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":1},
+    "Cross":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":0}
   },
-  "unresolvedWindows": [],
-  "pendingBatch": {
-    "targetDate":"2026-09-17",
-    "windowStart":"2026-09-14T00:00:00+09:00",
-    "windowEnd":"2026-09-17T22:27:51+09:00",
-    "firstSeenAt":"2026-09-17T22:27:51+09:00",
-    "adoptedEventKeys":["GM|next-gen scalable UI software platform|2026-09-15|production rollout","HARMAN|SDVerse software portfolio|2026-09-15|marketplace availability","MOLIT-Hyundai|automotive cyber incident exercise|2026-09-15|OTA supply-chain response exercise"],
-    "status":"awaiting-daily-json-merge"
-  }
+  "unresolvedWindows":[],
+  "pendingBatch":null,
+  "lastVerifiedDailyCommit":"94baa665cb03be8d62204c4e870ce35304b95a3f",
+  "lastAudit":"data/audits/2026-09-17-sdv.json",
+  "nextWindowRule":"per-funnel lastSuccessfulAt minus 48 hours",
+  "weeklyBackfill":"last 7 days"
 }
