@@ -1,19 +1,19 @@
 {
   "version":1,
-  "updatedAt":"2026-09-18T07:18:00+09:00",
-  "lastSuccessfulAt":"2026-09-17T22:27:51+09:00",
+  "updatedAt":"2026-09-18T07:20:00+09:00",
+  "lastSuccessfulAt":"2026-09-18T07:18:00+09:00",
   "funnels":{
-    "OEM":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":1},
-    "Platform":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":0},
-    "Tier1Semi":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":1},
-    "CloudOS":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":0},
-    "RegSecurity":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":1},
-    "Cross":{"lastSuccessfulAt":"2026-09-17T22:27:51+09:00","lastCount":0}
+    "OEM":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},
+    "Platform":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},
+    "Tier1Semi":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},
+    "CloudOS":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},
+    "RegSecurity":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},
+    "Cross":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0}
   },
   "unresolvedWindows":[],
-  "pendingBatch":{"date":"2026-09-18","audit":"data/audits/2026-09-18-sdv.json","windowStart":"2026-09-15T22:27:51+09:00","windowEnd":"2026-09-18T07:02:37+09:00","adopted":0,"references":0,"collectionComplete":true},
-  "lastVerifiedDailyCommit":"94baa665cb03be8d62204c4e870ce35304b95a3f",
-  "lastAudit":"data/audits/2026-09-17-sdv.json",
+  "pendingBatch":null,
+  "lastVerifiedDailyCommit":"c9c641e3939db40dd59b871ee8a635424e57efd9",
+  "lastAudit":"data/audits/2026-09-18-sdv.json",
   "nextWindowRule":"per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill":"last 7 days"
 }
