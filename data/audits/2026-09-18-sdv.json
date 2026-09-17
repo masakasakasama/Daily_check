@@ -1,0 +1,26 @@
+{
+  "version":1,
+  "date":"2026-09-18",
+  "startedAt":"2026-09-18T07:02:37+09:00",
+  "completedAt":"2026-09-18T07:18:00+09:00",
+  "windowRule":"per-funnel lastSuccessfulAt minus 48 hours",
+  "windowStart":"2026-09-15T22:27:51+09:00",
+  "windowEnd":"2026-09-18T07:02:37+09:00",
+  "collectionComplete":true,
+  "anomaly":true,
+  "anomalyReason":"adopted SDV candidate count was 0, so alternate cross-search was executed before clear decision",
+  "funnels":{
+    "OEM":{"retrievalStatus":"success","sourcesChecked":["Nissan Global Innovation / News","Honda Global Newsroom","Toyota Global Newsroom","GM News"],"searchesUsed":["Nissan automotive software vehicle OS OTA","OEM automotive software platform E/E architecture central compute zonal OTA","site:nissan-global.com software vehicle","site:global.toyota software vehicle","site:global.honda software vehicle","site:news.gm.com software vehicle OTA"],"candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-18T07:18:00+09:00"},
+    "Platform":{"retrievalStatus":"success","sourcesChecked":["Automotive Grade Linux","COVESA","Eclipse SDV","AUTOSAR","SDVerse"],"searchesUsed":["AGL COVESA AUTOSAR Eclipse SDV SDVerse","site:automotivelinux.org SoDeV SDV","site:covesa.global SDV","site:autosar.org automotive software"],"candidateCount":1,"adoptedCount":0,"excludedCount":1,"pendingCount":0,"completedAt":"2026-09-18T07:18:00+09:00"},
+    "Tier1Semi":{"retrievalStatus":"success","sourcesChecked":["HARMAN Newsroom","Bosch Media Service","NXP Automotive"],"searchesUsed":["HARMAN Bosch Continental ZF Aptiv Denso Qualcomm NVIDIA NXP automotive software","site:news.harman.com automotive software","site:bosch-presse.de software vehicle"],"candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-18T07:18:00+09:00"},
+    "CloudOS":{"retrievalStatus":"success","sourcesChecked":["Vector SDV","Android Automotive","Red Hat Automotive"],"searchesUsed":["Android Automotive AWS automotive Red Hat Vector software defined vehicle","site:vector.com automotive software SDV"],"candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-18T07:18:00+09:00"},
+    "RegSecurity":{"retrievalStatus":"success","sourcesChecked":["UNECE Vehicle Regulations","Korea MOLIT Press Releases"],"searchesUsed":["vehicle cybersecurity OTA R155 R156 automotive","site:unece.org vehicle cybersecurity software update"],"candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-18T07:18:00+09:00"},
+    "Cross":{"retrievalStatus":"success","sourcesChecked":["Reuters Automotive","SDV Sector","general web search"],"searchesUsed":["automotive software platform E/E architecture central compute zonal OTA","vehicle OS automotive middleware hypervisor cockpit software"],"candidateCount":1,"adoptedCount":0,"excludedCount":1,"pendingCount":0,"completedAt":"2026-09-18T07:18:00+09:00"}
+  },
+  "candidates":[
+    {"title":"Bridging technologies and ecosystems: Eclipse SDV returns to Japan","organization":"Eclipse Foundation / Eclipse SDV","primaryUrl":"https://eclipsesdv.org/blogs/bridging-technologies-and-ecosystems-eclipse-sdv-returns-to-japan/","publishedAt":"2026-09-17","publishedAtEvidence":"Eclipse SDV page displays September 17, 2026","updatedAt":null,"firstSeenAt":"2026-09-18T07:12:00+09:00","funnel":"Platform","discoveryRoute":"concept","materialChange":"Event recap covering September 8 meetup and Automotive World participation; no new platform release, adoption, specification or production rollout identified","sdvRelation":"Direct SDV ecosystem/community relevance, but no material technical or deployment change","eventKey":"eclipse-sdv-japan-event-recap-20260917","duplicateOf":null,"decision":"exclude","decisionReason":"New article but recap/general ecosystem activity only; no substantive SDV architecture, platform, release, adoption or regulation change","verified":true},
+    {"title":"GM unveils a new user interface for pickup trucks","organization":"General Motors","primaryUrl":"https://news.gm.com/home.detail.html/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks.html","publishedAt":"2026-09-15","publishedAtEvidence":"GM official page; already stored in 2026-09-17 daily data","updatedAt":null,"firstSeenAt":"2026-09-17T22:27:51+09:00","funnel":"Cross","discoveryRoute":"cross","materialChange":"Scalable software-defined UI foundation with OTA rollout","sdvRelation":"Direct","eventKey":"gm-scalable-ui-platform-20260915","duplicateOf":"sdv-gm-scalable-ui-platform-20260915","decision":"exclude","decisionReason":"Overlap-window rediscovery; already stored, so not a new 2026-09-18 item","verified":true}
+  ],
+  "regressionChecks":{"GM":"discoverable via OEM fixed source and scalable software/OTA concept search","HARMAN":"discoverable via Tier1 fixed source and middleware/hypervisor/SDVerse concept search","AGL":"discoverable via Platform fixed source and SoDeV concept search","KoreaOTA":"discoverable via RegSecurity fixed source and OTA/cybersecurity concept search"},
+  "result":{"adopted":0,"excluded":2,"pending":0,"important":0,"reference":0}
+}
