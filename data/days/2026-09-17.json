@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-17",
+  "alerts": [
+    {
+      "id": "ai-cohere-aleph-alpha-merger-20260917",
+      "category": "AI",
+      "score": 80,
+      "title": "Cohere・Aleph Alpha、約200億ドル規模の統合で最終契約",
+      "summary": "Cohereと独Aleph Alphaが最終的な統合契約を締結。統合会社はCohereとしてトロントとベルリンに本社を置き、Schwarz Groupが5億ユーロを投資。規制対応・オンプレミス型の企業AI市場で大型再編が具体化",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://wrrqvgvrqcsfgctujosa.supabase.co/storage/v1/object/public/blog-images/blog-covers/1777201699375-vitoob.webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/cohere-aleph-alpha-combine-target-enterprise-ai-market-2026-09-16/"
+      }
+    },
+    {
+      "id": "sdv-gm-scalable-ui-platform-20260915",
+      "category": "SDV",
+      "score": 80,
+      "title": "GM、次世代UIを全パワートレイン共通のスケーラブルなソフトウェア基盤として展開",
+      "summary": "2027 Chevrolet Silverado / GMC Sierraで導入する次世代UIを、EV・ガソリン・ディーゼルを横断する単一のスケーラブル基盤として構築。共通コンポーネントとOTA更新を前提にGM全体へ展開する",
+      "publishedAt": "2026/09/15",
+      "source": {
+        "label": "GM News",
+        "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks.html"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-deepmind-shane-legg-safety-institute-20260917",
+      "category": "AI",
+      "score": 72,
+      "title": "DeepMind共同創業者Shane Legg、AI能力が安全対策を上回るリスクを警告",
+      "summary": "Shane LeggがAGI展開を研究する新組織の立ち上げに合わせ、急速なAI能力向上が安全制御を追い越すべきではないと警告",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOTU3ZGU1N2QtYTM3Ny00ODBkLTk0ZDMtMDM2NTViOWQ1ZDVjXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/deepmind-co-founder-warns-ai-capabilities-must-not-outrun-safety-controls-ft-2026-09-16/"
+      }
+    },
+    {
+      "id": "ai-anthropic-unified-claude-docs-slides-20260917",
+      "category": "AI",
+      "score": 70,
+      "title": "Anthropic、ClaudeのChat・Coworkを統合しDocs・Slidesを投入",
+      "summary": "Claudeがタスクに応じて機能を自動選択する統合UIへ移行し、文書・プレゼン作成とGoogle Docs、Word、PowerPoint、PDFへの書き出しを追加",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/"
+      }
+    },
+    {
+      "id": "ai-openai-sponsored-agents-ads-20260917",
+      "category": "AI",
+      "score": 64,
+      "title": "OpenAI、広告主向けAIツールとスポンサー付きエージェントをテスト",
+      "summary": "OpenAIが広告主向けAI機能を拡張し、企業スポンサー付きの会話型エージェントのテストを開始。ChatGPTの収益化手段をさらに拡大",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://i.gzn.jp/img/2026/05/08/new-ways-to-buy-chatgpt-ads/openai.png",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/openai-tests-advertiser-sponsored-agents-expands-ai-tools-chatgpt-ads-2026-09-16/"
+      }
+    },
+    {
+      "id": "ai-microsoft-anthropic-consciousness-20260917",
+      "category": "AI",
+      "score": 62,
+      "title": "Microsoft AI責任者、AnthropicのAI意識・福祉に関する訓練方針へ懸念",
+      "summary": "Mustafa SuleymanがClaudeの訓練資料にAIの意識や道徳的地位に関する推測を含めることは、将来の制御を難しくする可能性があると指摘",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/microsoft-ai-chief-calls-out-anthropics-approach-ai-consciousness-2026-09-16/"
+      }
+    },
+    {
+      "id": "sdv-harman-sdverse-20260915",
+      "category": "SDV",
+      "score": 70,
+      "title": "HARMAN、SDVerseで車載ソフトウェアとエンジニアリングサービスを提供開始",
+      "summary": "HARMANがSDVerseへ参加し、SDVライフサイクル向けソフトウェア製品・サービスをOEMが探索・比較できる形で提供。HypervisorやCockpit Middleware等を含むポートフォリオの調達経路を拡大",
+      "publishedAt": "2026/09/15",
+      "source": {
+        "label": "HARMAN",
+        "url": "https://news.harman.com/releases/harman-joins-sdverse-marketplace-expanding-access-to-automotive-software-and-engineering-solutions"
+      }
+    },
+    {
+      "id": "sdv-korea-ota-cyber-exercise-20260915",
+      "category": "SDV",
+      "score": 60,
+      "title": "韓国国土交通部・現代自など、OTA供給網侵害を想定した車載サイバー演習を実施",
+      "summary": "部品協力会社サーバ侵害から悪性ソフトウェアがOTAで車両へ配布されるシナリオを使い、検知・配布停止・復旧・再発防止までを官民で検証。CSMS運用下の実対応手順を点検した",
+      "publishedAt": "2026/09/15",
+      "source": {
+        "label": "韓国国土交通部",
+        "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092423"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai-news",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要1件、参考4件",
+      "checkedAt": "2026-09-17T07:01:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 4
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "update",
+      "summary": "再調査6/6系統完了・重要1件・参考2件。調査期間2026-09-14 00:00〜2026-09-17 22:27 JST。監査ログ data/audits/2026-09-17-sdv.json",
+      "checkedAt": "2026-09-17T22:27:51+09:00",
+      "alertCount": 1,
+      "referenceCount": 2
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "前回確認以降の新しい公式確定情報なし",
+      "checkedAt": "2026-09-17T07:01:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "前回確認以降の実質的な制度変更なし",
+      "checkedAt": "2026-09-17T07:01:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
