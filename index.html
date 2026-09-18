@@ -205,6 +205,7 @@
   <div id="toast" class="toast" hidden></div>
 
   <script>
+    const INDEX_URL='https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/index.json';
     const API_URL='https://api.github.com/repos/masakasakasama/Daily_check/contents/data/daily-checks.json?ref=main';
     const RAW_URL='https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/daily-checks.json';
     const ALLOWED_STATUS=new Set(['clear','update','error','pending']);
@@ -491,6 +492,26 @@
     function setWeek(){state.view='week';render();window.scrollTo({top:0,behavior:'smooth'})}
     function moveDay(delta){state.date=addDays(state.date,delta);state.view='day';render();window.scrollTo({top:0,behavior:'smooth'})}
 
+    async function fetchSplit(signal){
+      const bust='?v='+Date.now();
+      const ir=await fetch(INDEX_URL+bust,{cache:'no-store',signal});
+      if(!ir.ok)throw new Error('Split index '+ir.status);
+      const manifest=await ir.json();
+      if(manifest.schema!=='split-daily-v1'||!Array.isArray(manifest.days))throw new Error('Split index形式不正');
+      const dates=manifest.days.slice(0,30);
+      const dayResponses=await Promise.all(dates.map(async date=>{
+        const r=await fetch('https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/days/'+date+'.json'+bust,{cache:'no-store',signal});
+        if(!r.ok)throw new Error('Day '+date+' '+r.status);
+        return await r.json();
+      }));
+      const weekResponses=await Promise.all((manifest.weeks||[]).slice(0,8).map(async w=>{
+        const path=w.path||('data/weeks/'+w.end+'.json');
+        const r=await fetch('https://raw.githubusercontent.com/masakasakasama/Daily_check/main/'+path+bust,{cache:'no-store',signal});
+        if(!r.ok)throw new Error('Week '+w.end+' '+r.status);
+        return await r.json();
+      }));
+      return {version:5,currentDate:manifest.currentDate,updatedAt:manifest.updatedAt,days:dayResponses,weeks:weekResponses};
+    }
     async function fetchViaApi(signal){
       const r=await fetch(API_URL+'&_='+Date.now(),{cache:'no-store',signal,headers:{Accept:'application/vnd.github+json'}});
       if(!r.ok)throw new Error('GitHub API '+r.status);
@@ -514,7 +535,10 @@
 
       try{
         let raw;
-        try{raw=await fetchViaApi(controller.signal)}catch(apiError){if(controller.signal.aborted)throw apiError;raw=await fetchViaRaw(controller.signal)}
+        try{raw=await fetchSplit(controller.signal)}catch(splitError){
+          if(controller.signal.aborted)throw splitError;
+          try{raw=await fetchViaApi(controller.signal)}catch(apiError){if(controller.signal.aborted)throw apiError;raw=await fetchViaRaw(controller.signal)}
+        }
         const normalized=normalizeData(raw);
         if(seq!==state.requestSeq)return;
         state.data=normalized;state.canonical=buildCanonicalIndex(normalized);state.fetchStatus='ok';
