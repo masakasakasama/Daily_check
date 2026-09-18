@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-15",
+  "alerts": [],
+  "references": [
+    {
+      "id": "ai-kisa-agent-security-20260915",
+      "category": "AI",
+      "score": 68,
+      "title": "韓国KISA、自律AIエージェント向けセキュリティ指針を改定へ",
+      "summary": "エージェント型AIの権限制御・監督リスクを対象にAI Security Guideを更新。Physical AI向け共通統制も検討",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fbiz.chosun.com%2Fresizer%2Fv2%2FNHBJ2J3XIBBTND7KT4AV5F5HPY.jpg%3Fauth%3Dc6d2b89a16d69e49d3e44b02b68ad3bb22edb32ddb3d6f315212ffe6af627788%26height%3D2998%26smart%3Dtrue%26width%3D4500&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"
+      }
+    },
+    {
+      "id": "ai-gates-governments-behind-20260915",
+      "category": "AI",
+      "score": 62,
+      "title": "Bill Gates「各国政府はAIによる社会変化への準備が大幅に遅れている」",
+      "summary": "雇用・サイバー攻撃・AI依存への懸念を示す一方、Gates FoundationはAI活用拡大へ今後2年で10億ドル投資",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fi.insider.com%2F694a2adb64858d02d2174c59%3Fauto%3Dwebp%26format%3Djpeg%26width%3D600&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/governments-worldwide-are-way-behind-ai-says-bill-gates-2026-09-15/"
+      }
+    },
+    {
+      "id": "ai-mediatek-9600pro-2nm-20260915",
+      "category": "AI",
+      "score": 66,
+      "title": "MediaTek、TSMC 2nm採用Dimensity 9600 Proを発表",
+      "summary": "オンデバイス生成AI向けNPU性能を前世代比51%向上。スマホ側AI処理の性能競争がさらに加速",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fcdn.arttimes.vn%2Fupload%2F3-2025%2Fimages%2F2025-09-22%2Fmediatek-2nm--2--1758513783-791-width1200height630.jpg&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/"
+      }
+    },
+    {
+      "id": "ai-sb-energy-ipo-20260915",
+      "category": "AI",
+      "score": 58,
+      "title": "SoftBank系SB Energy、米IPOで日本投資家に最大5億ドル分を販売へ",
+      "summary": "AIデータセンターと電力インフラ拡張の資金調達。Nvidiaは15億ドル投資、OpenAIもワラントを保有",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F03%2F21%2F530515.jpg&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/energy/sb-energy-sell-up-500-million-shares-japan-investors-part-us-ipo-2026-09-15/"
+      }
+    },
+    {
+      "id": "sdv-waymo-tokyo-2027-20260915",
+      "category": "SDV",
+      "score": 72,
+      "title": "Waymo・GO・日本交通、東京で2027年の完全無人タクシー開始を目標",
+      "summary": "規制承認と技術検証を前提に小規模フリートから開始し、約100台へ拡大する計画。日本でのL4商用化が具体化",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F01%2F25%2F517473.jpg&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/waymo-japanese-partners-target-driverless-taxi-service-tokyo-2027-2026-09-15/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai-news",
+      "name": "AIニュース",
+      "status": "clear",
+      "summary": "75点以上なし、参考4件",
+      "checkedAt": "2026-09-15T20:50:31+09:00",
+      "alertCount": 0,
+      "referenceCount": 4
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "clear",
+      "summary": "Nissan重大新規なし、SDV参考1件",
+      "checkedAt": "2026-09-15T20:50:31+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "新しい公式確定情報なし",
+      "checkedAt": "2026-09-15T20:50:31+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "実質的な制度変更なし",
+      "checkedAt": "2026-09-15T20:50:31+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
