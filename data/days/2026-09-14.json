@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-14",
+  "alerts": [
+    {
+      "id": "ai-us-senate-safety-bill-20260914",
+      "category": "AI",
+      "score": 82,
+      "title": "米上院、AI大手に重大事故防止策を求める法案を検討",
+      "summary": "先端AI企業に安全対策の証明や政府監査を求める案。成立前だが、米国のAI規制枠組みに直結するため重要度は高い",
+      "publishedAt": "2026/09/14",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/us-senators-weigh-requiring-ai-giants-commit-preventing-catastrophe-2026-09-14/"
+      },
+      "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-anthropic-financial-advisors-20260914",
+      "category": "AI",
+      "score": 68,
+      "title": "Anthropic、金融アドバイザー向けClaudeを発表",
+      "summary": "BlackRockやSchwabなどの金融ツールと接続し、面談準備やポートフォリオレビューを支援する業界特化型展開",
+      "publishedAt": "2026/09/14",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/"
+      },
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg?width=480"
+    },
+    {
+      "id": "ai-slowdown-market-20260914",
+      "category": "AI",
+      "score": 60,
+      "title": "AI開発減速論で半導体株などが下落",
+      "summary": "AI安全性を巡る減速論が市場に波及。技術そのものの新規発表ではないため参考扱い",
+      "publishedAt": "2026/09/14",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/"
+      },
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter_Server_Racks_%2822370909788%29.jpg?width=480"
+    },
+    {
+      "id": "sdv-actia-hpc-20260914",
+      "category": "SDV",
+      "score": 60,
+      "title": "ACTIA、単一HPCでCockpit・AI・ADASを統合するSDVデモ",
+      "summary": "単一HPC上にデジタルコックピット、AI、ADAS、接続機能を統合。商用車向けSDV実装として参考度が高い",
+      "publishedAt": "2026/09/14",
+      "source": {
+        "label": "ACTIA",
+        "url": "https://www.actia.com/en/software-defined-vehicle-2/"
+      },
+      "thumbnail": "https://www.mondomacchina.it/ew/ew_rivista/images/imageset/superbig_HPC-PHOTO-02%2011%202025.jpg"
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai-news",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要1件、参考2件",
+      "checkedAt": "2026-09-15T20:35:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 2
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "clear",
+      "summary": "重要更新なし、参考1件",
+      "checkedAt": "2026-09-15T20:35:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "新しい公式確定情報なし",
+      "checkedAt": "2026-09-15T20:35:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "実質的な制度変更なし",
+      "checkedAt": "2026-09-15T20:35:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
