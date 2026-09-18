@@ -1,1 +1,37 @@
-{"version":1,"updatedAt":"2026-09-19T07:16:00+09:00","lastSuccessfulAt":"2026-09-18T07:18:00+09:00","funnels":{"OEM":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},"Platform":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},"Tier1Semi":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},"CloudOS":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},"RegSecurity":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0},"Cross":{"lastSuccessfulAt":"2026-09-18T07:18:00+09:00","lastCount":0}},"unresolvedWindows":[],"pendingBatch":{"runDate":"2026-09-19","windowStart":"2026-09-16T07:18:00+09:00","windowEnd":"2026-09-19T07:01:40+09:00","audit":"data/audits/2026-09-19-sdv.json","adopted":["xpeng-tech-licensing-foreign-oems-20260917","lucid-bolt-l4-fleet-europe-20260917","tcs-custom-soc-sdv-service-20260917","agl-sodev-riscv-flutter-demo-20260918"],"status":"awaiting-daily-json-save"},"lastVerifiedDailyCommit":"c9c641e3939db40dd59b871ee8a635424e57efd9","lastAudit":"data/audits/2026-09-18-sdv.json","nextWindowRule":"per-funnel lastSuccessfulAt minus 48 hours","weeklyBackfill":"last 7 days"}
+{
+  "version": 1,
+  "updatedAt": "2026-09-19T07:16:00+09:00",
+  "lastSuccessfulAt": "2026-09-19T07:16:00+09:00",
+  "funnels": {
+    "OEM": {
+      "lastSuccessfulAt": "2026-09-19T07:16:00+09:00",
+      "lastCount": 0
+    },
+    "Platform": {
+      "lastSuccessfulAt": "2026-09-19T07:16:00+09:00",
+      "lastCount": 0
+    },
+    "Tier1Semi": {
+      "lastSuccessfulAt": "2026-09-19T07:16:00+09:00",
+      "lastCount": 0
+    },
+    "CloudOS": {
+      "lastSuccessfulAt": "2026-09-19T07:16:00+09:00",
+      "lastCount": 0
+    },
+    "RegSecurity": {
+      "lastSuccessfulAt": "2026-09-19T07:16:00+09:00",
+      "lastCount": 0
+    },
+    "Cross": {
+      "lastSuccessfulAt": "2026-09-19T07:16:00+09:00",
+      "lastCount": 0
+    }
+  },
+  "unresolvedWindows": [],
+  "pendingBatch": null,
+  "lastVerifiedDailyCommit": "cb99bba0840816f7b3cb52e74d251108fc65ceb2",
+  "lastAudit": "data/audits/2026-09-19-sdv.json",
+  "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
+  "weeklyBackfill": "last 7 days"
+}
