@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-16",
+  "alerts": [
+    {
+      "id": "ai-frontier-labs-safety-coordination-20260916",
+      "category": "AI",
+      "score": 78,
+      "title": "OpenAI・Anthropic・Google DeepMind、AI安全で共同調整",
+      "summary": "OpenAIのChris Lehaneが、AnthropicとGoogle DeepMindとの安全協議を数週間続けていると明らかにした。重大AIリスクへの超党派法制も支持する姿勢で、主要フロンティアラボ間の安全協調が具体化",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--a1pzn6iZ--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T145254Z_2_LYNXMPEM8E1DU_RTROPTP_3_OPENAI-FINANCIAL-SERVICES.JPG%3Fitok%3D8TO_QSNL&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "sdv-tesla-cybercab-nhtsa-20260916",
+      "category": "SDV",
+      "score": 68,
+      "title": "NHTSA、TeslaにCybercab自己認証の詳細回答を要求",
+      "summary": "米NHTSAがTeslaに9月30日までの回答を要求。ステアリングやペダルを持たないCybercabが現行安全基準へどう適合したか、暫定的な人間操作系の利用有無などを確認する",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--d2roOR0B--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T195428Z_2_LYNXMPEM8E1TK_RTROPTP_3_TESLA-CYBERCAB.JPG%3Fitok%3DmWlVN3ex&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/us-agency-orders-tesla-answer-questions-cybercab-certification-2026-09-15/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai-news",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "07:58以降の追加重要更新なし",
+      "checkedAt": "2026-09-16T09:08:52+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "clear",
+      "summary": "07:58以降の追加重要更新なし",
+      "checkedAt": "2026-09-16T09:08:52+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "07:58以降の新しい公式確定情報なし",
+      "checkedAt": "2026-09-16T09:08:52+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "07:58以降の実質的な制度変更なし",
+      "checkedAt": "2026-09-16T09:08:52+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
