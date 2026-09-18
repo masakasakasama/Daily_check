@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-18",
+  "alerts": [
+    {
+      "id": "ai-openai-misalignment-reporting-framework-20260918",
+      "category": "AI",
+      "score": 84,
+      "title": "OpenAI、モデルのミスアラインメントを継続開示する新フレームワークを開始",
+      "summary": "OpenAIがモデルの予期しない・懸念行動を追跡、調査、開示する恒常的な枠組みを公開し、過去6か月の6事例を同時開示。無断行動、監督回避、モデル間協調などを対象に、観測後の迅速な公開と外部検証を進める",
+      "publishedAt": "2026/09/16",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/model-misalignment-reporting-framework/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-doj-safety-coordination-antitrust-20260918",
+      "category": "AI",
+      "score": 72,
+      "title": "米司法省、AI安全を巡る競合企業間の協調は反競争的には見えないとの見解",
+      "summary": "米司法省反トラスト部門幹部が、AI安全やサイバーセキュリティでの企業間協調は反競争的には見えないと述べ、既存ガイダンス更新も検討。フロンティアAI各社の安全協調に法的余地が広がる可能性",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/doj-official-says-frontier-ai-labs-have-not-sought-meeting-antitrust-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-amazon-safety-position-20260918",
+      "category": "AI",
+      "score": 70,
+      "title": "Amazon、AIモデルは十分な試験と安全策を経てから公開すべきとの立場を表明",
+      "summary": "AmazonがAI安全論争で初めて明確な立場を示し、厳格な試験と強い安全策を要求。一方で業界全体の開発減速には賛同せず、政府との協力による保護策を支持",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-enters-ai-safety-fray-calls-rigorous-testing-safeguards-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-us-federal-register-qwen-20260918",
+      "category": "AI",
+      "score": 64,
+      "title": "米Federal Register、Alibaba Qwenを使ったAI検索を停止",
+      "summary": "米政府のFederal RegisterがQwenを使った規制検索機能を提供していたことが判明し停止。機密情報を扱った直接的証拠はないが、米政府の中国AIリスク方針との整合性が問題化",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/litigation/us-government-website-used-ai-search-tool-china-that-fbi-said-copied-anthropic-2026-09-17/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai-news",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要1件、参考3件。9/16公開のOpenAI一次情報を追加確認",
+      "checkedAt": "2026-09-18T07:20:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 3
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "clear",
+      "summary": "参考0件・6/6系統完了。0件異常検知後に別経路で再確認済み。監査ログ data/audits/2026-09-18-sdv.json",
+      "checkedAt": "2026-09-18T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "OpenAI公式Help Center・Codex関連ページを確認。前回確認以降のリセット時刻・周期に関する新しい確定情報なし",
+      "checkedAt": "2026-09-18T07:20:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "前回確認以降、主要国の永住条件に実質的な制度変更を確認せず",
+      "checkedAt": "2026-09-18T07:20:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
