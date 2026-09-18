@@ -1,1 +1,146 @@
-{"version":1,"date":"2026-09-19","collectedAt":"2026-09-19T07:16:00+09:00","status":"pending-daily-json-merge","alerts":[{"id":"ai-anthropic-recursive-rd-20260918","category":"AI","score":86,"title":"Anthropic、Claudeが次世代モデル研究の26%を主導、R&Dタスクの約90%に関与と開示","summary":"Claudeが人間監督下でAnthropicのモデル研究開発の26%を主導し、約90%のR&Dタスクに関与。将来の再帰的自己改善に向けた進展として透明性指標を公開","publishedAt":"2026/09/18","source":{"label":"AP","url":"https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"}},{"id":"sdv-xpeng-tech-licensing-20260917","category":"SDV","score":78,"title":"XPeng、E/Eアーキテクチャ・Cockpit・ADAS等を海外OEMへ外販する方針","summary":"Volkswagenとの協業を超え、電子アーキテクチャ、cockpit、Turing AI chip、driver-assistance softwareなどを海外OEMへ提供する事業を拡大する方針","publishedAt":"2026/09/17","source":{"label":"Reuters","url":"https://www.reuters.com/business/autos-transportation/chinas-xpeng-plans-offer-tech-solutions-foreign-automakers-2026-09-17/"}},{"id":"sdv-lucid-bolt-l4-europe-20260917","category":"SDV","score":78,"title":"Lucid・Bolt、欧州で25,000台以上のL4自動運転車を共同展開","summary":"LucidのMidsize SDV platformとNVIDIA Hyperionを基盤に、Boltが欧州主要都市で少なくとも25,000台の完全自動運転車を展開する戦略提携","publishedAt":"2026/09/17","source":{"label":"Lucid","url":"https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"}}],"references":[{"id":"ai-anthropic-wet-lab-20260918","category":"AI","score":72,"title":"Anthropic、AI創薬・生命科学拡大に向け自社ウェットラボを設置","summary":"Anthropicがサンフランシスコ湾岸に実験施設を設置し、デジタルAI支援から物理的な生物実験へ活動範囲を拡大","publishedAt":"2026/09/18","source":{"label":"Reuters","url":"https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"}},{"id":"sdv-tcs-custom-soc-20260917","category":"SDV","score":70,"title":"TCS、次世代SDV向けCustom SoC Design Servicesを開始","summary":"central compute・zonal化を見据え、車両architecture、SoC設計、software integration、system validationを一体化したOEM向けサービスを開始","publishedAt":"2026/09/17","source":{"label":"TCS","url":"https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies"}},{"id":"ai-openai-ethical-hack-20260918","category":"AI","score":68,"title":"AI支援の認可セキュリティテストでOpenAI従業員アカウントへの侵入経路を実証","summary":"Hacktron AIがOpenAIのbug bounty下でClaudeとGPT-5.6 Solを用い、従業員アカウントへの侵入と無害なGitHub変更要求まで実証。OpenAIは脆弱性を修正","publishedAt":"2026/09/18","source":{"label":"The Guardian","url":"https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"}},{"id":"sdv-agl-sodev-riscv-20260918","category":"SDV","score":62,"title":"AGL、SoDeVのRISC-V・Flutter HMI実装を公開","summary":"Automotive World 2026でAGL UCBをRISC-V silicon上で動作させ、Flutter HMIを組み合わせたproduction-ready SoDeV demonstrationを公開","publishedAt":"2026/09/18","source":{"label":"Automotive Grade Linux","url":"https://www.automotivelinux.org/blog/automotive-grade-linux-at-automotive-world-tokyo-2026/"}}],"checks":[{"id":"ai-news","name":"AIニュース","status":"update","summary":"重要1件、参考2件","checkedAt":"2026-09-19T07:16:00+09:00","alertCount":1,"referenceCount":2},{"id":"sdv-nissan","name":"SDV / Nissanニュース","status":"update","summary":"重要2件、参考2件・6/6系統完了。監査ログ data/audits/2026-09-19-sdv.json","checkedAt":"2026-09-19T07:15:00+09:00","alertCount":2,"referenceCount":2},{"id":"codex-reset","name":"Codexリセット時刻監視","status":"clear","summary":"OpenAI公式Help Centerを確認。前回確認以降のリセット時刻・周期に関する新しい確定情報なし","checkedAt":"2026-09-19T07:16:00+09:00","alertCount":0,"referenceCount":0},{"id":"permanent-residency","name":"主要国の永住条件","status":"clear","summary":"主要国の永住条件に実質的な新規制度変更を確認せず","checkedAt":"2026-09-19T07:16:00+09:00","alertCount":0,"referenceCount":0}],"intendedCounts":{"important":3,"reference":4},"failure":{"operation":"merge/write data/daily-checks.json","reason":"current file is minified into one very long line and the available connector response truncates that line, so a lossless full-file merge cannot be constructed safely in this run","lastSuccessfulAtAdvanced":false,"notionLastCheckedAdvanced":false}}
+{
+  "version": 1,
+  "date": "2026-09-19",
+  "collectedAt": "2026-09-19T07:16:00+09:00",
+  "status": "completed",
+  "alerts": [
+    {
+      "id": "ai-anthropic-recursive-rd-20260918",
+      "category": "AI",
+      "score": 86,
+      "title": "Anthropic、Claudeが次世代モデル研究の26%を主導、R&Dタスクの約90%に関与と開示",
+      "summary": "Claudeが人間監督下でAnthropicのモデル研究開発の26%を主導し、約90%のR&Dタスクに関与。将来の再帰的自己改善に向けた進展として透明性指標を公開",
+      "publishedAt": "2026/09/18",
+      "source": {
+        "label": "AP",
+        "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
+      }
+    },
+    {
+      "id": "sdv-xpeng-tech-licensing-20260917",
+      "category": "SDV",
+      "score": 78,
+      "title": "XPeng、E/Eアーキテクチャ・Cockpit・ADAS等を海外OEMへ外販する方針",
+      "summary": "Volkswagenとの協業を超え、電子アーキテクチャ、cockpit、Turing AI chip、driver-assistance softwareなどを海外OEMへ提供する事業を拡大する方針",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/chinas-xpeng-plans-offer-tech-solutions-foreign-automakers-2026-09-17/"
+      }
+    },
+    {
+      "id": "sdv-lucid-bolt-l4-europe-20260917",
+      "category": "SDV",
+      "score": 78,
+      "title": "Lucid・Bolt、欧州で25,000台以上のL4自動運転車を共同展開",
+      "summary": "LucidのMidsize SDV platformとNVIDIA Hyperionを基盤に、Boltが欧州主要都市で少なくとも25,000台の完全自動運転車を展開する戦略提携",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Lucid",
+        "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-anthropic-wet-lab-20260918",
+      "category": "AI",
+      "score": 72,
+      "title": "Anthropic、AI創薬・生命科学拡大に向け自社ウェットラボを設置",
+      "summary": "Anthropicがサンフランシスコ湾岸に実験施設を設置し、デジタルAI支援から物理的な生物実験へ活動範囲を拡大",
+      "publishedAt": "2026/09/18",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
+      }
+    },
+    {
+      "id": "sdv-tcs-custom-soc-20260917",
+      "category": "SDV",
+      "score": 70,
+      "title": "TCS、次世代SDV向けCustom SoC Design Servicesを開始",
+      "summary": "central compute・zonal化を見据え、車両architecture、SoC設計、software integration、system validationを一体化したOEM向けサービスを開始",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "TCS",
+        "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies"
+      }
+    },
+    {
+      "id": "ai-openai-ethical-hack-20260918",
+      "category": "AI",
+      "score": 68,
+      "title": "AI支援の認可セキュリティテストでOpenAI従業員アカウントへの侵入経路を実証",
+      "summary": "Hacktron AIがOpenAIのbug bounty下でClaudeとGPT-5.6 Solを用い、従業員アカウントへの侵入と無害なGitHub変更要求まで実証。OpenAIは脆弱性を修正",
+      "publishedAt": "2026/09/18",
+      "source": {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
+      }
+    },
+    {
+      "id": "sdv-agl-sodev-riscv-20260918",
+      "category": "SDV",
+      "score": 62,
+      "title": "AGL、SoDeVのRISC-V・Flutter HMI実装を公開",
+      "summary": "Automotive World 2026でAGL UCBをRISC-V silicon上で動作させ、Flutter HMIを組み合わせたproduction-ready SoDeV demonstrationを公開",
+      "publishedAt": "2026/09/18",
+      "source": {
+        "label": "Automotive Grade Linux",
+        "url": "https://www.automotivelinux.org/blog/automotive-grade-linux-at-automotive-world-tokyo-2026/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai-news",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要1件、参考2件",
+      "checkedAt": "2026-09-19T07:16:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 2
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "update",
+      "summary": "重要2件、参考2件・6/6系統完了。監査ログ data/audits/2026-09-19-sdv.json",
+      "checkedAt": "2026-09-19T07:15:00+09:00",
+      "alertCount": 2,
+      "referenceCount": 2
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "OpenAI公式Help Centerを確認。前回確認以降のリセット時刻・周期に関する新しい確定情報なし",
+      "checkedAt": "2026-09-19T07:16:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "主要国の永住条件に実質的な新規制度変更を確認せず",
+      "checkedAt": "2026-09-19T07:16:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ],
+  "intendedCounts": {
+    "important": 3,
+    "reference": 4
+  },
+  "failure": null,
+  "completedAt": "2026-09-19T07:16:00+09:00",
+  "recovery": {
+    "dailyCommit": "cb99bba0840816f7b3cb52e74d251108fc65ceb2",
+    "verified": true,
+    "important": 3,
+    "reference": 4,
+    "sdvImportant": 2,
+    "sdvReference": 2
+  }
+}
