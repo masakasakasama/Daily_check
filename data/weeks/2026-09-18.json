@@ -1,0 +1,181 @@
+{
+  "start": "2026-09-12",
+  "end": "2026-09-18",
+  "generatedAt": "2026-09-18T07:20:00+09:00",
+  "headline": "AI安全ではOpenAIがミスアラインメント継続開示制度を開始し、米司法省とAmazonも安全協調・試験に関する立場を示した。SDVは6系統を再確認し新規採用0件",
+  "counts": {
+    "important": 5,
+    "reference": 17
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "OpenAIのミスアラインメント開示枠組み、Cohere・Aleph Alpha統合、フロンティア各社の安全協調が中心"
+    },
+    {
+      "name": "SDV",
+      "summary": "GM共通ソフトウェア基盤、HARMAN SDVerse、韓国OTAサイバー演習を前日に回収。9/18は6系統完走・新規採用0件"
+    },
+    {
+      "name": "Codex",
+      "summary": "リセット時刻・周期に新しい公式確定情報なし"
+    },
+    {
+      "name": "永住",
+      "summary": "主要国の永住条件に実質的な新規変更なし"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "ai-openai-misalignment-reporting-framework-20260918",
+      "category": "AI",
+      "score": 84,
+      "title": "OpenAI、モデルのミスアラインメントを継続開示する新フレームワークを開始",
+      "summary": "OpenAIがミスアラインメント事例の恒常的な調査・開示制度を開始し、6件の初回報告を公開",
+      "publishedAt": "2026/09/16",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/model-misalignment-reporting-framework/"
+      }
+    },
+    {
+      "id": "sdv-gm-scalable-ui-platform-20260915",
+      "category": "SDV",
+      "score": 80,
+      "title": "GM、次世代UIを全パワートレイン共通のスケーラブルなソフトウェア基盤として展開",
+      "summary": "2027 Silverado / Sierraから共通ソフトウェア基盤を量産展開し、OTAで継続進化させる",
+      "publishedAt": "2026/09/15",
+      "source": {
+        "label": "GM News",
+        "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks.html"
+      }
+    },
+    {
+      "id": "ai-cohere-aleph-alpha-merger-20260917",
+      "category": "AI",
+      "score": 80,
+      "title": "Cohere・Aleph Alpha、約200億ドル規模の統合で最終契約",
+      "summary": "北米と欧州の企業向けAI勢力が統合し、規制対応・主権AI市場の再編が具体化",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://wrrqvgvrqcsfgctujosa.supabase.co/storage/v1/object/public/blog-images/blog-covers/1777201699375-vitoob.webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/cohere-aleph-alpha-combine-target-enterprise-ai-market-2026-09-16/"
+      }
+    },
+    {
+      "id": "ai-frontier-labs-safety-coordination-20260916",
+      "category": "AI",
+      "score": 78,
+      "title": "OpenAI・Anthropic・Google DeepMind、AI安全で共同調整",
+      "summary": "主要フロンティアラボ間で安全協議が継続し、業界横断の安全標準化が具体化",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--a1pzn6iZ--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T145254Z_2_LYNXMPEM8E1DU_RTROPTP_3_OPENAI-FINANCIAL-SERVICES.JPG%3Fitok%3D8TO_QSNL&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
+      }
+    },
+    {
+      "id": "ai-us-senate-safety-bill-20260914",
+      "category": "AI",
+      "score": 82,
+      "title": "米上院、AI大手に重大事故防止策を求める法案を検討",
+      "summary": "先端AI企業への安全証明・政府監査を巡る米国の制度化議論",
+      "publishedAt": "2026/09/14",
+      "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/us-senators-weigh-requiring-ai-giants-commit-preventing-catastrophe-2026-09-14/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-doj-safety-coordination-antitrust-20260918",
+      "category": "AI",
+      "score": 72,
+      "title": "米司法省、AI安全を巡る競合企業間の協調は反競争的には見えないとの見解",
+      "summary": "AI安全協調の法的余地を示す米司法省幹部発言",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/doj-official-says-frontier-ai-labs-have-not-sought-meeting-antitrust-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-amazon-safety-position-20260918",
+      "category": "AI",
+      "score": 70,
+      "title": "Amazon、AIモデルは十分な試験と安全策を経てから公開すべきとの立場を表明",
+      "summary": "Amazonが厳格な試験と安全策を支持する一方、業界一律の減速には賛同せず",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-enters-ai-safety-fray-calls-rigorous-testing-safeguards-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-us-federal-register-qwen-20260918",
+      "category": "AI",
+      "score": 64,
+      "title": "米Federal Register、Alibaba Qwenを使ったAI検索を停止",
+      "summary": "米政府サイトでの中国製AI利用が政策整合性の論点に",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/litigation/us-government-website-used-ai-search-tool-china-that-fbi-said-copied-anthropic-2026-09-17/"
+      }
+    },
+    {
+      "id": "sdv-harman-sdverse-20260915",
+      "category": "SDV",
+      "score": 70,
+      "title": "HARMAN、SDVerseで車載ソフトウェアとエンジニアリングサービスを提供開始",
+      "summary": "HARMANのSDVソフトウェア調達経路がSDVerseへ拡大",
+      "publishedAt": "2026/09/15",
+      "source": {
+        "label": "HARMAN",
+        "url": "https://news.harman.com/releases/harman-joins-sdverse-marketplace-expanding-access-to-automotive-software-and-engineering-solutions"
+      }
+    },
+    {
+      "id": "sdv-korea-ota-cyber-exercise-20260915",
+      "category": "SDV",
+      "score": 60,
+      "title": "韓国国土交通部・現代自など、OTA供給網侵害を想定した車載サイバー演習を実施",
+      "summary": "OTA配布経路を含む車載サイバー事故対応を官民で実地検証",
+      "publishedAt": "2026/09/15",
+      "source": {
+        "label": "韓国国土交通部",
+        "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092423"
+      }
+    },
+    {
+      "id": "sdv-tesla-cybercab-nhtsa-20260916",
+      "category": "SDV",
+      "score": 68,
+      "title": "NHTSA、TeslaにCybercab自己認証の詳細回答を要求",
+      "summary": "L4車両の現行安全基準への適合方法をNHTSAが精査",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--d2roOR0B--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T195428Z_2_LYNXMPEM8E1TK_RTROPTP_3_TESLA-CYBERCAB.JPG%3Fitok%3DmWlVN3ex&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/us-agency-orders-tesla-answer-questions-cybercab-certification-2026-09-15/"
+      }
+    },
+    {
+      "id": "sdv-waymo-tokyo-2027-20260915",
+      "category": "SDV",
+      "score": 72,
+      "title": "Waymo・GO・日本交通、東京で2027年の完全無人タクシー開始を目標",
+      "summary": "日本でのL4商用化が具体化",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F01%2F25%2F517473.jpg&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/waymo-japanese-partners-target-driverless-taxi-service-tokyo-2027-2026-09-15/"
+      }
+    }
+  ]
+}
