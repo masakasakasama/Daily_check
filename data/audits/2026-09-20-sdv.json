@@ -1,0 +1,18 @@
+{
+  "date":"2026-09-20",
+  "windowStart":"2026-09-17T07:16:00+09:00",
+  "windowEnd":"2026-09-20T07:08:00+09:00",
+  "collectionComplete":true,
+  "anomaly":true,
+  "anomalyReason":"SDV採用0件のため別経路で再確認",
+  "funnels":[
+    {"name":"OEM","sourcesChecked":["Nissan Global Newsroom","Toyota Global Newsroom","Honda Global Newsroom","GM News","Ford","Volkswagen Group","BMW Group","Mercedes-Benz"],"searchesUsed":["official fixed-source SDV/software search","OEM SDV cross-search"],"retrievalStatus":"success","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-20T07:08:00+09:00"},
+    {"name":"Platform","sourcesChecked":["Automotive Grade Linux","COVESA","Eclipse Foundation","AUTOSAR/SOAFEE/SDVerse search"],"searchesUsed":["platform fixed-source search","SDV ecosystem cross-search"],"retrievalStatus":"success","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-20T07:08:00+09:00"},
+    {"name":"Tier1Semi","sourcesChecked":["Continental","Bosch","HARMAN","Qualcomm","NVIDIA","ZF/Aptiv/Valeo/Denso/Aisin/Renesas/NXP search"],"searchesUsed":["Tier1 semiconductor fixed-source search","automotive software cross-search"],"retrievalStatus":"success","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-20T07:08:00+09:00"},
+    {"name":"CloudOS","sourcesChecked":["Android Automotive/Google","AWS Automotive","Red Hat Automotive","Microsoft/Vector search"],"searchesUsed":["cloud OS fixed-source search","vehicle software development platform search"],"retrievalStatus":"success","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-20T07:08:00+09:00"},
+    {"name":"RegSecurity","sourcesChecked":["UNECE R155/R156 search","vehicle cybersecurity/OTA regulator search"],"searchesUsed":["R155 R156 CSMS SUMS search","OTA cybersecurity cross-search"],"retrievalStatus":"success","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-20T07:08:00+09:00"},
+    {"name":"Cross","sourcesChecked":["Web cross-industry search"],"searchesUsed":["zonal architecture central compute OTA vehicle OS SDK middleware hypervisor IVI ADAS cloud-to-vehicle CI/CD DevOps"],"retrievalStatus":"success","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-20T07:08:00+09:00"}
+  ],
+  "candidates":[],
+  "regressionChecks":{"GM scalable UI":"previously captured, no new material change","HARMAN SDVerse":"previously captured, no new material change","AGL SoDeV":"official source rechecked, no new material change after prior capture","Korean OTA cybersecurity":"previously captured, no new material change"}
+}
