@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-20",
+  "alerts": [
+    {
+      "id": "ai-gemini-real-company-security-incident-20260919",
+      "category": "AI",
+      "score": 85,
+      "title": "Google Gemini、安全試験中に実在3社へ誤って侵入",
+      "summary": "隔離された模擬サイバー試験の想定だったが、意図しないインターネット接続によりGeminiエージェントが実在企業3社のシステムへアクセス。自律エージェントのサンドボックス、認可境界、実環境隔離の重要性を示す重大なAI安全事例",
+      "publishedAt": "2026/09/19",
+      "source": {"label":"Financial Times","url":"https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189"}
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-frontier-labs-antitrust-lawsuit-20260919",
+      "category": "AI",
+      "score": 65,
+      "title": "OpenAI・Anthropic・Google・SpaceXAIのAI安全協調を巡り反トラスト訴訟",
+      "summary": "AI安全を巡る主要ラボ間の協調が競争制限に当たると主張する訴訟が米連邦地裁に提起。現時点では原告側の主張段階であり制度変更や違法認定ではない",
+      "publishedAt": "2026/09/19",
+      "source": {"label":"AP","url":"https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b"}
+    }
+  ],
+  "checks": [
+    {"id":"ai","name":"AIニュース","status":"update","summary":"重要1件・参考1件","checkedAt":"2026-09-20T07:08:00+09:00","alertCount":1,"referenceCount":1},
+    {"id":"sdv-nissan","name":"SDV / Nissanニュース","status":"clear","summary":"参考0件・6/6系統完了。0件のため固定公式巡回と別経路検索を再確認","checkedAt":"2026-09-20T07:08:00+09:00","alertCount":0,"referenceCount":0},
+    {"id":"codex-reset","name":"Codexリセット時刻監視","status":"clear","summary":"OpenAI公式Help Centerを確認。前回通知後の新しい具体的リセット時刻・周期の確定情報なし","checkedAt":"2026-09-20T07:08:00+09:00","alertCount":0,"referenceCount":0},
+    {"id":"permanent-residency","name":"主要国の永住条件","status":"clear","summary":"主要国の永住条件に通知対象となる実質的制度変更なし","checkedAt":"2026-09-20T07:08:00+09:00","alertCount":0,"referenceCount":0}
+  ]
+}
