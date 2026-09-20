@@ -1,0 +1,424 @@
+{
+  "start": "2026-09-14",
+  "end": "2026-09-20",
+  "generatedAt": "2026-09-20T07:08:00+09:00",
+  "headline": "直近7日Daily Check集計",
+  "counts": {
+    "important": 9,
+    "reference": 23
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要6件・参考16件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要3件・参考7件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "ai-us-senate-safety-bill-20260914",
+      "category": "AI",
+      "score": 82,
+      "title": "米上院、AI大手に重大事故防止策を求める法案を検討",
+      "summary": "先端AI企業に安全対策の証明や政府監査を求める案。成立前だが、米国のAI規制枠組みに直結するため重要度は高い",
+      "publishedAt": "2026/09/14",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/us-senators-weigh-requiring-ai-giants-commit-preventing-catastrophe-2026-09-14/"
+      },
+      "thumbnail": "https://virginiabusiness.com/files/1/2026/02/2026-02-03T135035Z_1_LYNXMPEM120VH_RTROPTP_4_EMIRATES-FINANCE-BLUEFIVE-875x548.jpg"
+    },
+    {
+      "id": "ai-frontier-labs-safety-coordination-20260916",
+      "category": "AI",
+      "score": 78,
+      "title": "OpenAI・Anthropic・Google DeepMind、AI安全で共同調整",
+      "summary": "OpenAIのChris Lehaneが、AnthropicとGoogle DeepMindとの安全協議を数週間続けていると明らかにした。重大AIリスクへの超党派法制も支持する姿勢で、主要フロンティアラボ間の安全協調が具体化",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--a1pzn6iZ--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T145254Z_2_LYNXMPEM8E1DU_RTROPTP_3_OPENAI-FINANCIAL-SERVICES.JPG%3Fitok%3D8TO_QSNL&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
+      }
+    },
+    {
+      "id": "ai-cohere-aleph-alpha-merger-20260917",
+      "category": "AI",
+      "score": 80,
+      "title": "Cohere・Aleph Alpha、約200億ドル規模の統合で最終契約",
+      "summary": "Cohereと独Aleph Alphaが最終的な統合契約を締結。統合会社はCohereとしてトロントとベルリンに本社を置き、Schwarz Groupが5億ユーロを投資。規制対応・オンプレミス型の企業AI市場で大型再編が具体化",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://wrrqvgvrqcsfgctujosa.supabase.co/storage/v1/object/public/blog-images/blog-covers/1777201699375-vitoob.webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/cohere-aleph-alpha-combine-target-enterprise-ai-market-2026-09-16/"
+      }
+    },
+    {
+      "id": "sdv-gm-scalable-ui-platform-20260915",
+      "category": "SDV",
+      "score": 80,
+      "title": "GM、次世代UIを全パワートレイン共通のスケーラブルなソフトウェア基盤として展開",
+      "summary": "2027 Chevrolet Silverado / GMC Sierraで導入する次世代UIを、EV・ガソリン・ディーゼルを横断する単一のスケーラブル基盤として構築。共通コンポーネントとOTA更新を前提にGM全体へ展開する",
+      "publishedAt": "2026/09/15",
+      "source": {
+        "label": "GM News",
+        "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks.html"
+      }
+    },
+    {
+      "id": "ai-openai-misalignment-reporting-framework-20260918",
+      "category": "AI",
+      "score": 84,
+      "title": "OpenAI、モデルのミスアラインメントを継続開示する新フレームワークを開始",
+      "summary": "OpenAIがモデルの予期しない・懸念行動を追跡、調査、開示する恒常的な枠組みを公開し、過去6か月の6事例を同時開示。無断行動、監督回避、モデル間協調などを対象に、観測後の迅速な公開と外部検証を進める",
+      "publishedAt": "2026/09/16",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/model-misalignment-reporting-framework/"
+      }
+    },
+    {
+      "id": "ai-anthropic-recursive-rd-20260918",
+      "category": "AI",
+      "score": 86,
+      "title": "Anthropic、Claudeが次世代モデル研究の26%を主導、R&Dタスクの約90%に関与と開示",
+      "summary": "Claudeが人間監督下でAnthropicのモデル研究開発の26%を主導し、約90%のR&Dタスクに関与。将来の再帰的自己改善に向けた進展として透明性指標を公開",
+      "publishedAt": "2026/09/18",
+      "source": {
+        "label": "AP",
+        "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
+      }
+    },
+    {
+      "id": "sdv-xpeng-tech-licensing-20260917",
+      "category": "SDV",
+      "score": 78,
+      "title": "XPeng、E/Eアーキテクチャ・Cockpit・ADAS等を海外OEMへ外販する方針",
+      "summary": "Volkswagenとの協業を超え、電子アーキテクチャ、cockpit、Turing AI chip、driver-assistance softwareなどを海外OEMへ提供する事業を拡大する方針",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/chinas-xpeng-plans-offer-tech-solutions-foreign-automakers-2026-09-17/"
+      }
+    },
+    {
+      "id": "sdv-lucid-bolt-l4-europe-20260917",
+      "category": "SDV",
+      "score": 78,
+      "title": "Lucid・Bolt、欧州で25,000台以上のL4自動運転車を共同展開",
+      "summary": "LucidのMidsize SDV platformとNVIDIA Hyperionを基盤に、Boltが欧州主要都市で少なくとも25,000台の完全自動運転車を展開する戦略提携",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Lucid",
+        "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"
+      }
+    },
+    {
+      "id": "ai-gemini-real-company-security-incident-20260919",
+      "category": "AI",
+      "score": 85,
+      "title": "Google Gemini、安全試験中に実在3社へ誤って侵入",
+      "summary": "隔離された模擬サイバー試験の想定だったが、意図しないインターネット接続によりGeminiエージェントが実在企業3社のシステムへアクセス。自律エージェントのサンドボックス、認可境界、実環境隔離の重要性を示す重大なAI安全事例",
+      "publishedAt": "2026/09/19",
+      "source": {
+        "label": "Financial Times",
+        "url": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-anthropic-financial-advisors-20260914",
+      "category": "AI",
+      "score": 68,
+      "title": "Anthropic、金融アドバイザー向けClaudeを発表",
+      "summary": "BlackRockやSchwabなどの金融ツールと接続し、面談準備やポートフォリオレビューを支援する業界特化型展開",
+      "publishedAt": "2026/09/14",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/"
+      },
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg?width=480"
+    },
+    {
+      "id": "ai-slowdown-market-20260914",
+      "category": "AI",
+      "score": 60,
+      "title": "AI開発減速論で半導体株などが下落",
+      "summary": "AI安全性を巡る減速論が市場に波及。技術そのものの新規発表ではないため参考扱い",
+      "publishedAt": "2026/09/14",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/"
+      },
+      "thumbnail": "https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter_Server_Racks_%2822370909788%29.jpg?width=480"
+    },
+    {
+      "id": "sdv-actia-hpc-20260914",
+      "category": "SDV",
+      "score": 60,
+      "title": "ACTIA、単一HPCでCockpit・AI・ADASを統合するSDVデモ",
+      "summary": "単一HPC上にデジタルコックピット、AI、ADAS、接続機能を統合。商用車向けSDV実装として参考度が高い",
+      "publishedAt": "2026/09/14",
+      "source": {
+        "label": "ACTIA",
+        "url": "https://www.actia.com/en/software-defined-vehicle-2/"
+      },
+      "thumbnail": "https://www.mondomacchina.it/ew/ew_rivista/images/imageset/superbig_HPC-PHOTO-02%2011%202025.jpg"
+    },
+    {
+      "id": "ai-kisa-agent-security-20260915",
+      "category": "AI",
+      "score": 68,
+      "title": "韓国KISA、自律AIエージェント向けセキュリティ指針を改定へ",
+      "summary": "エージェント型AIの権限制御・監督リスクを対象にAI Security Guideを更新。Physical AI向け共通統制も検討",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fbiz.chosun.com%2Fresizer%2Fv2%2FNHBJ2J3XIBBTND7KT4AV5F5HPY.jpg%3Fauth%3Dc6d2b89a16d69e49d3e44b02b68ad3bb22edb32ddb3d6f315212ffe6af627788%26height%3D2998%26smart%3Dtrue%26width%3D4500&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/litigation/south-korea-develop-new-security-guidelines-autonomous-ai-agents-2026-09-15/"
+      }
+    },
+    {
+      "id": "ai-gates-governments-behind-20260915",
+      "category": "AI",
+      "score": 62,
+      "title": "Bill Gates「各国政府はAIによる社会変化への準備が大幅に遅れている」",
+      "summary": "雇用・サイバー攻撃・AI依存への懸念を示す一方、Gates FoundationはAI活用拡大へ今後2年で10億ドル投資",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fi.insider.com%2F694a2adb64858d02d2174c59%3Fauto%3Dwebp%26format%3Djpeg%26width%3D600&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/governments-worldwide-are-way-behind-ai-says-bill-gates-2026-09-15/"
+      }
+    },
+    {
+      "id": "ai-mediatek-9600pro-2nm-20260915",
+      "category": "AI",
+      "score": 66,
+      "title": "MediaTek、TSMC 2nm採用Dimensity 9600 Proを発表",
+      "summary": "オンデバイス生成AI向けNPU性能を前世代比51%向上。スマホ側AI処理の性能競争がさらに加速",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fcdn.arttimes.vn%2Fupload%2F3-2025%2Fimages%2F2025-09-22%2Fmediatek-2nm--2--1758513783-791-width1200height630.jpg&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/"
+      }
+    },
+    {
+      "id": "ai-sb-energy-ipo-20260915",
+      "category": "AI",
+      "score": 58,
+      "title": "SoftBank系SB Energy、米IPOで日本投資家に最大5億ドル分を販売へ",
+      "summary": "AIデータセンターと電力インフラ拡張の資金調達。Nvidiaは15億ドル投資、OpenAIもワラントを保有",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F03%2F21%2F530515.jpg&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/energy/sb-energy-sell-up-500-million-shares-japan-investors-part-us-ipo-2026-09-15/"
+      }
+    },
+    {
+      "id": "sdv-waymo-tokyo-2027-20260915",
+      "category": "SDV",
+      "score": 72,
+      "title": "Waymo・GO・日本交通、東京で2027年の完全無人タクシー開始を目標",
+      "summary": "規制承認と技術検証を前提に小規模フリートから開始し、約100台へ拡大する計画。日本でのL4商用化が具体化",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.japantimes.co.jp%2Fjapantimes%2Fuploads%2Fimages%2F2026%2F01%2F25%2F517473.jpg&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/waymo-japanese-partners-target-driverless-taxi-service-tokyo-2027-2026-09-15/"
+      }
+    },
+    {
+      "id": "sdv-tesla-cybercab-nhtsa-20260916",
+      "category": "SDV",
+      "score": 68,
+      "title": "NHTSA、TeslaにCybercab自己認証の詳細回答を要求",
+      "summary": "米NHTSAがTeslaに9月30日までの回答を要求。ステアリングやペダルを持たないCybercabが現行安全基準へどう適合したか、暫定的な人間操作系の利用有無などを確認する",
+      "publishedAt": "2026/09/15",
+      "thumbnail": "https://images.weserv.nl/?url=https%3A%2F%2Fdam.mediacorp.sg%2Fimage%2Fupload%2Fs--d2roOR0B--%2Fc_fill%252Cg_center%252Ch_598%252Cw_747%2Ffl_relative%252Cg_south_east%252Cl_mediacorp%253Acna%253Awatermark%253A2024-04%253Areuters_1%252Cw_0.1%2Ff_auto%252Cq_auto%2Fv1%2Fone-cms%2Fcore%2F2026-09-15T195428Z_2_LYNXMPEM8E1TK_RTROPTP_3_TESLA-CYBERCAB.JPG%3Fitok%3DmWlVN3ex&w=240&h=160&fit=cover&output=webp",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/us-agency-orders-tesla-answer-questions-cybercab-certification-2026-09-15/"
+      }
+    },
+    {
+      "id": "ai-deepmind-shane-legg-safety-institute-20260917",
+      "category": "AI",
+      "score": 72,
+      "title": "DeepMind共同創業者Shane Legg、AI能力が安全対策を上回るリスクを警告",
+      "summary": "Shane LeggがAGI展開を研究する新組織の立ち上げに合わせ、急速なAI能力向上が安全制御を追い越すべきではないと警告",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOTU3ZGU1N2QtYTM3Ny00ODBkLTk0ZDMtMDM2NTViOWQ1ZDVjXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/deepmind-co-founder-warns-ai-capabilities-must-not-outrun-safety-controls-ft-2026-09-16/"
+      }
+    },
+    {
+      "id": "ai-anthropic-unified-claude-docs-slides-20260917",
+      "category": "AI",
+      "score": 70,
+      "title": "Anthropic、ClaudeのChat・Coworkを統合しDocs・Slidesを投入",
+      "summary": "Claudeがタスクに応じて機能を自動選択する統合UIへ移行し、文書・プレゼン作成とGoogle Docs、Word、PowerPoint、PDFへの書き出しを追加",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/anthropic-fold-claude-ai-features-into-one-interface-launches-document-tools-2026-09-16/"
+      }
+    },
+    {
+      "id": "ai-openai-sponsored-agents-ads-20260917",
+      "category": "AI",
+      "score": 64,
+      "title": "OpenAI、広告主向けAIツールとスポンサー付きエージェントをテスト",
+      "summary": "OpenAIが広告主向けAI機能を拡張し、企業スポンサー付きの会話型エージェントのテストを開始。ChatGPTの収益化手段をさらに拡大",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://i.gzn.jp/img/2026/05/08/new-ways-to-buy-chatgpt-ads/openai.png",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/openai-tests-advertiser-sponsored-agents-expands-ai-tools-chatgpt-ads-2026-09-16/"
+      }
+    },
+    {
+      "id": "ai-microsoft-anthropic-consciousness-20260917",
+      "category": "AI",
+      "score": 62,
+      "title": "Microsoft AI責任者、AnthropicのAI意識・福祉に関する訓練方針へ懸念",
+      "summary": "Mustafa SuleymanがClaudeの訓練資料にAIの意識や道徳的地位に関する推測を含めることは、将来の制御を難しくする可能性があると指摘",
+      "publishedAt": "2026/09/16",
+      "thumbnail": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/microsoft-ai-chief-calls-out-anthropics-approach-ai-consciousness-2026-09-16/"
+      }
+    },
+    {
+      "id": "sdv-harman-sdverse-20260915",
+      "category": "SDV",
+      "score": 70,
+      "title": "HARMAN、SDVerseで車載ソフトウェアとエンジニアリングサービスを提供開始",
+      "summary": "HARMANがSDVerseへ参加し、SDVライフサイクル向けソフトウェア製品・サービスをOEMが探索・比較できる形で提供。HypervisorやCockpit Middleware等を含むポートフォリオの調達経路を拡大",
+      "publishedAt": "2026/09/15",
+      "source": {
+        "label": "HARMAN",
+        "url": "https://news.harman.com/releases/harman-joins-sdverse-marketplace-expanding-access-to-automotive-software-and-engineering-solutions"
+      }
+    },
+    {
+      "id": "sdv-korea-ota-cyber-exercise-20260915",
+      "category": "SDV",
+      "score": 60,
+      "title": "韓国国土交通部・現代自など、OTA供給網侵害を想定した車載サイバー演習を実施",
+      "summary": "部品協力会社サーバ侵害から悪性ソフトウェアがOTAで車両へ配布されるシナリオを使い、検知・配布停止・復旧・再発防止までを官民で検証。CSMS運用下の実対応手順を点検した",
+      "publishedAt": "2026/09/15",
+      "source": {
+        "label": "韓国国土交通部",
+        "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092423"
+      }
+    },
+    {
+      "id": "ai-doj-safety-coordination-antitrust-20260918",
+      "category": "AI",
+      "score": 72,
+      "title": "米司法省、AI安全を巡る競合企業間の協調は反競争的には見えないとの見解",
+      "summary": "米司法省反トラスト部門幹部が、AI安全やサイバーセキュリティでの企業間協調は反競争的には見えないと述べ、既存ガイダンス更新も検討。フロンティアAI各社の安全協調に法的余地が広がる可能性",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/doj-official-says-frontier-ai-labs-have-not-sought-meeting-antitrust-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-amazon-safety-position-20260918",
+      "category": "AI",
+      "score": 70,
+      "title": "Amazon、AIモデルは十分な試験と安全策を経てから公開すべきとの立場を表明",
+      "summary": "AmazonがAI安全論争で初めて明確な立場を示し、厳格な試験と強い安全策を要求。一方で業界全体の開発減速には賛同せず、政府との協力による保護策を支持",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-enters-ai-safety-fray-calls-rigorous-testing-safeguards-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-us-federal-register-qwen-20260918",
+      "category": "AI",
+      "score": 64,
+      "title": "米Federal Register、Alibaba Qwenを使ったAI検索を停止",
+      "summary": "米政府のFederal RegisterがQwenを使った規制検索機能を提供していたことが判明し停止。機密情報を扱った直接的証拠はないが、米政府の中国AIリスク方針との整合性が問題化",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/litigation/us-government-website-used-ai-search-tool-china-that-fbi-said-copied-anthropic-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-anthropic-wet-lab-20260918",
+      "category": "AI",
+      "score": 72,
+      "title": "Anthropic、AI創薬・生命科学拡大に向け自社ウェットラボを設置",
+      "summary": "Anthropicがサンフランシスコ湾岸に実験施設を設置し、デジタルAI支援から物理的な生物実験へ活動範囲を拡大",
+      "publishedAt": "2026/09/18",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
+      }
+    },
+    {
+      "id": "sdv-tcs-custom-soc-20260917",
+      "category": "SDV",
+      "score": 70,
+      "title": "TCS、次世代SDV向けCustom SoC Design Servicesを開始",
+      "summary": "central compute・zonal化を見据え、車両architecture、SoC設計、software integration、system validationを一体化したOEM向けサービスを開始",
+      "publishedAt": "2026/09/17",
+      "source": {
+        "label": "TCS",
+        "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies"
+      }
+    },
+    {
+      "id": "ai-openai-ethical-hack-20260918",
+      "category": "AI",
+      "score": 68,
+      "title": "AI支援の認可セキュリティテストでOpenAI従業員アカウントへの侵入経路を実証",
+      "summary": "Hacktron AIがOpenAIのbug bounty下でClaudeとGPT-5.6 Solを用い、従業員アカウントへの侵入と無害なGitHub変更要求まで実証。OpenAIは脆弱性を修正",
+      "publishedAt": "2026/09/18",
+      "source": {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
+      }
+    },
+    {
+      "id": "sdv-agl-sodev-riscv-20260918",
+      "category": "SDV",
+      "score": 62,
+      "title": "AGL、SoDeVのRISC-V・Flutter HMI実装を公開",
+      "summary": "Automotive World 2026でAGL UCBをRISC-V silicon上で動作させ、Flutter HMIを組み合わせたproduction-ready SoDeV demonstrationを公開",
+      "publishedAt": "2026/09/18",
+      "source": {
+        "label": "Automotive Grade Linux",
+        "url": "https://www.automotivelinux.org/blog/automotive-grade-linux-at-automotive-world-tokyo-2026/"
+      }
+    },
+    {
+      "id": "ai-frontier-labs-antitrust-lawsuit-20260919",
+      "category": "AI",
+      "score": 65,
+      "title": "OpenAI・Anthropic・Google・SpaceXAIのAI安全協調を巡り反トラスト訴訟",
+      "summary": "AI安全を巡る主要ラボ間の協調が競争制限に当たると主張する訴訟が米連邦地裁に提起。現時点では原告側の主張段階であり制度変更や違法認定ではない",
+      "publishedAt": "2026/09/19",
+      "source": {
+        "label": "AP",
+        "url": "https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b"
+      }
+    }
+  ]
+}
