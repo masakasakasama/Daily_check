@@ -1,0 +1,22 @@
+name: Verify Daily Check freshness
+
+on:
+  schedule:
+    # 22:45 UTC = 07:45 JST. The primary task runs at 07:00 and recovery at 07:30.
+    - cron: "45 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify today's persisted data
+        run: node scripts/verify-daily-data.mjs
