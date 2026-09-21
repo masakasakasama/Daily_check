@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-21",
+  "alerts": [
+    {
+      "id": "ai-us-china-ai-safety-talks-20260920",
+      "category": "AI",
+      "score": 80,
+      "title": "米中、首脳会談前協議でAI安全のガードレールを正式議題化",
+      "summary": "米財務長官ベッセントと中国副首相何立峰の協議で、AIの悪用防止や安全プロトコルが通商・重要鉱物と並ぶ正式議題となった。主要AI大国間の政府レベル安全枠組みに直結し得る動き",
+      "publishedAt": "2026/09/20",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-anthropic-new-model-ipo-20260919",
+      "category": "AI",
+      "score": 72,
+      "title": "Anthropic、IPOを前に新AIモデル投入を検討",
+      "summary": "AnthropicがOpenAIの新モデルへの対抗を意識し、新モデル投入を検討しているとReutersが報道。安全性を巡る減速論と競争圧力の両立が焦点",
+      "publishedAt": "2026/09/19",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要1件・参考1件",
+      "checkedAt": "2026-09-21T10:25:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "clear",
+      "summary": "参考0件・6/6系統完了。採用0件のため別経路でも再確認",
+      "checkedAt": "2026-09-21T10:25:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "新しい確定差分なし",
+      "checkedAt": "2026-09-21T10:25:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "通知対象となる実質的制度変更なし",
+      "checkedAt": "2026-09-21T10:25:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
