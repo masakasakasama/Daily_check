@@ -1,29 +1,19 @@
 {
-  "version": 1,
-  "updatedAt": "2026-09-22T07:07:00+09:00",
-  "lastSuccessfulAt": "2026-09-21T10:25:00+09:00",
-  "funnels": {
-    "OEM": {"lastSuccessfulAt":"2026-09-21T10:25:00+09:00","lastCount":0},
-    "Platform": {"lastSuccessfulAt":"2026-09-21T10:25:00+09:00","lastCount":0},
-    "Tier1Semi": {"lastSuccessfulAt":"2026-09-21T10:25:00+09:00","lastCount":0},
-    "CloudOS": {"lastSuccessfulAt":"2026-09-21T10:25:00+09:00","lastCount":0},
-    "RegSecurity": {"lastSuccessfulAt":"2026-09-21T10:25:00+09:00","lastCount":0},
-    "Cross": {"lastSuccessfulAt":"2026-09-21T10:25:00+09:00","lastCount":0}
+  "version":1,
+  "updatedAt":"2026-09-22T07:10:00+09:00",
+  "lastSuccessfulAt":"2026-09-22T07:10:00+09:00",
+  "funnels":{
+    "OEM":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
+    "Platform":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
+    "Tier1Semi":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
+    "CloudOS":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
+    "RegSecurity":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
+    "Cross":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0}
   },
-  "unresolvedWindows": [],
-  "pendingBatch": {
-    "date": "2026-09-22",
-    "status": "staged",
-    "stagedAt": "2026-09-22T07:07:00+09:00",
-    "alerts": 2,
-    "references": 0,
-    "sdvAlerts": 0,
-    "sdvReferences": 0,
-    "collectionWindowStart": "2026-09-19T10:25:00+09:00",
-    "collectionWindowEnd": "2026-09-22T07:07:00+09:00"
-  },
-  "lastVerifiedDailyCommit": "76b0d1e3561d546de6016bae0cc567edf38c8c39",
-  "lastAudit": "data/audits/2026-09-21-sdv.json",
-  "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
-  "weeklyBackfill": "last 7 days"
+  "unresolvedWindows":[],
+  "pendingBatch":null,
+  "lastVerifiedDailyCommit":"c7af24f4d5114ba2918f1be6b82b10f83577ded0",
+  "lastAudit":"data/audits/2026-09-22-sdv.json",
+  "nextWindowRule":"per-funnel lastSuccessfulAt minus 48 hours",
+  "weeklyBackfill":"last 7 days"
 }
