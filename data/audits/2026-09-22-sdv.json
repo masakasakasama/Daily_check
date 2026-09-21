@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-22",
+  "windowStart": "2026-09-19T10:25:00+09:00",
+  "windowEnd": "2026-09-22T07:07:00+09:00",
+  "collectionComplete": true,
+  "anomaly": true,
+  "anomalyReason": "All six funnels adopted 0 new items; alternate concept/cross searches were executed and reconfirmed no new qualifying event in the window.",
+  "funnels": [
+    {"name":"OEM","windowStart":"2026-09-19T10:25:00+09:00","windowEnd":"2026-09-22T07:07:00+09:00","sourcesChecked":["Nissan Global","Toyota Global Newsroom","Volkswagen Group","Stellantis Media","Mercedes-Benz Group","BMW Group"],"searchesUsed":["official fixed-source scan","software-defined vehicle OEM concept search","cross-search"],"retrievalStatus":"complete","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-22T07:07:00+09:00"},
+    {"name":"Platform","windowStart":"2026-09-19T10:25:00+09:00","windowEnd":"2026-09-22T07:07:00+09:00","sourcesChecked":["NVIDIA Automotive","Qualcomm Automotive","Volkswagen/RV Tech","Android Automotive ecosystem"],"searchesUsed":["official fixed-source scan","vehicle OS/central compute/OTA/API/SDK concept search","cross-search"],"retrievalStatus":"complete","candidateCount":1,"adoptedCount":0,"excludedCount":1,"pendingCount":0,"completedAt":"2026-09-22T07:07:00+09:00"},
+    {"name":"Tier1Semi","windowStart":"2026-09-19T10:25:00+09:00","windowEnd":"2026-09-22T07:07:00+09:00","sourcesChecked":["Bosch","Continental","HARMAN","Qualcomm","NVIDIA"],"searchesUsed":["official fixed-source scan","automotive semiconductor/Tier1 concept search","cross-search"],"retrievalStatus":"complete","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-22T07:07:00+09:00"},
+    {"name":"CloudOS","windowStart":"2026-09-19T10:25:00+09:00","windowEnd":"2026-09-22T07:07:00+09:00","sourcesChecked":["AWS Automotive","Google Cloud Automotive","Android source","Red Hat automotive"],"searchesUsed":["official fixed-source scan","cloud/OS/development foundation concept search","cross-search"],"retrievalStatus":"complete","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-22T07:07:00+09:00"},
+    {"name":"RegSecurity","windowStart":"2026-09-19T10:25:00+09:00","windowEnd":"2026-09-22T07:07:00+09:00","sourcesChecked":["UNECE","automotive cybersecurity/software update regulation search"],"searchesUsed":["official fixed-source scan","cybersecurity/OTA regulation concept search","cross-search"],"retrievalStatus":"complete","candidateCount":0,"adoptedCount":0,"excludedCount":0,"pendingCount":0,"completedAt":"2026-09-22T07:07:00+09:00"},
+    {"name":"Cross","windowStart":"2026-09-19T10:25:00+09:00","windowEnd":"2026-09-22T07:07:00+09:00","sourcesChecked":["broad web/news search"],"searchesUsed":["software-defined vehicle","software defined vehicle","Nissan automotive software","SDV automotive software"],"retrievalStatus":"complete","candidateCount":1,"adoptedCount":0,"excludedCount":1,"pendingCount":0,"completedAt":"2026-09-22T07:07:00+09:00"}
+  ],
+  "candidates": [
+    {"title":"BYD, Geely, Isuzu and Nissan Adopt NVIDIA Hyperion for Level 4 Vehicles","org":"NVIDIA","primaryUrl":"https://nvidianews.nvidia.com/news/drive-hyperion-level-4","publishedAt":"2026-03-16","publishedAtEvidence":"NVIDIA page publication date","updatedAt":"2026-09 (rename edit only)","firstSeenAt":"2026-09-22T07:05:00+09:00","funnel":"Platform","route":"official+cross","materialChange":false,"sdvRelation":"direct","eventKey":"nvidia-hyperion-nissan-l4-2026-03-16","duplicateOf":null,"verified":true,"decision":"excluded","reason":"Old March event; September edit only renames DRIVE Hyperion to Hyperion and does not constitute a new material SDV event."}
+  ],
+  "counts":{"candidate":1,"adopted":0,"excluded":1,"pending":0,"important":0,"reference":0}
+}
