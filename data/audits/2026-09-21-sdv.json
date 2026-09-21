@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "date": "2026-09-21",
+  "windowStart": "2026-09-18T07:08:00+09:00",
+  "windowEnd": "2026-09-21T10:25:00+09:00",
+  "collectionComplete": true,
+  "anomaly": true,
+  "anomalyReason": "SDV採用0件のため固定公式巡回後に概念・横断検索で再確認",
+  "funnels": [
+    {
+      "name": "OEM",
+      "sourcesChecked": [
+        "Nissan",
+        "Toyota",
+        "Honda",
+        "GM",
+        "Ford",
+        "Volkswagen",
+        "BMW",
+        "Mercedes-Benz"
+      ],
+      "searchesUsed": [
+        "fixed official",
+        "OEM software/SDV cross-search"
+      ],
+      "retrievalStatus": "success",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-21T10:25:00+09:00"
+    },
+    {
+      "name": "Platform",
+      "sourcesChecked": [
+        "AGL",
+        "COVESA",
+        "Eclipse SDV",
+        "AUTOSAR",
+        "SOAFEE",
+        "SDVerse"
+      ],
+      "searchesUsed": [
+        "fixed official",
+        "ecosystem cross-search"
+      ],
+      "retrievalStatus": "success",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-21T10:25:00+09:00"
+    },
+    {
+      "name": "Tier1Semi",
+      "sourcesChecked": [
+        "Bosch",
+        "Continental",
+        "HARMAN",
+        "Qualcomm",
+        "NVIDIA",
+        "ZF",
+        "Aptiv",
+        "Valeo",
+        "Denso",
+        "Aisin",
+        "Renesas",
+        "NXP"
+      ],
+      "searchesUsed": [
+        "fixed official",
+        "Tier1/semiconductor cross-search"
+      ],
+      "retrievalStatus": "success",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-21T10:25:00+09:00"
+    },
+    {
+      "name": "CloudOS",
+      "sourcesChecked": [
+        "Android Automotive",
+        "Google",
+        "AWS",
+        "Microsoft",
+        "Red Hat",
+        "Vector"
+      ],
+      "searchesUsed": [
+        "fixed/concept search"
+      ],
+      "retrievalStatus": "success",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-21T10:25:00+09:00"
+    },
+    {
+      "name": "RegSecurity",
+      "sourcesChecked": [
+        "R155/R156/CSMS/SUMS and vehicle cybersecurity searches"
+      ],
+      "searchesUsed": [
+        "regulation/security cross-search"
+      ],
+      "retrievalStatus": "success",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-21T10:25:00+09:00"
+    },
+    {
+      "name": "Cross",
+      "sourcesChecked": [
+        "industry-wide SDV/software search"
+      ],
+      "searchesUsed": [
+        "E/E",
+        "central compute",
+        "zonal",
+        "OTA",
+        "Vehicle OS/API/SDK",
+        "middleware",
+        "cockpit",
+        "ADAS platform"
+      ],
+      "retrievalStatus": "success",
+      "candidateCount": 1,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "pendingCount": 0,
+      "completedAt": "2026-09-21T10:25:00+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "How automotive software architecture shapes EV platform scalability",
+      "organization": "Sector Panorama",
+      "primaryUrl": "https://www.sectorpanorama.com/news/Evolutionary_Trends/How_automotive_software_architecture_shapes_EV_platform_scalability.html",
+      "publishedAt": "2026-09-20",
+      "firstSeenAt": "2026-09-21T10:25:00+09:00",
+      "funnel": "Cross",
+      "discoveryRoute": "cross",
+      "materialChange": "none; explanatory article",
+      "sdvRelation": "architecture discussion only",
+      "eventKey": "sectorpanorama-architecture-explainer-20260920",
+      "verified": true,
+      "decision": "exclude",
+      "decisionReason": "一般的な解説で具体的な製品・採用・仕様変更なし"
+    }
+  ]
+}
