@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-22",
+  "alerts": [
+    {
+      "id": "ai-openai-global-frontier-standards-20260921",
+      "eventKey": "openai-frontier-ai-global-technical-standards-2026-09-21",
+      "category": "AI",
+      "score": 82,
+      "title": "OpenAI、フロンティアAIの国際技術標準づくりで米国主導を提唱",
+      "summary": "OpenAIが高度AI向けに国際・国内の共通技術標準、測定、インシデント報告の整備を提唱。再帰的自己改善を見据え、安全性と能力進展を同期させるpacingを政策方針として明示した",
+      "publishedAt": "2026/09/21",
+      "firstSeenAt": "2026-09-22T07:04:00+09:00",
+      "source": {"label":"OpenAI","url":"https://openai.com/index/building-standards-next-phase-ai/"}
+    },
+    {
+      "id": "ai-us-china-safety-dialogue-20260921",
+      "eventKey": "us-china-ai-safety-dialogue-incident-line-shenzhen-2026-09-21",
+      "category": "AI",
+      "score": 80,
+      "title": "米中、AI安全の正式対話とインシデント連絡線で合意",
+      "summary": "米中高官がAI安全の正式対話を設け、AI事故時のincident lineを含む共通プロトコルを協議。約2か月後に深圳で次回会合を予定しており、主要AI大国間の安全枠組みが具体化した",
+      "publishedAt": "2026/09/21",
+      "firstSeenAt": "2026-09-22T07:04:00+09:00",
+      "source": {"label":"Reuters","url":"https://www.reuters.com/world/asia-pacific/us-china-meet-again-ai-safety-two-months-shenzhen-bessent-says-2026-09-21/"}
+    }
+  ],
+  "references": [],
+  "checks": [
+    {"id":"ai","name":"AIニュース","status":"update","summary":"重要2件・参考0件","checkedAt":"2026-09-22T07:07:00+09:00","alertCount":2,"referenceCount":0},
+    {"id":"sdv-nissan","name":"SDV / Nissanニュース","status":"clear","summary":"重要0件・参考0件。6/6系統完了、採用0件のため別経路でも再確認","checkedAt":"2026-09-22T07:07:00+09:00","alertCount":0,"referenceCount":0},
+    {"id":"codex-reset","name":"Codexリセット時刻監視","status":"clear","summary":"公式Help Centerを再確認。5時間枠・週次枠の具体的な自動リセット時刻に新しい確定差分なし","checkedAt":"2026-09-22T07:07:00+09:00","alertCount":0,"referenceCount":0},
+    {"id":"permanent-residency","name":"主要国の永住条件","status":"clear","summary":"主要国公式情報を再確認、通知対象となる実質的制度変更なし","checkedAt":"2026-09-22T07:07:00+09:00","alertCount":0,"referenceCount":0}
+  ]
+}
