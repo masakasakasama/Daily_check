@@ -1,19 +1,5 @@
 {
-  "version":1,
-  "updatedAt":"2026-09-22T09:32:00+09:00",
-  "lastSuccessfulAt":"2026-09-22T07:10:00+09:00",
-  "funnels":{
-    "OEM":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
-    "Platform":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
-    "Tier1Semi":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
-    "CloudOS":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
-    "RegSecurity":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0},
-    "Cross":{"lastSuccessfulAt":"2026-09-22T07:10:00+09:00","lastCount":0}
-  },
-  "unresolvedWindows":[],
-  "pendingBatch":{"date":"2026-09-22","startedAt":"2026-09-22T09:32:00+09:00","windowStart":"2026-09-20T07:10:00+09:00","windowEnd":"2026-09-22T09:32:00+09:00","candidateEventKeys":["mercedes-wayve-l2-ai-driver-2026-09-22"]},
-  "lastVerifiedDailyCommit":"c7af24f4d5114ba2918f1be6b82b10f83577ded0",
-  "lastAudit":"data/audits/2026-09-22-sdv.json",
-  "nextWindowRule":"per-funnel lastSuccessfulAt minus 48 hours",
-  "weeklyBackfill":"last 7 days"
+  "version":1,"updatedAt":"2026-09-22T09:35:00+09:00","lastSuccessfulAt":"2026-09-22T09:35:00+09:00",
+  "funnels":{"OEM":{"lastSuccessfulAt":"2026-09-22T09:35:00+09:00","lastCount":1},"Platform":{"lastSuccessfulAt":"2026-09-22T09:35:00+09:00","lastCount":0},"Tier1Semi":{"lastSuccessfulAt":"2026-09-22T09:35:00+09:00","lastCount":0},"CloudOS":{"lastSuccessfulAt":"2026-09-22T09:35:00+09:00","lastCount":0},"RegSecurity":{"lastSuccessfulAt":"2026-09-22T09:35:00+09:00","lastCount":0},"Cross":{"lastSuccessfulAt":"2026-09-22T09:35:00+09:00","lastCount":1}},
+  "unresolvedWindows":[],"pendingBatch":null,"lastVerifiedDailyCommit":"9420cd1fc584c4b07920059bbe6b517d8cebfc05","lastAudit":"data/audits/2026-09-22-sdv.json","nextWindowRule":"per-funnel lastSuccessfulAt minus 48 hours","weeklyBackfill":"last 7 days"
 }
