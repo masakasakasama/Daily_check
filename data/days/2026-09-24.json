@@ -1,16 +1,129 @@
 {
-  "date":"2026-09-24",
-  "alerts":[
-    {"id":"ai-anthropic-crispr-enzyme-20260923","eventKey":"anthropic-claude-crispr-like-enzyme-discovery-2026-09-23","category":"AI","score":84,"title":"Anthropic、ClaudeがCRISPR様反復配列を持つ新規酵素系を発見","summary":"Anthropicが生命科学研究グループと自社ラボを新設し、Claudeが科学者の高レベル指示のみでDNAデータから未解明のCRISPR様酵素系を発見した初期成果を公開。AIが仮説生成から実験検証につながる科学研究を主導した具体例として重要","publishedAt":"2026/09/23","firstSeenAt":"2026-09-24T07:02:44+09:00","source":{"label":"Anthropic","url":"https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"}},
-    {"id":"ai-google-private-ai-memory-20260923","eventKey":"google-private-ai-compute-secure-server-memory-2026-09-23","category":"AI","score":80,"title":"Google DeepMind、Private AI Computeに安全なサーバー側メモリを導入","summary":"Google DeepMindがPrivate AI Compute向けに、端末をまたいだ持続的AIメモリをプライバシー保護付きで実現するサーバー側メモリアーキテクチャを公開。パーソナルAIの長期記憶と機密性を両立する基盤更新","publishedAt":"2026/09/23","firstSeenAt":"2026-09-24T07:02:44+09:00","source":{"label":"Google DeepMind","url":"https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"}}
+  "date": "2026-09-24",
+  "alerts": [
+    {
+      "id": "ai-anthropic-crispr-enzyme-20260923",
+      "eventKey": "anthropic-claude-crispr-like-enzyme-discovery-2026-09-23",
+      "category": "AI",
+      "score": 84,
+      "title": "Anthropic、ClaudeがCRISPR様反復配列を持つ新規酵素系を発見",
+      "summary": "Anthropicが生命科学研究グループと自社ラボを新設し、Claudeが科学者の高レベル指示のみでDNAデータから未解明のCRISPR様酵素系を発見した初期成果を公開。AIが仮説生成から実験検証につながる科学研究を主導した具体例として重要",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:02:44+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+      }
+    },
+    {
+      "id": "ai-google-private-ai-memory-20260923",
+      "eventKey": "google-private-ai-compute-secure-server-memory-2026-09-23",
+      "category": "AI",
+      "score": 80,
+      "title": "Google DeepMind、Private AI Computeに安全なサーバー側メモリを導入",
+      "summary": "Google DeepMindがPrivate AI Compute向けに、端末をまたいだ持続的AIメモリをプライバシー保護付きで実現するサーバー側メモリアーキテクチャを公開。パーソナルAIの長期記憶と機密性を両立する基盤更新",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:02:44+09:00",
+      "source": {
+        "label": "Google DeepMind",
+        "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
+      }
+    }
   ],
-  "references":[
-    {"id":"ai-google-gemini38-tts-20260923","eventKey":"google-gemini-3-8-tts-2026-09-23","category":"AI","score":70,"title":"Google、Gemini 3.8 Flash / Flash-Lite TTSを公開","summary":"GoogleがGemini 3.8 Flash TTSとFlash-Lite TTSを発表。音声表現力を強化した新世代TTSモデルとして参考","publishedAt":"2026/09/23","firstSeenAt":"2026-09-24T07:02:44+09:00","source":{"label":"Google","url":"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"}}
+  "references": [
+    {
+      "id": "ai-google-gemini38-tts-20260923",
+      "eventKey": "google-gemini-3-8-tts-2026-09-23",
+      "category": "AI",
+      "score": 70,
+      "title": "Google、Gemini 3.8 Flash / Flash-Lite TTSを公開",
+      "summary": "GoogleがGemini 3.8 Flash TTSとFlash-Lite TTSを発表。音声表現力を強化した新世代TTSモデルとして参考",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:02:44+09:00",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+      }
+    },
+    {
+      "id": "sdv-vicone-cymetris-live-tara-20260923",
+      "eventKey": "vicone-cymetris-live-tara-2026-09-23",
+      "category": "SDV",
+      "score": 60,
+      "title": "VicOne×CYMETRIS、新規CVEを車両別リスク判断へ連携するLive TARAを発表",
+      "summary": "VicOne xZETAの車載脆弱性インテリジェンスとCYMETRISのシステムレベルリスクモデルを双方向統合。新規CVEが特定車両プログラムへ与える影響を継続評価し、TARAのリスク判断を更新する運用基盤",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:42:00+09:00",
+      "source": {
+        "label": "VicOne",
+        "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/"
+      }
+    },
+    {
+      "id": "sdv-valens-onsemi-aphy-license-20260923",
+      "eventKey": "valens-onsemi-aphy-image-sensor-license-2026-09-23",
+      "category": "SDV",
+      "score": 56,
+      "title": "Valens、A-PHY車載センサー接続技術をonsemiへライセンス",
+      "summary": "ValensがMIPI A-PHYベースの車載高速接続技術をonsemiへロイヤルティ付きでライセンス。次世代イメージセンサーへの直接統合を可能にし、集中型E/Eアーキテクチャのセンサー接続基盤として参考",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:42:00+09:00",
+      "source": {
+        "label": "SDV Sector",
+        "url": "https://sdvsector.com/region/global"
+      }
+    },
+    {
+      "id": "sdv-brp-canam-software-recall-20260923",
+      "eventKey": "brp-canam-instrument-cluster-software-recall-2026-09-23",
+      "category": "SDV",
+      "score": 48,
+      "title": "Can-Am、14,014台のメーターソフト不具合をOTAまたは販売店で修正",
+      "summary": "BRPのCan-Am二輪車14,014台を対象に、メータークラスターのソフトウェア不具合による安全基準不適合が米国公開記録に反映。修正はOTAまたは販売店で提供され、SDVのソフトウェアライフサイクル事例として参考",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:42:00+09:00",
+      "source": {
+        "label": "SDV Sector",
+        "url": "https://sdvsector.com/topic/diagnostics-and-service"
+      }
+    }
   ],
-  "checks":[
-    {"id":"ai","name":"AIニュース","status":"update","summary":"重要2件・参考1件。Anthropicの生命科学研究成果、Google Private AI Computeメモリ、Gemini 3.8 TTSを採用","checkedAt":"2026-09-24T07:05:00+09:00","alertCount":2,"referenceCount":1},
-    {"id":"sdv-nissan","name":"SDV / Nissanニュース","status":"clear","summary":"重要0件・参考0件。6/6系統完了。採用0件のため固定公式巡回と別経路横断検索で再確認済み","checkedAt":"2026-09-24T07:05:00+09:00","alertCount":0,"referenceCount":0},
-    {"id":"codex-reset","name":"Codexリセット時刻監視","status":"clear","summary":"OpenAI公式Help Center・Codex公式情報を確認。前回確認以降、5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし","checkedAt":"2026-09-24T07:05:00+09:00","alertCount":0,"referenceCount":0},
-    {"id":"permanent-residency","name":"主要国の永住条件","status":"clear","summary":"主要国の公式・準公式情報を確認。前回確認以降、通知対象となる実質的な永住条件変更なし","checkedAt":"2026-09-24T07:05:00+09:00","alertCount":0,"referenceCount":0}
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要2件・参考1件。Anthropicの生命科学研究成果、Google Private AI Computeメモリ、Gemini 3.8 TTSを採用",
+      "checkedAt": "2026-09-24T07:05:00+09:00",
+      "alertCount": 2,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "update",
+      "summary": "重要0件・参考3件。6/6系統を再走査し、VicOne×CYMETRIS Live TARA、Valens×onsemi A-PHY、Can-Am OTA修正を採用",
+      "checkedAt": "2026-09-24T07:44:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 3
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "OpenAI公式Help Center・Codex公式情報を確認。前回確認以降、5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
+      "checkedAt": "2026-09-24T07:05:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "主要国の公式・準公式情報を確認。前回確認以降、通知対象となる実質的な永住条件変更なし",
+      "checkedAt": "2026-09-24T07:05:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
   ]
 }
