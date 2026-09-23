@@ -1,1 +1,323 @@
-{"start":"2026-09-18","end":"2026-09-24","generatedAt":"2026-09-24T07:06:00+09:00","headline":"直近7日Daily Check集計","counts":{"important":14,"reference":14},"categories":[{"name":"AI","summary":"重要10件・参考8件"},{"name":"SDV","summary":"重要3件・参考6件"},{"name":"Codex","summary":"重要1件・参考0件"}],"highlights":[{"id":"ai-openai-misalignment-reporting-framework-20260918","category":"AI","score":84,"source":{"url":"https://openai.com/index/model-misalignment-reporting-framework/"}},{"id":"ai-anthropic-recursive-rd-20260918","category":"AI","score":86,"source":{"url":"https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"}},{"id":"sdv-xpeng-tech-licensing-20260917","category":"SDV","score":78,"source":{"url":"https://www.reuters.com/business/autos-transportation/chinas-xpeng-plans-offer-tech-solutions-foreign-automakers-2026-09-17/"}},{"id":"sdv-lucid-bolt-l4-europe-20260917","category":"SDV","score":78,"source":{"url":"https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"}},{"id":"ai-gemini-real-company-security-incident-20260919","category":"AI","score":85,"source":{"url":"https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189"}},{"id":"ai-us-china-ai-safety-talks-20260920","category":"AI","score":80,"source":{"url":"https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"}},{"id":"ai-openai-global-frontier-standards-20260921","eventKey":"openai-frontier-ai-global-technical-standards-2026-09-21","category":"AI","score":82,"source":{"url":"https://openai.com/index/building-standards-next-phase-ai/"}},{"id":"ai-us-china-safety-dialogue-20260921","eventKey":"us-china-ai-safety-dialogue-incident-line-shenzhen-2026-09-21","category":"AI","score":80,"source":{"url":"https://www.reuters.com/world/asia-pacific/us-china-meet-again-ai-safety-two-months-shenzhen-bessent-says-2026-09-21/"}},{"id":"ai-openai-gpt6-sol-luna-20260922","eventKey":"openai-gpt6-sol-luna-2026-09-22","category":"AI","score":96,"source":{"url":"https://openai.com/index/introducing-gpt-6-sol-and-luna/"}},{"id":"ai-anthropic-claude-opus55-20260922","eventKey":"anthropic-claude-opus-5-5-2026-09-22","category":"AI","score":92,"source":{"url":"https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/"}},{"id":"codex-cli-01561-20260923","eventKey":"codex-cli-0-156-1-2026-09-23","category":"Codex","score":82,"source":{"url":"https://learn.chatgpt.com/docs/changelog"}},{"id":"sdv-coretura-alloy-kore-20260922","eventKey":"coretura-alloy-kore-first-design-win-2026-09-22","category":"SDV","score":82,"source":{"url":"https://www.globenewswire.com/news-release/2026/09/22/3365960/0/en/coretura-selects-alloy-kore-to-advance-a-unique-software-defined-vehicle-platform-for-its-commercial-vehicle-customers.html"}},{"id":"ai-anthropic-crispr-enzyme-20260923","eventKey":"anthropic-claude-crispr-like-enzyme-discovery-2026-09-23","category":"AI","score":84,"source":{"url":"https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"}},{"id":"ai-google-private-ai-memory-20260923","eventKey":"google-private-ai-compute-secure-server-memory-2026-09-23","category":"AI","score":80,"source":{"url":"https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"}}],"references":[{"id":"ai-doj-safety-coordination-antitrust-20260918","category":"AI","score":72,"source":{"url":"https://www.reuters.com/world/doj-official-says-frontier-ai-labs-have-not-sought-meeting-antitrust-2026-09-17/"}},{"id":"ai-amazon-safety-position-20260918","category":"AI","score":70,"source":{"url":"https://www.reuters.com/business/retail-consumer/amazon-enters-ai-safety-fray-calls-rigorous-testing-safeguards-2026-09-17/"}},{"id":"ai-us-federal-register-qwen-20260918","category":"AI","score":64,"source":{"url":"https://www.reuters.com/legal/litigation/us-government-website-used-ai-search-tool-china-that-fbi-said-copied-anthropic-2026-09-17/"}},{"id":"ai-anthropic-wet-lab-20260918","category":"AI","score":72,"source":{"url":"https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"}},{"id":"sdv-tcs-custom-soc-20260917","category":"SDV","score":70,"source":{"url":"https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies"}},{"id":"ai-openai-ethical-hack-20260918","category":"AI","score":68,"source":{"url":"https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"}},{"id":"sdv-agl-sodev-riscv-20260918","category":"SDV","score":62,"source":{"url":"https://www.automotivelinux.org/blog/automotive-grade-linux-at-automotive-world-tokyo-2026/"}},{"id":"ai-frontier-labs-antitrust-lawsuit-20260919","category":"AI","score":65,"source":{"url":"https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b"}},{"id":"ai-anthropic-new-model-ipo-20260919","category":"AI","score":72,"source":{"url":"https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/"}},{"id":"sdv-mercedes-wayve-l2-20260922","eventKey":"mercedes-wayve-l2-ai-driver-2026-09-22","category":"SDV","score":72,"source":{"url":"https://www.ft.com/content/4ed7bccb-7d02-485f-aed6-9e7b0244ac78"}},{"id":"sdv-volvo-horizon-aaos-20260922","eventKey":"volvo-horizon-aaos-development-platform-2026-09-22","category":"SDV","score":74,"source":{"url":"https://www.googlecloudpresscorner.com/2026-09-22-Accenture-and-Google-Cloud-Transform-Software-Development-with-Volvo-Cars"}},{"id":"sdv-voyah-dream9-huawei-20260923","eventKey":"voyah-dream9-huawei-ads5-harmonyspace6-2026-09-23","category":"SDV","score":68,"source":{"url":"https://sdvsector.com/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture"}},{"id":"sdv-tencent-leapmotor-workbuddy-20260923","eventKey":"tencent-workbuddy-leapmotor-software-teams-2026-09-23","category":"SDV","score":58,"source":{"url":"https://sdvsector.com/news/2026-09-23-tencent-workbuddy-leapmotor"}},{"id":"ai-google-gemini38-tts-20260923","eventKey":"google-gemini-3-8-tts-2026-09-23","category":"AI","score":70,"source":{"url":"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"}}]}
+{
+  "start": "2026-09-18",
+  "end": "2026-09-24",
+  "generatedAt": "2026-09-24T07:46:00+09:00",
+  "headline": "直近7日Daily Check集計",
+  "counts": {
+    "important": 14,
+    "reference": 17
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要10件・参考8件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要3件・参考9件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要1件・参考0件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "ai-openai-misalignment-reporting-framework-20260918",
+      "category": "AI",
+      "score": 84,
+      "title": "OpenAI、モデルのミスアラインメントを継続開示する新フレームワークを開始",
+      "source": {
+        "url": "https://openai.com/index/model-misalignment-reporting-framework/"
+      }
+    },
+    {
+      "id": "ai-anthropic-recursive-rd-20260918",
+      "category": "AI",
+      "score": 86,
+      "title": "Anthropic、Claudeが次世代モデル研究の26%を主導、R&Dタスクの約90%に関与と開示",
+      "source": {
+        "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
+      }
+    },
+    {
+      "id": "sdv-xpeng-tech-licensing-20260917",
+      "category": "SDV",
+      "score": 78,
+      "title": "XPeng、E/Eアーキテクチャ・Cockpit・ADAS等を海外OEMへ外販する方針",
+      "source": {
+        "url": "https://www.reuters.com/business/autos-transportation/chinas-xpeng-plans-offer-tech-solutions-foreign-automakers-2026-09-17/"
+      }
+    },
+    {
+      "id": "sdv-lucid-bolt-l4-europe-20260917",
+      "category": "SDV",
+      "score": 78,
+      "title": "Lucid・Bolt、欧州で25,000台以上のL4自動運転車を共同展開",
+      "source": {
+        "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"
+      }
+    },
+    {
+      "id": "ai-gemini-real-company-security-incident-20260919",
+      "category": "AI",
+      "score": 85,
+      "title": "Google Gemini、安全試験中に実在3社へ誤って侵入",
+      "source": {
+        "url": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189"
+      }
+    },
+    {
+      "id": "ai-us-china-ai-safety-talks-20260920",
+      "category": "AI",
+      "score": 80,
+      "title": "米中、首脳会談前協議でAI安全のガードレールを正式議題化",
+      "source": {
+        "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"
+      }
+    },
+    {
+      "id": "ai-openai-global-frontier-standards-20260921",
+      "eventKey": "openai-frontier-ai-global-technical-standards-2026-09-21",
+      "category": "AI",
+      "score": 82,
+      "title": "OpenAI、フロンティアAIの国際技術標準づくりで米国主導を提唱",
+      "source": {
+        "url": "https://openai.com/index/building-standards-next-phase-ai/"
+      }
+    },
+    {
+      "id": "ai-us-china-safety-dialogue-20260921",
+      "eventKey": "us-china-ai-safety-dialogue-incident-line-shenzhen-2026-09-21",
+      "category": "AI",
+      "score": 80,
+      "title": "米中、AI安全の正式対話とインシデント連絡線で合意",
+      "source": {
+        "url": "https://www.reuters.com/world/asia-pacific/us-china-meet-again-ai-safety-two-months-shenzhen-bessent-says-2026-09-21/"
+      }
+    },
+    {
+      "id": "ai-openai-gpt6-sol-luna-20260922",
+      "eventKey": "openai-gpt6-sol-luna-2026-09-22",
+      "category": "AI",
+      "score": 96,
+      "title": "OpenAI、GPT-6 SolとLunaを発表",
+      "source": {
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+      }
+    },
+    {
+      "id": "ai-anthropic-claude-opus55-20260922",
+      "eventKey": "anthropic-claude-opus-5-5-2026-09-22",
+      "category": "AI",
+      "score": 92,
+      "title": "Anthropic、Claude Opus 5.5を公開",
+      "source": {
+        "url": "https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/"
+      }
+    },
+    {
+      "id": "codex-cli-01561-20260923",
+      "eventKey": "codex-cli-0-156-1-2026-09-23",
+      "category": "Codex",
+      "score": 82,
+      "title": "Codex CLI 0.156.1、GPT-6 Sol/Lunaをモデル選択に追加",
+      "source": {
+        "url": "https://learn.chatgpt.com/docs/changelog"
+      }
+    },
+    {
+      "id": "sdv-coretura-alloy-kore-20260922",
+      "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "category": "SDV",
+      "score": 82,
+      "title": "Daimler Truck・Volvo系Coretura、Alloy Koreを次世代SDV基盤に採用",
+      "source": {
+        "url": "https://www.globenewswire.com/news-release/2026/09/22/3365960/0/en/coretura-selects-alloy-kore-to-advance-a-unique-software-defined-vehicle-platform-for-its-commercial-vehicle-customers.html"
+      }
+    },
+    {
+      "id": "ai-anthropic-crispr-enzyme-20260923",
+      "eventKey": "anthropic-claude-crispr-like-enzyme-discovery-2026-09-23",
+      "category": "AI",
+      "score": 84,
+      "title": "Anthropic、ClaudeがCRISPR様反復配列を持つ新規酵素系を発見",
+      "source": {
+        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+      }
+    },
+    {
+      "id": "ai-google-private-ai-memory-20260923",
+      "eventKey": "google-private-ai-compute-secure-server-memory-2026-09-23",
+      "category": "AI",
+      "score": 80,
+      "title": "Google DeepMind、Private AI Computeに安全なサーバー側メモリを導入",
+      "source": {
+        "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-doj-safety-coordination-antitrust-20260918",
+      "category": "AI",
+      "score": 72,
+      "title": "米司法省、AI安全を巡る競合企業間の協調は反競争的には見えないとの見解",
+      "source": {
+        "url": "https://www.reuters.com/world/doj-official-says-frontier-ai-labs-have-not-sought-meeting-antitrust-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-amazon-safety-position-20260918",
+      "category": "AI",
+      "score": 70,
+      "title": "Amazon、AIモデルは十分な試験と安全策を経てから公開すべきとの立場を表明",
+      "source": {
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-enters-ai-safety-fray-calls-rigorous-testing-safeguards-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-us-federal-register-qwen-20260918",
+      "category": "AI",
+      "score": 64,
+      "title": "米Federal Register、Alibaba Qwenを使ったAI検索を停止",
+      "source": {
+        "url": "https://www.reuters.com/legal/litigation/us-government-website-used-ai-search-tool-china-that-fbi-said-copied-anthropic-2026-09-17/"
+      }
+    },
+    {
+      "id": "ai-anthropic-wet-lab-20260918",
+      "category": "AI",
+      "score": 72,
+      "title": "Anthropic、AI創薬・生命科学拡大に向け自社ウェットラボを設置",
+      "source": {
+        "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
+      }
+    },
+    {
+      "id": "sdv-tcs-custom-soc-20260917",
+      "category": "SDV",
+      "score": 70,
+      "title": "TCS、次世代SDV向けCustom SoC Design Servicesを開始",
+      "source": {
+        "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies"
+      }
+    },
+    {
+      "id": "ai-openai-ethical-hack-20260918",
+      "category": "AI",
+      "score": 68,
+      "title": "AI支援の認可セキュリティテストでOpenAI従業員アカウントへの侵入経路を実証",
+      "source": {
+        "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
+      }
+    },
+    {
+      "id": "sdv-agl-sodev-riscv-20260918",
+      "category": "SDV",
+      "score": 62,
+      "title": "AGL、SoDeVのRISC-V・Flutter HMI実装を公開",
+      "source": {
+        "url": "https://www.automotivelinux.org/blog/automotive-grade-linux-at-automotive-world-tokyo-2026/"
+      }
+    },
+    {
+      "id": "ai-frontier-labs-antitrust-lawsuit-20260919",
+      "category": "AI",
+      "score": 65,
+      "title": "OpenAI・Anthropic・Google・SpaceXAIのAI安全協調を巡り反トラスト訴訟",
+      "source": {
+        "url": "https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b"
+      }
+    },
+    {
+      "id": "ai-anthropic-new-model-ipo-20260919",
+      "category": "AI",
+      "score": 72,
+      "title": "Anthropic、IPOを前に新AIモデル投入を検討",
+      "source": {
+        "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/"
+      }
+    },
+    {
+      "id": "sdv-mercedes-wayve-l2-20260922",
+      "eventKey": "mercedes-wayve-l2-ai-driver-2026-09-22",
+      "category": "SDV",
+      "score": 72,
+      "title": "Mercedes-Benz、WayveのAI Driverを量産車へ採用へ",
+      "source": {
+        "url": "https://www.ft.com/content/4ed7bccb-7d02-485f-aed6-9e7b0244ac78"
+      }
+    },
+    {
+      "id": "sdv-volvo-horizon-aaos-20260922",
+      "eventKey": "volvo-horizon-aaos-development-platform-2026-09-22",
+      "category": "SDV",
+      "score": 74,
+      "title": "Volvo Cars、グローバルAAOS開発環境をHorizonへ移行",
+      "source": {
+        "url": "https://www.googlecloudpresscorner.com/2026-09-22-Accenture-and-Google-Cloud-Transform-Software-Development-with-Volvo-Cars"
+      }
+    },
+    {
+      "id": "sdv-voyah-dream9-huawei-20260923",
+      "eventKey": "voyah-dream9-huawei-ads5-harmonyspace6-2026-09-23",
+      "category": "SDV",
+      "score": 68,
+      "title": "Dongfeng Voyah Dream 9、Huawei ADS 5とHarmonySpace 6を全車標準化",
+      "source": {
+        "url": "https://sdvsector.com/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture"
+      }
+    },
+    {
+      "id": "sdv-tencent-leapmotor-workbuddy-20260923",
+      "eventKey": "tencent-workbuddy-leapmotor-software-teams-2026-09-23",
+      "category": "SDV",
+      "score": 58,
+      "title": "Leapmotor、車両開発・智能運転チームへTencent WorkBuddyを展開",
+      "source": {
+        "url": "https://sdvsector.com/news/2026-09-23-tencent-workbuddy-leapmotor"
+      }
+    },
+    {
+      "id": "ai-google-gemini38-tts-20260923",
+      "eventKey": "google-gemini-3-8-tts-2026-09-23",
+      "category": "AI",
+      "score": 70,
+      "title": "Google、Gemini 3.8 Flash / Flash-Lite TTSを公開",
+      "source": {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+      }
+    },
+    {
+      "id": "sdv-vicone-cymetris-live-tara-20260923",
+      "eventKey": "vicone-cymetris-live-tara-2026-09-23",
+      "category": "SDV",
+      "score": 60,
+      "title": "VicOne×CYMETRIS、新規CVEを車両別リスク判断へ連携するLive TARAを発表",
+      "source": {
+        "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/"
+      }
+    },
+    {
+      "id": "sdv-valens-onsemi-aphy-license-20260923",
+      "eventKey": "valens-onsemi-aphy-image-sensor-license-2026-09-23",
+      "category": "SDV",
+      "score": 56,
+      "title": "Valens、A-PHY車載センサー接続技術をonsemiへライセンス",
+      "source": {
+        "url": "https://sdvsector.com/region/global"
+      }
+    },
+    {
+      "id": "sdv-brp-canam-software-recall-20260923",
+      "eventKey": "brp-canam-instrument-cluster-software-recall-2026-09-23",
+      "category": "SDV",
+      "score": 48,
+      "title": "Can-Am、14,014台のメーターソフト不具合をOTAまたは販売店で修正",
+      "source": {
+        "url": "https://sdvsector.com/topic/diagnostics-and-service"
+      }
+    }
+  ]
+}
