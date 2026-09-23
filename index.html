@@ -360,10 +360,25 @@
       const media=document.createElement('div');media.className='thumb-wrap';
       const fallback=document.createElement('span');fallback.className='thumb-fallback';fallback.textContent=item.category||'NEWS';
       media.appendChild(fallback);
-      if(item.thumbnail){
-        const img=document.createElement('img');img.className='thumb';img.src=item.thumbnail;img.alt='';img.loading='lazy';img.decoding='async';
-        img.addEventListener('error',()=>img.remove());media.appendChild(img);
-      }
+      const attachImage=(url)=>{
+        if(!url)return false;
+        const img=document.createElement('img');img.className='thumb';img.src=url;img.alt='';img.loading='lazy';img.decoding='async';
+        img.addEventListener('load',()=>{fallback.hidden=true});
+        img.addEventListener('error',()=>{img.remove();fallback.hidden=false});
+        media.appendChild(img);return true;
+      };
+      const resolveArticleImage=async()=>{
+        if(!item.source?.url)return;
+        try{
+          const endpoint='https://api.microlink.io/?url='+encodeURIComponent(item.source.url);
+          const r=await fetch(endpoint,{cache:'force-cache'});
+          if(!r.ok)return;
+          const payload=await r.json();
+          const imageUrl=payload?.data?.image?.url||payload?.data?.logo?.url||'';
+          if(imageUrl)attachImage(imageUrl);
+        }catch(_){}
+      };
+      if(!attachImage(item.thumbnail))resolveArticleImage();
       mediaLink.appendChild(media);top.append(main,mediaLink);row.appendChild(top);
 
       if(item.summary){
