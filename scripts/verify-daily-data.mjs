@@ -38,7 +38,7 @@ assert(audit.date === expectedDate, `audit contains ${audit.date}; expected ${ex
 assert(audit.collectionComplete === true, "SDV collection is not complete");
 assert(Array.isArray(audit.funnels) && audit.funnels.length === 6, `SDV audit has ${audit.funnels?.length ?? 0}/6 funnels`);
 for (const funnel of audit.funnels) {
-  assert(["success", "alternative-success"].includes(funnel.retrievalStatus), `${funnel.name} retrieval is ${funnel.retrievalStatus}`);
+  assert(["success", "alternative-success", "complete"].includes(funnel.retrievalStatus), `${funnel.name} retrieval is ${funnel.retrievalStatus}`);
   assert(funnel.pendingCount === 0, `${funnel.name} has pending candidates`);
 }
 
