@@ -179,7 +179,7 @@
 
       <details class="criteria">
         <summary><span>判定基準</span></summary>
-        <div class="criteria-body">AIは75点以上を重要更新として通知。75点未満でも新規性があるものは参考情報に保存。SDV/Nissan、Codex、永住条件は各監視の通知条件を満たすものだけ重要更新に分類。</div>
+        <div class="criteria-body">AIは75点以上を重要更新、75点未満でも有用な新規情報は参考。SDVは90〜100点=最重要（業界構造を変える戦略・基盤・大型提携・重大規制）、75〜89点=重要（量産採用、AAOS・Vehicle API・中央ECU・OTA・SoC等の重要変更）、60〜74点=参考・高（新API/SDK、開発基盤、Tier1製品、アーキテクチャ変更）、50〜59点=参考（SDVに直接関連する有用な新規技術・採用・更新）、49点以下=非掲載。古い発表の日付変更、名称変更のみ、既出・転載は点数にかかわらず除外。Codex、永住条件は既存の通知条件を維持。</div>
       </details>
     </section>
 
@@ -545,7 +545,7 @@
 
         const params=new URLSearchParams(location.search);
         const requested=params.get('date');
-        state.date=isValidDateString(requested)?requested:todayJst();
+        state.date=isValidDateString(requested)?requested:(isValidDateString(normalized.currentDate)?normalized.currentDate:latestRecordDate());
         state.view=params.get('view')==='week'?'week':'day';
         render();
       }catch(e){
