@@ -1,47 +1,37 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T07:30:00+09:00",
-  "lastSuccessfulAt": "2026-09-24T07:48:00+09:00",
+  "updatedAt": "2026-09-25T07:36:00+09:00",
+  "lastSuccessfulAt": "2026-09-25T07:36:00+09:00",
   "funnels": {
     "OEM": {
-      "lastSuccessfulAt": "2026-09-24T07:48:00+09:00",
+      "lastSuccessfulAt": "2026-09-25T07:36:00+09:00",
       "lastCount": 0
     },
     "Platform": {
-      "lastSuccessfulAt": "2026-09-24T07:48:00+09:00",
-      "lastCount": 1
+      "lastSuccessfulAt": "2026-09-25T07:36:00+09:00",
+      "lastCount": 2
     },
     "Tier1Semi": {
-      "lastSuccessfulAt": "2026-09-24T07:48:00+09:00",
+      "lastSuccessfulAt": "2026-09-25T07:36:00+09:00",
       "lastCount": 0
     },
     "CloudOS": {
-      "lastSuccessfulAt": "2026-09-24T07:48:00+09:00",
-      "lastCount": 0
+      "lastSuccessfulAt": "2026-09-25T07:36:00+09:00",
+      "lastCount": 1
     },
     "RegSecurity": {
-      "lastSuccessfulAt": "2026-09-24T07:48:00+09:00",
+      "lastSuccessfulAt": "2026-09-25T07:36:00+09:00",
       "lastCount": 1
     },
     "Cross": {
-      "lastSuccessfulAt": "2026-09-24T07:48:00+09:00",
-      "lastCount": 3
+      "lastSuccessfulAt": "2026-09-25T07:36:00+09:00",
+      "lastCount": 5
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": {
-    "date": "2026-09-25",
-    "startedAt": "2026-09-25T07:30:00+09:00",
-    "windowStart": "2026-09-22T07:48:00+09:00",
-    "windowEnd": "2026-09-25T07:30:00+09:00",
-    "stage": "collected",
-    "candidateCount": 5,
-    "adoptedCount": 0,
-    "excludedCount": 5,
-    "note": "Six-funnel collection completed; all SDV candidates were duplicate, non-material, or below publication criteria after verification"
-  },
-  "lastVerifiedDailyCommit": "c98d8a489e23d9431c63b1b87c520be43c0ae59d",
-  "lastAudit": "data/audits/2026-09-24-sdv.json",
+  "pendingBatch": null,
+  "lastVerifiedDailyCommit": "9201dc9d111157a8c6915e51d9a70fe3415d22f8",
+  "lastAudit": "data/audits/2026-09-25-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days"
 }
