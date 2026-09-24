@@ -1,0 +1,252 @@
+{
+  "date": "2026-09-25",
+  "windowStart": "2026-09-22T07:48:00+09:00",
+  "windowEnd": "2026-09-25T07:30:00+09:00",
+  "collectionComplete": true,
+  "anomaly": false,
+  "funnels": [
+    {
+      "name": "OEM",
+      "windowStart": "2026-09-22T07:48:00+09:00",
+      "windowEnd": "2026-09-25T07:30:00+09:00",
+      "sourcesChecked": [
+        "Nissan Global",
+        "Toyota Global Newsroom",
+        "Volkswagen Group",
+        "Stellantis Media",
+        "Mercedes-Benz Group",
+        "BMW Group"
+      ],
+      "searchesUsed": [
+        "official fixed-source scan",
+        "SDV OEM concept search",
+        "cross-search",
+        "zero-result alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-25T07:30:00+09:00"
+    },
+    {
+      "name": "Platform",
+      "windowStart": "2026-09-22T07:48:00+09:00",
+      "windowEnd": "2026-09-25T07:30:00+09:00",
+      "sourcesChecked": [
+        "Android Automotive ecosystem",
+        "QNX",
+        "Vector",
+        "Qualcomm Automotive",
+        "NVIDIA Automotive"
+      ],
+      "searchesUsed": [
+        "official fixed-source scan",
+        "vehicle OS/central compute/OTA/API/SDK concept search",
+        "cross-search"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "pendingCount": 0,
+      "completedAt": "2026-09-25T07:30:00+09:00"
+    },
+    {
+      "name": "Tier1Semi",
+      "windowStart": "2026-09-22T07:48:00+09:00",
+      "windowEnd": "2026-09-25T07:30:00+09:00",
+      "sourcesChecked": [
+        "Bosch",
+        "Continental",
+        "HARMAN",
+        "NXP",
+        "Qualcomm",
+        "NVIDIA",
+        "Renesas"
+      ],
+      "searchesUsed": [
+        "official fixed-source scan",
+        "automotive semiconductor/Tier1 concept search",
+        "cross-search",
+        "zero-result alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-25T07:30:00+09:00"
+    },
+    {
+      "name": "CloudOS",
+      "windowStart": "2026-09-22T07:48:00+09:00",
+      "windowEnd": "2026-09-25T07:30:00+09:00",
+      "sourcesChecked": [
+        "AWS Automotive",
+        "Google Cloud Automotive",
+        "Android source",
+        "Red Hat automotive"
+      ],
+      "searchesUsed": [
+        "official fixed-source scan",
+        "cloud/OS/development foundation concept search",
+        "cross-search",
+        "zero-result alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 1,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "pendingCount": 0,
+      "completedAt": "2026-09-25T07:30:00+09:00"
+    },
+    {
+      "name": "RegSecurity",
+      "windowStart": "2026-09-22T07:48:00+09:00",
+      "windowEnd": "2026-09-25T07:30:00+09:00",
+      "sourcesChecked": [
+        "UNECE",
+        "NHTSA",
+        "EU cybersecurity/CRA automotive"
+      ],
+      "searchesUsed": [
+        "official fixed-source scan",
+        "cybersecurity/OTA regulation concept search",
+        "cross-search",
+        "zero-result alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 1,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "pendingCount": 0,
+      "completedAt": "2026-09-25T07:30:00+09:00"
+    },
+    {
+      "name": "Cross",
+      "windowStart": "2026-09-22T07:48:00+09:00",
+      "windowEnd": "2026-09-25T07:30:00+09:00",
+      "sourcesChecked": [
+        "broad web/news search",
+        "Nissan cross-search",
+        "AAOS/vehicle OS cross-search"
+      ],
+      "searchesUsed": [
+        "software-defined vehicle",
+        "Nissan automotive software",
+        "AAOS automotive software",
+        "vehicle OS automotive",
+        "alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 5,
+      "adoptedCount": 0,
+      "excludedCount": 5,
+      "pendingCount": 0,
+      "completedAt": "2026-09-25T07:30:00+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Coretura selects Alloy Kore SDV foundation",
+      "org": "Coretura / QNX / Vector",
+      "primaryUrl": "https://www.reuters.com/business/blackberry-lifts-annual-revenue-forecast-strength-automotive-software-business-2026-09-24/",
+      "publishedAt": "2026-09-24",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "funnel": "Platform",
+      "route": "cross",
+      "materialChange": false,
+      "sdvRelation": "direct",
+      "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "duplicateOf": "sdv-coretura-alloy-kore-20260922",
+      "verified": true,
+      "score": 82,
+      "decision": "excluded",
+      "reason": "Follow-up coverage of event already stored on 2026-09-23; no new material event"
+    },
+    {
+      "title": "Volvo Cars Horizon AAOS development platform",
+      "org": "Volvo Cars / Google Cloud / Accenture",
+      "primaryUrl": "https://www.automotiveworld.com/news/volvo-cars-leads-aaos-cloud-development-push-with-horizon/",
+      "publishedAt": "2026-09-23",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "funnel": "CloudOS",
+      "route": "cross",
+      "materialChange": false,
+      "sdvRelation": "direct",
+      "eventKey": "volvo-horizon-aaos-development-platform-2026-09-22",
+      "duplicateOf": "sdv-volvo-horizon-aaos-20260922",
+      "verified": true,
+      "score": 74,
+      "decision": "excluded",
+      "reason": "Syndicated/follow-up coverage of already stored event"
+    },
+    {
+      "title": "UNECE R155/R156 explainer for 2027",
+      "org": "Automotive IQ",
+      "primaryUrl": "https://www.automotive-iq.com/cybersecurity/articles/unece-r155-r156-explained-automotive-cybersecurity-requirements-for-2027",
+      "publishedAt": "2026-09-23",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "funnel": "RegSecurity",
+      "route": "concept+cross",
+      "materialChange": false,
+      "sdvRelation": "direct",
+      "eventKey": "unece-r155-r156-explainer-2026-09-23",
+      "duplicateOf": null,
+      "verified": true,
+      "score": 38,
+      "decision": "excluded",
+      "reason": "Explainer of existing requirements; no new regulation or implementation change"
+    },
+    {
+      "title": "BlackBerry QNX revenue forecast raised",
+      "org": "BlackBerry",
+      "primaryUrl": "https://www.reuters.com/business/blackberry-lifts-annual-revenue-forecast-strength-automotive-software-business-2026-09-24/",
+      "publishedAt": "2026-09-24",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "funnel": "Cross",
+      "route": "cross",
+      "materialChange": true,
+      "sdvRelation": "peripheral",
+      "eventKey": "blackberry-qnx-revenue-forecast-2026-09-24",
+      "duplicateOf": null,
+      "verified": true,
+      "score": 36,
+      "decision": "excluded",
+      "reason": "Financial outlook driven by automotive software; no new SDV product, architecture, API, adoption, or regulation"
+    },
+    {
+      "title": "Connected vehicle value analysis",
+      "org": "Cubic3 / SBD Automotive",
+      "primaryUrl": "https://www.cubic3.com/blog/connected-vehicle-value/",
+      "publishedAt": "2026-09-24",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "funnel": "Cross",
+      "route": "concept+cross",
+      "materialChange": false,
+      "sdvRelation": "peripheral",
+      "eventKey": "cubic3-connected-vehicle-value-analysis-2026-09-24",
+      "duplicateOf": null,
+      "verified": true,
+      "score": 30,
+      "decision": "excluded",
+      "reason": "Industry analysis rather than a new technical, adoption, platform, API, or regulatory event"
+    }
+  ],
+  "counts": {
+    "candidate": 5,
+    "adopted": 0,
+    "excluded": 5,
+    "pending": 0,
+    "important": 0,
+    "reference": 0
+  },
+  "anomalyReason": "OEM, Tier1Semi and other zero-result funnels were rechecked via alternate queries; no additional qualifying non-duplicate events found."
+}
