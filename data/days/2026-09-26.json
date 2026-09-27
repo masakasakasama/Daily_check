@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-26",
+  "alerts": [],
+  "references": [
+    {
+      "id": "ai-cohere-compass-cloud-20260926",
+      "eventKey": "cohere-compass-cloud-2026-09-26",
+      "category": "AI",
+      "score": 68,
+      "title": "Cohere、企業向け検索・RAG基盤Compass Cloudを限定ベータ",
+      "summary": "企業向け検索・RAG基盤Compassのマネージドクラウド版。MCP対応など実務上有用だがAI史上の絶対尺度では75未満",
+      "publishedAt": "2026/09/26",
+      "firstSeenAt": "2026-09-28T04:58:00+09:00",
+      "source": {
+        "label": "Daily AI Newsbites",
+        "url": "https://ai.newsbites.today/date/2026/09"
+      }
+    },
+    {
+      "id": "ai-replit-atta-acquisition-20260926",
+      "eventKey": "replit-atta-acquisition-2026-09-26",
+      "category": "AI",
+      "score": 61,
+      "title": "Replit、BI開発のAtta買収",
+      "summary": "Replit chat内のインタラクティブなチャート生成などデータ分析機能を拡張。実務参考として採用",
+      "publishedAt": "2026/09/26",
+      "firstSeenAt": "2026-09-28T04:58:00+09:00",
+      "source": {
+        "label": "Daily AI Newsbites",
+        "url": "https://ai.newsbites.today/date/2026/09"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "参考2件。Compass CloudとReplitのBI機能拡張を採用",
+      "checkedAt": "2026-09-28T04:58:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 2
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "clear",
+      "summary": "6/6系統を48時間重複窓で確認。0件系統は別経路再確認済み。新規掲載基準を満たす非重複SDV情報なし",
+      "checkedAt": "2026-09-28T04:58:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "OpenAI公式情報を確認。前回確認以降、5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
+      "checkedAt": "2026-09-28T04:58:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "主要国の制度変更を確認。通知対象となる実質的な永住条件変更なし",
+      "checkedAt": "2026-09-28T04:58:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
