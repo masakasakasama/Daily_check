@@ -29,6 +29,21 @@
         "label": "Daily AI Newsbites",
         "url": "https://ai.newsbites.today/date/2026/09"
       }
+    },
+    {
+      "id": "sdv-dspace-20260926",
+      "eventKey": "dspace-v2x-sil-hil-20260926",
+      "category": "SDV",
+      "score": 58,
+      "title": "dSPACE V2X SIL/HIL検証",
+      "summary": "接続車両向けSIL/HIL検証の新規事例",
+      "publishedAt": "2026/09/26",
+      "firstSeenAt": "2026-09-28T06:10:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "YourStory",
+        "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
+      }
     }
   ],
   "checks": [
@@ -44,11 +59,11 @@
     {
       "id": "sdv-nissan",
       "name": "SDV / Nissanニュース",
-      "status": "clear",
-      "summary": "6/6系統を48時間重複窓で確認。0件系統は別経路再確認済み。新規掲載基準を満たす非重複SDV情報なし",
-      "checkedAt": "2026-09-28T04:58:00+09:00",
+      "status": "update",
+      "summary": "重要0件・参考1件。Deep Scanで見落とし回収",
+      "checkedAt": "2026-09-28T06:10:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 1
     },
     {
       "id": "codex-reset",
