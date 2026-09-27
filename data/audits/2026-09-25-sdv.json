@@ -4,249 +4,668 @@
   "windowEnd": "2026-09-25T07:30:00+09:00",
   "collectionComplete": true,
   "anomaly": false,
+  "deepScanPerformed": true,
+  "repairAt": "2026-09-28T05:40:00+09:00",
   "funnels": [
     {
       "name": "OEM",
       "windowStart": "2026-09-22T07:48:00+09:00",
       "windowEnd": "2026-09-25T07:30:00+09:00",
-      "sourcesChecked": [
-        "Nissan Global",
-        "Toyota Global Newsroom",
-        "Volkswagen Group",
-        "Stellantis Media",
-        "Mercedes-Benz Group",
-        "BMW Group"
-      ],
-      "searchesUsed": [
-        "official fixed-source scan",
-        "SDV OEM concept search",
-        "cross-search",
-        "zero-result alternate-route recheck"
-      ],
       "retrievalStatus": "complete",
       "candidateCount": 0,
       "adoptedCount": 0,
       "excludedCount": 0,
       "pendingCount": 0,
-      "completedAt": "2026-09-25T07:30:00+09:00"
+      "queryEvidence": [
+        {
+          "query": "Nissan Honda vehicle OS E/E architecture software-defined vehicle September 24 2026",
+          "sourceFamily": "web+official newsroom",
+          "rawHitCount": 0,
+          "urls": [
+            "https://global.nissannews.com/en/channels/news?selectedTabId=news-releases"
+          ]
+        },
+        {
+          "query": "Nissan automotive software SDV September 24 2026",
+          "sourceFamily": "Nissan newsroom",
+          "rawHitCount": 0,
+          "urls": [
+            "https://global.nissannews.com/en"
+          ]
+        },
+        {
+          "query": "Honda software-defined vehicle September 24 2026",
+          "sourceFamily": "Honda newsroom",
+          "rawHitCount": 0,
+          "urls": [
+            "https://global.honda/en/newsroom/"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-28T05:40:00+09:00"
     },
     {
       "name": "Platform",
       "windowStart": "2026-09-22T07:48:00+09:00",
       "windowEnd": "2026-09-25T07:30:00+09:00",
-      "sourcesChecked": [
-        "Android Automotive ecosystem",
-        "QNX",
-        "Vector",
-        "Qualcomm Automotive",
-        "NVIDIA Automotive"
-      ],
-      "searchesUsed": [
-        "official fixed-source scan",
-        "vehicle OS/central compute/OTA/API/SDK concept search",
-        "cross-search"
-      ],
       "retrievalStatus": "complete",
       "candidateCount": 2,
-      "adoptedCount": 0,
-      "excludedCount": 2,
+      "adoptedCount": 1,
+      "excludedCount": 1,
       "pendingCount": 0,
-      "completedAt": "2026-09-25T07:30:00+09:00"
+      "queryEvidence": [
+        {
+          "query": "QNX Vector AAOS AUTOSAR Adaptive vehicle OS September 24 2026",
+          "sourceFamily": "platform vendors+web",
+          "rawHitCount": 2,
+          "urls": [
+            "https://qnx.software/en/press-release/2026/coretura-selects-alloy-kore-for-its-commercial-vehicle-customers",
+            "https://www.automotiveworld.com/news/volvo-cars-leads-aaos-cloud-development-push-with-horizon/"
+          ]
+        },
+        {
+          "query": "software-defined vehicle platform cockpit domain controller September 24 2026",
+          "sourceFamily": "SDV Sector",
+          "rawHitCount": 1,
+          "urls": [
+            "https://sdvsector.com/news/2026-09-24-fibocom-hangsheng-control-acquisition"
+          ]
+        },
+        {
+          "query": "vehicle OS middleware HPC zonal September 24 2026",
+          "sourceFamily": "cross-search",
+          "rawHitCount": 1,
+          "urls": [
+            "https://sdvsector.com/topic/software-platforms-and-os"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-28T05:40:00+09:00"
     },
     {
       "name": "Tier1Semi",
       "windowStart": "2026-09-22T07:48:00+09:00",
       "windowEnd": "2026-09-25T07:30:00+09:00",
-      "sourcesChecked": [
-        "Bosch",
-        "Continental",
-        "HARMAN",
-        "NXP",
-        "Qualcomm",
-        "NVIDIA",
-        "Renesas"
-      ],
-      "searchesUsed": [
-        "official fixed-source scan",
-        "automotive semiconductor/Tier1 concept search",
-        "cross-search",
-        "zero-result alternate-route recheck"
-      ],
       "retrievalStatus": "complete",
-      "candidateCount": 0,
-      "adoptedCount": 0,
+      "candidateCount": 1,
+      "adoptedCount": 1,
       "excludedCount": 0,
       "pendingCount": 0,
-      "completedAt": "2026-09-25T07:30:00+09:00"
+      "queryEvidence": [
+        {
+          "query": "Bosch Continental AUMOVIO NXP automotive central compute zonal controller September 24 2026",
+          "sourceFamily": "Tier1+web",
+          "rawHitCount": 1,
+          "urls": [
+            "https://sdvsector.com/news/2026-09-24-aumovio-eets-distributed-onboard-unit"
+          ]
+        },
+        {
+          "query": "automotive telematics distributed ECU cloud certification September 24 2026",
+          "sourceFamily": "SDV Sector",
+          "rawHitCount": 1,
+          "urls": [
+            "https://sdvsector.com/news/2026-09-24-aumovio-eets-distributed-onboard-unit"
+          ]
+        },
+        {
+          "query": "automotive domain controller supplier September 24 2026",
+          "sourceFamily": "cross-search",
+          "rawHitCount": 1,
+          "urls": [
+            "https://sdvsector.com/news/2026-09-24-fibocom-hangsheng-control-acquisition"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-28T05:40:00+09:00"
     },
     {
       "name": "CloudOS",
       "windowStart": "2026-09-22T07:48:00+09:00",
       "windowEnd": "2026-09-25T07:30:00+09:00",
-      "sourcesChecked": [
-        "AWS Automotive",
-        "Google Cloud Automotive",
-        "Android source",
-        "Red Hat automotive"
-      ],
-      "searchesUsed": [
-        "official fixed-source scan",
-        "cloud/OS/development foundation concept search",
-        "cross-search",
-        "zero-result alternate-route recheck"
-      ],
       "retrievalStatus": "complete",
       "candidateCount": 1,
       "adoptedCount": 0,
       "excludedCount": 1,
       "pendingCount": 0,
-      "completedAt": "2026-09-25T07:30:00+09:00"
+      "queryEvidence": [
+        {
+          "query": "AWS Google Cloud automotive virtual ECU SIL HIL vehicle SDK September 24 2026",
+          "sourceFamily": "cloud+web",
+          "rawHitCount": 1,
+          "urls": [
+            "https://www.automotiveworld.com/news/volvo-cars-leads-aaos-cloud-development-push-with-horizon/"
+          ]
+        },
+        {
+          "query": "AAOS cloud development automotive September 24 2026",
+          "sourceFamily": "Automotive World",
+          "rawHitCount": 1,
+          "urls": [
+            "https://www.automotiveworld.com/news/volvo-cars-leads-aaos-cloud-development-push-with-horizon/"
+          ]
+        },
+        {
+          "query": "automotive CI/CD virtual ECU September 24 2026",
+          "sourceFamily": "cross-search",
+          "rawHitCount": 0,
+          "urls": []
+        }
+      ],
+      "completedAt": "2026-09-28T05:40:00+09:00"
     },
     {
       "name": "RegSecurity",
       "windowStart": "2026-09-22T07:48:00+09:00",
       "windowEnd": "2026-09-25T07:30:00+09:00",
-      "sourcesChecked": [
-        "UNECE",
-        "NHTSA",
-        "EU cybersecurity/CRA automotive"
-      ],
-      "searchesUsed": [
-        "official fixed-source scan",
-        "cybersecurity/OTA regulation concept search",
-        "cross-search",
-        "zero-result alternate-route recheck"
-      ],
       "retrievalStatus": "complete",
-      "candidateCount": 1,
-      "adoptedCount": 0,
-      "excludedCount": 1,
+      "candidateCount": 4,
+      "adoptedCount": 4,
+      "excludedCount": 0,
       "pendingCount": 0,
-      "completedAt": "2026-09-25T07:30:00+09:00"
+      "queryEvidence": [
+        {
+          "query": "automotive cybersecurity software update regulation UNECE R155 R156 ISO 24089 September 24 2026",
+          "sourceFamily": "regulation+web",
+          "rawHitCount": 4,
+          "urls": [
+            "https://sdvsector.com/news/2026-09-24-miit-software-update-engineering-approval-draft",
+            "https://sdvsector.com/news/2026-09-24-china-gbt-intrusion-detection-draft",
+            "https://sdvsector.com/news/2026-09-24-eu-euro-7-type-approval-obd-cybersecurity",
+            "https://sdvsector.com/news/2026-09-24-nhtsa-comma-ai-openpilot-investigation"
+          ]
+        },
+        {
+          "query": "Road Vehicles Software Update Engineering China September 24 2026",
+          "sourceFamily": "MIIT/SAMR+SDV Sector",
+          "rawHitCount": 1,
+          "urls": [
+            "https://sdvsector.com/news/2026-09-24-miit-software-update-engineering-approval-draft",
+            "https://std.samr.gov.cn/gb/search/gbDetailed?id=3BD7197C4E83A3E7E06397BE0A0A94C7"
+          ]
+        },
+        {
+          "query": "openpilot NHTSA September 24 2026",
+          "sourceFamily": "NHTSA+SDV Sector",
+          "rawHitCount": 1,
+          "urls": [
+            "https://sdvsector.com/news/2026-09-24-nhtsa-comma-ai-openpilot-investigation",
+            "https://www.nhtsa.gov/nhtsa-datasets-and-apis"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-28T05:40:00+09:00"
     },
     {
       "name": "Cross",
       "windowStart": "2026-09-22T07:48:00+09:00",
       "windowEnd": "2026-09-25T07:30:00+09:00",
-      "sourcesChecked": [
-        "broad web/news search",
-        "Nissan cross-search",
-        "AAOS/vehicle OS cross-search"
-      ],
-      "searchesUsed": [
-        "software-defined vehicle",
-        "Nissan automotive software",
-        "AAOS automotive software",
-        "vehicle OS automotive",
-        "alternate-route recheck"
-      ],
       "retrievalStatus": "complete",
-      "candidateCount": 5,
+      "candidateCount": 2,
       "adoptedCount": 0,
-      "excludedCount": 5,
+      "excludedCount": 2,
       "pendingCount": 0,
-      "completedAt": "2026-09-25T07:30:00+09:00"
+      "queryEvidence": [
+        {
+          "query": "software-defined vehicle vehicle OS cockpit software OTA September 24 2026",
+          "sourceFamily": "broad web",
+          "rawHitCount": 6,
+          "urls": [
+            "https://sdvsector.com/",
+            "https://sdvsector.com/news/2026-09-24-miit-software-update-engineering-approval-draft",
+            "https://sdvsector.com/news/2026-09-24-china-gbt-intrusion-detection-draft",
+            "https://sdvsector.com/news/2026-09-24-aumovio-eets-distributed-onboard-unit",
+            "https://sdvsector.com/news/2026-09-24-fibocom-hangsheng-control-acquisition"
+          ]
+        },
+        {
+          "query": "site:sdvsector.com September 24 2026 software platforms OS regulation",
+          "sourceFamily": "SDV Sector",
+          "rawHitCount": 6,
+          "urls": [
+            "https://sdvsector.com/"
+          ]
+        },
+        {
+          "query": "software-defined vehicle September 24 2026 Reuters Automotive World",
+          "sourceFamily": "Reuters+Automotive World",
+          "rawHitCount": 2,
+          "urls": [
+            "https://www.reuters.com/business/blackberry-lifts-annual-revenue-forecast-strength-automotive-software-business-2026-09-24/",
+            "https://www.automotiveworld.com/news/volvo-cars-leads-aaos-cloud-development-push-with-horizon/"
+          ]
+        }
+      ],
+      "completedAt": "2026-09-28T05:40:00+09:00"
     }
   ],
-  "candidates": [
+  "rawCandidates": [
+    {
+      "title": "China software update engineering standard reached approval-draft stage",
+      "org": "MIIT / SAC TC114",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-miit-software-update-engineering-approval-draft",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "RegSecurity",
+      "eventKey": "china-road-vehicles-software-update-engineering-approval-draft-2026-09-24",
+      "verified": true,
+      "score": 92,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 23,
+        "scale": 20,
+        "specificity": 12,
+        "novelty": 13
+      },
+      "decision": "adopted-important",
+      "reason": "National-level software-update engineering standard directly affects OTA/SUMS process"
+    },
+    {
+      "title": "China vehicle intrusion-detection draft standard opened for comment",
+      "org": "SAC TC114/SC34",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-china-gbt-intrusion-detection-draft",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "RegSecurity",
+      "eventKey": "china-vehicle-intrusion-detection-draft-standard-2026-09-24",
+      "verified": true,
+      "score": 90,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 22,
+        "scale": 18,
+        "specificity": 14,
+        "novelty": 13
+      },
+      "decision": "adopted-important",
+      "reason": "Concrete vehicle OS/CAN/Ethernet/V2X detection and logging requirements"
+    },
+    {
+      "title": "EU adds Euro 7 software-side subjects to type approval",
+      "org": "European Commission",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-eu-euro-7-type-approval-obd-cybersecurity",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "RegSecurity",
+      "eventKey": "eu-euro7-software-cybersecurity-type-approval-2026-09-24",
+      "verified": true,
+      "score": 86,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 22,
+        "scale": 20,
+        "specificity": 12,
+        "novelty": 11
+      },
+      "decision": "adopted-important",
+      "reason": "Software/cybersecurity obligations become explicit type-approval subjects"
+    },
+    {
+      "title": "NHTSA opens PE26007 into comma.ai openpilot and forks",
+      "org": "NHTSA / comma.ai",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-nhtsa-comma-ai-openpilot-investigation",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "RegSecurity",
+      "eventKey": "nhtsa-openpilot-forks-investigation-pe26007-2026-09-24",
+      "verified": true,
+      "score": 78,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 18,
+        "scale": 16,
+        "specificity": 13,
+        "novelty": 13
+      },
+      "decision": "adopted-important",
+      "reason": "Regulatory defect investigation directly covers vehicle software and downstream forks"
+    },
+    {
+      "title": "AUMOVIO distributed VDO Link architecture receives EETS certification",
+      "org": "AUMOVIO",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-aumovio-eets-distributed-onboard-unit",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "Tier1Semi",
+      "eventKey": "aumovio-vdo-link-distributed-eets-certification-2026-09-24",
+      "verified": true,
+      "score": 64,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 17,
+        "scale": 11,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "decision": "adopted-reference",
+      "reason": "Concrete distributed in-vehicle/connectivity/cloud certification case"
+    },
+    {
+      "title": "Fibocom details control acquisition of cockpit/domain-controller supplier Hangsheng",
+      "org": "Fibocom / Hangsheng",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-fibocom-hangsheng-control-acquisition",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "Platform",
+      "eventKey": "fibocom-hangsheng-cockpit-domain-controller-acquisition-2026-09-24",
+      "verified": true,
+      "score": 62,
+      "scoreBreakdown": {
+        "sdvDirectness": 15,
+        "practicalImpact": 15,
+        "scale": 12,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "decision": "adopted-reference",
+      "reason": "Strategic vertical integration into cockpit and domain-controller software/hardware"
+    },
     {
       "title": "Coretura selects Alloy Kore SDV foundation",
       "org": "Coretura / QNX / Vector",
-      "primaryUrl": "https://www.reuters.com/business/blackberry-lifts-annual-revenue-forecast-strength-automotive-software-business-2026-09-24/",
-      "publishedAt": "2026-09-24",
-      "updatedAt": null,
+      "primaryUrl": "https://qnx.software/en/press-release/2026/coretura-selects-alloy-kore-for-its-commercial-vehicle-customers",
+      "publishedAt": "2026-09-22",
       "firstSeenAt": "2026-09-25T07:30:00+09:00",
       "funnel": "Platform",
-      "route": "cross",
-      "materialChange": false,
-      "sdvRelation": "direct",
       "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
       "duplicateOf": "sdv-coretura-alloy-kore-20260922",
       "verified": true,
       "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 22,
+        "scale": 17,
+        "specificity": 12,
+        "novelty": 8
+      },
       "decision": "excluded",
-      "reason": "Follow-up coverage of event already stored on 2026-09-23; no new material event"
+      "reason": "Duplicate of previously stored event"
     },
     {
       "title": "Volvo Cars Horizon AAOS development platform",
       "org": "Volvo Cars / Google Cloud / Accenture",
       "primaryUrl": "https://www.automotiveworld.com/news/volvo-cars-leads-aaos-cloud-development-push-with-horizon/",
       "publishedAt": "2026-09-23",
-      "updatedAt": null,
       "firstSeenAt": "2026-09-25T07:30:00+09:00",
       "funnel": "CloudOS",
-      "route": "cross",
-      "materialChange": false,
-      "sdvRelation": "direct",
       "eventKey": "volvo-horizon-aaos-development-platform-2026-09-22",
       "duplicateOf": "sdv-volvo-horizon-aaos-20260922",
       "verified": true,
       "score": 74,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 18,
+        "scale": 14,
+        "specificity": 12,
+        "novelty": 10
+      },
       "decision": "excluded",
-      "reason": "Syndicated/follow-up coverage of already stored event"
-    },
-    {
-      "title": "UNECE R155/R156 explainer for 2027",
-      "org": "Automotive IQ",
-      "primaryUrl": "https://www.automotive-iq.com/cybersecurity/articles/unece-r155-r156-explained-automotive-cybersecurity-requirements-for-2027",
-      "publishedAt": "2026-09-23",
-      "updatedAt": null,
-      "firstSeenAt": "2026-09-25T07:30:00+09:00",
-      "funnel": "RegSecurity",
-      "route": "concept+cross",
-      "materialChange": false,
-      "sdvRelation": "direct",
-      "eventKey": "unece-r155-r156-explainer-2026-09-23",
-      "duplicateOf": null,
-      "verified": true,
-      "score": 38,
-      "decision": "excluded",
-      "reason": "Explainer of existing requirements; no new regulation or implementation change"
+      "reason": "Duplicate/follow-up of previously stored event"
     },
     {
       "title": "BlackBerry QNX revenue forecast raised",
-      "org": "BlackBerry",
+      "org": "BlackBerry QNX",
       "primaryUrl": "https://www.reuters.com/business/blackberry-lifts-annual-revenue-forecast-strength-automotive-software-business-2026-09-24/",
       "publishedAt": "2026-09-24",
-      "updatedAt": null,
       "firstSeenAt": "2026-09-25T07:30:00+09:00",
       "funnel": "Cross",
-      "route": "cross",
-      "materialChange": true,
-      "sdvRelation": "peripheral",
       "eventKey": "blackberry-qnx-revenue-forecast-2026-09-24",
-      "duplicateOf": null,
       "verified": true,
       "score": 36,
+      "scoreBreakdown": {
+        "sdvDirectness": 8,
+        "practicalImpact": 8,
+        "scale": 8,
+        "specificity": 7,
+        "novelty": 5
+      },
       "decision": "excluded",
-      "reason": "Financial outlook driven by automotive software; no new SDV product, architecture, API, adoption, or regulation"
+      "reason": "Financial result without new SDV product/architecture/API/adoption event"
     },
     {
       "title": "Connected vehicle value analysis",
       "org": "Cubic3 / SBD Automotive",
       "primaryUrl": "https://www.cubic3.com/blog/connected-vehicle-value/",
       "publishedAt": "2026-09-24",
-      "updatedAt": null,
       "firstSeenAt": "2026-09-25T07:30:00+09:00",
       "funnel": "Cross",
-      "route": "concept+cross",
-      "materialChange": false,
-      "sdvRelation": "peripheral",
       "eventKey": "cubic3-connected-vehicle-value-analysis-2026-09-24",
-      "duplicateOf": null,
       "verified": true,
       "score": 30,
+      "scoreBreakdown": {
+        "sdvDirectness": 7,
+        "practicalImpact": 7,
+        "scale": 6,
+        "specificity": 6,
+        "novelty": 4
+      },
       "decision": "excluded",
-      "reason": "Industry analysis rather than a new technical, adoption, platform, API, or regulatory event"
+      "reason": "Analysis article rather than a new technical/adoption/regulatory event"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "China software update engineering standard reached approval-draft stage",
+      "org": "MIIT / SAC TC114",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-miit-software-update-engineering-approval-draft",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "RegSecurity",
+      "eventKey": "china-road-vehicles-software-update-engineering-approval-draft-2026-09-24",
+      "verified": true,
+      "score": 92,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 23,
+        "scale": 20,
+        "specificity": 12,
+        "novelty": 13
+      },
+      "decision": "adopted-important",
+      "reason": "National-level software-update engineering standard directly affects OTA/SUMS process"
+    },
+    {
+      "title": "China vehicle intrusion-detection draft standard opened for comment",
+      "org": "SAC TC114/SC34",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-china-gbt-intrusion-detection-draft",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "RegSecurity",
+      "eventKey": "china-vehicle-intrusion-detection-draft-standard-2026-09-24",
+      "verified": true,
+      "score": 90,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 22,
+        "scale": 18,
+        "specificity": 14,
+        "novelty": 13
+      },
+      "decision": "adopted-important",
+      "reason": "Concrete vehicle OS/CAN/Ethernet/V2X detection and logging requirements"
+    },
+    {
+      "title": "EU adds Euro 7 software-side subjects to type approval",
+      "org": "European Commission",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-eu-euro-7-type-approval-obd-cybersecurity",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "RegSecurity",
+      "eventKey": "eu-euro7-software-cybersecurity-type-approval-2026-09-24",
+      "verified": true,
+      "score": 86,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 22,
+        "scale": 20,
+        "specificity": 12,
+        "novelty": 11
+      },
+      "decision": "adopted-important",
+      "reason": "Software/cybersecurity obligations become explicit type-approval subjects"
+    },
+    {
+      "title": "NHTSA opens PE26007 into comma.ai openpilot and forks",
+      "org": "NHTSA / comma.ai",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-nhtsa-comma-ai-openpilot-investigation",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "RegSecurity",
+      "eventKey": "nhtsa-openpilot-forks-investigation-pe26007-2026-09-24",
+      "verified": true,
+      "score": 78,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 18,
+        "scale": 16,
+        "specificity": 13,
+        "novelty": 13
+      },
+      "decision": "adopted-important",
+      "reason": "Regulatory defect investigation directly covers vehicle software and downstream forks"
+    },
+    {
+      "title": "AUMOVIO distributed VDO Link architecture receives EETS certification",
+      "org": "AUMOVIO",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-aumovio-eets-distributed-onboard-unit",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "Tier1Semi",
+      "eventKey": "aumovio-vdo-link-distributed-eets-certification-2026-09-24",
+      "verified": true,
+      "score": 64,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 17,
+        "scale": 11,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "decision": "adopted-reference",
+      "reason": "Concrete distributed in-vehicle/connectivity/cloud certification case"
+    },
+    {
+      "title": "Fibocom details control acquisition of cockpit/domain-controller supplier Hangsheng",
+      "org": "Fibocom / Hangsheng",
+      "primaryUrl": "https://sdvsector.com/news/2026-09-24-fibocom-hangsheng-control-acquisition",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-28T05:40:00+09:00",
+      "discoveredLate": true,
+      "funnel": "Platform",
+      "eventKey": "fibocom-hangsheng-cockpit-domain-controller-acquisition-2026-09-24",
+      "verified": true,
+      "score": 62,
+      "scoreBreakdown": {
+        "sdvDirectness": 15,
+        "practicalImpact": 15,
+        "scale": 12,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "decision": "adopted-reference",
+      "reason": "Strategic vertical integration into cockpit and domain-controller software/hardware"
+    },
+    {
+      "title": "Coretura selects Alloy Kore SDV foundation",
+      "org": "Coretura / QNX / Vector",
+      "primaryUrl": "https://qnx.software/en/press-release/2026/coretura-selects-alloy-kore-for-its-commercial-vehicle-customers",
+      "publishedAt": "2026-09-22",
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "funnel": "Platform",
+      "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "duplicateOf": "sdv-coretura-alloy-kore-20260922",
+      "verified": true,
+      "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 22,
+        "scale": 17,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "decision": "excluded",
+      "reason": "Duplicate of previously stored event"
+    },
+    {
+      "title": "Volvo Cars Horizon AAOS development platform",
+      "org": "Volvo Cars / Google Cloud / Accenture",
+      "primaryUrl": "https://www.automotiveworld.com/news/volvo-cars-leads-aaos-cloud-development-push-with-horizon/",
+      "publishedAt": "2026-09-23",
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "funnel": "CloudOS",
+      "eventKey": "volvo-horizon-aaos-development-platform-2026-09-22",
+      "duplicateOf": "sdv-volvo-horizon-aaos-20260922",
+      "verified": true,
+      "score": 74,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 18,
+        "scale": 14,
+        "specificity": 12,
+        "novelty": 10
+      },
+      "decision": "excluded",
+      "reason": "Duplicate/follow-up of previously stored event"
+    },
+    {
+      "title": "BlackBerry QNX revenue forecast raised",
+      "org": "BlackBerry QNX",
+      "primaryUrl": "https://www.reuters.com/business/blackberry-lifts-annual-revenue-forecast-strength-automotive-software-business-2026-09-24/",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "funnel": "Cross",
+      "eventKey": "blackberry-qnx-revenue-forecast-2026-09-24",
+      "verified": true,
+      "score": 36,
+      "scoreBreakdown": {
+        "sdvDirectness": 8,
+        "practicalImpact": 8,
+        "scale": 8,
+        "specificity": 7,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "Financial result without new SDV product/architecture/API/adoption event"
+    },
+    {
+      "title": "Connected vehicle value analysis",
+      "org": "Cubic3 / SBD Automotive",
+      "primaryUrl": "https://www.cubic3.com/blog/connected-vehicle-value/",
+      "publishedAt": "2026-09-24",
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "funnel": "Cross",
+      "eventKey": "cubic3-connected-vehicle-value-analysis-2026-09-24",
+      "verified": true,
+      "score": 30,
+      "scoreBreakdown": {
+        "sdvDirectness": 7,
+        "practicalImpact": 7,
+        "scale": 6,
+        "specificity": 6,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "Analysis article rather than a new technical/adoption/regulatory event"
     }
   ],
   "counts": {
-    "candidate": 5,
-    "adopted": 0,
-    "excluded": 5,
+    "candidate": 10,
+    "adopted": 6,
+    "excluded": 4,
     "pending": 0,
-    "important": 0,
-    "reference": 0
+    "important": 4,
+    "reference": 2
   },
-  "anomalyReason": "OEM, Tier1Semi and other zero-result funnels were rechecked via alternate queries; no additional qualifying non-duplicate events found."
+  "anomalyReason": "Previous run incorrectly collapsed raw search hits into zero publishable items. Deep Scan recovered four important and two reference items and preserved duplicates/exclusions."
 }
