@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-28",
+  "alerts": [],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "clear",
+      "summary": "前回確認以降の新規重要・参考ニュースなし。9/27掲載済みのGPT-6、Claude Opus 5.5等は重複除外",
+      "checkedAt": "2026-09-28T07:05:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "clear",
+      "summary": "6系統とDeep Scanを完了。raw候補10件は既採用・公開窓外・新規イベント性不足のため掲載0件",
+      "checkedAt": "2026-09-28T07:05:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "OpenAI公式情報を確認。前回確認以降、5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
+      "checkedAt": "2026-09-28T07:05:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "主要国の公式情報を確認。ニュージーランドSMC情報は2026年6月公表・8月施行済みで新規変更ではなく、通知対象となる大幅変更なし",
+      "checkedAt": "2026-09-28T07:05:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
