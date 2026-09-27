@@ -1,35 +1,6 @@
 {
   "date": "2026-09-27",
-  "alerts": [
-    {
-      "id": "ai-openai-gpt6-sol-luna-20260927",
-      "eventKey": "openai-gpt6-sol-luna-2026-09-27",
-      "category": "AI",
-      "score": 96,
-      "title": "OpenAI、GPT-6 Sol / Lunaを公開",
-      "summary": "新世代の基盤モデルGPT-6 SolとLunaがChatGPT Work、Codex、APIで提供開始。前世代より低価格化も伴うため固定尺度で90点台",
-      "publishedAt": "2026/09/27",
-      "firstSeenAt": "2026-09-28T04:58:00+09:00",
-      "source": {
-        "label": "AI Briefs",
-        "url": "https://aibriefs.news/ai-news-today"
-      }
-    },
-    {
-      "id": "ai-anthropic-opus55-20260927",
-      "eventKey": "anthropic-claude-opus-5-5-2026-09-27",
-      "category": "AI",
-      "score": 86,
-      "title": "Anthropic、Claude Opus 5.5を公開",
-      "summary": "サイバーセキュリティ対策を強化した主要フロンティアモデル更新。価格低下と安全性改善を伴う",
-      "publishedAt": "2026/09/27",
-      "firstSeenAt": "2026-09-28T04:58:00+09:00",
-      "source": {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
-      }
-    }
-  ],
+  "alerts": [],
   "references": [
     {
       "id": "sdv-bosch-rexroth-20260927",
@@ -51,10 +22,10 @@
     {
       "id": "ai",
       "name": "AIニュース",
-      "status": "update",
-      "summary": "重要2件。GPT-6 Sol/LunaとClaude Opus 5.5を採用",
-      "checkedAt": "2026-09-28T04:58:00+09:00",
-      "alertCount": 2,
+      "status": "clear",
+      "summary": "新規重要・参考ニュースなし。GPT-6 Sol/LunaとClaude Opus 5.5は9/22採用済みの重複として除外",
+      "checkedAt": "2026-09-28T07:05:51+09:00",
+      "alertCount": 0,
       "referenceCount": 0
     },
     {
