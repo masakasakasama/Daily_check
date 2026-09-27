@@ -1,0 +1,936 @@
+{
+  "date": "2026-09-28",
+  "windowStart": "2026-09-26T05:04:00+09:00",
+  "windowEnd": "2026-09-28T07:05:51+09:00",
+  "collectionComplete": true,
+  "anomaly": false,
+  "deepScanPerformed": true,
+  "fixedSources": {
+    "successful": [
+      "Nissan Global Innovation",
+      "Honda Global Newsroom",
+      "Toyota Global Newsroom",
+      "GM News",
+      "Automotive Grade Linux",
+      "COVESA",
+      "Eclipse SDV",
+      "AUTOSAR",
+      "SDVerse",
+      "HARMAN",
+      "Bosch Media Service",
+      "Vector SDV",
+      "Reuters Automotive"
+    ],
+    "fallbackOrTimeout": [
+      "NXP Automotive",
+      "TCS Newsroom",
+      "Android Automotive",
+      "Red Hat Automotive",
+      "Korea MOLIT",
+      "UNECE Vehicle Regulations",
+      "Lucid Press Releases"
+    ],
+    "note": "timeout先は概念検索・公式ドメイン検索・別経路を併用"
+  },
+  "funnels": [
+    {
+      "name": "OEM",
+      "windowStart": "2026-09-26T05:04:00+09:00",
+      "windowEnd": "2026-09-28T07:05:51+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "site:nissan-global.com OR site:global.honda software vehicle OTA AAOS September 27 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "official-domain search",
+          "rawHitCount": 5,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Nissan software-defined vehicle",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "news search",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Honda software-defined vehicle ASIMO OS",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "news search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Nissan Honda SDV vehicle software platform September 27 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "cross-search",
+          "rawHitCount": 6,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 3,
+      "retrievalStatus": "complete",
+      "candidateCount": 3,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 1,
+      "completedAt": "2026-09-28T07:05:51+09:00"
+    },
+    {
+      "name": "Platform",
+      "windowStart": "2026-09-26T05:04:00+09:00",
+      "windowEnd": "2026-09-28T07:05:51+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "vehicle OS central compute zonal controller automotive",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "technology search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "AAOS AUTOSAR Adaptive SOAFEE Eclipse SDV COVESA QNX",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "ecosystem search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Automotive World software-defined vehicle platform",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "industry-media search",
+          "rawHitCount": 10,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "AAOS AUTOSAR Adaptive SOAFEE Eclipse SDV COVESA QNX September 27 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "cross-search",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 2,
+      "retrievalStatus": "complete",
+      "candidateCount": 1,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "duplicateCount": 1,
+      "completedAt": "2026-09-28T07:05:51+09:00"
+    },
+    {
+      "name": "Tier1Semi",
+      "windowStart": "2026-09-26T05:04:00+09:00",
+      "windowEnd": "2026-09-28T07:05:51+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "Bosch Continental Aptiv Harman NXP Qualcomm automotive middleware OTA September 27 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "company search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Bosch Continental Harman NXP automotive software OTA",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "company search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "vehicle OS central compute zonal controller automotive",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "technology search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "connected vehicle in-vehicle Ethernet cockpit software September 27 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "cross-search",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 1,
+      "retrievalStatus": "complete",
+      "candidateCount": 1,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "duplicateCount": 0,
+      "completedAt": "2026-09-28T07:05:51+09:00"
+    },
+    {
+      "name": "CloudOS",
+      "windowStart": "2026-09-26T05:04:00+09:00",
+      "windowEnd": "2026-09-28T07:05:51+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "automotive cloud virtual ECU SIL HIL CI/CD vehicle SDK September 27 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "technology search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "virtual ECU SIL HIL automotive CI/CD",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "technology search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "2026 automotive software-defined vehicle SDV",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "cross-search",
+          "rawHitCount": 7,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "software-defined vehicle development platform cloud SDK September 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "concept search",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 2,
+      "retrievalStatus": "complete",
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "completedAt": "2026-09-28T07:05:51+09:00"
+    },
+    {
+      "name": "RegSecurity",
+      "windowStart": "2026-09-26T05:04:00+09:00",
+      "windowEnd": "2026-09-28T07:05:51+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "UNECE R155 R156 ISO 21434 ISO 24089 vehicle cybersecurity September 27 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "regulation search",
+          "rawHitCount": 5,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "UNECE R155 R156 ISO 21434 24089 automotive",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "regulation search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "vehicle cybersecurity software update regulation September 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "concept search",
+          "rawHitCount": 5,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:unece.org vehicle regulations software update September 2026",
+          "sourceUrl": "web search",
+          "sourceFamily": "official-domain search",
+          "rawHitCount": 1,
+          "retrievalStatus": "partial"
+        }
+      ],
+      "rawHitCount": 1,
+      "retrievalStatus": "complete-with-fallback",
+      "candidateCount": 1,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "duplicateCount": 0,
+      "completedAt": "2026-09-28T07:05:51+09:00"
+    },
+    {
+      "name": "Cross",
+      "windowStart": "2026-09-26T05:04:00+09:00",
+      "windowEnd": "2026-09-28T07:05:51+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "2026 automotive software-defined vehicle SDV",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "broad SDV search",
+          "rawHitCount": 7,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Reuters automotive software connected vehicle",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "major-media search",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Automotive World software-defined vehicle platform",
+          "sourceUrl": "TinyFish news",
+          "sourceFamily": "major-SDV-media search",
+          "rawHitCount": 10,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:sdvsector.com September 26 2026",
+          "sourceUrl": "TinyFish web",
+          "sourceFamily": "specialist-media search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 1,
+      "retrievalStatus": "complete",
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "completedAt": "2026-09-28T07:05:51+09:00"
+    }
+  ],
+  "deepScanQueries": [
+    "September 27 2026 automotive software vehicle",
+    "September 26 2026 software-defined vehicle",
+    "site:reuters.com automotive software September 26 2026 September 27 2026",
+    "site:automotiveworld.com software vehicle OTA September 27 2026",
+    "Nissan software-defined vehicle",
+    "Honda software-defined vehicle ASIMO OS",
+    "vehicle OS central compute zonal controller automotive",
+    "Bosch Continental Harman NXP automotive software OTA",
+    "virtual ECU SIL HIL automotive CI/CD",
+    "UNECE R155 R156 ISO 21434 24089 automotive",
+    "site:sdvsector.com September 26 2026",
+    "site:global.honda OR site:nissan-global.com vehicle software September 2026"
+  ],
+  "rawCandidates": [
+    {
+      "title": "India’s connected car push: How simulation is preparing vehicles for real-world chaos",
+      "org": "dSPACE India",
+      "primaryUrl": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace",
+      "publishedAt": "2026-09-26",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "OEM",
+      "eventKey": "dspace-v2x-sil-hil-20260926",
+      "verified": true,
+      "score": 58,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 17,
+        "scale": 9,
+        "specificity": 11,
+        "novelty": 5
+      },
+      "decision": "duplicate",
+      "duplicateOf": "dspace-v2x-sil-hil-20260926",
+      "reason": "9/26 Daily Checkで採用済み"
+    },
+    {
+      "title": "Rivian rearview-camera software recall covering about 100,700 vehicles",
+      "org": "Rivian",
+      "primaryUrl": "https://www.aol.ca/articles/rivian-sends-safety-message-thousands-151700000.html",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "OEM",
+      "eventKey": "rivian-rearview-camera-software-recall-20260923",
+      "verified": true,
+      "score": 56,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 16,
+        "scale": 13,
+        "specificity": 11,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "記事公開時刻が収集窓開始前で、元イベントも9/23発表済み"
+    },
+    {
+      "title": "Western automakers losing the software race",
+      "org": "InsideEVs / AlixPartners",
+      "primaryUrl": "https://insideevs.com/features/794029/how-western-companies-are-losing-the-software-race/",
+      "publishedAt": "2026-04-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "OEM",
+      "eventKey": "alixpartners-western-automakers-sdv-control-points-20260425",
+      "verified": true,
+      "score": 43,
+      "scoreBreakdown": {
+        "sdvDirectness": 15,
+        "practicalImpact": 12,
+        "scale": 8,
+        "specificity": 5,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "検索窓外の既存分析"
+    },
+    {
+      "title": "Coretura selects Vector-QNX software for commercial vehicle platform",
+      "org": "Coretura / Vector / QNX",
+      "primaryUrl": "https://www.freightwaves.com/news/coretura-selects-vector-qnx-software-for-commercial-vehicle-platform",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Platform",
+      "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "verified": true,
+      "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 22,
+        "scale": 16,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "decision": "duplicate",
+      "duplicateOf": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "reason": "9/22イベントを9/23 Daily Checkで採用済み"
+    },
+    {
+      "title": "Software-Defined Vehicle Intelligence Brief – September 24, 2026",
+      "org": "Automotive World",
+      "primaryUrl": "https://www.automotiveworld.com/intelligence-briefs/software-defined-vehicle-intelligence-brief-september-24-2026/",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Cross",
+      "eventKey": "automotive-world-sdv-brief-20260924",
+      "verified": true,
+      "score": 35,
+      "scoreBreakdown": {
+        "sdvDirectness": 12,
+        "practicalImpact": 8,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "既採用イベントの週次まとめで新規一次イベントなし"
+    },
+    {
+      "title": "Kigen certifies automotive eSIM for SGP.32 v1.3",
+      "org": "Kigen / Infineon",
+      "primaryUrl": "https://www.iotinsider.com/industries/communications/kigen-certifies-automotive-esim-for-latest-iot-specification/",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "RegSecurity",
+      "eventKey": "kigen-automotive-esim-sgp32-v13-20260925",
+      "verified": true,
+      "score": 54,
+      "scoreBreakdown": {
+        "sdvDirectness": 11,
+        "practicalImpact": 15,
+        "scale": 10,
+        "specificity": 12,
+        "novelty": 6
+      },
+      "decision": "excluded",
+      "reason": "公開時刻が収集窓開始前"
+    },
+    {
+      "title": "AI in automotive: Software-defined vehicle investment outlook",
+      "org": "PwC",
+      "primaryUrl": "https://www.pwc.com/us/en/industries/industrial-products/library/ai-automotive-outlook.html",
+      "publishedAt": null,
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "CloudOS",
+      "eventKey": "pwc-ai-automotive-sdv-investment-outlook-2026",
+      "verified": true,
+      "score": 39,
+      "scoreBreakdown": {
+        "sdvDirectness": 10,
+        "practicalImpact": 12,
+        "scale": 8,
+        "specificity": 5,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "公開日を本文・metadataで確定できず、新規個別イベントでもない"
+    },
+    {
+      "title": "The Software-Defined Vehicle Has Arrived: Automakers Must Follow Suit",
+      "org": "Forbes Technology Council",
+      "primaryUrl": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/the-software-defined-vehicle-has-arrived-automakers-must-follow-suit/",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "CloudOS",
+      "eventKey": "forbes-sdv-enterprise-operating-model-20260925",
+      "verified": true,
+      "score": 38,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 10,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "論考であり新規製品・提携・規制イベントなし"
+    },
+    {
+      "title": "How India can lead the software-defined automotive era",
+      "org": "IBM Consulting / ETAuto",
+      "primaryUrl": "https://auto.economictimes.indiatimes.com/news/auto-technology/how-india-can-lead-the-software-defined-automotive-era/134497439",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26T10:39:16+05:30",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Cross",
+      "eventKey": "ibm-india-sdv-ai-opinion-20260926",
+      "verified": true,
+      "score": 36,
+      "scoreBreakdown": {
+        "sdvDirectness": 12,
+        "practicalImpact": 10,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "業界論考で40点未満"
+    },
+    {
+      "title": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
+      "org": "EE Times",
+      "primaryUrl": "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
+      "publishedAt": "2026-08-07",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Tier1Semi",
+      "eventKey": "eetimes-automotive-chiplet-architecture-20260807",
+      "verified": true,
+      "score": 42,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 12,
+        "scale": 7,
+        "specificity": 7,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "検索窓外"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "India’s connected car push: How simulation is preparing vehicles for real-world chaos",
+      "org": "dSPACE India",
+      "primaryUrl": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace",
+      "publishedAt": "2026-09-26",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "OEM",
+      "eventKey": "dspace-v2x-sil-hil-20260926",
+      "verified": true,
+      "score": 58,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 17,
+        "scale": 9,
+        "specificity": 11,
+        "novelty": 5
+      },
+      "decision": "duplicate",
+      "duplicateOf": "dspace-v2x-sil-hil-20260926",
+      "reason": "9/26 Daily Checkで採用済み"
+    },
+    {
+      "title": "Rivian rearview-camera software recall covering about 100,700 vehicles",
+      "org": "Rivian",
+      "primaryUrl": "https://www.aol.ca/articles/rivian-sends-safety-message-thousands-151700000.html",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "OEM",
+      "eventKey": "rivian-rearview-camera-software-recall-20260923",
+      "verified": true,
+      "score": 56,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 16,
+        "scale": 13,
+        "specificity": 11,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "記事公開時刻が収集窓開始前で、元イベントも9/23発表済み"
+    },
+    {
+      "title": "Western automakers losing the software race",
+      "org": "InsideEVs / AlixPartners",
+      "primaryUrl": "https://insideevs.com/features/794029/how-western-companies-are-losing-the-software-race/",
+      "publishedAt": "2026-04-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "OEM",
+      "eventKey": "alixpartners-western-automakers-sdv-control-points-20260425",
+      "verified": true,
+      "score": 43,
+      "scoreBreakdown": {
+        "sdvDirectness": 15,
+        "practicalImpact": 12,
+        "scale": 8,
+        "specificity": 5,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "検索窓外の既存分析"
+    },
+    {
+      "title": "Coretura selects Vector-QNX software for commercial vehicle platform",
+      "org": "Coretura / Vector / QNX",
+      "primaryUrl": "https://www.freightwaves.com/news/coretura-selects-vector-qnx-software-for-commercial-vehicle-platform",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Platform",
+      "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "verified": true,
+      "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 22,
+        "scale": 16,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "decision": "duplicate",
+      "duplicateOf": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "reason": "9/22イベントを9/23 Daily Checkで採用済み"
+    },
+    {
+      "title": "Software-Defined Vehicle Intelligence Brief – September 24, 2026",
+      "org": "Automotive World",
+      "primaryUrl": "https://www.automotiveworld.com/intelligence-briefs/software-defined-vehicle-intelligence-brief-september-24-2026/",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Cross",
+      "eventKey": "automotive-world-sdv-brief-20260924",
+      "verified": true,
+      "score": 35,
+      "scoreBreakdown": {
+        "sdvDirectness": 12,
+        "practicalImpact": 8,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "既採用イベントの週次まとめで新規一次イベントなし"
+    },
+    {
+      "title": "Kigen certifies automotive eSIM for SGP.32 v1.3",
+      "org": "Kigen / Infineon",
+      "primaryUrl": "https://www.iotinsider.com/industries/communications/kigen-certifies-automotive-esim-for-latest-iot-specification/",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "RegSecurity",
+      "eventKey": "kigen-automotive-esim-sgp32-v13-20260925",
+      "verified": true,
+      "score": 54,
+      "scoreBreakdown": {
+        "sdvDirectness": 11,
+        "practicalImpact": 15,
+        "scale": 10,
+        "specificity": 12,
+        "novelty": 6
+      },
+      "decision": "excluded",
+      "reason": "公開時刻が収集窓開始前"
+    },
+    {
+      "title": "AI in automotive: Software-defined vehicle investment outlook",
+      "org": "PwC",
+      "primaryUrl": "https://www.pwc.com/us/en/industries/industrial-products/library/ai-automotive-outlook.html",
+      "publishedAt": null,
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "CloudOS",
+      "eventKey": "pwc-ai-automotive-sdv-investment-outlook-2026",
+      "verified": true,
+      "score": 39,
+      "scoreBreakdown": {
+        "sdvDirectness": 10,
+        "practicalImpact": 12,
+        "scale": 8,
+        "specificity": 5,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "公開日を本文・metadataで確定できず、新規個別イベントでもない"
+    },
+    {
+      "title": "The Software-Defined Vehicle Has Arrived: Automakers Must Follow Suit",
+      "org": "Forbes Technology Council",
+      "primaryUrl": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/the-software-defined-vehicle-has-arrived-automakers-must-follow-suit/",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "CloudOS",
+      "eventKey": "forbes-sdv-enterprise-operating-model-20260925",
+      "verified": true,
+      "score": 38,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 10,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "論考であり新規製品・提携・規制イベントなし"
+    },
+    {
+      "title": "How India can lead the software-defined automotive era",
+      "org": "IBM Consulting / ETAuto",
+      "primaryUrl": "https://auto.economictimes.indiatimes.com/news/auto-technology/how-india-can-lead-the-software-defined-automotive-era/134497439",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26T10:39:16+05:30",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Cross",
+      "eventKey": "ibm-india-sdv-ai-opinion-20260926",
+      "verified": true,
+      "score": 36,
+      "scoreBreakdown": {
+        "sdvDirectness": 12,
+        "practicalImpact": 10,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "業界論考で40点未満"
+    },
+    {
+      "title": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
+      "org": "EE Times",
+      "primaryUrl": "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
+      "publishedAt": "2026-08-07",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Tier1Semi",
+      "eventKey": "eetimes-automotive-chiplet-architecture-20260807",
+      "verified": true,
+      "score": 42,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 12,
+        "scale": 7,
+        "specificity": 7,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "検索窓外"
+    }
+  ],
+  "adopted": [],
+  "excluded": [
+    {
+      "title": "Rivian rearview-camera software recall covering about 100,700 vehicles",
+      "org": "Rivian",
+      "primaryUrl": "https://www.aol.ca/articles/rivian-sends-safety-message-thousands-151700000.html",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "OEM",
+      "eventKey": "rivian-rearview-camera-software-recall-20260923",
+      "verified": true,
+      "score": 56,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 16,
+        "scale": 13,
+        "specificity": 11,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "記事公開時刻が収集窓開始前で、元イベントも9/23発表済み"
+    },
+    {
+      "title": "Western automakers losing the software race",
+      "org": "InsideEVs / AlixPartners",
+      "primaryUrl": "https://insideevs.com/features/794029/how-western-companies-are-losing-the-software-race/",
+      "publishedAt": "2026-04-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "OEM",
+      "eventKey": "alixpartners-western-automakers-sdv-control-points-20260425",
+      "verified": true,
+      "score": 43,
+      "scoreBreakdown": {
+        "sdvDirectness": 15,
+        "practicalImpact": 12,
+        "scale": 8,
+        "specificity": 5,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "検索窓外の既存分析"
+    },
+    {
+      "title": "Software-Defined Vehicle Intelligence Brief – September 24, 2026",
+      "org": "Automotive World",
+      "primaryUrl": "https://www.automotiveworld.com/intelligence-briefs/software-defined-vehicle-intelligence-brief-september-24-2026/",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Cross",
+      "eventKey": "automotive-world-sdv-brief-20260924",
+      "verified": true,
+      "score": 35,
+      "scoreBreakdown": {
+        "sdvDirectness": 12,
+        "practicalImpact": 8,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "既採用イベントの週次まとめで新規一次イベントなし"
+    },
+    {
+      "title": "Kigen certifies automotive eSIM for SGP.32 v1.3",
+      "org": "Kigen / Infineon",
+      "primaryUrl": "https://www.iotinsider.com/industries/communications/kigen-certifies-automotive-esim-for-latest-iot-specification/",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "RegSecurity",
+      "eventKey": "kigen-automotive-esim-sgp32-v13-20260925",
+      "verified": true,
+      "score": 54,
+      "scoreBreakdown": {
+        "sdvDirectness": 11,
+        "practicalImpact": 15,
+        "scale": 10,
+        "specificity": 12,
+        "novelty": 6
+      },
+      "decision": "excluded",
+      "reason": "公開時刻が収集窓開始前"
+    },
+    {
+      "title": "AI in automotive: Software-defined vehicle investment outlook",
+      "org": "PwC",
+      "primaryUrl": "https://www.pwc.com/us/en/industries/industrial-products/library/ai-automotive-outlook.html",
+      "publishedAt": null,
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "CloudOS",
+      "eventKey": "pwc-ai-automotive-sdv-investment-outlook-2026",
+      "verified": true,
+      "score": 39,
+      "scoreBreakdown": {
+        "sdvDirectness": 10,
+        "practicalImpact": 12,
+        "scale": 8,
+        "specificity": 5,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "公開日を本文・metadataで確定できず、新規個別イベントでもない"
+    },
+    {
+      "title": "The Software-Defined Vehicle Has Arrived: Automakers Must Follow Suit",
+      "org": "Forbes Technology Council",
+      "primaryUrl": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/the-software-defined-vehicle-has-arrived-automakers-must-follow-suit/",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "CloudOS",
+      "eventKey": "forbes-sdv-enterprise-operating-model-20260925",
+      "verified": true,
+      "score": 38,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 10,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "論考であり新規製品・提携・規制イベントなし"
+    },
+    {
+      "title": "How India can lead the software-defined automotive era",
+      "org": "IBM Consulting / ETAuto",
+      "primaryUrl": "https://auto.economictimes.indiatimes.com/news/auto-technology/how-india-can-lead-the-software-defined-automotive-era/134497439",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26T10:39:16+05:30",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Cross",
+      "eventKey": "ibm-india-sdv-ai-opinion-20260926",
+      "verified": true,
+      "score": 36,
+      "scoreBreakdown": {
+        "sdvDirectness": 12,
+        "practicalImpact": 10,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "業界論考で40点未満"
+    },
+    {
+      "title": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
+      "org": "EE Times",
+      "primaryUrl": "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
+      "publishedAt": "2026-08-07",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Tier1Semi",
+      "eventKey": "eetimes-automotive-chiplet-architecture-20260807",
+      "verified": true,
+      "score": 42,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 12,
+        "scale": 7,
+        "specificity": 7,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "検索窓外"
+    }
+  ],
+  "duplicates": [
+    {
+      "title": "India’s connected car push: How simulation is preparing vehicles for real-world chaos",
+      "org": "dSPACE India",
+      "primaryUrl": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace",
+      "publishedAt": "2026-09-26",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "OEM",
+      "eventKey": "dspace-v2x-sil-hil-20260926",
+      "verified": true,
+      "score": 58,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 17,
+        "scale": 9,
+        "specificity": 11,
+        "novelty": 5
+      },
+      "decision": "duplicate",
+      "duplicateOf": "dspace-v2x-sil-hil-20260926",
+      "reason": "9/26 Daily Checkで採用済み"
+    },
+    {
+      "title": "Coretura selects Vector-QNX software for commercial vehicle platform",
+      "org": "Coretura / Vector / QNX",
+      "primaryUrl": "https://www.freightwaves.com/news/coretura-selects-vector-qnx-software-for-commercial-vehicle-platform",
+      "publishedAt": "2026-09-25",
+      "firstSeenAt": "2026-09-28T07:05:51+09:00",
+      "funnel": "Platform",
+      "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "verified": true,
+      "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 22,
+        "scale": 16,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "decision": "duplicate",
+      "duplicateOf": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "reason": "9/22イベントを9/23 Daily Checkで採用済み"
+    }
+  ],
+  "counts": {
+    "candidate": 10,
+    "adopted": 0,
+    "excluded": 8,
+    "duplicates": 2,
+    "pending": 0,
+    "important": 0,
+    "reference": 0
+  }
+}
