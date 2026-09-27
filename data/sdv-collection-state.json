@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T05:39:00+09:00",
+  "updatedAt": "2026-09-28T07:05:51+09:00",
   "lastSuccessfulAt": "2026-09-28T05:04:00+09:00",
   "funnels": {
     "OEM": {
@@ -30,15 +30,19 @@
   },
   "unresolvedWindows": [],
   "pendingBatch": {
-    "type": "sdv-quality-repair",
-    "dates": [
-      "2026-09-25",
-      "2026-09-26",
-      "2026-09-27"
-    ],
-    "startedAt": "2026-09-28T05:39:00+09:00",
-    "stage": "deep-scan-verified",
-    "reason": "Repair false zero-candidate audits and add stricter SDV collection quality gate"
+    "type": "daily-check",
+    "date": "2026-09-28",
+    "startedAt": "2026-09-28T07:02:18+09:00",
+    "stage": "collected",
+    "previousPendingBatchRecovered": {
+      "type": "sdv-quality-repair",
+      "dates": [
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27"
+      ],
+      "verified": true
+    }
   },
   "lastVerifiedDailyCommit": "ef66064425a30c34652b01c6c6d6716d75337a51",
   "lastAudit": "data/audits/2026-09-27-sdv.json",
