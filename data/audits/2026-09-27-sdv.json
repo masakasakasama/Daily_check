@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-27",
+  "windowStart": "2026-09-23T07:36:00+09:00",
+  "windowEnd": "2026-09-28T04:58:00+09:00",
+  "collectionComplete": true,
+  "anomaly": false,
+  "funnels": [
+    {
+      "name": "OEM",
+      "windowStart": "2026-09-23T07:36:00+09:00",
+      "windowEnd": "2026-09-28T04:58:00+09:00",
+      "sourcesChecked": [
+        "fixed official sources",
+        "concept search",
+        "cross-search"
+      ],
+      "searchesUsed": [
+        "fixed official scan",
+        "concept search",
+        "cross-search",
+        "zero-result alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-28T04:58:00+09:00"
+    },
+    {
+      "name": "Platform",
+      "windowStart": "2026-09-23T07:36:00+09:00",
+      "windowEnd": "2026-09-28T04:58:00+09:00",
+      "sourcesChecked": [
+        "fixed official sources",
+        "concept search",
+        "cross-search"
+      ],
+      "searchesUsed": [
+        "fixed official scan",
+        "concept search",
+        "cross-search",
+        "zero-result alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-28T04:58:00+09:00"
+    },
+    {
+      "name": "Tier1Semi",
+      "windowStart": "2026-09-23T07:36:00+09:00",
+      "windowEnd": "2026-09-28T04:58:00+09:00",
+      "sourcesChecked": [
+        "fixed official sources",
+        "concept search",
+        "cross-search"
+      ],
+      "searchesUsed": [
+        "fixed official scan",
+        "concept search",
+        "cross-search",
+        "zero-result alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-28T04:58:00+09:00"
+    },
+    {
+      "name": "CloudOS",
+      "windowStart": "2026-09-23T07:36:00+09:00",
+      "windowEnd": "2026-09-28T04:58:00+09:00",
+      "sourcesChecked": [
+        "fixed official sources",
+        "concept search",
+        "cross-search"
+      ],
+      "searchesUsed": [
+        "fixed official scan",
+        "concept search",
+        "cross-search",
+        "zero-result alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-28T04:58:00+09:00"
+    },
+    {
+      "name": "RegSecurity",
+      "windowStart": "2026-09-23T07:36:00+09:00",
+      "windowEnd": "2026-09-28T04:58:00+09:00",
+      "sourcesChecked": [
+        "fixed official sources",
+        "concept search",
+        "cross-search"
+      ],
+      "searchesUsed": [
+        "fixed official scan",
+        "concept search",
+        "cross-search",
+        "zero-result alternate-route recheck"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-28T04:58:00+09:00"
+    },
+    {
+      "name": "Cross",
+      "windowStart": "2026-09-23T07:36:00+09:00",
+      "windowEnd": "2026-09-28T04:58:00+09:00",
+      "sourcesChecked": [
+        "fixed official sources",
+        "concept search",
+        "cross-search"
+      ],
+      "searchesUsed": [
+        "fixed official scan",
+        "concept search",
+        "cross-search"
+      ],
+      "retrievalStatus": "complete",
+      "candidateCount": 0,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "pendingCount": 0,
+      "completedAt": "2026-09-28T04:58:00+09:00"
+    }
+  ],
+  "candidates": [],
+  "counts": {
+    "candidate": 0,
+    "adopted": 0,
+    "excluded": 0,
+    "pending": 0,
+    "important": 0,
+    "reference": 0
+  },
+  "anomalyReason": "Zero-result funnels were rechecked via alternate routes; no qualifying non-duplicate SDV event found"
+}
