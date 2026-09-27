@@ -90,32 +90,41 @@
     h2{margin:0;font-size:18px;line-height:1.1;font-weight:810;letter-spacing:-.03em}
     .section-count{color:var(--muted);font-size:11px;font-weight:760;font-variant-numeric:tabular-nums}
 
-    .feed{display:grid;gap:9px}
+    .feed{display:grid;gap:12px}
     .feed-item{
-      display:grid;grid-template-columns:58px minmax(0,1fr);gap:14px;padding:15px;
-      border:1px solid var(--line);border-radius:var(--r-lg);background:rgba(13,15,20,.88);
-      transition:.16s ease;box-shadow:0 10px 28px rgba(0,0,0,.12)
+      overflow:hidden;border:1px solid var(--line);border-radius:var(--r-lg);background:rgba(13,15,20,.9);
+      transition:.16s ease;box-shadow:0 12px 32px rgba(0,0,0,.16)
     }
     .feed-item:active{transform:scale(.995);border-color:var(--line-hi)}
-    .feed-item.important{border-color:rgba(244,198,109,.18)}
-    .feed-item.critical{
-      border-color:rgba(244,198,109,.38);
-      background:linear-gradient(120deg,rgba(244,198,109,.055),rgba(13,15,20,.92))
+    .feed-item.important{border-color:rgba(244,198,109,.20)}
+    .feed-item.critical{border-color:rgba(244,198,109,.40)}
+    .feed-media{
+      position:relative;display:block;width:100%;aspect-ratio:16/9;overflow:hidden;
+      background:
+        radial-gradient(circle at 20% 20%,rgba(97,216,255,.18),transparent 35%),
+        radial-gradient(circle at 80% 70%,rgba(141,166,255,.18),transparent 42%),
+        #11151d
     }
-    .score-rail{
-      min-height:64px;border-right:1px solid var(--line);display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;padding-right:10px
+    .feed-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+    .feed-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,7,10,.02) 45%,rgba(6,7,10,.64) 100%);pointer-events:none}
+    .feed-media-fallback{position:absolute;inset:0;display:grid;place-items:center;color:rgba(255,255,255,.34);font-size:13px;font-weight:820;letter-spacing:.14em}
+    .score-badge{
+      position:absolute;z-index:2;left:12px;top:12px;min-width:54px;padding:9px 10px;border:1px solid rgba(255,255,255,.16);
+      border-radius:13px;background:rgba(6,7,10,.74);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)
     }
-    .score-number{font-size:24px;line-height:1;font-weight:850;letter-spacing:-.05em;font-variant-numeric:tabular-nums;color:var(--blue)}
+    .score-number{font-size:22px;line-height:1;font-weight:850;letter-spacing:-.05em;font-variant-numeric:tabular-nums;color:var(--blue)}
     .important .score-number{color:var(--gold)}
-    .score-label{margin-top:5px;color:var(--muted);font-size:8px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
-    .feed-body{min-width:0}
-    .feed-kicker{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:7px}
-    .feed-category{
-      display:inline-flex;align-items:center;height:22px;padding:0 8px;border:1px solid rgba(141,166,255,.16);border-radius:999px;
-      background:rgba(141,166,255,.08);color:#b9c6ff;font-size:10px;font-weight:800
+    .score-label{margin-top:4px;color:rgba(255,255,255,.58);font-size:8px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+    .media-category{
+      position:absolute;z-index:2;right:12px;top:12px;display:inline-flex;align-items:center;height:26px;padding:0 9px;
+      border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(6,7,10,.70);
+      backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#d7dcff;font-size:10px;font-weight:800
     }
-    .feed-item[data-category="SDV"] .feed-category{color:#87e5ff;background:rgba(97,216,255,.07);border-color:rgba(97,216,255,.15)}
-    .feed-item[data-category="AI"] .feed-category{color:#c1b5ff;background:rgba(163,139,255,.08);border-color:rgba(163,139,255,.16)}
+    .feed-item[data-category="SDV"] .media-category{color:#9beaff}
+    .feed-item[data-category="AI"] .media-category{color:#d0c7ff}
+    .feed-body{min-width:0;padding:14px 15px 15px}
+    .feed-kicker{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:7px}
+    .feed-category{color:var(--muted);font-size:10px;font-weight:800}
     .feed-date{color:var(--muted);font-size:10px;font-variant-numeric:tabular-nums}
     .feed-title-link{color:inherit;text-decoration:none}.feed-title{margin:0;font-size:16px;line-height:1.42;font-weight:760;letter-spacing:-.018em}
     .feed-summary{margin:8px 0 0;color:var(--sub);font-size:12px;line-height:1.6}.feed-summary.collapsed{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -153,7 +162,7 @@
       .app{padding:10px 12px calc(40px + env(safe-area-inset-bottom))}
       .topbar{padding-top:8px}.updated{font-size:9px}.segmented button{padding:0 9px}
       .signal-hero{padding:17px}.overview-title{font-size:23px}.signal-metric{padding:10px}.signal-metric strong{font-size:18px}
-      .feed-item{grid-template-columns:52px minmax(0,1fr);gap:12px;padding:13px}.score-number{font-size:22px}.feed-title{font-size:15px}
+      .feed-body{padding:13px}.score-number{font-size:21px}.feed-title{font-size:15px}
     }
   </style>
 </head>
@@ -391,14 +400,42 @@
       row.className='feed-item '+type+(Number(item.score)>=90?' critical':'');
       row.dataset.category=item.category||'OTHER';
 
-      const rail=document.createElement('div');rail.className='score-rail';
+      const mediaLink=document.createElement('a');mediaLink.className='feed-media';
+      if(item.source?.url){mediaLink.href=item.source.url;mediaLink.target='_blank';mediaLink.rel='noreferrer'}
+      const fallback=document.createElement('div');fallback.className='feed-media-fallback';fallback.textContent=item.category||'NEWS';
+      mediaLink.appendChild(fallback);
+
+      const scoreBadge=document.createElement('div');scoreBadge.className='score-badge';
       const score=document.createElement('div');score.className='score-number';score.textContent=item.score!=null?String(item.score):'REF';
       const scoreLabel=document.createElement('div');scoreLabel.className='score-label';scoreLabel.textContent=item.score!=null?'SCORE':'INFO';
-      rail.append(score,scoreLabel);
+      scoreBadge.append(score,scoreLabel);mediaLink.appendChild(scoreBadge);
+
+      const mediaCategory=document.createElement('span');mediaCategory.className='media-category';mediaCategory.textContent=item.category||'OTHER';
+      mediaLink.appendChild(mediaCategory);
+
+      const attachImage=(url)=>{
+        if(!url)return false;
+        const img=document.createElement('img');img.src=url;img.alt='';img.loading='lazy';img.decoding='async';
+        img.addEventListener('load',()=>{fallback.hidden=true});
+        img.addEventListener('error',()=>{img.remove();fallback.hidden=false});
+        mediaLink.insertBefore(img,scoreBadge);return true;
+      };
+      const resolveArticleImage=async()=>{
+        if(!item.source?.url)return;
+        try{
+          const endpoint='https://api.microlink.io/?url='+encodeURIComponent(item.source.url);
+          const r=await fetch(endpoint,{cache:'force-cache'});
+          if(!r.ok)return;
+          const payload=await r.json();
+          const imageUrl=payload?.data?.image?.url||payload?.data?.logo?.url||'';
+          if(imageUrl)attachImage(imageUrl);
+        }catch(_){}
+      };
+      if(!attachImage(item.thumbnail))resolveArticleImage();
 
       const body=document.createElement('div');body.className='feed-body';
       const kicker=document.createElement('div');kicker.className='feed-kicker';
-      const category=document.createElement('span');category.className='feed-category';category.textContent=item.category||'OTHER';
+      const category=document.createElement('span');category.className='feed-category';category.textContent=item.source?.label||item.category||'OTHER';
       const date=document.createElement('span');date.className='feed-date';date.textContent=item.publishedAt||'';
       kicker.append(category,date);
 
@@ -420,13 +457,13 @@
       }
 
       const meta=document.createElement('div');meta.className='feed-meta';
-      const source=document.createElement('span');source.className='source';source.textContent=item.source?.label||'';
+      const source=document.createElement('span');source.className='source';source.textContent='画像付き記事';
       meta.appendChild(source);
       if(item.source?.url){
         const detail=document.createElement('a');detail.className='detail-link';detail.href=item.source.url;detail.target='_blank';detail.rel='noreferrer';detail.textContent='開く ↗';meta.appendChild(detail);
       }
       body.appendChild(meta);
-      row.append(rail,body);
+      row.append(mediaLink,body);
       return row;
     }
     function createMonitorRow(item){
