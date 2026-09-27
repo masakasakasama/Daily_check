@@ -29,7 +29,7 @@
     button,a{font:inherit;-webkit-tap-highlight-color:transparent}
     button{color:inherit}[hidden]{display:none!important}
     :focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:10px}
-    .app{width:min(100%,740px);margin:auto;padding:12px 16px calc(54px + env(safe-area-inset-bottom))}
+    .app{width:min(100%,980px);margin:auto;padding:12px 16px calc(96px + env(safe-area-inset-bottom))}
     .topbar{
       position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:12px;
       margin:0 -4px;padding:10px 4px 14px;
@@ -83,7 +83,7 @@
     .missing-state{margin-top:12px;padding:15px;border:1px dashed var(--line-hi);border-radius:15px;background:var(--panel);color:var(--sub);font-size:12px}
     .missing-action{margin-left:8px;border:0;background:transparent;color:var(--cyan);font-weight:750;padding:0;cursor:pointer}
 
-    .section{margin-top:30px}
+    .section{margin-top:22px}
     .section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:0 2px 10px}
     .section-title-wrap{display:flex;align-items:baseline;gap:9px}
     .section-kicker{color:var(--muted);font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
@@ -103,7 +103,7 @@
       background:
         radial-gradient(circle at 20% 20%,rgba(97,216,255,.18),transparent 35%),
         radial-gradient(circle at 80% 70%,rgba(141,166,255,.18),transparent 42%),
-        #11151d
+        #11151d;border:0;padding:0;text-align:left;color:inherit;cursor:pointer
     }
     .feed-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
     .feed-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,7,10,.02) 45%,rgba(6,7,10,.64) 100%);pointer-events:none}
@@ -126,11 +126,47 @@
     .feed-kicker{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:7px}
     .feed-category{color:var(--muted);font-size:10px;font-weight:800}
     .feed-date{color:var(--muted);font-size:10px;font-variant-numeric:tabular-nums}
-    .feed-title-link{color:inherit;text-decoration:none}.feed-title{margin:0;font-size:16px;line-height:1.42;font-weight:760;letter-spacing:-.018em}
+    .feed-title-link{display:block;width:100%;padding:0;border:0;background:transparent;color:inherit;text-align:left;text-decoration:none;cursor:pointer}.feed-title{margin:0;font-size:16px;line-height:1.42;font-weight:760;letter-spacing:-.018em}
     .feed-summary{margin:8px 0 0;color:var(--sub);font-size:12px;line-height:1.6}.feed-summary.collapsed{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
     .read-more{margin-top:5px;border:0;background:transparent;color:var(--cyan);font-size:10px;font-weight:720;padding:0;cursor:pointer}
     .feed-meta{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:11px;padding-top:10px;border-top:1px solid var(--line);color:var(--muted);font-size:10px}
     .source{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-link{color:#9eb3ff;text-decoration:none;font-weight:760}
+
+    /* B: premium mobile cards. The first story leads; the rest scan as image rows. */
+    .feed-item.lead{border-color:rgba(141,166,255,.24);border-radius:24px;background:linear-gradient(155deg,#171a27,#10131c)}
+    .feed-item.lead .feed-media{aspect-ratio:16/9}
+    .feed-item.lead .feed-body{padding:16px 18px 17px}
+    .feed-item.lead .feed-title{font-size:19px;line-height:1.38}
+    .feed-item.lead .feed-summary{font-size:13px;line-height:1.62}
+    .feed-item.compact{display:grid;grid-template-columns:minmax(0,1fr) 92px;grid-template-areas:"body media";align-items:stretch;min-height:126px;border-radius:20px}
+    .feed-item.compact .feed-media{grid-area:media;order:2;aspect-ratio:auto;min-width:92px;height:100%;min-height:126px;align-self:stretch}
+    .feed-item.compact .feed-media::after{background:linear-gradient(90deg,rgba(6,7,10,.12),rgba(6,7,10,.02))}
+    .feed-item.compact .score-badge{left:7px;top:7px;min-width:38px;padding:5px 6px;border-radius:10px}
+    .feed-item.compact .score-number{font-size:16px}
+    .feed-item.compact .score-label{font-size:7px;margin-top:2px}
+    .feed-item.compact .media-category{right:6px;top:7px;height:20px;padding:0 6px;font-size:8px}
+    .feed-item.compact .feed-body{grid-area:body;min-width:0;padding:14px 13px}
+    .feed-item.compact .feed-kicker{margin-bottom:5px}
+    .feed-item.compact .feed-title{font-size:14px;line-height:1.38}
+    .feed-item.compact .feed-summary{font-size:11px;line-height:1.45;margin-top:5px}
+    .feed-item.compact .feed-meta{margin-top:8px;padding-top:7px}
+
+    .week-preview{margin-top:22px;padding:18px;border:1px solid #383349;border-radius:23px;background:linear-gradient(145deg,#1b1b28,#141722)}
+    .week-preview-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .week-preview-title{margin:0;font-size:16px;font-weight:780}
+    .week-preview-link{border:0;background:transparent;color:#bdb4f2;font-size:11px;font-weight:740;cursor:pointer;min-height:40px;padding:0 4px}
+    .week-preview-stats{display:flex;align-items:baseline;gap:8px;margin-top:9px;font-size:14px;font-weight:760}
+    .week-preview-stats strong{font-size:27px;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+    .week-preview-stats .secondary-number{margin-left:13px;color:#d9d9e5}
+    .week-preview-categories{margin:9px 0 0;color:#aeb5c7;font-size:11px;line-height:1.55}
+    .summary-audit{display:flex;align-items:flex-start;gap:8px;margin-top:13px;padding-top:12px;border-top:1px solid #393a4f;color:#e9c99f;font-size:11px;line-height:1.5}
+    .summary-audit::before{content:"";width:7px;height:7px;margin-top:4px;flex:0 0 auto;border-radius:50%;background:var(--amber)}
+    .summary-audit.ok{color:#a8e0c6}.summary-audit.ok::before{background:var(--green)}
+    .summary-checks{margin-top:10px;color:#b6e5d0;font-size:11px;font-weight:690}
+
+    .bottom-nav{position:fixed;z-index:25;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:9px 16px calc(9px + env(safe-area-inset-bottom));border-top:1px solid var(--line-hi);background:rgba(16,18,28,.95);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+    .bottom-nav button{min-height:44px;border:0;border-radius:13px;background:transparent;color:#9399a9;font-size:12px;font-weight:700;cursor:pointer}
+    .bottom-nav button[aria-current="page"]{color:#b5a8f6;background:rgba(181,168,246,.09)}
 
     details.monitor,details.more,details.criteria{
       margin-top:20px;border:1px solid var(--line);border-radius:var(--r-md);background:rgba(13,15,20,.78);overflow:hidden
@@ -156,13 +192,42 @@
     .category-name{font-size:10px;font-weight:800;color:var(--cyan)}.category-summary{margin:0;color:var(--sub);font-size:11px;line-height:1.5}
 
     .error{margin-top:16px;padding:12px;border:1px solid rgba(255,127,140,.25);border-radius:14px;background:rgba(255,127,140,.06);color:#ffb5bc;font-size:11px}
-    .toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(calc(100% - 32px),520px);padding:11px 13px;border:1px solid var(--line-hi);border-radius:13px;background:#151922;color:var(--sub);font-size:11px;box-shadow:0 18px 50px rgba(0,0,0,.4);z-index:30}
+    .toast{position:fixed;left:50%;bottom:calc(78px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(calc(100% - 32px),520px);padding:11px 13px;border:1px solid var(--line-hi);border-radius:13px;background:#151922;color:var(--sub);font-size:11px;box-shadow:0 18px 50px rgba(0,0,0,.4);z-index:30}
+
+    .article-dialog{width:min(calc(100% - 28px),620px);max-width:none;max-height:min(88dvh,820px);margin:auto;padding:0;overflow:auto;border:1px solid var(--line-hi);border-radius:24px;background:#11151e;color:var(--text);box-shadow:0 28px 90px rgba(0,0,0,.6)}
+    .article-dialog::backdrop{background:rgba(2,3,6,.76);backdrop-filter:blur(5px)}
+    .dialog-close-row{position:sticky;top:0;z-index:2;display:flex;justify-content:flex-end;padding:10px 12px;margin-bottom:-52px;pointer-events:none}
+    .dialog-close{min-width:42px;min-height:42px;border:1px solid rgba(255,255,255,.2);border-radius:50%;background:rgba(6,7,10,.76);color:#fff;font-size:20px;cursor:pointer;pointer-events:auto}
+    .dialog-image{display:block;width:100%;max-height:350px;aspect-ratio:16/9;object-fit:cover;background:var(--panel-3)}
+    .dialog-copy{padding:21px}
+    .dialog-kicker{margin:0 0 9px;color:#b9b0f2;font-size:11px;font-weight:760}
+    .dialog-title{margin:0;font-size:22px;line-height:1.4}
+    .dialog-summary{margin:15px 0 0;color:var(--sub);font-size:14px;line-height:1.7;white-space:pre-line}
+    .dialog-meta{display:flex;flex-wrap:wrap;gap:8px 15px;margin-top:18px;padding-top:13px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}
+    .dialog-source{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:17px;padding:0 16px;border:1px solid #3b4260;border-radius:14px;background:#20253a;color:#c8c1fb;text-decoration:none;font-size:12px;font-weight:740}
 
     @media(max-width:430px){
-      .app{padding:10px 12px calc(40px + env(safe-area-inset-bottom))}
-      .topbar{padding-top:8px}.updated{font-size:9px}.segmented button{padding:0 9px}
+      .app{padding:10px 12px calc(88px + env(safe-area-inset-bottom))}
+      .topbar{padding-top:8px}.updated{font-size:9px}.segmented{display:none}
       .signal-hero{padding:17px}.overview-title{font-size:23px}.signal-metric{padding:10px}.signal-metric strong{font-size:18px}
       .feed-body{padding:13px}.score-number{font-size:21px}.feed-title{font-size:15px}
+      .feed-item.lead .feed-body{padding:15px 16px 16px}.feed-item.lead .feed-title{font-size:18px}
+      .feed-item.compact{grid-template-columns:minmax(0,1fr) 84px;min-height:116px}
+      .feed-item.compact .feed-media{min-width:84px;min-height:116px}
+      .feed-item.compact .feed-body{padding:12px 11px}
+      .feed-item.compact .feed-title{font-size:13px}
+      .feed-item.compact .feed-summary{font-size:10px}
+      .feed-item.compact .feed-date{font-size:9px}
+      .week-preview{padding:16px}
+      .article-dialog{width:100%;max-height:90dvh;margin:auto auto 0;border-radius:24px 24px 0 0;border-bottom:0}
+      .dialog-copy{padding:18px 17px calc(20px + env(safe-area-inset-bottom))}.dialog-title{font-size:20px}
+    }
+    @media(min-width:700px){
+      .feed{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+      .feed-item.lead{grid-column:1/-1}
+      #referenceList .feed-item.compact{grid-template-columns:minmax(0,1fr) 122px}
+      #referenceList .feed-item.compact .feed-media{min-width:122px}
+      .week-preview{padding:22px}
     }
   </style>
 </head>
@@ -194,17 +259,6 @@
         <button id="nextDay" class="date-button" type="button" aria-label="翌日">›</button>
       </nav>
 
-      <section id="overview" class="signal-hero" hidden>
-        <div class="signal-eyebrow"><span class="signal-dot"></span><span>DAILY SIGNAL</span></div>
-        <p id="overviewTitle" class="overview-title"></p>
-        <p id="overviewSub" class="overview-sub"></p>
-        <div class="signal-metrics">
-          <div class="signal-metric important"><span>IMPORTANT</span><strong id="metricImportant">—</strong></div>
-          <div class="signal-metric"><span>REFERENCE</span><strong id="metricReference">—</strong></div>
-          <div class="signal-metric health"><span>MONITORS</span><strong id="metricHealth">—</strong></div>
-        </div>
-      </section>
-
       <div id="missingState" class="missing-state" hidden>
         <span id="missingText"></span>
         <button id="backTodayButton" class="missing-action" type="button">今日へ</button>
@@ -226,6 +280,31 @@
         </div>
         <div id="referenceList" class="feed"></div>
         <div id="emptyReferences" class="missing-state" hidden>新規の参考情報なし</div>
+      </section>
+
+      <section id="overview" class="signal-hero" hidden aria-label="今日のサマリー">
+        <div class="signal-eyebrow"><span class="signal-dot"></span><span>TODAY SUMMARY</span></div>
+        <p id="overviewTitle" class="overview-title"></p>
+        <p id="overviewSub" class="overview-sub"></p>
+        <div class="signal-metrics">
+          <div class="signal-metric important"><span>IMPORTANT</span><strong id="metricImportant">—</strong></div>
+          <div class="signal-metric"><span>REFERENCE</span><strong id="metricReference">—</strong></div>
+          <div class="signal-metric health"><span>MONITORS</span><strong id="metricHealth">—</strong></div>
+        </div>
+        <p id="dayChecksSummary" class="summary-checks"></p>
+        <p id="dayAuditSummary" class="summary-audit" hidden></p>
+      </section>
+
+      <section id="weekPreview" class="week-preview" hidden aria-label="直近7日の概要">
+        <div class="week-preview-head">
+          <h2 class="week-preview-title">7日間の流れ</h2>
+          <button id="weekPreviewButton" class="week-preview-link" type="button">週次の詳細 ›</button>
+        </div>
+        <div class="week-preview-stats">
+          <strong id="previewImportant">—</strong><span>重要</span>
+          <strong id="previewReference" class="secondary-number">—</strong><span>参考</span>
+        </div>
+        <p id="weekPreviewCategories" class="week-preview-categories"></p>
       </section>
 
       <details id="monitorPanel" class="monitor">
@@ -258,6 +337,23 @@
 
     <p id="errorMessage" class="error" hidden></p>
   </main>
+
+  <nav class="bottom-nav" aria-label="メインナビゲーション">
+    <button id="navToday" type="button" aria-current="page">今日</button>
+    <button id="navWeek" type="button">週次</button>
+    <button id="navMonitor" type="button">監査・監視</button>
+  </nav>
+  <dialog id="articleDialog" class="article-dialog" aria-labelledby="dialogTitle">
+    <div class="dialog-close-row"><button id="dialogClose" class="dialog-close" type="button" aria-label="詳細を閉じる">×</button></div>
+    <img id="dialogImage" class="dialog-image" alt="" hidden>
+    <div class="dialog-copy">
+      <p id="dialogKicker" class="dialog-kicker"></p>
+      <h2 id="dialogTitle" class="dialog-title"></h2>
+      <p id="dialogSummary" class="dialog-summary"></p>
+      <div class="dialog-meta"><span id="dialogPublished"></span><span id="dialogSourceLabel"></span></div>
+      <a id="dialogSource" class="dialog-source" target="_blank" rel="noreferrer">情報源を開く ↗</a>
+    </div>
+  </dialog>
   <div id="toast" class="toast" hidden></div>
 
   <script>
@@ -345,6 +441,7 @@
         .filter(w=>w&&isValidDateString(String(w.start||''))&&isValidDateString(String(w.end||'')))
         .map(w=>({
           start:String(w.start),end:String(w.end),generatedAt:String(w.generatedAt||''),
+          counts:{important:Number(w.counts?.important||0),reference:Number(w.counts?.reference||0)},
           headline:String(w.headline||''),categories:Array.isArray(w.categories)?w.categories:[],
           highlights:(Array.isArray(w.highlights)?w.highlights:[]).map(normalizeItem).filter(Boolean),
           references:(Array.isArray(w.references)?w.references:[]).map(normalizeItem).filter(Boolean)
@@ -394,14 +491,14 @@
       t.textContent=message;t.hidden=false;
       clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>{t.hidden=true},3200);
     }
-    function createFeedItem(raw,type){
+    function createFeedItem(raw,type,variant='compact'){
       const item=canonicalize(raw);
       const row=document.createElement('article');
-      row.className='feed-item '+type+(Number(item.score)>=90?' critical':'');
+      row.className='feed-item '+type+' '+variant+(Number(item.score)>=90?' critical':'');
       row.dataset.category=item.category||'OTHER';
+      row.tabIndex=0;row.setAttribute('role','group');row.setAttribute('aria-label',item.title+'、タップして詳細');
 
-      const mediaLink=document.createElement('a');mediaLink.className='feed-media';
-      if(item.source?.url){mediaLink.href=item.source.url;mediaLink.target='_blank';mediaLink.rel='noreferrer'}
+      const mediaLink=document.createElement('button');mediaLink.type='button';mediaLink.className='feed-media';mediaLink.setAttribute('aria-label',item.title+'の詳細を表示');
       const fallback=document.createElement('div');fallback.className='feed-media-fallback';fallback.textContent=item.category||'NEWS';
       mediaLink.appendChild(fallback);
 
@@ -439,8 +536,7 @@
       const date=document.createElement('span');date.className='feed-date';date.textContent=item.publishedAt||'';
       kicker.append(category,date);
 
-      const titleLink=document.createElement('a');titleLink.className='feed-title-link';
-      if(item.source?.url){titleLink.href=item.source.url;titleLink.target='_blank';titleLink.rel='noreferrer'}
+      const titleLink=document.createElement('button');titleLink.type='button';titleLink.className='feed-title-link';
       const title=document.createElement('h3');title.className='feed-title';title.textContent=item.title||'無題';
       titleLink.appendChild(title);body.append(kicker,titleLink);
 
@@ -457,14 +553,32 @@
       }
 
       const meta=document.createElement('div');meta.className='feed-meta';
-      const source=document.createElement('span');source.className='source';source.textContent='画像付き記事';
+      const source=document.createElement('span');source.className='source';source.textContent=[item.source?.label,item.publishedAt].filter(Boolean).join(' · ')||item.category||'記事';
       meta.appendChild(source);
       if(item.source?.url){
-        const detail=document.createElement('a');detail.className='detail-link';detail.href=item.source.url;detail.target='_blank';detail.rel='noreferrer';detail.textContent='開く ↗';meta.appendChild(detail);
+        const detail=document.createElement('a');detail.className='detail-link';detail.href=item.source.url;detail.target='_blank';detail.rel='noreferrer';detail.textContent='出典 ↗';meta.appendChild(detail);
       }
       body.appendChild(meta);
       row.append(mediaLink,body);
+      row.addEventListener('click',event=>{
+        if(event.target.closest('.detail-link,.read-more'))return;
+        showArticleDetails(item,mediaLink.querySelector('img')?.src||item.thumbnail);
+      });
+      row.addEventListener('keydown',event=>{
+        if(event.target!==row)return;
+        if(event.key==='Enter'||event.key===' '){event.preventDefault();showArticleDetails(item,mediaLink.querySelector('img')?.src||item.thumbnail)}
+      });
       return row;
+    }
+    function showArticleDetails(item,imageUrl=''){
+      const dialog=$('articleDialog'),image=$('dialogImage'),source=$('dialogSource');
+      setText('dialogKicker',(item.category||'NEWS')+'  ·  '+(item.score==null?'参考':item.score+'点'));
+      setText('dialogTitle',item.title);setText('dialogSummary',item.summary||'要約はありません');
+      setText('dialogPublished',item.publishedAt||'公開日未確認');setText('dialogSourceLabel',item.source?.label||'出典未確認');
+      if(imageUrl){image.src=imageUrl;image.hidden=false}else{image.removeAttribute('src');image.hidden=true}
+      source.hidden=!item.source?.url;
+      if(item.source?.url)source.href=item.source.url;else source.removeAttribute('href');
+      if(typeof dialog.showModal==='function')dialog.showModal();else dialog.setAttribute('open','');
     }
     function createMonitorRow(item){
       const row=document.createElement('article');row.className='monitor-row '+item.status;
@@ -482,10 +596,11 @@
     function renderDay(){
       fmtDateLabel(state.date);
       const day=getDay();
-      const overview=$('overview'),missing=$('missingState'),important=$('importantSection'),reference=$('referenceSection'),monitor=$('monitorPanel');
+      const overview=$('overview'),missing=$('missingState'),important=$('importantSection'),reference=$('referenceSection'),monitor=$('monitorPanel'),weekPreview=$('weekPreview');
 
       if(!day){
         if(overview)overview.hidden=true;
+        if(weekPreview)weekPreview.hidden=true;
         if(missing){
           missing.hidden=false;
           setText('missingText',state.date>todayJst()?'この日はまだ未実行':'この日の履歴データなし');
@@ -506,10 +621,20 @@
       setText('metricImportant',String(alerts.length));
       setText('metricReference',String(refs.length));
       setText('metricHealth',checks.length?success+'/'+checks.length:'—');
+      setText('dayChecksSummary',checks.length?'定時チェック  '+success+' / '+checks.length+' 完了'+(errors?' · エラー '+errors:'')+(pending?' · 未実行 '+pending:''):'定時チェックの記録なし');
+
+      const audit=state.data?.audit;
+      const auditSummary=$('dayAuditSummary');
+      if(auditSummary){
+        const needsReview=audit?.anomaly===true||audit?.collectionComplete===false;
+        auditSummary.hidden=!audit;
+        auditSummary.classList.toggle('ok',!!audit&&!needsReview);
+        auditSummary.textContent=!audit?'':needsReview?'SDV監査  要確認 · 収集品質の確認待ち':'SDV監査  収集・品質検証完了';
+      }
 
       if(overview){
         overview.hidden=false;
-        overview.className='signal-hero '+(errors?'warn':pending?'pending':'ok');
+        overview.className='signal-hero '+(errors?'warn':pending||audit?.anomaly||audit?.collectionComplete===false?'pending':'ok');
         if(checks.length===0){
           setText('overviewTitle','監視データなし');
           setText('overviewSub','保存済み記事のみ表示中'+(latest?' · '+fmtTime(latest)+'更新':''));
@@ -538,10 +663,20 @@
       else if(errors||pending)setText('monitorSummary','成功 '+success+'/'+checks.length);
       else setText('monitorSummary',success+'/'+checks.length+' 正常');
 
-      $('alertList')?.replaceChildren(...alerts.map(x=>createFeedItem(x,'important')));
-      $('referenceList')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference')));
+      $('alertList')?.replaceChildren(...alerts.map((x,i)=>createFeedItem(x,'important',i===0?'lead':'compact')));
+      $('referenceList')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference','compact')));
       $('monitorList')?.replaceChildren(...checks.map(createMonitorRow));
       if($('emptyReferences'))$('emptyReferences').hidden=refs.length>0;
+      renderWeekPreview();
+    }
+    function renderWeekPreview(){
+      const section=$('weekPreview');if(!section)return;
+      const week=getWeek();
+      section.hidden=!week;
+      if(!week)return;
+      setText('previewImportant',String(week.counts?.important??week.highlights.length));
+      setText('previewReference',String(week.counts?.reference??week.references.length));
+      setText('weekPreviewCategories',(week.categories||[]).map(c=>String(c.name||'')+'  '+String(c.summary||'')).join('   ·   '));
     }
     function renderWeek(){
       const week=getWeek();
@@ -561,8 +696,8 @@
       });
       $('weekCategories')?.replaceChildren(...rows);
       const highlights=(week.highlights||[]).map(canonicalize),refs=(week.references||[]).map(canonicalize);
-      $('weekHighlights')?.replaceChildren(...highlights.map(x=>createFeedItem(x,'important')));
-      $('weekReferences')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference')));
+      $('weekHighlights')?.replaceChildren(...highlights.map((x,i)=>createFeedItem(x,'important',i===0?'lead':'compact')));
+      $('weekReferences')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference','compact')));
       setText('weekHighlightCount',highlights.length?highlights.length+'件':'');setText('weekMoreSummary',refs.length+'件');
     }
     function render(){
@@ -570,6 +705,9 @@
       $('dayView').hidden=state.view!=='day';$('weekView').hidden=state.view!=='week';
       $('dayMode').classList.toggle('active',state.view==='day');$('weekMode').classList.toggle('active',state.view==='week');
       $('dayMode').setAttribute('aria-pressed',state.view==='day'?'true':'false');$('weekMode').setAttribute('aria-pressed',state.view==='week'?'true':'false');
+      $('navToday').setAttribute('aria-current',state.view==='day'?'page':'false');
+      $('navWeek').setAttribute('aria-current',state.view==='week'?'page':'false');
+      $('navMonitor').setAttribute('aria-current','false');
       if(state.view==='day')renderDay();else renderWeek();syncUrl();
     }
     function goToday(){state.date=todayJst();state.view='day';render();window.scrollTo({top:0,behavior:'smooth'})}
@@ -611,6 +749,15 @@
       if(!r.ok)throw new Error('Raw '+r.status);
       return await r.json();
     }
+    async function fetchAudit(date,signal){
+      if(!isValidDateString(date))return null;
+      try{
+        const url='https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/audits/'+date+'-sdv.json?v='+Date.now();
+        const r=await fetch(url,{cache:'no-store',signal});
+        if(!r.ok)return null;
+        return await r.json();
+      }catch(_){return null}
+    }
     async function load(){
       const seq=++state.requestSeq;
       if(state.controller)state.controller.abort();
@@ -626,11 +773,12 @@
         }
         const normalized=normalizeData(raw);
         if(seq!==state.requestSeq)return;
-        state.data=normalized;state.canonical=buildCanonicalIndex(normalized);state.fetchStatus='ok';
-
         const params=new URLSearchParams(location.search);
         const requested=params.get('date');
         state.date=isValidDateString(requested)?requested:(isValidDateString(normalized.currentDate)?normalized.currentDate:latestRecordDate());
+        normalized.audit=await fetchAudit(state.date,controller.signal);
+        if(seq!==state.requestSeq)return;
+        state.data=normalized;state.canonical=buildCanonicalIndex(normalized);state.fetchStatus='ok';
         state.view=params.get('view')==='week'?'week':'day';
         render();
       }catch(e){
@@ -655,6 +803,16 @@
     $('weekMode').addEventListener('click',setWeek);
     $('backTodayButton').addEventListener('click',goToday);
     $('latestRecordButton').addEventListener('click',goLatest);
+    $('navToday').addEventListener('click',goToday);
+    $('navWeek').addEventListener('click',setWeek);
+    $('weekPreviewButton').addEventListener('click',setWeek);
+    $('navMonitor').addEventListener('click',()=>{
+      if(state.view!=='day'){state.view='day';render()}
+      $('navMonitor').setAttribute('aria-current','page');
+      $('monitorPanel').open=true;$('monitorPanel').scrollIntoView({behavior:'smooth',block:'center'});
+    });
+    $('dialogClose').addEventListener('click',()=>$('articleDialog').close());
+    $('articleDialog').addEventListener('click',event=>{if(event.target===$('articleDialog'))$('articleDialog').close()});
     load();
   </script>
 </body>

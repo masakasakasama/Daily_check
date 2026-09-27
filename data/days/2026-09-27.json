@@ -10,6 +10,7 @@
       "summary": "新世代の基盤モデルGPT-6 SolとLunaがChatGPT Work、Codex、APIで提供開始。前世代より低価格化も伴うため固定尺度で90点台",
       "publishedAt": "2026/09/27",
       "firstSeenAt": "2026-09-28T04:58:00+09:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7fvmMcBIvMTXxVJh7NEMt1/48a75e624699bb1e218366c1d3522048/gpt-6-sol-luna-seo.png?q=85&w=1200",
       "source": {
         "label": "AI Briefs",
         "url": "https://aibriefs.news/ai-news-today"
@@ -24,6 +25,7 @@
       "summary": "サイバーセキュリティ対策を強化した主要フロンティアモデル更新。価格低下と安全性改善を伴う",
       "publishedAt": "2026/09/27",
       "firstSeenAt": "2026-09-28T04:58:00+09:00",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK269_ANTHROPIC_2_D.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "source": {
         "label": "The Verge",
         "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
@@ -41,6 +43,7 @@
       "publishedAt": "2026/09/27",
       "firstSeenAt": "2026-09-28T06:11:00+09:00",
       "discoveredLate": true,
+      "thumbnail": "https://www.heavyquipmag.com/wp-content/uploads/2026/09/Photo_1_PI_024_26_Owasys.jpg",
       "source": {
         "label": "HeavyQuip",
         "url": "https://www.heavyquipmag.com/2026/09/27/bosch-rexroth-owasys-telematics-iot-off-highway/"
