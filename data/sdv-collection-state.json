@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T05:04:00+09:00",
+  "updatedAt": "2026-09-28T05:20:00+09:00",
   "lastSuccessfulAt": "2026-09-28T05:04:00+09:00",
   "funnels": {
     "OEM": {
@@ -33,5 +33,72 @@
   "lastVerifiedDailyCommit": "ef66064425a30c34652b01c6c6d6716d75337a51",
   "lastAudit": "data/audits/2026-09-27-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
-  "weeklyBackfill": "last 7 days"
+  "weeklyBackfill": "last 7 days",
+  "collectionPolicy": {
+    "version": 2,
+    "candidateFloor": 0,
+    "rule": "Never conclude zero candidates from publication threshold. Record every plausible SDV hit before relevance, duplicate, and score filtering.",
+    "funnelQueries": {
+      "OEM": [
+        "software-defined vehicle",
+        "vehicle OS",
+        "E/E architecture",
+        "central compute",
+        "zonal ECU",
+        "OTA",
+        "vehicle API",
+        "automotive middleware"
+      ],
+      "Platform": [
+        "AAOS",
+        "AUTOSAR Adaptive",
+        "SOAFEE",
+        "Eclipse SDV",
+        "COVESA",
+        "QNX",
+        "Alloy Kore",
+        "vehicle OS",
+        "automotive hypervisor"
+      ],
+      "Tier1Semi": [
+        "SDV platform",
+        "central compute",
+        "HPC automotive",
+        "zonal controller",
+        "automotive middleware",
+        "OTA"
+      ],
+      "CloudOS": [
+        "automotive cloud development",
+        "virtual ECU",
+        "SIL HIL",
+        "digital twin automotive",
+        "vehicle SDK",
+        "CI/CD automotive"
+      ],
+      "RegSecurity": [
+        "UNECE R155",
+        "UNECE R156",
+        "ISO 21434",
+        "automotive cybersecurity",
+        "software update regulation"
+      ],
+      "Cross": [
+        "software-defined vehicle",
+        "SDV automotive software",
+        "vehicle OS middleware HPC zonal OTA"
+      ]
+    },
+    "zeroResultRule": "If any funnel has zero raw candidates, rerun with at least two alternate query families and record query, source URL, retrieval status, and raw hit count.",
+    "auditRule": "Audit must contain rawCandidates, excluded candidates with reason, duplicates with canonical eventKey, and adopted candidates. candidateCount means raw candidates before filtering.",
+    "scoring": {
+      "sdvDirectness": 25,
+      "practicalImpact": 25,
+      "scale": 20,
+      "specificity": 15,
+      "novelty": 15,
+      "publicationFloor": 40,
+      "importantFloor": 65
+    }
+  }
 }
