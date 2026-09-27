@@ -1,16 +1,16 @@
 {
   "start": "2026-09-20",
   "end": "2026-09-26",
-  "generatedAt": "2026-09-28T05:02:00+09:00",
+  "generatedAt": "2026-09-28T06:13:00+09:00",
   "headline": "直近7日Daily Check集計",
   "counts": {
-    "important": 11,
-    "reference": 12
+    "important": 15,
+    "reference": 16
   },
   "categories": [
     {
       "name": "AI",
-      "summary": "重要9件・参考5件"
+      "summary": "重要9件・参考6件"
     },
     {
       "name": "Codex",
@@ -18,7 +18,7 @@
     },
     {
       "name": "SDV",
-      "summary": "重要1件・参考7件"
+      "summary": "重要5件・参考10件"
     }
   ],
   "highlights": [
@@ -139,6 +139,50 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
+      }
+    },
+    {
+      "id": "sdv-china-software-update-engineering-20260924",
+      "eventKey": "china-road-vehicles-software-update-engineering-approval-draft-2026-09-24",
+      "category": "SDV",
+      "score": 92,
+      "title": "中国、車両ソフトウェア更新工程の国家標準案を承認前ドラフト段階へ",
+      "source": {
+        "label": "SDV Sector / MIIT",
+        "url": "https://sdvsector.com/news/2026-09-24-miit-software-update-engineering-approval-draft"
+      }
+    },
+    {
+      "id": "sdv-china-vehicle-ids-standard-20260924",
+      "eventKey": "china-vehicle-intrusion-detection-draft-standard-2026-09-24",
+      "category": "SDV",
+      "score": 90,
+      "title": "中国、車載侵入検知システムの国家標準案を公開",
+      "source": {
+        "label": "SDV Sector / SAC TC114",
+        "url": "https://sdvsector.com/news/2026-09-24-china-gbt-intrusion-detection-draft"
+      }
+    },
+    {
+      "id": "sdv-eu-euro7-software-type-approval-20260924",
+      "eventKey": "eu-euro7-software-cybersecurity-type-approval-2026-09-24",
+      "category": "SDV",
+      "score": 86,
+      "title": "EU、Euro 7の診断・サイバーセキュリティ等を型式認証項目へ反映",
+      "source": {
+        "label": "SDV Sector / EUR-Lex",
+        "url": "https://sdvsector.com/news/2026-09-24-eu-euro-7-type-approval-obd-cybersecurity"
+      }
+    },
+    {
+      "id": "sdv-nhtsa-openpilot-investigation-20260924",
+      "eventKey": "nhtsa-openpilot-forks-investigation-pe26007-2026-09-24",
+      "category": "SDV",
+      "score": 78,
+      "title": "NHTSA、openpilotと派生forkを含む不具合調査を開始",
+      "source": {
+        "label": "SDV Sector / NHTSA PE26007",
+        "url": "https://sdvsector.com/news/2026-09-24-nhtsa-comma-ai-openpilot-investigation"
       }
     }
   ],
@@ -263,6 +307,28 @@
       }
     },
     {
+      "id": "sdv-aumovio-vdo-link-eets-20260924",
+      "eventKey": "aumovio-vdo-link-distributed-eets-certification-2026-09-24",
+      "category": "SDV",
+      "score": 64,
+      "title": "AUMOVIO、ECU・接続・クラウド分散構成のVDO LinkでEETS認証",
+      "source": {
+        "label": "SDV Sector / AUMOVIO",
+        "url": "https://sdvsector.com/news/2026-09-24-aumovio-eets-distributed-onboard-unit"
+      }
+    },
+    {
+      "id": "sdv-fibocom-hangsheng-acquisition-20260924",
+      "eventKey": "fibocom-hangsheng-cockpit-domain-controller-acquisition-2026-09-24",
+      "category": "SDV",
+      "score": 62,
+      "title": "Fibocom、コックピット/ドメインコントローラ企業Hangshengの支配取得を具体化",
+      "source": {
+        "label": "SDV Sector / Shenzhen filing",
+        "url": "https://sdvsector.com/news/2026-09-24-fibocom-hangsheng-control-acquisition"
+      }
+    },
+    {
       "id": "ai-cohere-compass-cloud-20260926",
       "eventKey": "cohere-compass-cloud-2026-09-26",
       "category": "AI",
@@ -271,6 +337,28 @@
       "source": {
         "label": "Daily AI Newsbites",
         "url": "https://ai.newsbites.today/date/2026/09"
+      }
+    },
+    {
+      "id": "ai-replit-atta-acquisition-20260926",
+      "eventKey": "replit-atta-acquisition-2026-09-26",
+      "category": "AI",
+      "score": 61,
+      "title": "Replit、BI開発のAtta買収",
+      "source": {
+        "label": "Daily AI Newsbites",
+        "url": "https://ai.newsbites.today/date/2026/09"
+      }
+    },
+    {
+      "id": "sdv-dspace-20260926",
+      "eventKey": "dspace-v2x-sil-hil-20260926",
+      "category": "SDV",
+      "score": 58,
+      "title": "dSPACE V2X SIL/HIL検証",
+      "source": {
+        "label": "YourStory",
+        "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
       }
     }
   ]
