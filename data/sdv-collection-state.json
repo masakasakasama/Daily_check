@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T05:20:00+09:00",
+  "updatedAt": "2026-09-28T05:39:00+09:00",
   "lastSuccessfulAt": "2026-09-28T05:04:00+09:00",
   "funnels": {
     "OEM": {
@@ -29,13 +29,23 @@
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": null,
+  "pendingBatch": {
+    "type": "sdv-quality-repair",
+    "dates": [
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27"
+    ],
+    "startedAt": "2026-09-28T05:39:00+09:00",
+    "stage": "deep-scan-verified",
+    "reason": "Repair false zero-candidate audits and add stricter SDV collection quality gate"
+  },
   "lastVerifiedDailyCommit": "ef66064425a30c34652b01c6c6d6716d75337a51",
   "lastAudit": "data/audits/2026-09-27-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days",
   "collectionPolicy": {
-    "version": 2,
+    "version": 3,
     "candidateFloor": 0,
     "rule": "Never conclude zero candidates from publication threshold. Record every plausible SDV hit before relevance, duplicate, and score filtering.",
     "funnelQueries": {
@@ -99,6 +109,9 @@
       "novelty": 15,
       "publicationFloor": 40,
       "importantFloor": 65
-    }
+    },
+    "deepScanRule": "Run a second pass when total rawCandidates < 8, four or more funnels have zero raw candidates, all six funnels are zero, or SDV publication count is zero for two consecutive days. Deep Scan must add at least 12 date/company/technology/regulation/source-specific queries.",
+    "completionGate": "Do not set collectionComplete=true or declare SDV clear unless audit contains concrete query strings, source URLs/source families, observed raw hit counts, raw candidates and explicit adoption/exclusion/duplicate reasons. If evidence is insufficient, set anomaly=true and leave collection incomplete.",
+    "lateDiscoveryRule": "If a missed event from the overlap window is discovered later, preserve original publishedAt, set firstSeenAt to actual discovery time, mark discoveredLate=true, and reconsider it for publication."
   }
 }
