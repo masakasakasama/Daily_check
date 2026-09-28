@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-29",
+  "alerts": [
+    {
+      "id": "ai-nvidia-open-agent-safety-platform-20260928",
+      "eventKey": "nvidia-open-agent-safety-platform-2026-09-28",
+      "category": "AI",
+      "score": 82,
+      "title": "NVIDIA、AIエージェントの逸脱を封じるOpen Agent Safety Platformを発表",
+      "summary": "AIエージェントの権限・アクセス範囲を制御し、逸脱時に隔離する共通基盤。Cisco、Microsoft、Oracle、CoreWeave、Dell、HPE、Lenovo、Arm、Intelが参加し、エージェント運用の安全実装に直接影響する",
+      "publishedAt": "2026/09/28",
+      "firstSeenAt": "2026-09-29T06:57:49+09:00",
+      "source": {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html"
+      }
+    },
+    {
+      "id": "sdv-stellantis-momenta-dongfeng-adas-20260928",
+      "eventKey": "stellantis-dongfeng-momenta-adas-jeep-peugeot-2026-09-28",
+      "category": "SDV",
+      "score": 69,
+      "title": "Stellantis・東風JV、MomentaとJeep/Peugeot向けADASを共同開発",
+      "summary": "Momentaの運転支援ソフトをStellantisと東風のJVがJeep・Peugeotへ展開し、中国から欧州・世界市場へ拡大する提携。Momentaの実走搭載は120万台超とされ、車両ソフトの量産展開規模が大きい",
+      "publishedAt": "2026/09/28",
+      "firstSeenAt": "2026-09-29T06:57:49+09:00",
+      "source": {
+        "label": "Reuters / Automotive News",
+        "url": "https://www.autonews.com/stellantis/ane-momenta-stellantis-dongfeng-autonomous-driving-0928/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-openai-lenfest-expansion-20260928",
+      "eventKey": "openai-lenfest-ai-collaborative-expansion-2026-09-28",
+      "category": "AI",
+      "score": 62,
+      "title": "OpenAI、Lenfestの地域報道AI支援を最大1,000万ドル相当で拡大",
+      "summary": "OpenAIがLenfest AI Collaborativeへ500万ドルの追加資金と、最大500万ドル相当のソフトウェアクレジット・技術支援を表明。地域報道での責任あるAI導入を拡大する",
+      "publishedAt": "2026/09/28",
+      "firstSeenAt": "2026-09-29T06:57:49+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/lenfest-ai-collaborative-expansion/"
+      }
+    },
+    {
+      "id": "sdv-kia-pleos-connect-aaos-20260928",
+      "eventKey": "kia-k5-prototype-pleos-connect-aaos-2026-09-28",
+      "category": "SDV",
+      "score": 60,
+      "title": "Kia試作車でHyundai Pleos Connect採用を確認、AAOS共通基盤の横展開へ",
+      "summary": "Kia K5の試作車にHyundaiのAAOSベース新世代インフォテインメントPleos Connectが確認された。2030年までにHyundai・Genesis・Kiaの2,000万台へ広げる計画の具体的な展開兆候として参考",
+      "publishedAt": "2026/09/28",
+      "firstSeenAt": "2026-09-29T06:57:49+09:00",
+      "source": {
+        "label": "Electrek",
+        "url": "https://electrek.co/2026/09/28/kias-new-interior-spotted-larger-screen-high-tech-software/"
+      }
+    },
+    {
+      "id": "sdv-kpit-cockpit-adas-convergence-20260928",
+      "eventKey": "kpit-cockpit-adas-convergence-central-compute-2026-09-28",
+      "category": "SDV",
+      "score": 52,
+      "title": "KPIT、コックピットとADAS統合で中央計算・混在クリティカリティ対応を指摘",
+      "summary": "ドメイン/ゾーン型から中央計算へ進む中、コックピットとADASの統合、混在クリティカリティ、データガバナンス、状態説明を一体設計する必要性をKPIT CTOが具体化",
+      "publishedAt": "2026/09/28",
+      "firstSeenAt": "2026-09-29T06:57:49+09:00",
+      "source": {
+        "label": "ET Auto",
+        "url": "https://auto.economictimes.indiatimes.com/amp/news/auto-technology/trust-will-depend-not-only-on-how-well-the-vehicle-drives-but-on-how-clearly-it-explains-its-status-and-intent-omkar-panse-cto-kpit/134532232"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要1件・参考1件。NVIDIAのエージェント安全基盤とOpenAIの地域報道AI支援拡大を採用",
+      "checkedAt": "2026-09-29T07:01:35+09:00",
+      "alertCount": 1,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "update",
+      "summary": "6系統とDeep Scanを完了。raw候補11件から重要1件・参考2件を採用し、重複・低関連候補も監査へ保存",
+      "checkedAt": "2026-09-29T07:01:35+09:00",
+      "alertCount": 1,
+      "referenceCount": 2
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "OpenAI公式情報を確認。前回確認以降、5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
+      "checkedAt": "2026-09-29T07:01:35+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "主要国の公式情報を確認。前回確認以降、通知対象となる実質的な永住条件変更なし",
+      "checkedAt": "2026-09-29T07:01:35+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
