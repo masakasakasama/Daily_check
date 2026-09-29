@@ -1,0 +1,697 @@
+{
+  "date": "2026-09-30",
+  "windowStart": "2026-09-27T07:06:30+09:00",
+  "windowEnd": "2026-09-30T06:59:45+09:00",
+  "collectionComplete": true,
+  "anomaly": false,
+  "deepScanPerformed": false,
+  "fixedSources": {
+    "successful": [
+      {
+        "name": "Nissan Global Innovation",
+        "url": "https://www.nissan-global.com/EN/INNOVATION/"
+      },
+      {
+        "name": "Honda Global Newsroom",
+        "url": "https://global.honda/en/newsroom/"
+      },
+      {
+        "name": "Toyota Global Newsroom",
+        "url": "https://global.toyota/en/newsroom/"
+      },
+      {
+        "name": "GM News",
+        "url": "https://news.gm.com/"
+      },
+      {
+        "name": "Automotive Grade Linux",
+        "url": "https://www.automotivelinux.org/news/"
+      },
+      {
+        "name": "COVESA",
+        "url": "https://covesa.global/news/"
+      },
+      {
+        "name": "Eclipse SDV",
+        "url": "https://sdv.eclipse.org/news/"
+      },
+      {
+        "name": "AUTOSAR",
+        "url": "https://www.autosar.org/news-events"
+      },
+      {
+        "name": "SDVerse",
+        "url": "https://www.sdverse.auto/"
+      },
+      {
+        "name": "HARMAN",
+        "url": "https://news.harman.com/"
+      },
+      {
+        "name": "Bosch Media Service",
+        "url": "https://www.bosch-presse.de/pressportal/de/en/"
+      },
+      {
+        "name": "NXP Newsroom",
+        "url": "https://www.nxp.com/company/about-nxp/newsroom:NEWSROOM"
+      },
+      {
+        "name": "Android Automotive",
+        "url": "https://source.android.com/docs/automotive"
+      },
+      {
+        "name": "Lucid Stories",
+        "url": "https://lucidmotors.com/stories"
+      },
+      {
+        "name": "TCS Newsroom",
+        "url": "https://www.tcs.com/who-we-are/newsroom"
+      },
+      {
+        "name": "Korea MOLIT",
+        "url": "https://www.molit.go.kr/english/USR/BORD0201/m_28286/LST.jsp"
+      }
+    ],
+    "fallbackOrError": [
+      {
+        "name": "Vector SDV",
+        "url": "https://www.vector.com/int/en/know-how/sdv/",
+        "status": "404",
+        "fallback": "concept and company search"
+      },
+      {
+        "name": "Red Hat Automotive",
+        "url": "https://www.redhat.com/en/topics/edge-computing/automotive",
+        "status": "404",
+        "fallback": "cloud/platform concept search"
+      },
+      {
+        "name": "UNECE Vehicle Regulations",
+        "url": "https://unece.org/transport/vehicle-regulations",
+        "status": "bot-blocked",
+        "fallback": "official-domain and standards search"
+      },
+      {
+        "name": "Reuters Automotive",
+        "url": "https://www.reuters.com/business/autos-transportation/",
+        "status": "HTTP 401",
+        "fallback": "Reuters search and syndication"
+      }
+    ]
+  },
+  "funnels": [
+    {
+      "name": "OEM",
+      "windowStart": "2026-09-27T07:06:30+09:00",
+      "windowEnd": "2026-09-30T06:59:45+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "site:nissan-global.com vehicle software OTA cockpit September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=site%3Anissan-global.com%20vehicle%20software%20OTA%20cockpit%20September%2029%202026",
+          "sourceFamily": "official-domain search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:global.honda vehicle OS ASIMO OS September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=site%3Aglobal.honda%20vehicle%20OS%20ASIMO%20OS%20September%2029%202026",
+          "sourceFamily": "official-domain search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "automaker vehicle OS E/E architecture central compute zonal September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=automaker%20vehicle%20OS%20E%2FE%20architecture%20central%20compute%20zonal%20September%2029%202026",
+          "sourceFamily": "architecture concept search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Nissan Honda software-defined vehicle connected vehicle September 2026",
+          "sourceUrl": "https://www.google.com/search?q=Nissan%20Honda%20software-defined%20vehicle%20connected%20vehicle%20September%202026",
+          "sourceFamily": "OEM cross-search",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 2,
+      "retrievalStatus": "complete",
+      "candidateCount": 2,
+      "adoptedCount": 1,
+      "excludedCount": 0,
+      "duplicateCount": 1,
+      "completedAt": "2026-09-30T07:08:00+09:00"
+    },
+    {
+      "name": "Platform",
+      "windowStart": "2026-09-27T07:06:30+09:00",
+      "windowEnd": "2026-09-30T06:59:45+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "AAOS AUTOSAR Adaptive SOAFEE Eclipse SDV COVESA September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=AAOS%20AUTOSAR%20Adaptive%20SOAFEE%20Eclipse%20SDV%20COVESA%20September%2029%202026",
+          "sourceFamily": "ecosystem concept search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "QNX Alloy Kore automotive middleware hypervisor September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=QNX%20Alloy%20Kore%20automotive%20middleware%20hypervisor%20September%2029%202026",
+          "sourceFamily": "middleware/hypervisor search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "COVESA Eclipse SDV vehicle API September 2026",
+          "sourceUrl": "https://www.google.com/search?q=COVESA%20Eclipse%20SDV%20vehicle%20API%20September%202026",
+          "sourceFamily": "official-community search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "vehicle OS automotive middleware hypervisor cockpit software September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=vehicle%20OS%20automotive%20middleware%20hypervisor%20cockpit%20software%20September%2029%202026",
+          "sourceFamily": "platform cross-search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 2,
+      "retrievalStatus": "complete",
+      "candidateCount": 2,
+      "adoptedCount": 2,
+      "excludedCount": 0,
+      "duplicateCount": 0,
+      "completedAt": "2026-09-30T07:08:00+09:00"
+    },
+    {
+      "name": "Tier1Semi",
+      "windowStart": "2026-09-27T07:06:30+09:00",
+      "windowEnd": "2026-09-30T06:59:45+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "Bosch Continental Harman Aptiv automotive software OTA September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=Bosch%20Continental%20Harman%20Aptiv%20automotive%20software%20OTA%20September%2029%202026",
+          "sourceFamily": "tier-one company search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "NXP Qualcomm Renesas automotive central compute HPC September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=NXP%20Qualcomm%20Renesas%20automotive%20central%20compute%20HPC%20September%2029%202026",
+          "sourceFamily": "semiconductor/HPC search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "in-vehicle Ethernet zonal ECU controller September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=in-vehicle%20Ethernet%20zonal%20ECU%20controller%20September%2029%202026",
+          "sourceFamily": "network architecture search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "automotive HPC cockpit software semiconductor September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=automotive%20HPC%20cockpit%20software%20semiconductor%20September%2029%202026",
+          "sourceFamily": "compute/cockpit cross-search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 2,
+      "retrievalStatus": "complete",
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "completedAt": "2026-09-30T07:08:00+09:00"
+    },
+    {
+      "name": "CloudOS",
+      "windowStart": "2026-09-27T07:06:30+09:00",
+      "windowEnd": "2026-09-30T06:59:45+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "virtual ECU SIL HIL automotive CI/CD September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=virtual%20ECU%20SIL%20HIL%20automotive%20CI%2FCD%20September%2029%202026",
+          "sourceFamily": "virtual development search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "AWS Azure Google Cloud automotive development platform September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=AWS%20Azure%20Google%20Cloud%20automotive%20development%20platform%20September%2029%202026",
+          "sourceFamily": "cloud platform search",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "vehicle API SDK SDV development platform September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=vehicle%20API%20SDK%20SDV%20development%20platform%20September%2029%202026",
+          "sourceFamily": "vehicle API/SDK search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "software-defined vehicle simulation digital twin September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=software-defined%20vehicle%20simulation%20digital%20twin%20September%2029%202026",
+          "sourceFamily": "simulation cross-search",
+          "rawHitCount": 5,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 2,
+      "retrievalStatus": "complete",
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "duplicateCount": 1,
+      "completedAt": "2026-09-30T07:08:00+09:00"
+    },
+    {
+      "name": "RegSecurity",
+      "windowStart": "2026-09-27T07:06:30+09:00",
+      "windowEnd": "2026-09-30T06:59:45+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "UNECE R155 R156 automotive September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=UNECE%20R155%20R156%20automotive%20September%2029%202026",
+          "sourceFamily": "regulation search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "ISO 21434 ISO 24089 vehicle software update September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=ISO%2021434%20ISO%2024089%20vehicle%20software%20update%20September%2029%202026",
+          "sourceFamily": "standards search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "vehicle cybersecurity connected car OTA September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=vehicle%20cybersecurity%20connected%20car%20OTA%20September%2029%202026",
+          "sourceFamily": "cybersecurity search",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "automotive software update regulation compliance September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=automotive%20software%20update%20regulation%20compliance%20September%2029%202026",
+          "sourceFamily": "compliance cross-search",
+          "rawHitCount": 10,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 2,
+      "retrievalStatus": "complete",
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "completedAt": "2026-09-30T07:08:00+09:00"
+    },
+    {
+      "name": "Cross",
+      "windowStart": "2026-09-27T07:06:30+09:00",
+      "windowEnd": "2026-09-30T06:59:45+09:00",
+      "fixedOfficialScan": true,
+      "queries": [
+        {
+          "query": "2026 automotive software-defined vehicle SDV September 29",
+          "sourceUrl": "https://www.google.com/search?q=2026%20automotive%20software-defined%20vehicle%20SDV%20September%2029",
+          "sourceFamily": "broad SDV search",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Reuters automotive software connected vehicle September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=Reuters%20automotive%20software%20connected%20vehicle%20September%2029%202026",
+          "sourceFamily": "major-media search",
+          "rawHitCount": 10,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Automotive World software-defined vehicle platform September 29 2026",
+          "sourceUrl": "https://www.google.com/search?q=Automotive%20World%20software-defined%20vehicle%20platform%20September%2029%202026",
+          "sourceFamily": "specialist-media search",
+          "rawHitCount": 10,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:sdvsector.com September 29 2026 SDV",
+          "sourceUrl": "https://www.google.com/search?q=site%3Asdvsector.com%20September%2029%202026%20SDV",
+          "sourceFamily": "specialist-site cross-search",
+          "rawHitCount": 0,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 2,
+      "retrievalStatus": "complete",
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "duplicateCount": 1,
+      "completedAt": "2026-09-30T07:08:00+09:00"
+    }
+  ],
+  "deepScanQueries": [],
+  "deepScanReason": "not-triggered: rawCandidates=12, zero funnels=0, SDV publications=3",
+  "rawCandidateCount": 12,
+  "rawCandidates": [
+    {
+      "title": "Lucid Air UX 3.0",
+      "org": "Lucid Motors",
+      "primaryUrl": "https://lucidmotors.com/stories/lucid-air-ux-3-0",
+      "publishedAt": "2026-09-29",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "OEM",
+      "eventKey": "lucid-air-ux-3-0-ota-2026-09-29",
+      "verified": true,
+      "score": 62,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 15,
+        "scale": 11,
+        "specificity": 11,
+        "novelty": 7
+      },
+      "decision": "adopted-reference",
+      "reason": "公式本文で対象年式、OTA/ハード更新、統合UX機能を確認"
+    },
+    {
+      "title": "Exclusive: Kia K5 Second Facelift Spotted in California with Pleos Connect",
+      "org": "Kia",
+      "primaryUrl": "https://thekoreancarblog.com/exclusive-kia-k5-second-facelift-spotted-in-california-with-pleos-connect/",
+      "publishedAt": "2026-09-29",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "OEM",
+      "eventKey": "kia-k5-prototype-pleos-connect-aaos-2026-09-28",
+      "verified": true,
+      "score": 60,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 14,
+        "scale": 12,
+        "specificity": 9,
+        "novelty": 7
+      },
+      "decision": "duplicate",
+      "duplicateOf": "kia-k5-prototype-pleos-connect-aaos-2026-09-28",
+      "reason": "同一試作車とPleos Connect採用を9/29 Daily Checkで採用済み"
+    },
+    {
+      "title": "QNX and neueHCT Join Forces to Accelerate Global Intelligent Driving Deployment",
+      "org": "QNX / neueHCT",
+      "primaryUrl": "https://markets.financialcontent.com/lightport.lightport8/article/accwirecq-2026-9-29-qnx-and-neuehct-join-forces-to-accelerate-global-intelligent-driving-deployment-anchored-by-major-german-automaker-program-win",
+      "publishedAt": "2026-09-28T20:30:00-04:00",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "Platform",
+      "eventKey": "qnx-neuehct-german-oem-luna-smart-camera-2026-09-28",
+      "verified": true,
+      "score": 80,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 21,
+        "scale": 17,
+        "specificity": 13,
+        "novelty": 7
+      },
+      "decision": "adopted-important",
+      "reason": "QNX配信の本文で量産時期、数百万台規模、対象市場、技術構成を確認"
+    },
+    {
+      "title": "Software-Defined Vehicles: Can India Turn Its Software Strength into Automotive Advantage?",
+      "org": "EVreporter",
+      "primaryUrl": "https://evreporter.com/software-defined-vehicles-can-india-turn-its-software-strength-into-automotive-advantage/",
+      "publishedAt": "2026-09-29T07:32:57+05:30",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "Platform",
+      "eventKey": "evreporter-india-sdv-architecture-analysis-2026-09-29",
+      "verified": true,
+      "score": 50,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 11,
+        "scale": 6,
+        "specificity": 9,
+        "novelty": 4
+      },
+      "decision": "adopted-reference",
+      "reason": "本文で中央計算、AUTOSAR Adaptive、COVESA VSS、R156を横断的に具体化"
+    },
+    {
+      "title": "Software-Defined Vehicles Need a New Chip Strategy",
+      "org": "Siemens EDA",
+      "primaryUrl": "https://www.autocarpro.in/sponsored-content/branded-content-software-defined-vehicles-need-a-new-chip-strategy-134970",
+      "publishedAt": "2026-09-29T20:26:53+05:30",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "Tier1Semi",
+      "eventKey": "siemens-eda-sdv-chip-strategy-branded-20260929",
+      "verified": true,
+      "score": 39,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 9,
+        "scale": 4,
+        "specificity": 6,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "スポンサード論考で、新規製品・採用・規制イベントを伴わない"
+    },
+    {
+      "title": "OMNIVISION OAX7700 always-on vehicle security processor",
+      "org": "OMNIVISION",
+      "primaryUrl": "https://www.ovt.com/press-releases/omnivision-introduces-lowest-power-oax7700-ai-companion-processor-for-always-on-vehicle-security-systems/",
+      "publishedAt": "2026-09-21",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "Tier1Semi",
+      "eventKey": "omnivision-oax7700-parking-surveillance-20260921",
+      "verified": true,
+      "score": 52,
+      "scoreBreakdown": {
+        "sdvDirectness": 14,
+        "practicalImpact": 14,
+        "scale": 8,
+        "specificity": 11,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "一次発表は検索窓開始前の9/21。後発まとめ記事で再発見したが新規更新なし"
+    },
+    {
+      "title": "Beyond AI: When software engineering workflow becomes an automaker’s edge",
+      "org": "WardsAuto",
+      "primaryUrl": "https://www.wardsauto.com/spons/beyond-ai-when-software-engineering-workflow-becomes-an-automakers-edge/830977/",
+      "publishedAt": "2026-09-28",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "CloudOS",
+      "eventKey": "wardsauto-sdv-engineering-workflow-sponsored-20260928",
+      "verified": false,
+      "score": 35,
+      "scoreBreakdown": {
+        "sdvDirectness": 14,
+        "practicalImpact": 9,
+        "scale": 4,
+        "specificity": 5,
+        "novelty": 3
+      },
+      "decision": "duplicate",
+      "duplicateOf": "wardsauto-sdv-engineering-workflow-sponsored-20260928",
+      "reason": "9/29 auditに本文取得不完全・低スコア候補として保存済み"
+    },
+    {
+      "title": "10 Automotive Software Companies Building Cars That Update Themselves While You Sleep",
+      "org": "Breaking AC News",
+      "primaryUrl": "https://breakingac.com/news-from-our-partners/10-automotive-software-companies-building-cars-that-update-themselves-while-you-sleep/",
+      "publishedAt": "2026-09-29",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "CloudOS",
+      "eventKey": "breakingac-automotive-software-listicle-20260929",
+      "verified": false,
+      "score": 22,
+      "scoreBreakdown": {
+        "sdvDirectness": 8,
+        "practicalImpact": 4,
+        "scale": 3,
+        "specificity": 3,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "検索スニペット以外の信頼できる本文確認ができず、企業リスト記事で新規イベント性も低い"
+    },
+    {
+      "title": "Tensor Achieves ISO/SAE 21434 Cybersecurity Certification",
+      "org": "Tensor Auto",
+      "primaryUrl": "https://www.wyomingnews.com/online_features/press_releases/tensor-achieves-iso-sae-21434-cybersecurity-certification-with-zero-non-conformities-by-applus-idiada/article_732b32b2-52ce-53b0-a899-f841d7133c99.html",
+      "publishedAt": "2026-08-28",
+      "updatedAt": "2026-09-28T14:54:00-06:00",
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "RegSecurity",
+      "eventKey": "tensor-iso21434-zero-nonconformities-20260828",
+      "verified": true,
+      "score": 70,
+      "scoreBreakdown": {
+        "sdvDirectness": 17,
+        "practicalImpact": 19,
+        "scale": 12,
+        "specificity": 14,
+        "novelty": 8
+      },
+      "decision": "excluded",
+      "reason": "9/28配信記事は8/28公式発表の再掲。元イベントは検索窓外で新規性なし"
+    },
+    {
+      "title": "Kigen Automotive eSIM first to achieve GSMA eSA certification",
+      "org": "Kigen / Infineon",
+      "primaryUrl": "https://kigen.com/resources/press-releases/kigen-automotive-esim-first-to-achieve-gsma-esa-certification/",
+      "publishedAt": "2026-09-23",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "RegSecurity",
+      "eventKey": "kigen-automotive-esim-sgp32-v13-20260923",
+      "verified": true,
+      "score": 58,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 16,
+        "scale": 10,
+        "specificity": 13,
+        "novelty": 6
+      },
+      "decision": "excluded",
+      "reason": "一次発表は検索窓開始前で、過去auditにも候補として保存済み"
+    },
+    {
+      "title": "Connected Car News roundup: VicOne, CYMETRIS, OMNIVISION, Kigen and others",
+      "org": "AUTO Connected Car News",
+      "primaryUrl": "https://www.autoconnectedcar.com/2026/09/connected-car-news-vicone-cymetris-nicb-honk-lexisnexis-ims-ionq-sdt-omnivision-atlant-3d-uc-berkeley-oscp-ionq-cadence-kigen/",
+      "publishedAt": "2026-09-27T16:51:12-07:00",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "Cross",
+      "eventKey": "autoconnectedcar-roundup-20260927",
+      "verified": true,
+      "score": 34,
+      "scoreBreakdown": {
+        "sdvDirectness": 12,
+        "practicalImpact": 7,
+        "scale": 5,
+        "specificity": 6,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "VicOne、Kigen、OMNIVISION等の既発表案件をまとめた記事で新規一次イベントなし"
+    },
+    {
+      "title": "Lucid Introduces Air UX 3.0 press release",
+      "org": "Lucid Motors",
+      "primaryUrl": "https://www.prnewswire.com/news-releases/lucid-introduces-air-ux-3-0--offering-lucid-air-owners-a-faster-more-intuitive-digital-experience-302893061.html",
+      "publishedAt": "2026-09-29",
+      "updatedAt": null,
+      "firstSeenAt": "2026-09-30T06:59:45+09:00",
+      "funnel": "Cross",
+      "eventKey": "lucid-air-ux-3-0-ota-2026-09-29",
+      "verified": true,
+      "score": 62,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 15,
+        "scale": 11,
+        "specificity": 11,
+        "novelty": 7
+      },
+      "decision": "duplicate",
+      "duplicateOf": "lucid-air-ux-3-0-ota-2026-09-29",
+      "reason": "Lucid公式記事と同一イベント"
+    }
+  ],
+  "adopted": [
+    {
+      "eventKey": "lucid-air-ux-3-0-ota-2026-09-29",
+      "decision": "adopted-reference",
+      "score": 62
+    },
+    {
+      "eventKey": "qnx-neuehct-german-oem-luna-smart-camera-2026-09-28",
+      "decision": "adopted-important",
+      "score": 80
+    },
+    {
+      "eventKey": "evreporter-india-sdv-architecture-analysis-2026-09-29",
+      "decision": "adopted-reference",
+      "score": 50
+    }
+  ],
+  "excluded": [
+    {
+      "eventKey": "siemens-eda-sdv-chip-strategy-branded-20260929",
+      "score": 39,
+      "reason": "スポンサード論考で、新規製品・採用・規制イベントを伴わない"
+    },
+    {
+      "eventKey": "omnivision-oax7700-parking-surveillance-20260921",
+      "score": 52,
+      "reason": "一次発表は検索窓開始前の9/21。後発まとめ記事で再発見したが新規更新なし"
+    },
+    {
+      "eventKey": "breakingac-automotive-software-listicle-20260929",
+      "score": 22,
+      "reason": "検索スニペット以外の信頼できる本文確認ができず、企業リスト記事で新規イベント性も低い"
+    },
+    {
+      "eventKey": "tensor-iso21434-zero-nonconformities-20260828",
+      "score": 70,
+      "reason": "9/28配信記事は8/28公式発表の再掲。元イベントは検索窓外で新規性なし"
+    },
+    {
+      "eventKey": "kigen-automotive-esim-sgp32-v13-20260923",
+      "score": 58,
+      "reason": "一次発表は検索窓開始前で、過去auditにも候補として保存済み"
+    },
+    {
+      "eventKey": "autoconnectedcar-roundup-20260927",
+      "score": 34,
+      "reason": "VicOne、Kigen、OMNIVISION等の既発表案件をまとめた記事で新規一次イベントなし"
+    }
+  ],
+  "duplicates": [
+    {
+      "eventKey": "kia-k5-prototype-pleos-connect-aaos-2026-09-28",
+      "duplicateOf": "kia-k5-prototype-pleos-connect-aaos-2026-09-28",
+      "score": 60
+    },
+    {
+      "eventKey": "wardsauto-sdv-engineering-workflow-sponsored-20260928",
+      "duplicateOf": "wardsauto-sdv-engineering-workflow-sponsored-20260928",
+      "score": 35
+    },
+    {
+      "eventKey": "lucid-air-ux-3-0-ota-2026-09-29",
+      "duplicateOf": "lucid-air-ux-3-0-ota-2026-09-29",
+      "score": 62
+    }
+  ],
+  "summary": {
+    "rawCandidates": 12,
+    "adopted": 3,
+    "excluded": 6,
+    "duplicates": 3,
+    "important": 1,
+    "reference": 2
+  },
+  "completedAt": "2026-09-30T07:08:00+09:00"
+}
