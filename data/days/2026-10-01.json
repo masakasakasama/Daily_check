@@ -28,91 +28,6 @@
         "label": "Google",
         "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
       }
-    },
-    {
-      "id": "sdv-eclipse-score-japan-20260928",
-      "eventKey": "eclipse-sdv-s-core-japan-commitment-2026-09-28",
-      "category": "SDV",
-      "score": 57,
-      "title": "Eclipse SDV、S-CORE 1.0を12月公開へ、日本勢の参加を要請",
-      "summary": "車載ミドルウェア基盤S-CORE、openSOVD、COVESA VSS準拠KUKSAなど25超のプロジェクトを展開。50超の企業・団体が参加し、日本の自動車産業との連携強化を表明",
-      "publishedAt": "2026/09/28",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "MONOist",
-        "url": "https://monoist.itmedia.co.jp/mn/articles/2609/28/news059.html"
-      }
-    },
-    {
-      "id": "sdv-nhtsa-recall-ota-docket-20260929",
-      "eventKey": "nhtsa-recall-completion-ota-connected-vehicle-docket-2026-09-29",
-      "category": "SDV",
-      "score": 56,
-      "title": "NHTSA、OTA・コネクテッド車を含むリコール完了率改善の公開審議を開始",
-      "summary": "11月5日の公開会合と12月5日までの意見募集を設定。OTA、デジタル通知、コネクテッド車、AVをリコール実施効率の中心課題として明示",
-      "publishedAt": "2026/09/29",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "SDV Sector / Federal Register",
-        "url": "https://sdvsector.com/news/2026-09-29-nhtsa-recall-completion-ota-docket"
-      }
-    },
-    {
-      "id": "sdv-nxp-vector-zonal-platform-webinar-20260929",
-      "eventKey": "nxp-vector-s32k5-microsar-zonal-platform-2026-09-29",
-      "category": "SDV",
-      "score": 52,
-      "title": "NXP×Vector、S32K5とMICROSARの検証済みゾーンECU基盤を公開解説",
-      "summary": "次世代ゾーンECU向けにS32K5 MCUとMICROSAR Classicを事前統合・共同検証。共通検証パイプラインとCoreRide活用で統合作業削減を狙う",
-      "publishedAt": "2026/09/29",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "Vector",
-        "url": "https://www.vector.com/ja/company/events/webinar-nxp-vector/"
-      }
-    },
-    {
-      "id": "sdv-techinsights-market-outlook-20260929",
-      "eventKey": "techinsights-sdv-software-market-outlook-2026-2033",
-      "category": "SDV",
-      "score": 48,
-      "title": "TechInsights、SDVソフト市場を2033年最大1,090億ドルと試算",
-      "summary": "2026年の自動車ソフト市場を200億～450億ドル、2033年を420億～1,090億ドルと推計。組込みソフトが支出の60～75%を占めると分析",
-      "publishedAt": "2026/09/29",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "TechInsights",
-        "url": "https://www.techinsights.com/blog/automotive-software-market-outlook-2026-2033"
-      }
-    },
-    {
-      "id": "sdv-momenta-global-expansion-20260930",
-      "eventKey": "momenta-robotaxi-dubai-europe-expansion-2026-09-30",
-      "category": "SDV",
-      "score": 45,
-      "title": "Momenta、2027年末までにロボタクシー数千台規模へ拡大方針",
-      "summary": "欧州・ドバイ・日本を優先市場とし、現在3カ国100台超の配備を2027年末に数千台へ拡大する計画。自動車メーカー向けADASソフト事業も展開",
-      "publishedAt": "2026/09/30",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "Reuters",
-        "url": "https://www.reuters.com/world/asia-pacific/mercedes-backed-momenta-targets-dubai-europe-robotaxi-expansion-2026-09-30/"
-      }
-    },
-    {
-      "id": "sdv-emq-data-backbone-event-20260929",
-      "eventKey": "emq-sdv-data-backbone-summit-2026-09-29",
-      "category": "SDV",
-      "score": 42,
-      "title": "EMQ、SDV向け車載・エッジ・クラウド統合データ基盤を提示",
-      "summary": "CAN/SOME-IPとDDS/MQTTを橋渡しするEMQX Edge、切断時のバッファリングと再送を含む双方向V2Cデータ基盤を欧州SDV Summitで紹介",
-      "publishedAt": "2026/09/29",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "EMQ",
-        "url": "https://www.emqx.com/en/events/emq-at-sdv-and-av-technology-summit-europe-2026"
-      }
     }
   ],
   "references": [
@@ -145,6 +60,35 @@
       }
     },
     {
+      "id": "sdv-eclipse-score-japan-20260928",
+      "eventKey": "eclipse-sdv-s-core-japan-commitment-2026-09-28",
+      "category": "SDV",
+      "score": 57,
+      "title": "Eclipse SDV、S-CORE 1.0を12月公開へ、日本勢の参加を要請",
+      "summary": "車載ミドルウェア基盤S-CORE、openSOVD、COVESA VSS準拠KUKSAなど25超のプロジェクトを展開。50超の企業・団体が参加し、日本の自動車産業との連携強化を表明",
+      "publishedAt": "2026/09/28",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "MONOist",
+        "url": "https://monoist.itmedia.co.jp/mn/articles/2609/28/news059.html"
+      }
+    },
+    {
+      "id": "sdv-nhtsa-recall-ota-docket-20260929",
+      "eventKey": "nhtsa-recall-completion-ota-connected-vehicle-docket-2026-09-29",
+      "category": "SDV",
+      "score": 56,
+      "title": "NHTSA、OTA・コネクテッド車を含むリコール完了率改善の公開審議を開始",
+      "summary": "11月5日の公開会合と12月5日までの意見募集を設定。OTA、デジタル通知、コネクテッド車、AVをリコール実施効率の中心課題として明示",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "SDV Sector / Federal Register",
+        "url": "https://sdvsector.com/news/2026-09-29-nhtsa-recall-completion-ota-docket"
+      }
+    },
+    {
       "id": "ai-ftc-frontier-model-probe-20260930",
       "eventKey": "ftc-probe-openai-anthropic-frontier-model-risks-2026-09-30",
       "category": "AI",
@@ -173,6 +117,34 @@
       }
     },
     {
+      "id": "sdv-nxp-vector-zonal-platform-webinar-20260929",
+      "eventKey": "nxp-vector-s32k5-microsar-zonal-platform-2026-09-29",
+      "category": "SDV",
+      "score": 52,
+      "title": "NXP×Vector、S32K5とMICROSARの検証済みゾーンECU基盤を公開解説",
+      "summary": "次世代ゾーンECU向けにS32K5 MCUとMICROSAR Classicを事前統合・共同検証。共通検証パイプラインとCoreRide活用で統合作業削減を狙う",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Vector",
+        "url": "https://www.vector.com/ja/company/events/webinar-nxp-vector/"
+      }
+    },
+    {
+      "id": "sdv-techinsights-market-outlook-20260929",
+      "eventKey": "techinsights-sdv-software-market-outlook-2026-2033",
+      "category": "SDV",
+      "score": 48,
+      "title": "TechInsights、SDVソフト市場を2033年最大1,090億ドルと試算",
+      "summary": "2026年の自動車ソフト市場を200億～450億ドル、2033年を420億～1,090億ドルと推計。組込みソフトが支出の60～75%を占めると分析",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "TechInsights",
+        "url": "https://www.techinsights.com/blog/automotive-software-market-outlook-2026-2033"
+      }
+    },
+    {
       "id": "ai-google-synthid-bio-20260930",
       "eventKey": "google-deepmind-synthid-bio-2026-09-30",
       "category": "AI",
@@ -184,6 +156,34 @@
       "source": {
         "label": "Google DeepMind",
         "url": "https://deepmind.google/blog/introducing-synthid-bio/"
+      }
+    },
+    {
+      "id": "sdv-momenta-global-expansion-20260930",
+      "eventKey": "momenta-robotaxi-dubai-europe-expansion-2026-09-30",
+      "category": "SDV",
+      "score": 45,
+      "title": "Momenta、2027年末までにロボタクシー数千台規模へ拡大方針",
+      "summary": "欧州・ドバイ・日本を優先市場とし、現在3カ国100台超の配備を2027年末に数千台へ拡大する計画。自動車メーカー向けADASソフト事業も展開",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/mercedes-backed-momenta-targets-dubai-europe-robotaxi-expansion-2026-09-30/"
+      }
+    },
+    {
+      "id": "sdv-emq-data-backbone-event-20260929",
+      "eventKey": "emq-sdv-data-backbone-summit-2026-09-29",
+      "category": "SDV",
+      "score": 42,
+      "title": "EMQ、SDV向け車載・エッジ・クラウド統合データ基盤を提示",
+      "summary": "CAN/SOME-IPとDDS/MQTTを橋渡しするEMQX Edge、切断時のバッファリングと再送を含む双方向V2Cデータ基盤を欧州SDV Summitで紹介",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "EMQ",
+        "url": "https://www.emqx.com/en/events/emq-at-sdv-and-av-technology-summit-europe-2026"
       }
     },
     {
