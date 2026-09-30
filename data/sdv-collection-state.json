@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T07:40:40+09:00",
+  "updatedAt": "2026-10-01T07:45:00+09:00",
   "lastSuccessfulAt": "2026-10-01T07:14:00+09:00",
   "funnels": {
     "OEM": {
@@ -35,7 +35,7 @@
     "status": "awaiting-week-regeneration",
     "phase": "weekly-integrity-repair",
     "attempt": 1,
-    "reason": "Weekly aggregate omitted one distinct reference article sharing a source index URL; regenerating from seven daily files.",
+    "reason": "Rebuilt weekly aggregate from seven daily files; corrected the Replit article URL to its distinct official article URL to prevent canonical URL collision.",
     "paths": {
       "week": "data/weeks/2026-10-01.json"
     }

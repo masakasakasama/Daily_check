@@ -1,7 +1,7 @@
 {
   "start": "2026-09-25",
   "end": "2026-10-01",
-  "generatedAt": "2026-10-01T07:40:40+09:00",
+  "generatedAt": "2026-10-01T07:45:00+09:00",
   "headline": "直近7日Daily Check集計",
   "counts": {
     "important": 22,
@@ -475,7 +475,7 @@
       "firstSeenAt": "2026-09-28T04:58:00+09:00",
       "source": {
         "label": "Daily AI Newsbites",
-        "url": "https://ai.newsbites.today/date/2026/09"
+        "url": "https://replit.com/blog/replit-acquires-atta"
       }
     },
     {
