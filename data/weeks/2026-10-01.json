@@ -351,20 +351,6 @@
       }
     },
     {
-      "id": "ai-openai-sbdc-small-business-20260930",
-      "eventKey": "openai-americas-sbdc-small-business-training-2026-09-30",
-      "category": "AI",
-      "score": 70,
-      "title": "OpenAI、米SBDCと中小企業向けAI実装支援を開始",
-      "summary": "約150人のSBDCアドバイザーを育成し、少なくとも1,000社へ対面研修を届ける計画。小規模企業でのChatGPT Work/Codex活用調査も公開",
-      "publishedAt": "2026/09/30",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "OpenAI",
-        "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/"
-      }
-    },
-    {
       "id": "ai-cohere-compass-cloud-20260926",
       "eventKey": "cohere-compass-cloud-2026-09-26",
       "category": "AI",
@@ -537,6 +523,20 @@
       }
     },
     {
+      "id": "ai-openai-sbdc-small-business-20260930",
+      "eventKey": "openai-americas-sbdc-small-business-training-2026-09-30",
+      "category": "AI",
+      "score": 55,
+      "title": "OpenAI、米SBDCと中小企業向けAI実装支援を開始",
+      "summary": "約150人のSBDCアドバイザーを育成し、少なくとも1,000社へ対面研修を届ける計画。小規模企業でのChatGPT Work/Codex活用調査も公開",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/"
+      }
+    },
+    {
       "id": "sdv-bosch-rexroth-20260927",
       "eventKey": "bosch-rexroth-bodas-ota-20260927",
       "category": "SDV",
@@ -635,5 +635,6 @@
         "url": "https://www.emqx.com/en/events/emq-at-sdv-and-av-technology-summit-europe-2026"
       }
     }
-  ]
+  ],
+  "alerts": []
 }
