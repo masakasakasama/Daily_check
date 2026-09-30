@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30T07:08:00+09:00",
+  "updatedAt": "2026-10-01T07:01:00+09:00",
   "lastSuccessfulAt": "2026-09-30T07:08:00+09:00",
   "funnels": {
     "OEM": {
@@ -29,7 +29,15 @@
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": null,
+  "pendingBatch": {
+    "date": "2026-10-01",
+    "startedAt": "2026-10-01T06:59:41+09:00",
+    "windowStart": "2026-09-28T07:08:00+09:00",
+    "windowEnd": "2026-10-01T06:59:41+09:00",
+    "status": "collecting",
+    "phase": "pending-staged",
+    "attempt": 1
+  },
   "lastVerifiedDailyCommit": "95af00fa8147300d6cfdd8de014d076e463e7c77",
   "lastAudit": "data/audits/2026-09-30-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
