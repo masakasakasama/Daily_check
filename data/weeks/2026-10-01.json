@@ -1,16 +1,16 @@
 {
   "start": "2026-09-25",
   "end": "2026-10-01",
-  "generatedAt": "2026-10-01T07:45:00+09:00",
+  "generatedAt": "2026-10-01T08:12:00+09:00",
   "headline": "直近7日Daily Check集計",
   "counts": {
-    "important": 22,
-    "reference": 21
+    "important": 17,
+    "reference": 26
   },
   "categories": [
     {
       "name": "AI",
-      "summary": "重要15件・参考7件"
+      "summary": "重要10件・参考12件"
     },
     {
       "name": "Codex",
@@ -123,20 +123,6 @@
       }
     },
     {
-      "id": "ai-openai-distillation-campaign-20260930",
-      "eventKey": "openai-coordinated-adversarial-distillation-campaign-2026-09-30",
-      "category": "AI",
-      "score": 88,
-      "title": "OpenAI、大規模な推論抽出キャンペーンを遮断",
-      "summary": "4,000超の利用者から1日1.6万件、関連クラスタ1.5万超のアカウントで保護推論の抽出を確認し遮断。Moonshot AI関係者を中核クラスタに帰属し、業界横断で防御情報を共有",
-      "publishedAt": "2026/09/30",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "OpenAI",
-        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
-      }
-    },
-    {
       "id": "sdv-eu-euro7-software-type-approval-20260924",
       "eventKey": "eu-euro7-software-cybersecurity-type-approval-2026-09-24",
       "category": "SDV",
@@ -166,17 +152,17 @@
       }
     },
     {
-      "id": "ai-synopsys-openai-chip-model-20260930",
-      "eventKey": "synopsys-openai-gpt-synopsys-chip-design-2026-09-30",
+      "id": "ai-google-gemini-skills-20260930",
+      "eventKey": "google-gemini-skills-replace-gems-2026-09-30",
       "category": "AI",
       "score": 86,
-      "title": "SynopsysとOpenAI、半導体設計専用「GPT‑Synopsys」を共同開発",
-      "summary": "回路記述から数十億トランジスタの配置までを支援する専用モデルを共同開発。OpenAIは学習利用料を受け取り、顧客利用時は成果に応じて収益分配する契約",
+      "title": "Gemini、再利用可能な「Skills」を世界展開しGemsを置換へ",
+      "summary": "保存した指示をスラッシュコマンドで呼び出し、複数Skillや参照ファイルを組み合わせ可能。Gemini chatへ世界展開し、Workspace各プランにも順次提供",
       "publishedAt": "2026/09/30",
       "firstSeenAt": "2026-10-01T06:59:41+09:00",
       "source": {
-        "label": "Reuters",
-        "url": "https://www.reuters.com/business/synopsys-openai-strike-deal-develop-ai-model-chip-design-work-2026-09-30/"
+        "label": "Google",
+        "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
       }
     },
     {
@@ -191,20 +177,6 @@
       "source": {
         "label": "The White House",
         "url": "https://www.whitehouse.gov/presidential-actions/2026/09/streamlining-access-to-government-services-through-america-gov/"
-      }
-    },
-    {
-      "id": "ai-ftc-frontier-model-probe-20260930",
-      "eventKey": "ftc-probe-openai-anthropic-frontier-model-risks-2026-09-30",
-      "category": "AI",
-      "score": 83,
-      "title": "米FTC、OpenAI・Anthropicなどのフロンティアモデル調査を本格化",
-      "summary": "消費者保護権限を用い、先端モデルの危険性に関する企業説明や安全対策を調査。米国で自主監督に加えて当局審査が強まる可能性",
-      "publishedAt": "2026/09/30",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "The Wall Street Journal",
-        "url": "https://www.wsj.com/tech/ai/ftc-opens-investigation-of-anthropic-and-openai-a317b617"
       }
     },
     {
@@ -250,20 +222,6 @@
       }
     },
     {
-      "id": "ai-google-synthid-bio-20260930",
-      "eventKey": "google-deepmind-synthid-bio-2026-09-30",
-      "category": "AI",
-      "score": 81,
-      "title": "Google DeepMind、AI設計タンパク質へ透かしを埋め込むSynthID Bioを公開",
-      "summary": "アミノ酸配列と3D構造へ検証可能な署名を埋め込み、合成後の物理タンパク質でも検出可能。実験で生物学的機能を維持した概念実証",
-      "publishedAt": "2026/09/30",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-synthid-bio/"
-      }
-    },
-    {
       "id": "sdv-qnx-neuehct-german-oem-20260928",
       "eventKey": "qnx-neuehct-german-oem-luna-smart-camera-2026-09-28",
       "category": "SDV",
@@ -275,20 +233,6 @@
       "source": {
         "label": "QNX / ACCESS Newswire",
         "url": "https://markets.financialcontent.com/lightport.lightport8/article/accwirecq-2026-9-29-qnx-and-neuehct-join-forces-to-accelerate-global-intelligent-driving-deployment-anchored-by-major-german-automaker-program-win"
-      }
-    },
-    {
-      "id": "ai-google-gemini-skills-20260930",
-      "eventKey": "google-gemini-skills-replace-gems-2026-09-30",
-      "category": "AI",
-      "score": 80,
-      "title": "Gemini、再利用可能な「Skills」を世界展開しGemsを置換へ",
-      "summary": "保存した指示をスラッシュコマンドで呼び出し、複数Skillや参照ファイルを組み合わせ可能。Gemini chatへ世界展開し、Workspace各プランにも順次提供",
-      "publishedAt": "2026/09/30",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "Google",
-        "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
       }
     },
     {
@@ -304,20 +248,6 @@
       "source": {
         "label": "SDV Sector / NHTSA PE26007",
         "url": "https://sdvsector.com/news/2026-09-24-nhtsa-comma-ai-openpilot-investigation"
-      }
-    },
-    {
-      "id": "ai-anthropic-government-ga-20260930",
-      "eventKey": "anthropic-claude-for-government-general-availability-2026-09-30",
-      "category": "AI",
-      "score": 76,
-      "title": "Anthropic、「Claude for Government」を一般提供",
-      "summary": "政府機関向けClaude環境を一般提供段階へ移行。公的部門での導入対象を広げる商用展開として採用",
-      "publishedAt": "2026/09/30",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "Reuters",
-        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45M1CM:0-anthropic-says-claude-for-government-is-now-generally-available/"
       }
     },
     {
@@ -451,6 +381,20 @@
       }
     },
     {
+      "id": "ai-openai-distillation-campaign-20260930",
+      "eventKey": "openai-coordinated-adversarial-distillation-campaign-2026-09-30",
+      "category": "AI",
+      "score": 62,
+      "title": "OpenAI、大規模な推論抽出キャンペーンを遮断",
+      "summary": "4,000超の利用者から1日1.6万件、関連クラスタ1.5万超のアカウントで保護推論の抽出を確認し遮断。Moonshot AI関係者を中核クラスタに帰属し、業界横断で防御情報を共有",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
+      }
+    },
+    {
       "id": "ai-replit-atta-acquisition-20260926",
       "eventKey": "replit-atta-acquisition-2026-09-26",
       "category": "AI",
@@ -494,6 +438,20 @@
       }
     },
     {
+      "id": "ai-synopsys-openai-chip-model-20260930",
+      "eventKey": "synopsys-openai-gpt-synopsys-chip-design-2026-09-30",
+      "category": "AI",
+      "score": 58,
+      "title": "SynopsysとOpenAI、半導体設計専用「GPT‑Synopsys」を共同開発",
+      "summary": "回路記述から数十億トランジスタの配置までを支援する専用モデルを共同開発。OpenAIは学習利用料を受け取り、顧客利用時は成果に応じて収益分配する契約",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/synopsys-openai-strike-deal-develop-ai-model-chip-design-work-2026-09-30/"
+      }
+    },
+    {
       "id": "sdv-eclipse-score-japan-20260928",
       "eventKey": "eclipse-sdv-s-core-japan-commitment-2026-09-28",
       "category": "SDV",
@@ -523,20 +481,6 @@
       }
     },
     {
-      "id": "ai-openai-sbdc-small-business-20260930",
-      "eventKey": "openai-americas-sbdc-small-business-training-2026-09-30",
-      "category": "AI",
-      "score": 55,
-      "title": "OpenAI、米SBDCと中小企業向けAI実装支援を開始",
-      "summary": "約150人のSBDCアドバイザーを育成し、少なくとも1,000社へ対面研修を届ける計画。小規模企業でのChatGPT Work/Codex活用調査も公開",
-      "publishedAt": "2026/09/30",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "source": {
-        "label": "OpenAI",
-        "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/"
-      }
-    },
-    {
       "id": "sdv-bosch-rexroth-20260927",
       "eventKey": "bosch-rexroth-bodas-ota-20260927",
       "category": "SDV",
@@ -549,6 +493,34 @@
       "source": {
         "label": "HeavyQuip",
         "url": "https://www.heavyquipmag.com/2026/09/27/bosch-rexroth-owasys-telematics-iot-off-highway/"
+      }
+    },
+    {
+      "id": "ai-ftc-frontier-model-probe-20260930",
+      "eventKey": "ftc-probe-openai-anthropic-frontier-model-risks-2026-09-30",
+      "category": "AI",
+      "score": 55,
+      "title": "米FTC、OpenAI・Anthropicなどのフロンティアモデル調査を本格化",
+      "summary": "消費者保護権限を用い、先端モデルの危険性に関する企業説明や安全対策を調査。米国で自主監督に加えて当局審査が強まる可能性",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "The Wall Street Journal",
+        "url": "https://www.wsj.com/tech/ai/ftc-opens-investigation-of-anthropic-and-openai-a317b617"
+      }
+    },
+    {
+      "id": "ai-openai-sbdc-small-business-20260930",
+      "eventKey": "openai-americas-sbdc-small-business-training-2026-09-30",
+      "category": "AI",
+      "score": 55,
+      "title": "OpenAI、米SBDCと中小企業向けAI実装支援を開始",
+      "summary": "約150人のSBDCアドバイザーを育成し、少なくとも1,000社へ対面研修を届ける計画。小規模企業でのChatGPT Work/Codex活用調査も公開",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/"
       }
     },
     {
@@ -608,6 +580,20 @@
       }
     },
     {
+      "id": "ai-google-synthid-bio-20260930",
+      "eventKey": "google-deepmind-synthid-bio-2026-09-30",
+      "category": "AI",
+      "score": 48,
+      "title": "Google DeepMind、AI設計タンパク質へ透かしを埋め込むSynthID Bioを公開",
+      "summary": "アミノ酸配列と3D構造へ検証可能な署名を埋め込み、合成後の物理タンパク質でも検出可能。実験で生物学的機能を維持した概念実証",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-synthid-bio/"
+      }
+    },
+    {
       "id": "sdv-momenta-global-expansion-20260930",
       "eventKey": "momenta-robotaxi-dubai-europe-expansion-2026-09-30",
       "category": "SDV",
@@ -634,7 +620,20 @@
         "label": "EMQ",
         "url": "https://www.emqx.com/en/events/emq-at-sdv-and-av-technology-summit-europe-2026"
       }
+    },
+    {
+      "id": "ai-anthropic-government-ga-20260930",
+      "eventKey": "anthropic-claude-for-government-general-availability-2026-09-30",
+      "category": "AI",
+      "score": 42,
+      "title": "Anthropic、「Claude for Government」を一般提供",
+      "summary": "政府機関向けClaude環境を一般提供段階へ移行。公的部門での導入対象を広げる商用展開として採用",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45M1CM:0-anthropic-says-claude-for-government-is-now-generally-available/"
+      }
     }
-  ],
-  "alerts": []
+  ]
 }
