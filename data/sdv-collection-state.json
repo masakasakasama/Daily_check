@@ -1,53 +1,37 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T07:09:00+09:00",
-  "lastSuccessfulAt": "2026-09-30T07:08:00+09:00",
+  "updatedAt": "2026-10-01T07:14:00+09:00",
+  "lastSuccessfulAt": "2026-10-01T07:14:00+09:00",
   "funnels": {
     "OEM": {
-      "lastSuccessfulAt": "2026-09-30T07:08:00+09:00",
+      "lastSuccessfulAt": "2026-10-01T07:14:00+09:00",
       "lastCount": 2
     },
     "Platform": {
-      "lastSuccessfulAt": "2026-09-30T07:08:00+09:00",
+      "lastSuccessfulAt": "2026-10-01T07:14:00+09:00",
       "lastCount": 2
     },
     "Tier1Semi": {
-      "lastSuccessfulAt": "2026-09-30T07:08:00+09:00",
+      "lastSuccessfulAt": "2026-10-01T07:14:00+09:00",
       "lastCount": 2
     },
     "CloudOS": {
-      "lastSuccessfulAt": "2026-09-30T07:08:00+09:00",
+      "lastSuccessfulAt": "2026-10-01T07:14:00+09:00",
       "lastCount": 2
     },
     "RegSecurity": {
-      "lastSuccessfulAt": "2026-09-30T07:08:00+09:00",
+      "lastSuccessfulAt": "2026-10-01T07:14:00+09:00",
       "lastCount": 2
     },
     "Cross": {
-      "lastSuccessfulAt": "2026-09-30T07:08:00+09:00",
+      "lastSuccessfulAt": "2026-10-01T07:14:00+09:00",
       "lastCount": 2
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": {
-    "date": "2026-10-01",
-    "startedAt": "2026-10-01T06:59:41+09:00",
-    "windowStart": "2026-09-28T07:08:00+09:00",
-    "windowEnd": "2026-10-01T06:59:41+09:00",
-    "status": "staged",
-    "phase": "collection-staged",
-    "attempt": 1,
-    "rawCandidateCount": 12,
-    "plannedImportant": 7,
-    "plannedReferences": 7,
-    "paths": {
-      "day": "data/days/2026-10-01.json",
-      "audit": "data/audits/2026-10-01-sdv.json",
-      "week": "data/weeks/2026-10-01.json"
-    }
-  },
-  "lastVerifiedDailyCommit": "95af00fa8147300d6cfdd8de014d076e463e7c77",
-  "lastAudit": "data/audits/2026-09-30-sdv.json",
+  "pendingBatch": null,
+  "lastVerifiedDailyCommit": "73ad3274a76b0dc3c8621e848e6e75efbc2537ff",
+  "lastAudit": "data/audits/2026-10-01-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days",
   "collectionPolicy": {
