@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-02",
+  "alerts": [
+    {
+      "id": "ai-openai-chatgpt-work-codex-release-batch-20260929",
+      "eventKey": "openai-chatgpt-work-codex-feature-batch-2026-09-29",
+      "category": "AI",
+      "score": 94,
+      "title": "OpenAI、ChatGPT Work/Codexにクラウド実行・常駐エージェント・Sites自動更新を一括投入",
+      "summary": "Codex Cloud、GPT-6.1 Sol、常駐型dots、Pages、Sitesの定期更新、PRレビュー、Codex Security Cloud、接続アプリイベント起点のAutomationsなどを提供。単一の公式リリース群として統合",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "OpenAI",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    },
+    {
+      "id": "ai-anthropic-claude-code-mods-20261001",
+      "eventKey": "anthropic-claude-code-2-1-287-mods-2026-10-01",
+      "category": "AI",
+      "score": 83,
+      "title": "Claude Code 2.1.287、動作を拡張するClaude Modsと監視サイドエージェントを追加",
+      "summary": "プラグインがより深い動作を変更できるClaude Modsを導入。見落としを指摘する組み込みサイドエージェント、エージェント検索、MCP URLプロンプトにも対応",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://code.claude.com/docs/en/changelog"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-openai-chatgpt-shopping-scan-20261001",
+      "eventKey": "openai-chatgpt-shopping-document-scan-2026-10-01",
+      "category": "AI",
+      "score": 63,
+      "title": "ChatGPT、衣類のバーチャル試着と複数ページ書類スキャンを追加",
+      "summary": "商品画像からの試着生成とお気に入り保存をWeb・モバイルへ追加。iOSでは複数ページを連続撮影し、1つのPDFとしてチャットへ取り込める",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    },
+    {
+      "id": "sdv-scsk-vector-edge-ecu-platform-20261001",
+      "eventKey": "scsk-vector-microsar-qines-rl78-edge-ecu-2026-10-01",
+      "category": "SDV",
+      "score": 64,
+      "title": "SCSKとVector、小型ECU向け共通ソフト基盤を共同開発",
+      "summary": "MICROSAR IOとQINeS-LiteをRenesas RL78/F2x向けに統合し、ドア・センサー・空調などのエッジECU開発工数を50〜80%削減する試作を10月から提供",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / SCSK",
+        "url": "https://sdvsector.com/news/2026-10-01-scsk-vector-microsar-io-qines-lite-rl78"
+      }
+    },
+    {
+      "id": "sdv-tieriv-arm-autoware-20261001",
+      "eventKey": "tieriv-arm-total-design-autoware-2026-10-01",
+      "category": "SDV",
+      "score": 61,
+      "title": "TIER IV、ArmのPhysical AI連携に参加しAutoware実装を加速",
+      "summary": "Arm SoCから車載コンピューターまでAutowareを即利用できる構成へパッケージ化し、半導体メーカーとOEMの自動運転システム開発を短縮する方針",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / TIER IV",
+        "url": "https://sdvsector.com/news/2026-10-01-tier-iv-arm-total-design-physical-ai-autoware"
+      }
+    },
+    {
+      "id": "sdv-gm-onstar-fleet-ai-20261001",
+      "eventKey": "gm-onstar-fleet-intelligence-ai-2026-10-01",
+      "category": "SDV",
+      "score": 58,
+      "title": "GM、車両データとAI分析を統合したOnStar Fleet Intelligenceを展開",
+      "summary": "診断、位置情報、契約更新、車両保護を単一アカウントへ統合し、自然言語で稼働率やアイドリング時間を照会可能。対象顧客へ段階展開",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / GM",
+        "url": "https://sdvsector.com/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant"
+      }
+    },
+    {
+      "id": "sdv-france-swin-32-regulations-20260929",
+      "eventKey": "france-swin-32-un-vehicle-regulations-2026-09-29",
+      "category": "SDV",
+      "score": 57,
+      "title": "フランス、32の国連車両規則へソフトウェア識別番号を追加提案",
+      "summary": "盗難防止、表示装置、バス、EDRなど32規則に更新識別番号を組み込み、型式認証でソフトウェア版を確認可能にする提案。現時点では審議段階",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "SDV Sector / UNECE",
+        "url": "https://sdvsector.com/news/2026-09-29-france-swin-32-un-regulations"
+      }
+    },
+    {
+      "id": "sdv-china-supply-chain-cyber-standard-20261001",
+      "eventKey": "china-miit-vehicle-supply-chain-cyber-standard-2026-10-01",
+      "category": "SDV",
+      "score": 55,
+      "title": "中国、コネクテッド車サプライチェーンのサイバー標準案を公募",
+      "summary": "MIITが技術要件と試験方法を定める推奨国家標準プロジェクトを公開。部品・ファームウェア供給網まで対象を広げ、10月29日まで意見募集",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / MIIT",
+        "url": "https://sdvsector.com/news/2026-10-01-miit-supply-chain-cybersecurity-standard-project"
+      }
+    },
+    {
+      "id": "ai-anthropic-barclays-claude-scale-20261001",
+      "eventKey": "anthropic-barclays-claude-rollout-2026-10-01",
+      "category": "AI",
+      "score": 54,
+      "title": "Barclays、Claude Codeを2026年末までに開発者の半数へ拡大",
+      "summary": "既存16,000人の知識支援と1日12万通のメール処理に加え、Claude Codeを2026年末に開発者の50%、2027年に過半数へ展開する計画",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/news/barclays-scales-claude"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要2件・参考2件。実利用影響を厳格評価し、9月29日のOpenAI機能群は同一発表として1件に統合、Claude Modsを重要採用",
+      "checkedAt": "2026-10-02T07:28:00+09:00",
+      "alertCount": 2,
+      "referenceCount": 2
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "update",
+      "summary": "6 funnelを完走しraw候補8件を監査。新規5件を参考採用、既出3件を重複として記録",
+      "checkedAt": "2026-10-02T07:28:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 5
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
+      "checkedAt": "2026-10-02T07:28:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "カナダ、英国、豪州、ニュージーランドの公式情報を確認。前回確認以降、通知対象となる実質的な永住条件変更なし",
+      "checkedAt": "2026-10-02T07:28:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
