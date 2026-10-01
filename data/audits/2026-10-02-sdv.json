@@ -199,8 +199,8 @@
           "retrievalStatus": "complete"
         }
       ],
-      "rawHitCount": 2,
-      "candidateCount": 2,
+      "rawHitCount": 1,
+      "candidateCount": 1,
       "adoptedCount": 1,
       "excludedCount": 0,
       "duplicateCount": 1,
