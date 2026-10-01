@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T07:45:00+09:00",
+  "updatedAt": "2026-10-02T07:06:00+09:00",
   "lastSuccessfulAt": "2026-10-01T07:14:00+09:00",
   "funnels": {
     "OEM": {
@@ -29,17 +29,7 @@
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": {
-    "date": "2026-10-01",
-    "startedAt": "2026-10-01T07:40:40+09:00",
-    "status": "awaiting-week-regeneration",
-    "phase": "weekly-integrity-repair",
-    "attempt": 1,
-    "reason": "Rebuilt weekly aggregate from seven daily files; corrected the Replit article URL to its distinct official article URL to prevent canonical URL collision.",
-    "paths": {
-      "week": "data/weeks/2026-10-01.json"
-    }
-  },
+  "pendingBatch": null,
   "lastVerifiedDailyCommit": "73ad3274a76b0dc3c8621e848e6e75efbc2537ff",
   "lastAudit": "data/audits/2026-10-01-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
