@@ -1,16 +1,16 @@
 {
   "start": "2026-09-26",
   "end": "2026-10-02",
-  "generatedAt": "2026-10-02T07:33:00+09:00",
+  "generatedAt": "2026-10-02T08:06:00+09:00",
   "headline": "直近7日Daily Check集計",
   "counts": {
-    "important": 14,
-    "reference": 29
+    "important": 13,
+    "reference": 28
   },
   "categories": [
     {
       "name": "AI",
-      "summary": "重要11件・参考12件"
+      "summary": "重要10件・参考12件"
     },
     {
       "name": "Codex",
@@ -18,7 +18,7 @@
     },
     {
       "name": "SDV",
-      "summary": "重要2件・参考17件"
+      "summary": "重要2件・参考16件"
     }
   ],
   "highlights": [
@@ -188,21 +188,6 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
-      }
-    },
-    {
-      "id": "ai-openai-chatgpt-work-codex-release-batch-20260929",
-      "eventKey": "openai-chatgpt-work-codex-feature-batch-2026-09-29",
-      "category": "AI",
-      "score": 94,
-      "title": "OpenAI、ChatGPT Work/Codexにクラウド実行・常駐エージェント・Sites自動更新を一括投入",
-      "summary": "Codex Cloud、GPT-6.1 Sol、常駐型dots、Pages、Sitesの定期更新、PRレビュー、Codex Security Cloud、接続アプリイベント起点のAutomationsなどを提供。単一の公式リリース群として統合",
-      "publishedAt": "2026/09/29",
-      "firstSeenAt": "2026-10-02T07:03:42+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "OpenAI",
-        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
       }
     },
     {
@@ -586,21 +571,6 @@
       "source": {
         "label": "SDV Sector / GM",
         "url": "https://sdvsector.com/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant"
-      }
-    },
-    {
-      "id": "sdv-france-swin-32-regulations-20260929",
-      "eventKey": "france-swin-32-un-vehicle-regulations-2026-09-29",
-      "category": "SDV",
-      "score": 57,
-      "title": "フランス、32の国連車両規則へソフトウェア識別番号を追加提案",
-      "summary": "盗難防止、表示装置、バス、EDRなど32規則に更新識別番号を組み込み、型式認証でソフトウェア版を確認可能にする提案。現時点では審議段階",
-      "publishedAt": "2026/09/29",
-      "firstSeenAt": "2026-10-02T07:03:42+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "SDV Sector / UNECE",
-        "url": "https://sdvsector.com/news/2026-09-29-france-swin-32-un-regulations"
       }
     },
     {
