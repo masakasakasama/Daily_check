@@ -33,20 +33,6 @@
   ],
   "references": [
     {
-      "id": "ai-openai-chatgpt-shopping-scan-20261001",
-      "eventKey": "openai-chatgpt-shopping-document-scan-2026-10-01",
-      "category": "AI",
-      "score": 63,
-      "title": "ChatGPT、衣類のバーチャル試着と複数ページ書類スキャンを追加",
-      "summary": "商品画像からの試着生成とお気に入り保存をWeb・モバイルへ追加。iOSでは複数ページを連続撮影し、1つのPDFとしてチャットへ取り込める",
-      "publishedAt": "2026/10/01",
-      "firstSeenAt": "2026-10-02T07:03:42+09:00",
-      "source": {
-        "label": "OpenAI",
-        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-      }
-    },
-    {
       "id": "sdv-scsk-vector-edge-ecu-platform-20261001",
       "eventKey": "scsk-vector-microsar-qines-rl78-edge-ecu-2026-10-01",
       "category": "SDV",
@@ -137,10 +123,10 @@
       "id": "ai",
       "name": "AIニュース",
       "status": "update",
-      "summary": "重要2件・参考2件。実利用影響を厳格評価し、9月29日のOpenAI機能群は同一発表として1件に統合、Claude Modsを重要採用",
+      "summary": "重要2件・参考1件。実利用影響を厳格評価し、9月29日のOpenAI機能群は同一発表として1件に統合、Claude Modsを重要採用",
       "checkedAt": "2026-10-02T07:28:00+09:00",
       "alertCount": 2,
-      "referenceCount": 2
+      "referenceCount": 1
     },
     {
       "id": "sdv-nissan",
