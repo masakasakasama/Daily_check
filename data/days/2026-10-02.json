@@ -2,21 +2,6 @@
   "date": "2026-10-02",
   "alerts": [
     {
-      "id": "ai-openai-chatgpt-work-codex-release-batch-20260929",
-      "eventKey": "openai-chatgpt-work-codex-feature-batch-2026-09-29",
-      "category": "AI",
-      "score": 94,
-      "title": "OpenAI、ChatGPT Work/Codexにクラウド実行・常駐エージェント・Sites自動更新を一括投入",
-      "summary": "Codex Cloud、GPT-6.1 Sol、常駐型dots、Pages、Sitesの定期更新、PRレビュー、Codex Security Cloud、接続アプリイベント起点のAutomationsなどを提供。単一の公式リリース群として統合",
-      "publishedAt": "2026/09/29",
-      "firstSeenAt": "2026-10-02T07:03:42+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "OpenAI",
-        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-      }
-    },
-    {
       "id": "ai-anthropic-claude-code-mods-20261001",
       "eventKey": "anthropic-claude-code-2-1-287-mods-2026-10-01",
       "category": "AI",
@@ -75,21 +60,6 @@
       }
     },
     {
-      "id": "sdv-france-swin-32-regulations-20260929",
-      "eventKey": "france-swin-32-un-vehicle-regulations-2026-09-29",
-      "category": "SDV",
-      "score": 57,
-      "title": "フランス、32の国連車両規則へソフトウェア識別番号を追加提案",
-      "summary": "盗難防止、表示装置、バス、EDRなど32規則に更新識別番号を組み込み、型式認証でソフトウェア版を確認可能にする提案。現時点では審議段階",
-      "publishedAt": "2026/09/29",
-      "firstSeenAt": "2026-10-02T07:03:42+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "SDV Sector / UNECE",
-        "url": "https://sdvsector.com/news/2026-09-29-france-swin-32-un-regulations"
-      }
-    },
-    {
       "id": "sdv-china-supply-chain-cyber-standard-20261001",
       "eventKey": "china-miit-vehicle-supply-chain-cyber-standard-2026-10-01",
       "category": "SDV",
@@ -123,19 +93,19 @@
       "id": "ai",
       "name": "AIニュース",
       "status": "update",
-      "summary": "重要2件・参考1件。実利用影響を厳格評価し、9月29日のOpenAI機能群は同一発表として1件に統合、Claude Modsを重要採用",
+      "summary": "重要1件・参考1件。過去日のdiscoveredLate候補は監査のみ保持し、今日フィードから除外",
       "checkedAt": "2026-10-02T07:28:00+09:00",
-      "alertCount": 2,
+      "alertCount": 1,
       "referenceCount": 1
     },
     {
       "id": "sdv-nissan",
       "name": "SDV / Nissanニュース",
       "status": "update",
-      "summary": "6 funnelを完走しraw候補8件を監査。新規5件を参考採用、既出3件を重複として記録",
+      "summary": "6 funnelを完走しraw候補8件を監査。対象期間の新規4件を参考採用。過去日のdiscoveredLate候補は監査のみ保持",
       "checkedAt": "2026-10-02T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 5
+      "referenceCount": 4
     },
     {
       "id": "codex-reset",
