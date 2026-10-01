@@ -1,16 +1,16 @@
 {
   "start": "2026-09-26",
   "end": "2026-10-02",
-  "generatedAt": "2026-10-02T07:31:00+09:00",
+  "generatedAt": "2026-10-02T07:33:00+09:00",
   "headline": "直近7日Daily Check集計",
   "counts": {
     "important": 14,
-    "reference": 30
+    "reference": 29
   },
   "categories": [
     {
       "name": "AI",
-      "summary": "重要11件・参考13件"
+      "summary": "重要11件・参考12件"
     },
     {
       "name": "Codex",
@@ -544,20 +544,6 @@
       "source": {
         "label": "Reuters",
         "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45M1CM:0-anthropic-says-claude-for-government-is-now-generally-available/"
-      }
-    },
-    {
-      "id": "ai-openai-chatgpt-shopping-scan-20261001",
-      "eventKey": "openai-chatgpt-shopping-document-scan-2026-10-01",
-      "category": "AI",
-      "score": 63,
-      "title": "ChatGPT、衣類のバーチャル試着と複数ページ書類スキャンを追加",
-      "summary": "商品画像からの試着生成とお気に入り保存をWeb・モバイルへ追加。iOSでは複数ページを連続撮影し、1つのPDFとしてチャットへ取り込める",
-      "publishedAt": "2026/10/01",
-      "firstSeenAt": "2026-10-02T07:03:42+09:00",
-      "source": {
-        "label": "OpenAI",
-        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
       }
     },
     {
