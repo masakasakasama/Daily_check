@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-03",
+  "alerts": [],
+  "references": [
+    {
+      "id": "ai-anthropic-claude-code-2-1-288-20261002",
+      "eventKey": "anthropic-claude-code-2-1-288-2026-10-02",
+      "category": "AI",
+      "score": 70,
+      "title": "Claude Code 2.1.288、コードレビュー件数制御とセッション復旧を強化",
+      "summary": "/code-reviewの検出件数指定、agents画面の検索、MCP OAuth再認証、Ctrl+Cで消した下書き復元を追加。途中タイムアウトやresume時の文脈欠落も修正",
+      "publishedAt": "2026/10/02",
+      "firstSeenAt": "2026-10-03T06:56:41+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://code.claude.com/docs/en/changelog"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要0件・参考1件。Claude Code 2.1.288は実務改善だが、利用判断を大きく変える75点には届かず参考採用",
+      "checkedAt": "2026-10-03T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "clear",
+      "summary": "6 funnelを完走しraw候補8件を監査。前回成功以前の見落とし4件と既出重複4件のみで、10月3日フィードへの新規掲載なし",
+      "checkedAt": "2026-10-03T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
+      "checkedAt": "2026-10-03T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "カナダ、英国、豪州、ニュージーランドの公式情報を確認。前回確認以降、通知対象となる実質的な永住条件変更なし",
+      "checkedAt": "2026-10-03T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
