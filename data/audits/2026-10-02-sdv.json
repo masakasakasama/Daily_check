@@ -203,7 +203,7 @@
       "candidateCount": 1,
       "adoptedCount": 1,
       "excludedCount": 0,
-      "duplicateCount": 1,
+      "duplicateCount": 0,
       "windowStart": "2026-09-29T07:14:00+09:00",
       "windowEnd": "2026-10-02T07:03:42+09:00",
       "fixedOfficialScan": true,
