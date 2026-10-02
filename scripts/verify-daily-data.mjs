@@ -1,5 +1,6 @@
 import { validateFunnel } from "./audit-validation.mjs";
-import { readFile } from "node:fs/promises";
+import { validateDailyPublication, validateWeeklyUnion } from "./publication-validation.mjs";
+import { readFile, readdir } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const expectedDate = process.env.DAILY_CHECK_DATE || new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
@@ -17,6 +18,9 @@ const day = await readJson(`data/days/${expectedDate}.json`);
 const audit = await readJson(`data/audits/${expectedDate}-sdv.json`);
 const week = await readJson(`data/weeks/${expectedDate}.json`);
 const state = await readJson("data/sdv-collection-state.json");
+const persistedDays = await Promise.all((await readdir(new URL("data/days/", root))).filter(name => /^\d{4}-\d{2}-\d{2}\.json$/.test(name)).map(name => readJson(`data/days/${name}`)));
+validateDailyPublication(day, persistedDays);
+validateWeeklyUnion(week, persistedDays);
 
 assert(manifest.currentDate === expectedDate, `manifest currentDate is ${manifest.currentDate}; expected ${expectedDate}`);
 assert(manifest.days?.[0] === expectedDate, `manifest does not list ${expectedDate} first`);

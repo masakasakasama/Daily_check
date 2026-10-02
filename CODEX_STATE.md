@@ -10,22 +10,25 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - 6 funnelの名前重複を拒否。回帰2テストを作成し定期検証workflowへ追加。
 - 2026-10-02 Tier1Semi duplicateCountをrawCandidatesの実際の0件へ整合 (他funnelの重複は変更なし)。
 
+- 日別discoveredLate混入・過去eventKey再掲載・同日重複、週次D-6〜Dの完全和集合と件数を検証する回帰を追加。CIへ接続。
+- Automation読取で07:00 Daily Checkを確認、07:30 recoveryは確認できずREADMEとworkflow注釈を修正。既存taskは変更していない。
+- 読み取り専用履歴validatorで19日中4日にlate混入を検出。ニュースデータや収集証跡を推測で書き換えていない。
+
 ## Current
-- 当日データ検証は重要1件/参考5件/6 funnelで成功。
-- 日次収集は既存Daily Checkタスクの担当。司令塔用Automation以外のtaskは作成・変更していない。
+- 当日2026-10-02と週次の和集合検証は成功。履歴9/25・9/26・9/27・10/01はlate混入で不合格。
 
 ## Next
-- 日別へのdiscoveredLate混入、過去掲載eventKeyの再掲載、週次とD-6〜Dの日別和集合の不一致を検出する回帰検証を追加する。
-- READMEの07:30 recovery taskが実際に存在するか、読取で確認して記述を整える。既存タスクは許可なく変更しない。
-- collectionComplete/anomalyの条件を生候補・deep scan証跡と照合する。ニュース本文確認は既存収集タスクの証跡を使い捏造しない。
+- 過去4日の日別discoveredLate混入を監査証跡と照合し、収集担当と競合しない状態で日別・関連週次を修復する。
+- collectionComplete/anomalyとDeep Scanの必須条件・追加12検索の実証跡を照合するvalidatorを追加する。
 
 ## Blockers
-- 過去記事の本文・検索証跡は今回再収集していない。検証結果は保存データの構造と整合性の範囲。
-- Git transport pushは401。GitHub REST非強制commit/ref更新でcheckpointを保存。
+- 履歴4日のlate混入が未修復。元の本文や収集証跡を今回再取得していないため、削除や記事内容の変更を推測で行わない。
+- 07:30 recovery taskは現在のAutomation読取では存在を確認できない。自動復旧済みと扱わない。
 
 ## Verification
-- node --test scripts/audit-validation.test.mjs: 2/2 passed
-- node scripts/verify-daily-data.mjs: Daily Check 2026-10-02 OK
-- git diff --check: passed
+- node --test scripts/*.test.mjs: 4/4 passed
+- DAILY_CHECK_DATE=2026-10-02 node scripts/verify-daily-data.mjs: passed, 6/6 funnels and exact weekly union
+- node scripts/verify-publication-history.mjs: expected failure; 4/19 days require evidence review
+- Automation read-only: confirmed 07:00 primary, no confirmed recovery; git diff --check passed
 
-Updated at: 2026-10-02T10:36:30.316500+00:00
+Updated at: 2026-10-02T18:05:03.732596+00:00
