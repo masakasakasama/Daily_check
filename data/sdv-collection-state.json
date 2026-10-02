@@ -1,45 +1,37 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T06:58:00+09:00",
-  "lastSuccessfulAt": "2026-10-02T07:33:00+09:00",
+  "updatedAt": "2026-10-03T07:22:00+09:00",
+  "lastSuccessfulAt": "2026-10-03T07:22:00+09:00",
   "funnels": {
     "OEM": {
-      "lastSuccessfulAt": "2026-10-02T07:33:00+09:00",
+      "lastSuccessfulAt": "2026-10-03T07:22:00+09:00",
       "lastCount": 1
     },
     "Platform": {
-      "lastSuccessfulAt": "2026-10-02T07:33:00+09:00",
+      "lastSuccessfulAt": "2026-10-03T07:22:00+09:00",
       "lastCount": 1
     },
     "Tier1Semi": {
-      "lastSuccessfulAt": "2026-10-02T07:33:00+09:00",
+      "lastSuccessfulAt": "2026-10-03T07:22:00+09:00",
       "lastCount": 1
     },
     "CloudOS": {
-      "lastSuccessfulAt": "2026-10-02T07:33:00+09:00",
+      "lastSuccessfulAt": "2026-10-03T07:22:00+09:00",
       "lastCount": 1
     },
     "RegSecurity": {
-      "lastSuccessfulAt": "2026-10-02T07:33:00+09:00",
+      "lastSuccessfulAt": "2026-10-03T07:22:00+09:00",
       "lastCount": 3
     },
     "Cross": {
-      "lastSuccessfulAt": "2026-10-02T07:33:00+09:00",
+      "lastSuccessfulAt": "2026-10-03T07:22:00+09:00",
       "lastCount": 1
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": {
-    "date": "2026-10-03",
-    "startedAt": "2026-10-03T06:56:41+09:00",
-    "windowStart": "2026-09-30T07:33:00+09:00",
-    "windowEnd": "2026-10-03T06:56:41+09:00",
-    "status": "collecting",
-    "phase": "pending-staged",
-    "attempt": 1
-  },
-  "lastVerifiedDailyCommit": "368f6ebba657021c860bd17e7a3c5f5c77ad7068",
-  "lastAudit": "data/audits/2026-10-02-sdv.json",
+  "pendingBatch": null,
+  "lastVerifiedDailyCommit": "1e7181ed28e21cdb8b3eeecfc8bfb839e952cb4d",
+  "lastAudit": "data/audits/2026-10-03-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days",
   "collectionPolicy": {
