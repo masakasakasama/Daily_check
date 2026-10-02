@@ -193,5 +193,66 @@
       "decision": "adopted-reference",
       "reason": "SIL/HIL connected vehicle validation"
     }
+  ],
+  "publicationCorrections": [
+    {
+      "correctedAt": "2026-10-02T18:41:09.386Z",
+      "reason": "discoveredLate is audit-only under the saved publication policy",
+      "removedArticles": [
+        {
+          "id": "sdv-dspace-20260926",
+          "eventKey": "dspace-v2x-sil-hil-20260926",
+          "category": "SDV",
+          "score": 58,
+          "title": "dSPACE V2X SIL/HIL検証",
+          "summary": "接続車両向けSIL/HIL検証の新規事例",
+          "publishedAt": "2026/09/26",
+          "firstSeenAt": "2026-09-28T06:10:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "YourStory",
+            "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
+          }
+        }
+      ],
+      "originalChecks": [
+        {
+          "id": "ai",
+          "name": "AIニュース",
+          "status": "update",
+          "summary": "参考2件。Compass CloudとReplitのBI機能拡張を採用",
+          "checkedAt": "2026-09-28T04:58:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 2
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV / Nissanニュース",
+          "status": "update",
+          "summary": "重要0件・参考1件。Deep Scanで見落とし回収",
+          "checkedAt": "2026-09-28T06:10:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex-reset",
+          "name": "Codexリセット時刻監視",
+          "status": "clear",
+          "summary": "OpenAI公式情報を確認。前回確認以降、5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
+          "checkedAt": "2026-09-28T04:58:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "permanent-residency",
+          "name": "主要国の永住条件",
+          "status": "clear",
+          "summary": "主要国の制度変更を確認。通知対象となる実質的な永住条件変更なし",
+          "checkedAt": "2026-09-28T04:58:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    }
   ]
 }

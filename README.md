@@ -22,5 +22,6 @@ https://raw.githack.com/masakasakasama/Daily_check/main/index.html
 - validatorは当日掲載と週次整合を確認する。過去日の修復は収集証跡を確認してから行い、本文・完了証跡を推測で補わない
 
 `node scripts/verify-publication-history.mjs` は保存済み全19日を読み取り専用で照合する。
-2026-10-02時点では9/25・9/26・9/27・10/01にdiscoveredLate混入があり失敗する。
-履歴の削除や週次修復は、既存収集タスクの監査証跡を照合するまで保留する。
+2026-10-02に9/25・9/26・9/27・10/01の9件を監査候補と照合して掲載修復した。
+元記事・元check・元採用判断をauditのpublicationCorrectionsとrawCandidatesに保持し、関連8週を再生成した。
+`node scripts/repair-late-publication.mjs` は検証のみ、`--write` は全候補証跡と和集合を確認してから保存する。

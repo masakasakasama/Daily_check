@@ -60,21 +60,6 @@
       }
     },
     {
-      "id": "sdv-eclipse-score-japan-20260928",
-      "eventKey": "eclipse-sdv-s-core-japan-commitment-2026-09-28",
-      "category": "SDV",
-      "score": 57,
-      "title": "Eclipse SDV、S-CORE 1.0を12月公開へ、日本勢の参加を要請",
-      "summary": "車載ミドルウェア基盤S-CORE、openSOVD、COVESA VSS準拠KUKSAなど25超のプロジェクトを展開。50超の企業・団体が参加し、日本の自動車産業との連携強化を表明",
-      "publishedAt": "2026/09/28",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "MONOist",
-        "url": "https://monoist.itmedia.co.jp/mn/articles/2609/28/news059.html"
-      }
-    },
-    {
       "id": "sdv-nhtsa-recall-ota-docket-20260929",
       "eventKey": "nhtsa-recall-completion-ota-connected-vehicle-docket-2026-09-29",
       "category": "SDV",
@@ -215,10 +200,10 @@
       "id": "sdv-nissan",
       "name": "SDV / Nissanニュース",
       "status": "update",
-      "summary": "6系統を完走しraw候補12件を監査。Eclipse S-CORE、NHTSA OTA審議、NXP×Vector、TechInsights、Momenta、EMQを参考として採用",
+      "summary": "遅延発見1件を掲載対象から除外。元の収集・採用証跡は当日auditのpublicationCorrectionsに保持。",
       "checkedAt": "2026-10-01T07:14:00+09:00",
       "alertCount": 0,
-      "referenceCount": 6
+      "referenceCount": 5
     },
     {
       "id": "codex-reset",

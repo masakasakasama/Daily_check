@@ -1,16 +1,16 @@
 {
   "start": "2026-09-21",
   "end": "2026-09-27",
-  "generatedAt": "2026-09-28T06:13:00+09:00",
+  "generatedAt": "2026-10-02T18:41:09.386Z",
   "headline": "直近7日Daily Check集計",
   "counts": {
-    "important": 16,
-    "reference": 16
+    "important": 10,
+    "reference": 12
   },
   "categories": [
     {
       "name": "AI",
-      "summary": "重要10件・参考5件"
+      "summary": "重要8件・参考5件"
     },
     {
       "name": "Codex",
@@ -18,7 +18,7 @@
     },
     {
       "name": "SDV",
-      "summary": "重要5件・参考11件"
+      "summary": "重要1件・参考7件"
     }
   ],
   "highlights": [
@@ -27,6 +27,8 @@
       "category": "AI",
       "score": 80,
       "title": "米中、首脳会談前協議でAI安全のガードレールを正式議題化",
+      "summary": "米財務長官ベッセントと中国副首相何立峰の協議で、AIの悪用防止や安全プロトコルが通商・重要鉱物と並ぶ正式議題となった。主要AI大国間の政府レベル安全枠組みに直結し得る動き",
+      "publishedAt": "2026/09/20",
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"
@@ -38,6 +40,9 @@
       "category": "AI",
       "score": 82,
       "title": "OpenAI、フロンティアAIの国際技術標準づくりで米国主導を提唱",
+      "summary": "OpenAIが高度AI向けに国際・国内の共通技術標準、測定、インシデント報告の整備を提唱。再帰的自己改善を見据え、安全性と能力進展を同期させるpacingを政策方針として明示した",
+      "publishedAt": "2026/09/21",
+      "firstSeenAt": "2026-09-22T07:04:00+09:00",
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/building-standards-next-phase-ai/"
@@ -49,6 +54,9 @@
       "category": "AI",
       "score": 80,
       "title": "米中、AI安全の正式対話とインシデント連絡線で合意",
+      "summary": "米中高官がAI安全の正式対話を設け、AI事故時のincident lineを含む共通プロトコルを協議。約2か月後に深圳で次回会合を予定しており、主要AI大国間の安全枠組みが具体化した",
+      "publishedAt": "2026/09/21",
+      "firstSeenAt": "2026-09-22T07:04:00+09:00",
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/world/asia-pacific/us-china-meet-again-ai-safety-two-months-shenzhen-bessent-says-2026-09-21/"
@@ -60,6 +68,9 @@
       "category": "AI",
       "score": 96,
       "title": "OpenAI、GPT-6 SolとLunaを発表",
+      "summary": "OpenAIがGPT-6 SolとLunaを発表。複雑な知識作業向けの能力向上とコスト効率を両立し、WorkとCodexにも展開。Daily Check実行後に公開されたため9/23にfirstSeenとして採用",
+      "publishedAt": "2026/09/22",
+      "firstSeenAt": "2026-09-23T22:20:00+09:00",
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
@@ -71,6 +82,9 @@
       "category": "AI",
       "score": 92,
       "title": "Anthropic、Claude Opus 5.5を公開",
+      "summary": "AnthropicがClaude Opus 5.5を公開。高性能モデル相当の能力を低コスト化し、サイバーセキュリティを含む安全策も強化。9/22の前回実行後に確認可能となったため9/23に採用",
+      "publishedAt": "2026/09/22",
+      "firstSeenAt": "2026-09-23T22:20:00+09:00",
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/"
@@ -82,6 +96,9 @@
       "category": "Codex",
       "score": 82,
       "title": "Codex CLI 0.156.1、GPT-6 Sol/Lunaをモデル選択に追加",
+      "summary": "Codex CLI 0.156.1でGPT-6 Sol/Lunaがモデルカタログに追加され、rate-limit切替時はLunaを推奨するよう変更。Codex利用環境へ直接影響する更新",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-23T22:20:00+09:00",
       "source": {
         "label": "OpenAI ChatGPT Learn",
         "url": "https://learn.chatgpt.com/docs/changelog"
@@ -93,6 +110,9 @@
       "category": "SDV",
       "score": 82,
       "title": "Daimler Truck・Volvo系Coretura、Alloy Koreを次世代SDV基盤に採用",
+      "summary": "CoreturaがQNXとVector共同開発のAlloy Koreを次世代商用車向けVehicle OSの基盤ソフト層に選定。Alloy Kore初のdesign winで、HPC向け安全認証済み基盤の量産採用につながる",
+      "publishedAt": "2026/09/22",
+      "firstSeenAt": "2026-09-23T22:20:00+09:00",
       "source": {
         "label": "Vector / QNX",
         "url": "https://www.globenewswire.com/news-release/2026/09/22/3365960/0/en/coretura-selects-alloy-kore-to-advance-a-unique-software-defined-vehicle-platform-for-its-commercial-vehicle-customers.html"
@@ -104,6 +124,9 @@
       "category": "AI",
       "score": 84,
       "title": "Anthropic、ClaudeがCRISPR様反復配列を持つ新規酵素系を発見",
+      "summary": "Anthropicが生命科学研究グループと自社ラボを新設し、Claudeが科学者の高レベル指示のみでDNAデータから未解明のCRISPR様酵素系を発見した初期成果を公開。AIが仮説生成から実験検証につながる科学研究を主導した具体例として重要",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:02:44+09:00",
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
@@ -115,6 +138,9 @@
       "category": "AI",
       "score": 80,
       "title": "Google DeepMind、Private AI Computeに安全なサーバー側メモリを導入",
+      "summary": "Google DeepMindがPrivate AI Compute向けに、端末をまたいだ持続的AIメモリをプライバシー保護付きで実現するサーバー側メモリアーキテクチャを公開。パーソナルAIの長期記憶と機密性を両立する基盤更新",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:02:44+09:00",
       "source": {
         "label": "Google DeepMind",
         "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
@@ -126,75 +152,12 @@
       "category": "AI",
       "score": 82,
       "title": "Google、Gemini 3.8 Live with Live AvatarをGemini Enterpriseで提供開始",
+      "summary": "GoogleがGemini 3.8 Liveに低遅延ストリーミング映像を統合したLive Avatarを発表。音声と映像を同期し、非同期ツール実行中も対話を継続でき、97言語に対応する企業向けリアルタイム対話基盤",
+      "publishedAt": "2026/09/24",
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
-      }
-    },
-    {
-      "id": "sdv-china-software-update-engineering-20260924",
-      "eventKey": "china-road-vehicles-software-update-engineering-approval-draft-2026-09-24",
-      "category": "SDV",
-      "score": 92,
-      "title": "中国、車両ソフトウェア更新工程の国家標準案を承認前ドラフト段階へ",
-      "source": {
-        "label": "SDV Sector / MIIT",
-        "url": "https://sdvsector.com/news/2026-09-24-miit-software-update-engineering-approval-draft"
-      }
-    },
-    {
-      "id": "sdv-china-vehicle-ids-standard-20260924",
-      "eventKey": "china-vehicle-intrusion-detection-draft-standard-2026-09-24",
-      "category": "SDV",
-      "score": 90,
-      "title": "中国、車載侵入検知システムの国家標準案を公開",
-      "source": {
-        "label": "SDV Sector / SAC TC114",
-        "url": "https://sdvsector.com/news/2026-09-24-china-gbt-intrusion-detection-draft"
-      }
-    },
-    {
-      "id": "sdv-eu-euro7-software-type-approval-20260924",
-      "eventKey": "eu-euro7-software-cybersecurity-type-approval-2026-09-24",
-      "category": "SDV",
-      "score": 86,
-      "title": "EU、Euro 7の診断・サイバーセキュリティ等を型式認証項目へ反映",
-      "source": {
-        "label": "SDV Sector / EUR-Lex",
-        "url": "https://sdvsector.com/news/2026-09-24-eu-euro-7-type-approval-obd-cybersecurity"
-      }
-    },
-    {
-      "id": "sdv-nhtsa-openpilot-investigation-20260924",
-      "eventKey": "nhtsa-openpilot-forks-investigation-pe26007-2026-09-24",
-      "category": "SDV",
-      "score": 78,
-      "title": "NHTSA、openpilotと派生forkを含む不具合調査を開始",
-      "source": {
-        "label": "SDV Sector / NHTSA PE26007",
-        "url": "https://sdvsector.com/news/2026-09-24-nhtsa-comma-ai-openpilot-investigation"
-      }
-    },
-    {
-      "id": "ai-openai-gpt6-sol-luna-20260927",
-      "eventKey": "openai-gpt6-sol-luna-2026-09-27",
-      "category": "AI",
-      "score": 96,
-      "title": "OpenAI、GPT-6 Sol / Lunaを公開",
-      "source": {
-        "label": "AI Briefs",
-        "url": "https://aibriefs.news/ai-news-today"
-      }
-    },
-    {
-      "id": "ai-anthropic-opus55-20260927",
-      "eventKey": "anthropic-claude-opus-5-5-2026-09-27",
-      "category": "AI",
-      "score": 86,
-      "title": "Anthropic、Claude Opus 5.5を公開",
-      "source": {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
       }
     }
   ],
@@ -204,6 +167,8 @@
       "category": "AI",
       "score": 72,
       "title": "Anthropic、IPOを前に新AIモデル投入を検討",
+      "summary": "AnthropicがOpenAIの新モデルへの対抗を意識し、新モデル投入を検討しているとReutersが報道。安全性を巡る減速論と競争圧力の両立が焦点",
+      "publishedAt": "2026/09/19",
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/"
@@ -215,6 +180,9 @@
       "category": "SDV",
       "score": 72,
       "title": "Mercedes-Benz、WayveのAI Driverを量産車へ採用へ",
+      "summary": "Mercedes-BenzがWayveのカメラ中心のAI Driverを少なくとも1車種へ2年以内に統合する計画。NVIDIA系の自社MB.DRIVEと並行するマルチパートナー戦略で、車両ソフトウェア層の外部AI採用として実務上参考になる",
+      "publishedAt": "2026/09/22",
+      "firstSeenAt": "2026-09-22T09:32:00+09:00",
       "source": {
         "label": "Financial Times",
         "url": "https://www.ft.com/content/4ed7bccb-7d02-485f-aed6-9e7b0244ac78"
@@ -226,6 +194,9 @@
       "category": "SDV",
       "score": 74,
       "title": "Volvo Cars、グローバルAAOS開発環境をHorizonへ移行",
+      "summary": "Volvo CarsがAccenture・Google Cloudのオープンソース開発基盤Horizonのリード業界パートナーとなり、グローバルAAOS開発環境を移行。Cuttlefish仮想環境、AI支援、遠隔デバイスファームを統合し、テスト最大9倍高速化を掲げる",
+      "publishedAt": "2026/09/22",
+      "firstSeenAt": "2026-09-23T22:20:00+09:00",
       "source": {
         "label": "Google Cloud",
         "url": "https://www.googlecloudpresscorner.com/2026-09-22-Accenture-and-Google-Cloud-Transform-Software-Development-with-Volvo-Cars"
@@ -237,6 +208,9 @@
       "category": "SDV",
       "score": 68,
       "title": "Dongfeng Voyah Dream 9、Huawei ADS 5とHarmonySpace 6を全車標準化",
+      "summary": "Voyah Dream 9が全グレードでHuawei Qiankun ADS 5とHarmonySpace 6を組み込むL3-grade全領域アーキテクチャを採用。中国OEMの車載OS・ADAS統合の量産事例として参考",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-23T22:20:00+09:00",
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture"
@@ -248,6 +222,9 @@
       "category": "SDV",
       "score": 58,
       "title": "Leapmotor、車両開発・智能運転チームへTencent WorkBuddyを展開",
+      "summary": "Tencentのエージェント型開発ワークベンチWorkBuddyがLeapmotorの車両開発、智能運転、コネクテッドカー等へ展開されたと報道。約40システムで開発工数短縮の数値が示されたが、一次発表を確認できないため参考扱い",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-23T22:20:00+09:00",
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/news/2026-09-23-tencent-workbuddy-leapmotor"
@@ -259,6 +236,9 @@
       "category": "AI",
       "score": 70,
       "title": "Google、Gemini 3.8 Flash / Flash-Lite TTSを公開",
+      "summary": "GoogleがGemini 3.8 Flash TTSとFlash-Lite TTSを発表。音声表現力を強化した新世代TTSモデルとして参考",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:02:44+09:00",
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
@@ -270,6 +250,9 @@
       "category": "SDV",
       "score": 60,
       "title": "VicOne×CYMETRIS、新規CVEを車両別リスク判断へ連携するLive TARAを発表",
+      "summary": "VicOne xZETAの車載脆弱性インテリジェンスとCYMETRISのシステムレベルリスクモデルを双方向統合。新規CVEが特定車両プログラムへ与える影響を継続評価し、TARAのリスク判断を更新する運用基盤",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:42:00+09:00",
       "source": {
         "label": "VicOne",
         "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/"
@@ -281,6 +264,9 @@
       "category": "SDV",
       "score": 56,
       "title": "Valens、A-PHY車載センサー接続技術をonsemiへライセンス",
+      "summary": "ValensがMIPI A-PHYベースの車載高速接続技術をonsemiへロイヤルティ付きでライセンス。次世代イメージセンサーへの直接統合を可能にし、集中型E/Eアーキテクチャのセンサー接続基盤として参考",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:42:00+09:00",
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/region/global"
@@ -292,6 +278,9 @@
       "category": "SDV",
       "score": 48,
       "title": "Can-Am、14,014台のメーターソフト不具合をOTAまたは販売店で修正",
+      "summary": "BRPのCan-Am二輪車14,014台を対象に、メータークラスターのソフトウェア不具合による安全基準不適合が米国公開記録に反映。修正はOTAまたは販売店で提供され、SDVのソフトウェアライフサイクル事例として参考",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:42:00+09:00",
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/topic/diagnostics-and-service"
@@ -303,31 +292,12 @@
       "category": "AI",
       "score": 64,
       "title": "OpenAI、ChatGPT Adsを東南アジアと台湾へ拡大",
+      "summary": "OpenAIがChatGPT Adsの対象市場を東南アジアと台湾へ拡大し、広告主が60超の国・地域へ展開できるようにした。モデル能力そのものではないがChatGPT事業展開の新規更新として参考",
+      "publishedAt": "2026/09/24",
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
-      }
-    },
-    {
-      "id": "sdv-aumovio-vdo-link-eets-20260924",
-      "eventKey": "aumovio-vdo-link-distributed-eets-certification-2026-09-24",
-      "category": "SDV",
-      "score": 64,
-      "title": "AUMOVIO、ECU・接続・クラウド分散構成のVDO LinkでEETS認証",
-      "source": {
-        "label": "SDV Sector / AUMOVIO",
-        "url": "https://sdvsector.com/news/2026-09-24-aumovio-eets-distributed-onboard-unit"
-      }
-    },
-    {
-      "id": "sdv-fibocom-hangsheng-acquisition-20260924",
-      "eventKey": "fibocom-hangsheng-cockpit-domain-controller-acquisition-2026-09-24",
-      "category": "SDV",
-      "score": 62,
-      "title": "Fibocom、コックピット/ドメインコントローラ企業Hangshengの支配取得を具体化",
-      "source": {
-        "label": "SDV Sector / Shenzhen filing",
-        "url": "https://sdvsector.com/news/2026-09-24-fibocom-hangsheng-control-acquisition"
       }
     },
     {
@@ -336,6 +306,9 @@
       "category": "AI",
       "score": 68,
       "title": "Cohere、企業向け検索・RAG基盤Compass Cloudを限定ベータ",
+      "summary": "企業向け検索・RAG基盤Compassのマネージドクラウド版。MCP対応など実務上有用だがAI史上の絶対尺度では75未満",
+      "publishedAt": "2026/09/26",
+      "firstSeenAt": "2026-09-28T04:58:00+09:00",
       "source": {
         "label": "Daily AI Newsbites",
         "url": "https://ai.newsbites.today/date/2026/09"
@@ -347,31 +320,12 @@
       "category": "AI",
       "score": 61,
       "title": "Replit、BI開発のAtta買収",
+      "summary": "Replit chat内のインタラクティブなチャート生成などデータ分析機能を拡張。実務参考として採用",
+      "publishedAt": "2026/09/26",
+      "firstSeenAt": "2026-09-28T04:58:00+09:00",
       "source": {
         "label": "Daily AI Newsbites",
-        "url": "https://ai.newsbites.today/date/2026/09"
-      }
-    },
-    {
-      "id": "sdv-dspace-20260926",
-      "eventKey": "dspace-v2x-sil-hil-20260926",
-      "category": "SDV",
-      "score": 58,
-      "title": "dSPACE V2X SIL/HIL検証",
-      "source": {
-        "label": "YourStory",
-        "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
-      }
-    },
-    {
-      "id": "sdv-bosch-rexroth-20260927",
-      "eventKey": "bosch-rexroth-bodas-ota-20260927",
-      "category": "SDV",
-      "score": 55,
-      "title": "Bosch Rexroth、OTA対応テレマティクス基盤を拡張",
-      "source": {
-        "label": "HeavyQuip",
-        "url": "https://www.heavyquipmag.com/2026/09/27/bosch-rexroth-owasys-telematics-iot-off-highway/"
+        "url": "https://replit.com/blog/replit-acquires-atta"
       }
     }
   ]

@@ -193,5 +193,66 @@
       "decision": "adopted-reference",
       "reason": "Linux gateway/device management/OTA ecosystem"
     }
+  ],
+  "publicationCorrections": [
+    {
+      "correctedAt": "2026-10-02T18:41:09.386Z",
+      "reason": "discoveredLate is audit-only under the saved publication policy",
+      "removedArticles": [
+        {
+          "id": "sdv-bosch-rexroth-20260927",
+          "eventKey": "bosch-rexroth-bodas-ota-20260927",
+          "category": "SDV",
+          "score": 55,
+          "title": "Bosch Rexroth、OTA対応テレマティクス基盤を拡張",
+          "summary": "Linuxゲートウェイ、デバイス管理、遠隔アクセス、OTA更新を含むBODAS Connectの拡張",
+          "publishedAt": "2026/09/27",
+          "firstSeenAt": "2026-09-28T06:11:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "HeavyQuip",
+            "url": "https://www.heavyquipmag.com/2026/09/27/bosch-rexroth-owasys-telematics-iot-off-highway/"
+          }
+        }
+      ],
+      "originalChecks": [
+        {
+          "id": "ai",
+          "name": "AIニュース",
+          "status": "clear",
+          "summary": "新規重要・参考ニュースなし。GPT-6 Sol/LunaとClaude Opus 5.5は9/22採用済みの重複として除外",
+          "checkedAt": "2026-09-28T07:05:51+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV / Nissanニュース",
+          "status": "update",
+          "summary": "重要0件・参考1件。Deep Scanで見落とし回収",
+          "checkedAt": "2026-09-28T06:11:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex-reset",
+          "name": "Codexリセット時刻監視",
+          "status": "clear",
+          "summary": "OpenAI公式情報を確認。前回確認以降、5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
+          "checkedAt": "2026-09-28T04:58:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "permanent-residency",
+          "name": "主要国の永住条件",
+          "status": "clear",
+          "summary": "主要国の制度変更を確認。通知対象となる実質的な永住条件変更なし",
+          "checkedAt": "2026-09-28T04:58:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    }
   ]
 }

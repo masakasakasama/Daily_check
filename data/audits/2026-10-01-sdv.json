@@ -662,5 +662,66 @@
     "important": 0,
     "reference": 6
   },
-  "completedAt": "2026-10-01T07:14:00+09:00"
+  "completedAt": "2026-10-01T07:14:00+09:00",
+  "publicationCorrections": [
+    {
+      "correctedAt": "2026-10-02T18:41:09.386Z",
+      "reason": "discoveredLate is audit-only under the saved publication policy",
+      "removedArticles": [
+        {
+          "id": "sdv-eclipse-score-japan-20260928",
+          "eventKey": "eclipse-sdv-s-core-japan-commitment-2026-09-28",
+          "category": "SDV",
+          "score": 57,
+          "title": "Eclipse SDV、S-CORE 1.0を12月公開へ、日本勢の参加を要請",
+          "summary": "車載ミドルウェア基盤S-CORE、openSOVD、COVESA VSS準拠KUKSAなど25超のプロジェクトを展開。50超の企業・団体が参加し、日本の自動車産業との連携強化を表明",
+          "publishedAt": "2026/09/28",
+          "firstSeenAt": "2026-10-01T06:59:41+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "MONOist",
+            "url": "https://monoist.itmedia.co.jp/mn/articles/2609/28/news059.html"
+          }
+        }
+      ],
+      "originalChecks": [
+        {
+          "id": "ai",
+          "name": "AIニュース",
+          "status": "update",
+          "summary": "重要2件・参考6件。実利用影響を最重視する新AI採点基準で再評価し、Gemini 4 ArgonとGemini Skillsを重要、その他6件を参考へ再分類",
+          "checkedAt": "2026-10-01T08:08:00+09:00",
+          "alertCount": 2,
+          "referenceCount": 6
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV / Nissanニュース",
+          "status": "update",
+          "summary": "6系統を完走しraw候補12件を監査。Eclipse S-CORE、NHTSA OTA審議、NXP×Vector、TechInsights、Momenta、EMQを参考として採用",
+          "checkedAt": "2026-10-01T07:14:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 6
+        },
+        {
+          "id": "codex-reset",
+          "name": "Codexリセット時刻監視",
+          "status": "clear",
+          "summary": "5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
+          "checkedAt": "2026-10-01T07:14:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "permanent-residency",
+          "name": "主要国の永住条件",
+          "status": "clear",
+          "summary": "主要国の公式情報を確認。前回確認以降、通知対象となる実質的な永住条件変更なし",
+          "checkedAt": "2026-10-01T07:14:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    }
+  ]
 }

@@ -1,11 +1,11 @@
 {
   "start": "2026-09-26",
   "end": "2026-10-02",
-  "generatedAt": "2026-10-02T08:06:00+09:00",
+  "generatedAt": "2026-10-02T18:41:09.386Z",
   "headline": "直近7日Daily Check集計",
   "counts": {
     "important": 13,
-    "reference": 28
+    "reference": 25
   },
   "categories": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "SDV",
-      "summary": "重要2件・参考16件"
+      "summary": "重要2件・参考13件"
     }
   ],
   "highlights": [
@@ -235,36 +235,6 @@
       }
     },
     {
-      "id": "sdv-dspace-20260926",
-      "eventKey": "dspace-v2x-sil-hil-20260926",
-      "category": "SDV",
-      "score": 58,
-      "title": "dSPACE V2X SIL/HIL検証",
-      "summary": "接続車両向けSIL/HIL検証の新規事例",
-      "publishedAt": "2026/09/26",
-      "firstSeenAt": "2026-09-28T06:10:00+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "YourStory",
-        "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
-      }
-    },
-    {
-      "id": "sdv-bosch-rexroth-20260927",
-      "eventKey": "bosch-rexroth-bodas-ota-20260927",
-      "category": "SDV",
-      "score": 55,
-      "title": "Bosch Rexroth、OTA対応テレマティクス基盤を拡張",
-      "summary": "Linuxゲートウェイ、デバイス管理、遠隔アクセス、OTA更新を含むBODAS Connectの拡張",
-      "publishedAt": "2026/09/27",
-      "firstSeenAt": "2026-09-28T06:11:00+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "HeavyQuip",
-        "url": "https://www.heavyquipmag.com/2026/09/27/bosch-rexroth-owasys-telematics-iot-off-highway/"
-      }
-    },
-    {
       "id": "ai-openai-lenfest-expansion-20260928",
       "eventKey": "openai-lenfest-ai-collaborative-expansion-2026-09-28",
       "category": "AI",
@@ -388,21 +358,6 @@
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/business/synopsys-openai-strike-deal-develop-ai-model-chip-design-work-2026-09-30/"
-      }
-    },
-    {
-      "id": "sdv-eclipse-score-japan-20260928",
-      "eventKey": "eclipse-sdv-s-core-japan-commitment-2026-09-28",
-      "category": "SDV",
-      "score": 57,
-      "title": "Eclipse SDV、S-CORE 1.0を12月公開へ、日本勢の参加を要請",
-      "summary": "車載ミドルウェア基盤S-CORE、openSOVD、COVESA VSS準拠KUKSAなど25超のプロジェクトを展開。50超の企業・団体が参加し、日本の自動車産業との連携強化を表明",
-      "publishedAt": "2026/09/28",
-      "firstSeenAt": "2026-10-01T06:59:41+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "MONOist",
-        "url": "https://monoist.itmedia.co.jp/mn/articles/2609/28/news059.html"
       }
     },
     {

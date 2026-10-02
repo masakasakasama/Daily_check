@@ -1,23 +1,7 @@
 {
   "date": "2026-09-27",
   "alerts": [],
-  "references": [
-    {
-      "id": "sdv-bosch-rexroth-20260927",
-      "eventKey": "bosch-rexroth-bodas-ota-20260927",
-      "category": "SDV",
-      "score": 55,
-      "title": "Bosch Rexroth、OTA対応テレマティクス基盤を拡張",
-      "summary": "Linuxゲートウェイ、デバイス管理、遠隔アクセス、OTA更新を含むBODAS Connectの拡張",
-      "publishedAt": "2026/09/27",
-      "firstSeenAt": "2026-09-28T06:11:00+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "HeavyQuip",
-        "url": "https://www.heavyquipmag.com/2026/09/27/bosch-rexroth-owasys-telematics-iot-off-highway/"
-      }
-    }
-  ],
+  "references": [],
   "checks": [
     {
       "id": "ai",
@@ -31,11 +15,11 @@
     {
       "id": "sdv-nissan",
       "name": "SDV / Nissanニュース",
-      "status": "update",
-      "summary": "重要0件・参考1件。Deep Scanで見落とし回収",
+      "status": "clear",
+      "summary": "遅延発見1件を掲載対象から除外。元の収集・採用証跡は当日auditのpublicationCorrectionsに保持。",
       "checkedAt": "2026-09-28T06:11:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 0
     },
     {
       "id": "codex-reset",

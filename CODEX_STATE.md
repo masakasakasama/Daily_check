@@ -14,21 +14,24 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - Automation読取で07:00 Daily Checkを確認、07:30 recoveryは確認できずREADMEとworkflow注釈を修正。既存taskは変更していない。
 - 読み取り専用履歴validatorで19日中4日にlate混入を検出。ニュースデータや収集証跡を推測で書き換えていない。
 
+- 過去4日9件のdiscoveredLateをverifiedなrawCandidatesと一対一照合。元記事・元checkをaudit.publicationCorrectionsへ退避し日別掲載から除外、関連8週を日別から再生成。元採用判断・collectionComplete・収集時刻は保持。
+- 修復は全候補証跡・全日別/週次検証後のみ保存するCLIと拒否/idempotency回帰を追加。全19日履歴validatorが正常になった。
+
 ## Current
-- 当日2026-10-02と週次の和集合検証は成功。履歴9/25・9/26・9/27・10/01はlate混入で不合格。
+- 9/25・9/26・9/27・10/01の日別/監査と関連8週を修復。本文再収集なし、元証跡保持。
 
 ## Next
-- 過去4日の日別discoveredLate混入を監査証跡と照合し、収集担当と競合しない状態で日別・関連週次を修復する。
 - collectionComplete/anomalyとDeep Scanの必須条件・追加12検索の実証跡を照合するvalidatorを追加する。
+- 07:30 recovery task不足は既存収集担当の運用で解決が必要。司令塔Automation以外のtaskは変更しない。
 
 ## Blockers
-- 履歴4日のlate混入が未修復。元の本文や収集証跡を今回再取得していないため、削除や記事内容の変更を推測で行わない。
-- 07:30 recovery taskは現在のAutomation読取では存在を確認できない。自動復旧済みと扱わない。
+- ニュース本文を再取得していないため、検証は保存されたverified/late候補・掲載構造の整合性に限定。
+- 07:30 recovery taskは未確認。Deep Scan必須条件のvalidatorは未完了。
 
 ## Verification
-- node --test scripts/*.test.mjs: 4/4 passed
-- DAILY_CHECK_DATE=2026-10-02 node scripts/verify-daily-data.mjs: passed, 6/6 funnels and exact weekly union
-- node scripts/verify-publication-history.mjs: expected failure; 4/19 days require evidence review
-- Automation read-only: confirmed 07:00 primary, no confirmed recovery; git diff --check passed
+- node --test scripts/*.test.mjs: 6/6 passed
+- repair CLI: 9 articles / 4 days / 16 data files validated, original evidence preserved
+- publication history: 19 days / 0 failures
+- DAILY_CHECK_DATE=2026-10-02 daily validator passed; git diff --check passed
 
-Updated at: 2026-10-02T18:05:03.732596+00:00
+Updated at: 2026-10-02T18:42:03.662439+00:00

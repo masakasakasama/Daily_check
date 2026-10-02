@@ -14,66 +14,6 @@
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
       }
-    },
-    {
-      "id": "sdv-china-software-update-engineering-20260924",
-      "eventKey": "china-road-vehicles-software-update-engineering-approval-draft-2026-09-24",
-      "category": "SDV",
-      "score": 92,
-      "title": "中国、車両ソフトウェア更新工程の国家標準案を承認前ドラフト段階へ",
-      "summary": "中国の『Road vehicles — Software update engineering』が承認前ドラフトの公示段階へ進展。ISO 24089系のOTA/SUMS工程を中国市場の車両・ECU・インフラへ適用する実務影響が大きい",
-      "publishedAt": "2026/09/24",
-      "firstSeenAt": "2026-09-28T05:40:00+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "SDV Sector / MIIT",
-        "url": "https://sdvsector.com/news/2026-09-24-miit-software-update-engineering-approval-draft"
-      }
-    },
-    {
-      "id": "sdv-china-vehicle-ids-standard-20260924",
-      "eventKey": "china-vehicle-intrusion-detection-draft-standard-2026-09-24",
-      "category": "SDV",
-      "score": 90,
-      "title": "中国、車載侵入検知システムの国家標準案を公開",
-      "summary": "OS、外部IF、CAN/CAN FD、車載Ethernet、V2Xなどを対象に検知要件とログ保持を具体化。SDVのサイバーセキュリティ設計・検証へ直接影響する標準化動向",
-      "publishedAt": "2026/09/24",
-      "firstSeenAt": "2026-09-28T05:40:00+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "SDV Sector / SAC TC114",
-        "url": "https://sdvsector.com/news/2026-09-24-china-gbt-intrusion-detection-draft"
-      }
-    },
-    {
-      "id": "sdv-eu-euro7-software-type-approval-20260924",
-      "eventKey": "eu-euro7-software-cybersecurity-type-approval-2026-09-24",
-      "category": "SDV",
-      "score": 86,
-      "title": "EU、Euro 7の診断・サイバーセキュリティ等を型式認証項目へ反映",
-      "summary": "EUの型式認証枠組みにOBD、アンチタンパリング、セキュリティ/サイバーセキュリティ、オンボード監視などソフトウェア側の項目が明示的に組み込まれた",
-      "publishedAt": "2026/09/24",
-      "firstSeenAt": "2026-09-28T05:40:00+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "SDV Sector / EUR-Lex",
-        "url": "https://sdvsector.com/news/2026-09-24-eu-euro-7-type-approval-obd-cybersecurity"
-      }
-    },
-    {
-      "id": "sdv-nhtsa-openpilot-investigation-20260924",
-      "eventKey": "nhtsa-openpilot-forks-investigation-pe26007-2026-09-24",
-      "category": "SDV",
-      "score": 78,
-      "title": "NHTSA、openpilotと派生forkを含む不具合調査を開始",
-      "summary": "comma.aiのopenpilot搭載デバイス約3万台を対象に予備調査PE26007。派生forkも事故時の評価対象とされ、OSS車両ソフトの安全責任と運用に重要な事例",
-      "publishedAt": "2026/09/24",
-      "firstSeenAt": "2026-09-28T05:40:00+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "SDV Sector / NHTSA PE26007",
-        "url": "https://sdvsector.com/news/2026-09-24-nhtsa-comma-ai-openpilot-investigation"
-      }
     }
   ],
   "references": [
@@ -90,36 +30,6 @@
         "label": "OpenAI",
         "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
       }
-    },
-    {
-      "id": "sdv-aumovio-vdo-link-eets-20260924",
-      "eventKey": "aumovio-vdo-link-distributed-eets-certification-2026-09-24",
-      "category": "SDV",
-      "score": 64,
-      "title": "AUMOVIO、ECU・接続・クラウド分散構成のVDO LinkでEETS認証",
-      "summary": "車内デバイス、接続サービス、バックエンド、クラウドへ機能を分散した構成が欧州EETS適合として認証。分散E/E＋クラウド境界の実装事例として参考",
-      "publishedAt": "2026/09/24",
-      "firstSeenAt": "2026-09-28T05:40:00+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "SDV Sector / AUMOVIO",
-        "url": "https://sdvsector.com/news/2026-09-24-aumovio-eets-distributed-onboard-unit"
-      }
-    },
-    {
-      "id": "sdv-fibocom-hangsheng-acquisition-20260924",
-      "eventKey": "fibocom-hangsheng-cockpit-domain-controller-acquisition-2026-09-24",
-      "category": "SDV",
-      "score": 62,
-      "title": "Fibocom、コックピット/ドメインコントローラ企業Hangshengの支配取得を具体化",
-      "summary": "通信モジュール企業FibocomがHangsheng Electronicsの37.16%取得と支配権獲得を具体化。通信からコックピット/ドメインコントローラまで垂直統合する動きとして参考",
-      "publishedAt": "2026/09/24",
-      "firstSeenAt": "2026-09-28T05:40:00+09:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "SDV Sector / Shenzhen filing",
-        "url": "https://sdvsector.com/news/2026-09-24-fibocom-hangsheng-control-acquisition"
-      }
     }
   ],
   "checks": [
@@ -135,11 +45,11 @@
     {
       "id": "sdv-nissan",
       "name": "SDV / Nissanニュース",
-      "status": "update",
-      "summary": "重要4件・参考2件。9/24公開分の見落としをDeep Scanで回収し、規制/セキュリティ/E/E候補を再採用",
+      "status": "clear",
+      "summary": "遅延発見6件を掲載対象から除外。元の収集・採用証跡は当日auditのpublicationCorrectionsに保持。",
       "checkedAt": "2026-09-28T05:40:00+09:00",
-      "alertCount": 4,
-      "referenceCount": 2
+      "alertCount": 0,
+      "referenceCount": 0
     },
     {
       "id": "codex-reset",
