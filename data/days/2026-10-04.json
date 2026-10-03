@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-04",
+  "alerts": [],
+  "references": [
+    {
+      "id": "ai-google-antigravity-claude-55-20261003",
+      "eventKey": "google-antigravity-claude-opus-sonnet-5-5-2026-10-03",
+      "category": "AI",
+      "score": 68,
+      "title": "Google Antigravity、Claude Opus 5.5／Sonnet 5.5をモデル選択肢に追加",
+      "summary": "Googleのコーディング基盤AntigravityでClaude 5.5系を選択可能に。Google AI Pro/Ultraの有料ユーザー向けで、GeminiとClaudeを同じ開発環境から比較・利用できる",
+      "publishedAt": "2026/10/03",
+      "firstSeenAt": "2026-10-04T06:57:31+09:00",
+      "source": {
+        "label": "Google Antigravity Docs / Startup Fortune",
+        "url": "https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要0件・参考1件。AntigravityのClaude 5.5追加は開発環境の選択肢を増やすが、利用対象が有料プラン限定で75点未満",
+      "checkedAt": "2026-10-04T07:23:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "clear",
+      "summary": "6 funnel 24検索とDeep Scan 12検索を完走しraw候補12件を監査。当日掲載基準を満たす新規イベントなし",
+      "checkedAt": "2026-10-04T07:23:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "公式経路とX経路を確認。10月3日06:18 JSTの全体リセットを遅延発見し監査へ記録したが、前回成功以前のため本日フィードには再掲載せず。以後の新規リセットなし",
+      "checkedAt": "2026-10-04T07:23:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "カナダ、英国、豪州、ニュージーランドの公式情報を確認。前回成功以降、通知対象となる実質的な永住条件変更なし",
+      "checkedAt": "2026-10-04T07:23:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
