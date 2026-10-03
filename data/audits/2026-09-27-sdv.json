@@ -25,7 +25,8 @@
       "adoptedCount": 0,
       "excludedCount": 0,
       "pendingCount": 0,
-      "completedAt": "2026-09-28T04:58:00+09:00"
+      "completedAt": "2026-09-28T04:58:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "Platform",
@@ -47,7 +48,8 @@
       "adoptedCount": 0,
       "excludedCount": 0,
       "pendingCount": 0,
-      "completedAt": "2026-09-28T04:58:00+09:00"
+      "completedAt": "2026-09-28T04:58:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "Tier1Semi",
@@ -69,7 +71,8 @@
       "adoptedCount": 1,
       "excludedCount": 0,
       "pendingCount": 0,
-      "completedAt": "2026-09-28T04:58:00+09:00"
+      "completedAt": "2026-09-28T04:58:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "CloudOS",
@@ -91,7 +94,8 @@
       "adoptedCount": 0,
       "excludedCount": 0,
       "pendingCount": 0,
-      "completedAt": "2026-09-28T04:58:00+09:00"
+      "completedAt": "2026-09-28T04:58:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "RegSecurity",
@@ -113,7 +117,8 @@
       "adoptedCount": 0,
       "excludedCount": 0,
       "pendingCount": 0,
-      "completedAt": "2026-09-28T04:58:00+09:00"
+      "completedAt": "2026-09-28T04:58:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "Cross",
@@ -134,7 +139,8 @@
       "adoptedCount": 0,
       "excludedCount": 0,
       "pendingCount": 0,
-      "completedAt": "2026-09-28T04:58:00+09:00"
+      "completedAt": "2026-09-28T04:58:00+09:00",
+      "duplicateCount": 0
     }
   ],
   "candidates": [
@@ -251,6 +257,57 @@
           "checkedAt": "2026-09-28T04:58:00+09:00",
           "alertCount": 0,
           "referenceCount": 0
+        }
+      ]
+    }
+  ],
+  "countCorrections": [
+    {
+      "at": "2026-10-03T05:37:11.054Z",
+      "scope": "saved rawCandidates only; not collection certification",
+      "rawCandidatesSha256": "90134268d47403750c1bbf13e3eba5198e49a0e730df71ca0153c554d1b46f13",
+      "changes": [
+        {
+          "funnel": "OEM",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "Platform",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "Tier1Semi",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "CloudOS",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "RegSecurity",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "Cross",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
         }
       ]
     }

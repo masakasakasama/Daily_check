@@ -1,6 +1,6 @@
 # CODEX_STATE
 
-Status: in_progress
+Status: blocked
 Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保存結果を正しく検証する。
 
 ## Done
@@ -22,22 +22,26 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - 10/3のlate-audit-only候補をverified/discoveredLateと専用件数で検証。週次から欠けた10/3 AI参考記事1件を保存済み日別から補い、週次件数を整合。
 - 読み取り専用collection履歴CLIを追加。現代形式9日中5日の未完了・件数不一致・証跡不足を検出、旧summaryは未認証のままスキップ。
 
+- 9/25〜9/29を分類。9/25旧queryEvidenceには具体検索/URL/hitがあるがquery単位status/追加passが不明、9/26・9/27は未完了、9/28・9/29はDeep Scan観測hit等の証跡不足を記録。
+- 9/25〜9/27の省略duplicateCount18項目だけを保存terminal rawCandidatesから0へ補完。元の省略状態と候補hashをcountCorrectionsへ保持し、complete/anomaly/時刻/検索/採用/掲載は不変更。
+- 曖昧ID/非終端/未知funnel/候補・採用・除外件数不一致で拒否する修復CLIと回帰を追加。全3日を検証後のみ保存し、再実行0変更。
+
 ## Current
-- 10/3最新日次と週次検証は成功。過去収集の証跡を推測で補完していない。
+- Nextの分類と確定件数修復は完了。collection履歴の残る5日と07:30 recovery確認は収集担当待ちのためblocked。詳細はdocs/collection-evidence-review-2026-10-03.md。
 
 ## Next
-- collection履歴の5日(9/25〜9/29)を分類し、保存rawCandidatesから確定できる件数だけ修復する。検索hit等の実証跡欠如・collection未完了は収集担当待ちとして記録する。
-- 07:30 recovery task不足は既存収集担当の運用で解決が必要。司令塔Automation以外のtaskは変更しない。
+- 収集担当が実際の追加検索URL・観測hit・検索単位取得statusを保存し、9/26・9/27の未完了を解決したらcollection validatorを再実行する。既存旧証跡のadapterは契約を確認してから実装し、欠如した観測を推測しない。
+- 既存収集担当が07:30 recovery taskの有効な設定を確認する。司令塔以外のAutomationは追加しない。
 
 ## Blockers
-- 過去Web本文と検索結果を再取得していない。9/26・9/27未完了、9/28検索証跡不足、9/29取得不完了、9/25件数不一致を完了扱いにしない。
-- 07:30 recovery taskは未確認。追加の収集Automationは作成していない。
+- 過去Web/検索結果の実観測が不足。9/25旧queryEvidenceから不足status/追加passを断定できず、9/28・9/29のDeep Scan観測hit等もない。legacy fallbackラベルを取得失敗とは断定しない。
+- 9/26・9/27はcollectionComplete=false/anomaly=trueのまま。07:30 recovery taskは未確認。完了扱いにしない。
 
 ## Verification
-- node --test scripts/*.test.mjs: 12/12 passed
-- DAILY_CHECK_DATE=2026-10-03 node scripts/verify-daily-data.mjs: passed (6/6 funnels)
-- node scripts/verify-publication-history.mjs: 20 saved days / 0 failures
-- node scripts/verify-collection-history.mjs: expected exit 1; 9 modern audits / 5 evidence failures; legacy skipped, not certified
-- git diff --check passed; no build/lint scripts in repository
+- node --test scripts/*.test.mjs: 14/14 passed
+- DAILY_CHECK_DATE=2026-10-03 daily validator passed; publication history 20 days / 0 failures
+- repair audit counts: first run 18 fields; repeat 0 fields; source candidates/collection flags/timestamps preserved
+- collection history expected exit 1: 9 modern audits / 5 evidence failures; legacy skipped, not certified
+- git diff --check passed; repositoryにbuild/lint scriptsなし
 
-Updated at: 2026-10-03T01:28:34.478137+00:00
+Updated at: 2026-10-03T05:39:02.628948+00:00

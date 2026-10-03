@@ -42,7 +42,8 @@
           ]
         }
       ],
-      "completedAt": "2026-09-28T05:40:00+09:00"
+      "completedAt": "2026-09-28T05:40:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "Platform",
@@ -80,7 +81,8 @@
           ]
         }
       ],
-      "completedAt": "2026-09-28T05:40:00+09:00"
+      "completedAt": "2026-09-28T05:40:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "Tier1Semi",
@@ -117,7 +119,8 @@
           ]
         }
       ],
-      "completedAt": "2026-09-28T05:40:00+09:00"
+      "completedAt": "2026-09-28T05:40:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "CloudOS",
@@ -152,7 +155,8 @@
           "urls": []
         }
       ],
-      "completedAt": "2026-09-28T05:40:00+09:00"
+      "completedAt": "2026-09-28T05:40:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "RegSecurity",
@@ -194,7 +198,8 @@
           ]
         }
       ],
-      "completedAt": "2026-09-28T05:40:00+09:00"
+      "completedAt": "2026-09-28T05:40:00+09:00",
+      "duplicateCount": 0
     },
     {
       "name": "Cross",
@@ -236,7 +241,8 @@
           ]
         }
       ],
-      "completedAt": "2026-09-28T05:40:00+09:00"
+      "completedAt": "2026-09-28T05:40:00+09:00",
+      "duplicateCount": 0
     }
   ],
   "rawCandidates": [
@@ -800,6 +806,57 @@
           "checkedAt": "2026-09-25T07:30:00+09:00",
           "alertCount": 0,
           "referenceCount": 0
+        }
+      ]
+    }
+  ],
+  "countCorrections": [
+    {
+      "at": "2026-10-03T05:37:11.052Z",
+      "scope": "saved rawCandidates only; not collection certification",
+      "rawCandidatesSha256": "f78987ecb9fd909211691c432fa197d9e4e234b29e8d76c2d7077b521645108d",
+      "changes": [
+        {
+          "funnel": "OEM",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "Platform",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "Tier1Semi",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "CloudOS",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "RegSecurity",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
+        },
+        {
+          "funnel": "Cross",
+          "field": "duplicateCount",
+          "previousFieldPresent": false,
+          "previousValue": null,
+          "correctedValue": 0
         }
       ]
     }

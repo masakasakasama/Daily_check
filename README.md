@@ -46,3 +46,11 @@ https://raw.githack.com/masakasakasama/Daily_check/main/index.html
 とは表示しない。2026-10-03時点では9監査中5日に不足/未完了/不一致がある。
 保存証跡の構造を検証するもので、過去のWeb取得の真偽を証明するものではない。
 収集時刻・完了フラグ・検索結果を推測で補完しない。
+
+
+2026-10-03に9/25〜9/29の監査不足を分類した。詳細は
+[collection evidence review](docs/collection-evidence-review-2026-10-03.md)。
+9/25〜9/27の省略duplicateCount計18項目だけを保存済みrawCandidatesから0へ補い、
+元の省略状態と候補hashをcountCorrectionsへ保存。完了フラグ・時刻・検索証跡は保持。
+`node scripts/repair-audit-counts.mjs`はdry run、`--write`は明示3日分の証跡を全検証後に保存。
+再実行は変更0件。残る5日の検証不足は収集担当待ちで、完了扱いにしない。
