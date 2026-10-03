@@ -560,7 +560,7 @@
         row.append(n,s);return row;
       });
       $('weekCategories')?.replaceChildren(...rows);
-      const highlights=(week.highlights||[]).map(canonicalize),refs=(week.references||[]).map(canonicalize);
+      const scoreDesc=(a,b)=>{const av=Number(a?.score),bv=Number(b?.score);return (Number.isFinite(bv)?bv:-1)-(Number.isFinite(av)?av:-1)};\n      const highlights=(week.highlights||[]).map(canonicalize).sort(scoreDesc),refs=(week.references||[]).map(canonicalize).sort(scoreDesc);
       $('weekHighlights')?.replaceChildren(...highlights.map(x=>createFeedItem(x,'important')));
       $('weekReferences')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference')));
       setText('weekHighlightCount',highlights.length?highlights.length+'件':'');setText('weekMoreSummary',refs.length+'件');
