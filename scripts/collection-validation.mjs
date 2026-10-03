@@ -63,9 +63,18 @@ export function validateCollectionAudit(audit, day, previousDay) {
   if (todayCount === 0 && previousCount === 0) reasons.push('two consecutive zero-publication days');
   if (reasons.length && !audit.deepScanPerformed) fail(`Deep Scan required: ${reasons.join(', ')}`);
   if (audit.deepScanPerformed) {
-    if (!Array.isArray(audit.deepScanQueries)) fail('Deep Scan query evidence missing');
+    // Collectors persist either the original flat field or deepScan.queries.
+    // Accept saved observations in either schema; never synthesize missing hits.
+    const flat = audit.deepScanQueries;
+    const nested = audit.deepScan?.queries;
+    if ((flat !== undefined && !Array.isArray(flat))
+      || (nested !== undefined && !Array.isArray(nested))) fail('Deep Scan query evidence invalid');
+    if (flat !== undefined && nested !== undefined
+      && JSON.stringify(flat) !== JSON.stringify(nested)) fail('conflicting Deep Scan query evidence');
+    const queries = flat ?? nested;
+    if (!Array.isArray(queries)) fail('Deep Scan query evidence missing');
     const extra = new Set();
-    for (const query of audit.deepScanQueries) {
+    for (const query of queries) {
       validateQuery(query);
       const identity = normalized(query.query);
       if (normalQueries.includes(identity)) fail('Deep Scan query repeats the first pass');

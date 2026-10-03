@@ -124,7 +124,7 @@
       "rawHitCount": 7,
       "candidateCount": 2,
       "adoptedCount": 0,
-      "excludedCount": 1,
+      "excludedCount": 2,
       "duplicateCount": 0,
       "lateAuditOnlyCount": 0
     },
@@ -168,7 +168,7 @@
       "rawHitCount": 9,
       "candidateCount": 2,
       "adoptedCount": 0,
-      "excludedCount": 0,
+      "excludedCount": 1,
       "duplicateCount": 1,
       "lateAuditOnlyCount": 0
     },
@@ -855,5 +855,28 @@
     "important": 0,
     "reference": 0
   },
-  "completedAt": "2026-10-04T07:23:00+09:00"
+  "completedAt": "2026-10-04T07:23:00+09:00",
+  "countCorrections": [
+    {
+      "at": "2026-10-03T22:58:45.344815+00:00",
+      "scope": "saved rawCandidates and excluded summary/list agree; not collection certification",
+      "rawCandidatesSha256": "57d9c1c7b04e561fa1370ca90be1136cd99a0c44500213db0774b6e96843d777",
+      "changes": [
+        {
+          "funnel": "OEM",
+          "field": "excludedCount",
+          "previousFieldPresent": true,
+          "previousValue": 1,
+          "correctedValue": 2
+        },
+        {
+          "funnel": "Platform",
+          "field": "excludedCount",
+          "previousFieldPresent": true,
+          "previousValue": 0,
+          "correctedValue": 1
+        }
+      ]
+    }
+  ]
 }

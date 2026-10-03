@@ -54,3 +54,8 @@ https://raw.githack.com/masakasakasama/Daily_check/main/index.html
 元の省略状態と候補hashをcountCorrectionsへ保存。完了フラグ・時刻・検索証跡は保持。
 `node scripts/repair-audit-counts.mjs`はdry run、`--write`は明示3日分の証跡を全検証後に保存。
 再実行は変更0件。残る5日の検証不足は収集担当待ちで、完了扱いにしない。
+
+2026-10-04形式の`deepScan.queries`も、従来の`deepScanQueries`と同じ必須項目・
+12追加検索・取得成功・重複禁止で検証する。両方ある場合の不一致は拒否する。
+10/4監査のOEM/Platform除外件数2項目を保存raw候補・総数・除外一覧と照合して修復し、
+旧値と候補hashをcountCorrectionsへ保持。週次に欠けた10/3 AI参考1件を日別から補完。

@@ -26,8 +26,11 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - 9/25〜9/27の省略duplicateCount18項目だけを保存terminal rawCandidatesから0へ補完。元の省略状態と候補hashをcountCorrectionsへ保持し、complete/anomaly/時刻/検索/採用/掲載は不変更。
 - 曖昧ID/非終端/未知funnel/候補・採用・除外件数不一致で拒否する修復CLIと回帰を追加。全3日を検証後のみ保存し、再実行0変更。
 
+- Brainの変更検知で最新a275469を再取得。10/4保存監査の除外件数2項目をraw/一覧/総数から修復し旧値・hashを保持。週次から欠けた10/3 AI参考1件を保存日別から補完。
+- 実収集形式deepScan.queriesを既存と同じ厳格条件で検証し、競合schema・hit欠如・未成功・重複・12件不足を拒否する回帰を追加。
+
 ## Current
-- Nextの分類と確定件数修復は完了。collection履歴の残る5日と07:30 recovery確認は収集担当待ちのためblocked。詳細はdocs/collection-evidence-review-2026-10-03.md。
+- 10/4の最新収集形式・確定counter・週次欠落を修復し当日validatorが正常。残る9/25〜9/29の5監査と07:30 recovery確認は外部証跡待ち。
 
 ## Next
 - 収集担当が実際の追加検索URL・観測hit・検索単位取得statusを保存し、9/26・9/27の未完了を解決したらcollection validatorを再実行する。既存旧証跡のadapterは契約を確認してから実装し、欠如した観測を推測しない。
@@ -38,10 +41,11 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - 9/26・9/27はcollectionComplete=false/anomaly=trueのまま。07:30 recovery taskは未確認。完了扱いにしない。
 
 ## Verification
-- node --test scripts/*.test.mjs: 14/14 passed
-- DAILY_CHECK_DATE=2026-10-03 daily validator passed; publication history 20 days / 0 failures
-- repair audit counts: first run 18 fields; repeat 0 fields; source candidates/collection flags/timestamps preserved
-- collection history expected exit 1: 9 modern audits / 5 evidence failures; legacy skipped, not certified
-- git diff --check passed; repositoryにbuild/lint scriptsなし
+- node --test scripts/*.test.mjs: 16/16 passed
+- DAILY_CHECK_DATE=2026-10-04 daily validator passed; publication history 21 days / 0 failures
+- collection history: 10 modern audits / 5 historical evidence failures (expected exit 1); 10/4 now passed
+- Saved raw candidates/decisions/queries/collection flags/timestamps unchanged; two prior counters retained in countCorrections
+- Latest worker head checked before publication; controller GitHub lease acquired
+- git diff --check passed; no build/lint scripts
 
-Updated at: 2026-10-03T05:39:02.628948+00:00
+Updated at: 2026-10-03T22:59:51.716827+00:00
