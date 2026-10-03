@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T06:57:31+09:00",
+  "updatedAt": "2026-10-04T07:23:00+09:00",
   "lastSuccessfulAt": "2026-10-03T07:22:00+09:00",
   "funnels": {
     "OEM": {
@@ -34,10 +34,25 @@
     "startedAt": "2026-10-04T06:57:31+09:00",
     "windowStart": "2026-10-01T07:22:00+09:00",
     "windowEnd": "2026-10-04T06:57:31+09:00",
-    "stage": "collecting",
+    "stage": "collected",
     "dayPath": "data/days/2026-10-04.json",
     "auditPath": "data/audits/2026-10-04-sdv.json",
-    "weekPath": "data/weeks/2026-10-04.json"
+    "weekPath": "data/weeks/2026-10-04.json",
+    "counts": {
+      "alerts": 0,
+      "references": 1,
+      "sdvRawCandidates": 12,
+      "sdvAdopted": 0,
+      "sdvDuplicates": 2,
+      "sdvLateAuditOnly": 4,
+      "sdvExcluded": 6
+    },
+    "deepScanPerformed": true,
+    "codexAudit": {
+      "officialRoute": "complete",
+      "xRoute": "complete",
+      "lateResetDetected": "2026-10-03T06:18:00+09:00"
+    }
   },
   "lastVerifiedDailyCommit": "1e7181ed28e21cdb8b3eeecfc8bfb839e952cb4d",
   "lastAudit": "data/audits/2026-10-03-sdv.json",
