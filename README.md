@@ -25,3 +25,24 @@ https://raw.githack.com/masakasakasama/Daily_check/main/index.html
 2026-10-02に9/25・9/26・9/27・10/01の9件を監査候補と照合して掲載修復した。
 元記事・元check・元採用判断をauditのpublicationCorrectionsとrawCandidatesに保持し、関連8週を再生成した。
 `node scripts/repair-late-publication.mjs` は検証のみ、`--write` は全候補証跡と和集合を確認してから保存する。
+
+
+## 収集完了・Deep Scanの証跡検証
+
+日次validatorは `collectionComplete=true` / `anomaly=false` と、6 funnelの
+検索文字列・URL・sourceFamily・非負整数のrawHitCount・取得成功、raw候補の
+終端decision・理由・件数を照合する。`pendingCount=0`だけでは通過しない。
+`late-audit-only`はverified/discoveredLateと専用件数を必須とし、日別掲載に数えない。
+
+候補8件未満、ゼロ候補funnelが4個以上（全6個ゼロを含む）、またはSDV掲載が
+連続する2暦日ともゼロならDeep Scanを必須とする。前日のデータがなければ
+判定を通さない。実施済みの場合は `deepScanQueries` に追加12件以上の検索を
+オブジェクト形式で保存する。各項目は `query`, `sourceUrl`, `sourceFamily`,
+`rawHitCount`, `retrievalStatus` が必要で、最初の検索・同一検索の重複は拒否する。
+ゼロ候補funnelでは2系統以上の検索familyを必要とする。
+
+`node scripts/verify-collection-history.mjs` は近代形式の保存監査を読み取り専用で
+検査し、不一致があれば終了コード1を返す。旧summary形式はスキップし、検証済み
+とは表示しない。2026-10-03時点では9監査中5日に不足/未完了/不一致がある。
+保存証跡の構造を検証するもので、過去のWeb取得の真偽を証明するものではない。
+収集時刻・完了フラグ・検索結果を推測で補完しない。

@@ -5,7 +5,7 @@
   "headline": "直近7日Daily Check集計",
   "counts": {
     "important": 13,
-    "reference": 23
+    "reference": 24
   },
   "categories": [
     {
@@ -526,6 +526,20 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/news/barclays-scales-claude"
+      }
+    },
+    {
+      "id": "ai-anthropic-claude-code-2-1-288-20261002",
+      "eventKey": "anthropic-claude-code-2-1-288-2026-10-02",
+      "category": "AI",
+      "score": 70,
+      "title": "Claude Code 2.1.288、コードレビュー件数制御とセッション復旧を強化",
+      "summary": "/code-reviewの検出件数指定、agents画面の検索、MCP OAuth再認証、Ctrl+Cで消した下書き復元を追加。途中タイムアウトやresume時の文脈欠落も修正",
+      "publishedAt": "2026/10/02",
+      "firstSeenAt": "2026-10-03T06:56:41+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://code.claude.com/docs/en/changelog"
       }
     }
   ]

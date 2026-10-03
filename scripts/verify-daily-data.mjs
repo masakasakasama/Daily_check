@@ -1,3 +1,4 @@
+import { validateCollectionAudit } from "./collection-validation.mjs";
 import { validateFunnel } from "./audit-validation.mjs";
 import { validateDailyPublication, validateWeeklyUnion } from "./publication-validation.mjs";
 import { readFile, readdir } from "node:fs/promises";
@@ -19,6 +20,8 @@ const audit = await readJson(`data/audits/${expectedDate}-sdv.json`);
 const week = await readJson(`data/weeks/${expectedDate}.json`);
 const state = await readJson("data/sdv-collection-state.json");
 const persistedDays = await Promise.all((await readdir(new URL("data/days/", root))).filter(name => /^\d{4}-\d{2}-\d{2}\.json$/.test(name)).map(name => readJson(`data/days/${name}`)));
+const previousDate = new Date(new Date(`${expectedDate}T00:00:00Z`).valueOf() - 86400000).toISOString().slice(0, 10);
+validateCollectionAudit(audit, day, persistedDays.find(item => item.date === previousDate));
 validateDailyPublication(day, persistedDays);
 validateWeeklyUnion(week, persistedDays);
 
