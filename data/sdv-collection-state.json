@@ -1,64 +1,37 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T07:36:00+09:00",
-  "lastSuccessfulAt": "2026-10-04T07:36:00+09:00",
+  "updatedAt": "2026-10-05T07:29:00+09:00",
+  "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
   "funnels": {
     "OEM": {
-      "lastSuccessfulAt": "2026-10-04T07:36:00+09:00",
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
       "lastCount": 2
     },
     "Platform": {
-      "lastSuccessfulAt": "2026-10-04T07:36:00+09:00",
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
       "lastCount": 2
     },
     "Tier1Semi": {
-      "lastSuccessfulAt": "2026-10-04T07:36:00+09:00",
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
       "lastCount": 2
     },
     "CloudOS": {
-      "lastSuccessfulAt": "2026-10-04T07:36:00+09:00",
-      "lastCount": 1
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastCount": 2
     },
     "RegSecurity": {
-      "lastSuccessfulAt": "2026-10-04T07:36:00+09:00",
-      "lastCount": 3
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastCount": 2
     },
     "Cross": {
-      "lastSuccessfulAt": "2026-10-04T07:36:00+09:00",
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
       "lastCount": 2
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": {
-    "date": "2026-10-05",
-    "startedAt": "2026-10-05T06:59:45+09:00",
-    "windowStart": "2026-10-02T07:36:00+09:00",
-    "windowEnd": "2026-10-05T06:59:45+09:00",
-    "publicationWindowStart": "2026-10-04T07:36:00+09:00",
-    "publicationWindowEnd": "2026-10-05T06:59:45+09:00",
-    "stage": "collected",
-    "dayPath": "data/days/2026-10-05.json",
-    "auditPath": "data/audits/2026-10-05-sdv.json",
-    "weekPath": "data/weeks/2026-10-05.json",
-    "counts": {
-      "alerts": 1,
-      "references": 2,
-      "sdvRawCandidates": 12,
-      "sdvAdopted": 1,
-      "sdvDuplicates": 2,
-      "sdvLateAuditOnly": 5,
-      "sdvExcluded": 4
-    },
-    "deepScanPerformed": true,
-    "codexAudit": {
-      "officialRoute": "complete",
-      "xRoute": "complete",
-      "newResetDetected": false,
-      "lastKnownReset": "2026-10-03T06:18:00+09:00"
-    }
-  },
-  "lastVerifiedDailyCommit": "168bdaf8a718bd2966e7bf9140f82a7e3dfde94d",
-  "lastAudit": "data/audits/2026-10-04-sdv.json",
+  "pendingBatch": null,
+  "lastVerifiedDailyCommit": "9db22b020093d9df0360be09674d8c7dbb7f1ccf",
+  "lastAudit": "data/audits/2026-10-05-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days",
   "collectionPolicy": {
