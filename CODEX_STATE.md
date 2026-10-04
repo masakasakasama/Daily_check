@@ -30,6 +30,7 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - 実収集形式deepScan.queriesを既存と同じ厳格条件で検証し、競合schema・hit欠如・未成功・重複・12件不足を拒否する回帰を追加。
 
 ## Current
+- 最新dc12d8aはindex.htmlの不正なリテラル改行の修正だけ。inline JS 1件の構文検証に合格。監査証跡への変更はなく、07:30 recoveryも現在のAutomation読取では確認できない。
 - 10/4の最新収集形式・確定counter・週次欠落を修復し当日validatorが正常。残る9/25〜9/29の5監査と07:30 recovery確認は外部証跡待ち。
 
 ## Next
@@ -41,6 +42,7 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - 9/26・9/27はcollectionComplete=false/anomaly=trueのまま。07:30 recovery taskは未確認。完了扱いにしない。
 
 ## Verification
+- Latest dc12d8a: index.html-only diff; inline JavaScript node --check 1/1 passed. Collection code/data unchanged; existing test results retained without rerun.
 - node --test scripts/*.test.mjs: 16/16 passed
 - DAILY_CHECK_DATE=2026-10-04 daily validator passed; publication history 21 days / 0 failures
 - collection history: 10 modern audits / 5 historical evidence failures (expected exit 1); 10/4 now passed
@@ -48,4 +50,4 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - Latest worker head checked before publication; controller GitHub lease acquired
 - git diff --check passed; no build/lint scripts
 
-Updated at: 2026-10-03T22:59:51.716827+00:00
+Updated at: 2026-10-04T00:08:19.334021+00:00
