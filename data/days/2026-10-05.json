@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-05",
+  "alerts": [
+    {
+      "id": "pr-nz-parent-resident-hybrid-selection-20261005",
+      "eventKey": "new-zealand-parent-resident-hybrid-selection-go-live-2026-10-05",
+      "category": "Permanent Residency",
+      "score": 80,
+      "title": "ニュージーランド、Parent Resident Visaを90%先着・10%抽選方式へ移行",
+      "summary": "10月5日から有効なEOIを単一プールへ統合し、約90%を提出日順、約10%を抽選で選ぶ方式へ変更。年間2,500件の上限と資格要件は据え置きで、初回選考は11月10日",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-05T06:59:45+09:00",
+      "source": {
+        "label": "Immigration New Zealand",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/parent-resident-visa-category-hybrid-selection-process-now-in-place/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "sdv-stellantis-wayve-fiat-maserati-20261004",
+      "eventKey": "stellantis-wayve-fiat-maserati-prototype-extension-2026-10-04",
+      "category": "SDV",
+      "score": 61,
+      "title": "Stellantis、Wayve AI DriverをFiat 500eとMaserati Grecaleへ拡張",
+      "summary": "既存のJeep試作に加え、Fiat 500eとMaserati Grecaleへ同一のWayve AIモデルを移植。STLA AutoDrive上で車種ごとの専用コードを減らす検証を進め、10月のトリノイベントで実走デモを予定",
+      "publishedAt": "2026/10/04",
+      "firstSeenAt": "2026-10-05T06:59:45+09:00",
+      "source": {
+        "label": "AUTO Connected Car News",
+        "url": "https://www.autoconnectedcar.com/2026/10/autonomous-self-driving-vehicle-news-arbe-robotics-faraday-future-tier-iv-rideflux-kgm-hyundai-mobis-stellantis-wayve-california/"
+      }
+    },
+    {
+      "id": "ai-reflection-open-weight-preview-20261004",
+      "eventKey": "reflection-open-weight-model-preview-2026-10-04",
+      "category": "AI",
+      "score": 55,
+      "title": "NVIDIA出資のReflection、低コストopen-weightモデルを近日公開へ",
+      "summary": "企業が自社データと組み合わせて低コストの独自AIを構築できるopen-weightモデルを準備中。現時点では公開前で性能・価格・利用条件が未確定のため参考扱い",
+      "publishedAt": "2026/10/04",
+      "firstSeenAt": "2026-10-05T06:59:45+09:00",
+      "source": {
+        "label": "Axios",
+        "url": "https://www.axios.com/newsletters/axios-am-2b1de489-384e-4789-90c6-c71365f81223"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要0件・参考1件。Reflectionのopen-weightモデルは近日公開予定だが、未提供で利用条件も未確定のため参考採用",
+      "checkedAt": "2026-10-05T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "update",
+      "summary": "6 funnel 24検索とDeep Scan 12検索を完走しraw候補12件を監査。Stellantis×Wayveの試作展開1件を参考採用",
+      "checkedAt": "2026-10-05T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "clear",
+      "summary": "公式経路とX経路を確認。前回成功後に新しい一斉・banked・有料・補償リセット、枠仕様変更、複数報告の未確認リセットなし",
+      "checkedAt": "2026-10-05T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "update",
+      "summary": "ニュージーランドParent Resident VisaのEOI選考が10月5日に90%先着・10%抽選方式へ移行。年間枠と資格要件は据え置き",
+      "checkedAt": "2026-10-05T07:24:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    }
+  ]
+}
