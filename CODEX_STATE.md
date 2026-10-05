@@ -29,7 +29,11 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - Brainの変更検知で最新a275469を再取得。10/4保存監査の除外件数2項目をraw/一覧/総数から修復し旧値・hashを保持。週次から欠けた10/3 AI参考1件を保存日別から補完。
 - 実収集形式deepScan.queriesを既存と同じ厳格条件で検証し、競合schema・hit欠如・未成功・重複・12件不足を拒否する回帰を追加。
 
+- 10/5週次の参考記事欠落1件を保存済み10/3日別記事と完全一致で補完。記事本文/日別/監査/完了フラグ/収集時刻は変更していない。
+
 ## Current
+- 2026-10-05の外部日次更新ba75f45を確認。週次から欠けた10/3 AI参考1件を保存日別からそのまま補完しreference件数26→27へ整合。当日validator成功、全22日publication検証正常。
+- collection履歴は11近代監査中、従来の9/25〜9/29の5件のみ証跡不足。07:30 recoveryは最新Automation読取でも見つからず、既存07:00 Daily Checkと司令塔1個は有効。Automation変更なし。
 - 最新dc12d8aはindex.htmlの不正なリテラル改行の修正だけ。inline JS 1件の構文検証に合格。監査証跡への変更はなく、07:30 recoveryも現在のAutomation読取では確認できない。
 - 10/4の最新収集形式・確定counter・週次欠落を修復し当日validatorが正常。残る9/25〜9/29の5監査と07:30 recovery確認は外部証跡待ち。
 
@@ -42,6 +46,10 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - 9/26・9/27はcollectionComplete=false/anomaly=trueのまま。07:30 recovery taskは未確認。完了扱いにしない。
 
 ## Verification
+- DAILY_CHECK_DATE=2026-10-05 daily validator passed; publication history22 days/0 failures
+- collection history11 modern audits/5 historical evidence failures; 10/5 passed, missing past observations not invented
+- read-only Automation probe: enabled07:00 Daily Check; 07:30 recovery not found; controller Automation count1; no task edits
+- git diff --check passed; data-only weekly correction, no app/validator changes or redundant unit/build reruns
 - Latest dc12d8a: index.html-only diff; inline JavaScript node --check 1/1 passed. Collection code/data unchanged; existing test results retained without rerun.
 - node --test scripts/*.test.mjs: 16/16 passed
 - DAILY_CHECK_DATE=2026-10-04 daily validator passed; publication history 21 days / 0 failures
@@ -50,4 +58,4 @@ Goal: 固定URLとsplit-daily-v1を維持し、日別・SDV監査・週次の保
 - Latest worker head checked before publication; controller GitHub lease acquired
 - git diff --check passed; no build/lint scripts
 
-Updated at: 2026-10-04T00:08:19.334021+00:00
+Updated at: 2026-10-05T01:15:47.932376+00:00
