@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-06",
+  "alerts": [
+    {
+      "id": "ai-openai-textgrain-20261005",
+      "eventKey": "openai-textgrain-eu-api-opt-in-2026-10-05",
+      "category": "AI",
+      "score": 82,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 17,
+        "technicalImportance": 15,
+        "availability": 13,
+        "industryImpact": 8
+      },
+      "title": "OpenAI、ChatGPT/CodexへtextGrain透かしを導入",
+      "summary": "EUの全プランでは対象テキスト出力へ今後数週間で不可視透かしを追加。APIは世界で対応モデルへのopt-inを即日開始し、既定ではオフ。EU利用時の出力特性とAPIの来歴表示設計に直接影響",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/eu-text-provenance/"
+      }
+    },
+    {
+      "id": "codex-work-mode-errors-20261005",
+      "eventKey": "openai-work-mode-codex-desktop-errors-2026-10-05",
+      "category": "Codex",
+      "score": 78,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 14,
+        "technicalImportance": 12,
+        "availability": 14,
+        "industryImpact": 7
+      },
+      "title": "OpenAI、Work Mode／Codex Desktopの障害を軽減し監視中",
+      "summary": "Work Modeでエラー率が上昇し、Codex in ChatGPT Desktopとscheduled tasksにも影響。OpenAIは軽減策を適用して復旧を監視中としており、実行失敗時は再試行と状態確認が必要",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/mysmq298"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "sdv-honda-tata-dev-partnership-20261005",
+      "eventKey": "honda-tata-technologies-india-development-2026-10-05",
+      "category": "SDV",
+      "score": 48,
+      "scoreBreakdown": {
+        "sdvDirectness": 10,
+        "practicalImpact": 14,
+        "scale": 12,
+        "specificity": 8,
+        "novelty": 4
+      },
+      "title": "Honda、Tata Technologies活用でインド車開発を半減へ",
+      "summary": "インド向け車両開発を外部連携し、期間を約5年から半減、コストを最大20%削減する目標。Hondaは技術・コネクティビティ・ADASを管理するが、SDV基盤の新規発表ではないため参考扱い",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/cost-pressures-deadlock-force-honda-rework-india-strategy-sources-say-2026-10-05/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要1件。OpenAIのtextGrainはEUのChatGPT/Codex出力と世界のAPI選択肢を直接変更するため重要採用",
+      "checkedAt": "2026-10-06T07:18:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "update",
+      "summary": "6 funnel・各4経路を完走しraw候補12件を監査。Honda×Tata Technologiesを参考採用。Deep Scan条件なし",
+      "checkedAt": "2026-10-06T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "update",
+      "summary": "公式経路とX経路を確認。一斉・banked・有料・補償リセットや枠仕様変更の新規確定情報はなし。Work Mode/Codex Desktop障害1件を重要採用",
+      "checkedAt": "2026-10-06T07:18:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "カナダ、英国、豪州、ニュージーランド、日本、ドイツの公式情報を確認。前回成功以降、通知対象となる実質的な永住条件変更なし",
+      "checkedAt": "2026-10-06T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
