@@ -1,0 +1,774 @@
+{
+  "date": "2026-10-06",
+  "windowStart": "2026-10-03T07:29:00+09:00",
+  "windowEnd": "2026-10-06T06:57:05+09:00",
+  "publicationWindowStart": "2026-10-05T07:29:00+09:00",
+  "publicationWindowEnd": "2026-10-06T06:57:05+09:00",
+  "collectionComplete": true,
+  "anomaly": false,
+  "deepScanPerformed": false,
+  "deepScanReason": "Not triggered: 12 raw candidates, all six funnels nonzero, and the previous day had an SDV publication.",
+  "fixedSources": [
+    "Honda newsroom",
+    "Nissan technology archive",
+    "COVESA",
+    "Eclipse SDV",
+    "SOAFEE",
+    "Bosch",
+    "NXP",
+    "AWS Automotive",
+    "Android Automotive",
+    "UNECE",
+    "ISO",
+    "Reuters"
+  ],
+  "funnels": [
+    {
+      "name": "OEM",
+      "windowStart": "2026-10-03T07:29:00+09:00",
+      "windowEnd": "2026-10-06T06:57:05+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-06T07:16:00+09:00",
+      "queries": [
+        {
+          "query": "site:global.toyota/en/newsroom OR site:global.honda/en/newsroom OR site:nissan-global.com software vehicle OS OTA central compute after:2026-10-03",
+          "sourceUrl": "https://global.honda/en/newsroom/",
+          "sourceFamily": "OEM official newsrooms",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "automaker vehicle OS E/E architecture zonal controller after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Nissan vehicle OS software-defined vehicle OTA after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Honda vehicle OS software-defined vehicle central compute after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 7,
+      "candidateCount": 2,
+      "adoptedCount": 1,
+      "excludedCount": 1,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 1
+    },
+    {
+      "name": "Platform/ecosystem",
+      "windowStart": "2026-10-03T07:29:00+09:00",
+      "windowEnd": "2026-10-06T06:57:05+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-06T07:16:00+09:00",
+      "queries": [
+        {
+          "query": "site:covesa.global OR site:eclipse.org OR site:soafee.io SDV vehicle API middleware after:2026-10-03",
+          "sourceUrl": "https://www.covesa.global/news-events",
+          "sourceFamily": "Standards ecosystems",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "AAOS AUTOSAR Adaptive QNX automotive platform after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Alloy Kore Eclipse SDV automotive after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "automotive hypervisor vehicle OS ecosystem after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 7,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 1
+    },
+    {
+      "name": "Tier1/semiconductor",
+      "windowStart": "2026-10-03T07:29:00+09:00",
+      "windowEnd": "2026-10-06T06:57:05+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-06T07:16:00+09:00",
+      "queries": [
+        {
+          "query": "site:bosch-presse.de OR site:continental.com OR site:aptiv.com automotive HPC zonal software after:2026-10-03",
+          "sourceUrl": "https://www.bosch-presse.de/pressportal/de/en/",
+          "sourceFamily": "Tier1 official",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:nxp.com OR site:qualcomm.com OR site:nvidia.com automotive central compute after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Semiconductor official",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Tier 1 automotive middleware OTA zonal controller after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "automotive semiconductor SDV platform after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 7,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 2
+    },
+    {
+      "name": "Cloud/OS/development",
+      "windowStart": "2026-10-03T07:29:00+09:00",
+      "windowEnd": "2026-10-06T06:57:05+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-06T07:16:00+09:00",
+      "queries": [
+        {
+          "query": "site:aws.amazon.com OR site:azure.microsoft.com automotive virtual ECU SDV cloud after:2026-10-03",
+          "sourceUrl": "https://aws.amazon.com/automotive/",
+          "sourceFamily": "Cloud official",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:developer.android.com automotive OR site:qnx.com automotive software after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "OS official",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "virtual ECU SIL HIL automotive after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "automotive CI/CD vehicle SDK development platform after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 7,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 2
+    },
+    {
+      "name": "Regulation/Security",
+      "windowStart": "2026-10-03T07:29:00+09:00",
+      "windowEnd": "2026-10-06T06:57:05+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-06T07:16:00+09:00",
+      "queries": [
+        {
+          "query": "site:unece.org R155 R156 automotive after:2026-10-03",
+          "sourceUrl": "https://unece.org/transport/vehicle-regulations",
+          "sourceFamily": "UNECE",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:iso.org 21434 24089 automotive after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "ISO",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "vehicle cybersecurity software update regulation after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "connected vehicle security regulation after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 7,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 1
+    },
+    {
+      "name": "Cross",
+      "windowStart": "2026-10-03T07:29:00+09:00",
+      "windowEnd": "2026-10-06T06:57:05+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-06T07:16:00+09:00",
+      "queries": [
+        {
+          "query": "software-defined vehicle vehicle OS after:2026-10-03 Reuters Automotive World",
+          "sourceUrl": "https://www.reuters.com/",
+          "sourceFamily": "Major media",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "in-vehicle Ethernet cockpit software automotive after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "central compute zonal ECU OTA automotive after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "SDV development platform automotive after:2026-10-03",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Web search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 7,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 1
+    }
+  ],
+  "deepScan": [],
+  "rawCandidates": [
+    {
+      "id": "raw-honda-tata-20261005",
+      "funnel": "OEM",
+      "eventKey": "honda-tata-technologies-india-development-2026-10-05",
+      "title": "Honda–Tata Technologies India vehicle development partnership",
+      "source": {
+        "family": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/cost-pressures-deadlock-force-honda-rework-india-strategy-sources-say-2026-10-05/"
+      },
+      "publishedAt": "2026-10-05T06:16:24Z",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 48,
+      "scoreBreakdown": {
+        "sdvDirectness": 10,
+        "practicalImpact": 14,
+        "scale": 12,
+        "specificity": 8,
+        "novelty": 4
+      },
+      "decision": "adopted-reference",
+      "reason": "Connectivity and ADAS governance plus quantified development-time reduction; not a new SDV stack."
+    },
+    {
+      "id": "raw-nissan-nsosp",
+      "funnel": "OEM",
+      "eventKey": "nissan-scalable-open-software-platform-2026-06",
+      "title": "Nissan Scalable Open Software Platform",
+      "source": {
+        "family": "Nissan official",
+        "url": "https://www2.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/"
+      },
+      "publishedAt": "2026-06-01",
+      "updatedAt": "2026-06-01",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 70,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 18,
+        "scale": 12,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "Published before publication window; audit-only late discovery."
+    },
+    {
+      "id": "raw-covesa-vss",
+      "funnel": "Platform/ecosystem",
+      "eventKey": "covesa-vss-current-docs",
+      "title": "COVESA Vehicle Signal Specification",
+      "source": {
+        "family": "COVESA official",
+        "url": "https://covesa.global/project/vehicle-signal-specification/"
+      },
+      "publishedAt": null,
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 54,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 12,
+        "scale": 8,
+        "specificity": 8,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "Evergreen project page; no new dated event."
+    },
+    {
+      "id": "raw-google-aaos-sdv",
+      "funnel": "Platform/ecosystem",
+      "eventKey": "google-aaos-sdv-open-source-2026-03-24",
+      "title": "Google open-sources AAOS SDV platform",
+      "source": {
+        "family": "Google official",
+        "url": "https://blog.google/products-and-platforms/platforms/android/android-automotive-os/"
+      },
+      "publishedAt": "2026-03-24",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 71,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 18,
+        "scale": 12,
+        "specificity": 10,
+        "novelty": 7
+      },
+      "decision": "excluded",
+      "reason": "Outside window and already known; audit-only."
+    },
+    {
+      "id": "raw-itech-soc",
+      "funnel": "Tier1/semiconductor",
+      "eventKey": "itech-automotive-soc-consolidation-2026-10-03",
+      "title": "Automotive SoCs consolidate vehicle ECUs",
+      "source": {
+        "family": "iTechGuides",
+        "url": "https://www.itechguides.com/automotive-socs-power-ecu-consolidation-in-next-generation-vehicles/"
+      },
+      "publishedAt": "2026-10-03",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 42,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 8,
+        "scale": 6,
+        "specificity": 7,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "Published before current publication window; analysis, not a new product event."
+    },
+    {
+      "id": "raw-onsemi-zonal",
+      "funnel": "Tier1/semiconductor",
+      "eventKey": "onsemi-zonal-architecture-evergreen",
+      "title": "onsemi zonal architecture solutions",
+      "source": {
+        "family": "onsemi official",
+        "url": "https://www.onsemi.com/solutions/automotive/vehicle-electrification/zonal-architecture"
+      },
+      "publishedAt": null,
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 39,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 7,
+        "scale": 5,
+        "specificity": 5,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "Evergreen product material with no dated update."
+    },
+    {
+      "id": "raw-itech-zonal",
+      "funnel": "Cloud/OS/development",
+      "eventKey": "itech-zonal-cloud-ready-ecu-2026-10-03",
+      "title": "Zonal and centralized cloud-ready ECU analysis",
+      "source": {
+        "family": "iTechGuides",
+        "url": "https://www.itechguides.com/why-vehicle-architecture-is-moving-toward-zonal-centralized-cloud-ready-ecus/"
+      },
+      "publishedAt": "2026-10-03",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 43,
+      "scoreBreakdown": {
+        "sdvDirectness": 17,
+        "practicalImpact": 8,
+        "scale": 6,
+        "specificity": 7,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "Published before publication window; educational analysis only."
+    },
+    {
+      "id": "raw-nissan-virtual-ecu",
+      "funnel": "Cloud/OS/development",
+      "eventKey": "nissan-nsosp-virtual-ecu-sdk-2026-06",
+      "title": "Nissan virtual ECU and SDK",
+      "source": {
+        "family": "Nissan official",
+        "url": "https://www2.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/"
+      },
+      "publishedAt": "2026-06-01",
+      "updatedAt": "2026-06-01",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 66,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 17,
+        "scale": 10,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "Duplicate of canonical Nissan platform event and outside window.",
+      "duplicateOf": "nissan-scalable-open-software-platform-2026-06"
+    },
+    {
+      "id": "raw-unece-r155",
+      "funnel": "Regulation/Security",
+      "eventKey": "unece-r155-evergreen",
+      "title": "UNECE R155 cyber security regulation",
+      "source": {
+        "family": "UNECE official",
+        "url": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security"
+      },
+      "publishedAt": null,
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 46,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 10,
+        "scale": 8,
+        "specificity": 6,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "No new amendment or implementation notice in the window."
+    },
+    {
+      "id": "raw-infineon-ethernet",
+      "funnel": "Regulation/Security",
+      "eventKey": "infineon-ethernet-sdv-2026-03-05",
+      "title": "Ethernet as SDV communication fabric",
+      "source": {
+        "family": "Infineon official",
+        "url": "https://www.infineon.com/our-stories/enabling-ethernet"
+      },
+      "publishedAt": "2026-03-05",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 44,
+      "scoreBreakdown": {
+        "sdvDirectness": 19,
+        "practicalImpact": 8,
+        "scale": 6,
+        "specificity": 7,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "Outside window; no new dated update."
+    },
+    {
+      "id": "raw-vector-networks",
+      "funnel": "Cross",
+      "eventKey": "vector-automotive-networks-evergreen",
+      "title": "Vector automotive networks for SDV",
+      "source": {
+        "family": "Vector official",
+        "url": "https://www.vector.com/en/industries/automotive/application-areas/networks/"
+      },
+      "publishedAt": null,
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 47,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 10,
+        "scale": 6,
+        "specificity": 6,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "Evergreen portfolio page; no new dated event."
+    },
+    {
+      "id": "raw-ree-sdv",
+      "funnel": "Cross",
+      "eventKey": "ree-zonal-sdv-platform-evergreen",
+      "title": "REE zonal SDV platform",
+      "source": {
+        "family": "REE official",
+        "url": "https://ree.auto/"
+      },
+      "publishedAt": null,
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 49,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 10,
+        "scale": 7,
+        "specificity": 6,
+        "novelty": 4
+      },
+      "decision": "excluded",
+      "reason": "Evergreen product page; no publication-window announcement."
+    }
+  ],
+  "adopted": [
+    {
+      "eventKey": "honda-tata-technologies-india-development-2026-10-05",
+      "id": "sdv-honda-tata-dev-partnership-20261005",
+      "placement": "reference",
+      "score": 48
+    }
+  ],
+  "excluded": [
+    {
+      "eventKey": "nissan-scalable-open-software-platform-2026-06",
+      "reason": "Published before publication window; audit-only late discovery.",
+      "score": 70
+    },
+    {
+      "eventKey": "covesa-vss-current-docs",
+      "reason": "Evergreen project page; no new dated event.",
+      "score": 54
+    },
+    {
+      "eventKey": "google-aaos-sdv-open-source-2026-03-24",
+      "reason": "Outside window and already known; audit-only.",
+      "score": 71
+    },
+    {
+      "eventKey": "itech-automotive-soc-consolidation-2026-10-03",
+      "reason": "Published before current publication window; analysis, not a new product event.",
+      "score": 42
+    },
+    {
+      "eventKey": "onsemi-zonal-architecture-evergreen",
+      "reason": "Evergreen product material with no dated update.",
+      "score": 39
+    },
+    {
+      "eventKey": "itech-zonal-cloud-ready-ecu-2026-10-03",
+      "reason": "Published before publication window; educational analysis only.",
+      "score": 43
+    },
+    {
+      "eventKey": "nissan-nsosp-virtual-ecu-sdk-2026-06",
+      "reason": "Duplicate of canonical Nissan platform event and outside window.",
+      "score": 66
+    },
+    {
+      "eventKey": "unece-r155-evergreen",
+      "reason": "No new amendment or implementation notice in the window.",
+      "score": 46
+    },
+    {
+      "eventKey": "infineon-ethernet-sdv-2026-03-05",
+      "reason": "Outside window; no new dated update.",
+      "score": 44
+    },
+    {
+      "eventKey": "vector-automotive-networks-evergreen",
+      "reason": "Evergreen portfolio page; no new dated event.",
+      "score": 47
+    },
+    {
+      "eventKey": "ree-zonal-sdv-platform-evergreen",
+      "reason": "Evergreen product page; no publication-window announcement.",
+      "score": 49
+    }
+  ],
+  "duplicates": [
+    {
+      "eventKey": "nissan-nsosp-virtual-ecu-sdk-2026-06",
+      "duplicateOf": "nissan-scalable-open-software-platform-2026-06"
+    }
+  ],
+  "lateDiscoveries": [
+    {
+      "eventKey": "nissan-scalable-open-software-platform-2026-06",
+      "publishedAt": "2026-06-01",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "covesa-vss-current-docs",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "google-aaos-sdv-open-source-2026-03-24",
+      "publishedAt": "2026-03-24",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "itech-automotive-soc-consolidation-2026-10-03",
+      "publishedAt": "2026-10-03",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "onsemi-zonal-architecture-evergreen",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "itech-zonal-cloud-ready-ecu-2026-10-03",
+      "publishedAt": "2026-10-03",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "nissan-nsosp-virtual-ecu-sdk-2026-06",
+      "publishedAt": "2026-06-01",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "unece-r155-evergreen",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "infineon-ethernet-sdv-2026-03-05",
+      "publishedAt": "2026-03-05",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "vector-automotive-networks-evergreen",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "ree-zonal-sdv-platform-evergreen",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "auditOnly": true
+    }
+  ],
+  "codexAudit": {
+    "officialRoute": {
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "site:help.openai.com OR site:developers.openai.com OR site:openai.com Codex usage limit weekly reset credits October 5 2026 OR October 6 2026",
+          "rawHitCount": 1
+        },
+        {
+          "query": "site:status.openai.com Codex incident usage limits reset October 2026",
+          "rawHitCount": 2
+        }
+      ],
+      "result": "Work Mode/Codex Desktop incident found; no new usage-limit reset policy."
+    },
+    "xRoute": {
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "site:x.com OpenAI OR Codex reset limits restored weekly limit 5-hour since:2026-10-04",
+          "rawHitCount": 0
+        },
+        {
+          "query": "site:x.com Codex banked reset global reset reset ticket limits reset since:2026-10-04",
+          "rawHitCount": 0
+        }
+      ],
+      "result": "No corroborated reset event or multi-user burst found; no unconfirmed reference created."
+    }
+  },
+  "summary": {
+    "rawCandidateCount": 12,
+    "adoptedCount": 1,
+    "excludedCount": 11,
+    "duplicateCount": 1,
+    "lateAuditOnlyCount": 10,
+    "importantCount": 0,
+    "referenceCount": 1
+  },
+  "completedAt": "2026-10-06T07:18:00+09:00"
+}
