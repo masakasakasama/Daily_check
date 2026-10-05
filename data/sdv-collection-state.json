@@ -1,98 +1,127 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T06:57:05+09:00",
+  "updatedAt": "2026-10-06T07:18:00+09:00",
   "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
   "funnels": {
-    "OEM": {"lastSuccessfulAt":"2026-10-05T07:29:00+09:00","lastCount":2},
-    "Platform": {"lastSuccessfulAt":"2026-10-05T07:29:00+09:00","lastCount":2},
-    "Tier1Semi": {"lastSuccessfulAt":"2026-10-05T07:29:00+09:00","lastCount":2},
-    "CloudOS": {"lastSuccessfulAt":"2026-10-05T07:29:00+09:00","lastCount":2},
-    "RegSecurity": {"lastSuccessfulAt":"2026-10-05T07:29:00+09:00","lastCount":2},
-    "Cross": {"lastSuccessfulAt":"2026-10-05T07:29:00+09:00","lastCount":2}
+    "OEM": {
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastCount": 2
+    },
+    "Platform": {
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastCount": 2
+    },
+    "Tier1Semi": {
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastCount": 2
+    },
+    "CloudOS": {
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastCount": 2
+    },
+    "RegSecurity": {
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastCount": 2
+    },
+    "Cross": {
+      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastCount": 2
+    }
   },
   "unresolvedWindows": [],
   "pendingBatch": {
-    "date":"2026-10-06",
-    "stage":"collecting",
-    "startedAt":"2026-10-06T06:57:05+09:00",
-    "windowStart":"2026-10-03T07:29:00+09:00",
-    "windowEnd":"2026-10-06T06:57:05+09:00",
-    "publicationWindowStart":"2026-10-05T07:29:00+09:00",
-    "publicationWindowEnd":"2026-10-06T06:57:05+09:00",
-    "paths":{"day":"data/days/2026-10-06.json","audit":"data/audits/2026-10-06-sdv.json","week":"data/weeks/2026-09-30--2026-10-06.json"}
+    "date": "2026-10-06",
+    "stage": "collected",
+    "startedAt": "2026-10-06T06:57:05+09:00",
+    "windowStart": "2026-10-03T07:29:00+09:00",
+    "windowEnd": "2026-10-06T06:57:05+09:00",
+    "publicationWindowStart": "2026-10-05T07:29:00+09:00",
+    "publicationWindowEnd": "2026-10-06T06:57:05+09:00",
+    "paths": {
+      "day": "data/days/2026-10-06.json",
+      "audit": "data/audits/2026-10-06-sdv.json",
+      "week": "data/weeks/2026-09-30--2026-10-06.json"
+    },
+    "collectedAt": "2026-10-06T07:18:00+09:00",
+    "counts": {
+      "alerts": 2,
+      "references": 1,
+      "sdvRawCandidates": 12,
+      "sdvAdopted": 1
+    }
   },
-  "lastVerifiedDailyCommit":"9db22b020093d9df0360be09674d8c7dbb7f1ccf",
-  "lastAudit":"data/audits/2026-10-05-sdv.json",
-  "nextWindowRule":"per-funnel lastSuccessfulAt minus 48 hours",
-  "weeklyBackfill":"last 7 days",
-  "collectionPolicy":{
-  "version": 3,
-  "candidateFloor": 0,
-  "rule": "Never conclude zero candidates from publication threshold. Record every plausible SDV hit before relevance, duplicate, and score filtering.",
-  "funnelQueries": {
-    "OEM": [
-      "software-defined vehicle",
-      "vehicle OS",
-      "E/E architecture",
-      "central compute",
-      "zonal ECU",
-      "OTA",
-      "vehicle API",
-      "automotive middleware"
-    ],
-    "Platform": [
-      "AAOS",
-      "AUTOSAR Adaptive",
-      "SOAFEE",
-      "Eclipse SDV",
-      "COVESA",
-      "QNX",
-      "Alloy Kore",
-      "vehicle OS",
-      "automotive hypervisor"
-    ],
-    "Tier1Semi": [
-      "SDV platform",
-      "central compute",
-      "HPC automotive",
-      "zonal controller",
-      "automotive middleware",
-      "OTA"
-    ],
-    "CloudOS": [
-      "automotive cloud development",
-      "virtual ECU",
-      "SIL HIL",
-      "digital twin automotive",
-      "vehicle SDK",
-      "CI/CD automotive"
-    ],
-    "RegSecurity": [
-      "UNECE R155",
-      "UNECE R156",
-      "ISO 21434",
-      "automotive cybersecurity",
-      "software update regulation"
-    ],
-    "Cross": [
-      "software-defined vehicle",
-      "SDV automotive software",
-      "vehicle OS middleware HPC zonal OTA"
-    ]
-  },
-  "zeroResultRule": "If any funnel has zero raw candidates, rerun with at least two alternate query families and record query, source URL, retrieval status, and raw hit count.",
-  "auditRule": "Audit must contain rawCandidates, excluded candidates with reason, duplicates with canonical eventKey, and adopted candidates. candidateCount means raw candidates before filtering.",
-  "scoring": {
-    "sdvDirectness": 25,
-    "practicalImpact": 25,
-    "scale": 20,
-    "specificity": 15,
-    "novelty": 15,
-    "publicationFloor": 40,
-    "importantFloor": 65
-  },
-  "deepScanRule": "Run a second pass when total rawCandidates < 8, four or more funnels have zero raw candidates, all six funnels are zero, or SDV publication count is zero for two consecutive days. Deep Scan must add at least 12 date/company/technology/regulation/source-specific queries.",
-  "completionGate": "Do not set collectionComplete=true or declare SDV clear unless audit contains concrete query strings, source URLs/source families, observed raw hit counts, raw candidates and explicit adoption/exclusion/duplicate reasons. If evidence is insufficient, set anomaly=true and leave collection incomplete.",
-  "lateDiscoveryRule": "If a missed event from the 48-hour overlap window is discovered later, preserve original publishedAt, set firstSeenAt to actual discovery time, mark discoveredLate=true, and keep it audit-only when it belongs to a past daily publication window. Never insert it into today's alerts or references."
-}
+  "lastVerifiedDailyCommit": "9db22b020093d9df0360be09674d8c7dbb7f1ccf",
+  "lastAudit": "data/audits/2026-10-05-sdv.json",
+  "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
+  "weeklyBackfill": "last 7 days",
+  "collectionPolicy": {
+    "version": 3,
+    "candidateFloor": 0,
+    "rule": "Never conclude zero candidates from publication threshold. Record every plausible SDV hit before relevance, duplicate, and score filtering.",
+    "funnelQueries": {
+      "OEM": [
+        "software-defined vehicle",
+        "vehicle OS",
+        "E/E architecture",
+        "central compute",
+        "zonal ECU",
+        "OTA",
+        "vehicle API",
+        "automotive middleware"
+      ],
+      "Platform": [
+        "AAOS",
+        "AUTOSAR Adaptive",
+        "SOAFEE",
+        "Eclipse SDV",
+        "COVESA",
+        "QNX",
+        "Alloy Kore",
+        "vehicle OS",
+        "automotive hypervisor"
+      ],
+      "Tier1Semi": [
+        "SDV platform",
+        "central compute",
+        "HPC automotive",
+        "zonal controller",
+        "automotive middleware",
+        "OTA"
+      ],
+      "CloudOS": [
+        "automotive cloud development",
+        "virtual ECU",
+        "SIL HIL",
+        "digital twin automotive",
+        "vehicle SDK",
+        "CI/CD automotive"
+      ],
+      "RegSecurity": [
+        "UNECE R155",
+        "UNECE R156",
+        "ISO 21434",
+        "automotive cybersecurity",
+        "software update regulation"
+      ],
+      "Cross": [
+        "software-defined vehicle",
+        "SDV automotive software",
+        "vehicle OS middleware HPC zonal OTA"
+      ]
+    },
+    "zeroResultRule": "If any funnel has zero raw candidates, rerun with at least two alternate query families and record query, source URL, retrieval status, and raw hit count.",
+    "auditRule": "Audit must contain rawCandidates, excluded candidates with reason, duplicates with canonical eventKey, and adopted candidates. candidateCount means raw candidates before filtering.",
+    "scoring": {
+      "sdvDirectness": 25,
+      "practicalImpact": 25,
+      "scale": 20,
+      "specificity": 15,
+      "novelty": 15,
+      "publicationFloor": 40,
+      "importantFloor": 65
+    },
+    "deepScanRule": "Run a second pass when total rawCandidates < 8, four or more funnels have zero raw candidates, all six funnels are zero, or SDV publication count is zero for two consecutive days. Deep Scan must add at least 12 date/company/technology/regulation/source-specific queries.",
+    "completionGate": "Do not set collectionComplete=true or declare SDV clear unless audit contains concrete query strings, source URLs/source families, observed raw hit counts, raw candidates and explicit adoption/exclusion/duplicate reasons. If evidence is insufficient, set anomaly=true and leave collection incomplete.",
+    "lateDiscoveryRule": "If a missed event from the 48-hour overlap window is discovered later, preserve original publishedAt, set firstSeenAt to actual discovery time, mark discoveredLate=true, and keep it audit-only when it belongs to a past daily publication window. Never insert it into today's alerts or references."
+  }
 }
