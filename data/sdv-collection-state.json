@@ -1,57 +1,37 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T07:18:00+09:00",
-  "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+  "updatedAt": "2026-10-06T07:25:00+09:00",
+  "lastSuccessfulAt": "2026-10-06T07:25:00+09:00",
   "funnels": {
     "OEM": {
-      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastSuccessfulAt": "2026-10-06T07:25:00+09:00",
       "lastCount": 2
     },
     "Platform": {
-      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastSuccessfulAt": "2026-10-06T07:25:00+09:00",
       "lastCount": 2
     },
     "Tier1Semi": {
-      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastSuccessfulAt": "2026-10-06T07:25:00+09:00",
       "lastCount": 2
     },
     "CloudOS": {
-      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastSuccessfulAt": "2026-10-06T07:25:00+09:00",
       "lastCount": 2
     },
     "RegSecurity": {
-      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastSuccessfulAt": "2026-10-06T07:25:00+09:00",
       "lastCount": 2
     },
     "Cross": {
-      "lastSuccessfulAt": "2026-10-05T07:29:00+09:00",
+      "lastSuccessfulAt": "2026-10-06T07:25:00+09:00",
       "lastCount": 2
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": {
-    "date": "2026-10-06",
-    "stage": "collected",
-    "startedAt": "2026-10-06T06:57:05+09:00",
-    "windowStart": "2026-10-03T07:29:00+09:00",
-    "windowEnd": "2026-10-06T06:57:05+09:00",
-    "publicationWindowStart": "2026-10-05T07:29:00+09:00",
-    "publicationWindowEnd": "2026-10-06T06:57:05+09:00",
-    "paths": {
-      "day": "data/days/2026-10-06.json",
-      "audit": "data/audits/2026-10-06-sdv.json",
-      "week": "data/weeks/2026-09-30--2026-10-06.json"
-    },
-    "collectedAt": "2026-10-06T07:18:00+09:00",
-    "counts": {
-      "alerts": 2,
-      "references": 1,
-      "sdvRawCandidates": 12,
-      "sdvAdopted": 1
-    }
-  },
-  "lastVerifiedDailyCommit": "9db22b020093d9df0360be09674d8c7dbb7f1ccf",
-  "lastAudit": "data/audits/2026-10-05-sdv.json",
+  "pendingBatch": null,
+  "lastVerifiedDailyCommit": "000857559ba0c08b551e3d047d79a9e9d43ad409",
+  "lastAudit": "data/audits/2026-10-06-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days",
   "collectionPolicy": {
