@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-07",
+  "alerts": [
+    {
+      "id": "sdv-applied-honda-20261006",
+      "eventKey": "applied-intuition-honda-full-vehicle-sdv-2026-10-06",
+      "category": "SDV",
+      "score": 92,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 23,
+        "scale": 20,
+        "specificity": 14,
+        "novelty": 10
+      },
+      "title": "Honda、Applied IntuitionのVehicle OSで次世代SDVを共同開発",
+      "summary": "Hondaの内製を維持しつつ、AppliedのVehicle OSを使って中央集約・OTA更新可能な全車両SDV基盤を加速。ハイブリッドを含む全パワートレインと次世代車両アーキテクチャへ展開",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "Applied Intuition",
+        "url": "https://www.appliedintuition.com/press-releases/applied-intuition-honda-sdv-partnership"
+      }
+    },
+    {
+      "id": "sdv-applied-nissan-20261006",
+      "eventKey": "applied-intuition-nissan-aidv-platform-2026-10-06",
+      "category": "SDV",
+      "score": 90,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 22,
+        "scale": 18,
+        "specificity": 14,
+        "novelty": 11
+      },
+      "title": "Nissan、AppliedのVehicle OSとAI開発基盤を次世代AIDVへ導入",
+      "summary": "AppliedのVehicle OSとAI-native開発ツールで、日産のスケーラブルな車載ソフト基盤を支援。複数パワートレイン共通化、ハード抽象化、開発短縮を狙い、2020年からの協業をシミュレーションから車載OSへ拡大",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "Applied Intuition",
+        "url": "https://www.appliedintuition.com/press-releases/applied-intuition-nissan-aidv-development"
+      }
+    },
+    {
+      "id": "codex-auto-review-free-20261006",
+      "eventKey": "openai-codex-auto-review-free-chatgpt-signin-2026-10-06",
+      "category": "Codex",
+      "score": 87,
+      "scoreBreakdown": {
+        "userImpact": 34,
+        "novelty": 18,
+        "technicalImportance": 16,
+        "availability": 12,
+        "industryImpact": 7
+      },
+      "title": "Codex、ChatGPTログイン時のAuto-reviewを無料化",
+      "summary": "承認待ちになり得る操作を別レビューで安全判定し、承認時はCodexが継続実行。ChatGPTアカウントでの安全チェックは利用枠を消費せず、Settings→Permissions→Auto-reviewから有効化可能",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan"
+      }
+    },
+    {
+      "id": "ai-openai-decisions-api-public-beta-20261006",
+      "eventKey": "openai-decisions-api-public-beta-2026-10-06",
+      "category": "AI",
+      "score": 85,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "availability": 13,
+        "industryImpact": 5
+      },
+      "title": "OpenAI Decisions API、全開発者向け公開βへ",
+      "summary": "GPT‑6 Lunaでテキスト・画像を固定選択、真偽、段階評価へ変換し、分類・ルーティング・agent行動選択をResponses API比最大10倍高速化。Jevと同系統の一次判定用途をOpenAI APIで実装可能",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "OpenAI Developers",
+        "url": "https://developers.openai.com/api/reference/cli/resources/decisions/methods/create"
+      }
+    },
+    {
+      "id": "sdv-lg-renault-cockpit-20261006",
+      "eventKey": "lg-renault-trafic-integrated-cockpit-sdv-2026-10-06",
+      "category": "SDV",
+      "score": 81,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 19,
+        "scale": 16,
+        "specificity": 13,
+        "novelty": 9
+      },
+      "title": "LG、Renault初の量産商用SDVへ統合cockpitを供給",
+      "summary": "New Trafic E‑Tech Electric向けにメーターとinfotainmentを単一制御基盤へ統合。中央集約型SDVでUX一貫性、部品簡素化、コスト最適化を実現し、OTAによる継続更新を支える",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "LG Electronics",
+        "url": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml"
+      }
+    },
+    {
+      "id": "ai-openai-api-tier-simplification-20261006",
+      "eventKey": "openai-api-usage-tiers-build-launch-grow-2026-10-06",
+      "category": "AI",
+      "score": 79,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 15,
+        "technicalImportance": 13,
+        "availability": 13,
+        "industryImpact": 7
+      },
+      "title": "OpenAI API、利用tierを5段階から3段階へ簡素化",
+      "summary": "Build・Launch・Growの3段階へ再編し、有料組織は累計credit購入額に応じ自動移行。最高tier到達条件は従来の累計1,000ドルから500ドルへ下がり、より早く高いrate limitを利用可能",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "OpenAI API Changelog",
+        "url": "https://developers.openai.com/api/docs/changelog"
+      }
+    },
+    {
+      "id": "sdv-ecarx-flyme-acquisition-20261005",
+      "eventKey": "ecarx-flyme-auto-os-acquisition-complete-2026-10-05",
+      "category": "SDV",
+      "score": 74,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 18,
+        "scale": 17,
+        "specificity": 11,
+        "novelty": 7
+      },
+      "title": "ECARX、Flyme Auto/OS買収を完了し車載OSを内製化",
+      "summary": "Flyme AutoとFlyme OSの全事業を約2.66億ドルで取得。350万台採用のcockpit OSをCloudpeak、SoC、中央計算基盤と統合し、SDV向けend-to-end stackを強化",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "ECARX",
+        "url": "https://en.prnasia.com/releases/global/ecarx-completes-acquisition-of-flyme-software-business-securing-end-to-end-operating-system-capabilities-550581.shtml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-mistral-large4-preview-20261006",
+      "eventKey": "mistral-large-4-announcement-2026-10-06",
+      "category": "AI",
+      "score": 68,
+      "scoreBreakdown": {
+        "userImpact": 20,
+        "novelty": 16,
+        "technicalImportance": 15,
+        "availability": 8,
+        "industryImpact": 9
+      },
+      "title": "Mistral、open-weight「Large 4」を10月27日公開へ",
+      "summary": "coding、金融、地理空間、製造、chip設計を対象とする次期open-weightモデル。現時点はサイバー専門家への先行提供で、一般公開前のため参考扱い",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/"
+      }
+    },
+    {
+      "id": "ai-anthropic-cvp-expanded-20261006",
+      "eventKey": "anthropic-cyber-verification-program-expanded-2026-10-06",
+      "category": "AI",
+      "score": 63,
+      "scoreBreakdown": {
+        "userImpact": 15,
+        "novelty": 14,
+        "technicalImportance": 16,
+        "availability": 10,
+        "industryImpact": 8
+      },
+      "title": "Anthropic、高度cyber能力の検証付きアクセスを3 tierへ拡張",
+      "summary": "資格確認済みsecurity担当者向けに、Opus 5.5、Sonnet 5.5、Mythos 5.1等と緩和classifierを提供。一般利用ではなく限定プログラムのため参考扱い",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/glasswing"
+      }
+    },
+    {
+      "id": "ai-openai-ironclad-computer-use-20261006",
+      "eventKey": "openai-ironclad-computer-use-research-2026-10-06",
+      "category": "AI",
+      "score": 58,
+      "scoreBreakdown": {
+        "userImpact": 15,
+        "novelty": 12,
+        "technicalImportance": 15,
+        "availability": 8,
+        "industryImpact": 8
+      },
+      "title": "OpenAI、Ironclad実務でAstraのcomputer use訓練を検証",
+      "summary": "契約・承認・調達の11業務でAstraを訓練評価し、GPT‑5.6 Sol比で平均score 32%向上、推定時間48%短縮。新機能の一般提供ではなく研究協業のため参考扱い",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/advancing-computer-use-with-ironclad/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "update",
+      "summary": "重要2件・参考3件。Decisions API公開βとAPI tier簡素化を重要採用。Mistral、Anthropic CVP、Ironclad研究は参考",
+      "checkedAt": "2026-10-07T07:22:00+09:00",
+      "alertCount": 2,
+      "referenceCount": 3
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV / Nissanニュース",
+      "status": "update",
+      "summary": "6 funnel 24検索を完走しraw候補12件を監査。Applied×Honda/Nissan、LG×Renault、ECARX/Flymeの4件を重要採用。Applied Intuitionを固定巡回へ追加",
+      "checkedAt": "2026-10-07T07:22:00+09:00",
+      "alertCount": 4,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex-reset",
+      "name": "Codexリセット時刻監視",
+      "status": "update",
+      "summary": "公式経路とX経路を確認。新規リセットはなし。ChatGPTログイン時のAuto-review無料化を重要採用。10/3 JSTの一斉リセットは過去監査済み",
+      "checkedAt": "2026-10-07T07:22:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "permanent-residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "カナダ、英国、豪州、ニュージーランド、日本、ドイツの公式情報を確認。前回成功以降、通知対象となる実質的変更なし",
+      "checkedAt": "2026-10-07T07:22:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
