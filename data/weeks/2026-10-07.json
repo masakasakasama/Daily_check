@@ -1,0 +1,627 @@
+{
+  "start": "2026-10-01",
+  "end": "2026-10-07",
+  "generatedAt": "2026-10-07T07:24:00+09:00",
+  "headline": "今週のDaily Check：重要13件・参考23件",
+  "counts": {
+    "important": 13,
+    "reference": 23
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要6件・参考12件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要2件・参考0件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要4件・参考11件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要1件・参考0件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "ai-google-gemini4-argon-20260930",
+      "eventKey": "google-gemini-4-argon-2026-09-30",
+      "category": "AI",
+      "score": 96,
+      "title": "Google、次世代フロンティアモデル「Gemini 4 Argon」を発表",
+      "summary": "長期の複雑タスク、ソフトウェア開発、法務・金融、サイバー防御に重点。出力上限100万トークン、入力100万トークン当たり2ドル・出力10ドルで、まず信頼された防御組織へ段階展開",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      }
+    },
+    {
+      "id": "sdv-applied-honda-20261006",
+      "eventKey": "applied-intuition-honda-full-vehicle-sdv-2026-10-06",
+      "category": "SDV",
+      "score": 92,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 23,
+        "scale": 20,
+        "specificity": 14,
+        "novelty": 10
+      },
+      "title": "Honda、Applied IntuitionのVehicle OSで次世代SDVを共同開発",
+      "summary": "Hondaの内製を維持しつつ、AppliedのVehicle OSを使って中央集約・OTA更新可能な全車両SDV基盤を加速。ハイブリッドを含む全パワートレインと次世代車両アーキテクチャへ展開",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "Applied Intuition",
+        "url": "https://www.appliedintuition.com/press-releases/applied-intuition-honda-sdv-partnership"
+      }
+    },
+    {
+      "id": "sdv-applied-nissan-20261006",
+      "eventKey": "applied-intuition-nissan-aidv-platform-2026-10-06",
+      "category": "SDV",
+      "score": 90,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 22,
+        "scale": 18,
+        "specificity": 14,
+        "novelty": 11
+      },
+      "title": "Nissan、AppliedのVehicle OSとAI開発基盤を次世代AIDVへ導入",
+      "summary": "AppliedのVehicle OSとAI-native開発ツールで、日産のスケーラブルな車載ソフト基盤を支援。複数パワートレイン共通化、ハード抽象化、開発短縮を狙い、2020年からの協業をシミュレーションから車載OSへ拡大",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "Applied Intuition",
+        "url": "https://www.appliedintuition.com/press-releases/applied-intuition-nissan-aidv-development"
+      }
+    },
+    {
+      "id": "codex-auto-review-free-20261006",
+      "eventKey": "openai-codex-auto-review-free-chatgpt-signin-2026-10-06",
+      "category": "Codex",
+      "score": 87,
+      "scoreBreakdown": {
+        "userImpact": 34,
+        "novelty": 18,
+        "technicalImportance": 16,
+        "availability": 12,
+        "industryImpact": 7
+      },
+      "title": "Codex、ChatGPTログイン時のAuto-reviewを無料化",
+      "summary": "承認待ちになり得る操作を別レビューで安全判定し、承認時はCodexが継続実行。ChatGPTアカウントでの安全チェックは利用枠を消費せず、Settings→Permissions→Auto-reviewから有効化可能",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan"
+      }
+    },
+    {
+      "id": "ai-google-gemini-skills-20260930",
+      "eventKey": "google-gemini-skills-replace-gems-2026-09-30",
+      "category": "AI",
+      "score": 86,
+      "title": "Gemini、再利用可能な「Skills」を世界展開しGemsを置換へ",
+      "summary": "保存した指示をスラッシュコマンドで呼び出し、複数Skillや参照ファイルを組み合わせ可能。Gemini chatへ世界展開し、Workspace各プランにも順次提供",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+      }
+    },
+    {
+      "id": "ai-openai-decisions-api-public-beta-20261006",
+      "eventKey": "openai-decisions-api-public-beta-2026-10-06",
+      "category": "AI",
+      "score": 85,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "availability": 13,
+        "industryImpact": 5
+      },
+      "title": "OpenAI Decisions API、全開発者向け公開βへ",
+      "summary": "GPT‑6 Lunaでテキスト・画像を固定選択、真偽、段階評価へ変換し、分類・ルーティング・agent行動選択をResponses API比最大10倍高速化。Jevと同系統の一次判定用途をOpenAI APIで実装可能",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "OpenAI Developers",
+        "url": "https://developers.openai.com/api/reference/cli/resources/decisions/methods/create"
+      }
+    },
+    {
+      "id": "ai-anthropic-claude-code-mods-20261001",
+      "eventKey": "anthropic-claude-code-2-1-287-mods-2026-10-01",
+      "category": "AI",
+      "score": 83,
+      "title": "Claude Code 2.1.287、動作を拡張するClaude Modsと監視サイドエージェントを追加",
+      "summary": "プラグインがより深い動作を変更できるClaude Modsを導入。見落としを指摘する組み込みサイドエージェント、エージェント検索、MCP URLプロンプトにも対応",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://code.claude.com/docs/en/changelog"
+      }
+    },
+    {
+      "id": "ai-openai-textgrain-20261005",
+      "eventKey": "openai-textgrain-eu-api-opt-in-2026-10-05",
+      "category": "AI",
+      "score": 82,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 17,
+        "technicalImportance": 15,
+        "availability": 13,
+        "industryImpact": 8
+      },
+      "title": "OpenAI、ChatGPT/CodexへtextGrain透かしを導入",
+      "summary": "EUの全プランでは対象テキスト出力へ今後数週間で不可視透かしを追加。APIは世界で対応モデルへのopt-inを即日開始し、既定ではオフ。EU利用時の出力特性とAPIの来歴表示設計に直接影響",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/eu-text-provenance/"
+      }
+    },
+    {
+      "id": "sdv-lg-renault-cockpit-20261006",
+      "eventKey": "lg-renault-trafic-integrated-cockpit-sdv-2026-10-06",
+      "category": "SDV",
+      "score": 81,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 19,
+        "scale": 16,
+        "specificity": 13,
+        "novelty": 9
+      },
+      "title": "LG、Renault初の量産商用SDVへ統合cockpitを供給",
+      "summary": "New Trafic E‑Tech Electric向けにメーターとinfotainmentを単一制御基盤へ統合。中央集約型SDVでUX一貫性、部品簡素化、コスト最適化を実現し、OTAによる継続更新を支える",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "LG Electronics",
+        "url": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml"
+      }
+    },
+    {
+      "id": "pr-nz-parent-resident-hybrid-selection-20261005",
+      "eventKey": "new-zealand-parent-resident-hybrid-selection-go-live-2026-10-05",
+      "category": "Permanent Residency",
+      "score": 80,
+      "title": "ニュージーランド、Parent Resident Visaを90%先着・10%抽選方式へ移行",
+      "summary": "10月5日から有効なEOIを単一プールへ統合し、約90%を提出日順、約10%を抽選で選ぶ方式へ変更。年間2,500件の上限と資格要件は据え置きで、初回選考は11月10日",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-05T06:59:45+09:00",
+      "source": {
+        "label": "Immigration New Zealand",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/parent-resident-visa-category-hybrid-selection-process-now-in-place/"
+      }
+    },
+    {
+      "id": "ai-openai-api-tier-simplification-20261006",
+      "eventKey": "openai-api-usage-tiers-build-launch-grow-2026-10-06",
+      "category": "AI",
+      "score": 79,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 15,
+        "technicalImportance": 13,
+        "availability": 13,
+        "industryImpact": 7
+      },
+      "title": "OpenAI API、利用tierを5段階から3段階へ簡素化",
+      "summary": "Build・Launch・Growの3段階へ再編し、有料組織は累計credit購入額に応じ自動移行。最高tier到達条件は従来の累計1,000ドルから500ドルへ下がり、より早く高いrate limitを利用可能",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "OpenAI API Changelog",
+        "url": "https://developers.openai.com/api/docs/changelog"
+      }
+    },
+    {
+      "id": "codex-work-mode-errors-20261005",
+      "eventKey": "openai-work-mode-codex-desktop-errors-2026-10-05",
+      "category": "Codex",
+      "score": 78,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 14,
+        "technicalImportance": 12,
+        "availability": 14,
+        "industryImpact": 7
+      },
+      "title": "OpenAI、Work Mode／Codex Desktopの障害を軽減し監視中",
+      "summary": "Work Modeでエラー率が上昇し、Codex in ChatGPT Desktopとscheduled tasksにも影響。OpenAIは軽減策を適用して復旧を監視中としており、実行失敗時は再試行と状態確認が必要",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/mysmq298"
+      }
+    },
+    {
+      "id": "sdv-ecarx-flyme-acquisition-20261005",
+      "eventKey": "ecarx-flyme-auto-os-acquisition-complete-2026-10-05",
+      "category": "SDV",
+      "score": 74,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 18,
+        "scale": 17,
+        "specificity": 11,
+        "novelty": 7
+      },
+      "title": "ECARX、Flyme Auto/OS買収を完了し車載OSを内製化",
+      "summary": "Flyme AutoとFlyme OSの全事業を約2.66億ドルで取得。350万台採用のcockpit OSをCloudpeak、SoC、中央計算基盤と統合し、SDV向けend-to-end stackを強化",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "ECARX",
+        "url": "https://en.prnasia.com/releases/global/ecarx-completes-acquisition-of-flyme-software-business-securing-end-to-end-operating-system-capabilities-550581.shtml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-google-antigravity-claude-55-20261003",
+      "eventKey": "google-antigravity-claude-opus-sonnet-5-5-2026-10-03",
+      "category": "AI",
+      "score": 68,
+      "title": "Google Antigravity、Claude Opus 5.5／Sonnet 5.5をモデル選択肢に追加",
+      "summary": "Googleのコーディング基盤AntigravityでClaude 5.5系を選択可能に。Google AI Pro/Ultraの有料ユーザー向けで、GeminiとClaudeを同じ開発環境から比較・利用できる",
+      "publishedAt": "2026/10/03",
+      "firstSeenAt": "2026-10-04T06:57:31+09:00",
+      "source": {
+        "label": "Google Antigravity Docs / Startup Fortune",
+        "url": "https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/"
+      }
+    },
+    {
+      "id": "ai-mistral-large4-preview-20261006",
+      "eventKey": "mistral-large-4-announcement-2026-10-06",
+      "category": "AI",
+      "score": 68,
+      "scoreBreakdown": {
+        "userImpact": 20,
+        "novelty": 16,
+        "technicalImportance": 15,
+        "availability": 8,
+        "industryImpact": 9
+      },
+      "title": "Mistral、open-weight「Large 4」を10月27日公開へ",
+      "summary": "coding、金融、地理空間、製造、chip設計を対象とする次期open-weightモデル。現時点はサイバー専門家への先行提供で、一般公開前のため参考扱い",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/"
+      }
+    },
+    {
+      "id": "sdv-scsk-vector-edge-ecu-platform-20261001",
+      "eventKey": "scsk-vector-microsar-qines-rl78-edge-ecu-2026-10-01",
+      "category": "SDV",
+      "score": 64,
+      "title": "SCSKとVector、小型ECU向け共通ソフト基盤を共同開発",
+      "summary": "MICROSAR IOとQINeS-LiteをRenesas RL78/F2x向けに統合し、ドア・センサー・空調などのエッジECU開発工数を50〜80%削減する試作を10月から提供",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / SCSK",
+        "url": "https://sdvsector.com/news/2026-10-01-scsk-vector-microsar-io-qines-lite-rl78"
+      }
+    },
+    {
+      "id": "ai-anthropic-cvp-expanded-20261006",
+      "eventKey": "anthropic-cyber-verification-program-expanded-2026-10-06",
+      "category": "AI",
+      "score": 63,
+      "scoreBreakdown": {
+        "userImpact": 15,
+        "novelty": 14,
+        "technicalImportance": 16,
+        "availability": 10,
+        "industryImpact": 8
+      },
+      "title": "Anthropic、高度cyber能力の検証付きアクセスを3 tierへ拡張",
+      "summary": "資格確認済みsecurity担当者向けに、Opus 5.5、Sonnet 5.5、Mythos 5.1等と緩和classifierを提供。一般利用ではなく限定プログラムのため参考扱い",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/glasswing"
+      }
+    },
+    {
+      "id": "ai-openai-distillation-campaign-20260930",
+      "eventKey": "openai-coordinated-adversarial-distillation-campaign-2026-09-30",
+      "category": "AI",
+      "score": 62,
+      "title": "OpenAI、大規模な推論抽出キャンペーンを遮断",
+      "summary": "4,000超の利用者から1日1.6万件、関連クラスタ1.5万超のアカウントで保護推論の抽出を確認し遮断。Moonshot AI関係者を中核クラスタに帰属し、業界横断で防御情報を共有",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
+      }
+    },
+    {
+      "id": "sdv-tieriv-arm-autoware-20261001",
+      "eventKey": "tieriv-arm-total-design-autoware-2026-10-01",
+      "category": "SDV",
+      "score": 61,
+      "title": "TIER IV、ArmのPhysical AI連携に参加しAutoware実装を加速",
+      "summary": "Arm SoCから車載コンピューターまでAutowareを即利用できる構成へパッケージ化し、半導体メーカーとOEMの自動運転システム開発を短縮する方針",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / TIER IV",
+        "url": "https://sdvsector.com/news/2026-10-01-tier-iv-arm-total-design-physical-ai-autoware"
+      }
+    },
+    {
+      "id": "sdv-stellantis-wayve-fiat-maserati-20261004",
+      "eventKey": "stellantis-wayve-fiat-maserati-prototype-extension-2026-10-04",
+      "category": "SDV",
+      "score": 61,
+      "title": "Stellantis、Wayve AI DriverをFiat 500eとMaserati Grecaleへ拡張",
+      "summary": "既存のJeep試作に加え、Fiat 500eとMaserati Grecaleへ同一のWayve AIモデルを移植。STLA AutoDrive上で車種ごとの専用コードを減らす検証を進め、10月のトリノイベントで実走デモを予定",
+      "publishedAt": "2026/10/04",
+      "firstSeenAt": "2026-10-05T06:59:45+09:00",
+      "source": {
+        "label": "AUTO Connected Car News",
+        "url": "https://www.autoconnectedcar.com/2026/10/autonomous-self-driving-vehicle-news-arbe-robotics-faraday-future-tier-iv-rideflux-kgm-hyundai-mobis-stellantis-wayve-california/"
+      }
+    },
+    {
+      "id": "ai-synopsys-openai-chip-model-20260930",
+      "eventKey": "synopsys-openai-gpt-synopsys-chip-design-2026-09-30",
+      "category": "AI",
+      "score": 58,
+      "title": "SynopsysとOpenAI、半導体設計専用「GPT‑Synopsys」を共同開発",
+      "summary": "回路記述から数十億トランジスタの配置までを支援する専用モデルを共同開発。OpenAIは学習利用料を受け取り、顧客利用時は成果に応じて収益分配する契約",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/synopsys-openai-strike-deal-develop-ai-model-chip-design-work-2026-09-30/"
+      }
+    },
+    {
+      "id": "sdv-gm-onstar-fleet-ai-20261001",
+      "eventKey": "gm-onstar-fleet-intelligence-ai-2026-10-01",
+      "category": "SDV",
+      "score": 58,
+      "title": "GM、車両データとAI分析を統合したOnStar Fleet Intelligenceを展開",
+      "summary": "診断、位置情報、契約更新、車両保護を単一アカウントへ統合し、自然言語で稼働率やアイドリング時間を照会可能。対象顧客へ段階展開",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / GM",
+        "url": "https://sdvsector.com/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant"
+      }
+    },
+    {
+      "id": "ai-openai-ironclad-computer-use-20261006",
+      "eventKey": "openai-ironclad-computer-use-research-2026-10-06",
+      "category": "AI",
+      "score": 58,
+      "scoreBreakdown": {
+        "userImpact": 15,
+        "novelty": 12,
+        "technicalImportance": 15,
+        "availability": 8,
+        "industryImpact": 8
+      },
+      "title": "OpenAI、Ironclad実務でAstraのcomputer use訓練を検証",
+      "summary": "契約・承認・調達の11業務でAstraを訓練評価し、GPT‑5.6 Sol比で平均score 32%向上、推定時間48%短縮。新機能の一般提供ではなく研究協業のため参考扱い",
+      "publishedAt": "2026/10/06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/advancing-computer-use-with-ironclad/"
+      }
+    },
+    {
+      "id": "sdv-nhtsa-recall-ota-docket-20260929",
+      "eventKey": "nhtsa-recall-completion-ota-connected-vehicle-docket-2026-09-29",
+      "category": "SDV",
+      "score": 56,
+      "title": "NHTSA、OTA・コネクテッド車を含むリコール完了率改善の公開審議を開始",
+      "summary": "11月5日の公開会合と12月5日までの意見募集を設定。OTA、デジタル通知、コネクテッド車、AVをリコール実施効率の中心課題として明示",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "SDV Sector / Federal Register",
+        "url": "https://sdvsector.com/news/2026-09-29-nhtsa-recall-completion-ota-docket"
+      }
+    },
+    {
+      "id": "ai-ftc-frontier-model-probe-20260930",
+      "eventKey": "ftc-probe-openai-anthropic-frontier-model-risks-2026-09-30",
+      "category": "AI",
+      "score": 55,
+      "title": "米FTC、OpenAI・Anthropicなどのフロンティアモデル調査を本格化",
+      "summary": "消費者保護権限を用い、先端モデルの危険性に関する企業説明や安全対策を調査。米国で自主監督に加えて当局審査が強まる可能性",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "The Wall Street Journal",
+        "url": "https://www.wsj.com/tech/ai/ftc-opens-investigation-of-anthropic-and-openai-a317b617"
+      }
+    },
+    {
+      "id": "ai-openai-sbdc-small-business-20260930",
+      "eventKey": "openai-americas-sbdc-small-business-training-2026-09-30",
+      "category": "AI",
+      "score": 55,
+      "title": "OpenAI、米SBDCと中小企業向けAI実装支援を開始",
+      "summary": "約150人のSBDCアドバイザーを育成し、少なくとも1,000社へ対面研修を届ける計画。小規模企業でのChatGPT Work/Codex活用調査も公開",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/"
+      }
+    },
+    {
+      "id": "sdv-china-supply-chain-cyber-standard-20261001",
+      "eventKey": "china-miit-vehicle-supply-chain-cyber-standard-2026-10-01",
+      "category": "SDV",
+      "score": 55,
+      "title": "中国、コネクテッド車サプライチェーンのサイバー標準案を公募",
+      "summary": "MIITが技術要件と試験方法を定める推奨国家標準プロジェクトを公開。部品・ファームウェア供給網まで対象を広げ、10月29日まで意見募集",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / MIIT",
+        "url": "https://sdvsector.com/news/2026-10-01-miit-supply-chain-cybersecurity-standard-project"
+      }
+    },
+    {
+      "id": "ai-reflection-open-weight-preview-20261004",
+      "eventKey": "reflection-open-weight-model-preview-2026-10-04",
+      "category": "AI",
+      "score": 55,
+      "title": "NVIDIA出資のReflection、低コストopen-weightモデルを近日公開へ",
+      "summary": "企業が自社データと組み合わせて低コストの独自AIを構築できるopen-weightモデルを準備中。現時点では公開前で性能・価格・利用条件が未確定のため参考扱い",
+      "publishedAt": "2026/10/04",
+      "firstSeenAt": "2026-10-05T06:59:45+09:00",
+      "source": {
+        "label": "Axios",
+        "url": "https://www.axios.com/newsletters/axios-am-2b1de489-384e-4789-90c6-c71365f81223"
+      }
+    },
+    {
+      "id": "ai-anthropic-barclays-claude-scale-20261001",
+      "eventKey": "anthropic-barclays-claude-rollout-2026-10-01",
+      "category": "AI",
+      "score": 54,
+      "title": "Barclays、Claude Codeを2026年末までに開発者の半数へ拡大",
+      "summary": "既存16,000人の知識支援と1日12万通のメール処理に加え、Claude Codeを2026年末に開発者の50%、2027年に過半数へ展開する計画",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/news/barclays-scales-claude"
+      }
+    },
+    {
+      "id": "sdv-nxp-vector-zonal-platform-webinar-20260929",
+      "eventKey": "nxp-vector-s32k5-microsar-zonal-platform-2026-09-29",
+      "category": "SDV",
+      "score": 52,
+      "title": "NXP×Vector、S32K5とMICROSARの検証済みゾーンECU基盤を公開解説",
+      "summary": "次世代ゾーンECU向けにS32K5 MCUとMICROSAR Classicを事前統合・共同検証。共通検証パイプラインとCoreRide活用で統合作業削減を狙う",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Vector",
+        "url": "https://www.vector.com/ja/company/events/webinar-nxp-vector/"
+      }
+    },
+    {
+      "id": "sdv-techinsights-market-outlook-20260929",
+      "eventKey": "techinsights-sdv-software-market-outlook-2026-2033",
+      "category": "SDV",
+      "score": 48,
+      "title": "TechInsights、SDVソフト市場を2033年最大1,090億ドルと試算",
+      "summary": "2026年の自動車ソフト市場を200億～450億ドル、2033年を420億～1,090億ドルと推計。組込みソフトが支出の60～75%を占めると分析",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "TechInsights",
+        "url": "https://www.techinsights.com/blog/automotive-software-market-outlook-2026-2033"
+      }
+    },
+    {
+      "id": "ai-google-synthid-bio-20260930",
+      "eventKey": "google-deepmind-synthid-bio-2026-09-30",
+      "category": "AI",
+      "score": 48,
+      "title": "Google DeepMind、AI設計タンパク質へ透かしを埋め込むSynthID Bioを公開",
+      "summary": "アミノ酸配列と3D構造へ検証可能な署名を埋め込み、合成後の物理タンパク質でも検出可能。実験で生物学的機能を維持した概念実証",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-synthid-bio/"
+      }
+    },
+    {
+      "id": "sdv-honda-tata-dev-partnership-20261005",
+      "eventKey": "honda-tata-technologies-india-development-2026-10-05",
+      "category": "SDV",
+      "score": 48,
+      "scoreBreakdown": {
+        "sdvDirectness": 10,
+        "practicalImpact": 14,
+        "scale": 12,
+        "specificity": 8,
+        "novelty": 4
+      },
+      "title": "Honda、Tata Technologies活用でインド車開発を半減へ",
+      "summary": "インド向け車両開発を外部連携し、期間を約5年から半減、コストを最大20%削減する目標。Hondaは技術・コネクティビティ・ADASを管理するが、SDV基盤の新規発表ではないため参考扱い",
+      "publishedAt": "2026/10/05",
+      "firstSeenAt": "2026-10-06T06:57:05+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/cost-pressures-deadlock-force-honda-rework-india-strategy-sources-say-2026-10-05/"
+      }
+    },
+    {
+      "id": "sdv-momenta-global-expansion-20260930",
+      "eventKey": "momenta-robotaxi-dubai-europe-expansion-2026-09-30",
+      "category": "SDV",
+      "score": 45,
+      "title": "Momenta、2027年末までにロボタクシー数千台規模へ拡大方針",
+      "summary": "欧州・ドバイ・日本を優先市場とし、現在3カ国100台超の配備を2027年末に数千台へ拡大する計画。自動車メーカー向けADASソフト事業も展開",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/mercedes-backed-momenta-targets-dubai-europe-robotaxi-expansion-2026-09-30/"
+      }
+    },
+    {
+      "id": "sdv-emq-data-backbone-event-20260929",
+      "eventKey": "emq-sdv-data-backbone-summit-2026-09-29",
+      "category": "SDV",
+      "score": 42,
+      "title": "EMQ、SDV向け車載・エッジ・クラウド統合データ基盤を提示",
+      "summary": "CAN/SOME-IPとDDS/MQTTを橋渡しするEMQX Edge、切断時のバッファリングと再送を含む双方向V2Cデータ基盤を欧州SDV Summitで紹介",
+      "publishedAt": "2026/09/29",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "EMQ",
+        "url": "https://www.emqx.com/en/events/emq-at-sdv-and-av-technology-summit-europe-2026"
+      }
+    },
+    {
+      "id": "ai-anthropic-government-ga-20260930",
+      "eventKey": "anthropic-claude-for-government-general-availability-2026-09-30",
+      "category": "AI",
+      "score": 42,
+      "title": "Anthropic、「Claude for Government」を一般提供",
+      "summary": "政府機関向けClaude環境を一般提供段階へ移行。公的部門での導入対象を広げる商用展開として採用",
+      "publishedAt": "2026/09/30",
+      "firstSeenAt": "2026-10-01T06:59:41+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45M1CM:0-anthropic-says-claude-for-government-is-now-generally-available/"
+      }
+    }
+  ]
+}
