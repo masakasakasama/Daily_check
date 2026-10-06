@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T07:02:15+09:00",
+  "updatedAt": "2026-10-07T07:22:00+09:00",
   "lastSuccessfulAt": "2026-10-06T07:29:00+09:00",
   "funnels": {
     "OEM": {
@@ -31,7 +31,7 @@
   "unresolvedWindows": [],
   "pendingBatch": {
     "date": "2026-10-07",
-    "stage": "collecting",
+    "stage": "collected",
     "startedAt": "2026-10-07T07:02:15+09:00",
     "windowStart": "2026-10-04T07:29:00+09:00",
     "windowEnd": "2026-10-07T07:02:15+09:00",
@@ -41,6 +41,13 @@
       "day": "data/days/2026-10-07.json",
       "audit": "data/audits/2026-10-07-sdv.json",
       "week": "data/weeks/2026-10-07.json"
+    },
+    "collectedAt": "2026-10-07T07:22:00+09:00",
+    "counts": {
+      "alerts": 7,
+      "references": 3,
+      "sdvRawCandidates": 12,
+      "sdvAdopted": 4
     }
   },
   "lastVerifiedDailyCommit": "ee5a858f540ebb204e0713640748ee78890a3a03",
