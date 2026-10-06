@@ -1,0 +1,743 @@
+{
+  "date": "2026-10-07",
+  "windowStart": "2026-10-04T07:29:00+09:00",
+  "windowEnd": "2026-10-07T07:02:15+09:00",
+  "publicationWindowStart": "2026-10-06T07:29:00+09:00",
+  "publicationWindowEnd": "2026-10-07T07:02:15+09:00",
+  "collectionComplete": true,
+  "anomaly": false,
+  "deepScanPerformed": false,
+  "deepScanReason": "Not triggered: 12 raw candidates, every funnel has candidates, and four SDV items were adopted.",
+  "fixedSources": [
+    "Applied Intuition newsroom",
+    "Honda newsroom",
+    "Nissan newsroom/technology",
+    "COVESA",
+    "Eclipse SDV",
+    "SOAFEE",
+    "Bosch",
+    "Continental",
+    "NXP",
+    "LG Mobility",
+    "ECARX newsroom",
+    "AWS Automotive",
+    "Android Automotive",
+    "QNX",
+    "UNECE",
+    "ISO",
+    "Reuters",
+    "Automotive World"
+  ],
+  "funnels": [
+    {
+      "name": "OEM",
+      "windowStart": "2026-10-04T07:29:00+09:00",
+      "windowEnd": "2026-10-07T07:02:15+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-07T07:18:00+09:00",
+      "queries": [
+        {
+          "query": "site:global.honda/en/newsroom OR site:nissan-global.com OR site:global.toyota/en/newsroom vehicle OS SDV OTA after:2026-10-04",
+          "sourceUrl": "https://global.honda/en/newsroom/",
+          "sourceFamily": "OEM official newsrooms",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Honda Applied Intuition Vehicle OS centralized upgradable SDV October 2026",
+          "sourceUrl": "https://www.appliedintuition.com/press-releases/applied-intuition-honda-sdv-partnership",
+          "sourceFamily": "Honda/Applied specific",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Nissan Applied Intuition AIDV Vehicle OS AI-native development October 2026",
+          "sourceUrl": "https://www.appliedintuition.com/press-releases/applied-intuition-nissan-aidv-development",
+          "sourceFamily": "Nissan/Applied specific",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "OEM central compute E/E architecture zonal controller OTA after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Concept cross-search",
+          "rawHitCount": 5,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 13,
+      "candidateCount": 2,
+      "adoptedCount": 2,
+      "excludedCount": 0,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 0
+    },
+    {
+      "name": "Platform/ecosystem",
+      "windowStart": "2026-10-04T07:29:00+09:00",
+      "windowEnd": "2026-10-07T07:02:15+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-07T07:18:00+09:00",
+      "queries": [
+        {
+          "query": "site:appliedintuition.com OR site:covesa.global OR site:eclipse.org OR site:soafee.io vehicle OS SDV after:2026-10-04",
+          "sourceUrl": "https://www.appliedintuition.com/autonomy-news",
+          "sourceFamily": "Platform official sources",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "AAOS AUTOSAR Adaptive QNX Alloy Kore automotive platform after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "OS/ecosystem search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "automotive middleware hypervisor vehicle API SDK after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Middleware/API search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "Eclipse SDV COVESA SOAFEE platform ecosystem after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Standards cross-search",
+          "rawHitCount": 1,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 6,
+      "candidateCount": 2,
+      "adoptedCount": 1,
+      "excludedCount": 1,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 0
+    },
+    {
+      "name": "Tier1/semiconductor",
+      "windowStart": "2026-10-04T07:29:00+09:00",
+      "windowEnd": "2026-10-07T07:02:15+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-07T07:18:00+09:00",
+      "queries": [
+        {
+          "query": "site:bosch-presse.de OR site:continental.com OR site:aptiv.com automotive HPC zonal software after:2026-10-04",
+          "sourceUrl": "https://www.bosch-presse.de/pressportal/de/en/",
+          "sourceFamily": "Tier1 official",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:nxp.com OR site:qualcomm.com OR site:nvidia.com automotive central compute after:2026-10-04",
+          "sourceUrl": "https://www.nxp.com/company/about-nxp/newsroom:NEWSROOM",
+          "sourceFamily": "Semiconductor official",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "LG Renault integrated cockpit SDV October 2026",
+          "sourceUrl": "https://www.lg.com/global/mobility/newsletter",
+          "sourceFamily": "LG specific",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "automotive semiconductor zonal controller in-vehicle Ethernet after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Concept cross-search",
+          "rawHitCount": 5,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 15,
+      "candidateCount": 2,
+      "adoptedCount": 1,
+      "excludedCount": 1,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 0
+    },
+    {
+      "name": "Cloud/OS/development",
+      "windowStart": "2026-10-04T07:29:00+09:00",
+      "windowEnd": "2026-10-07T07:02:15+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-07T07:18:00+09:00",
+      "queries": [
+        {
+          "query": "site:aws.amazon.com OR site:azure.microsoft.com automotive virtual ECU SDV cloud after:2026-10-04",
+          "sourceUrl": "https://aws.amazon.com/automotive/",
+          "sourceFamily": "Cloud official",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:developer.android.com OR site:qnx.com automotive software after:2026-10-04",
+          "sourceUrl": "https://developer.android.com/automotive",
+          "sourceFamily": "OS official",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "virtual ECU SIL HIL automotive CI/CD after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Development toolchain search",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "ECARX Flyme Auto OS acquisition October 2026",
+          "sourceUrl": "https://www.ecarxgroup.com/news",
+          "sourceFamily": "ECARX specific",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 12,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 1,
+      "lateAuditOnlyCount": 0
+    },
+    {
+      "name": "Regulation/Security",
+      "windowStart": "2026-10-04T07:29:00+09:00",
+      "windowEnd": "2026-10-07T07:02:15+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-07T07:18:00+09:00",
+      "queries": [
+        {
+          "query": "site:unece.org R155 R156 automotive after:2026-10-04",
+          "sourceUrl": "https://unece.org/transport/vehicle-regulations",
+          "sourceFamily": "UNECE",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "site:iso.org 21434 24089 automotive after:2026-10-04",
+          "sourceUrl": "https://www.iso.org/standards.html",
+          "sourceFamily": "ISO",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "vehicle cybersecurity software update regulation after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Cybersecurity search",
+          "rawHitCount": 6,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "connected vehicle security regulation OTA after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Regulation cross-search",
+          "rawHitCount": 5,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 15,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 2
+    },
+    {
+      "name": "Cross",
+      "windowStart": "2026-10-04T07:29:00+09:00",
+      "windowEnd": "2026-10-07T07:02:15+09:00",
+      "fixedOfficialScan": true,
+      "retrievalStatus": "complete",
+      "completedAt": "2026-10-07T07:18:00+09:00",
+      "queries": [
+        {
+          "query": "software-defined vehicle after:2026-10-04 Reuters Automotive World",
+          "sourceUrl": "https://www.reuters.com/",
+          "sourceFamily": "Major media",
+          "rawHitCount": 6,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "in-vehicle Ethernet cockpit software automotive after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Cockpit/network search",
+          "rawHitCount": 5,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "central compute zonal ECU OTA automotive after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Architecture search",
+          "rawHitCount": 6,
+          "retrievalStatus": "complete"
+        },
+        {
+          "query": "SDV development platform automotive after:2026-10-04",
+          "sourceUrl": "https://www.google.com/search",
+          "sourceFamily": "Platform cross-search",
+          "rawHitCount": 6,
+          "retrievalStatus": "complete"
+        }
+      ],
+      "rawHitCount": 23,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 1,
+      "lateAuditOnlyCount": 0
+    }
+  ],
+  "deepScan": [],
+  "rawCandidates": [
+    {
+      "id": "raw-applied-honda",
+      "funnel": "OEM",
+      "eventKey": "applied-intuition-honda-full-vehicle-sdv-2026-10-06",
+      "title": "Applied Intuition–Honda full-vehicle SDV platform",
+      "source": {
+        "family": "Applied Intuition",
+        "url": "https://www.appliedintuition.com/press-releases/applied-intuition-honda-sdv-partnership"
+      },
+      "publishedAt": "2026-10-06T07:00:00+09:00",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 92,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 23,
+        "scale": 20,
+        "specificity": 14,
+        "novelty": 10
+      },
+      "decision": "adopted-important",
+      "reason": "Vehicle OS, centralized/upgradable full-vehicle platform, global OEM scale."
+    },
+    {
+      "id": "raw-applied-nissan",
+      "funnel": "OEM",
+      "eventKey": "applied-intuition-nissan-aidv-platform-2026-10-06",
+      "title": "Applied Intuition–Nissan AIDV platform",
+      "source": {
+        "family": "Applied Intuition",
+        "url": "https://www.appliedintuition.com/press-releases/applied-intuition-nissan-aidv-development"
+      },
+      "publishedAt": "2026-10-06T07:00:00+09:00",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 90,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 22,
+        "scale": 18,
+        "specificity": 14,
+        "novelty": 11
+      },
+      "decision": "adopted-important",
+      "reason": "Vehicle OS and AI-native toolchain for Nissan common next-generation in-vehicle platform."
+    },
+    {
+      "id": "raw-ecarx-flyme",
+      "funnel": "Platform/ecosystem",
+      "eventKey": "ecarx-flyme-auto-os-acquisition-complete-2026-10-05",
+      "title": "ECARX completes Flyme Auto/OS acquisition",
+      "source": {
+        "family": "ECARX",
+        "url": "https://en.prnasia.com/releases/global/ecarx-completes-acquisition-of-flyme-software-business-securing-end-to-end-operating-system-capabilities-550581.shtml"
+      },
+      "publishedAt": "2026-10-05T19:00:00+08:00",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 74,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 18,
+        "scale": 17,
+        "specificity": 11,
+        "novelty": 7
+      },
+      "decision": "adopted-important",
+      "reason": "Production cockpit OS at 3.5M vehicles integrated into full SDV stack."
+    },
+    {
+      "id": "raw-applied-news-roundup",
+      "funnel": "Platform/ecosystem",
+      "eventKey": "applied-autonomy-news-honda-nissan-2026-10-06",
+      "title": "Applied Intuition autonomy news roundup",
+      "source": {
+        "family": "Applied Intuition",
+        "url": "https://www.appliedintuition.com/autonomy-news"
+      },
+      "publishedAt": "2026-10-06",
+      "updatedAt": "2026-10-06",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 40,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 7,
+        "scale": 6,
+        "specificity": 5,
+        "novelty": 4
+      },
+      "decision": "duplicate",
+      "reason": "Roundup links to canonical Honda and Nissan announcements.",
+      "duplicateOf": "applied-intuition-honda-full-vehicle-sdv-2026-10-06"
+    },
+    {
+      "id": "raw-lg-renault",
+      "funnel": "Tier1/semiconductor",
+      "eventKey": "lg-renault-trafic-integrated-cockpit-sdv-2026-10-06",
+      "title": "LG integrated cockpit for Renault commercial SDV",
+      "source": {
+        "family": "LG Electronics",
+        "url": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml"
+      },
+      "publishedAt": "2026-10-06T09:00:00+09:00",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 81,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 19,
+        "scale": 16,
+        "specificity": 13,
+        "novelty": 9
+      },
+      "decision": "adopted-important",
+      "reason": "Production integrated cockpit controller on Renault's first commercial SDV."
+    },
+    {
+      "id": "raw-ecarx-flyme-tier1",
+      "funnel": "Tier1/semiconductor",
+      "eventKey": "ecarx-flyme-auto-os-acquisition-tier1-hit-2026-10-05",
+      "title": "ECARX silicon-to-software integration",
+      "source": {
+        "family": "ECARX",
+        "url": "https://www.ecarxgroup.com/news"
+      },
+      "publishedAt": "2026-10-05",
+      "updatedAt": "2026-10-05",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 52,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 12,
+        "scale": 10,
+        "specificity": 7,
+        "novelty": 5
+      },
+      "decision": "duplicate",
+      "reason": "Same acquisition as canonical ECARX Flyme event.",
+      "duplicateOf": "ecarx-flyme-auto-os-acquisition-complete-2026-10-05"
+    },
+    {
+      "id": "raw-applied-nissan-cloud",
+      "funnel": "Cloud/OS/development",
+      "eventKey": "applied-nissan-ai-native-dev-hit-2026-10-06",
+      "title": "Nissan AI-native development tooling",
+      "source": {
+        "family": "PR Newswire / Applied Intuition",
+        "url": "https://en.prnasia.com/releases/apac/applied-intuition-announces-collaboration-with-nissan-to-provide-ai-native-development-platform-and-support-ai-defined-vehicle-development-550623.shtml"
+      },
+      "publishedAt": "2026-10-06T07:00:00+09:00",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 76,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 19,
+        "scale": 14,
+        "specificity": 11,
+        "novelty": 9
+      },
+      "decision": "duplicate",
+      "reason": "Syndicated body for canonical Nissan collaboration.",
+      "duplicateOf": "applied-intuition-nissan-aidv-platform-2026-10-06"
+    },
+    {
+      "id": "raw-nissan-nsosp-dup",
+      "funnel": "Cloud/OS/development",
+      "eventKey": "nissan-nsosp-sdk-virtual-ecu-2026-06",
+      "title": "Nissan NSOSP SDK and virtual ECU",
+      "source": {
+        "family": "Nissan official",
+        "url": "https://www2.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/"
+      },
+      "publishedAt": "2026-06-01",
+      "updatedAt": "2026-06-01",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 66,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 17,
+        "scale": 10,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "decision": "excluded",
+      "reason": "Evergreen background; outside publication window and already audited."
+    },
+    {
+      "id": "raw-unece-r155",
+      "funnel": "Regulation/Security",
+      "eventKey": "unece-r155-evergreen-2026-10-07",
+      "title": "UNECE R155 cybersecurity regulation",
+      "source": {
+        "family": "UNECE",
+        "url": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security"
+      },
+      "publishedAt": null,
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 38,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 8,
+        "scale": 6,
+        "specificity": 5,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "No new dated amendment in window."
+    },
+    {
+      "id": "raw-iso24089",
+      "funnel": "Regulation/Security",
+      "eventKey": "iso-24089-evergreen-2026-10-07",
+      "title": "ISO 24089 software update engineering",
+      "source": {
+        "family": "ISO",
+        "url": "https://www.iso.org/standard/77796.html"
+      },
+      "publishedAt": null,
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "score": 39,
+      "scoreBreakdown": {
+        "sdvDirectness": 17,
+        "practicalImpact": 8,
+        "scale": 6,
+        "specificity": 5,
+        "novelty": 3
+      },
+      "decision": "excluded",
+      "reason": "No new dated update in collection window."
+    },
+    {
+      "id": "raw-honda-cross",
+      "funnel": "Cross",
+      "eventKey": "applied-honda-prnewswire-hit-2026-10-06",
+      "title": "Honda SDV partnership syndicated release",
+      "source": {
+        "family": "PR Newswire / Applied Intuition",
+        "url": "https://en.prnasia.com/releases/apac/applied-intuition-partners-with-honda-to-accelerate-next-generation-software-defined-vehicles-550624.shtml"
+      },
+      "publishedAt": "2026-10-06T07:00:00+09:00",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 80,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 20,
+        "scale": 17,
+        "specificity": 11,
+        "novelty": 8
+      },
+      "decision": "duplicate",
+      "reason": "Syndicated body for canonical Honda collaboration.",
+      "duplicateOf": "applied-intuition-honda-full-vehicle-sdv-2026-10-06"
+    },
+    {
+      "id": "raw-lg-cross",
+      "funnel": "Cross",
+      "eventKey": "lg-renault-sdv-cross-hit-2026-10-06",
+      "title": "LG Renault SDV cockpit cross-search hit",
+      "source": {
+        "family": "PR Newswire / LG",
+        "url": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml"
+      },
+      "publishedAt": "2026-10-06T09:00:00+09:00",
+      "updatedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "score": 70,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 17,
+        "scale": 14,
+        "specificity": 10,
+        "novelty": 7
+      },
+      "decision": "duplicate",
+      "reason": "Cross-search duplicate of canonical LG event.",
+      "duplicateOf": "lg-renault-trafic-integrated-cockpit-sdv-2026-10-06"
+    }
+  ],
+  "adopted": [
+    {
+      "eventKey": "applied-intuition-honda-full-vehicle-sdv-2026-10-06",
+      "id": "sdv-applied-honda-20261006",
+      "placement": "important",
+      "score": 92
+    },
+    {
+      "eventKey": "applied-intuition-nissan-aidv-platform-2026-10-06",
+      "id": "sdv-applied-nissan-20261006",
+      "placement": "important",
+      "score": 90
+    },
+    {
+      "eventKey": "lg-renault-trafic-integrated-cockpit-sdv-2026-10-06",
+      "id": "sdv-lg-renault-cockpit-20261006",
+      "placement": "important",
+      "score": 81
+    },
+    {
+      "eventKey": "ecarx-flyme-auto-os-acquisition-complete-2026-10-05",
+      "id": "sdv-ecarx-flyme-acquisition-20261005",
+      "placement": "important",
+      "score": 74
+    }
+  ],
+  "excluded": [
+    {
+      "eventKey": "nissan-nsosp-sdk-virtual-ecu-2026-06",
+      "reason": "Evergreen background; outside publication window and already audited.",
+      "score": 66
+    },
+    {
+      "eventKey": "unece-r155-evergreen-2026-10-07",
+      "reason": "No new dated amendment in window.",
+      "score": 38
+    },
+    {
+      "eventKey": "iso-24089-evergreen-2026-10-07",
+      "reason": "No new dated update in collection window.",
+      "score": 39
+    }
+  ],
+  "duplicates": [
+    {
+      "eventKey": "applied-autonomy-news-honda-nissan-2026-10-06",
+      "duplicateOf": "applied-intuition-honda-full-vehicle-sdv-2026-10-06",
+      "sourceUrl": "https://www.appliedintuition.com/autonomy-news"
+    },
+    {
+      "eventKey": "ecarx-flyme-auto-os-acquisition-tier1-hit-2026-10-05",
+      "duplicateOf": "ecarx-flyme-auto-os-acquisition-complete-2026-10-05",
+      "sourceUrl": "https://www.ecarxgroup.com/news"
+    },
+    {
+      "eventKey": "applied-nissan-ai-native-dev-hit-2026-10-06",
+      "duplicateOf": "applied-intuition-nissan-aidv-platform-2026-10-06",
+      "sourceUrl": "https://en.prnasia.com/releases/apac/applied-intuition-announces-collaboration-with-nissan-to-provide-ai-native-development-platform-and-support-ai-defined-vehicle-development-550623.shtml"
+    },
+    {
+      "eventKey": "applied-honda-prnewswire-hit-2026-10-06",
+      "duplicateOf": "applied-intuition-honda-full-vehicle-sdv-2026-10-06",
+      "sourceUrl": "https://en.prnasia.com/releases/apac/applied-intuition-partners-with-honda-to-accelerate-next-generation-software-defined-vehicles-550624.shtml"
+    },
+    {
+      "eventKey": "lg-renault-sdv-cross-hit-2026-10-06",
+      "duplicateOf": "lg-renault-trafic-integrated-cockpit-sdv-2026-10-06",
+      "sourceUrl": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml"
+    }
+  ],
+  "lateDiscoveries": [
+    {
+      "eventKey": "nissan-nsosp-sdk-virtual-ecu-2026-06",
+      "publishedAt": "2026-06-01",
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "unece-r155-evergreen-2026-10-07",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "auditOnly": true
+    },
+    {
+      "eventKey": "iso-24089-evergreen-2026-10-07",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-07T07:02:15+09:00",
+      "auditOnly": true
+    }
+  ],
+  "codexAudit": {
+    "officialRoute": {
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "site:openai.com OR site:help.openai.com OR site:developers.openai.com Codex release notes usage limit reset credits October 6 2026",
+          "rawHitCount": 5
+        },
+        {
+          "query": "site:status.openai.com Codex Work ChatGPT incident October 6 2026",
+          "rawHitCount": 0
+        },
+        {
+          "query": "Codex auto-review free ChatGPT sign-ins October 6 2026 official",
+          "rawHitCount": 3
+        }
+      ],
+      "result": "Auto-review safety checks became free for ChatGPT sign-ins; no new reset event."
+    },
+    "xRoute": {
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "site:x.com OpenAI OR Codex global reset banked reset weekly reset limits restored reset ticket since:2026-10-05",
+          "rawHitCount": 2
+        },
+        {
+          "query": "site:x.com/thsottiaux/status Codex reset October 6 2026",
+          "rawHitCount": 1
+        }
+      ],
+      "result": "No current-window reset. Search rediscovered the Oct 3 JST global reset already recorded in prior audit; no new corroborated reset."
+    }
+  },
+  "summary": {
+    "rawCandidateCount": 12,
+    "adoptedCount": 4,
+    "excludedCount": 3,
+    "duplicateCount": 5,
+    "lateAuditOnlyCount": 3,
+    "importantCount": 4,
+    "referenceCount": 0
+  },
+  "completedAt": "2026-10-07T07:22:00+09:00",
+  "qualityCorrections": {
+    "appliedIntuitionAddedToFixedSources": true,
+    "reason": "Honda/Nissan announcements were missed when Applied Intuition was not a fixed official source."
+  }
+}
