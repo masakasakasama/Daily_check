@@ -1,49 +1,36 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T21:56:20.000Z",
-  "lastSuccessfulAt": "2026-10-10T03:35:37.821792+00:00",
+  "updatedAt": "2026-10-11T07:24:00+09:00",
+  "lastSuccessfulAt": "2026-10-11T07:24:00+09:00",
   "funnels": {
     "OEM": {
-      "lastSuccessfulAt": "2026-10-10T03:35:37.821792+00:00",
-      "lastCount": 3
+      "lastSuccessfulAt": "2026-10-11T07:24:00+09:00",
+      "lastCount": 2
     },
     "Platform": {
-      "lastSuccessfulAt": "2026-10-10T03:35:37.821792+00:00",
-      "lastCount": 3
+      "lastSuccessfulAt": "2026-10-11T07:24:00+09:00",
+      "lastCount": 2
     },
     "Tier1Semi": {
-      "lastSuccessfulAt": "2026-10-10T03:35:37.821792+00:00",
-      "lastCount": 3
+      "lastSuccessfulAt": "2026-10-11T07:24:00+09:00",
+      "lastCount": 2
     },
     "CloudOS": {
-      "lastSuccessfulAt": "2026-10-10T03:35:37.821792+00:00",
-      "lastCount": 3
+      "lastSuccessfulAt": "2026-10-11T07:24:00+09:00",
+      "lastCount": 2
     },
     "RegSecurity": {
-      "lastSuccessfulAt": "2026-10-10T03:35:37.821792+00:00",
-      "lastCount": 3
+      "lastSuccessfulAt": "2026-10-11T07:24:00+09:00",
+      "lastCount": 2
     },
     "Cross": {
-      "lastSuccessfulAt": "2026-10-10T03:35:37.821792+00:00",
+      "lastSuccessfulAt": "2026-10-11T07:24:00+09:00",
       "lastCount": 2
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": {
-    "date": "2026-10-11",
-    "stage": "staged",
-    "startedAt": "2026-10-11T06:56:20+09:00",
-    "windowStart": "2026-10-08T12:35:37.821792+09:00",
-    "windowEnd": "2026-10-11T06:56:20+09:00",
-    "publicationWindowStart": "2026-10-10T12:35:37.821792+09:00",
-    "publicationWindowEnd": "2026-10-11T06:56:20+09:00",
-    "paths": {
-      "day": "data/days/2026-10-11.json",
-      "audit": "data/audits/2026-10-11-sdv.json",
-      "week": "data/weeks/2026-10-11.json"
-    }
-  },
-  "lastAudit": "data/audits/2026-10-10-sdv.json",
+  "pendingBatch": null,
+  "lastAudit": "data/audits/2026-10-11-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days",
   "collectionPolicy": {
@@ -142,6 +129,6 @@
     "historicalAuditEvidencePath": "data/recovery/2026-10-10-september-searches.json"
   },
   "priorVerifiedDailyCommit": "d4d8fa392f587b497f1e0021673a13757d38382f",
-  "lastVerifiedDailyCommit": "22bae74194498d389f957b60445207cf97f5dac8",
+  "lastVerifiedDailyCommit": "c7609f100e08aca192c79e75d49d5acd7501aa0b",
   "lastVerification": "data/recovery/2026-10-10-verification.json"
 }
