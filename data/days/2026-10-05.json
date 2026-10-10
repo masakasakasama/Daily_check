@@ -43,7 +43,8 @@
       "source": {
         "label": "Axios",
         "url": "https://www.axios.com/newsletters/axios-am-2b1de489-384e-4789-90c6-c71365f81223"
-      }
+      },
+      "thumbnail": "https://assets.axios.com/203e9f932cc97836ac2ff4c6c982676c.png"
     }
   ],
   "checks": [

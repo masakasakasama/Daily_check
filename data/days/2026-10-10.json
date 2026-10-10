@@ -17,7 +17,8 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1"
       },
       "sourcePublishedAt": "2026-10-09T19:44:51Z",
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://opengraph.githubassets.com/66e18f25dd3ae262730148ccb499ba9c11591a3c335b8038584783404c57b627/openai/codex/releases/tag/rust-v0.162.1"
     }
   ],
   "checks": [

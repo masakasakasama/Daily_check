@@ -24,7 +24,8 @@
       "source": {
         "label": "GM News",
         "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks.html"
-      }
+      },
+      "thumbnail": "https://news.gm.com/content/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks/jcr:content/image.resize.maxw_1200.jpg/1789488406289.jpg"
     }
   ],
   "references": [
@@ -90,7 +91,8 @@
       "source": {
         "label": "HARMAN",
         "url": "https://news.harman.com/releases/harman-joins-sdverse-marketplace-expanding-access-to-automotive-software-and-engineering-solutions"
-      }
+      },
+      "thumbnail": "https://iprsoftwaremedia.com/214/files/20268/7496909b037bc38609a1ec48b2b42246/6aa45d783d63329cf4e500ec_HARMAN%20Ready%20Link%20Marketplace%20Screen/HARMAN%20Ready%20Link%20Marketplace%20Screen_mid.jpg?v=f7c764d3-b7ba-4ac2-a52a-629a7e0adc10"
     },
     {
       "id": "sdv-korea-ota-cyber-exercise-20260915",

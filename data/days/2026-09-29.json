@@ -43,7 +43,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/lenfest-ai-collaborative-expansion/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/6txA4ODTKx7m0Lm7PZhV2j/f0f1322b05b78fb0b33d5dae4920aa00/lenfest-september-seo-white.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "sdv-kia-pleos-connect-aaos-20260928",
@@ -57,7 +58,8 @@
       "source": {
         "label": "Electrek",
         "url": "https://electrek.co/2026/09/28/kias-new-interior-spotted-larger-screen-high-tech-software/"
-      }
+      },
+      "thumbnail": "https://electrek.co/wp-content/uploads/sites/3/2026/09/Kia-EV4-GT-interior-5.jpeg?quality=82&strip=all&resize=1200,628"
     },
     {
       "id": "sdv-kpit-cockpit-adas-convergence-20260928",
@@ -71,7 +73,8 @@
       "source": {
         "label": "ET Auto",
         "url": "https://auto.economictimes.indiatimes.com/amp/news/auto-technology/trust-will-depend-not-only-on-how-well-the-vehicle-drives-but-on-how-clearly-it-explains-its-status-and-intent-omkar-panse-cto-kpit/134532232"
-      }
+      },
+      "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-134532232,imgsize-248312,width-1200,height=627,overlay-etauto,resizemode-75/auto-technology/trust-will-depend-not-only-on-how-well-the-vehicle-drives-but-on-how-clearly-it-explains-its-status-and-intent-omkar-panse-cto-kpit.jpg"
     }
   ],
   "checks": [

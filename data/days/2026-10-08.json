@@ -15,7 +15,8 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "api-ultrafast-sol-20261008",
@@ -31,7 +32,8 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "codex-ultrafast-work-20261008",
@@ -47,7 +49,8 @@
         "label": "ChatGPT & Codex changelog",
         "url": "https://learn.chatgpt.com/docs/changelog"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://learn.chatgpt.com/og/docs/changelog.png"
     },
     {
       "id": "foton-zhuoyu-commercial-autonomy-20261008",
@@ -93,7 +96,8 @@
         "scale": 10,
         "specificity": 10,
         "novelty": 6
-      }
+      },
+      "thumbnail": "https://images.prismic.io/kodiak/e8L4nczibdUgGzaA_charger_blog_03.png?auto=format,compress&rect=0,36,1920,1008&w=2400&h=1260"
     },
     {
       "id": "volvo-ex30-ecall-recall-4232-20261008",
@@ -115,7 +119,8 @@
         "scale": 5,
         "specificity": 12,
         "novelty": 4
-      }
+      },
+      "thumbnail": "https://www.mlit.go.jp/common/001391890.png"
     },
     {
       "id": "anthropic-usage-policy-20261008",
@@ -130,7 +135,8 @@
       "source": {
         "label": "Anthropic公式",
         "url": "https://www.anthropic.com/news/2026-usage-policy-update"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     },
     {
       "id": "chatgpt-plugin-rbac-20261008",
@@ -146,7 +152,8 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "uk-long-residence-guidance-20261008",
@@ -161,7 +168,8 @@
       "source": {
         "label": "UKVI",
         "url": "https://www.gov.uk/government/publications/long-residence/long-residence-accessible"
-      }
+      },
+      "thumbnail": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
     }
   ],
   "checks": [

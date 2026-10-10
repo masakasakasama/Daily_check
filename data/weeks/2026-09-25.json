@@ -34,7 +34,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7fvmMcBIvMTXxVJh7NEMt1/48a75e624699bb1e218366c1d3522048/gpt-6-sol-luna-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-anthropic-claude-opus55-20260922",
@@ -60,7 +61,8 @@
       "source": {
         "label": "AP",
         "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
-      }
+      },
+      "thumbnail": "https://dims.apnews.com/dims4/default/cc34ed2/2147483647/strip/true/crop/5000x3332+0+2/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc6%2F20%2F785616a9d6cd43fad6538dac7906%2F2ae6211ac40c4c759949e06d6698571b"
     },
     {
       "id": "ai-gemini-real-company-security-incident-20260919",
@@ -86,7 +88,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg"
     },
     {
       "id": "ai-openai-global-frontier-standards-20260921",
@@ -100,7 +103,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/building-standards-next-phase-ai/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4qekYv7Z15dtjQYpfZBJFg/75f652d9e84b2e56042c3baeb7c243db/building-shared-standards-next-phase-ai-seo__2_.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "codex-cli-01561-20260923",
@@ -114,7 +118,8 @@
       "source": {
         "label": "OpenAI ChatGPT Learn",
         "url": "https://learn.chatgpt.com/docs/changelog"
-      }
+      },
+      "thumbnail": "https://learn.chatgpt.com/og/docs/changelog.png"
     },
     {
       "id": "sdv-coretura-alloy-kore-20260922",
@@ -128,7 +133,8 @@
       "source": {
         "label": "Vector / QNX",
         "url": "https://www.globenewswire.com/news-release/2026/09/22/3365960/0/en/coretura-selects-alloy-kore-to-advance-a-unique-software-defined-vehicle-platform-for-its-commercial-vehicle-customers.html"
-      }
+      },
+      "thumbnail": "https://ml.globenewswire.com/Resource/Download/7e64a1e1-d563-41c7-b456-acd067b48a30"
     },
     {
       "id": "ai-google-gemini38-live-avatar-20260924",
@@ -142,7 +148,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.width-1300.png"
     },
     {
       "id": "ai-us-china-ai-safety-talks-20260920",
@@ -182,7 +189,8 @@
       "source": {
         "label": "Google DeepMind",
         "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
-      }
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/CsJavGl89SJwjdXVDdaKtAEpLbqHa_nzOW89VTThwA8rgYr9Gf3CSiUWk18i5thA57k8zhwdwmvf3F2yagtJ-P1ag-9ppxsPXcUe99DRY9asIRP2yA=w1200-h630-n-nu-rw"
     },
     {
       "id": "sdv-xpeng-tech-licensing-20260917",
@@ -206,7 +214,8 @@
       "source": {
         "label": "Lucid",
         "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"
-      }
+      },
+      "thumbnail": "https://ir.lucidmotors.com/static-files/51c214bd-7356-49d7-9ddf-86ca2ad3183f"
     }
   ],
   "references": [
@@ -222,7 +231,8 @@
       "source": {
         "label": "Google Cloud",
         "url": "https://www.googlecloudpresscorner.com/2026-09-22-Accenture-and-Google-Cloud-Transform-Software-Development-with-Volvo-Cars"
-      }
+      },
+      "thumbnail": "https://mmx.prnewswire.com/media/MS1992746/car.jpg?id=OA2960766&p=facebook"
     },
     {
       "id": "ai-anthropic-wet-lab-20260918",
@@ -272,7 +282,8 @@
       "source": {
         "label": "TCS",
         "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies"
-      }
+      },
+      "thumbnail": "https://www.tcs.com/content/dam/global-tcs/ja/images/who-we-are/events/tcs-at-semicon-india-2024/card.jpg"
     },
     {
       "id": "ai-google-gemini38-tts-20260923",
@@ -286,7 +297,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__keyword__metacard__light.width-1300.png"
     },
     {
       "id": "ai-openai-ethical-hack-20260918",
@@ -298,7 +310,8 @@
       "source": {
         "label": "The Guardian",
         "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
-      }
+      },
+      "thumbnail": "https://i.guim.co.uk/img/media/3ac505ec5bde795c6c333ea6dc7fbaadf38f1a93/354_0_4167_3333/master/4167.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=81648307e057420c468715010ba10185"
     },
     {
       "id": "sdv-voyah-dream9-huawei-20260923",
@@ -312,7 +325,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture.png"
     },
     {
       "id": "ai-frontier-labs-antitrust-lawsuit-20260919",
@@ -324,7 +338,8 @@
       "source": {
         "label": "AP",
         "url": "https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b"
-      }
+      },
+      "thumbnail": "https://dims.apnews.com/dims4/default/1d6c313/2147483647/strip/true/crop/3000x1999+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F23%2Fa3%2Ffe28d00714c2188b5c28ecb88366%2Fcaa7ccddb1e84a408b718cebb5126263"
     },
     {
       "id": "ai-openai-chatgpt-ads-asia-20260924",
@@ -338,7 +353,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7FJ6xwUhzfqnyoSn9ciPcS/2f477db82efadb6e10ace70da6498bb3/chatgpt-ads-expands-to-southeast-asia-and-taiwan-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "sdv-agl-sodev-riscv-20260918",
@@ -364,7 +380,8 @@
       "source": {
         "label": "VicOne",
         "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/"
-      }
+      },
+      "thumbnail": "https://cdn.vicone.com/content-agent/articles/vicone-cymetris-pr-en2.webp"
     },
     {
       "id": "sdv-tencent-leapmotor-workbuddy-20260923",
@@ -378,7 +395,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/news/2026-09-23-tencent-workbuddy-leapmotor"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-09-23-tencent-workbuddy-leapmotor.png"
     },
     {
       "id": "sdv-valens-onsemi-aphy-license-20260923",
@@ -392,7 +410,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/region/global"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/default.png"
     },
     {
       "id": "bosch-rexroth-bodas-ota-20260927",
@@ -414,7 +433,8 @@
       "source": {
         "label": "Bosch Rexroth公式",
         "url": "https://www.boschrexroth.com/en/at/company/press/owasys-47232.html"
-      }
+      },
+      "thumbnail": "https://dc-mkt-prod.cloud.bosch.tech/xrm/media/global/press_1/2026_2/september_4/photo_3_pi_024_26_owasys.jpg"
     },
     {
       "id": "sdv-brp-canam-software-recall-20260923",
@@ -428,7 +448,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/topic/diagnostics-and-service"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/default.png"
     }
   ]
 }

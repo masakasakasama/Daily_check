@@ -34,7 +34,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7fvmMcBIvMTXxVJh7NEMt1/48a75e624699bb1e218366c1d3522048/gpt-6-sol-luna-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-anthropic-claude-opus55-20260922",
@@ -62,7 +63,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg"
     },
     {
       "id": "codex-cli-01561-20260923",
@@ -76,7 +78,8 @@
       "source": {
         "label": "OpenAI ChatGPT Learn",
         "url": "https://learn.chatgpt.com/docs/changelog"
-      }
+      },
+      "thumbnail": "https://learn.chatgpt.com/og/docs/changelog.png"
     },
     {
       "id": "sdv-coretura-alloy-kore-20260922",
@@ -90,7 +93,8 @@
       "source": {
         "label": "Vector / QNX",
         "url": "https://www.globenewswire.com/news-release/2026/09/22/3365960/0/en/coretura-selects-alloy-kore-to-advance-a-unique-software-defined-vehicle-platform-for-its-commercial-vehicle-customers.html"
-      }
+      },
+      "thumbnail": "https://ml.globenewswire.com/Resource/Download/7e64a1e1-d563-41c7-b456-acd067b48a30"
     },
     {
       "id": "ai-google-gemini38-live-avatar-20260924",
@@ -104,7 +108,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.width-1300.png"
     },
     {
       "id": "ai-nvidia-open-agent-safety-platform-20260928",
@@ -132,7 +137,8 @@
       "source": {
         "label": "Google DeepMind",
         "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
-      }
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/CsJavGl89SJwjdXVDdaKtAEpLbqHa_nzOW89VTThwA8rgYr9Gf3CSiUWk18i5thA57k8zhwdwmvf3F2yagtJ-P1ag-9ppxsPXcUe99DRY9asIRP2yA=w1200-h630-n-nu-rw"
     },
     {
       "id": "sdv-stellantis-momenta-dongfeng-adas-20260928",
@@ -162,7 +168,8 @@
       "source": {
         "label": "Google Cloud",
         "url": "https://www.googlecloudpresscorner.com/2026-09-22-Accenture-and-Google-Cloud-Transform-Software-Development-with-Volvo-Cars"
-      }
+      },
+      "thumbnail": "https://mmx.prnewswire.com/media/MS1992746/car.jpg?id=OA2960766&p=facebook"
     },
     {
       "id": "ai-google-gemini38-tts-20260923",
@@ -176,7 +183,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__keyword__metacard__light.width-1300.png"
     },
     {
       "id": "sdv-voyah-dream9-huawei-20260923",
@@ -190,7 +198,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture.png"
     },
     {
       "id": "ai-cohere-compass-cloud-20260926",
@@ -204,7 +213,8 @@
       "source": {
         "label": "Daily AI Newsbites",
         "url": "https://ai.newsbites.today/date/2026/09"
-      }
+      },
+      "thumbnail": "https://ai.newsbites.today/news-assets/thumbnail-news/2026/09/30/2026-09-30-spacexai-news1.webp?v=a80972358e84"
     },
     {
       "id": "ai-openai-chatgpt-ads-asia-20260924",
@@ -218,7 +228,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7FJ6xwUhzfqnyoSn9ciPcS/2f477db82efadb6e10ace70da6498bb3/chatgpt-ads-expands-to-southeast-asia-and-taiwan-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-openai-lenfest-expansion-20260928",
@@ -232,7 +243,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/lenfest-ai-collaborative-expansion/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/6txA4ODTKx7m0Lm7PZhV2j/f0f1322b05b78fb0b33d5dae4920aa00/lenfest-september-seo-white.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-replit-atta-acquisition-20260926",
@@ -246,7 +258,8 @@
       "source": {
         "label": "Daily AI Newsbites",
         "url": "https://replit.com/blog/replit-acquires-atta"
-      }
+      },
+      "thumbnail": "https://cdn.sanity.io/images/bj34pdbp/migration/deeb5f9700e7bca2714dd5bc8a93284d9cc92450-1920x1004.png?w=1200&h=630&fit=max&fm=jpg"
     },
     {
       "id": "sdv-vicone-cymetris-live-tara-20260923",
@@ -260,7 +273,8 @@
       "source": {
         "label": "VicOne",
         "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/"
-      }
+      },
+      "thumbnail": "https://cdn.vicone.com/content-agent/articles/vicone-cymetris-pr-en2.webp"
     },
     {
       "id": "sdv-kia-pleos-connect-aaos-20260928",
@@ -274,7 +288,8 @@
       "source": {
         "label": "Electrek",
         "url": "https://electrek.co/2026/09/28/kias-new-interior-spotted-larger-screen-high-tech-software/"
-      }
+      },
+      "thumbnail": "https://electrek.co/wp-content/uploads/sites/3/2026/09/Kia-EV4-GT-interior-5.jpeg?quality=82&strip=all&resize=1200,628"
     },
     {
       "id": "sdv-tencent-leapmotor-workbuddy-20260923",
@@ -288,7 +303,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/news/2026-09-23-tencent-workbuddy-leapmotor"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-09-23-tencent-workbuddy-leapmotor.png"
     },
     {
       "id": "dspace-v2x-sil-hil-20260926",
@@ -310,7 +326,8 @@
       "source": {
         "label": "YourStory",
         "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
-      }
+      },
+      "thumbnail": "https://images.yourstory.com/cs/2/f4c8dc30b73511f197be7d10bec6c83f/dSPACEIndia1600x900-1790338657181.jpg"
     },
     {
       "id": "sdv-valens-onsemi-aphy-license-20260923",
@@ -324,7 +341,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/region/global"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/default.png"
     },
     {
       "id": "bosch-rexroth-bodas-ota-20260927",
@@ -346,7 +364,8 @@
       "source": {
         "label": "Bosch Rexroth公式",
         "url": "https://www.boschrexroth.com/en/at/company/press/owasys-47232.html"
-      }
+      },
+      "thumbnail": "https://dc-mkt-prod.cloud.bosch.tech/xrm/media/global/press_1/2026_2/september_4/photo_3_pi_024_26_owasys.jpg"
     },
     {
       "id": "sdv-kpit-cockpit-adas-convergence-20260928",
@@ -360,7 +379,8 @@
       "source": {
         "label": "ET Auto",
         "url": "https://auto.economictimes.indiatimes.com/amp/news/auto-technology/trust-will-depend-not-only-on-how-well-the-vehicle-drives-but-on-how-clearly-it-explains-its-status-and-intent-omkar-panse-cto-kpit/134532232"
-      }
+      },
+      "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-134532232,imgsize-248312,width-1200,height=627,overlay-etauto,resizemode-75/auto-technology/trust-will-depend-not-only-on-how-well-the-vehicle-drives-but-on-how-clearly-it-explains-its-status-and-intent-omkar-panse-cto-kpit.jpg"
     },
     {
       "id": "sdv-brp-canam-software-recall-20260923",
@@ -374,7 +394,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/topic/diagnostics-and-service"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/default.png"
     }
   ]
 }

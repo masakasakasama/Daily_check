@@ -29,7 +29,8 @@
       "title": "OpenAI、モデルのミスアラインメントを継続開示する新フレームワークを開始",
       "source": {
         "url": "https://openai.com/index/model-misalignment-reporting-framework/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/1ZIYnl31jt9gPO8qCbMGBZ/aaf74083a5332be1cb265dbdb6e652e0/model-misalignment-reporting-framework--seo-v002.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-anthropic-recursive-rd-20260918",
@@ -38,7 +39,8 @@
       "title": "Anthropic、Claudeが次世代モデル研究の26%を主導、R&Dタスクの約90%に関与と開示",
       "source": {
         "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
-      }
+      },
+      "thumbnail": "https://dims.apnews.com/dims4/default/cc34ed2/2147483647/strip/true/crop/5000x3332+0+2/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc6%2F20%2F785616a9d6cd43fad6538dac7906%2F2ae6211ac40c4c759949e06d6698571b"
     },
     {
       "id": "sdv-xpeng-tech-licensing-20260917",
@@ -56,7 +58,8 @@
       "title": "Lucid・Bolt、欧州で25,000台以上のL4自動運転車を共同展開",
       "source": {
         "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"
-      }
+      },
+      "thumbnail": "https://ir.lucidmotors.com/static-files/51c214bd-7356-49d7-9ddf-86ca2ad3183f"
     },
     {
       "id": "ai-gemini-real-company-security-incident-20260919",
@@ -84,7 +87,8 @@
       "title": "OpenAI、フロンティアAIの国際技術標準づくりで米国主導を提唱",
       "source": {
         "url": "https://openai.com/index/building-standards-next-phase-ai/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4qekYv7Z15dtjQYpfZBJFg/75f652d9e84b2e56042c3baeb7c243db/building-shared-standards-next-phase-ai-seo__2_.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-us-china-safety-dialogue-20260921",
@@ -104,7 +108,8 @@
       "title": "OpenAI、GPT-6 SolとLunaを発表",
       "source": {
         "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7fvmMcBIvMTXxVJh7NEMt1/48a75e624699bb1e218366c1d3522048/gpt-6-sol-luna-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-anthropic-claude-opus55-20260922",
@@ -124,7 +129,8 @@
       "title": "Codex CLI 0.156.1、GPT-6 Sol/Lunaをモデル選択に追加",
       "source": {
         "url": "https://learn.chatgpt.com/docs/changelog"
-      }
+      },
+      "thumbnail": "https://learn.chatgpt.com/og/docs/changelog.png"
     },
     {
       "id": "sdv-coretura-alloy-kore-20260922",
@@ -134,7 +140,8 @@
       "title": "Daimler Truck・Volvo系Coretura、Alloy Koreを次世代SDV基盤に採用",
       "source": {
         "url": "https://www.globenewswire.com/news-release/2026/09/22/3365960/0/en/coretura-selects-alloy-kore-to-advance-a-unique-software-defined-vehicle-platform-for-its-commercial-vehicle-customers.html"
-      }
+      },
+      "thumbnail": "https://ml.globenewswire.com/Resource/Download/7e64a1e1-d563-41c7-b456-acd067b48a30"
     },
     {
       "id": "ai-anthropic-crispr-enzyme-20260923",
@@ -144,7 +151,8 @@
       "title": "Anthropic、ClaudeがCRISPR様反復配列を持つ新規酵素系を発見",
       "source": {
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg"
     },
     {
       "id": "ai-google-private-ai-memory-20260923",
@@ -154,7 +162,8 @@
       "title": "Google DeepMind、Private AI Computeに安全なサーバー側メモリを導入",
       "source": {
         "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
-      }
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/CsJavGl89SJwjdXVDdaKtAEpLbqHa_nzOW89VTThwA8rgYr9Gf3CSiUWk18i5thA57k8zhwdwmvf3F2yagtJ-P1ag-9ppxsPXcUe99DRY9asIRP2yA=w1200-h630-n-nu-rw"
     }
   ],
   "references": [
@@ -201,7 +210,8 @@
       "title": "TCS、次世代SDV向けCustom SoC Design Servicesを開始",
       "source": {
         "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies"
-      }
+      },
+      "thumbnail": "https://www.tcs.com/content/dam/global-tcs/ja/images/who-we-are/events/tcs-at-semicon-india-2024/card.jpg"
     },
     {
       "id": "ai-openai-ethical-hack-20260918",
@@ -210,7 +220,8 @@
       "title": "AI支援の認可セキュリティテストでOpenAI従業員アカウントへの侵入経路を実証",
       "source": {
         "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
-      }
+      },
+      "thumbnail": "https://i.guim.co.uk/img/media/3ac505ec5bde795c6c333ea6dc7fbaadf38f1a93/354_0_4167_3333/master/4167.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=81648307e057420c468715010ba10185"
     },
     {
       "id": "sdv-agl-sodev-riscv-20260918",
@@ -228,7 +239,8 @@
       "title": "OpenAI・Anthropic・Google・SpaceXAIのAI安全協調を巡り反トラスト訴訟",
       "source": {
         "url": "https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b"
-      }
+      },
+      "thumbnail": "https://dims.apnews.com/dims4/default/1d6c313/2147483647/strip/true/crop/3000x1999+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F23%2Fa3%2Ffe28d00714c2188b5c28ecb88366%2Fcaa7ccddb1e84a408b718cebb5126263"
     },
     {
       "id": "ai-anthropic-new-model-ipo-20260919",
@@ -257,7 +269,8 @@
       "title": "Volvo Cars、グローバルAAOS開発環境をHorizonへ移行",
       "source": {
         "url": "https://www.googlecloudpresscorner.com/2026-09-22-Accenture-and-Google-Cloud-Transform-Software-Development-with-Volvo-Cars"
-      }
+      },
+      "thumbnail": "https://mmx.prnewswire.com/media/MS1992746/car.jpg?id=OA2960766&p=facebook"
     },
     {
       "id": "sdv-voyah-dream9-huawei-20260923",
@@ -267,7 +280,8 @@
       "title": "Dongfeng Voyah Dream 9、Huawei ADS 5とHarmonySpace 6を全車標準化",
       "source": {
         "url": "https://sdvsector.com/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture.png"
     },
     {
       "id": "sdv-tencent-leapmotor-workbuddy-20260923",
@@ -277,7 +291,8 @@
       "title": "Leapmotor、車両開発・智能運転チームへTencent WorkBuddyを展開",
       "source": {
         "url": "https://sdvsector.com/news/2026-09-23-tencent-workbuddy-leapmotor"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-09-23-tencent-workbuddy-leapmotor.png"
     },
     {
       "id": "ai-google-gemini38-tts-20260923",
@@ -287,7 +302,8 @@
       "title": "Google、Gemini 3.8 Flash / Flash-Lite TTSを公開",
       "source": {
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__keyword__metacard__light.width-1300.png"
     },
     {
       "id": "sdv-vicone-cymetris-live-tara-20260923",
@@ -297,7 +313,8 @@
       "title": "VicOne×CYMETRIS、新規CVEを車両別リスク判断へ連携するLive TARAを発表",
       "source": {
         "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/"
-      }
+      },
+      "thumbnail": "https://cdn.vicone.com/content-agent/articles/vicone-cymetris-pr-en2.webp"
     },
     {
       "id": "sdv-valens-onsemi-aphy-license-20260923",
@@ -307,7 +324,8 @@
       "title": "Valens、A-PHY車載センサー接続技術をonsemiへライセンス",
       "source": {
         "url": "https://sdvsector.com/region/global"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/default.png"
     },
     {
       "id": "sdv-brp-canam-software-recall-20260923",
@@ -317,7 +335,8 @@
       "title": "Can-Am、14,014台のメーターソフト不具合をOTAまたは販売店で修正",
       "source": {
         "url": "https://sdvsector.com/topic/diagnostics-and-service"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/default.png"
     }
   ]
 }

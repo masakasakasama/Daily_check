@@ -38,7 +38,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png"
     },
     {
       "id": "sdv-applied-honda-20261006",
@@ -59,7 +60,8 @@
       "source": {
         "label": "Applied Intuition",
         "url": "https://www.appliedintuition.com/press-releases/applied-intuition-honda-sdv-partnership"
-      }
+      },
+      "thumbnail": "https://cdn.sanity.io/images/a86leg7v/production/fe5ac73726ff86232e8b0037ee32017f91d2c9e6-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630"
     },
     {
       "id": "sdv-applied-nissan-20261006",
@@ -80,7 +82,8 @@
       "source": {
         "label": "Applied Intuition",
         "url": "https://www.appliedintuition.com/press-releases/applied-intuition-nissan-aidv-development"
-      }
+      },
+      "thumbnail": "https://cdn.sanity.io/images/a86leg7v/production/040595da0649fc95c018e6b114f6ba12b6e9fe82-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630"
     },
     {
       "id": "codex-auto-review-free-20261006",
@@ -101,7 +104,8 @@
       "source": {
         "label": "OpenAI Help Center",
         "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan"
-      }
+      },
+      "thumbnail": "https://help.openai.com/og-image.png"
     },
     {
       "id": "ai-google-gemini-skills-20260930",
@@ -115,7 +119,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Skills_thumbnail.width-1300.png"
     },
     {
       "id": "ai-openai-decisions-api-public-beta-20261006",
@@ -150,7 +155,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://code.claude.com/docs/en/changelog"
-      }
+      },
+      "thumbnail": "https://claude-code.mintlify.app/_mintlify/api/og/v2?division=Getting+started&title=Claude+Code+changelog&description=Release+notes+for+Claude+Code%2C+including+new+features%2C+improvements%2C+and+bug+fixes+by+version.&theme=03628e99c753a03aec319053&signature=7cc879543925badf187e5b94b39910406ffb8e5c47dcb9d1efb67a6cb0c6b940"
     },
     {
       "id": "ai-openai-textgrain-20261005",
@@ -171,7 +177,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/eu-text-provenance/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "sdv-lg-renault-cockpit-20261006",
@@ -192,7 +199,8 @@
       "source": {
         "label": "LG Electronics",
         "url": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml"
-      }
+      },
+      "thumbnail": "https://mmx.prnasia.com/media/MS2000609/20261001024712EDT_image_1.jpg?id=OA2982106&p=medium600"
     },
     {
       "id": "pr-nz-parent-resident-hybrid-selection-20261005",
@@ -227,7 +235,8 @@
       "source": {
         "label": "OpenAI API Changelog",
         "url": "https://developers.openai.com/api/docs/changelog"
-      }
+      },
+      "thumbnail": "https://developers.openai.com/og/api/docs/changelog.png"
     },
     {
       "id": "codex-work-mode-errors-20261005",
@@ -269,7 +278,8 @@
       "source": {
         "label": "ECARX",
         "url": "https://en.prnasia.com/releases/global/ecarx-completes-acquisition-of-flyme-software-business-securing-end-to-end-operating-system-capabilities-550581.shtml"
-      }
+      },
+      "thumbnail": "https://en.prnasia.com/prnasia.com-PC/images/logo-en-min-200.png"
     }
   ],
   "references": [
@@ -285,7 +295,8 @@
       "source": {
         "label": "Google Antigravity Docs / Startup Fortune",
         "url": "https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/"
-      }
+      },
+      "thumbnail": "https://startupfortune.com/wp-content/uploads/2026/10/anthropic-claude-opus-5-5-google-antigravity.jpg"
     },
     {
       "id": "ai-mistral-large4-preview-20261006",
@@ -320,7 +331,8 @@
       "source": {
         "label": "SDV Sector / SCSK",
         "url": "https://sdvsector.com/news/2026-10-01-scsk-vector-microsar-io-qines-lite-rl78"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-10-01-scsk-vector-microsar-io-qines-lite-rl78.png"
     },
     {
       "id": "ai-anthropic-cvp-expanded-20261006",
@@ -341,7 +353,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/glasswing"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/65641e7846f10255c4a3415a10bbf5793ae87b13-1200x630.jpg"
     },
     {
       "id": "ai-openai-distillation-campaign-20260930",
@@ -355,7 +368,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7MP5Bq8wKRpAAnnhqfdA8o/3ca1f00ae7ec16c5a569eb6195e24c90/disrupting-a-coordinated-model-distillation-campaign-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "sdv-tieriv-arm-autoware-20261001",
@@ -369,7 +383,8 @@
       "source": {
         "label": "SDV Sector / TIER IV",
         "url": "https://sdvsector.com/news/2026-10-01-tier-iv-arm-total-design-physical-ai-autoware"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-10-01-tier-iv-arm-total-design-physical-ai-autoware.png"
     },
     {
       "id": "sdv-stellantis-wayve-fiat-maserati-20261004",
@@ -411,7 +426,8 @@
       "source": {
         "label": "SDV Sector / GM",
         "url": "https://sdvsector.com/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant.png"
     },
     {
       "id": "ai-openai-ironclad-computer-use-20261006",
@@ -432,7 +448,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/advancing-computer-use-with-ironclad/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7MHs3xHafyN62xj8ZblzjX/b0bfb5320a21766be56d761631d18899/oai_ironclad_cua_16x9.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "sdv-nhtsa-recall-ota-docket-20260929",
@@ -446,7 +463,8 @@
       "source": {
         "label": "SDV Sector / Federal Register",
         "url": "https://sdvsector.com/news/2026-09-29-nhtsa-recall-completion-ota-docket"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-09-29-nhtsa-recall-completion-ota-docket.png"
     },
     {
       "id": "ai-ftc-frontier-model-probe-20260930",
@@ -474,7 +492,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/1rewZcU5SqdsiUKj7Q6fCx/e82271bc1df80e3f2d5f9cfcd82a91fa/helping-small-businesses-put-ai-to-work-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "sdv-china-supply-chain-cyber-standard-20261001",
@@ -488,7 +507,8 @@
       "source": {
         "label": "SDV Sector / MIIT",
         "url": "https://sdvsector.com/news/2026-10-01-miit-supply-chain-cybersecurity-standard-project"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-10-01-miit-supply-chain-cybersecurity-standard-project.png"
     },
     {
       "id": "ai-reflection-open-weight-preview-20261004",
@@ -502,7 +522,8 @@
       "source": {
         "label": "Axios",
         "url": "https://www.axios.com/newsletters/axios-am-2b1de489-384e-4789-90c6-c71365f81223"
-      }
+      },
+      "thumbnail": "https://assets.axios.com/203e9f932cc97836ac2ff4c6c982676c.png"
     },
     {
       "id": "ai-anthropic-barclays-claude-scale-20261001",
@@ -516,7 +537,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/news/barclays-scales-claude"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     },
     {
       "id": "sdv-nxp-vector-zonal-platform-webinar-20260929",
@@ -558,7 +580,8 @@
       "source": {
         "label": "Google DeepMind",
         "url": "https://deepmind.google/blog/introducing-synthid-bio/"
-      }
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w1200-h630-n-nu-rw"
     },
     {
       "id": "sdv-honda-tata-dev-partnership-20261005",
@@ -607,7 +630,8 @@
       "source": {
         "label": "EMQ",
         "url": "https://www.emqx.com/en/events/emq-at-sdv-and-av-technology-summit-europe-2026"
-      }
+      },
+      "thumbnail": "https://assets.emqx.com/images/4ce6aa175aaef376f5fef20a20ae1ab9.png"
     },
     {
       "id": "ai-anthropic-government-ga-20260930",
@@ -621,7 +645,8 @@
       "source": {
         "label": "Reuters",
         "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45M1CM:0-anthropic-says-claude-for-government-is-now-generally-available/"
-      }
+      },
+      "thumbnail": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
     },
     {
       "id": "ai-anthropic-claude-code-2-1-288-20261002",
@@ -635,7 +660,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://code.claude.com/docs/en/changelog"
-      }
+      },
+      "thumbnail": "https://claude-code.mintlify.app/_mintlify/api/og/v2?division=Getting+started&title=Claude+Code+changelog&description=Release+notes+for+Claude+Code%2C+including+new+features%2C+improvements%2C+and+bug+fixes+by+version.&theme=03628e99c753a03aec319053&signature=7cc879543925badf187e5b94b39910406ffb8e5c47dcb9d1efb67a6cb0c6b940"
     }
   ]
 }

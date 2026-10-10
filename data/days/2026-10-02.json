@@ -13,7 +13,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://code.claude.com/docs/en/changelog"
-      }
+      },
+      "thumbnail": "https://claude-code.mintlify.app/_mintlify/api/og/v2?division=Getting+started&title=Claude+Code+changelog&description=Release+notes+for+Claude+Code%2C+including+new+features%2C+improvements%2C+and+bug+fixes+by+version.&theme=03628e99c753a03aec319053&signature=7cc879543925badf187e5b94b39910406ffb8e5c47dcb9d1efb67a6cb0c6b940"
     }
   ],
   "references": [
@@ -29,7 +30,8 @@
       "source": {
         "label": "SDV Sector / SCSK",
         "url": "https://sdvsector.com/news/2026-10-01-scsk-vector-microsar-io-qines-lite-rl78"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-10-01-scsk-vector-microsar-io-qines-lite-rl78.png"
     },
     {
       "id": "sdv-tieriv-arm-autoware-20261001",
@@ -43,7 +45,8 @@
       "source": {
         "label": "SDV Sector / TIER IV",
         "url": "https://sdvsector.com/news/2026-10-01-tier-iv-arm-total-design-physical-ai-autoware"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-10-01-tier-iv-arm-total-design-physical-ai-autoware.png"
     },
     {
       "id": "sdv-gm-onstar-fleet-ai-20261001",
@@ -57,7 +60,8 @@
       "source": {
         "label": "SDV Sector / GM",
         "url": "https://sdvsector.com/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant.png"
     },
     {
       "id": "sdv-china-supply-chain-cyber-standard-20261001",
@@ -71,7 +75,8 @@
       "source": {
         "label": "SDV Sector / MIIT",
         "url": "https://sdvsector.com/news/2026-10-01-miit-supply-chain-cybersecurity-standard-project"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-10-01-miit-supply-chain-cybersecurity-standard-project.png"
     },
     {
       "id": "ai-anthropic-barclays-claude-scale-20261001",
@@ -85,7 +90,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/news/barclays-scales-claude"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     }
   ],
   "checks": [

@@ -21,7 +21,8 @@
         "scale": 15,
         "specificity": 10,
         "novelty": 7
-      }
+      },
+      "thumbnail": "https://www.media.stellantis.com/cache/6/4/8/1/4/6481495e6b90c8a648ae104b83401e7cc7a52c64.jpeg"
     },
     {
       "id": "fmcsa-aurora-warning-beacons-20261009",
@@ -61,7 +62,8 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "codex-cli-01620-20261008",
@@ -78,7 +80,8 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0"
       },
       "sourcePublishedAt": "2026-10-08T18:55:59Z",
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://opengraph.githubassets.com/ecd5f375c36de28d9804327dbdf3e5b7ade3c97efa418c5370f3495eb6d33d86/openai/codex/releases/tag/rust-v0.162.0"
     }
   ],
   "checks": [

@@ -13,7 +13,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png"
     },
     {
       "id": "ai-google-gemini-skills-20260930",
@@ -27,7 +28,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Skills_thumbnail.width-1300.png"
     }
   ],
   "references": [
@@ -43,7 +45,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7MP5Bq8wKRpAAnnhqfdA8o/3ca1f00ae7ec16c5a569eb6195e24c90/disrupting-a-coordinated-model-distillation-campaign-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-synopsys-openai-chip-model-20260930",
@@ -71,7 +74,8 @@
       "source": {
         "label": "SDV Sector / Federal Register",
         "url": "https://sdvsector.com/news/2026-09-29-nhtsa-recall-completion-ota-docket"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/news/2026-09-29-nhtsa-recall-completion-ota-docket.png"
     },
     {
       "id": "ai-ftc-frontier-model-probe-20260930",
@@ -99,7 +103,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/1rewZcU5SqdsiUKj7Q6fCx/e82271bc1df80e3f2d5f9cfcd82a91fa/helping-small-businesses-put-ai-to-work-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "sdv-nxp-vector-zonal-platform-webinar-20260929",
@@ -141,7 +146,8 @@
       "source": {
         "label": "Google DeepMind",
         "url": "https://deepmind.google/blog/introducing-synthid-bio/"
-      }
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w1200-h630-n-nu-rw"
     },
     {
       "id": "sdv-momenta-global-expansion-20260930",
@@ -169,7 +175,8 @@
       "source": {
         "label": "EMQ",
         "url": "https://www.emqx.com/en/events/emq-at-sdv-and-av-technology-summit-europe-2026"
-      }
+      },
+      "thumbnail": "https://assets.emqx.com/images/4ce6aa175aaef376f5fef20a20ae1ab9.png"
     },
     {
       "id": "ai-anthropic-government-ga-20260930",
@@ -183,7 +190,8 @@
       "source": {
         "label": "Reuters",
         "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45M1CM:0-anthropic-says-claude-for-government-is-now-generally-available/"
-      }
+      },
+      "thumbnail": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
     }
   ],
   "checks": [

@@ -13,7 +13,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/1Xa7inzcCfsGE5aV3QqeN3/4f3689ae92e04b18569f9eaf919e7174/GPT-6-1-Sol_16x9.png"
     },
     {
       "id": "ai-openai-dots-20260929",
@@ -27,7 +28,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/introducing-dots/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "codex-devday-cloud-cli-review-security-20260929",
@@ -41,7 +43,8 @@
       "source": {
         "label": "OpenAI DevDay",
         "url": "https://openai.com/index/devday-2026-recap/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/6elORm6Tf9SptdH3mlnJBW/a0bea759a911cd9f04afe135835063bc/DevDay_Blog_ArtCard_16x9.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-anthropic-sonnet55-20260928",
@@ -55,7 +58,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/claude-sonnet-5-5"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/eaa6046f4ae8c88e368c3c530c4c1312f7ff6f2e-1200x630.jpg"
     },
     {
       "id": "ai-amd-world-labs-acquisition-20260928",
@@ -69,7 +73,8 @@
       "source": {
         "label": "AMD SEC filing",
         "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000182/amd-20260926.htm"
-      }
+      },
+      "thumbnail": "https://d1io3yog0oux5.cloudfront.net/_e6fb18640ea7bfff80a48dc92268a25f/amd/db/834/7308/social_image_resized.jpg"
     },
     {
       "id": "ai-us-industry-self-policing-pact-20260929",
@@ -97,7 +102,8 @@
       "source": {
         "label": "The White House",
         "url": "https://www.whitehouse.gov/presidential-actions/2026/09/streamlining-access-to-government-services-through-america-gov/"
-      }
+      },
+      "thumbnail": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Presidential-Actions-Social-Share-Card.jpg"
     },
     {
       "id": "sdv-qnx-neuehct-german-oem-20260928",
@@ -127,7 +133,8 @@
       "source": {
         "label": "The White House",
         "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/"
-      }
+      },
+      "thumbnail": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Presidential-Actions-Social-Share-Card.jpg"
     },
     {
       "id": "ai-google-diffusion-controller-20260929",
@@ -141,7 +148,8 @@
       "source": {
         "label": "Google Research",
         "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"
     },
     {
       "id": "sdv-lucid-air-ux30-20260929",
@@ -155,7 +163,8 @@
       "source": {
         "label": "Lucid Motors",
         "url": "https://lucidmotors.com/stories/lucid-air-ux-3-0"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/5ky6szwjj7ya/1CLCsxC91ac71yoWspZWYO/766b6b83cf640ba870126a5954e4f261/lucid-stories-lucid-air-ux3.0-og.webp"
     },
     {
       "id": "sdv-india-architecture-analysis-20260929",
@@ -169,7 +178,8 @@
       "source": {
         "label": "EVreporter",
         "url": "https://evreporter.com/software-defined-vehicles-can-india-turn-its-software-strength-into-automotive-advantage/"
-      }
+      },
+      "thumbnail": "https://evreporter.com/wp-content/uploads/2026/09/Software-Defined-Vehicles-article-Cover-Image.jpg"
     }
   ],
   "checks": [

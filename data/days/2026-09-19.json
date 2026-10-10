@@ -11,7 +11,8 @@
       "source": {
         "label": "AP",
         "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
-      }
+      },
+      "thumbnail": "https://dims.apnews.com/dims4/default/cc34ed2/2147483647/strip/true/crop/5000x3332+0+2/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc6%2F20%2F785616a9d6cd43fad6538dac7906%2F2ae6211ac40c4c759949e06d6698571b"
     },
     {
       "id": "sdv-xpeng-tech-licensing-20260917",
@@ -35,7 +36,8 @@
       "source": {
         "label": "Lucid",
         "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"
-      }
+      },
+      "thumbnail": "https://ir.lucidmotors.com/static-files/51c214bd-7356-49d7-9ddf-86ca2ad3183f"
     }
   ],
   "references": [
@@ -61,7 +63,8 @@
       "source": {
         "label": "TCS",
         "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies"
-      }
+      },
+      "thumbnail": "https://www.tcs.com/content/dam/global-tcs/ja/images/who-we-are/events/tcs-at-semicon-india-2024/card.jpg"
     },
     {
       "id": "ai-openai-ethical-hack-20260918",
@@ -73,7 +76,8 @@
       "source": {
         "label": "The Guardian",
         "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
-      }
+      },
+      "thumbnail": "https://i.guim.co.uk/img/media/3ac505ec5bde795c6c333ea6dc7fbaadf38f1a93/354_0_4167_3333/master/4167.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=81648307e057420c468715010ba10185"
     },
     {
       "id": "sdv-agl-sodev-riscv-20260918",

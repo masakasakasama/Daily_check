@@ -45,7 +45,8 @@
       "source": {
         "label": "Applied Intuition",
         "url": "https://www.appliedintuition.com/press-releases/applied-intuition-honda-sdv-partnership"
-      }
+      },
+      "thumbnail": "https://cdn.sanity.io/images/a86leg7v/production/fe5ac73726ff86232e8b0037ee32017f91d2c9e6-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630"
     },
     {
       "id": "sdv-applied-nissan-20261006",
@@ -66,7 +67,8 @@
       "source": {
         "label": "Applied Intuition",
         "url": "https://www.appliedintuition.com/press-releases/applied-intuition-nissan-aidv-development"
-      }
+      },
+      "thumbnail": "https://cdn.sanity.io/images/a86leg7v/production/040595da0649fc95c018e6b114f6ba12b6e9fe82-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630"
     },
     {
       "id": "codex-steering-20261008",
@@ -82,7 +84,8 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "codex-auto-review-free-20261006",
@@ -103,7 +106,8 @@
       "source": {
         "label": "OpenAI Help Center",
         "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan"
-      }
+      },
+      "thumbnail": "https://help.openai.com/og-image.png"
     },
     {
       "id": "api-ultrafast-sol-20261008",
@@ -119,7 +123,8 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-openai-decisions-api-public-beta-20261006",
@@ -161,7 +166,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/eu-text-provenance/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "sdv-lg-renault-cockpit-20261006",
@@ -182,7 +188,8 @@
       "source": {
         "label": "LG Electronics",
         "url": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml"
-      }
+      },
+      "thumbnail": "https://mmx.prnasia.com/media/MS2000609/20261001024712EDT_image_1.jpg?id=OA2982106&p=medium600"
     },
     {
       "id": "pr-nz-parent-resident-hybrid-selection-20261005",
@@ -217,7 +224,8 @@
       "source": {
         "label": "OpenAI API Changelog",
         "url": "https://developers.openai.com/api/docs/changelog"
-      }
+      },
+      "thumbnail": "https://developers.openai.com/og/api/docs/changelog.png"
     },
     {
       "id": "codex-work-mode-errors-20261005",
@@ -254,7 +262,8 @@
         "label": "ChatGPT & Codex changelog",
         "url": "https://learn.chatgpt.com/docs/changelog"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://learn.chatgpt.com/og/docs/changelog.png"
     },
     {
       "id": "sdv-ecarx-flyme-acquisition-20261005",
@@ -275,7 +284,8 @@
       "source": {
         "label": "ECARX",
         "url": "https://en.prnasia.com/releases/global/ecarx-completes-acquisition-of-flyme-software-business-securing-end-to-end-operating-system-capabilities-550581.shtml"
-      }
+      },
+      "thumbnail": "https://en.prnasia.com/prnasia.com-PC/images/logo-en-min-200.png"
     },
     {
       "id": "foton-zhuoyu-commercial-autonomy-20261008",
@@ -319,7 +329,8 @@
         "scale": 15,
         "specificity": 10,
         "novelty": 7
-      }
+      },
+      "thumbnail": "https://www.media.stellantis.com/cache/6/4/8/1/4/6481495e6b90c8a648ae104b83401e7cc7a52c64.jpeg"
     },
     {
       "id": "fmcsa-aurora-warning-beacons-20261009",
@@ -359,7 +370,8 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-google-antigravity-claude-55-20261003",
@@ -373,7 +385,8 @@
       "source": {
         "label": "Google Antigravity Docs / Startup Fortune",
         "url": "https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/"
-      }
+      },
+      "thumbnail": "https://startupfortune.com/wp-content/uploads/2026/10/anthropic-claude-opus-5-5-google-antigravity.jpg"
     },
     {
       "id": "ai-mistral-large4-preview-20261006",
@@ -411,7 +424,8 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0"
       },
       "sourcePublishedAt": "2026-10-08T18:55:59Z",
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://opengraph.githubassets.com/ecd5f375c36de28d9804327dbdf3e5b7ade3c97efa418c5370f3495eb6d33d86/openai/codex/releases/tag/rust-v0.162.0"
     },
     {
       "id": "ai-anthropic-cvp-expanded-20261006",
@@ -432,7 +446,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/glasswing"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/65641e7846f10255c4a3415a10bbf5793ae87b13-1200x630.jpg"
     },
     {
       "id": "kodiak-charger-laredo-20261008",
@@ -454,7 +469,8 @@
         "scale": 10,
         "specificity": 10,
         "novelty": 6
-      }
+      },
+      "thumbnail": "https://images.prismic.io/kodiak/e8L4nczibdUgGzaA_charger_blog_03.png?auto=format,compress&rect=0,36,1920,1008&w=2400&h=1260"
     },
     {
       "id": "codex-cli-01621-20261009",
@@ -471,7 +487,8 @@
         "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1"
       },
       "sourcePublishedAt": "2026-10-09T19:44:51Z",
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://opengraph.githubassets.com/66e18f25dd3ae262730148ccb499ba9c11591a3c335b8038584783404c57b627/openai/codex/releases/tag/rust-v0.162.1"
     },
     {
       "id": "sdv-stellantis-wayve-fiat-maserati-20261004",
@@ -506,7 +523,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/advancing-computer-use-with-ironclad/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7MHs3xHafyN62xj8ZblzjX/b0bfb5320a21766be56d761631d18899/oai_ironclad_cua_16x9.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "volvo-ex30-ecall-recall-4232-20261008",
@@ -528,7 +546,8 @@
         "scale": 5,
         "specificity": 12,
         "novelty": 4
-      }
+      },
+      "thumbnail": "https://www.mlit.go.jp/common/001391890.png"
     },
     {
       "id": "anthropic-usage-policy-20261008",
@@ -543,7 +562,8 @@
       "source": {
         "label": "Anthropic公式",
         "url": "https://www.anthropic.com/news/2026-usage-policy-update"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     },
     {
       "id": "ai-reflection-open-weight-preview-20261004",
@@ -557,7 +577,8 @@
       "source": {
         "label": "Axios",
         "url": "https://www.axios.com/newsletters/axios-am-2b1de489-384e-4789-90c6-c71365f81223"
-      }
+      },
+      "thumbnail": "https://assets.axios.com/203e9f932cc97836ac2ff4c6c982676c.png"
     },
     {
       "id": "chatgpt-plugin-rbac-20261008",
@@ -573,7 +594,8 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "sdv-honda-tata-dev-partnership-20261005",
@@ -609,7 +631,8 @@
       "source": {
         "label": "UKVI",
         "url": "https://www.gov.uk/government/publications/long-residence/long-residence-accessible"
-      }
+      },
+      "thumbnail": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
     }
   ]
 }

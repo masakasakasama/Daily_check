@@ -14,7 +14,8 @@
       "source": {
         "label": "Daily AI Newsbites",
         "url": "https://ai.newsbites.today/date/2026/09"
-      }
+      },
+      "thumbnail": "https://ai.newsbites.today/news-assets/thumbnail-news/2026/09/30/2026-09-30-spacexai-news1.webp?v=a80972358e84"
     },
     {
       "id": "ai-replit-atta-acquisition-20260926",
@@ -28,7 +29,8 @@
       "source": {
         "label": "Daily AI Newsbites",
         "url": "https://replit.com/blog/replit-acquires-atta"
-      }
+      },
+      "thumbnail": "https://cdn.sanity.io/images/bj34pdbp/migration/deeb5f9700e7bca2714dd5bc8a93284d9cc92450-1920x1004.png?w=1200&h=630&fit=max&fm=jpg"
     },
     {
       "id": "dspace-v2x-sil-hil-20260926",
@@ -50,7 +52,8 @@
       "source": {
         "label": "YourStory",
         "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
-      }
+      },
+      "thumbnail": "https://images.yourstory.com/cs/2/f4c8dc30b73511f197be7d10bec6c83f/dSPACEIndia1600x900-1790338657181.jpg"
     }
   ],
   "checks": [

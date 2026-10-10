@@ -13,7 +13,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.width-1300.png"
     }
   ],
   "references": [
@@ -29,7 +30,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7FJ6xwUhzfqnyoSn9ciPcS/2f477db82efadb6e10ace70da6498bb3/chatgpt-ads-expands-to-southeast-asia-and-taiwan-seo.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "bosch-rexroth-bodas-ota-20260927",
@@ -51,7 +53,8 @@
       "source": {
         "label": "Bosch Rexroth公式",
         "url": "https://www.boschrexroth.com/en/at/company/press/owasys-47232.html"
-      }
+      },
+      "thumbnail": "https://dc-mkt-prod.cloud.bosch.tech/xrm/media/global/press_1/2026_2/september_4/photo_3_pi_024_26_owasys.jpg"
     }
   ],
   "checks": [

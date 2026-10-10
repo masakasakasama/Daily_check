@@ -36,7 +36,8 @@
       "source": {
         "label": "AP",
         "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132"
-      }
+      },
+      "thumbnail": "https://dims.apnews.com/dims4/default/cc34ed2/2147483647/strip/true/crop/5000x3332+0+2/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc6%2F20%2F785616a9d6cd43fad6538dac7906%2F2ae6211ac40c4c759949e06d6698571b"
     },
     {
       "id": "sdv-xpeng-tech-licensing-20260917",
@@ -60,7 +61,8 @@
       "source": {
         "label": "Lucid",
         "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"
-      }
+      },
+      "thumbnail": "https://ir.lucidmotors.com/static-files/51c214bd-7356-49d7-9ddf-86ca2ad3183f"
     },
     {
       "id": "ai-openai-misalignment-reporting-framework-20260918",
@@ -72,7 +74,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/model-misalignment-reporting-framework/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/1ZIYnl31jt9gPO8qCbMGBZ/aaf74083a5332be1cb265dbdb6e652e0/model-misalignment-reporting-framework--seo-v002.png?w=1600&h=900&fit=fill"
     },
     {
       "id": "ai-cohere-aleph-alpha-merger-20260917",
@@ -97,7 +100,8 @@
       "source": {
         "label": "GM News",
         "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks.html"
-      }
+      },
+      "thumbnail": "https://news.gm.com/content/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks/jcr:content/image.resize.maxw_1200.jpg/1789488406289.jpg"
     },
     {
       "id": "ai-frontier-labs-safety-coordination-20260916",
@@ -149,7 +153,8 @@
       "source": {
         "label": "TCS",
         "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies"
-      }
+      },
+      "thumbnail": "https://www.tcs.com/content/dam/global-tcs/ja/images/who-we-are/events/tcs-at-semicon-india-2024/card.jpg"
     },
     {
       "id": "ai-openai-ethical-hack-20260918",
@@ -161,7 +166,8 @@
       "source": {
         "label": "The Guardian",
         "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot"
-      }
+      },
+      "thumbnail": "https://i.guim.co.uk/img/media/3ac505ec5bde795c6c333ea6dc7fbaadf38f1a93/354_0_4167_3333/master/4167.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=81648307e057420c468715010ba10185"
     },
     {
       "id": "sdv-agl-sodev-riscv-20260918",
@@ -273,7 +279,8 @@
       "source": {
         "label": "HARMAN",
         "url": "https://news.harman.com/releases/harman-joins-sdverse-marketplace-expanding-access-to-automotive-software-and-engineering-solutions"
-      }
+      },
+      "thumbnail": "https://iprsoftwaremedia.com/214/files/20268/7496909b037bc38609a1ec48b2b42246/6aa45d783d63329cf4e500ec_HARMAN%20Ready%20Link%20Marketplace%20Screen/HARMAN%20Ready%20Link%20Marketplace%20Screen_mid.jpg?v=f7c764d3-b7ba-4ac2-a52a-629a7e0adc10"
     },
     {
       "id": "sdv-korea-ota-cyber-exercise-20260915",

@@ -20,7 +20,8 @@
       "source": {
         "label": "Applied Intuition",
         "url": "https://www.appliedintuition.com/press-releases/applied-intuition-honda-sdv-partnership"
-      }
+      },
+      "thumbnail": "https://cdn.sanity.io/images/a86leg7v/production/fe5ac73726ff86232e8b0037ee32017f91d2c9e6-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630"
     },
     {
       "id": "sdv-applied-nissan-20261006",
@@ -41,7 +42,8 @@
       "source": {
         "label": "Applied Intuition",
         "url": "https://www.appliedintuition.com/press-releases/applied-intuition-nissan-aidv-development"
-      }
+      },
+      "thumbnail": "https://cdn.sanity.io/images/a86leg7v/production/040595da0649fc95c018e6b114f6ba12b6e9fe82-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630"
     },
     {
       "id": "codex-auto-review-free-20261006",
@@ -62,7 +64,8 @@
       "source": {
         "label": "OpenAI Help Center",
         "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan"
-      }
+      },
+      "thumbnail": "https://help.openai.com/og-image.png"
     },
     {
       "id": "ai-openai-decisions-api-public-beta-20261006",
@@ -104,7 +107,8 @@
       "source": {
         "label": "LG Electronics",
         "url": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml"
-      }
+      },
+      "thumbnail": "https://mmx.prnasia.com/media/MS2000609/20261001024712EDT_image_1.jpg?id=OA2982106&p=medium600"
     },
     {
       "id": "ai-openai-api-tier-simplification-20261006",
@@ -125,7 +129,8 @@
       "source": {
         "label": "OpenAI API Changelog",
         "url": "https://developers.openai.com/api/docs/changelog"
-      }
+      },
+      "thumbnail": "https://developers.openai.com/og/api/docs/changelog.png"
     },
     {
       "id": "sdv-ecarx-flyme-acquisition-20261005",
@@ -146,7 +151,8 @@
       "source": {
         "label": "ECARX",
         "url": "https://en.prnasia.com/releases/global/ecarx-completes-acquisition-of-flyme-software-business-securing-end-to-end-operating-system-capabilities-550581.shtml"
-      }
+      },
+      "thumbnail": "https://en.prnasia.com/prnasia.com-PC/images/logo-en-min-200.png"
     }
   ],
   "references": [
@@ -190,7 +196,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/glasswing"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/65641e7846f10255c4a3415a10bbf5793ae87b13-1200x630.jpg"
     },
     {
       "id": "ai-openai-ironclad-computer-use-20261006",
@@ -211,7 +218,8 @@
       "source": {
         "label": "OpenAI",
         "url": "https://openai.com/index/advancing-computer-use-with-ironclad/"
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7MHs3xHafyN62xj8ZblzjX/b0bfb5320a21766be56d761631d18899/oai_ironclad_cua_16x9.png?w=1600&h=900&fit=fill"
     }
   ],
   "checks": [

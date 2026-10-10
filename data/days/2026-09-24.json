@@ -13,7 +13,8 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
-      }
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg"
     },
     {
       "id": "ai-google-private-ai-memory-20260923",
@@ -27,7 +28,8 @@
       "source": {
         "label": "Google DeepMind",
         "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
-      }
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/CsJavGl89SJwjdXVDdaKtAEpLbqHa_nzOW89VTThwA8rgYr9Gf3CSiUWk18i5thA57k8zhwdwmvf3F2yagtJ-P1ag-9ppxsPXcUe99DRY9asIRP2yA=w1200-h630-n-nu-rw"
     }
   ],
   "references": [
@@ -43,7 +45,8 @@
       "source": {
         "label": "Google",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
-      }
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__keyword__metacard__light.width-1300.png"
     },
     {
       "id": "sdv-vicone-cymetris-live-tara-20260923",
@@ -57,7 +60,8 @@
       "source": {
         "label": "VicOne",
         "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/"
-      }
+      },
+      "thumbnail": "https://cdn.vicone.com/content-agent/articles/vicone-cymetris-pr-en2.webp"
     },
     {
       "id": "sdv-valens-onsemi-aphy-license-20260923",
@@ -71,7 +75,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/region/global"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/default.png"
     },
     {
       "id": "sdv-brp-canam-software-recall-20260923",
@@ -85,7 +90,8 @@
       "source": {
         "label": "SDV Sector",
         "url": "https://sdvsector.com/topic/diagnostics-and-service"
-      }
+      },
+      "thumbnail": "https://sdvsector.com/og/default.png"
     }
   ],
   "checks": [

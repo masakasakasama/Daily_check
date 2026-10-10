@@ -1,0 +1,522 @@
+{
+  "checkedAt": "2026-10-10T03:58:06.754764+00:00",
+  "purpose": "Restore requested article images using publisher preview metadata; unavailable metadata falls back to the restored dynamic preview resolver",
+  "articlesWithRestoredThumbnail": 78,
+  "sources": [
+    {
+      "url": "https://ai.newsbites.today/date/2026/09",
+      "imageUrl": "https://ai.newsbites.today/news-assets/thumbnail-news/2026/09/30/2026-09-30-spacexai-news1.webp?v=a80972358e84",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://apnews.com/article/4d3a7430f57cbc7c39e1c5f2b7d7e132",
+      "imageUrl": "https://dims.apnews.com/dims4/default/cc34ed2/2147483647/strip/true/crop/5000x3332+0+2/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc6%2F20%2F785616a9d6cd43fad6538dac7906%2F2ae6211ac40c4c759949e06d6698571b",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b",
+      "imageUrl": "https://dims.apnews.com/dims4/default/1d6c313/2147483647/strip/true/crop/3000x1999+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F23%2Fa3%2Ffe28d00714c2188b5c28ecb88366%2Fcaa7ccddb1e84a408b718cebb5126263",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://auto.economictimes.indiatimes.com/amp/news/auto-technology/trust-will-depend-not-only-on-how-well-the-vehicle-drives-but-on-how-clearly-it-explains-its-status-and-intent-omkar-panse-cto-kpit/134532232",
+      "imageUrl": "https://etimg.etb2bimg.com/thumb/msid-134532232,imgsize-248312,width-1200,height=627,overlay-etauto,resizemode-75/auto-technology/trust-will-depend-not-only-on-how-well-the-vehicle-drives-but-on-how-clearly-it-explains-its-status-and-intent-omkar-panse-cto-kpit.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.width-1300.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__keyword__metacard__light.width-1300.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Skills_thumbnail.width-1300.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/changelog",
+      "imageUrl": "https://claude-code.mintlify.app/_mintlify/api/og/v2?division=Getting+started&title=Claude+Code+changelog&description=Release+notes+for+Claude+Code%2C+including+new+features%2C+improvements%2C+and+bug+fixes+by+version.&theme=03628e99c753a03aec319053&signature=7cc879543925badf187e5b94b39910406ffb8e5c47dcb9d1efb67a6cb0c6b940",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "imageUrl": "https://lh3.googleusercontent.com/CsJavGl89SJwjdXVDdaKtAEpLbqHa_nzOW89VTThwA8rgYr9Gf3CSiUWk18i5thA57k8zhwdwmvf3F2yagtJ-P1ag-9ppxsPXcUe99DRY9asIRP2yA=w1200-h630-n-nu-rw",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "imageUrl": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w1200-h630-n-nu-rw",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "imageUrl": "https://developers.openai.com/og/api/docs/changelog.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://developers.openai.com/api/reference/cli/resources/decisions/methods/create",
+      "imageUrl": null,
+      "status": "no-image-metadata"
+    },
+    {
+      "url": "https://electrek.co/2026/09/28/kias-new-interior-spotted-larger-screen-high-tech-software/",
+      "imageUrl": "https://electrek.co/wp-content/uploads/sites/3/2026/09/Kia-EV4-GT-interior-5.jpeg?quality=82&strip=all&resize=1200,628",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://en.prnasia.com/releases/global/ecarx-completes-acquisition-of-flyme-software-business-securing-end-to-end-operating-system-capabilities-550581.shtml",
+      "imageUrl": "https://en.prnasia.com/prnasia.com-PC/images/logo-en-min-200.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml",
+      "imageUrl": "https://mmx.prnasia.com/media/MS2000609/20261001024712EDT_image_1.jpg?id=OA2982106&p=medium600",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://evreporter.com/software-defined-vehicles-can-india-turn-its-software-strength-into-automotive-advantage/",
+      "imageUrl": "https://evreporter.com/wp-content/uploads/2026/09/Software-Defined-Vehicles-article-Cover-Image.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0",
+      "imageUrl": "https://opengraph.githubassets.com/ecd5f375c36de28d9804327dbdf3e5b7ade3c97efa418c5370f3495eb6d33d86/openai/codex/releases/tag/rust-v0.162.0",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1",
+      "imageUrl": "https://opengraph.githubassets.com/66e18f25dd3ae262730148ccb499ba9c11591a3c335b8038584783404c57b627/openai/codex/releases/tag/rust-v0.162.1",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+      "imageUrl": "https://help.openai.com/og-image.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000182/amd-20260926.htm",
+      "imageUrl": "https://d1io3yog0oux5.cloudfront.net/_e6fb18640ea7bfff80a48dc92268a25f/amd/db/834/7308/social_image_resized.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility",
+      "imageUrl": "https://ir.lucidmotors.com/static-files/51c214bd-7356-49d7-9ddf-86ca2ad3183f",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://kodiak.ai/news/kodiak-charger-usa-autonomous-trucking-dallas-laredo",
+      "imageUrl": "https://images.prismic.io/kodiak/e8L4nczibdUgGzaA_charger_blog_03.png?auto=format,compress&rect=0,36,1920,1008&w=2400&h=1260",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/changelog",
+      "imageUrl": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://lucidmotors.com/stories/lucid-air-ux-3-0",
+      "imageUrl": "https://images.ctfassets.net/5ky6szwjj7ya/1CLCsxC91ac71yoWspZWYO/766b6b83cf640ba870126a5954e4f261/lucid-stories-lucid-air-ux3.0-og.webp",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://markets.financialcontent.com/lightport.lightport8/article/accwirecq-2026-9-29-qnx-and-neuehct-join-forces-to-accelerate-global-intelligent-driving-deployment-anchored-by-major-german-automaker-program-win",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks.html",
+      "imageUrl": "https://news.gm.com/content/Pages/news/us/en/2026/sep/0915-gm-unveils-a-new-user-interface-experience-for-pickup-trucks/jcr:content/image.resize.maxw_1200.jpg/1789488406289.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://news.harman.com/releases/harman-joins-sdverse-marketplace-expanding-access-to-automotive-software-and-engineering-solutions",
+      "imageUrl": "https://iprsoftwaremedia.com/214/files/20268/7496909b037bc38609a1ec48b2b42246/6aa45d783d63329cf4e500ec_HARMAN%20Ready%20Link%20Marketplace%20Screen/HARMAN%20Ready%20Link%20Marketplace%20Screen_mid.jpg?v=f7c764d3-b7ba-4ac2-a52a-629a7e0adc10",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7MHs3xHafyN62xj8ZblzjX/b0bfb5320a21766be56d761631d18899/oai_ironclad_cua_16x9.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/building-standards-next-phase-ai/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4qekYv7Z15dtjQYpfZBJFg/75f652d9e84b2e56042c3baeb7c243db/building-shared-standards-next-phase-ai-seo__2_.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7FJ6xwUhzfqnyoSn9ciPcS/2f477db82efadb6e10ace70da6498bb3/chatgpt-ads-expands-to-southeast-asia-and-taiwan-seo.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/devday-2026-recap/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6elORm6Tf9SptdH3mlnJBW/a0bea759a911cd9f04afe135835063bc/DevDay_Blog_ArtCard_16x9.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7MP5Bq8wKRpAAnnhqfdA8o/3ca1f00ae7ec16c5a569eb6195e24c90/disrupting-a-coordinated-model-distillation-campaign-seo.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/eu-text-provenance/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1rewZcU5SqdsiUKj7Q6fCx/e82271bc1df80e3f2d5f9cfcd82a91fa/helping-small-businesses-put-ai-to-work-seo.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/introducing-dots/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1Xa7inzcCfsGE5aV3QqeN3/4f3689ae92e04b18569f9eaf919e7174/GPT-6-1-Sol_16x9.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7fvmMcBIvMTXxVJh7NEMt1/48a75e624699bb1e218366c1d3522048/gpt-6-sol-luna-seo.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6txA4ODTKx7m0Lm7PZhV2j/f0f1322b05b78fb0b33d5dae4920aa00/lenfest-september-seo-white.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1ZIYnl31jt9gPO8qCbMGBZ/aaf74083a5332be1cb265dbdb6e652e0/model-misalignment-reporting-framework--seo-v002.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://openai.com/products/release-notes/",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://replit.com/blog/replit-acquires-atta",
+      "imageUrl": "https://cdn.sanity.io/images/bj34pdbp/migration/deeb5f9700e7bca2714dd5bc8a93284d9cc92450-1920x1004.png?w=1200&h=630&fit=max&fm=jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+      "imageUrl": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://sdvsector.com/news/2026-09-23-tencent-workbuddy-leapmotor",
+      "imageUrl": "https://sdvsector.com/og/news/2026-09-23-tencent-workbuddy-leapmotor.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://sdvsector.com/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture",
+      "imageUrl": "https://sdvsector.com/og/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://sdvsector.com/news/2026-09-29-nhtsa-recall-completion-ota-docket",
+      "imageUrl": "https://sdvsector.com/og/news/2026-09-29-nhtsa-recall-completion-ota-docket.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://sdvsector.com/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant",
+      "imageUrl": "https://sdvsector.com/og/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://sdvsector.com/news/2026-10-01-miit-supply-chain-cybersecurity-standard-project",
+      "imageUrl": "https://sdvsector.com/og/news/2026-10-01-miit-supply-chain-cybersecurity-standard-project.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://sdvsector.com/news/2026-10-01-scsk-vector-microsar-io-qines-lite-rl78",
+      "imageUrl": "https://sdvsector.com/og/news/2026-10-01-scsk-vector-microsar-io-qines-lite-rl78.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://sdvsector.com/news/2026-10-01-tier-iv-arm-total-design-physical-ai-autoware",
+      "imageUrl": "https://sdvsector.com/og/news/2026-10-01-tier-iv-arm-total-design-physical-ai-autoware.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://sdvsector.com/region/global",
+      "imageUrl": "https://sdvsector.com/og/default.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://sdvsector.com/topic/diagnostics-and-service",
+      "imageUrl": "https://sdvsector.com/og/default.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/",
+      "imageUrl": "https://startupfortune.com/wp-content/uploads/2026/10/anthropic-claude-opus-5-5-google-antigravity.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://status.openai.com/incidents/mysmq298",
+      "imageUrl": null,
+      "status": "no-image-metadata"
+    },
+    {
+      "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/",
+      "imageUrl": "https://cdn.vicone.com/content-agent/articles/vicone-cymetris-pr-en2.webp",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/eaa6046f4ae8c88e368c3c530c4c1312f7ff6f2e-1200x630.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.anthropic.com/glasswing",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/65641e7846f10255c4a3415a10bbf5793ae87b13-1200x630.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.appliedintuition.com/press-releases/applied-intuition-honda-sdv-partnership",
+      "imageUrl": "https://cdn.sanity.io/images/a86leg7v/production/fe5ac73726ff86232e8b0037ee32017f91d2c9e6-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.appliedintuition.com/press-releases/applied-intuition-nissan-aidv-development",
+      "imageUrl": "https://cdn.sanity.io/images/a86leg7v/production/040595da0649fc95c018e6b114f6ba12b6e9fe82-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.autoconnectedcar.com/2026/10/autonomous-self-driving-vehicle-news-arbe-robotics-faraday-future-tier-iv-rideflux-kgm-hyundai-mobis-stellantis-wayve-california/",
+      "imageUrl": null,
+      "status": "no-image-metadata"
+    },
+    {
+      "url": "https://www.automotivelinux.org/blog/automotive-grade-linux-at-automotive-world-tokyo-2026/",
+      "imageUrl": null,
+      "status": "no-image-metadata"
+    },
+    {
+      "url": "https://www.autonews.com/stellantis/ane-momenta-stellantis-dongfeng-autonomous-driving-0928/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.axios.com/newsletters/axios-am-2b1de489-384e-4789-90c6-c71365f81223",
+      "imageUrl": "https://assets.axios.com/203e9f932cc97836ac2ff4c6c982676c.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.boschrexroth.com/en/at/company/press/owasys-47232.html",
+      "imageUrl": "https://dc-mkt-prod.cloud.bosch.tech/xrm/media/global/press_1/2026_2/september_4/photo_3_pi_024_26_owasys.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.emqx.com/en/events/emq-at-sdv-and-av-technology-summit-europe-2026",
+      "imageUrl": "https://assets.emqx.com/images/4ce6aa175aaef376f5fef20a20ae1ab9.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.foton.com.cn/newsDetaile24976.html",
+      "imageUrl": null,
+      "status": "no-image-metadata"
+    },
+    {
+      "url": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.ft.com/content/4ed7bccb-7d02-485f-aed6-9e7b0244ac78",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/09/22/3365960/0/en/coretura-selects-alloy-kore-to-advance-a-unique-software-defined-vehicle-platform-for-its-commercial-vehicle-customers.html",
+      "imageUrl": "https://ml.globenewswire.com/Resource/Download/7e64a1e1-d563-41c7-b456-acd067b48a30",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.googlecloudpresscorner.com/2026-09-22-Accenture-and-Google-Cloud-Transform-Software-Development-with-Volvo-Cars",
+      "imageUrl": "https://mmx.prnewswire.com/media/MS1992746/car.jpg?id=OA2960766&p=facebook",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/long-residence/long-residence-accessible",
+      "imageUrl": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/pdf/2026-20734.pdf",
+      "imageUrl": null,
+      "status": "non-html"
+    },
+    {
+      "url": "https://www.immigration.govt.nz/about-us/news-centre/parent-resident-visa-category-hybrid-selection-process-now-in-place/",
+      "imageUrl": null,
+      "status": "no-image-metadata"
+    },
+    {
+      "url": "https://www.media.stellantis.com/em-en/corporate/press/stellantis-and-wayve-demonstrate-how-ai-can-scale-across-vehicle-platforms-and-enhance-everyday-mobility",
+      "imageUrl": "https://www.media.stellantis.com/cache/6/4/8/1/4/6481495e6b90c8a648ae104b83401e7cc7a52c64.jpeg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.mlit.go.jp/report/press/jidosha08_hh_005856.html",
+      "imageUrl": "https://www.mlit.go.jp/common/001391890.png",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092423",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/business/autos-transportation/chinas-xpeng-plans-offer-tech-solutions-foreign-automakers-2026-09-17/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-enters-ai-safety-fray-calls-rigorous-testing-safeguards-2026-09-17/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/business/synopsys-openai-strike-deal-develop-ai-model-chip-design-work-2026-09-30/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/legal/litigation/us-government-website-used-ai-search-tool-china-that-fbi-said-copied-anthropic-2026-09-17/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/world/asia-pacific/cost-pressures-deadlock-force-honda-rework-india-strategy-sources-say-2026-10-05/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/world/asia-pacific/mercedes-backed-momenta-targets-dubai-europe-robotaxi-expansion-2026-09-30/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/world/asia-pacific/us-china-meet-again-ai-safety-two-months-shenzhen-bessent-says-2026-09-21/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.reuters.com/world/doj-official-says-frontier-ai-labs-have-not-sought-meeting-antitrust-2026-09-17/",
+      "imageUrl": null,
+      "status": "HTTPError"
+    },
+    {
+      "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-launches-next-gen-system-on-chip-design-services-automotive-semiconductor-companies",
+      "imageUrl": "https://www.tcs.com/content/dam/global-tcs/ja/images/who-we-are/events/tcs-at-semicon-india-2024/card.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.techinsights.com/blog/automotive-software-market-outlook-2026-2033",
+      "imageUrl": null,
+      "status": "no-image-metadata"
+    },
+    {
+      "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
+      "imageUrl": "https://i.guim.co.uk/img/media/3ac505ec5bde795c6c333ea6dc7fbaadf38f1a93/354_0_4167_3333/master/4167.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=81648307e057420c468715010ba10185",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45M1CM:0-anthropic-says-claude-for-government-is-now-generally-available/",
+      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.vector.com/ja/company/events/webinar-nxp-vector/",
+      "imageUrl": null,
+      "status": "no-image-metadata"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+      "imageUrl": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Presidential-Actions-Social-Share-Card.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/streamlining-access-to-government-services-through-america-gov/",
+      "imageUrl": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Presidential-Actions-Social-Share-Card.jpg",
+      "status": "metadata-found"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/ftc-opens-investigation-of-anthropic-and-openai-a317b617",
+      "imageUrl": null,
+      "status": "URLError"
+    },
+    {
+      "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace",
+      "imageUrl": "https://images.yourstory.com/cs/2/f4c8dc30b73511f197be7d10bec6c83f/dSPACEIndia1600x900-1790338657181.jpg",
+      "status": "metadata-found"
+    }
+  ]
+}

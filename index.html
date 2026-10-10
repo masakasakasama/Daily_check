@@ -105,13 +105,6 @@
         radial-gradient(circle at 80% 70%,rgba(141,166,255,.18),transparent 42%),
         #11151d
     }
-    .feed-item:not(.has-image) .feed-media{aspect-ratio:auto;height:62px;background:linear-gradient(115deg,#121824,#10131a);border-bottom:1px solid var(--line)}
-    .feed-item:not(.has-image) .feed-media::after{display:none}
-    .feed-item:not(.has-image) .feed-media-fallback{display:none}
-    .feed-item:not(.has-image) .score-badge{top:10px;left:12px;padding:6px 9px;min-width:45px}
-    .feed-item:not(.has-image) .score-number{font-size:20px}
-    .feed-item:not(.has-image) .score-label{font-size:7px;margin-top:1px}
-    .feed-item:not(.has-image) .media-category{top:17px}
     .feed-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
     .feed-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,7,10,.02) 45%,rgba(6,7,10,.64) 100%);pointer-events:none}
     .feed-media-fallback{position:absolute;inset:0;display:grid;place-items:center;color:rgba(255,255,255,.34);font-size:13px;font-weight:820;letter-spacing:.14em}
@@ -413,6 +406,18 @@
       t.textContent=message;t.hidden=false;
       clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>{t.hidden=true},3200);
     }
+    const articlePreviewCache=new Map();
+    function getArticlePreview(sourceUrl){
+      if(!articlePreviewCache.has(sourceUrl)){
+        articlePreviewCache.set(sourceUrl,(async()=>{
+          const r=await fetch('https://api.microlink.io/?url='+encodeURIComponent(sourceUrl),{cache:'force-cache',signal:AbortSignal.timeout(8000)});
+          if(!r.ok)return '';
+          const payload=await r.json();
+          return payload?.data?.image?.url||payload?.data?.logo?.url||'';
+        })().catch(()=>''));
+      }
+      return articlePreviewCache.get(sourceUrl);
+    }
     function createFeedItem(raw,type){
       const item=canonicalize(raw);
       const row=document.createElement('article');
@@ -432,16 +437,23 @@
       const mediaCategory=document.createElement('span');mediaCategory.className='media-category';mediaCategory.textContent=item.category||'OTHER';
       mediaLink.appendChild(mediaCategory);
 
-      // Only an explicitly curated article image is eligible. Never use a page logo,
-      // generic release-note OG image, or an arbitrary external preview.
+      let previewRequested=false;
+      const resolveArticleImage=async()=>{
+        if(previewRequested||!item.source?.url)return;
+        previewRequested=true;
+        try{
+          const url=await getArticlePreview(item.source.url);
+          if(url)attachImage(url);
+        }catch(_){}
+      };
       const attachImage=(url)=>{
         if(!url||!/^https:\/\//i.test(url))return false;
         const img=document.createElement('img');img.src=url;img.alt='';img.loading='lazy';img.decoding='async';
         img.addEventListener('load',()=>{fallback.hidden=true;row.classList.add('has-image')});
-        img.addEventListener('error',()=>{img.remove();fallback.hidden=false;row.classList.remove('has-image')});
+        img.addEventListener('error',()=>{img.remove();fallback.hidden=false;row.classList.remove('has-image');resolveArticleImage()});
         mediaLink.insertBefore(img,scoreBadge);return true;
       };
-      attachImage(item.thumbnail);
+      if(!attachImage(item.thumbnail))resolveArticleImage();
 
       const body=document.createElement('div');body.className='feed-body';
       const kicker=document.createElement('div');kicker.className='feed-kicker';
