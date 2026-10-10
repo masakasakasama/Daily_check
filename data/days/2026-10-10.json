@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-10",
+  "alerts": [],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "partial",
+      "summary": "公式一次情報の確認分のみ復旧。全分野の収集は未完了",
+      "checkedAt": "2026-10-10T12:00:00+09:00"
+    }
+  ],
+  "backfill": {
+    "partial": true,
+    "reason": "Historical backfill, not a completed six-funnel audit",
+    "restoredAt": "2026-10-10T12:00:00+09:00"
+  }
+}
