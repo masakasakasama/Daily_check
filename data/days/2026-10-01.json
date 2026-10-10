@@ -208,7 +208,7 @@
       "id": "sdv-nissan",
       "name": "SDV / Nissanニュース",
       "status": "update",
-      "summary": "遅延発見1件を掲載対象から除外。元の収集・採用証跡は当日auditのpublicationCorrectionsに保持。",
+      "summary": "重要0件・参考5件",
       "checkedAt": "2026-10-01T07:14:00+09:00",
       "alertCount": 0,
       "referenceCount": 5

@@ -30,4 +30,6 @@ Publication verified at 2026-10-10T03:55:34.420765+00:00:
 
 Next: Existing daily task performs the next scheduled run. Do not claim an unobserved future run succeeded.
 
-User image preference restored: large 16:9 article media and automatic image/logo previews are required. 78 missing thumbnails recovered from publisher metadata; existing thumbnails retained. Daily/weekly article content and monitoring results unchanged. Image restoration commit 5d39cb8; CI run 38022459687 passed. Original fixed URL image load verified (1200px image rendered in 390px mobile viewport).
+User image preference restored: large 16:9 article media and automatic article image previews are required. 78 missing thumbnails recovered from publisher metadata; existing thumbnails retained. Daily/weekly article content and monitoring results unchanged. Image restoration commit 5d39cb8; CI run 38022459687 passed. Original fixed URL image load verified (1200px image rendered in 390px mobile viewport).
+
+User permanent UI constraints: no one-time recovery/maintenance/confirmation announcements in product UI, including monitor summaries and week headlines. Keep audit evidence offscreen. Large imagery stays; never enlarge tiny logos; accept images only at >=640x320 and prefer relevant photos/diagrams. Regression guard in verify-ui.mjs and image quality tests enforce these constraints. October 10 follow-up found one additional Anthropic event (official timestamp Oct 9 16:09 UTC = Oct 10 JST); current today = 0 important + 2 reference. Details in data/recovery/2026-10-10-1300-recheck.json.

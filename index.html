@@ -327,6 +327,7 @@
         summary:String(item.summary||''),
         publishedAt:String(item.publishedAt||''),
         thumbnail:item.thumbnail?String(item.thumbnail):'',
+        thumbnailAlt:String(item.thumbnailAlt||item.title||''),
         eventKey:String(item.eventKey||item.id||''),
         source
       };
@@ -347,7 +348,6 @@
         }):[];
         return {
           date:String(day.date),
-          recovery:day.recovery?.completed===true?day.recovery:null,
           alerts:(Array.isArray(day.alerts)?day.alerts:[]).map(normalizeItem).filter(Boolean),
           references:(Array.isArray(day.references)?day.references:[]).map(normalizeItem).filter(Boolean),
           checks
@@ -406,6 +406,9 @@
       t.textContent=message;t.hidden=false;
       clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>{t.hidden=true},3200);
     }
+    function isUsableArticleImage(img){
+      return img.naturalWidth>=640&&img.naturalHeight>=320;
+    }
     const articlePreviewCache=new Map();
     function getArticlePreview(sourceUrl){
       if(!articlePreviewCache.has(sourceUrl)){
@@ -413,7 +416,7 @@
           const r=await fetch('https://api.microlink.io/?url='+encodeURIComponent(sourceUrl),{cache:'force-cache',signal:AbortSignal.timeout(8000)});
           if(!r.ok)return '';
           const payload=await r.json();
-          return payload?.data?.image?.url||payload?.data?.logo?.url||'';
+          return payload?.data?.image?.url||'';
         })().catch(()=>''));
       }
       return articlePreviewCache.get(sourceUrl);
@@ -448,8 +451,11 @@
       };
       const attachImage=(url)=>{
         if(!url||!/^https:\/\//i.test(url))return false;
-        const img=document.createElement('img');img.src=url;img.alt='';img.loading='lazy';img.decoding='async';
-        img.addEventListener('load',()=>{fallback.hidden=true;row.classList.add('has-image')});
+        const img=document.createElement('img');img.src=url;img.alt=item.thumbnailAlt||item.title;img.loading='lazy';img.decoding='async';
+        img.addEventListener('load',()=>{
+          if(!isUsableArticleImage(img)){img.remove();fallback.hidden=false;resolveArticleImage();return;}
+          fallback.hidden=true;row.classList.add('has-image');
+        });
         img.addEventListener('error',()=>{img.remove();fallback.hidden=false;row.classList.remove('has-image');resolveArticleImage()});
         mediaLink.insertBefore(img,scoreBadge);return true;
       };
@@ -507,7 +513,6 @@
       const overview=$('overview'),missing=$('missingState'),important=$('importantSection'),reference=$('referenceSection'),monitor=$('monitorPanel');
 
       if(!day){
-        if($('recoveryNotice'))$('recoveryNotice').hidden=true;
         if(overview)overview.hidden=true;
         if(missing){
           missing.hidden=false;
@@ -520,14 +525,6 @@
       }
 
       if(missing)missing.hidden=true;
-      let recoveryNotice=$('recoveryNotice');
-      if(!recoveryNotice){
-        recoveryNotice=document.createElement('p');recoveryNotice.id='recoveryNotice';
-        recoveryNotice.style.cssText='color:var(--sub);font-size:12px;margin:0 0 16px';
-        overview.before(recoveryNotice);
-      }
-      recoveryNotice.hidden=!day.recovery;
-      recoveryNotice.textContent=day.recovery?'欠けていた日の記事を再収集しました · 確認 '+fmtDateTime(day.recovery.completedAt):'';
       const alerts=day.alerts||[],refs=day.references||[],checks=day.checks||[];
       const success=checks.filter(x=>x.status==='clear'||x.status==='update').length;
       const errors=checks.filter(x=>x.status==='error'||x.status==='partial'||x.status==='failed').length;

@@ -91,7 +91,7 @@
       "id": "sdv-nissan",
       "name": "SDV / Nissanニュース",
       "status": "update",
-      "summary": "不足監査を10月10日に再収集。6系統18検索・追加12検索と本文再確認。重要1件・参考2件。取得できない候補は理由付きで除外",
+      "summary": "重要1件・参考2件",
       "checkedAt": "2026-10-10T03:43:54.611049+00:00",
       "alertCount": 1,
       "referenceCount": 2

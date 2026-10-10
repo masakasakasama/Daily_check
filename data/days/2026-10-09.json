@@ -44,7 +44,10 @@
         "scale": 15,
         "specificity": 10,
         "novelty": 5
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/9i0s3p5vkth9/35vU5BurqbkS1z3yTdkwO3/98e8f506932c74d079583858324bd6f0/BeaconBlog.jpg?fm=webp&q=90&w=1600",
+      "thumbnailAlt": "Auroraのトラックに搭載された警告灯",
+      "thumbnailSource": "https://aurora.tech/newsroom/an-update-on-warning-beacons"
     }
   ],
   "references": [
@@ -89,7 +92,7 @@
       "id": "ai",
       "name": "AI",
       "status": "clear",
-      "summary": "公式本文を再確認。OpenAI・Anthropic・Geminiの対象期間を検索（欠落日の再収集）",
+      "summary": "当日の新規掲載なし",
       "checkedAt": "2026-10-10T03:35:37.821792+00:00",
       "alertCount": 0,
       "referenceCount": 0
@@ -98,7 +101,7 @@
       "id": "codex",
       "name": "Codex",
       "status": "update",
-      "summary": "公式更新・GitHub公開時刻・X検索を確認。新規リセットは未確認（欠落日の再収集）",
+      "summary": "重要0件・参考2件",
       "checkedAt": "2026-10-10T03:35:37.821792+00:00",
       "alertCount": 0,
       "referenceCount": 2
@@ -107,7 +110,7 @@
       "id": "sdv-nissan",
       "name": "SDV・日産",
       "status": "update",
-      "summary": "6系統の実検索18本、追加検索12本、固定公式巡回を実施（欠落日の再収集）",
+      "summary": "重要2件・参考0件",
       "checkedAt": "2026-10-10T03:35:37.821792+00:00",
       "alertCount": 2,
       "referenceCount": 0
@@ -116,7 +119,7 @@
       "id": "residency",
       "name": "主要国の永住条件",
       "status": "clear",
-      "summary": "日英米加豪NZの公式検索。英国の申請切替を確認。日本の直接取得は制限あり、索引で確認（欠落日の再収集）",
+      "summary": "当日の新規掲載なし",
       "checkedAt": "2026-10-10T03:35:37.821792+00:00",
       "alertCount": 0,
       "referenceCount": 0

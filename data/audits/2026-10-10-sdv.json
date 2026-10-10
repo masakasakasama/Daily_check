@@ -825,5 +825,15 @@
     "excludedCount": 17,
     "duplicateCount": 0
   },
-  "evidenceNote": "検索のrawHitCountは実際に返された結果件数。過去の未実行を成功として書き換えたものではなく、同一の実再収集で各欠落日を日付別分類。"
+  "evidenceNote": "検索のrawHitCountは実際に返された結果件数。過去の未実行を成功として書き換えたものではなく、同一の実再収集で各欠落日を日付別分類。",
+  "otherMonitorRechecks": [
+    {
+      "monitor": "ai",
+      "checkedAt": "2026-10-10T04:10:30.395029+00:00",
+      "evidencePath": "data/recovery/2026-10-10-1300-recheck.json",
+      "adoptedEventKeys": [
+        "anthropic-unintended-actions-evaluations-20261010"
+      ]
+    }
+  ]
 }

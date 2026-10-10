@@ -1,0 +1,1833 @@
+{
+  "purpose": "Actual follow-up search to check whether October 10 has only one article; timestamps interpreted in JST; prior-day duplicate and out-of-window items are excluded rather than counted again",
+  "queries": [
+    {
+      "query": "OpenAI Anthropic Gemini AI news \"October 10, 2026\"",
+      "sourceUrl": "https://www.google.com/search?q=OpenAI%20Anthropic%20Gemini%20AI%20news%20%22October%2010%2C%202026%22",
+      "observedAt": "2026-10-10T04:04:56.149Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 26,
+      "results": [
+        {
+          "title": "GenAI Brief: the AI industry in 5 minutes",
+          "url": "https://genaibrief.com/",
+          "reference": "turn411469search0"
+        },
+        {
+          "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+          "url": "https://tech.yahoo.com/ai/claude/articles/anthropic-t-reliably-control-ai-001832531.html",
+          "reference": "turn411469search1"
+        },
+        {
+          "title": "Anthropic News | AI Understanding",
+          "url": "https://aiunderstanding.org/news/topics/anthropic",
+          "reference": "turn411469search2"
+        },
+        {
+          "title": "AI News, 10 October 2026: An AI Called the Police | AIToolsRecap",
+          "url": "https://aitoolsrecap.com/Blog/ai-news-october-10-2026",
+          "reference": "turn411469search3"
+        },
+        {
+          "title": "October 10, 2026",
+          "url": "https://thelivetoday.com/",
+          "reference": "turn411469search4"
+        },
+        {
+          "title": "AI Digest - 10/10/2026",
+          "url": "https://www.reddit.com/r/ai_talk_monitor_dev/comments/1x21jlp/ai_digest_10102026/",
+          "reference": "turn411469reddit12"
+        },
+        {
+          "title": "AI Digest - 10/10/2026",
+          "url": "https://www.reddit.com/r/ai_talk_monitor_dev/comments/1x21jm1/ai_digest_10102026/",
+          "reference": "turn411469reddit13"
+        },
+        {
+          "title": "LLM API Pricing Comparison | AnotherWrapper",
+          "url": "https://anotherwrapper.com/llm-pricing",
+          "reference": "turn411469search5"
+        },
+        {
+          "title": "The AI Brief — Saturday, October 10, 2026 | AI Breaking Wire",
+          "url": "https://www.aibreakingwire.com/news/ai-brief-2026-10-10",
+          "reference": "turn411469search6"
+        },
+        {
+          "title": "Archive • AI News Digest • Buttondown",
+          "url": "https://buttondown.com/ai-digest-en/archive/",
+          "reference": "turn411469search7"
+        },
+        {
+          "title": "AI Trends (October 2026) - Market Shifts & Provider Growth",
+          "url": "https://lmmarketcap.com/trends",
+          "reference": "turn411469search8"
+        },
+        {
+          "title": "AI News Today, October 10: Top Stories | AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today",
+          "reference": "turn411469search9"
+        },
+        {
+          "title": "Anthropic discloses fake tip to police among new rogue AI incidents - AOL",
+          "url": "https://www.aol.ca/articles/anthropic-ai-model-submits-false-192118000.html",
+          "reference": "turn411469search10"
+        },
+        {
+          "title": "OpenAI shelves new AI model release over safety concerns",
+          "url": "https://www.tbsnews.net/tech/openai-shelves-new-ai-model-release-over-safety-concerns-1557486",
+          "reference": "turn411469search11"
+        },
+        {
+          "title": "Ultra user, still no Gemini 4",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1x1mpku/ultra_user_still_no_gemini_4/",
+          "reference": "turn411469reddit14"
+        },
+        {
+          "title": "[Removed]",
+          "url": "https://www.reddit.com/r/singularity/comments/1x1nhdu/removed/",
+          "reference": "turn411469reddit15"
+        },
+        {
+          "title": "Day 9 no Gemini 4",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1x1m6rb/day_9_no_gemini_4/",
+          "reference": "turn411469reddit16"
+        },
+        {
+          "title": "Gemini 4 argon not releasing today (it's still in early access)",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1x0toz1/gemini_4_argon_not_releasing_today_its_still_in/",
+          "reference": "turn411469reddit17"
+        },
+        {
+          "title": "Google employee claims OpenAI’s Bel will be here by December and most don’t even review AI-generated code anymore",
+          "url": "https://www.reddit.com/r/accelerate/comments/1x23szg/google_employee_claims_openais_bel_will_be_here/",
+          "reference": "turn411469reddit18"
+        },
+        {
+          "title": "Coming Soon!",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1x1qf45/coming_soon/",
+          "reference": "turn411469reddit19"
+        },
+        {
+          "title": "OpenAI faces parliament this week over AI agents that got into Services Australia's Medicare data",
+          "url": "https://www.reddit.com/r/AusNewsToday/comments/1wyvnrp/openai_faces_parliament_this_week_over_ai_agents/",
+          "reference": "turn411469reddit20"
+        },
+        {
+          "title": "Well it happened",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1x1ufj1/well_it_happened/",
+          "reference": "turn411469reddit21"
+        },
+        {
+          "title": "Why Is Gemini 4 Argon Being Treated Like The Mythos Of Today 😂",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1x1q3ak/why_is_gemini_4_argon_being_treated_like_the/",
+          "reference": "turn411469reddit22"
+        },
+        {
+          "title": "Why is Gemini so drastically different to Claude or ChatGPT?",
+          "url": "https://www.reddit.com/r/GeminiAI/comments/1x04cmg/why_is_gemini_so_drastically_different_to_claude/",
+          "reference": "turn411469reddit23"
+        },
+        {
+          "title": "TESTIMONY ON HOUSE BILL 727",
+          "url": "https://legislature.vermont.gov/Documents/2026/Workgroups/Senate%20Natural%20Resources/Bills/H.727/Public%20Comment/H.727~Jane%20Philbrick~%20Testimony~4-23-2026.pdf",
+          "reference": "turn411469search24"
+        },
+        {
+          "title": "ANNUAL POSTGRADUATE COURSE • OCTOBER 10–11, 2026",
+          "url": "https://mediacdn.gi.org/acgmeetings/wp-content/uploads/2026/03/25161234/26ACG-Conference-Preview-WEB.pdf",
+          "reference": "turn411469search25"
+        }
+      ]
+    },
+    {
+      "query": "OpenAI Codex release October 9 10 2026 after:2026-10-09",
+      "sourceUrl": "https://www.google.com/search?q=OpenAI%20Codex%20release%20October%209%2010%202026%20after%3A2026-10-09",
+      "observedAt": "2026-10-10T04:04:56.072Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 26,
+      "results": [
+        {
+          "title": "'Pure insanity': Mathematicians will need years to make sense of OpenAI's latest drop",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+          "reference": "turn666754news12"
+        },
+        {
+          "title": "ChatGPT release notes | OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "reference": "turn666754search0"
+        },
+        {
+          "title": "ChatGPT & Codex changelog | ChatGPT Learn",
+          "url": "https://learn.chatgpt.com/docs/changelog",
+          "reference": "turn666754search1"
+        },
+        {
+          "title": "发布说明 | OpenAI | OpenAI",
+          "url": "https://openai.com/zh-Hans-CN/products/release-notes/",
+          "reference": "turn666754search2"
+        },
+        {
+          "title": "GPT-6 Sol and GPT-6 Luna: October 2026 update - OpenAI Deployment Safety Hub",
+          "url": "https://deploymentsafety.openai.com/gpt-6-october/jailbreaks",
+          "reference": "turn666754search3"
+        },
+        {
+          "title": "What's new | ChatGPT Learn",
+          "url": "https://learn.chatgpt.com/docs/whats-new",
+          "reference": "turn666754search4"
+        },
+        {
+          "title": "Codex Release Notes & Changelog · October 2026 — Release Notes Index",
+          "url": "https://releases.sh/openai/codex",
+          "reference": "turn666754search5"
+        },
+        {
+          "title": "Latest Announcements topics - OpenAI Developer Community",
+          "url": "https://community.openai.com/c/announcements/6",
+          "reference": "turn666754search6"
+        },
+        {
+          "title": "Changelog | OpenAI API",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "reference": "turn666754search7"
+        },
+        {
+          "title": "whats-new.md — Spybara",
+          "url": "https://spybara.com/openai/codex/history/docs/en/2026-10-08-2301..2026-10-09-2302/whats-new/",
+          "reference": "turn666754search8"
+        },
+        {
+          "title": "Introducing Codex | OpenAI",
+          "url": "https://openai.com/index/introducing-codex/",
+          "reference": "turn666754search9"
+        },
+        {
+          "title": "Codex CLI 0.162.1 fixes multiline-question crashes and background-server startup failures",
+          "url": "https://www.reddit.com/r/CodexAutomation/comments/1x217zk/codex_cli_01621_fixes_multilinequestion_crashes/",
+          "reference": "turn666754reddit13"
+        },
+        {
+          "title": "Tibo shares Day 5 update",
+          "url": "https://www.reddit.com/r/codex/comments/1x1v6je/tibo_shares_day_5_update/",
+          "reference": "turn666754reddit14"
+        },
+        {
+          "title": "Codex for (almost) everything | OpenAI",
+          "url": "https://openai.com/index/codex-for-almost-everything/?_bhlid=6c235a829ad9676cf0f63da47229e66c29658c91",
+          "reference": "turn666754search10"
+        },
+        {
+          "title": "OpenAI Release Notes & Changelog · October 2026 — Release Notes Index",
+          "url": "https://releases.sh/openai",
+          "reference": "turn666754search11"
+        },
+        {
+          "title": "After years on the $200 tier, even Haiku is outperforming Sol 6.1 sol in my tests",
+          "url": "https://www.reddit.com/r/codex/comments/1x1ilzd/after_years_on_the_200_tier_even_haiku_is/",
+          "reference": "turn666754reddit15"
+        },
+        {
+          "title": "Tibo - Day 5 update (28-say challenge)",
+          "url": "https://www.reddit.com/r/OpenaiCodex/comments/1x1v75t/tibo_day_5_update_28say_challenge/",
+          "reference": "turn666754reddit16"
+        },
+        {
+          "title": "Codex $200 → $500: my logs show API-equivalent token value per subscription dollar falling from $17.40 to $6.29—a 63.8% decline in effective value",
+          "url": "https://www.reddit.com/r/codex/comments/1x1y2c1/codex_200_500_my_logs_show_apiequivalent_token/",
+          "reference": "turn666754reddit17"
+        },
+        {
+          "title": "Holy f*** is Sol 6.1 slow",
+          "url": "https://www.reddit.com/r/codex/comments/1x194xn/holy_f_is_sol_61_slow/",
+          "reference": "turn666754reddit18"
+        },
+        {
+          "title": "TPS after \"almost doubling the speed\" and \"50% improvement\"",
+          "url": "https://www.reddit.com/r/codex/comments/1x1vx12/tps_after_almost_doubling_the_speed_and_50/",
+          "reference": "turn666754reddit19"
+        },
+        {
+          "title": "new prediction feature",
+          "url": "https://www.reddit.com/r/codex/comments/1x1towq/new_prediction_feature/",
+          "reference": "turn666754reddit20"
+        },
+        {
+          "title": "Possible Codex bug since October 7: GPT 6.1 Sol has almost no prompt cache hits, and ChatGPT Plus quota keeps dropping while using an external model (DeepSeek)",
+          "url": "https://www.reddit.com/r/codex/comments/1x1qj57/possible_codex_bug_since_october_7_gpt_61_sol_has/",
+          "reference": "turn666754reddit21"
+        },
+        {
+          "title": "Is the $100/month Pro plan enough to use Codex for four hours of development work each day?",
+          "url": "https://www.reddit.com/r/codex/comments/1x19ab3/is_the_100month_pro_plan_enough_to_use_codex_for/",
+          "reference": "turn666754reddit22"
+        },
+        {
+          "title": "Day 5",
+          "url": "https://www.reddit.com/r/codex/comments/1x1v46e/day_5/",
+          "reference": "turn666754reddit23"
+        },
+        {
+          "title": "New ChatGPT update",
+          "url": "https://www.reddit.com/r/codex/comments/1x05squ/new_chatgpt_update/",
+          "reference": "turn666754reddit24"
+        },
+        {
+          "title": "Codex (AI agent)",
+          "url": "https://en.wikipedia.org/wiki/Codex_%28AI_agent%29",
+          "reference": "turn666754search25"
+        }
+      ]
+    },
+    {
+      "query": "software-defined vehicle Nissan Honda OTA news October 10 2026",
+      "sourceUrl": "https://www.google.com/search?q=software-defined%20vehicle%20Nissan%20Honda%20OTA%20news%20October%2010%202026",
+      "observedAt": "2026-10-10T04:04:56.134Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 33,
+      "results": [
+        {
+          "title": "Next-Gen 'Honda Hybrid' Platform Promises Better Handling, 'Exhilarating' Drive",
+          "url": "https://www.roadandtrack.com/news/a74092149/next-gen-honda-hybrid-platform-better-handling/",
+          "reference": "turn172964news12"
+        },
+        {
+          "title": "Stellantis CEO says Wayve tie-up can cut self-driving costs, development time",
+          "url": "https://www.reuters.com/business/autos-transportation/stellantis-ceo-says-wayve-tie-up-can-cut-self-driving-costs-development-time-2026-10-09/",
+          "reference": "turn172964news13"
+        },
+        {
+          "title": "Honda plans highway test of wireless charging for moving trucks",
+          "url": "https://www.reuters.com/technology/honda-plans-highway-test-wireless-charging-moving-trucks-2026-10-05/",
+          "reference": "turn172964news14"
+        },
+        {
+          "title": "Cost pressures and deadlock force Honda to rework India strategy, sources say",
+          "url": "https://www.reuters.com/world/asia-pacific/cost-pressures-deadlock-force-honda-rework-india-strategy-sources-say-2026-10-05/",
+          "reference": "turn172964news15"
+        },
+        {
+          "title": "Nissan and Honda Conclude Joint Development Agreement to Standardize ECUs and Software for Next-Generation SDVs | Honda Global Corporate Website",
+          "url": "https://global.honda/en/newsroom/news/2026/c260831beng.html",
+          "reference": "turn172964search0"
+        },
+        {
+          "title": "Applied Intuition Expands Japanese Footprint with Nissan and Honda OS Partnerships | AI NewsCycle",
+          "url": "https://www.ainewscycle.com/story/applied-intuition-expands-japanese-footprint-with-nissan-and-honda-os-partnershi-a07e972b",
+          "reference": "turn172964search1"
+        },
+        {
+          "title": "Honda and Nissan each hired Applied Intuition's Vehicle OS for their next platforms · SDV Sector",
+          "url": "https://sdvsector.com/news/2026-10-07-applied-intuition-honda-nissan-vehicle-os",
+          "reference": "turn172964search2"
+        },
+        {
+          "title": "NISSAN MOTOR CORPORATION",
+          "url": "https://global.honda/en/investors/library/filings/auto_20260831528871/pdfFile.pdf",
+          "reference": "turn172964search16"
+        },
+        {
+          "title": "Honda, Nissan target rollout of joint vehicle software in fiscal 2029",
+          "url": "https://www.reuters.com/technology/honda-nissan-target-fy2029-roll-out-jointly-developed-vehicle-software-control-2026-08-31/",
+          "reference": "turn172964news17"
+        },
+        {
+          "title": "Applied Intuition Lands Honda, Nissan Vehicle OS Deals - Self Drive News",
+          "url": "https://selfdrivenews.com/applied-intuition-vehicle-os-honda-nissan/",
+          "reference": "turn172964search3"
+        },
+        {
+          "title": "Nissan and Honda Finalize Joint Development Agreement to Standardize ECUs and Software for Next-Generation SDVs",
+          "url": "https://me.nissanmotornews.com/en/releases/release-06f00ed991a48d87a5927b6e75071235?gallery=release-06f00ed991a48d87a5927b6e75071235&viewallTab=photos",
+          "reference": "turn172964search4"
+        },
+        {
+          "title": "Honda and Nissan's New Partnership Has an Unexpected Twist - Autoblog",
+          "url": "https://www.autoblog.com/news/honda-and-nissans-new-partnership-has-an-unexpected-twist",
+          "reference": "turn172964search5"
+        },
+        {
+          "title": "Nissan and Honda Announce Software and Electronics Partnership",
+          "url": "https://www.caranddriver.com/news/a73571919/nissan-honda-software-electronics-partnership/",
+          "reference": "turn172964search6"
+        },
+        {
+          "title": "Honda y Nissan miran a Silicon Valley para sus próximos coches: Applied Intuition acelerará su software",
+          "url": "https://www.motor.es/noticias/honda-nissan-applied-intuition-software-proximos-coches.html",
+          "reference": "turn172964search7"
+        },
+        {
+          "title": "Nissan and Honda: Joint SDV Platform | IAA MOBILITY",
+          "url": "https://www.iaa-mobility.com/en/newsroom/news/smart-infrastructure/nissan-honda-joint-sdv-platform",
+          "reference": "turn172964search8"
+        },
+        {
+          "title": "Honda and Nissan Tap Applied Intuition to Accelerate Software-Defined Vehicle Programs | AI NewsCycle",
+          "url": "https://ainewscycle.com/story/honda-and-nissan-tap-applied-intuition-to-accelerate-software-defined-vehicle-pr-06bf0f1e",
+          "reference": "turn172964search9"
+        },
+        {
+          "title": "Japanese automakers Nissan and Honda agree to work together on software for cars",
+          "url": "https://apnews.com/article/521bc44069a8d73fbd672e0cfd32a5bf",
+          "reference": "turn172964news18"
+        },
+        {
+          "title": "Nissan Motor Co. Ltd. (via Public) / 日産自動車とHonda 次世代SDVの中核を構成するECUやソフトウェアの共通化に向けた共同開発契約を締結",
+          "url": "https://www.publicnow.com/view/05356349AC562A3BCC49937DCCF4B6A88CC1B0AB",
+          "reference": "turn172964search10"
+        },
+        {
+          "title": "Honda and Nissan strike software deal despite failed merger",
+          "url": "https://www.ft.com/content/3d00a9c1-d572-4a0d-b8e1-dfc5e54ca497",
+          "reference": "turn172964news19"
+        },
+        {
+          "title": "Honda tells suppliers to cut costs in $9 billion push to fend off China, documents show",
+          "url": "https://www.reuters.com/business/autos-transportation/honda-tells-suppliers-cut-costs-9-billion-push-fend-off-china-documents-show-2026-09-02/",
+          "reference": "turn172964news20"
+        },
+        {
+          "title": "Honda and Nissan Expand AI Software Partnerships",
+          "url": "https://newestcarsusa.com/11138/honda-and-nissan-expand-ai-software-partnerships/",
+          "reference": "turn172964search11"
+        },
+        {
+          "title": "Honda, Nissan to reach deal on joint development of vehicle software, Nikkei reports",
+          "url": "https://www.reuters.com/world/asia-pacific/honda-nissan-reach-deal-joint-development-vehicle-software-nikkei-asia-reports-2026-08-28/",
+          "reference": "turn172964news21"
+        },
+        {
+          "title": "Nissan Engineers address OTA updates",
+          "url": "https://www.reddit.com/r/NissanAriya/comments/1sgsc4l/nissan_engineers_address_ota_updates/",
+          "reference": "turn172964reddit22"
+        },
+        {
+          "title": "Consolidated OTA Information (US)",
+          "url": "https://www.reddit.com/r/NissanAriya/comments/1o3beig/consolidated_ota_information_us/",
+          "reference": "turn172964reddit23"
+        },
+        {
+          "title": "Water pump software update OTA?",
+          "url": "https://www.reddit.com/r/crvhybrid/comments/1wtpbuc/water_pump_software_update_ota/",
+          "reference": "turn172964reddit24"
+        },
+        {
+          "title": "Electriﬁcation",
+          "url": "https://www.nissan-global.com/EN/TECHNICALREVIEW/PDF/NISSAN_TECHINICAL_REVIEW_90_En_ALL.pdf",
+          "reference": "turn172964search25"
+        },
+        {
+          "title": "OTA update (Aug 2026)- does Honda publish any change logs?",
+          "url": "https://www.reddit.com/r/hondaridgeline/comments/1w0u5d3/ota_update_aug_2026_does_honda_publish_any_change/",
+          "reference": "turn172964reddit26"
+        },
+        {
+          "title": "The Rise of the Software-Defined Vehicle: Architectures, Enabling Technologies, and Future Opportunities",
+          "url": "https://arxiv.org/abs/2605.30001",
+          "reference": "turn172964academia27"
+        },
+        {
+          "title": "Honda, Nissan to reach deal on joint development of vehicle software",
+          "url": "https://www.reddit.com/r/Honda/comments/1w126yl/honda_nissan_to_reach_deal_on_joint_development/",
+          "reference": "turn172964reddit28"
+        },
+        {
+          "title": "Honda, Nissan to reach deal on joint development of vehicle software",
+          "url": "https://www.reddit.com/r/Nissan/comments/1w125mo/honda_nissan_to_reach_deal_on_joint_development/",
+          "reference": "turn172964reddit29"
+        },
+        {
+          "title": "Honda, Nissan, Mitsubishi eye standardizing next-gen part to cut costs",
+          "url": "https://www.reddit.com/r/cars/comments/1ufb3n2/honda_nissan_mitsubishi_eye_standardizing_nextgen/",
+          "reference": "turn172964reddit30"
+        },
+        {
+          "title": "A saga of a 2026 CRV OTA update",
+          "url": "https://www.reddit.com/r/crv/comments/1wwx0zc/a_saga_of_a_2026_crv_ota_update/",
+          "reference": "turn172964reddit31"
+        },
+        {
+          "title": "Honda is talking to Nissan and Mitsubishi about software defined vehicle platform",
+          "url": "https://www.reddit.com/r/RIVNstock/comments/1ug788y/honda_is_talking_to_nissan_and_mitsubishi_about/",
+          "reference": "turn172964reddit32"
+        }
+      ]
+    },
+    {
+      "query": "automotive software autonomous driving news October 9 2026 after:2026-10-08",
+      "sourceUrl": "https://www.google.com/search?q=automotive%20software%20autonomous%20driving%20news%20October%209%202026%20after%3A2026-10-08",
+      "observedAt": "2026-10-10T04:04:56.094Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 18,
+      "results": [
+        {
+          "title": "Tesla renames 'Full Self-Driving' to 'Assisted Driving' in Europe as it chases clearance for software",
+          "url": "https://www.reuters.com/business/autos-transportation/tesla-renames-full-self-driving-assisted-driving-europe-it-chases-clearance-2026-10-09/",
+          "reference": "turn644019news12"
+        },
+        {
+          "title": "Stellantis CEO says Wayve tie-up can cut self-driving costs, development time",
+          "url": "https://www.reuters.com/business/autos-transportation/stellantis-ceo-says-wayve-tie-up-can-cut-self-driving-costs-development-time-2026-10-09/",
+          "reference": "turn644019news13"
+        },
+        {
+          "title": "Slovakia to approve Tesla's self-driving tech",
+          "url": "https://www.reuters.com/business/slovakia-approve-teslas-self-driving-tech-2026-10-08/",
+          "reference": "turn644019news14"
+        },
+        {
+          "title": "Alphabet's Waymo secures $5 billion term loan to accelerate expansion",
+          "url": "https://www.reuters.com/business/alphabets-waymo-secures-5-billion-term-loan-accelerate-expansion-2026-10-08/",
+          "reference": "turn644019news15"
+        },
+        {
+          "title": "US grants Aurora exemption for self-driving trucks safety feature",
+          "url": "https://www.reuters.com/business/us-grants-aurora-exemption-self-driving-trucks-safety-feature-2026-10-08/",
+          "reference": "turn644019news16"
+        },
+        {
+          "title": "Full Self-Driving is 'misleading' says Germany's Ministry of Transport",
+          "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/germany-has-no-problem-with-teslas-full-self-driving-technology-but-urges-a-name-change-to-avoid-misleading-customers-something-tesla-should-have-done-years-ago",
+          "reference": "turn644019news17"
+        },
+        {
+          "title": "SDV Sector — daily software-defined vehicle news and analysis",
+          "url": "https://sdvsector.com/",
+          "reference": "turn644019search0"
+        },
+        {
+          "title": "ADAS & Autonomy news · SDV Sector",
+          "url": "https://sdvsector.com/topic/adas-and-autonomy",
+          "reference": "turn644019search1"
+        },
+        {
+          "title": "Self-Driving Car News: Robotaxis, ADAS and Autonomous Cars - Self Drive News",
+          "url": "https://selfdrivenews.com/category/automotive/",
+          "reference": "turn644019search2"
+        },
+        {
+          "title": "Self Drive News: Self-Driving Car and Autonomous Vehicle News",
+          "url": "https://selfdrivenews.com/",
+          "reference": "turn644019search3"
+        },
+        {
+          "title": "Software News | ADAS & Autonomous Vehicle International",
+          "url": "https://www.autonomousvehicleinternational.com/news/software",
+          "reference": "turn644019search4"
+        },
+        {
+          "title": "Latest AV News - Self Drive News",
+          "url": "https://selfdrivenews.com/latest-av-news/",
+          "reference": "turn644019search5"
+        },
+        {
+          "title": "ECAVA brings Europe’s connected and autonomous vehicle ambitions to Paris | Shaping Europe’s digital future",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/ecava-brings-europes-connected-and-autonomous-vehicle-ambitions-paris",
+          "reference": "turn644019search6"
+        },
+        {
+          "title": "Autonomous Vehicles News Today, October 9 | AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today/autonomous-vehicles-ai-news",
+          "reference": "turn644019search7"
+        },
+        {
+          "title": "Dynamics Software News | Vehicle Dynamics International",
+          "url": "https://www.vehicledynamicsinternational.com/news/dynamics-software",
+          "reference": "turn644019search8"
+        },
+        {
+          "title": "Self Drive News: Self-Driving Car and Autonomous Vehicle News",
+          "url": "https://selfdrivenews.com/page/5/",
+          "reference": "turn644019search10"
+        },
+        {
+          "title": "Robo-Taxis News | ADAS & Autonomous Vehicle International",
+          "url": "https://www.autonomousvehicleinternational.com/news/robotaxis",
+          "reference": "turn644019search11"
+        },
+        {
+          "title": "Autonomous Driving: VW Apparently Ends Alliance with Bosch on Autonomous Driving",
+          "url": "https://www.reddit.com/r/MVIS/comments/1ui5brt/autonomous_driving_vw_apparently_ends_alliance/",
+          "reference": "turn644019reddit18"
+        }
+      ]
+    },
+    {
+      "query": "Aurora FMCSA warning beacons exemption October 9 2026 official",
+      "sourceUrl": "https://www.google.com/search?q=Aurora%20FMCSA%20warning%20beacons%20exemption%20October%209%202026%20official",
+      "observedAt": "2026-10-10T04:04:56.168Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 29,
+      "results": [
+        {
+          "title": "US grants Aurora exemption for self-driving trucks safety feature",
+          "url": "https://www.reuters.com/business/us-grants-aurora-exemption-self-driving-trucks-safety-feature-2026-10-08/",
+          "reference": "turn856117news12"
+        },
+        {
+          "title": "Grant of Application for Exemption From Aurora Operations, Inc. | FMCSA",
+          "url": "https://www.fmcsa.dot.gov/safety/carrier-safety/grant-application-exemption-aurora-operations-inc",
+          "reference": "turn856117search0"
+        },
+        {
+          "title": "Federal Register, Volume 91 Issue 195 (Friday, October 9, 2026)",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/html/2026-20734.htm",
+          "reference": "turn856117search1"
+        },
+        {
+          "title": "Cover Letter to Aurora Operations Inc. Waiver of Warning Device Requirements (July 9, 2026) | FMCSA",
+          "url": "https://www.fmcsa.dot.gov/safety/carrier-safety/carrier-safety-resources/cover-letter-aurora-operations-inc-waiver-warning",
+          "reference": "turn856117search2"
+        },
+        {
+          "title": "Parts and Accessories Necessary for Safe Operation; Application for Exemption From Aurora Operations, Inc (USDOT #341156) | FMCSA",
+          "url": "https://www.fmcsa.dot.gov/regulations/federal-register-documents/2026-20734",
+          "reference": "turn856117search3"
+        },
+        {
+          "title": "Parts and Accessories Necessary for Safe Operation; Application for Exemption From Aurora Operations, Inc. | US Department of Transportation",
+          "url": "https://www.transportation.gov/regulations/federal-register-documents/2026-07288",
+          "reference": "turn856117search4"
+        },
+        {
+          "title": "20252 Federal Register / Vol. 91, No. 72 / Wednesday, April 15, 2026 / Notices",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-04-15/pdf/FR-2026-04-15.pdf",
+          "reference": "turn856117search13"
+        },
+        {
+          "title": "Scanned Document",
+          "url": "https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/2025-10/Cover%20Letter%20to%20Aurora%20Operations%20Inc.%20-%20Waiver%20of%20Warning%20Device%20Requirements.pdf",
+          "reference": "turn856117search14"
+        },
+        {
+          "title": "DEPARTMENT OF TRANSPORTATION",
+          "url": "https://public-inspection.federalregister.gov/2026-07288.pdf",
+          "reference": "turn856117search15"
+        },
+        {
+          "title": "Parts and Accessories Necessary for Safe Operation; Application for an Exemption From Waymo LLC (USDOT #3000336) and Aurora Operations, Inc. (USDOT #3441156) | FMCSA",
+          "url": "https://www.fmcsa.dot.gov/regulations/federal-register-documents/2024-30860",
+          "reference": "turn856117search5"
+        },
+        {
+          "title": "Emergency Declarations, Waivers, Exemptions and Permits | FMCSA",
+          "url": "https://www.fmcsa.dot.gov/emergency-declarations",
+          "reference": "turn856117search6"
+        },
+        {
+          "title": "Parts and Accessories Necessary for Safe Operation; Exemption Application From Waymo LLC, and Aurora Operations, Inc. | FMCSA",
+          "url": "https://www.fmcsa.dot.gov/regulations/federal-register-documents/2023-04385",
+          "reference": "turn856117search7"
+        },
+        {
+          "title": "Parts and Accessories Necessary for Safe Operation; Exemption Application From Waymo LLC, and Aurora Operations, Inc. | FMCSA",
+          "url": "https://www.fmcsa.dot.gov/regulations/federal-register-documents/2023-04841",
+          "reference": "turn856117search8"
+        },
+        {
+          "title": "Parts and Accessories Necessary for Safe Operation; Application for Exemption From Aurora Operations, Inc (USDOT #341156) | 91 FR 64736",
+          "url": "https://thefederalregister.org/documents/2026-20734/parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-aurora-operations-inc-usdot-341156",
+          "reference": "turn856117search9"
+        },
+        {
+          "title": "Final Waiver (1.8.2026)",
+          "url": "https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/2026-01/Letter%20to%20Aurora%20Operations%2C%20Inc.%20-%20Waiver%20of%20Warning%20Device%20Requirements%20Terms%20and%20Conditions%20-%20January%208%202026.pdf",
+          "reference": "turn856117search16"
+        },
+        {
+          "title": "Federal Register / Vol. 89, No. 248 / Friday, December 27, 2024 / Notices 105675",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2024-12-27/pdf/2024-30860.pdf",
+          "reference": "turn856117search17"
+        },
+        {
+          "title": "Federal Motor Carrier Safety Administration October 2026 – Federal Register Recent Federal Regulation Documents :: Justia Regulation Tracker",
+          "url": "https://regulations.justia.com/regulations/fedreg/agencies/department-of-transportation/federal-motor-carrier-safety-administration/2026/10?max-day=31&min-day=1&registers=between",
+          "reference": "turn856117search10"
+        },
+        {
+          "title": "Federal Motor Carrier Safety Administration October 9, 2026 – Federal Register Recent Federal Regulation Documents :: Justia Regulation Tracker",
+          "url": "https://regulations.justia.com/regulations/fedreg/agencies/department-of-transportation/federal-motor-carrier-safety-administration/2026/10/09",
+          "reference": "turn856117search11"
+        },
+        {
+          "title": "Aurora Innovation wins regulatory fight as federal agency waives safety requirement for five years - Pittsburgh Business Times",
+          "url": "https://www.reddit.com/r/AuroraInnovation/comments/1x0ap5n/aurora_innovation_wins_regulatory_fight_as/",
+          "reference": "turn856117reddit18"
+        },
+        {
+          "title": "Auroras warning triangle exemption extended",
+          "url": "https://www.reddit.com/r/AURstock/comments/1ux628s/auroras_warning_triangle_exemption_extended/",
+          "reference": "turn856117reddit19"
+        },
+        {
+          "title": "$AUR The U.S. has granted Aurora a five-year exemption.",
+          "url": "https://www.reddit.com/r/AuroraInnovation/comments/1x0qieh/aur_the_us_has_granted_aurora_a_fiveyear_exemption/",
+          "reference": "turn856117reddit20"
+        },
+        {
+          "title": "Aurora Innovation wins regulatory fight as federal agency waives safety requirement for five years",
+          "url": "https://www.reddit.com/r/AURstock/comments/1x0d7s8/aurora_innovation_wins_regulatory_fight_as/",
+          "reference": "turn856117reddit21"
+        },
+        {
+          "title": "DOT daily brief October 9, 2026",
+          "url": "https://www.reddit.com/r/u_learnlawsanswers/comments/1x1mhpz/dot_daily_brief_october_9_2026/",
+          "reference": "turn856117reddit22"
+        },
+        {
+          "title": "Aurora gets five-year federal exemption for driverless-truck warning beacons",
+          "url": "https://www.reddit.com/r/RuntimeWire/comments/1x0h3q4/aurora_gets_fiveyear_federal_exemption_for/",
+          "reference": "turn856117reddit23"
+        },
+        {
+          "title": "I filed a lawsuit against the FMCSA in the US Court of Appeals Seventh Circuit. Driverless trucking companies (Aurora/Kodiak) are getting secret waivers from warning triangle rules and degrading roadway safety.",
+          "url": "https://www.reddit.com/r/CDLTruckDrivers/comments/1wsltf8/i_filed_a_lawsuit_against_the_fmcsa_in_the_us/",
+          "reference": "turn856117reddit24"
+        },
+        {
+          "title": "Federal safety regulators have granted Aurora's requested waiver of the warning triangle rule that had acted as a de facto requirement for human drivers in autonomous trucks",
+          "url": "https://www.reddit.com/r/SelfDrivingCars/comments/1ojapau",
+          "reference": "turn856117reddit25"
+        },
+        {
+          "title": "Feeling antsy due to lack of news on the warning beacon exemption, so I did a dive into the public comments. Details inside, form your own conclusion from the info.",
+          "url": "https://www.reddit.com/r/AURstock/comments/1ue3a03/feeling_antsy_due_to_lack_of_news_on_the_warning/",
+          "reference": "turn856117reddit26"
+        },
+        {
+          "title": "public comment period open on five-year exemption",
+          "url": "https://www.reddit.com/r/AURstock/comments/1suz0fy/public_comment_period_open_on_fiveyear_exemption/",
+          "reference": "turn856117reddit27"
+        },
+        {
+          "title": "I filed a lawsuit against the FMCSA in the US Court of Appeals Seventh Circuit. Driverless trucking companies (Aurora/Kodiak) are getting secret waivers from warning triangle rules and degrading roadway safety.",
+          "url": "https://www.reddit.com/r/logistics/comments/1wsgdsu/i_filed_a_lawsuit_against_the_fmcsa_in_the_us/",
+          "reference": "turn856117reddit28"
+        }
+      ]
+    },
+    {
+      "query": "permanent residency immigration requirements October 10 2026 official",
+      "sourceUrl": "https://www.google.com/search?q=permanent%20residency%20immigration%20requirements%20October%2010%202026%20official",
+      "observedAt": "2026-10-10T04:04:56.117Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 21,
+      "results": [
+        {
+          "title": "Guidelines on Permanent Residency Permits (Revised October 1, 2026) | Immigration Services Agency of Japan",
+          "url": "https://www.moj.go.jp/isa/10_00279",
+          "reference": "turn437484search0"
+        },
+        {
+          "title": "Live in Canada permanently - Canada.ca",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html",
+          "reference": "turn437484search1"
+        },
+        {
+          "title": "Guidelines on Permanent Residency Permits (Revised February 24, 2026) | Immigration Services Agency of Japan",
+          "url": "https://www.moj.go.jp/isa/applications/resources/nyukan_nyukan50.html?hl=ja&lang=en",
+          "reference": "turn437484search2"
+        },
+        {
+          "title": "National Immigration Agency, R.O.C. (Taiwan) - 0903 Guidelines for Foreign Nationals Applying for Permanent Residency",
+          "url": "https://www.immigration.gov.tw/5475/5478/141465/141808/411648/",
+          "reference": "turn437484search3"
+        },
+        {
+          "title": "Immigration and Refugee Protection Regulations",
+          "url": "https://www.laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/section-72.html",
+          "reference": "turn437484search4"
+        },
+        {
+          "title": "Temporary public policies: Open work permits for applicants under the temporary resident to permanent resident pathway - Canada.ca",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/tr-pr-pathway/open-work-permit.html",
+          "reference": "turn437484search5"
+        },
+        {
+          "title": "Applying for Permanent Residence from within Canada: Protected Persons and Convention Refugees (IMM 5205) - Canada.ca",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/guide-5205-applying-permanent-residence-within-canada-protected-persons-convention-refugees.html",
+          "reference": "turn437484search6"
+        },
+        {
+          "title": "Guide 5527 - Application for Permanent Residence, Temporary Resident Permit Holder - Canada.ca",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/guide-5527-application-permanent-residence-temporary-resident-permit-holder.html?trk=article-ssr-frontend-pulse_little-text-block",
+          "reference": "turn437484search7"
+        },
+        {
+          "title": "Permanent residence permit | IND",
+          "url": "https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit",
+          "reference": "turn437484search8"
+        },
+        {
+          "title": "Immigration and Refugee Protection Act",
+          "url": "https://lois.justice.gc.ca/eng/acts/I-2.5/FullText.html",
+          "reference": "turn437484search9"
+        },
+        {
+          "title": "Temporary public policy to facilitate the granting of permanent residence for foreign nationals in Canada, outside of Quebec, with recent Canadian work experience in essential occupations - Canada.ca",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/trpr-canadian-work-experience.html",
+          "reference": "turn437484search10"
+        },
+        {
+          "title": "October 2026",
+          "url": "https://travel.state.gov/content/dam/visas/Bulletins/visabulletin_October2026.pdf",
+          "reference": "turn437484search12"
+        },
+        {
+          "title": "Long residence (accessible) - GOV.UK",
+          "url": "https://www.gov.uk/government/publications/long-residence/long-residence-accessible",
+          "reference": "turn437484search11"
+        },
+        {
+          "title": "Immigration (Permanent Residence Permi",
+          "url": "https://www.gov.ms/wp-content/uploads/2026/01/SRO-No.-2-of-2026-Immigration-Permanent-Residence-Permits-Amendment-Regulations.pdf",
+          "reference": "turn437484search13"
+        },
+        {
+          "title": "CONGRESSIONAL RECORD — SENATE",
+          "url": "https://www.congress.gov/119/crec/2025/07/28/171/129/CREC-2025-07-28-pt1-PgS4776.pdf",
+          "reference": "turn437484search14"
+        },
+        {
+          "title": "CABINET APPROVED FINAL REVISED WHITE PAPER ON CIRP - MARCH 2026",
+          "url": "https://www.dha.gov.za/images/White-Paper-on-CIRP-26March2026.pdf",
+          "reference": "turn437484search15"
+        },
+        {
+          "title": "The procedural update about 永住者の在留資格の取消しに関するガイドライン is live. It impacts people applying PR in 4/1 - 9/30 as well",
+          "url": "https://www.reddit.com/r/japanresidents/comments/1wum5po/the_procedural_update_about/",
+          "reference": "turn437484reddit16"
+        },
+        {
+          "title": "GOVERNMENT GAZETTE, 24 JUNE 2016",
+          "url": "https://www.dha.gov.za/files/GreenPaper_on_InternationalMigration-%2022062016.pdf",
+          "reference": "turn437484search17"
+        },
+        {
+          "title": "Moderator Notice: Permanent Residency (PR) Draft Reports",
+          "url": "https://www.reddit.com/r/japanlife/comments/1v9krnu/moderator_notice_permanent_residency_pr_draft/",
+          "reference": "turn437484reddit18"
+        },
+        {
+          "title": "PR income requirements are...secret!",
+          "url": "https://www.reddit.com/r/japanlife/comments/1wumdcz/pr_income_requirements_aresecret/",
+          "reference": "turn437484reddit19"
+        },
+        {
+          "title": "Japan officially overhauls permanent residency rules",
+          "url": "https://www.reddit.com/r/japanresidents/comments/1wu923a/japan_officially_overhauls_permanent_residency/",
+          "reference": "turn437484reddit20"
+        }
+      ]
+    },
+    {
+      "query": "site:anthropic.com October 9 2026 unintended model actions internet evaluations",
+      "sourceUrl": "https://www.google.com/search?q=site%3Aanthropic.com%20October%209%202026%20unintended%20model%20actions%20internet%20evaluations",
+      "observedAt": "2026-10-10T04:05:10.397Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 18,
+      "results": [
+        {
+          "title": "Investigating unintended model actions in our evaluations and internal use \\ Anthropic",
+          "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+          "reference": "turn930585search0"
+        },
+        {
+          "title": "Alignment Research \\ Anthropic",
+          "url": "https://www.anthropic.com/research/team/alignment",
+          "reference": "turn930585search1"
+        },
+        {
+          "title": "Research \\ Anthropic",
+          "url": "https://www.anthropic.com/research?939688b5_page=3&e45d281a_page=12",
+          "reference": "turn930585search2"
+        },
+        {
+          "title": "An alignment assessment of recent cybersecurity incidents \\ Anthropic",
+          "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+          "reference": "turn930585search3"
+        },
+        {
+          "title": "Improving our alignment and security practices \\ Anthropic",
+          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts?subjects=policy",
+          "reference": "turn930585search4"
+        },
+        {
+          "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance \\ Anthropic",
+          "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+          "reference": "turn930585search5"
+        },
+        {
+          "title": "Investigating three incidents in our cybersecurity evaluations \\ Anthropic",
+          "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals?_sp=bc9fa2c5-d091-435b-8158-41ecd9925ede.1789997004268",
+          "reference": "turn930585search6"
+        },
+        {
+          "title": "Investigating three incidents in our cybersecurity evaluations \\ Anthropic",
+          "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals?ftag=MSFd61514f",
+          "reference": "turn930585search7"
+        },
+        {
+          "title": "Expanding the Cyber Verification Program \\ Anthropic",
+          "url": "https://www.anthropic.com/news/cyber-verification-program?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment-text",
+          "reference": "turn930585search8"
+        },
+        {
+          "title": "Petri 2.0: New Scenarios, New Model Comparisons, and Improved Eval-Awareness Mitigations",
+          "url": "https://alignment.anthropic.com/2026/petri-v2/",
+          "reference": "turn930585search9"
+        },
+        {
+          "title": "Claude Sonnet 4.5 System Card",
+          "url": "https://assets.anthropic.com/m/12f214efcc2f457a/original/Claude-Sonnet-4-5-System-Card.pdf",
+          "reference": "turn930585search12"
+        },
+        {
+          "title": "Sabotage evaluations for frontier models \\ Anthropic",
+          "url": "https://www.anthropic.com/research/sabotage-evaluations",
+          "reference": "turn930585search10"
+        },
+        {
+          "title": "Developing a computer use model \\ Anthropic",
+          "url": "https://www.anthropic.com/research/developing-computer-use?curius=1144",
+          "reference": "turn930585search11"
+        },
+        {
+          "title": "Claude Opus 4.6 System Card",
+          "url": "https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf",
+          "reference": "turn930585search13"
+        },
+        {
+          "title": "Summer 2025 Sabotage Risk Report",
+          "url": "https://alignment.anthropic.com/2025/sabotage-risk-report/2025_pilot_risk_report.pdf",
+          "reference": "turn930585search14"
+        },
+        {
+          "title": "Unintended uses and limitations",
+          "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226.pdf",
+          "reference": "turn930585search15"
+        },
+        {
+          "title": "Claude 3.7 Sonnet System Card",
+          "url": "https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf?ref=poweredbyai",
+          "reference": "turn930585search16"
+        },
+        {
+          "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+          "url": "https://www.anthropic.com/model-written-evals.pdf",
+          "reference": "turn930585search17"
+        }
+      ]
+    },
+    {
+      "query": "site:openai.com October 9 2026 mathematics solutions",
+      "sourceUrl": "https://www.google.com/search?q=site%3Aopenai.com%20October%209%202026%20mathematics%20solutions",
+      "observedAt": "2026-10-10T04:05:10.305Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 16,
+      "results": [
+        {
+          "title": "First look at mathematics manuscripts from an internal frontier model at OpenAI - Community - OpenAI Developer Community",
+          "url": "https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886",
+          "reference": "turn989732search0"
+        },
+        {
+          "title": "OpenAI Research | Publication | OpenAI",
+          "url": "https://openai.com/research/index/publication/",
+          "reference": "turn989732search1"
+        },
+        {
+          "title": "First look at mathematics manuscripts from an internal frontier model at OpenAI - #2 by davegoldblatt - Community - OpenAI Developer Community",
+          "url": "https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886/2",
+          "reference": "turn989732search2"
+        },
+        {
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/",
+          "reference": "turn989732search3"
+        },
+        {
+          "title": "First look at mathematics manuscripts from an internal frontier model at OpenAI - #5 by edpegg - Community - OpenAI Developer Community",
+          "url": "https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886/5",
+          "reference": "turn989732search4"
+        },
+        {
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/?ssrid=ssr",
+          "reference": "turn989732search5"
+        },
+        {
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/?content_language=English",
+          "reference": "turn989732search6"
+        },
+        {
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/?8b09db95_page=12",
+          "reference": "turn989732search7"
+        },
+        {
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/?amphubs_signup-cta=guided-selling-nav",
+          "reference": "turn989732search8"
+        },
+        {
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/?_fsi=UlJLhmQh",
+          "reference": "turn989732search9"
+        },
+        {
+          "title": "Formal Mathematics Statement Curriculum Learning",
+          "url": "https://cdn.openai.com/papers/Formal_Mathematics_Statement_Curriculum_Learning__ICML_2022.pdf",
+          "reference": "turn989732search12"
+        },
+        {
+          "title": "REMARKS ON THE DISPROOF OF THE UNIT DISTANCE CONJECTURE",
+          "url": "https://cdn.openai.com/pdf/00191fd2-3b93-47a3-aff3-6e8bcf787959/unit-distance-proof.pdf",
+          "reference": "turn989732search13"
+        },
+        {
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/?trk=public_profile__reactions-text",
+          "reference": "turn989732search10"
+        },
+        {
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/?wvideo=ydmtek6kzh",
+          "reference": "turn989732search11"
+        },
+        {
+          "title": "II.2 Erdős problems (part 1/2) – Mehtaab Sawhney and Mark Sellke",
+          "url": "https://cdn.openai.com/pdf/4a25f921-e4e0-479a-9b38-5367b47e8fd0/early-science-acceleration-experiments-with-gpt-5.pdf?curius=526",
+          "reference": "turn989732search14"
+        },
+        {
+          "title": "AI as a Scientific Collaborator January 2026",
+          "url": "https://cdn.openai.com/pdf/f4b4a5da-b2de-418d-9fcd-6b293e9dc157/oai_ai-as-a-scientific-collaborator_jan-2026.pdf",
+          "reference": "turn989732search15"
+        }
+      ]
+    },
+    {
+      "query": "site:techcrunch.com 2026/10/09 anthropic cutting off internal evals internet",
+      "sourceUrl": "https://www.google.com/search?q=site%3Atechcrunch.com%202026%2F10%2F09%20anthropic%20cutting%20off%20internal%20evals%20internet",
+      "observedAt": "2026-10-10T04:05:10.251Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 13,
+      "results": [
+        {
+          "title": "Anthropic can't reliably control its AI agents. It's cutting off its internal evals from the live internet instead | TechCrunch",
+          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+          "reference": "turn937847search0"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News",
+          "url": "https://techcrunch.com/?edition=starter",
+          "reference": "turn937847search1"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News",
+          "url": "https://techcrunch.com/?afsrc=1",
+          "reference": "turn937847search2"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News",
+          "url": "https://techcrunch.com/?wmediaid=dz7f8xrrwc",
+          "reference": "turn937847search3"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News",
+          "url": "https://techcrunch.com/?app_v2=true%252525252525252525252525252525252525252525252F%25252525252525252525252525252525252F",
+          "reference": "turn937847search4"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News",
+          "url": "https://techcrunch.com/?error=error_code",
+          "reference": "turn937847search5"
+        },
+        {
+          "title": "TechCrunch | Startup and Technology News",
+          "url": "https://techcrunch.com/?refer=similarlabs_ai-writing_florafauna",
+          "reference": "turn937847search6"
+        },
+        {
+          "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge | TechCrunch",
+          "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+          "reference": "turn937847search7"
+        },
+        {
+          "title": "Anthropic changes usage policy to ban model abuse and election interference | TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+          "reference": "turn937847search8"
+        },
+        {
+          "title": "Anthropic says its own AI models breached three companies during security tests | TechCrunch",
+          "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+          "reference": "turn937847search9"
+        },
+        {
+          "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you | TechCrunch",
+          "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+          "reference": "turn937847search10"
+        },
+        {
+          "title": "'Gambling with our lives': Anthropic researcher quits, warns against self-improving AI  | TechCrunch",
+          "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+          "reference": "turn937847search11"
+        },
+        {
+          "title": "Case 3:26-cv-01996-RFL   Document 24-1   Filed 03/09/26   Page 13 of 14",
+          "url": "https://techcrunch.com/wp-content/uploads/2026/03/anthropic-amicus-brief.pdf",
+          "reference": "turn937847search12"
+        }
+      ]
+    },
+    {
+      "query": "Aurora warning beacons exemption October 2026 site:aurora.tech",
+      "sourceUrl": "https://www.google.com/search?q=Aurora%20warning%20beacons%20exemption%20October%202026%20site%3Aaurora.tech",
+      "observedAt": "2026-10-10T04:05:10.385Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 13,
+      "results": [
+        {
+          "title": "Federal Register / Vol. 89, No. 248 / Friday, December 27, 2024 / Notices",
+          "url": "https://info.aurora.tech/hubfs/Aurora%20-%20Petition%20for%20Review%20%5BDocketed%5D.pdf",
+          "reference": "turn459859search12"
+        },
+        {
+          "title": "An Update on Warning Beacons",
+          "url": "https://aurora.tech/newsroom/an-update-on-warning-beacons",
+          "reference": "turn459859search0"
+        },
+        {
+          "title": "In addition to the work we are doing with our customers, we are also engaging with regulatory agencies and law enforcement organizations to ensure alignment on key opportunities for driverless operations. In conjunction with Waymo, and with the support of other companies in the AV industry, we have filed an exemption application with the Federal Motor Carrier Safety Administration (FMCSA) which if approved, would allow autonomous trucks to use a set of cab-mounted warning beacons in lieu of traditional warning devices (i.e. reflective triangles, fuses, or liquid-burning flares) to alert other drivers when the vehicle is stopped on the road or shoulder of a highway. Waymo’s independent study conducted by the Virginia Tech Transportation Institute and Aurora’s own study submitted with the application demonstrate that the use of the proposed solution would provide a level of safety equal to or greater than the level of safety provided by placing traditional warning devices in the roadway.",
+          "url": "https://ir.aurora.tech/_assets/_24dec715c7682843da50bb7ac50e2f90/aurora/db/880/7879/shareholder_letter/Aurora-1Q23-Shareholder_Letter_Final.pdf",
+          "reference": "turn459859search13"
+        },
+        {
+          "title": "July 29, 2026 - EX-99.1 - 8-K: Current report | Aurora Innovation, Inc. (AUR)",
+          "url": "https://ir.aurora.tech/sec-filings/all-sec-filings/content/0001828108-26-000075/aurora26q2shareholderlet.htm",
+          "reference": "turn459859search1"
+        },
+        {
+          "title": "October 28, 2025 - EX-99.1 - 8-K: Current report | Aurora Innovation, Inc. (AUR)",
+          "url": "https://ir.aurora.tech/sec-filings/all-sec-filings/content/0001828108-25-000155/a25q3shareholderletter_f.htm",
+          "reference": "turn459859search2"
+        },
+        {
+          "title": "Maintaining our lead: how smart policy can support self-driving innovation",
+          "url": "https://aurora.tech/newsroom/maintaining-our-lead-how-smart-policy-can-support-self-driving-innovation",
+          "reference": "turn459859search3"
+        },
+        {
+          "title": "Standing Up for Safety: Bringing Roadside Warning Devices into the 21st Century",
+          "url": "https://aurora.tech/newsroom/standing-up-for-safety-bringing-roadside-warning-devices-into-the-21st",
+          "reference": "turn459859search4"
+        },
+        {
+          "title": "Honoring First Responders: Working Together to Keep Our Roads Safe",
+          "url": "https://aurora.tech/newsroom/honoring-first-responders-working-together-to-keep-our-roads-safe",
+          "reference": "turn459859search6"
+        },
+        {
+          "title": "From Technology to Product: Introducing Aurora Horizon and Aurora Connect",
+          "url": "https://aurora.tech/newsroom/introducing-aurora-horizon-and-aurora-connect",
+          "reference": "turn459859search7"
+        },
+        {
+          "title": "Guiding the Industry: Aurora's Expertise Raises the Bar for Safe AV Commercial Operations",
+          "url": "https://aurora.tech/newsroom/guiding-the-industry-auroras-expertise-raises-the-bar-for-safe-av-commercial",
+          "reference": "turn459859search8"
+        },
+        {
+          "title": "A letter to Congress: Rules to keep citizens safe and encourage rapid innovation",
+          "url": "https://aurora.tech/newsroom/a-letter-to-congress",
+          "reference": "turn459859search9"
+        },
+        {
+          "title": "Safe by design: The Safety Checklist process",
+          "url": "https://aurora.tech/newsroom/safe-by-design-the-safety-checklist-process",
+          "reference": "turn459859search10"
+        },
+        {
+          "title": "Privacy Policy",
+          "url": "https://aurora.tech/privacy-policy/",
+          "reference": "turn459859search11"
+        }
+      ]
+    },
+    {
+      "query": "AI model product launch October 10 2026 after:2026-10-09 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=AI%20model%20product%20launch%20October%2010%202026%20after%3A2026-10-09%20before%3A2026-10-11",
+      "observedAt": "2026-10-10T04:05:39.062Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 13,
+      "results": [
+        {
+          "title": "AI Model Release Timeline — What Shipped When | Tech Times",
+          "url": "https://www.techtimes.com/ai-timeline",
+          "reference": "turn110344search0"
+        },
+        {
+          "title": "AI Model Releases in October 2026: Confirmed Updates | BenchLM",
+          "url": "https://benchlm.ai/model-updates/releases/october-2026",
+          "reference": "turn110344search1"
+        },
+        {
+          "title": "Product Launches | AI Startups Daily",
+          "url": "https://aistartupsnews.com/categories/product-launches/",
+          "reference": "turn110344search2"
+        },
+        {
+          "title": "AI Trends (October 2026) - Market Shifts & Provider Growth",
+          "url": "https://lmmarketcap.com/trends",
+          "reference": "turn110344search3"
+        },
+        {
+          "title": "AI Model Release Calendar: Latest AI Model Releases by Date",
+          "url": "https://www.scriptbyai.com/ai-model-release-calendar/",
+          "reference": "turn110344search4"
+        },
+        {
+          "title": "AI Model Releases Timeline: Latest Launches, Updated Daily",
+          "url": "https://www.promptzone.com/ai-model-releases?bb=4",
+          "reference": "turn110344search5"
+        },
+        {
+          "title": "AI Models Released in October 2026 | No Code MBA",
+          "url": "https://www.nocode.mba/ai-release-tracker/2026/10",
+          "reference": "turn110344search6"
+        },
+        {
+          "title": "AI Model Releases Timeline: Latest Launches, Updated Daily",
+          "url": "https://www.promptzone.com/ai-model-releases",
+          "reference": "turn110344search7"
+        },
+        {
+          "title": "October 2026 AI Releases: OpenAI Dots, Claude Sonnet 5.5 & 55 more — ThursdAI",
+          "url": "https://thursdai.news/releases/2026-10",
+          "reference": "turn110344search8"
+        },
+        {
+          "title": "October 2026 AI Model Updates: Every Launch, Access Change, and Price Move - Local AI Zone",
+          "url": "https://local-ai-zone.github.io/blog/October_2026_AI_Model_Updates.html",
+          "reference": "turn110344search9"
+        },
+        {
+          "title": "New AI Models: Live Release Tracker (Last 24 Hours) | BenchLM",
+          "url": "https://benchlm.ai/model-updates",
+          "reference": "turn110344search10"
+        },
+        {
+          "title": "LLM Updates (October 2026) - AI Model Releases & Provider Activity",
+          "url": "https://lmmarketcap.com/zh/llm-updates",
+          "reference": "turn110344search11"
+        },
+        {
+          "title": "List of large language models",
+          "url": "https://en.wikipedia.org/wiki/List_of_large_language_models",
+          "reference": "turn110344search12"
+        }
+      ]
+    },
+    {
+      "query": "Nissan Honda software vehicle OS October 10 2026 after:2026-10-09",
+      "sourceUrl": "https://www.google.com/search?q=Nissan%20Honda%20software%20vehicle%20OS%20October%2010%202026%20after%3A2026-10-09",
+      "observedAt": "2026-10-10T04:05:39.161Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 20,
+      "results": [
+        {
+          "title": "Honda Announces New Details and the Name of Its Next Hybrid System",
+          "url": "https://www.caranddriver.com/news/a74092472/honda-new-hybrid-system-name-details/",
+          "reference": "turn751855news12"
+        },
+        {
+          "title": "Next-Gen 'Honda Hybrid' Platform Promises Better Handling, 'Exhilarating' Drive",
+          "url": "https://www.roadandtrack.com/news/a74092149/next-gen-honda-hybrid-platform-better-handling/",
+          "reference": "turn751855news13"
+        },
+        {
+          "title": "Nissan e Honda firmam acordo de desenvolvimento conjunto para padronizar ECUs e software para a próxima geração de SDVs (veículos definidos por software)",
+          "url": "https://brazil.nissannews.com/pt-BR/releases/nissan-e-honda-firmam-acordo-de-desenvolvimento-conjunto-para-padronizar-ecus-e-software-para-a-proxima-geracao-de-sdvs-veiculos-definidos-por-software?origin=channel-588",
+          "reference": "turn751855search0"
+        },
+        {
+          "title": "OTA USB Website",
+          "url": "https://usb.honda.com/",
+          "reference": "turn751855search1"
+        },
+        {
+          "title": "News Releases",
+          "url": "https://global.nissannews.com/en/channels/news",
+          "reference": "turn751855search2"
+        },
+        {
+          "title": "Nissan Scalable Open Software Platform | Innovation | Nissan Motor Corporation Global Website",
+          "url": "https://www2.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/",
+          "reference": "turn751855search3"
+        },
+        {
+          "title": "Honda and Nissan each hired Applied Intuition's Vehicle OS for their next platforms · SDV Sector",
+          "url": "https://sdvsector.com/news/2026-10-07-applied-intuition-honda-nissan-vehicle-os",
+          "reference": "turn751855search4"
+        },
+        {
+          "title": "Corporate",
+          "url": "https://global.nissannews.com/en/channels/channel-NNG1418?downloadUrl=%2Fen%2Freleases%2Frelease-780b29c776c6567311c0ebfa2f092b96%2Fdownload&la=1&selectedTabId=channel-NNG1418-releases",
+          "reference": "turn751855search5"
+        },
+        {
+          "title": "Corporate",
+          "url": "https://global.nissannews.com/en/channels/channel-NNG1418?downloadUrl=%2Fen%2Freleases%2Frelease-780b29c776c6567311c0ebfa2f094cd6%2Fdownload&la=1&selectedTabId=channel-NNG1418-releases",
+          "reference": "turn751855search6"
+        },
+        {
+          "title": "NewsRoom | Honda Global Corporate Website",
+          "url": "https://global.honda/en/newsroom/index.html?offset=1",
+          "reference": "turn751855search7"
+        },
+        {
+          "title": "Nissan and Honda Announce Software and Electronics Partnership",
+          "url": "https://www.caranddriver.com/news/a73571919/nissan-honda-software-electronics-partnership/",
+          "reference": "turn751855search8"
+        },
+        {
+          "title": "Honda and Applied Intuition partner on software-defined vehicle platform | Vehicle Dynamics International",
+          "url": "https://www.vehicledynamicsinternational.com/news/oem-news/honda-and-applied-intuition-partner-on-software-defined-vehicle-platform.html",
+          "reference": "turn751855search9"
+        },
+        {
+          "title": "Gandeng Startup China, Honda dan Nissan Bikin Software Mobil Canggih",
+          "url": "https://www.liputan6.com/otomotif/read/8309015/gandeng-startup-china-honda-dan-nissan-bikin-software-mobil-canggih",
+          "reference": "turn751855search10"
+        },
+        {
+          "title": "NissanConnect - Software Updates & Agreement | Nissan Canada",
+          "url": "https://www.nissan.ca/services/apps/nissan-connect/software.html",
+          "reference": "turn751855search11"
+        },
+        {
+          "title": "2026 Leaf - anyone else noticed a few issues with the onboard music player?",
+          "url": "https://www.reddit.com/r/leaf/comments/1x16u4d/2026_leaf_anyone_else_noticed_a_few_issues_with/",
+          "reference": "turn751855reddit14"
+        },
+        {
+          "title": "2026 Nissan Leaf Software",
+          "url": "https://www.reddit.com/r/leaf/comments/1wxu1xb/2026_nissan_leaf_software/",
+          "reference": "turn751855reddit15"
+        },
+        {
+          "title": "Nissan’s over-the-air update blocks the ignition until install finishes, so a driver who accepts it cannot move the car, including in an emergency",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1x1ri6v/nissans_overtheair_update_blocks_the_ignition/",
+          "reference": "turn751855reddit16"
+        },
+        {
+          "title": "Recall Update? Software to blame?",
+          "url": "https://www.reddit.com/r/leaf/comments/1wzkep4/recall_update_software_to_blame/",
+          "reference": "turn751855reddit17"
+        },
+        {
+          "title": "Android Automotive",
+          "url": "https://de.wikipedia.org/wiki/Android_Automotive",
+          "reference": "turn751855search18"
+        },
+        {
+          "title": "Got this on the mail yesterday.",
+          "url": "https://www.reddit.com/r/KiaEV6/comments/1x06uvi/got_this_on_the_mail_yesterday/",
+          "reference": "turn751855reddit19"
+        }
+      ]
+    },
+    {
+      "query": "AAOS AUTOSAR SOAFEE Eclipse COVESA QNX October 10 2026 after:2026-10-09",
+      "sourceUrl": "https://www.google.com/search?q=AAOS%20AUTOSAR%20SOAFEE%20Eclipse%20COVESA%20QNX%20October%2010%202026%20after%3A2026-10-09",
+      "observedAt": "2026-10-10T04:05:39.055Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 11,
+      "results": [
+        {
+          "title": "AUTOSAR North America Hub",
+          "url": "https://www.autosar.org/regional-hubs/north-america-hub",
+          "reference": "turn614049search0"
+        },
+        {
+          "title": "AUTOSAR (Automotive Open System Architecture)",
+          "url": "https://www.autosar.org/",
+          "reference": "turn614049search1"
+        },
+        {
+          "title": "COVESA Unlocking the Full Potential of Connected Vehicles",
+          "url": "https://covesa.global/about-covesa-2/",
+          "reference": "turn614049search2"
+        },
+        {
+          "title": "2026 Annual Report | Eclipse Foundation Open Source Impact and Growth",
+          "url": "https://www.eclipse.org/org/foundation/annual-reports/2026/",
+          "reference": "turn614049search3"
+        },
+        {
+          "title": "3.1 Mobility | ECS SRIA",
+          "url": "https://ecssria.eu/2026_3.1",
+          "reference": "turn614049search4"
+        },
+        {
+          "title": "2026-26-0677: Monitoring and Diagnosing Software-Defined Vehicle Architectures - Technical Paper",
+          "url": "https://saemobilus.sae.org/papers/monitoring-diagnosing-software-defined-vehicle-architectures-2026-26-0677",
+          "reference": "turn614049search6"
+        },
+        {
+          "title": "Judge Group Joins SOAFEE SIG | Soafee.io",
+          "url": "https://www.soafee.io/news/2024/judge-announcement/",
+          "reference": "turn614049search7"
+        },
+        {
+          "title": "COVESA Upcoming and Past Events",
+          "url": "https://covesa.global/events/",
+          "reference": "turn614049search8"
+        },
+        {
+          "title": "Changes · Home · Wiki · Eclipse Working Groups / SDV WG / sdv-technical-alignment / sdv-technical-topics / vehicle-SW-orchestration-sdv-topic · GitLab",
+          "url": "https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/vehicle-sw-orchestration-sdv-topic/-/wikis/home/diff?version_id=84204a326ac58b528ea367f24f9eca65080afce9",
+          "reference": "turn614049search9"
+        },
+        {
+          "title": "COVESA, the Connected Vehicle Systems Alliance",
+          "url": "https://covesa.global/?et_blog=&trk=article-ssr-frontend-pulse_little-text-block",
+          "reference": "turn614049search10"
+        },
+        {
+          "title": "Alles zur Automotive Software Strategies Conference 2026 vorab",
+          "url": "https://www.all-electronics.de/veranstaltungen-automotive-software-strategies/das-bringt-die-automotive-software-strategies-conference-2026/2627223",
+          "reference": "turn614049search11"
+        }
+      ]
+    },
+    {
+      "query": "NXP NVIDIA Qualcomm Bosch Aptiv zonal central compute October 10 2026 after:2026-10-09",
+      "sourceUrl": "https://www.google.com/search?q=NXP%20NVIDIA%20Qualcomm%20Bosch%20Aptiv%20zonal%20central%20compute%20October%2010%202026%20after%3A2026-10-09",
+      "observedAt": "2026-10-10T04:05:39.031Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 12,
+      "results": [
+        {
+          "title": "Bosch presents cockpit innovations at CES 2026 in Las Vegas",
+          "url": "https://www.bosch-mobility.com/en/company/current-news/ai-in-the-car/",
+          "reference": "turn619753search0"
+        },
+        {
+          "title": "Advanced Compute | Aptiv",
+          "url": "https://www.aptiv.com/en/solutions/advanced-compute",
+          "reference": "turn619753search1"
+        },
+        {
+          "title": "Aptiv to Deliver Production-Ready Edge AI with Long-Term Support with NVIDIA",
+          "url": "https://www.aptiv.com/en/newsroom/article/aptiv-to-deliver-production-ready-edge-ai-with-long-term-support-with-nvidia",
+          "reference": "turn619753search2"
+        },
+        {
+          "title": "Press Releases | NXP Semiconductors - Newsroom",
+          "url": "https://media.nxp.com/media-center/press-releases/?page=2",
+          "reference": "turn619753search3"
+        },
+        {
+          "title": "Financial Releases | NXP Semiconductors",
+          "url": "https://investors.nxp.com/encrypted-node/5816?page=2",
+          "reference": "turn619753search4"
+        },
+        {
+          "title": "Aptiv PLC - Aptiv Accelerating Production-Ready Physical AI with Support for NVIDIA Jetson Orin Nano 2",
+          "url": "https://ir.aptiv.com/news/news-details/2026/Aptiv-Accelerating-Production-Ready-Physical-AI-with-Support-for-NVIDIA-Jetson-Orin-Nano-2/default.aspx",
+          "reference": "turn619753search5"
+        },
+        {
+          "title": "Financial Releases | NXP Semiconductors",
+          "url": "https://investors.nxp.com/encrypted-node/5816?page=3",
+          "reference": "turn619753search6"
+        },
+        {
+          "title": "NXP Semiconductors (NXPI) Transcript: Goldman Sachs Communacopia + Technology Conference 2026",
+          "url": "https://stockanalysis.com/stocks/nxpi/transcripts/740932-goldman-sachs-communacopia-technology-conference-2026/",
+          "reference": "turn619753search7"
+        },
+        {
+          "title": "ADAS & IVI SoC Integration with Auto-Grade IP | Synopsys IP",
+          "url": "https://www.synopsys.com/articles/adas-ivi-automotive-grade.html",
+          "reference": "turn619753search8"
+        },
+        {
+          "title": "SDV deployment of auto Tier-1 and processor players",
+          "url": "https://www.digitimes.com/reports/item.php?id=20260226RS401",
+          "reference": "turn619753search9"
+        },
+        {
+          "title": "Aptiv Showcasing Next Generation Intelligent Edge Solutions at Automate 2026",
+          "url": "https://www.aptiv.com/en/newsroom/article/aptiv-showcasing-next-generation-intelligent-edge-solutions-at-automate-2026",
+          "reference": "turn619753search10"
+        },
+        {
+          "title": "AI · HPC Semiconductor Events Calendar",
+          "url": "https://calendar.vlsi.kr/en/topics/ai-hpc",
+          "reference": "turn619753search11"
+        }
+      ]
+    },
+    {
+      "query": "automotive AWS Azure virtual ECU SIL HIL October 10 2026 after:2026-10-09",
+      "sourceUrl": "https://www.google.com/search?q=automotive%20AWS%20Azure%20virtual%20ECU%20SIL%20HIL%20October%2010%202026%20after%3A2026-10-09",
+      "observedAt": "2026-10-10T04:05:39.061Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 12,
+      "results": [
+        {
+          "title": "Browse Topic: Software-in-the-loop (SIL)",
+          "url": "https://saemobilus.sae.org/topics/design-engineering-and-styling/simulation-and-modeling/software-in-the-loop-sil",
+          "reference": "turn745889search0"
+        },
+        {
+          "title": "CANoe | SIL & HIL Test Tool Across Industries | Vector",
+          "url": "https://www.vector.com/en/product/canoe/?type=%27%22efx",
+          "reference": "turn745889search1"
+        },
+        {
+          "title": "Software-in-the-Loop (SIL) skalieren: Architektur & Tests | HDT",
+          "url": "https://www.hdt.de/software-in-the-loop-2026-vv00014/",
+          "reference": "turn745889search2"
+        },
+        {
+          "title": "Virtual ECUs Push Validation Closer to Production Software | Drip",
+          "url": "https://joindrip.ai/careers/research-development-rd/trends/ai-simulation-setup",
+          "reference": "turn745889search3"
+        },
+        {
+          "title": "Continuous Validation and Compliance for Software-Defined Vehicles | AVL",
+          "url": "https://www.avl.com/en/development-speed-and-methodology/continuous-validation-and-compliance-software-defined-vehicles",
+          "reference": "turn745889search4"
+        },
+        {
+          "title": "Software-in-the-Loop (SIL) Testing | Scalable ECU Software Validation | Vector",
+          "url": "https://www.vector.com/en/business-unit/testing-validation-diagnostics/testing-analysis/sil-hil-testing/sil-testing/",
+          "reference": "turn745889search5"
+        },
+        {
+          "title": "AWS Summit Japan 2026 | Shinichi Shiraishi",
+          "url": "https://jp.linkedin.com/posts/shinichi-shiraishi-94982b55_aws-summit-japan-2026-activity-7473001222036365312-lJ52",
+          "reference": "turn745889search6"
+        },
+        {
+          "title": "Panel Discussion: Closed-Loop Physics & Actuation-Bridging High-Fidelity Vehicle Dynamics with SIL/HIL Architectures - Automotive Testing Expo NA 2026 NEW",
+          "url": "https://testingexpo-usa.com/vtna26-vehicle-testing-conference/panel-discussion-closed-loop-physics-actuation-bridging-high-fidelity-vehicle-dynamics-with-sil/hil-architectures",
+          "reference": "turn745889search7"
+        },
+        {
+          "title": "The Future of Automotive Testing - Automotive Testing Expo NA 2026 NEW",
+          "url": "https://testingexpo-usa.com/vtna26-vehicle-testing-conference",
+          "reference": "turn745889search8"
+        },
+        {
+          "title": "dSPACE UC India 2026 - dSPACE",
+          "url": "https://www.dspace.com/en/pub/home/company/events/dspace_events/dspace-uc-india-2026.cfm",
+          "reference": "turn745889search9"
+        },
+        {
+          "title": "CES 2026: From Software to AI-Defined on Wheels",
+          "url": "https://www.frost.com/growth-opportunity-news/mobility-automotive-transportation/digital-software/ces-2026-from-software-to-ai-defined-on-wheels/",
+          "reference": "turn745889search10"
+        },
+        {
+          "title": "Enhancing Software-Defined Vehicles with AWS | Synopsys Blog",
+          "url": "https://www.synopsys.com/blogs/chip-design/software-defined-vehicles-aws.html",
+          "reference": "turn745889search11"
+        }
+      ]
+    },
+    {
+      "query": "UNECE R155 R156 ISO21434 automotive cyber software October 10 2026 after:2026-10-09",
+      "sourceUrl": "https://www.google.com/search?q=UNECE%20R155%20R156%20ISO21434%20automotive%20cyber%20software%20October%2010%202026%20after%3A2026-10-09",
+      "observedAt": "2026-10-10T04:05:39.128Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 18,
+      "results": [
+        {
+          "title": "ISO/SAE 21434:2021 - Road vehicles — Cybersecurity engineering",
+          "url": "https://www.iso.org/standard/70918.html",
+          "reference": "turn183099search0"
+        },
+        {
+          "title": "ISO/SAE 21434, UN R155 and R156: automotive cyber | spilma",
+          "url": "https://www.spilma.com/en/guides/iso-21434-unece-r155-r156-automotive-cyber?trk=article-ssr-frontend-pulse_little-text-block",
+          "reference": "turn183099search1"
+        },
+        {
+          "title": "(IWG on Cyber Security and Software Updates) Proposal for amendments to the Interpretation Document for UN Regulation No. 156 (Software update and software update management system) | UNECE",
+          "url": "https://unece.org/transport/documents/2025/11/working-documents/iwg-cyber-security-and-software-updates-proposal",
+          "reference": "turn183099search2"
+        },
+        {
+          "title": "ISO/SAE AWI 21434 - Road vehicles — Cybersecurity engineering",
+          "url": "https://www.iso.org/standard/95437.html?browse=tc",
+          "reference": "turn183099search3"
+        },
+        {
+          "title": "Reference documents | UNECE",
+          "url": "https://unece.org/ru/node/352050",
+          "reference": "turn183099search4"
+        },
+        {
+          "title": "(WP.29/GRVA) Working Party on Automated/Autonomous and Connected Vehicles (18th session) | UNECE",
+          "url": "https://unece.org/info/events/event/384684",
+          "reference": "turn183099search5"
+        },
+        {
+          "title": "Three landmark UN vehicle regulations enter into force | UNECE",
+          "url": "https://unece.org/media/transport/Vehicle-Regulations/press/352397",
+          "reference": "turn183099search6"
+        },
+        {
+          "title": "Cyber Security and Software Updating - Vehicle Certification Agency",
+          "url": "https://www.vehicle-certification-agency.gov.uk/connected-and-automated-vehicles/cyber-security-and-software-updating/",
+          "reference": "turn183099search7"
+        },
+        {
+          "title": "UN R155 / ISO/SAE 21434 crosswalk - Provael",
+          "url": "https://www.provael.com/compliance/un-r155-iso-21434/",
+          "reference": "turn183099search8"
+        },
+        {
+          "title": "Cybersecurity news · SDV Sector",
+          "url": "https://sdvsector.com/topic/cybersecurity",
+          "reference": "turn183099search9"
+        },
+        {
+          "title": "Browse Topic: Cybersecurity",
+          "url": "https://saemobilus.sae.org/topics/electrical-electronics-and-avionics/data-acquisition-and-handling/cybersecurity",
+          "reference": "turn183099search10"
+        },
+        {
+          "title": "GB type approval scheme: cyber-security and software update requirements - GOV.UK",
+          "url": "https://www.gov.uk/government/consultations/gb-type-approval-scheme-cyber-security-and-software-update-requirements",
+          "reference": "turn183099search11"
+        },
+        {
+          "title": "UNECE R 155",
+          "url": "https://de.wikipedia.org/wiki/UNECE_R_155",
+          "reference": "turn183099search12"
+        },
+        {
+          "title": "ISO/SAE 21434",
+          "url": "https://de.wikipedia.org/wiki/ISO/SAE_21434",
+          "reference": "turn183099search13"
+        },
+        {
+          "title": "UNECE R 156",
+          "url": "https://de.wikipedia.org/wiki/UNECE_R_156",
+          "reference": "turn183099search14"
+        },
+        {
+          "title": "UNECE R 156",
+          "url": "https://zh.wikipedia.org/wiki/UNECE_R_156",
+          "reference": "turn183099search15"
+        },
+        {
+          "title": "UNECE R 155",
+          "url": "https://zh.wikipedia.org/wiki/UNECE_R_155",
+          "reference": "turn183099search16"
+        },
+        {
+          "title": "Information security standards",
+          "url": "https://en.wikipedia.org/wiki/Information_security_standards",
+          "reference": "turn183099search17"
+        }
+      ]
+    },
+    {
+      "query": "software defined vehicle SDV OTA October 10 2026 after:2026-10-09",
+      "sourceUrl": "https://www.google.com/search?q=software%20defined%20vehicle%20SDV%20OTA%20October%2010%202026%20after%3A2026-10-09",
+      "observedAt": "2026-10-10T04:05:39.383Z",
+      "retrievalStatus": "complete",
+      "rawHitCount": 29,
+      "results": [
+        {
+          "title": "SDV Sector — daily software-defined vehicle news and analysis",
+          "url": "https://sdvsector.com/",
+          "reference": "turn682132search0"
+        },
+        {
+          "title": "sdv-wg Archive (Date View)",
+          "url": "https://www.eclipse.org/lists/sdv-wg/maillist.html",
+          "reference": "turn682132search1"
+        },
+        {
+          "title": "Global — vehicle software news · SDV Sector",
+          "url": "https://sdvsector.com/region/global",
+          "reference": "turn682132search2"
+        },
+        {
+          "title": "USA — vehicle software news · SDV Sector",
+          "url": "https://sdvsector.com/region/usa",
+          "reference": "turn682132search3"
+        },
+        {
+          "title": "Software-Defined Vehicle Survey 2026 eBook | Sonatus",
+          "url": "https://www.sonatus.com/resources/software-defined-vehicle-survey-2026-ebook/",
+          "reference": "turn682132search4"
+        },
+        {
+          "title": "Software-Defined Vehicle (SDV) Market Size, Share, Trends,",
+          "url": "https://www.globenewswire.com/fr/news-release/2026/10/09/3377873/28124/en/software-defined-vehicle-sdv-market-size-share-trends-competitive-landscape-and-forecast-2026-to-2034-25-2-cagr-fueled-by-ai-ota-updates-and-recurring-software-revenue.html",
+          "reference": "turn682132search5"
+        },
+        {
+          "title": "ADAS & Autonomy news · SDV Sector",
+          "url": "https://sdvsector.com/topic/adas-and-autonomy",
+          "reference": "turn682132search6"
+        },
+        {
+          "title": "Software Defined Vehicle Working Group | The Eclipse Foundation",
+          "url": "https://metrics.eclipse.org/wgs/sdv/",
+          "reference": "turn682132search7"
+        },
+        {
+          "title": "Register · SDV Summit 2026",
+          "url": "https://www.sdvsummit.com/register?type=delegate",
+          "reference": "turn682132search8"
+        },
+        {
+          "title": "Meet ETAS at ELIV | Software-Defined Vehicle Solutions",
+          "url": "https://www.etas.com/ww/en/about-etas/events/eliv/",
+          "reference": "turn682132search9"
+        },
+        {
+          "title": "2026 Q5 Can’t complete 06.11.01 OTA Update.",
+          "url": "https://www.reddit.com/r/Audi/comments/1wqthyb/2026_q5_cant_complete_061101_ota_update/",
+          "reference": "turn682132reddit12"
+        },
+        {
+          "title": "Software News | ADAS & Autonomous Vehicle International",
+          "url": "https://www.autonomousvehicleinternational.com/news/software",
+          "reference": "turn682132search10"
+        },
+        {
+          "title": "SDV Summit 2026 · Code. Connect. Drive.",
+          "url": "https://www.sdvsummit.com/?trk=public_post_main-feed-card_reshare-text",
+          "reference": "turn682132search11"
+        },
+        {
+          "title": "Version 2026.31.0 Infotainment Instability",
+          "url": "https://www.reddit.com/r/Rivian/comments/1x1nbi3/version_2026310_infotainment_instability/",
+          "reference": "turn682132reddit13"
+        },
+        {
+          "title": "Software update - 3.8.11",
+          "url": "https://www.reddit.com/r/VWiD4Owners/comments/1x00fr2/software_update_3811/",
+          "reference": "turn682132reddit14"
+        },
+        {
+          "title": "Nissan’s over-the-air update blocks the ignition until install finishes, so a driver who accepts it cannot move the car, including in an emergency",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1x1ri6v/nissans_overtheair_update_blocks_the_ignition/",
+          "reference": "turn682132reddit15"
+        },
+        {
+          "title": "PSA: New OTA Update",
+          "url": "https://www.reddit.com/r/Ioniq5/comments/1x1b72k/psa_new_ota_update/",
+          "reference": "turn682132reddit16"
+        },
+        {
+          "title": "Got this on the mail yesterday.",
+          "url": "https://www.reddit.com/r/KiaEV6/comments/1x06uvi/got_this_on_the_mail_yesterday/",
+          "reference": "turn682132reddit17"
+        },
+        {
+          "title": "Just got another update 2026.27.11",
+          "url": "https://www.reddit.com/r/TeslaFSD/comments/1wny0uh/just_got_another_update_20262711/",
+          "reference": "turn682132reddit18"
+        },
+        {
+          "title": "OTA 2.11.0",
+          "url": "https://www.reddit.com/r/LUCID/comments/1wv3987/ota_2110/",
+          "reference": "turn682132reddit19"
+        },
+        {
+          "title": "Volvo AAOS security research",
+          "url": "https://www.reddit.com/r/CarHacking/comments/1wv22hl/volvo_aaos_security_research/",
+          "reference": "turn682132reddit20"
+        },
+        {
+          "title": "Autonomous Driving: VW Apparently Ends Alliance with Bosch on Autonomous Driving",
+          "url": "https://www.reddit.com/r/MVIS/comments/1ui5brt/autonomous_driving_vw_apparently_ends_alliance/",
+          "reference": "turn682132reddit21"
+        },
+        {
+          "title": "Sonatus",
+          "url": "https://en.wikipedia.org/wiki/Sonatus",
+          "reference": "turn682132search22"
+        },
+        {
+          "title": "First stage of the stable China rollout is tomorrow",
+          "url": "https://www.reddit.com/r/Vivo/comments/1x12k03/first_stage_of_the_stable_china_rollout_is/",
+          "reference": "turn682132reddit23"
+        },
+        {
+          "title": "Rivian tracker posts 2026.36 update info!",
+          "url": "https://www.reddit.com/r/Rivian/comments/1wziisl/rivian_tracker_posts_202636_update_info/",
+          "reference": "turn682132reddit24"
+        },
+        {
+          "title": "Software Defined Vehicle",
+          "url": "https://en.wikipedia.org/wiki/Software_Defined_Vehicle",
+          "reference": "turn682132search25"
+        },
+        {
+          "title": "Sonatus",
+          "url": "https://fr.wikipedia.org/wiki/Sonatus",
+          "reference": "turn682132search26"
+        },
+        {
+          "title": "軟體定義汽車",
+          "url": "https://zh.wikipedia.org/wiki/%E8%BB%9F%E9%AB%94%E5%AE%9A%E7%BE%A9%E6%B1%BD%E8%BB%8A",
+          "reference": "turn682132search27"
+        },
+        {
+          "title": "Rivian and Volkswagen Group Technologies",
+          "url": "https://en.wikipedia.org/wiki/Rivian_and_Volkswagen_Group_Technologies",
+          "reference": "turn682132search28"
+        }
+      ]
+    }
+  ],
+  "adopted": [
+    {
+      "eventKey": "anthropic-unintended-actions-evaluations-20261010",
+      "source": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "sourcePublishedAt": "2026-10-09T16:09:00.000Z",
+      "publishedJst": "2026-10-10T01:09:00+09:00",
+      "verification": "Official body retrieved and read; page article:published_time gives JST October 10; independent report confirms isolation of internal evaluations."
+    }
+  ],
+  "excluded": [
+    {
+      "event": "OpenAI mathematics release",
+      "reason": "Official publication October 6, not October 10; do not re-date today."
+    },
+    {
+      "event": "Stellantis/Wayve demonstration",
+      "reason": "Already published in October 9 daily feed; no duplicate."
+    },
+    {
+      "event": "Honda hybrid architecture",
+      "reason": "Primarily powertrain/body rigidity rather than direct SDV platform/software news."
+    },
+    {
+      "event": "Tesla Assisted Driving rebranding",
+      "reason": "Reuters publication October 9 14:56 UTC is still October 9 JST; not a new October 10 event."
+    },
+    {
+      "event": "Claude false police tip",
+      "reason": "Same Anthropic report/event as the adopted evaluation isolation story; do not split into duplicate articles."
+    },
+    {
+      "event": "Japanese permanent residence guidelines",
+      "reason": "Official page says October 1 revision, not a new October 10 change."
+    }
+  ]
+}

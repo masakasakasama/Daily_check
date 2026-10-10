@@ -41,7 +41,7 @@
       "id": "codex-reset",
       "name": "Codexリセット時刻監視",
       "status": "clear",
-      "summary": "公式経路とX経路を確認。10月3日06:18 JSTの全体リセットを遅延発見し監査へ記録したが、前回成功以前のため本日フィードには再掲載せず。以後の新規リセットなし",
+      "summary": "当日の新規掲載なし",
       "checkedAt": "2026-10-04T07:23:00+09:00",
       "alertCount": 0,
       "referenceCount": 0

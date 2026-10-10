@@ -2,7 +2,7 @@
   "start": "2026-10-03",
   "end": "2026-10-09",
   "generatedAt": "2026-10-10T03:35:37.821792+00:00",
-  "headline": "保存済み日別記事から再集計。10月8〜10日の欠落分を再収集",
+  "headline": "期間内の重要更新・参考情報",
   "counts": {
     "important": 16,
     "reference": 15
@@ -352,7 +352,10 @@
         "scale": 15,
         "specificity": 10,
         "novelty": 5
-      }
+      },
+      "thumbnail": "https://images.ctfassets.net/9i0s3p5vkth9/35vU5BurqbkS1z3yTdkwO3/98e8f506932c74d079583858324bd6f0/BeaconBlog.jpg?fm=webp&q=90&w=1600",
+      "thumbnailAlt": "Auroraのトラックに搭載された警告灯",
+      "thumbnailSource": "https://aurora.tech/newsroom/an-update-on-warning-beacons"
     }
   ],
   "references": [

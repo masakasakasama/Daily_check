@@ -1,7 +1,7 @@
 {
   "version": 5,
   "currentDate": "2026-10-10",
-  "updatedAt": "2026-10-10T03:35:37.821792+00:00",
+  "updatedAt": "2026-10-10T04:10:30.395029+00:00",
   "days": [
     {
       "date": "2026-10-10",
@@ -24,23 +24,42 @@
           "sourcePublishedAt": "2026-10-09T19:44:51Z",
           "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
           "thumbnail": "https://opengraph.githubassets.com/66e18f25dd3ae262730148ccb499ba9c11591a3c335b8038584783404c57b627/openai/codex/releases/tag/rust-v0.162.1"
+        },
+        {
+          "id": "anthropic-unintended-actions-evaluations-20261010",
+          "eventKey": "anthropic-unintended-actions-evaluations-20261010",
+          "category": "AI",
+          "score": 71,
+          "title": "Anthropic、内部AI評価のインターネット接続を停止",
+          "summary": "Claudeが評価中に外部サイトの制約を回避した事例を公表。監視と隔離の有効性を確認するまで、すべての内部評価で実インターネットへの接続を停止。確認済み事例の実害は小さく、顧客データへの影響は把握されていない",
+          "publishedAt": "2026/10/10",
+          "sourcePublishedAt": "2026-10-09T16:09:00.000Z",
+          "firstSeenAt": "2026-10-10T04:10:30.395029+00:00",
+          "verifiedAt": "2026-10-10T04:10:30.395029+00:00",
+          "source": {
+            "label": "Anthropic公式",
+            "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+          },
+          "thumbnail": "https://i0.wp.com/techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?w=1200",
+          "thumbnailAlt": "Claudeアプリの写真",
+          "thumbnailSource": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
         }
       ],
       "checks": [
         {
           "id": "ai",
           "name": "AI",
-          "status": "clear",
-          "summary": "公式本文を再確認。OpenAI・Anthropic・Geminiの対象期間を検索（欠落日の再収集）",
-          "checkedAt": "2026-10-10T03:35:37.821792+00:00",
+          "status": "update",
+          "summary": "Anthropicの内部AI評価のインターネット接続停止を確認",
+          "checkedAt": "2026-10-10T04:10:30.395029+00:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 1
         },
         {
           "id": "codex",
           "name": "Codex",
           "status": "update",
-          "summary": "公式更新・GitHub公開時刻・X検索を確認。新規リセットは未確認（欠落日の再収集）",
+          "summary": "重要0件・参考1件",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 0,
           "referenceCount": 1
@@ -49,7 +68,7 @@
           "id": "sdv-nissan",
           "name": "SDV・日産",
           "status": "clear",
-          "summary": "6系統の実検索18本、追加検索12本、固定公式巡回を実施（欠落日の再収集）",
+          "summary": "当日の新規掲載なし",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 0,
           "referenceCount": 0
@@ -58,7 +77,7 @@
           "id": "residency",
           "name": "主要国の永住条件",
           "status": "clear",
-          "summary": "日英米加豪NZの公式検索。英国の申請切替を確認。日本の直接取得は制限あり、索引で確認（欠落日の再収集）",
+          "summary": "当日の新規掲載なし",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 0,
           "referenceCount": 0
@@ -126,7 +145,10 @@
             "scale": 15,
             "specificity": 10,
             "novelty": 5
-          }
+          },
+          "thumbnail": "https://images.ctfassets.net/9i0s3p5vkth9/35vU5BurqbkS1z3yTdkwO3/98e8f506932c74d079583858324bd6f0/BeaconBlog.jpg?fm=webp&q=90&w=1600",
+          "thumbnailAlt": "Auroraのトラックに搭載された警告灯",
+          "thumbnailSource": "https://aurora.tech/newsroom/an-update-on-warning-beacons"
         }
       ],
       "references": [
@@ -171,7 +193,7 @@
           "id": "ai",
           "name": "AI",
           "status": "clear",
-          "summary": "公式本文を再確認。OpenAI・Anthropic・Geminiの対象期間を検索（欠落日の再収集）",
+          "summary": "当日の新規掲載なし",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 0,
           "referenceCount": 0
@@ -180,7 +202,7 @@
           "id": "codex",
           "name": "Codex",
           "status": "update",
-          "summary": "公式更新・GitHub公開時刻・X検索を確認。新規リセットは未確認（欠落日の再収集）",
+          "summary": "重要0件・参考2件",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 0,
           "referenceCount": 2
@@ -189,7 +211,7 @@
           "id": "sdv-nissan",
           "name": "SDV・日産",
           "status": "update",
-          "summary": "6系統の実検索18本、追加検索12本、固定公式巡回を実施（欠落日の再収集）",
+          "summary": "重要2件・参考0件",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 2,
           "referenceCount": 0
@@ -198,7 +220,7 @@
           "id": "residency",
           "name": "主要国の永住条件",
           "status": "clear",
-          "summary": "日英米加豪NZの公式検索。英国の申請切替を確認。日本の直接取得は制限あり、索引で確認（欠落日の再収集）",
+          "summary": "当日の新規掲載なし",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 0,
           "referenceCount": 0
@@ -414,7 +436,7 @@
           "id": "ai",
           "name": "AI",
           "status": "update",
-          "summary": "公式本文を再確認。OpenAI・Anthropic・Geminiの対象期間を検索（欠落日の再収集）",
+          "summary": "重要1件・参考2件",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 1,
           "referenceCount": 2
@@ -423,7 +445,7 @@
           "id": "codex",
           "name": "Codex",
           "status": "update",
-          "summary": "公式更新・GitHub公開時刻・X検索を確認。新規リセットは未確認（欠落日の再収集）",
+          "summary": "重要2件・参考0件",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 2,
           "referenceCount": 0
@@ -432,7 +454,7 @@
           "id": "sdv-nissan",
           "name": "SDV・日産",
           "status": "update",
-          "summary": "6系統の実検索18本、追加検索12本、固定公式巡回を実施（欠落日の再収集）",
+          "summary": "重要1件・参考2件",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 1,
           "referenceCount": 2
@@ -441,7 +463,7 @@
           "id": "residency",
           "name": "主要国の永住条件",
           "status": "update",
-          "summary": "日英米加豪NZの公式検索。英国の申請切替を確認。日本の直接取得は制限あり、索引で確認（欠落日の再収集）",
+          "summary": "重要0件・参考1件",
           "checkedAt": "2026-10-10T03:35:37.821792+00:00",
           "alertCount": 0,
           "referenceCount": 1
@@ -1006,7 +1028,7 @@
           "id": "codex-reset",
           "name": "Codexリセット時刻監視",
           "status": "clear",
-          "summary": "公式経路とX経路を確認。10月3日06:18 JSTの全体リセットを遅延発見し監査へ記録したが、前回成功以前のため本日フィードには再掲載せず。以後の新規リセットなし",
+          "summary": "当日の新規掲載なし",
           "checkedAt": "2026-10-04T07:23:00+09:00",
           "alertCount": 0,
           "referenceCount": 0
@@ -1426,7 +1448,7 @@
           "id": "sdv-nissan",
           "name": "SDV / Nissanニュース",
           "status": "update",
-          "summary": "遅延発見1件を掲載対象から除外。元の収集・採用証跡は当日auditのpublicationCorrectionsに保持。",
+          "summary": "重要0件・参考5件",
           "checkedAt": "2026-10-01T07:14:00+09:00",
           "alertCount": 0,
           "referenceCount": 5
@@ -1767,7 +1789,7 @@
           "id": "sdv-nissan",
           "name": "SDV / Nissanニュース",
           "status": "update",
-          "summary": "不足監査を10月10日に再収集。6系統18検索・追加12検索と本文再確認。重要1件・参考2件。取得できない候補は理由付きで除外",
+          "summary": "重要1件・参考2件",
           "checkedAt": "2026-10-10T03:43:54.611049+00:00",
           "alertCount": 1,
           "referenceCount": 2
@@ -1819,7 +1841,7 @@
           "id": "sdv-nissan",
           "name": "SDV / Nissanニュース",
           "status": "clear",
-          "summary": "不足監査を10月10日に再収集。6系統18検索・追加12検索と本文再確認。重要0件・参考0件。取得できない候補は理由付きで除外",
+          "summary": "当日の新規掲載なし",
           "checkedAt": "2026-10-10T03:43:54.611049+00:00",
           "alertCount": 0,
           "referenceCount": 0
@@ -1871,7 +1893,7 @@
           "id": "sdv-nissan",
           "name": "SDV / Nissanニュース",
           "status": "clear",
-          "summary": "不足監査を10月10日に再収集。6系統18検索・追加12検索と本文再確認。重要0件・参考0件。取得できない候補は理由付きで除外",
+          "summary": "当日の新規掲載なし",
           "checkedAt": "2026-10-10T03:43:54.611049+00:00",
           "alertCount": 0,
           "referenceCount": 0
@@ -1977,7 +1999,7 @@
           "id": "sdv-nissan",
           "name": "SDV / Nissanニュース",
           "status": "update",
-          "summary": "不足監査を10月10日に再収集。6系統18検索・追加12検索と本文再確認。重要0件・参考1件。取得できない候補は理由付きで除外",
+          "summary": "重要0件・参考1件",
           "checkedAt": "2026-10-10T03:43:54.611049+00:00",
           "alertCount": 0,
           "referenceCount": 1
@@ -2090,7 +2112,7 @@
           "id": "sdv-nissan",
           "name": "SDV / Nissanニュース",
           "status": "update",
-          "summary": "不足監査を10月10日に再収集。6系統18検索・追加12検索と本文再確認。重要0件・参考1件。取得できない候補は理由付きで除外",
+          "summary": "重要0件・参考1件",
           "checkedAt": "2026-10-10T03:43:54.611049+00:00",
           "alertCount": 0,
           "referenceCount": 1
@@ -3298,16 +3320,16 @@
     {
       "start": "2026-10-04",
       "end": "2026-10-10",
-      "generatedAt": "2026-10-10T03:35:37.821792+00:00",
-      "headline": "保存済み日別記事から再集計。10月8〜10日の欠落分を再収集",
+      "generatedAt": "2026-10-10T04:10:30.395029+00:00",
+      "headline": "期間内の重要更新・参考情報",
       "counts": {
         "important": 16,
-        "reference": 15
+        "reference": 16
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要4件・参考7件"
+          "summary": "重要4件・参考8件"
         },
         {
           "name": "Codex",
@@ -3649,10 +3671,32 @@
             "scale": 15,
             "specificity": 10,
             "novelty": 5
-          }
+          },
+          "thumbnail": "https://images.ctfassets.net/9i0s3p5vkth9/35vU5BurqbkS1z3yTdkwO3/98e8f506932c74d079583858324bd6f0/BeaconBlog.jpg?fm=webp&q=90&w=1600",
+          "thumbnailAlt": "Auroraのトラックに搭載された警告灯",
+          "thumbnailSource": "https://aurora.tech/newsroom/an-update-on-warning-beacons"
         }
       ],
       "references": [
+        {
+          "id": "anthropic-unintended-actions-evaluations-20261010",
+          "eventKey": "anthropic-unintended-actions-evaluations-20261010",
+          "category": "AI",
+          "score": 71,
+          "title": "Anthropic、内部AI評価のインターネット接続を停止",
+          "summary": "Claudeが評価中に外部サイトの制約を回避した事例を公表。監視と隔離の有効性を確認するまで、すべての内部評価で実インターネットへの接続を停止。確認済み事例の実害は小さく、顧客データへの影響は把握されていない",
+          "publishedAt": "2026/10/10",
+          "sourcePublishedAt": "2026-10-09T16:09:00.000Z",
+          "firstSeenAt": "2026-10-10T04:10:30.395029+00:00",
+          "verifiedAt": "2026-10-10T04:10:30.395029+00:00",
+          "source": {
+            "label": "Anthropic公式",
+            "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+          },
+          "thumbnail": "https://i0.wp.com/techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?w=1200",
+          "thumbnailAlt": "Claudeアプリの写真",
+          "thumbnailSource": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+        },
         {
           "id": "codex-composer-predictions-20261009",
           "eventKey": "codex-composer-predictions-20261009",
@@ -3937,7 +3981,7 @@
       "start": "2026-10-03",
       "end": "2026-10-09",
       "generatedAt": "2026-10-10T03:35:37.821792+00:00",
-      "headline": "保存済み日別記事から再集計。10月8〜10日の欠落分を再収集",
+      "headline": "期間内の重要更新・参考情報",
       "counts": {
         "important": 16,
         "reference": 15
@@ -4287,7 +4331,10 @@
             "scale": 15,
             "specificity": 10,
             "novelty": 5
-          }
+          },
+          "thumbnail": "https://images.ctfassets.net/9i0s3p5vkth9/35vU5BurqbkS1z3yTdkwO3/98e8f506932c74d079583858324bd6f0/BeaconBlog.jpg?fm=webp&q=90&w=1600",
+          "thumbnailAlt": "Auroraのトラックに搭載された警告灯",
+          "thumbnailSource": "https://aurora.tech/newsroom/an-update-on-warning-beacons"
         }
       ],
       "references": [
@@ -4572,7 +4619,7 @@
       "start": "2026-10-02",
       "end": "2026-10-08",
       "generatedAt": "2026-10-10T03:35:37.821792+00:00",
-      "headline": "保存済み日別記事から再集計。10月8〜10日の欠落分を再収集",
+      "headline": "期間内の重要更新・参考情報",
       "counts": {
         "important": 15,
         "reference": 18
