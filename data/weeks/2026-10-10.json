@@ -2,27 +2,27 @@
   "start": "2026-10-04",
   "end": "2026-10-10",
   "generatedAt": "2026-10-10T12:00:00+09:00",
-  "headline": "今週のDaily Check：重要11件・参考10件（復旧途中）",
+  "headline": "今週のDaily Check：重要12件・参考12件（監査未完了）",
   "counts": {
-    "important": 11,
-    "reference": 10
+    "important": 12,
+    "reference": 12
   },
   "categories": [
     {
-      "name": "AI",
-      "summary": "重要4件・参考6件"
+      "name": "Codex",
+      "summary": "重要4件・参考3件"
     },
     {
-      "name": "Permanent Residency",
-      "summary": "重要1件・参考0件"
+      "name": "AI",
+      "summary": "重要4件・参考6件"
     },
     {
       "name": "SDV",
       "summary": "重要3件・参考3件"
     },
     {
-      "name": "Codex",
-      "summary": "重要3件・参考1件"
+      "name": "Permanent Residency",
+      "summary": "重要1件・参考0件"
     }
   ],
   "highlights": [
@@ -237,6 +237,21 @@
         "label": "OpenAI Status",
         "url": "https://status.openai.com/incidents/mysmq298"
       }
+    },
+    {
+      "id": "codex-ultrafast-work-20261008",
+      "eventKey": "codex-gpt61-sol-ultrafast-work-2026-10-08",
+      "category": "Codex",
+      "score": 76,
+      "title": "GPT-6.1 Sol Ultrafast、CodexとChatGPT Workに追加",
+      "summary": "Pro $500および対象Enterprise/Eduで高速生成モードを提供。通常Plusプランの提供対象ではない",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "ChatGPT & Codex changelog",
+        "url": "https://learn.chatgpt.com/docs/changelog"
+      }
     }
   ],
   "references": [
@@ -277,20 +292,6 @@
       }
     },
     {
-      "id": "ai-google-antigravity-claude-55-20261003",
-      "eventKey": "google-antigravity-claude-opus-sonnet-5-5-2026-10-03",
-      "category": "AI",
-      "score": 68,
-      "title": "Google Antigravity、Claude Opus 5.5／Sonnet 5.5をモデル選択肢に追加",
-      "summary": "Googleのコーディング基盤AntigravityでClaude 5.5系を選択可能に。Google AI Pro/Ultraの有料ユーザー向けで、GeminiとClaudeを同じ開発環境から比較・利用できる",
-      "publishedAt": "2026/10/03",
-      "firstSeenAt": "2026-10-04T06:57:31+09:00",
-      "source": {
-        "label": "Google Antigravity Docs / Startup Fortune",
-        "url": "https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/"
-      }
-    },
-    {
       "id": "ai-mistral-large4-preview-20261006",
       "eventKey": "mistral-large-4-announcement-2026-10-06",
       "category": "AI",
@@ -312,6 +313,35 @@
       }
     },
     {
+      "id": "ai-google-antigravity-claude-55-20261003",
+      "eventKey": "google-antigravity-claude-opus-sonnet-5-5-2026-10-03",
+      "category": "AI",
+      "score": 68,
+      "title": "Google Antigravity、Claude Opus 5.5／Sonnet 5.5をモデル選択肢に追加",
+      "summary": "Googleのコーディング基盤AntigravityでClaude 5.5系を選択可能に。Google AI Pro/Ultraの有料ユーザー向けで、GeminiとClaudeを同じ開発環境から比較・利用できる",
+      "publishedAt": "2026/10/03",
+      "firstSeenAt": "2026-10-04T06:57:31+09:00",
+      "source": {
+        "label": "Google Antigravity Docs / Startup Fortune",
+        "url": "https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/"
+      }
+    },
+    {
+      "id": "codex-cli-01620-20261008",
+      "eventKey": "codex-cli-01620-2026-10-08",
+      "category": "Codex",
+      "score": 66,
+      "title": "Codex CLI 0.162.0、Git worktree管理とタスクピン留めを追加",
+      "summary": "信頼済みプロジェクトのworktree作成・一覧とCommand Centerのタスクピン留めなどを追加",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "ChatGPT & Codex changelog",
+        "url": "https://learn.chatgpt.com/docs/changelog"
+      }
+    },
+    {
       "id": "ai-anthropic-cvp-expanded-20261006",
       "eventKey": "anthropic-cyber-verification-program-expanded-2026-10-06",
       "category": "AI",
@@ -330,6 +360,21 @@
       "source": {
         "label": "Anthropic",
         "url": "https://www.anthropic.com/glasswing"
+      }
+    },
+    {
+      "id": "codex-cli-01621-20261009",
+      "eventKey": "codex-cli-01621-2026-10-09",
+      "category": "Codex",
+      "score": 62,
+      "title": "Codex CLI 0.162.1、複数行の非同期質問でのクラッシュを修正",
+      "summary": "TUIクラッシュとバックグラウンドサーバー設定差分に起因する起動失敗を修正",
+      "publishedAt": "2026/10/09",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "ChatGPT & Codex changelog",
+        "url": "https://learn.chatgpt.com/docs/changelog"
       }
     },
     {
@@ -420,6 +465,10 @@
   ],
   "backfill": {
     "partial": true,
-    "missing": []
+    "missingAudits": [
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10"
+    ]
   }
 }
