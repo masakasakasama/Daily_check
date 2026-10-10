@@ -30,9 +30,39 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       }
+    },
+    {
+      "id": "codex-ultrafast-work-20261008",
+      "eventKey": "codex-gpt61-sol-ultrafast-work-2026-10-08",
+      "category": "Codex",
+      "score": 76,
+      "title": "GPT-6.1 Sol Ultrafast、CodexとChatGPT Workに追加",
+      "summary": "Pro $500および対象Enterprise/Eduで高速生成モードを提供。通常Plusプランの提供対象ではない",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "ChatGPT & Codex changelog",
+        "url": "https://learn.chatgpt.com/docs/changelog"
+      }
     }
   ],
   "references": [
+    {
+      "id": "codex-cli-01620-20261008",
+      "eventKey": "codex-cli-01620-2026-10-08",
+      "category": "Codex",
+      "score": 66,
+      "title": "Codex CLI 0.162.0、Git worktree管理とタスクピン留めを追加",
+      "summary": "信頼済みプロジェクトのworktree作成・一覧とCommand Centerのタスクピン留めなどを追加",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "ChatGPT & Codex changelog",
+        "url": "https://learn.chatgpt.com/docs/changelog"
+      }
+    },
     {
       "id": "chatgpt-plugin-rbac-20261008",
       "eventKey": "chatgpt-plugin-rbac-20261008",
