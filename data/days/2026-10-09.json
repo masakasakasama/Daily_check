@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-09",
+  "alerts": [],
+  "references": [
+    {
+      "id": "codex-composer-predictions-20261009",
+      "eventKey": "codex-composer-predictions-20261009",
+      "category": "Codex",
+      "score": 69,
+      "title": "Codex、次の入力を予測するComposer predictionsをβ公開",
+      "summary": "個人Pro向けCodexデスクトップで次の入力候補を提示。候補生成はβ期間中Codex枠を消費せず、送信したメッセージは通常の利用枠対象",
+      "publishedAt": "2026/10/09",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "OpenAI Release Notes",
+        "url": "https://openai.com/products/release-notes/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "partial",
+      "summary": "公式一次情報の確認分のみ復旧。全分野の収集は未完了",
+      "checkedAt": "2026-10-10T12:00:00+09:00"
+    }
+  ],
+  "backfill": {
+    "partial": true,
+    "reason": "Historical backfill, not a completed six-funnel audit",
+    "restoredAt": "2026-10-10T12:00:00+09:00"
+  }
+}
