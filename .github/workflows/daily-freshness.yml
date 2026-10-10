@@ -28,6 +28,8 @@ jobs:
         run: node --test scripts/*.test.mjs
       - name: Verify UI JavaScript syntax
         run: node scripts/verify-ui.mjs
+      - name: Verify fallback data matches split records
+        run: node scripts/sync-fallback-data.mjs --check
       - name: Verify saved publication history
         run: node scripts/verify-publication-history.mjs
       - name: Verify saved collection evidence
