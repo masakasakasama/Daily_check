@@ -29,3 +29,5 @@ Publication verified at 2026-10-10T03:55:34.420765+00:00:
 - Verification detail: data/recovery/2026-10-10-verification.json.
 
 Next: Existing daily task performs the next scheduled run. Do not claim an unobserved future run succeeded.
+
+User image preference restored: large 16:9 article media and automatic image/logo previews are required. 78 missing thumbnails recovered from publisher metadata; existing thumbnails retained. Daily/weekly article content and monitoring results unchanged. Image restoration commit 5d39cb8; CI run 38022459687 passed. Original fixed URL image load verified (1200px image rendered in 390px mobile viewport).

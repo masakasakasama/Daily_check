@@ -74,3 +74,7 @@ https://raw.githack.com/masakasakasama/Daily_check/main/index.html
 
 - 元の固定URLで最新コードの実表示を確認済み。日付移動、全23週の集計、4/4監視、欠落日表示、スマホ390px幅を実ブラウザで確認。GitHub Actions run 38022108313成功。確認記録は `data/recovery/2026-10-10-verification.json`。
 - `node scripts/sync-fallback-data.mjs`で代替JSONを同期し、`--check`でsplit記録との完全一致を確認する。毎回の保存前に実行する。画面はcommits/main APIの最新SHAを使用し、manifest・日別・週次を同一の不変版から読む。
+
+## 記事画像の表示方針（ユーザー指定）
+
+大きな画像付きカードを維持する。画像欄の縮小や自動プレビュー取得の削除を行わない。2026-10-10に78記事へ元ページのプレビュー画像を追加し、日別・週次・代替JSONへ同期した。取得できない記事は従来の画像・ロゴの自動取得へフォールバックする。
