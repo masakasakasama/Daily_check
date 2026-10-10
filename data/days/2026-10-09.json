@@ -16,6 +16,21 @@
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
       }
+    },
+    {
+      "id": "codex-cli-01621-20261009",
+      "eventKey": "codex-cli-01621-2026-10-09",
+      "category": "Codex",
+      "score": 62,
+      "title": "Codex CLI 0.162.1、複数行の非同期質問でのクラッシュを修正",
+      "summary": "TUIクラッシュとバックグラウンドサーバー設定差分に起因する起動失敗を修正",
+      "publishedAt": "2026/10/09",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "ChatGPT & Codex changelog",
+        "url": "https://learn.chatgpt.com/docs/changelog"
+      }
     }
   ],
   "checks": [
