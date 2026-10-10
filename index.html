@@ -105,6 +105,13 @@
         radial-gradient(circle at 80% 70%,rgba(141,166,255,.18),transparent 42%),
         #11151d
     }
+    .feed-item:not(.has-image) .feed-media{aspect-ratio:auto;height:62px;background:linear-gradient(115deg,#121824,#10131a);border-bottom:1px solid var(--line)}
+    .feed-item:not(.has-image) .feed-media::after{display:none}
+    .feed-item:not(.has-image) .feed-media-fallback{display:none}
+    .feed-item:not(.has-image) .score-badge{top:10px;left:12px;padding:6px 9px;min-width:45px}
+    .feed-item:not(.has-image) .score-number{font-size:20px}
+    .feed-item:not(.has-image) .score-label{font-size:7px;margin-top:1px}
+    .feed-item:not(.has-image) .media-category{top:17px}
     .feed-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
     .feed-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,7,10,.02) 45%,rgba(6,7,10,.64) 100%);pointer-events:none}
     .feed-media-fallback{position:absolute;inset:0;display:grid;place-items:center;color:rgba(255,255,255,.34);font-size:13px;font-weight:820;letter-spacing:.14em}
@@ -317,6 +324,7 @@
         summary:String(item.summary||''),
         publishedAt:String(item.publishedAt||''),
         thumbnail:item.thumbnail?String(item.thumbnail):'',
+        eventKey:String(item.eventKey||item.id||''),
         source
       };
     }
@@ -356,14 +364,14 @@
       const days=[...(data.days||[])].sort((a,b)=>b.date.localeCompare(a.date));
       for(const day of days){
         for(const item of [...day.alerts,...day.references]){
-          const key=item.source?.url||item.id;
+          const key=item.eventKey||item.id;
           if(key&&!map.has(key))map.set(key,item);
         }
       }
       return map;
     }
     function canonicalize(item){
-      const key=item.source?.url||item.id;
+      const key=item.eventKey||item.id;
       const base=state.canonical.get(key);
       if(!base)return item;
       return {...item,id:base.id||item.id,category:base.category||item.category,score:base.score??item.score,title:base.title||item.title,thumbnail:base.thumbnail||item.thumbnail,source:base.source||item.source};
@@ -413,25 +421,16 @@
       const mediaCategory=document.createElement('span');mediaCategory.className='media-category';mediaCategory.textContent=item.category||'OTHER';
       mediaLink.appendChild(mediaCategory);
 
+      // Only an explicitly curated article image is eligible. Never use a page logo,
+      // generic release-note OG image, or an arbitrary external preview.
       const attachImage=(url)=>{
-        if(!url)return false;
+        if(!url||!/^https:\/\//i.test(url))return false;
         const img=document.createElement('img');img.src=url;img.alt='';img.loading='lazy';img.decoding='async';
-        img.addEventListener('load',()=>{fallback.hidden=true});
-        img.addEventListener('error',()=>{img.remove();fallback.hidden=false});
+        img.addEventListener('load',()=>{fallback.hidden=true;row.classList.add('has-image')});
+        img.addEventListener('error',()=>{img.remove();fallback.hidden=false;row.classList.remove('has-image')});
         mediaLink.insertBefore(img,scoreBadge);return true;
       };
-      const resolveArticleImage=async()=>{
-        if(!item.source?.url)return;
-        try{
-          const endpoint='https://api.microlink.io/?url='+encodeURIComponent(item.source.url);
-          const r=await fetch(endpoint,{cache:'force-cache'});
-          if(!r.ok)return;
-          const payload=await r.json();
-          const imageUrl=payload?.data?.image?.url||payload?.data?.logo?.url||'';
-          if(imageUrl)attachImage(imageUrl);
-        }catch(_){}
-      };
-      if(!attachImage(item.thumbnail))resolveArticleImage();
+      attachImage(item.thumbnail);
 
       const body=document.createElement('div');body.className='feed-body';
       const kicker=document.createElement('div');kicker.className='feed-kicker';
@@ -457,7 +456,7 @@
       }
 
       const meta=document.createElement('div');meta.className='feed-meta';
-      const source=document.createElement('span');source.className='source';source.textContent='画像付き記事';
+      const source=document.createElement('span');source.className='source';source.textContent=item.thumbnail?'記事画像':'出典';
       meta.appendChild(source);
       if(item.source?.url){
         const detail=document.createElement('a');detail.className='detail-link';detail.href=item.source.url;detail.target='_blank';detail.rel='noreferrer';detail.textContent='開く ↗';meta.appendChild(detail);
