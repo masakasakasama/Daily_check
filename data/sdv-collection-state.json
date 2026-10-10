@@ -128,5 +128,7 @@
     ],
     "historicalAuditEvidencePath": "data/recovery/2026-10-10-september-searches.json"
   },
-  "priorVerifiedDailyCommit": "d4d8fa392f587b497f1e0021673a13757d38382f"
+  "priorVerifiedDailyCommit": "d4d8fa392f587b497f1e0021673a13757d38382f",
+  "lastVerifiedDailyCommit": "22bae74194498d389f957b60445207cf97f5dac8",
+  "lastVerification": "data/recovery/2026-10-10-verification.json"
 }

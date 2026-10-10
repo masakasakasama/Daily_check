@@ -1,0 +1,70 @@
+{
+  "verifiedAt": "2026-10-10T03:55:34.420765+00:00",
+  "verifiedContentCommit": "22bae74194498d389f957b60445207cf97f5dac8",
+  "fixedUrl": "https://raw.githack.com/masakasakasama/Daily_check/main/index.html",
+  "githubVerification": {
+    "changedFilesByteMatched": 60,
+    "ciRunId": 38022108313,
+    "conclusion": "success"
+  },
+  "checks": {
+    "regressionTestsPassed": 19,
+    "dailyDate": "2026-10-10",
+    "daily": "passed",
+    "publicationHistoryDays": 27,
+    "publicationHistoryFailures": 0,
+    "collectionHistoryModernAudits": 16,
+    "collectionHistoryFailures": 0,
+    "weeklyHistoryCompleteWindows": 21,
+    "weeklyHistoryFailures": 0,
+    "fallbackMatchesSplit": true,
+    "inlineScriptsParse": true
+  },
+  "productionBrowser": {
+    "actualFixedUrlTested": true,
+    "noFetchMocking": true,
+    "immutableRevisionLoading": true,
+    "savedWeeksLoaded": 23,
+    "viewportWidth": 390,
+    "horizontalOverflow": false,
+    "errorHidden": true,
+    "days": [
+      {
+        "date": "2026-10-08",
+        "important": 4,
+        "reference": 5,
+        "healthyMonitors": "4/4",
+        "weekEnd": "2026-10-08"
+      },
+      {
+        "date": "2026-10-09",
+        "important": 2,
+        "reference": 2,
+        "healthyMonitors": "4/4",
+        "weekEnd": "2026-10-09"
+      },
+      {
+        "date": "2026-10-10",
+        "important": 0,
+        "reference": 1,
+        "healthyMonitors": "4/4",
+        "weekEnd": "2026-10-10"
+      },
+      {
+        "date": "2026-09-25",
+        "important": 1,
+        "reference": 2,
+        "healthyMonitors": "4/4",
+        "weekEnd": "2026-09-25"
+      }
+    ],
+    "missingFutureDay": "explicit not yet run; old recovery notice hidden"
+  },
+  "automation": {
+    "existingDailyTaskUpdated": true,
+    "timezone": "Asia/Tokyo",
+    "scheduledTime": "07:00",
+    "futureExecutionObserved": false
+  },
+  "scopeNote": "Recovery checks are actual October 10 observations; original failed history remains archived. Legacy audit summaries and two earliest partial weekly windows are not certified."
+}

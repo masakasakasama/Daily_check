@@ -70,4 +70,7 @@ https://raw.githack.com/masakasakasama/Daily_check/main/index.html
 - 10/6・10/7のsource.url/bodyVerified形式を厳格adapterで検証。相反する二重schemaは拒否する。保存された終端decisionから件数を照合し、元の不一致値をcountCorrectionsへ保持。
 - 更新push時にもUI構文・回帰・日次データをActionsで検証する。7日表示は選択日で終わる保存済み週次を優先する。
 - 既存07:00 JST Automationを同じ1個のまま再登録し、欠落日の回収、実検索証跡、保存後再取得、固定URLの実表示確認を追加。未来の自動実行の成功を保証したという意味ではない。
-- 検証: 回帰18件成功、日次10/10正常、掲載履歴27日/0件不整合、近代監査16日/0件不整合。旧summaryは過去実観測を認証しない。
+- 検証: 回帰19件成功、日次10/10正常、掲載履歴27日/0件不整合、近代監査16日/0件不整合、完全な週次21期間/0件不整合。旧summaryは過去実観測を認証しない。
+
+- 元の固定URLで最新コードの実表示を確認済み。日付移動、全23週の集計、4/4監視、欠落日表示、スマホ390px幅を実ブラウザで確認。GitHub Actions run 38022108313成功。確認記録は `data/recovery/2026-10-10-verification.json`。
+- `node scripts/sync-fallback-data.mjs`で代替JSONを同期し、`--check`でsplit記録との完全一致を確認する。毎回の保存前に実行する。画面はcommits/main APIの最新SHAを使用し、manifest・日別・週次を同一の不変版から読む。
