@@ -615,7 +615,7 @@
         if(!r.ok)throw new Error('Day '+date+' '+r.status);
         return await r.json();
       }));
-      const weekResponses=await Promise.all((manifest.weeks||[]).slice(0,8).map(async w=>{
+      const weekResponses=await Promise.all((manifest.weeks||[]).map(async w=>{
         const path=w.path||('data/weeks/'+w.end+'.json');
         const r=await fetch(base+path,{cache:'no-store',signal});
         if(!r.ok)throw new Error('Week '+w.end+' '+r.status);
