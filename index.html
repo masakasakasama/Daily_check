@@ -374,7 +374,7 @@
       const key=item.eventKey||item.id;
       const base=state.canonical.get(key);
       if(!base)return item;
-      return {...item,id:base.id||item.id,category:base.category||item.category,score:base.score??item.score,title:base.title||item.title,thumbnail:base.thumbnail||item.thumbnail,source:base.source||item.source};
+      return item;
     }
     function getDay(){return state.data?.days.find(x=>x.date===state.date)||null}
     function getWeek(){return state.data?.weeks.find(w=>state.date>=w.start&&state.date<=w.end)||null}
@@ -498,7 +498,7 @@
       if(missing)missing.hidden=true;
       const alerts=day.alerts||[],refs=day.references||[],checks=day.checks||[];
       const success=checks.filter(x=>x.status==='clear'||x.status==='update').length;
-      const errors=checks.filter(x=>x.status==='error').length;
+      const errors=checks.filter(x=>x.status==='error'||x.status==='partial'||x.status==='failed').length;
       const pending=checks.filter(x=>x.status==='pending').length;
       const latest=checks.map(x=>x.checkedAt).filter(Boolean).sort().at(-1);
 
