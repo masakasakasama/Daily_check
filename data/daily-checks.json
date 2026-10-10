@@ -1,8 +1,74 @@
 {
   "version": 5,
-  "currentDate": "2026-10-10",
-  "updatedAt": "2026-10-10T04:10:30.395029+00:00",
+  "currentDate": "2026-10-11",
+  "updatedAt": "2026-10-11T07:24:00+09:00",
   "days": [
+    {
+      "date": "2026-10-11",
+      "alerts": [],
+      "references": [
+        {
+          "id": "codex-community-limit-drain-20261011",
+          "eventKey": "codex-community-limit-drain-20261011",
+          "category": "Codex",
+          "score": 74,
+          "scoreBreakdown": {
+            "userImpact": 32,
+            "novelty": 13,
+            "technicalImportance": 10,
+            "specificityAvailability": 12,
+            "industryImpact": 7
+          },
+          "title": "Codex利用枠の消費が急増したとの複数報告（公式未確認）",
+          "summary": "Reddit上で複数ユーザーが、リセット後に従来より速く5時間・週次枠が減ると同時に報告。OpenAI Help、Status、公式リリースでは仕様変更や障害を確認できず、利用量表示を要監視",
+          "publishedAt": "2026/10/11",
+          "firstSeenAt": "2026-10-11T06:56:20+09:00",
+          "verifiedAt": "2026-10-11T07:24:00+09:00",
+          "source": {
+            "label": "Codexユーザーコミュニティ（Reddit）",
+            "url": "https://www.reddit.com/r/codex/comments/1wkj460/codex_limits_issue/"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "当日の新規掲載なし",
+          "checkedAt": "2026-10-11T07:24:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "公式未確認の利用枠急減報告を確認",
+          "checkedAt": "2026-10-11T07:24:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV・日産",
+          "status": "clear",
+          "summary": "当日の新規掲載なし",
+          "checkedAt": "2026-10-11T07:24:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国の永住条件",
+          "status": "clear",
+          "summary": "当日の新規掲載なし",
+          "checkedAt": "2026-10-11T07:24:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-10-10",
       "alerts": [],
@@ -3317,6 +3383,673 @@
     }
   ],
   "weeks": [
+    {
+      "start": "2026-10-05",
+      "end": "2026-10-11",
+      "generatedAt": "2026-10-11T07:24:00+09:00",
+      "headline": "期間内の重要更新・参考情報",
+      "counts": {
+        "important": 16,
+        "reference": 16
+      },
+      "categories": [
+        {
+          "name": "AI",
+          "summary": "重要4件・参考7件"
+        },
+        {
+          "name": "Codex",
+          "summary": "重要4件・参考4件"
+        },
+        {
+          "name": "Permanent Residency",
+          "summary": "重要1件・参考1件"
+        },
+        {
+          "name": "SDV",
+          "summary": "重要7件・参考4件"
+        }
+      ],
+      "highlights": [
+        {
+          "id": "sdv-applied-honda-20261006",
+          "eventKey": "applied-intuition-honda-full-vehicle-sdv-2026-10-06",
+          "category": "SDV",
+          "score": 92,
+          "scoreBreakdown": {
+            "sdvDirectness": 25,
+            "practicalImpact": 23,
+            "scale": 20,
+            "specificity": 14,
+            "novelty": 10
+          },
+          "title": "Honda、Applied IntuitionのVehicle OSで次世代SDVを共同開発",
+          "summary": "Hondaの内製を維持しつつ、AppliedのVehicle OSを使って中央集約・OTA更新可能な全車両SDV基盤を加速。ハイブリッドを含む全パワートレインと次世代車両アーキテクチャへ展開",
+          "publishedAt": "2026/10/06",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "Applied Intuition",
+            "url": "https://www.appliedintuition.com/press-releases/applied-intuition-honda-sdv-partnership"
+          },
+          "thumbnail": "https://cdn.sanity.io/images/a86leg7v/production/fe5ac73726ff86232e8b0037ee32017f91d2c9e6-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630"
+        },
+        {
+          "id": "sdv-applied-nissan-20261006",
+          "eventKey": "applied-intuition-nissan-aidv-platform-2026-10-06",
+          "category": "SDV",
+          "score": 90,
+          "scoreBreakdown": {
+            "sdvDirectness": 25,
+            "practicalImpact": 22,
+            "scale": 18,
+            "specificity": 14,
+            "novelty": 11
+          },
+          "title": "Nissan、AppliedのVehicle OSとAI開発基盤を次世代AIDVへ導入",
+          "summary": "AppliedのVehicle OSとAI-native開発ツールで、日産のスケーラブルな車載ソフト基盤を支援。複数パワートレイン共通化、ハード抽象化、開発短縮を狙い、2020年からの協業をシミュレーションから車載OSへ拡大",
+          "publishedAt": "2026/10/06",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "Applied Intuition",
+            "url": "https://www.appliedintuition.com/press-releases/applied-intuition-nissan-aidv-development"
+          },
+          "thumbnail": "https://cdn.sanity.io/images/a86leg7v/production/040595da0649fc95c018e6b114f6ba12b6e9fe82-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630"
+        },
+        {
+          "id": "codex-steering-20261008",
+          "eventKey": "codex-steering-20261008",
+          "category": "Codex",
+          "score": 88,
+          "title": "Codex、実行中の指示変更への反応を高速化",
+          "summary": "Codexデスクトップアプリで実行中のタスクへ追加入力した際の反応を高速化。Settings → General → Follow-up behaviorで適用方法を選択可能",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Release Notes",
+            "url": "https://openai.com/products/release-notes/"
+          },
+          "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
+        },
+        {
+          "id": "codex-auto-review-free-20261006",
+          "eventKey": "openai-codex-auto-review-free-chatgpt-signin-2026-10-06",
+          "category": "Codex",
+          "score": 87,
+          "scoreBreakdown": {
+            "userImpact": 34,
+            "novelty": 18,
+            "technicalImportance": 16,
+            "availability": 12,
+            "industryImpact": 7
+          },
+          "title": "Codex、ChatGPTログイン時のAuto-reviewを無料化",
+          "summary": "承認待ちになり得る操作を別レビューで安全判定し、承認時はCodexが継続実行。ChatGPTアカウントでの安全チェックは利用枠を消費せず、Settings→Permissions→Auto-reviewから有効化可能",
+          "publishedAt": "2026/10/06",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan"
+          },
+          "thumbnail": "https://help.openai.com/og-image.png"
+        },
+        {
+          "id": "api-ultrafast-sol-20261008",
+          "eventKey": "api-ultrafast-sol-20261008",
+          "category": "AI",
+          "score": 86,
+          "title": "GPT-6.1 SolにUltrafastモードを追加",
+          "summary": "Responses APIでservice_tier: ultrafastを指定可能。トークン生成間隔を短縮。APIユーザー向けに一般提供",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Release Notes",
+            "url": "https://openai.com/products/release-notes/"
+          },
+          "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
+        },
+        {
+          "id": "ai-openai-decisions-api-public-beta-20261006",
+          "eventKey": "openai-decisions-api-public-beta-2026-10-06",
+          "category": "AI",
+          "score": 85,
+          "scoreBreakdown": {
+            "userImpact": 32,
+            "novelty": 18,
+            "technicalImportance": 17,
+            "availability": 13,
+            "industryImpact": 5
+          },
+          "title": "OpenAI Decisions API、全開発者向け公開βへ",
+          "summary": "GPT‑6 Lunaでテキスト・画像を固定選択、真偽、段階評価へ変換し、分類・ルーティング・agent行動選択をResponses API比最大10倍高速化。Jevと同系統の一次判定用途をOpenAI APIで実装可能",
+          "publishedAt": "2026/10/06",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "OpenAI Developers",
+            "url": "https://developers.openai.com/api/reference/cli/resources/decisions/methods/create"
+          }
+        },
+        {
+          "id": "ai-openai-textgrain-20261005",
+          "eventKey": "openai-textgrain-eu-api-opt-in-2026-10-05",
+          "category": "AI",
+          "score": 82,
+          "scoreBreakdown": {
+            "userImpact": 29,
+            "novelty": 17,
+            "technicalImportance": 15,
+            "availability": 13,
+            "industryImpact": 8
+          },
+          "title": "OpenAI、ChatGPT/CodexへtextGrain透かしを導入",
+          "summary": "EUの全プランでは対象テキスト出力へ今後数週間で不可視透かしを追加。APIは世界で対応モデルへのopt-inを即日開始し、既定ではオフ。EU利用時の出力特性とAPIの来歴表示設計に直接影響",
+          "publishedAt": "2026/10/05",
+          "firstSeenAt": "2026-10-06T06:57:05+09:00",
+          "source": {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/eu-text-provenance/"
+          },
+          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&h=900&fit=fill"
+        },
+        {
+          "id": "sdv-lg-renault-cockpit-20261006",
+          "eventKey": "lg-renault-trafic-integrated-cockpit-sdv-2026-10-06",
+          "category": "SDV",
+          "score": 81,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 19,
+            "scale": 16,
+            "specificity": 13,
+            "novelty": 9
+          },
+          "title": "LG、Renault初の量産商用SDVへ統合cockpitを供給",
+          "summary": "New Trafic E‑Tech Electric向けにメーターとinfotainmentを単一制御基盤へ統合。中央集約型SDVでUX一貫性、部品簡素化、コスト最適化を実現し、OTAによる継続更新を支える",
+          "publishedAt": "2026/10/06",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "LG Electronics",
+            "url": "https://en.prnasia.com/releases/global/lg-to-supply-integrated-cockpit-solution-for-renault-group-s-first-commercial-sdv-550633.shtml"
+          },
+          "thumbnail": "https://mmx.prnasia.com/media/MS2000609/20261001024712EDT_image_1.jpg?id=OA2982106&p=medium600"
+        },
+        {
+          "id": "pr-nz-parent-resident-hybrid-selection-20261005",
+          "eventKey": "new-zealand-parent-resident-hybrid-selection-go-live-2026-10-05",
+          "category": "Permanent Residency",
+          "score": 80,
+          "title": "ニュージーランド、Parent Resident Visaを90%先着・10%抽選方式へ移行",
+          "summary": "10月5日から有効なEOIを単一プールへ統合し、約90%を提出日順、約10%を抽選で選ぶ方式へ変更。年間2,500件の上限と資格要件は据え置きで、初回選考は11月10日",
+          "publishedAt": "2026/10/05",
+          "firstSeenAt": "2026-10-05T06:59:45+09:00",
+          "source": {
+            "label": "Immigration New Zealand",
+            "url": "https://www.immigration.govt.nz/about-us/news-centre/parent-resident-visa-category-hybrid-selection-process-now-in-place/"
+          }
+        },
+        {
+          "id": "ai-openai-api-tier-simplification-20261006",
+          "eventKey": "openai-api-usage-tiers-build-launch-grow-2026-10-06",
+          "category": "AI",
+          "score": 79,
+          "scoreBreakdown": {
+            "userImpact": 31,
+            "novelty": 15,
+            "technicalImportance": 13,
+            "availability": 13,
+            "industryImpact": 7
+          },
+          "title": "OpenAI API、利用tierを5段階から3段階へ簡素化",
+          "summary": "Build・Launch・Growの3段階へ再編し、有料組織は累計credit購入額に応じ自動移行。最高tier到達条件は従来の累計1,000ドルから500ドルへ下がり、より早く高いrate limitを利用可能",
+          "publishedAt": "2026/10/06",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "OpenAI API Changelog",
+            "url": "https://developers.openai.com/api/docs/changelog"
+          },
+          "thumbnail": "https://developers.openai.com/og/api/docs/changelog.png"
+        },
+        {
+          "id": "codex-work-mode-errors-20261005",
+          "eventKey": "openai-work-mode-codex-desktop-errors-2026-10-05",
+          "category": "Codex",
+          "score": 78,
+          "scoreBreakdown": {
+            "userImpact": 31,
+            "novelty": 14,
+            "technicalImportance": 12,
+            "availability": 14,
+            "industryImpact": 7
+          },
+          "title": "OpenAI、Work Mode／Codex Desktopの障害を軽減し監視中",
+          "summary": "Work Modeでエラー率が上昇し、Codex in ChatGPT Desktopとscheduled tasksにも影響。OpenAIは軽減策を適用して復旧を監視中としており、実行失敗時は再試行と状態確認が必要",
+          "publishedAt": "2026/10/05",
+          "firstSeenAt": "2026-10-06T06:57:05+09:00",
+          "source": {
+            "label": "OpenAI Status",
+            "url": "https://status.openai.com/incidents/mysmq298"
+          }
+        },
+        {
+          "id": "codex-ultrafast-work-20261008",
+          "eventKey": "codex-gpt61-sol-ultrafast-work-2026-10-08",
+          "category": "Codex",
+          "score": 76,
+          "title": "GPT-6.1 Sol Ultrafast、CodexとChatGPT Workに追加",
+          "summary": "Pro $500および対象Enterprise/Eduで高速生成モードを提供。通常Plusプランの提供対象ではない",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "ChatGPT & Codex changelog",
+            "url": "https://learn.chatgpt.com/docs/changelog"
+          },
+          "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+          "thumbnail": "https://learn.chatgpt.com/og/docs/changelog.png"
+        },
+        {
+          "id": "sdv-ecarx-flyme-acquisition-20261005",
+          "eventKey": "ecarx-flyme-auto-os-acquisition-complete-2026-10-05",
+          "category": "SDV",
+          "score": 74,
+          "scoreBreakdown": {
+            "sdvDirectness": 21,
+            "practicalImpact": 18,
+            "scale": 17,
+            "specificity": 11,
+            "novelty": 7
+          },
+          "title": "ECARX、Flyme Auto/OS買収を完了し車載OSを内製化",
+          "summary": "Flyme AutoとFlyme OSの全事業を約2.66億ドルで取得。350万台採用のcockpit OSをCloudpeak、SoC、中央計算基盤と統合し、SDV向けend-to-end stackを強化",
+          "publishedAt": "2026/10/05",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "ECARX",
+            "url": "https://en.prnasia.com/releases/global/ecarx-completes-acquisition-of-flyme-software-business-securing-end-to-end-operating-system-capabilities-550581.shtml"
+          },
+          "thumbnail": "https://en.prnasia.com/prnasia.com-PC/images/logo-en-min-200.png"
+        },
+        {
+          "id": "foton-zhuoyu-commercial-autonomy-20261008",
+          "eventKey": "foton-zhuoyu-commercial-autonomy-20261008",
+          "category": "SDV",
+          "score": 73,
+          "title": "福田と卓驭、商用車向け自動運転とL3/L4試点を共同開発",
+          "summary": "卓驭のモデル・センサー融合・ドメイン制御装置と福田の車両制御を統合。大型トラックや物流車へ段階展開し、量産と規制試点を進める",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "Foton公式",
+            "url": "https://www.foton.com.cn/newsDetaile24976.html"
+          },
+          "scoreBreakdown": {
+            "sdvDirectness": 21,
+            "practicalImpact": 20,
+            "scale": 15,
+            "specificity": 10,
+            "novelty": 7
+          }
+        },
+        {
+          "id": "stellantis-wayve-road-demo-20261009",
+          "eventKey": "stellantis-wayve-road-demo-20261009",
+          "category": "SDV",
+          "score": 72,
+          "title": "StellantisとWayve、2車種で共通AI運転基盤の実走を披露",
+          "summary": "Fiat 500eとMaserati Grecaleの試験車でSTLA AutoDriveとWayve AI Driverを統合。4週間未満で実走試験へ進み、監督付きL2++運転を実演。量産開始の発表ではない",
+          "publishedAt": "2026/10/09",
+          "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "Stellantis公式",
+            "url": "https://www.media.stellantis.com/em-en/corporate/press/stellantis-and-wayve-demonstrate-how-ai-can-scale-across-vehicle-platforms-and-enhance-everyday-mobility"
+          },
+          "scoreBreakdown": {
+            "sdvDirectness": 22,
+            "practicalImpact": 18,
+            "scale": 15,
+            "specificity": 10,
+            "novelty": 7
+          },
+          "thumbnail": "https://www.media.stellantis.com/cache/6/4/8/1/4/6481495e6b90c8a648ae104b83401e7cc7a52c64.jpeg"
+        },
+        {
+          "id": "fmcsa-aurora-warning-beacons-20261009",
+          "eventKey": "fmcsa-aurora-warning-beacons-20261009",
+          "category": "SDV",
+          "score": 65,
+          "title": "米FMCSA、L4トラックの停止時警告装置に5年間の特例",
+          "summary": "停止時の三角表示板の代わりに車載警告灯を認める。Auroraに加え、事前届出と条件を満たすL4事業者も対象。適用は10月7日〜2031年10月7日",
+          "publishedAt": "2026/10/09",
+          "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "Federal Register",
+            "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/pdf/2026-20734.pdf"
+          },
+          "scoreBreakdown": {
+            "sdvDirectness": 16,
+            "practicalImpact": 19,
+            "scale": 15,
+            "specificity": 10,
+            "novelty": 5
+          },
+          "thumbnail": "https://images.ctfassets.net/9i0s3p5vkth9/35vU5BurqbkS1z3yTdkwO3/98e8f506932c74d079583858324bd6f0/BeaconBlog.jpg?fm=webp&q=90&w=1600",
+          "thumbnailAlt": "Auroraのトラックに搭載された警告灯",
+          "thumbnailSource": "https://aurora.tech/newsroom/an-update-on-warning-beacons"
+        }
+      ],
+      "references": [
+        {
+          "id": "codex-community-limit-drain-20261011",
+          "eventKey": "codex-community-limit-drain-20261011",
+          "category": "Codex",
+          "score": 74,
+          "scoreBreakdown": {
+            "userImpact": 32,
+            "novelty": 13,
+            "technicalImportance": 10,
+            "specificityAvailability": 12,
+            "industryImpact": 7
+          },
+          "title": "Codex利用枠の消費が急増したとの複数報告（公式未確認）",
+          "summary": "Reddit上で複数ユーザーが、リセット後に従来より速く5時間・週次枠が減ると同時に報告。OpenAI Help、Status、公式リリースでは仕様変更や障害を確認できず、利用量表示を要監視",
+          "publishedAt": "2026/10/11",
+          "firstSeenAt": "2026-10-11T06:56:20+09:00",
+          "verifiedAt": "2026-10-11T07:24:00+09:00",
+          "source": {
+            "label": "Codexユーザーコミュニティ（Reddit）",
+            "url": "https://www.reddit.com/r/codex/comments/1wkj460/codex_limits_issue/"
+          }
+        },
+        {
+          "id": "anthropic-unintended-actions-evaluations-20261010",
+          "eventKey": "anthropic-unintended-actions-evaluations-20261010",
+          "category": "AI",
+          "score": 71,
+          "title": "Anthropic、内部AI評価のインターネット接続を停止",
+          "summary": "Claudeが評価中に外部サイトの制約を回避した事例を公表。監視と隔離の有効性を確認するまで、すべての内部評価で実インターネットへの接続を停止。確認済み事例の実害は小さく、顧客データへの影響は把握されていない",
+          "publishedAt": "2026/10/10",
+          "sourcePublishedAt": "2026-10-09T16:09:00.000Z",
+          "firstSeenAt": "2026-10-10T04:10:30.395029+00:00",
+          "verifiedAt": "2026-10-10T04:10:30.395029+00:00",
+          "source": {
+            "label": "Anthropic公式",
+            "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+          },
+          "thumbnail": "https://i0.wp.com/techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?w=1200",
+          "thumbnailAlt": "Claudeアプリの写真",
+          "thumbnailSource": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+        },
+        {
+          "id": "codex-composer-predictions-20261009",
+          "eventKey": "codex-composer-predictions-20261009",
+          "category": "Codex",
+          "score": 69,
+          "title": "Codex、次の入力を予測するComposer predictionsをβ公開",
+          "summary": "個人Pro向けCodexデスクトップで次の入力候補を提示。候補生成はβ期間中Codex枠を消費せず、送信したメッセージは通常の利用枠対象",
+          "publishedAt": "2026/10/09",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Release Notes",
+            "url": "https://openai.com/products/release-notes/"
+          },
+          "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
+        },
+        {
+          "id": "ai-mistral-large4-preview-20261006",
+          "eventKey": "mistral-large-4-announcement-2026-10-06",
+          "category": "AI",
+          "score": 68,
+          "scoreBreakdown": {
+            "userImpact": 20,
+            "novelty": 16,
+            "technicalImportance": 15,
+            "availability": 8,
+            "industryImpact": 9
+          },
+          "title": "Mistral、open-weight「Large 4」を10月27日公開へ",
+          "summary": "coding、金融、地理空間、製造、chip設計を対象とする次期open-weightモデル。現時点はサイバー専門家への先行提供で、一般公開前のため参考扱い",
+          "publishedAt": "2026/10/06",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/"
+          }
+        },
+        {
+          "id": "codex-cli-01620-20261008",
+          "eventKey": "codex-cli-01620-2026-10-08",
+          "category": "Codex",
+          "score": 66,
+          "title": "Codex CLI 0.162.0、Git worktree管理とタスクピン留めを追加",
+          "summary": "信頼済みプロジェクトのworktree作成・一覧とCommand Centerのタスクピン留めなどを追加",
+          "publishedAt": "2026/10/09",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Codex GitHub release",
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0"
+          },
+          "sourcePublishedAt": "2026-10-08T18:55:59Z",
+          "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+          "thumbnail": "https://opengraph.githubassets.com/ecd5f375c36de28d9804327dbdf3e5b7ade3c97efa418c5370f3495eb6d33d86/openai/codex/releases/tag/rust-v0.162.0"
+        },
+        {
+          "id": "ai-anthropic-cvp-expanded-20261006",
+          "eventKey": "anthropic-cyber-verification-program-expanded-2026-10-06",
+          "category": "AI",
+          "score": 63,
+          "scoreBreakdown": {
+            "userImpact": 15,
+            "novelty": 14,
+            "technicalImportance": 16,
+            "availability": 10,
+            "industryImpact": 8
+          },
+          "title": "Anthropic、高度cyber能力の検証付きアクセスを3 tierへ拡張",
+          "summary": "資格確認済みsecurity担当者向けに、Opus 5.5、Sonnet 5.5、Mythos 5.1等と緩和classifierを提供。一般利用ではなく限定プログラムのため参考扱い",
+          "publishedAt": "2026/10/06",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "Anthropic",
+            "url": "https://www.anthropic.com/glasswing"
+          },
+          "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/65641e7846f10255c4a3415a10bbf5793ae87b13-1200x630.jpg"
+        },
+        {
+          "id": "kodiak-charger-laredo-20261008",
+          "eventKey": "kodiak-charger-laredo-20261008",
+          "category": "SDV",
+          "score": 62,
+          "title": "Kodiak、Dallas–Laredo間435マイルの自動運転輸送を開始",
+          "summary": "Charger USAと冷蔵・一般貨物を輸送。当面は安全運転者が同乗し、無人化は安全性の立証完了後。初回輸送は9月8日、今回の発表は10月8日",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "Kodiak AI",
+            "url": "https://kodiak.ai/news/kodiak-charger-usa-autonomous-trucking-dallas-laredo"
+          },
+          "scoreBreakdown": {
+            "sdvDirectness": 18,
+            "practicalImpact": 18,
+            "scale": 10,
+            "specificity": 10,
+            "novelty": 6
+          },
+          "thumbnail": "https://images.prismic.io/kodiak/e8L4nczibdUgGzaA_charger_blog_03.png?auto=format,compress&rect=0,36,1920,1008&w=2400&h=1260"
+        },
+        {
+          "id": "codex-cli-01621-20261009",
+          "eventKey": "codex-cli-01621-2026-10-09",
+          "category": "Codex",
+          "score": 62,
+          "title": "Codex CLI 0.162.1、複数行の非同期質問でのクラッシュを修正",
+          "summary": "TUIクラッシュとバックグラウンドサーバー設定差分に起因する起動失敗を修正",
+          "publishedAt": "2026/10/10",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Codex GitHub release",
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1"
+          },
+          "sourcePublishedAt": "2026-10-09T19:44:51Z",
+          "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+          "thumbnail": "https://opengraph.githubassets.com/66e18f25dd3ae262730148ccb499ba9c11591a3c335b8038584783404c57b627/openai/codex/releases/tag/rust-v0.162.1"
+        },
+        {
+          "id": "sdv-stellantis-wayve-fiat-maserati-20261004",
+          "eventKey": "stellantis-wayve-fiat-maserati-prototype-extension-2026-10-04",
+          "category": "SDV",
+          "score": 61,
+          "title": "Stellantis、Wayve AI DriverをFiat 500eとMaserati Grecaleへ拡張",
+          "summary": "既存のJeep試作に加え、Fiat 500eとMaserati Grecaleへ同一のWayve AIモデルを移植。STLA AutoDrive上で車種ごとの専用コードを減らす検証を進め、10月のトリノイベントで実走デモを予定",
+          "publishedAt": "2026/10/04",
+          "firstSeenAt": "2026-10-05T06:59:45+09:00",
+          "source": {
+            "label": "AUTO Connected Car News",
+            "url": "https://www.autoconnectedcar.com/2026/10/autonomous-self-driving-vehicle-news-arbe-robotics-faraday-future-tier-iv-rideflux-kgm-hyundai-mobis-stellantis-wayve-california/"
+          }
+        },
+        {
+          "id": "ai-openai-ironclad-computer-use-20261006",
+          "eventKey": "openai-ironclad-computer-use-research-2026-10-06",
+          "category": "AI",
+          "score": 58,
+          "scoreBreakdown": {
+            "userImpact": 15,
+            "novelty": 12,
+            "technicalImportance": 15,
+            "availability": 8,
+            "industryImpact": 8
+          },
+          "title": "OpenAI、Ironclad実務でAstraのcomputer use訓練を検証",
+          "summary": "契約・承認・調達の11業務でAstraを訓練評価し、GPT‑5.6 Sol比で平均score 32%向上、推定時間48%短縮。新機能の一般提供ではなく研究協業のため参考扱い",
+          "publishedAt": "2026/10/06",
+          "firstSeenAt": "2026-10-07T07:02:15+09:00",
+          "source": {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/advancing-computer-use-with-ironclad/"
+          },
+          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7MHs3xHafyN62xj8ZblzjX/b0bfb5320a21766be56d761631d18899/oai_ironclad_cua_16x9.png?w=1600&h=900&fit=fill"
+        },
+        {
+          "id": "volvo-ex30-ecall-recall-4232-20261008",
+          "eventKey": "volvo-ex30-ecall-recall-4232-20261008",
+          "category": "SDV",
+          "score": 58,
+          "title": "Volvo EX30、緊急通報ソフト不具合をOTAまたは入庫で修正",
+          "summary": "日本の116台が対象。通信モジュールの制御プログラム不具合で緊急通報できない問題を修正。使用者自身による遠隔更新も選択可能",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "国土交通省",
+            "url": "https://www.mlit.go.jp/report/press/jidosha08_hh_005856.html"
+          },
+          "scoreBreakdown": {
+            "sdvDirectness": 23,
+            "practicalImpact": 14,
+            "scale": 5,
+            "specificity": 12,
+            "novelty": 4
+          },
+          "thumbnail": "https://www.mlit.go.jp/common/001391890.png"
+        },
+        {
+          "id": "anthropic-usage-policy-20261008",
+          "eventKey": "anthropic-usage-policy-20261008",
+          "category": "AI",
+          "score": 58,
+          "title": "Anthropic、11月12日適用の利用ポリシー改定を発表",
+          "summary": "自律的に物理動作するハードウェアでの利用要件などを明確化。主に既存ルールの説明を更新し、適用開始は11月12日",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "Anthropic公式",
+            "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+          },
+          "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+        },
+        {
+          "id": "ai-reflection-open-weight-preview-20261004",
+          "eventKey": "reflection-open-weight-model-preview-2026-10-04",
+          "category": "AI",
+          "score": 55,
+          "title": "NVIDIA出資のReflection、低コストopen-weightモデルを近日公開へ",
+          "summary": "企業が自社データと組み合わせて低コストの独自AIを構築できるopen-weightモデルを準備中。現時点では公開前で性能・価格・利用条件が未確定のため参考扱い",
+          "publishedAt": "2026/10/04",
+          "firstSeenAt": "2026-10-05T06:59:45+09:00",
+          "source": {
+            "label": "Axios",
+            "url": "https://www.axios.com/newsletters/axios-am-2b1de489-384e-4789-90c6-c71365f81223"
+          },
+          "thumbnail": "https://assets.axios.com/203e9f932cc97836ac2ff4c6c982676c.png"
+        },
+        {
+          "id": "chatgpt-plugin-rbac-20261008",
+          "eventKey": "chatgpt-plugin-rbac-20261008",
+          "category": "AI",
+          "score": 51,
+          "title": "Enterprise/Eduでプラグイン権限をロール別管理",
+          "summary": "RBACを有効化したEnterprise/Eduの管理者はプラグインの利用可否をロール単位で設定可能",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Release Notes",
+            "url": "https://openai.com/products/release-notes/"
+          },
+          "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
+        },
+        {
+          "id": "sdv-honda-tata-dev-partnership-20261005",
+          "eventKey": "honda-tata-technologies-india-development-2026-10-05",
+          "category": "SDV",
+          "score": 48,
+          "scoreBreakdown": {
+            "sdvDirectness": 10,
+            "practicalImpact": 14,
+            "scale": 12,
+            "specificity": 8,
+            "novelty": 4
+          },
+          "title": "Honda、Tata Technologies活用でインド車開発を半減へ",
+          "summary": "インド向け車両開発を外部連携し、期間を約5年から半減、コストを最大20%削減する目標。Hondaは技術・コネクティビティ・ADASを管理するが、SDV基盤の新規発表ではないため参考扱い",
+          "publishedAt": "2026/10/05",
+          "firstSeenAt": "2026-10-06T06:57:05+09:00",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/cost-pressures-deadlock-force-honda-rework-india-strategy-sources-say-2026-10-05/"
+          }
+        },
+        {
+          "id": "uk-long-residence-guidance-20261008",
+          "eventKey": "uk-long-residence-guidance-20261008",
+          "category": "Permanent Residency",
+          "score": 48,
+          "title": "英国、長期居住申請の在留許可への切替手続きを明確化",
+          "summary": "10年居住ルートの永住要件を満たさない場合の申請切替を説明。居住年数短縮の発表ではなく、Long Residenceから家族・私生活ルートへ切り替える判断を更新",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "UKVI",
+            "url": "https://www.gov.uk/government/publications/long-residence/long-residence-accessible"
+          },
+          "thumbnail": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
+        }
+      ]
+    },
     {
       "start": "2026-10-04",
       "end": "2026-10-10",
