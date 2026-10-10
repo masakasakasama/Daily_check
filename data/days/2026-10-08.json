@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-08",
+  "alerts": [
+    {
+      "id": "codex-steering-20261008",
+      "eventKey": "codex-steering-20261008",
+      "category": "Codex",
+      "score": 88,
+      "title": "Codex、実行中の指示変更への反応を高速化",
+      "summary": "Codexデスクトップアプリで実行中のタスクへ追加入力した際の反応を高速化。Settings → General → Follow-up behaviorで適用方法を選択可能",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "OpenAI Release Notes",
+        "url": "https://openai.com/products/release-notes/"
+      }
+    },
+    {
+      "id": "api-ultrafast-sol-20261008",
+      "eventKey": "api-ultrafast-sol-20261008",
+      "category": "AI",
+      "score": 86,
+      "title": "GPT-6.1 SolにUltrafastモードを追加",
+      "summary": "Responses APIでservice_tier: ultrafastを指定可能。トークン生成間隔を短縮。APIユーザー向けに一般提供",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "OpenAI Release Notes",
+        "url": "https://openai.com/products/release-notes/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "chatgpt-plugin-rbac-20261008",
+      "eventKey": "chatgpt-plugin-rbac-20261008",
+      "category": "AI",
+      "score": 51,
+      "title": "Enterprise/Eduでプラグイン権限をロール別管理",
+      "summary": "RBACを有効化したEnterprise/Eduの管理者はプラグインの利用可否をロール単位で設定可能",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "OpenAI Release Notes",
+        "url": "https://openai.com/products/release-notes/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AIニュース",
+      "status": "partial",
+      "summary": "公式一次情報の確認分のみ復旧。全分野の収集は未完了",
+      "checkedAt": "2026-10-10T12:00:00+09:00"
+    }
+  ],
+  "backfill": {
+    "partial": true,
+    "reason": "Historical backfill, not a completed six-funnel audit",
+    "restoredAt": "2026-10-10T12:00:00+09:00"
+  }
+}
