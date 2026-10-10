@@ -1,1 +1,14 @@
-{"schema":"split-daily-v1","lastSuccessfulAt":null,"lastAudit":null,"pendingBatch":{"dates":["2026-10-08","2026-10-09","2026-10-10"],"status":"incomplete-recovery"}}
+{
+  "schema": "split-daily-v1",
+  "lastSuccessfulAt": null,
+  "lastAudit": null,
+  "pendingBatch": {
+    "dates": [
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10"
+    ],
+    "status": "partial",
+    "remaining": "Six-funnel SDV collection and full news audit"
+  }
+}
