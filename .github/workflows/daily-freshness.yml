@@ -28,5 +28,11 @@ jobs:
         run: node --test scripts/*.test.mjs
       - name: Verify UI JavaScript syntax
         run: node scripts/verify-ui.mjs
+      - name: Verify saved publication history
+        run: node scripts/verify-publication-history.mjs
+      - name: Verify saved collection evidence
+        run: node scripts/verify-collection-history.mjs
+      - name: Verify complete saved weekly windows
+        run: node scripts/verify-weekly-history.mjs
       - name: Verify today's persisted data
         run: node scripts/verify-daily-data.mjs

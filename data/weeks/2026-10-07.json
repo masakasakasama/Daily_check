@@ -1,11 +1,11 @@
 {
   "start": "2026-10-01",
   "end": "2026-10-07",
-  "generatedAt": "2026-10-07T07:24:00+09:00",
+  "generatedAt": "2026-10-10T03:46:27.846970+00:00",
   "headline": "今週のDaily Check：重要13件・参考23件",
   "counts": {
     "important": 13,
-    "reference": 23
+    "reference": 24
   },
   "categories": [
     {
@@ -621,6 +621,20 @@
       "source": {
         "label": "Reuters",
         "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45M1CM:0-anthropic-says-claude-for-government-is-now-generally-available/"
+      }
+    },
+    {
+      "id": "ai-anthropic-claude-code-2-1-288-20261002",
+      "eventKey": "anthropic-claude-code-2-1-288-2026-10-02",
+      "category": "AI",
+      "score": 70,
+      "title": "Claude Code 2.1.288、コードレビュー件数制御とセッション復旧を強化",
+      "summary": "/code-reviewの検出件数指定、agents画面の検索、MCP OAuth再認証、Ctrl+Cで消した下書き復元を追加。途中タイムアウトやresume時の文脈欠落も修正",
+      "publishedAt": "2026/10/02",
+      "firstSeenAt": "2026-10-03T06:56:41+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://code.claude.com/docs/en/changelog"
       }
     }
   ]
