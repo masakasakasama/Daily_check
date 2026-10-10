@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-11",
+  "alerts": [],
+  "references": [
+    {
+      "id": "codex-community-limit-drain-20261011",
+      "eventKey": "codex-community-limit-drain-20261011",
+      "category": "Codex",
+      "score": 74,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 13,
+        "technicalImportance": 10,
+        "specificityAvailability": 12,
+        "industryImpact": 7
+      },
+      "title": "Codex利用枠の消費が急増したとの複数報告（公式未確認）",
+      "summary": "Reddit上で複数ユーザーが、リセット後に従来より速く5時間・週次枠が減ると同時に報告。OpenAI Help、Status、公式リリースでは仕様変更や障害を確認できず、利用量表示を要監視",
+      "publishedAt": "2026/10/11",
+      "firstSeenAt": "2026-10-11T06:56:20+09:00",
+      "verifiedAt": "2026-10-11T07:24:00+09:00",
+      "source": {
+        "label": "Codexユーザーコミュニティ（Reddit）",
+        "url": "https://www.reddit.com/r/codex/comments/1wkj460/codex_limits_issue/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "当日の新規掲載なし",
+      "checkedAt": "2026-10-11T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "公式未確認の利用枠急減報告を確認",
+      "checkedAt": "2026-10-11T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "clear",
+      "summary": "当日の新規掲載なし",
+      "checkedAt": "2026-10-11T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "当日の新規掲載なし",
+      "checkedAt": "2026-10-11T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
