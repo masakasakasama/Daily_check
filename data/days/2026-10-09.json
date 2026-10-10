@@ -1,6 +1,51 @@
 {
   "date": "2026-10-09",
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "stellantis-wayve-road-demo-20261009",
+      "eventKey": "stellantis-wayve-road-demo-20261009",
+      "category": "SDV",
+      "score": 72,
+      "title": "StellantisとWayve、2車種で共通AI運転基盤の実走を披露",
+      "summary": "Fiat 500eとMaserati Grecaleの試験車でSTLA AutoDriveとWayve AI Driverを統合。4週間未満で実走試験へ進み、監督付きL2++運転を実演。量産開始の発表ではない",
+      "publishedAt": "2026/10/09",
+      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "Stellantis公式",
+        "url": "https://www.media.stellantis.com/em-en/corporate/press/stellantis-and-wayve-demonstrate-how-ai-can-scale-across-vehicle-platforms-and-enhance-everyday-mobility"
+      },
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 18,
+        "scale": 15,
+        "specificity": 10,
+        "novelty": 7
+      }
+    },
+    {
+      "id": "fmcsa-aurora-warning-beacons-20261009",
+      "eventKey": "fmcsa-aurora-warning-beacons-20261009",
+      "category": "SDV",
+      "score": 65,
+      "title": "米FMCSA、L4トラックの停止時警告装置に5年間の特例",
+      "summary": "停止時の三角表示板の代わりに車載警告灯を認める。Auroraに加え、事前届出と条件を満たすL4事業者も対象。適用は10月7日〜2031年10月7日",
+      "publishedAt": "2026/10/09",
+      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "Federal Register",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/pdf/2026-20734.pdf"
+      },
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 19,
+        "scale": 15,
+        "specificity": 10,
+        "novelty": 5
+      }
+    }
+  ],
   "references": [
     {
       "id": "codex-composer-predictions-20261009",
@@ -15,36 +60,93 @@
       "source": {
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
-      }
+      },
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
     },
     {
-      "id": "codex-cli-01621-20261009",
-      "eventKey": "codex-cli-01621-2026-10-09",
+      "id": "codex-cli-01620-20261008",
+      "eventKey": "codex-cli-01620-2026-10-08",
       "category": "Codex",
-      "score": 62,
-      "title": "Codex CLI 0.162.1、複数行の非同期質問でのクラッシュを修正",
-      "summary": "TUIクラッシュとバックグラウンドサーバー設定差分に起因する起動失敗を修正",
+      "score": 66,
+      "title": "Codex CLI 0.162.0、Git worktree管理とタスクピン留めを追加",
+      "summary": "信頼済みプロジェクトのworktree作成・一覧とCommand Centerのタスクピン留めなどを追加",
       "publishedAt": "2026/10/09",
       "firstSeenAt": "2026-10-10T12:00:00+09:00",
       "discoveredLate": true,
       "source": {
-        "label": "ChatGPT & Codex changelog",
-        "url": "https://learn.chatgpt.com/docs/changelog"
-      }
+        "label": "OpenAI Codex GitHub release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0"
+      },
+      "sourcePublishedAt": "2026-10-08T18:55:59Z",
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
     }
   ],
   "checks": [
     {
-      "id": "collection",
-      "name": "ニュース・SDV収集",
-      "status": "error",
-      "summary": "収集・監査未完了",
-      "checkedAt": "2026-10-10T12:00:00+09:00"
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "公式本文を再確認。OpenAI・Anthropic・Geminiの対象期間を検索（欠落日の再収集）",
+      "checkedAt": "2026-10-10T03:35:37.821792+00:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "公式更新・GitHub公開時刻・X検索を確認。新規リセットは未確認（欠落日の再収集）",
+      "checkedAt": "2026-10-10T03:35:37.821792+00:00",
+      "alertCount": 0,
+      "referenceCount": 2
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "update",
+      "summary": "6系統の実検索18本、追加検索12本、固定公式巡回を実施（欠落日の再収集）",
+      "checkedAt": "2026-10-10T03:35:37.821792+00:00",
+      "alertCount": 2,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "日英米加豪NZの公式検索。英国の申請切替を確認。日本の直接取得は制限あり、索引で確認（欠落日の再収集）",
+      "checkedAt": "2026-10-10T03:35:37.821792+00:00",
+      "alertCount": 0,
+      "referenceCount": 0
     }
   ],
-  "backfill": {
-    "partial": true,
-    "reason": "Historical backfill, not a completed six-funnel audit",
-    "restoredAt": "2026-10-10T12:00:00+09:00"
+  "recovery": {
+    "mode": "verified-historical-recovery",
+    "completed": true,
+    "startedAt": "2026-10-10T03:30:09.777Z",
+    "completedAt": "2026-10-10T03:35:37.821792+00:00",
+    "evidencePath": "data/recovery/2026-10-10-searches.json",
+    "articles": [
+      {
+        "eventKey": "codex-cli-01620-2026-10-08",
+        "verified": true,
+        "sourceUrl": "https://github.com/openai/codex/releases/tag/rust-v0.162.0"
+      },
+      {
+        "eventKey": "codex-composer-predictions-20261009",
+        "verified": true,
+        "sourceUrl": "https://openai.com/products/release-notes/"
+      },
+      {
+        "eventKey": "fmcsa-aurora-warning-beacons-20261009",
+        "verified": true,
+        "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/pdf/2026-20734.pdf"
+      },
+      {
+        "eventKey": "stellantis-wayve-road-demo-20261009",
+        "verified": true,
+        "sourceUrl": "https://www.media.stellantis.com/em-en/corporate/press/stellantis-and-wayve-demonstrate-how-ai-can-scale-across-vehicle-platforms-and-enhance-everyday-mobility"
+      }
+    ],
+    "note": "10月10日に未実行日の検索・本文確認を再実施。元の失敗記録はdata/recoveryに保存。公開日と実際の発見日時を保持。"
   }
 }

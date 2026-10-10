@@ -268,6 +268,16 @@
   <div id="toast" class="toast" hidden></div>
 
   <script>
+    // Separate script remains runnable if the main script cannot parse.
+    window.addEventListener('error',function(event){
+      if(event.target!==window)return;
+      const error=document.getElementById('errorMessage');
+      if(error){error.hidden=false;error.textContent='表示処理でエラーが発生しました。再読み込みしてください';}
+      const status=document.getElementById('updatedAt');
+      if(status)status.textContent='表示エラー';
+    });
+  </script>
+  <script>
     const INDEX_URL='https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/index.json';
     const API_URL='https://api.github.com/repos/masakasakasama/Daily_check/contents/data/daily-checks.json?ref=main';
     const RAW_URL='https://raw.githubusercontent.com/masakasakasama/Daily_check/main/data/daily-checks.json';
@@ -344,6 +354,7 @@
         }):[];
         return {
           date:String(day.date),
+          recovery:day.recovery?.completed===true?day.recovery:null,
           alerts:(Array.isArray(day.alerts)?day.alerts:[]).map(normalizeItem).filter(Boolean),
           references:(Array.isArray(day.references)?day.references:[]).map(normalizeItem).filter(Boolean),
           checks
@@ -377,7 +388,7 @@
       return item;
     }
     function getDay(){return state.data?.days.find(x=>x.date===state.date)||null}
-    function getWeek(){return state.data?.weeks.find(w=>state.date>=w.start&&state.date<=w.end)||null}
+    function getWeek(){return state.data?.weeks.find(w=>w.end===state.date)||state.data?.weeks.find(w=>state.date>=w.start&&state.date<=w.end)||null}
     function latestRecordDate(){
       return [...(state.data?.days||[])].map(x=>x.date).sort().at(-1)||todayJst();
     }
@@ -484,6 +495,7 @@
       const overview=$('overview'),missing=$('missingState'),important=$('importantSection'),reference=$('referenceSection'),monitor=$('monitorPanel');
 
       if(!day){
+        if($('recoveryNotice'))$('recoveryNotice').hidden=true;
         if(overview)overview.hidden=true;
         if(missing){
           missing.hidden=false;
@@ -496,6 +508,14 @@
       }
 
       if(missing)missing.hidden=true;
+      let recoveryNotice=$('recoveryNotice');
+      if(!recoveryNotice){
+        recoveryNotice=document.createElement('p');recoveryNotice.id='recoveryNotice';
+        recoveryNotice.style.cssText='color:var(--sub);font-size:12px;margin:0 0 16px';
+        overview.before(recoveryNotice);
+      }
+      recoveryNotice.hidden=!day.recovery;
+      recoveryNotice.textContent=day.recovery?'欠けていた日の記事を再収集しました · 確認 '+fmtDateTime(day.recovery.completedAt):'';
       const alerts=day.alerts||[],refs=day.references||[],checks=day.checks||[];
       const success=checks.filter(x=>x.status==='clear'||x.status==='update').length;
       const errors=checks.filter(x=>x.status==='error'||x.status==='partial'||x.status==='failed').length;

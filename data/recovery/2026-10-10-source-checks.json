@@ -1,0 +1,132 @@
+{
+  "sources": [
+    {
+      "funnel": 0,
+      "url": "https://www.appliedintuition.com/autonomy-news",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:27.619Z",
+      "reference": "turn961394view0",
+      "summary": "News, research & insights | Applied Intuition (https://www.appliedintuition.com/autonomy-news)\n【turn961394view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.appliedintuition.com/autonomy-news\",\"lineno\":"
+    },
+    {
+      "funnel": 0,
+      "url": "https://global.honda/en/newsroom/",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:27.619Z",
+      "reference": "turn961394view1",
+      "summary": "NewsRoom | Honda Global Corporate Website (https://global.honda/en/newsroom/)\n【turn961394view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://global.honda/en/newsroom/\",\"lineno\":null}); Total lines: 184\nL0: #"
+    },
+    {
+      "funnel": 0,
+      "url": "https://www2.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:27.619Z",
+      "reference": "turn961394view2",
+      "summary": "Nissan Scalable Open Software Platform | Innovation | Nissan Motor Corporation Global Website (https://www2.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/)\n【turn961394view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: o"
+    },
+    {
+      "funnel": 1,
+      "url": "https://alloykore.com/",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:27.920Z",
+      "reference": "turn143097view0",
+      "summary": "Alloy Kore | The Automotive OS Co-Developed by QNX and Vector (https://alloykore.com/)\n【turn143097view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://alloykore.com/\",\"lineno\":null}); Total lines: 97\nL0: [But"
+    },
+    {
+      "funnel": 1,
+      "url": "https://www.soafee.io/news/",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:27.920Z",
+      "reference": "turn143097view1",
+      "summary": "Newsroom | Soafee.io (https://www.soafee.io/news/)\n【turn143097view1】 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://www.soafee.io/news/\",\"lineno\":null}); Total lines: 22\nL0: 【0†Skip to main content】【1†Abo"
+    },
+    {
+      "funnel": 1,
+      "url": "https://www.eclipse.org/lists/sdv-wg/maillist.html",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:27.920Z",
+      "reference": "turn143097view2",
+      "summary": "sdv-wg Archive (Date View) (https://www.eclipse.org/lists/sdv-wg/maillist.html)\n【turn143097view2】 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://www.eclipse.org/lists/sdv-wg/maillist.html\",\"lineno\":null})"
+    },
+    {
+      "funnel": 2,
+      "url": "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-COLLABORATES-WITH-QUANTA",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:28.347Z",
+      "reference": "turn565434view0",
+      "summary": "NXP Collaborates with Quanta to Accelerate Deterministic Zonal Networking for Software Defined Vehicles | NXP Semiconductors (https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-COLLABORATES-WITH-QUANTA)\n【turn565434view0】 [wordlim: 200] Crawled: to"
+    },
+    {
+      "funnel": 2,
+      "url": "https://www.bosch-mobility.com/en/mobility-topics/ee-architecture/",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:28.347Z",
+      "reference": "turn565434view1",
+      "summary": "The E/E architecture of the future (https://www.bosch-mobility.com/en/mobility-topics/ee-architecture/)\n【turn565434view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.bosch-mobility.com/en/mobility-topic"
+    },
+    {
+      "funnel": 2,
+      "url": "https://www.aptiv.com/en/solutions/software-and-services/middleware",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:28.347Z",
+      "reference": "turn565434view2",
+      "summary": "www.aptiv.com (https://www.aptiv.com/en/solutions/software-and-services/middleware)\n【turn565434view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.aptiv.com/en/solutions/software-and-services/middleware\""
+    },
+    {
+      "funnel": 3,
+      "url": "https://aws.amazon.com/automotive/",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:28.673Z",
+      "reference": "turn965384view0",
+      "summary": "Cloud Solutions for Automotive Industry - Cloud Computing - AWS (https://aws.amazon.com/automotive/)\n【turn965384view0】 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://aws.amazon.com/automotive/\",\"lineno\":"
+    },
+    {
+      "funnel": 3,
+      "url": "https://qnx.software/en/press-release",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:28.673Z",
+      "reference": "turn965384view1",
+      "summary": "Press Releases (https://qnx.software/en/press-release)\n【turn965384view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://qnx.software/en/press-release\",\"lineno\":null}); Total lines: 102\nL0: # Newsroom\nL1: \nL2: "
+    },
+    {
+      "funnel": 3,
+      "url": "https://source.android.com/docs/security/bulletin/aaos",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:28.673Z",
+      "reference": "turn965384view2",
+      "summary": "Android Automotive OS Update Bulletin  |  Security  |  Android Open Source Project (https://source.android.com/docs/security/bulletin/aaos)\n【turn965384view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://sour"
+    },
+    {
+      "funnel": 4,
+      "url": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security",
+      "retrievalStatus": "error",
+      "observedAt": "2026-10-10T03:31:28.940Z",
+      "reference": "turn684744view0",
+      "summary": "Internal Error ()\n【turn684744view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://une"
+    },
+    {
+      "funnel": 4,
+      "url": "https://www.iso.org/standard/70918.html",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:28.940Z",
+      "reference": "turn684744view1",
+      "summary": "ISO/SAE 21434:2021 - Road vehicles — Cybersecurity engineering (https://www.iso.org/standard/70918.html)\n【turn684744view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.iso.org/standard/70918.html\",\"linen"
+    },
+    {
+      "funnel": 5,
+      "url": "https://sdvsector.com/",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:29.171Z",
+      "reference": "turn916473view0",
+      "summary": "SDV Sector — daily software-defined vehicle news and analysis (https://sdvsector.com/)\n【turn916473view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://sdvsector.com/\",\"lineno\":null}); Total lines: 111\nL0: 【0†"
+    },
+    {
+      "funnel": 5,
+      "url": "https://www.linuxfoundation.org/press/linux-foundation-releases-openchain-automotive-sbom-framework-1.0-for-greater-reliability-and-traceability-in-automotive-software",
+      "retrievalStatus": "complete",
+      "observedAt": "2026-10-10T03:31:29.171Z",
+      "reference": "turn916473view1",
+      "summary": "Linux Foundation Releases OpenChain Automotive SBOM Framework 1.0 for Greater Reliability and Traceability in Automotive Software (https://www.linuxfoundation.org/press/linux-foundation-releases-openchain-automotive-sbom-framework-1.0-for-greater-rel"
+    }
+  ]
+}

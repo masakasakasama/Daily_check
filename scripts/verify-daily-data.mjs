@@ -36,10 +36,11 @@ const urls = articles.map((article) => article.source?.url).filter(Boolean);
 assert(new Set(ids).size === ids.length, "duplicate article id in day file");
 assert(new Set(urls).size === urls.length, "duplicate source URL in day file");
 
-for (const checkId of ["ai", "sdv-nissan"]) {
-  const check = day.checks.find((item) => item.id === checkId);
-  assert(check, `missing required check: ${checkId}`);
-  assert(!["error", "pending"].includes(check.status), `${checkId} is ${check.status}`);
+for (const aliases of [["ai"], ["codex", "codex-reset"], ["sdv-nissan"], ["residency", "permanent-residency"]]) {
+  const check = day.checks.find((item) => aliases.includes(item.id));
+  assert(check, `missing required check: ${aliases.join("/")}`);
+  assert(["clear", "update"].includes(check.status), `${check.id} is ${check.status}`);
+  assert(Number.isFinite(Date.parse(check.checkedAt)), `${check.id} checkedAt is missing/invalid`);
 }
 
 assert(audit.date === expectedDate, `audit contains ${audit.date}; expected ${expectedDate}`);

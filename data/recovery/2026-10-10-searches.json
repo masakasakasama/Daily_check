@@ -1,0 +1,2054 @@
+{
+  "purpose": "Actual recovery search observations for missing Oct 8-10 runs; returned-result counts, not search-engine total estimates",
+  "queries": [
+    {
+      "funnel": 0,
+      "query": "Nissan Honda Applied Intuition vehicle OS SDV OTA after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=Nissan%20Honda%20Applied%20Intuition%20vehicle%20OS%20SDV%20OTA%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "OEM concepts",
+      "retrievalStatus": "complete",
+      "rawHitCount": 16,
+      "observedAt": "2026-10-10T03:30:09.874Z",
+      "results": [
+        {
+          "title": "Honda and Nissan each hired Applied Intuition's Vehicle OS for their next platforms · SDV Sector",
+          "url": "https://sdvsector.com/news/2026-10-07-applied-intuition-honda-nissan-vehicle-os",
+          "reference": "turn503926search0",
+          "date": "Published: 3 days ago"
+        },
+        {
+          "title": "News, research & insights | Applied Intuition",
+          "url": "https://www.appliedintuition.com/autonomy-news?tag=nissan",
+          "reference": "turn503926search1"
+        },
+        {
+          "title": "News, research & insights | Applied Intuition",
+          "url": "https://www.appliedintuition.com/autonomy-news?468c634c_page=3&4b6a83c9_page=4",
+          "reference": "turn503926search2"
+        },
+        {
+          "title": "フィジカルAIのApplied Intuition、本田技研工業・日産自動車とそれぞれ協業し次世代車両のソフトウェア開発を支援",
+          "url": "https://www.atpartners.co.jp/news/2026-10-07-article-576d762d97",
+          "reference": "turn503926search3",
+          "date": "Published: 3 days ago"
+        },
+        {
+          "title": "Building AI-defined vehicles with Nissan | Applied Intuition",
+          "url": "https://www.appliedintuition.com/blog/nissan-applied-intuition-ai-defined-vehicles?trk=test",
+          "reference": "turn503926search4",
+          "date": "Published: 4 days ago"
+        },
+        {
+          "title": "Nissan and Honda Conclude Joint Development Agreement to Standardize ECUs and Software for Next-Generation SDVs",
+          "url": "https://canada.nissannews.com/en-CA/releases/nissan-and-honda-conclude-joint-development-agreement-to-standardize-ecus-and-software-for-next-generation-sdvs?origin=channel-2760",
+          "reference": "turn503926search5",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Nissan Scalable Open Software Platform | Innovation | Nissan Motor Corporation Global Website",
+          "url": "https://www2.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/NSOSP/",
+          "reference": "turn503926search6"
+        },
+        {
+          "title": "Applied Intuition は、日産自動車に AI ネイティブな開発基盤を提供し、AI デファインド ビークルの開発で協業することを発表 | Applied Intuition, Inc.のプレスリリース | 共同通信PRワイヤー",
+          "url": "https://kyodonewsprwire.jp/release/202610067342",
+          "reference": "turn503926search7",
+          "date": "Published: 4 days ago"
+        },
+        {
+          "title": "Engineering the Future Together | Applied Intuition | 12 comments",
+          "url": "https://www.linkedin.com/posts/applied-intuition-inc_engineering-the-future-together-activity-7513010435764285440-_RPU",
+          "reference": "turn503926search8"
+        },
+        {
+          "title": "Honda and Applied Intuition partner on software-defined vehicle platform | Vehicle Dynamics International",
+          "url": "https://www.vehicledynamicsinternational.com/news/oem-news/honda-and-applied-intuition-partner-on-software-defined-vehicle-platform.html",
+          "reference": "turn503926search9",
+          "date": "Published: yesterday"
+        },
+        {
+          "title": "日産が Applied Intuition の車載OSを開発に採用、同日にホンダも提携 — 共通化の2社が同じ相手と組む｜Global SDV News",
+          "url": "https://note.com/global_sdv_news/n/n6498cd0da746",
+          "reference": "turn503926search10",
+          "date": "Published: 4 days ago"
+        },
+        {
+          "title": "Honda and Nissan's New Partnership Has an Unexpected Twist - Autoblog",
+          "url": "https://www.autoblog.com/news/honda-and-nissans-new-partnership-has-an-unexpected-twist",
+          "reference": "turn503926search11",
+          "date": "Published: 3 days ago"
+        },
+        {
+          "title": "Software Defined Vehicle",
+          "url": "https://en.wikipedia.org/wiki/Software_Defined_Vehicle",
+          "reference": "turn503926search12"
+        },
+        {
+          "title": "Android Automotive",
+          "url": "https://de.wikipedia.org/wiki/Android_Automotive",
+          "reference": "turn503926search13"
+        },
+        {
+          "title": "Advanced driver-assistance system",
+          "url": "https://en.wikipedia.org/wiki/Advanced_driver-assistance_system",
+          "reference": "turn503926search14"
+        },
+        {
+          "title": "Android Automotive",
+          "url": "https://en.wikipedia.org/wiki/Android_Automotive",
+          "reference": "turn503926search15"
+        }
+      ]
+    },
+    {
+      "funnel": 0,
+      "query": "automaker central compute zonal E/E architecture after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=automaker%20central%20compute%20zonal%20E%2FE%20architecture%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "OEM concepts",
+      "retrievalStatus": "complete",
+      "rawHitCount": 23,
+      "observedAt": "2026-10-10T03:30:10.657Z",
+      "results": [
+        {
+          "title": "Automotive zonal architecture | Infineon Technologies",
+          "url": "https://www.infineon.com/applications/automotive/zonal-architecture",
+          "reference": "turn269267search0"
+        },
+        {
+          "title": "The E/E architecture of the future",
+          "url": "https://www.bosch-mobility.com/en/mobility-topics/ee-architecture/",
+          "reference": "turn269267search1"
+        },
+        {
+          "title": "2026-01-0071: Evolutionary Paths Toward Vehicle Zonal E/E Architecture: A Unified Architectural Framework - Technical Paper",
+          "url": "https://saemobilus.sae.org/papers/evolutionary-paths-toward-vehicle-zonal-e-e-architecture-a-unified-architectural-framework-2026-01-0071",
+          "reference": "turn269267search2",
+          "date": "Published: 6 months ago"
+        },
+        {
+          "title": "Central Compute and Zonal E/E Architectures in Autonomous Vehicles | Autovoltix — AutoVoltix",
+          "url": "https://autovoltix.net/en/academy/ad-29/",
+          "reference": "turn269267search3"
+        },
+        {
+          "title": "Connectivity for Next Generation E/E Architecture | TE Connectivity",
+          "url": "https://www.te.com/en/whitepapers/automotive/connectivity-for-next-gen-e-e-architecture.html",
+          "reference": "turn269267search4"
+        },
+        {
+          "title": "What Is A Zonal Architecture? An Engineer’s Guide To Zone ECUs",
+          "url": "https://auto-tech-news.com/2026/09/15/what-is-a-zonal-ee-architecture-engineers-guide/",
+          "reference": "turn269267search5",
+          "date": "Published: 3 weeks ago"
+        },
+        {
+          "title": "Zone Control Unit (ZCU) | Infineon Technologies",
+          "url": "https://www.infineon.com/application/automotive-zonal-controller",
+          "reference": "turn269267search6"
+        },
+        {
+          "title": "Software-Defined Vehicle (SDV) | Infineon Technologies",
+          "url": "https://www.infineon.com/technology/software-defined-vehicle",
+          "reference": "turn269267search7"
+        },
+        {
+          "title": "Next Generation E-E Architecture | TE Connectivity",
+          "url": "https://www.te.com/en/industries/automotive/insights/next-generation-e-e-architecture-applications.html",
+          "reference": "turn269267search8"
+        },
+        {
+          "title": "Smart vehicles at ‘China speed’: Volkswagen develops high-performance E/E architecture for electric vehicles in China with XPENG | Volkswagen Group",
+          "url": "https://www.volkswagen-group.com/en/articles/smart-vehicles-at-china-speed-volkswagen-develops-high-performance-ee-architecture-for-electric-vehicles-in-china-with-xpeng-18335",
+          "reference": "turn269267search9",
+          "date": "Published: 2.5 years ago"
+        },
+        {
+          "title": "Zonal Architecture: Wiring, Power and the Ethernet Backbone | AutomotiveGateway",
+          "url": "https://www.automotivegateway.com/articles/zonal-ee-architecture",
+          "reference": "turn269267search10"
+        },
+        {
+          "title": "Domain vs Zonal E/E Architectures Explained | GSAS",
+          "url": "https://gsasindia.com/blog/domain-vs-zonal-ee-architectures-explained",
+          "reference": "turn269267search11",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Rivian and Volkswagen Group Technologies",
+          "url": "https://en.wikipedia.org/wiki/Rivian_and_Volkswagen_Group_Technologies",
+          "reference": "turn269267search12"
+        },
+        {
+          "title": "Software Defined Vehicle",
+          "url": "https://en.wikipedia.org/wiki/Software_Defined_Vehicle",
+          "reference": "turn269267search13"
+        },
+        {
+          "title": "Renault–Nissan Common Module Family",
+          "url": "https://en.wikipedia.org/wiki/Renault%E2%80%93Nissan_Common_Module_Family",
+          "reference": "turn269267search14"
+        },
+        {
+          "title": "Plataforma SEA",
+          "url": "https://es.wikipedia.org/wiki/Plataforma_SEA",
+          "reference": "turn269267search15"
+        },
+        {
+          "title": "REE Automotive",
+          "url": "https://en.wikipedia.org/wiki/REE_Automotive",
+          "reference": "turn269267search16"
+        },
+        {
+          "title": "Sustainable Experience Architecture",
+          "url": "https://en.wikipedia.org/wiki/Sustainable_Experience_Architecture",
+          "reference": "turn269267search17"
+        },
+        {
+          "title": "10-Q - 11/12/2024 - TeraWulf Inc.",
+          "url": "https://investors.terawulf.com/sec-filings/quarterly-reports/content/0001083301-24-000147/0001083301-24-000147.pdf",
+          "reference": "turn269267search18",
+          "date": "Published: 1.9 years ago"
+        },
+        {
+          "title": "Técnicas de Autocuidado:",
+          "url": "https://www.ecuadorencifras.gob.ec/LOTAIP/2025/DIFI/noviembre/INFORMES_CZL8/5.-MANTILLA%20PE%C3%91AHERRERA%20AMADA%20GUADALUPE.pdf",
+          "reference": "turn269267search19",
+          "date": "Published: 10 months ago"
+        },
+        {
+          "title": "Instituto Nacional de Estadística y Censos",
+          "url": "https://www.ecuadorencifras.gob.ec/LOTAIP/2021/DIFI/abril/LAN_ABRIL_DIFI_InformComisCZ8/4.-%20CASTILLO%20GOMEZ%20ANDRES.pdf",
+          "reference": "turn269267search20"
+        },
+        {
+          "title": "Figure 3: I/O Vendor Partner program - architecture^37",
+          "url": "https://ec.europa.eu/competition/mergers/cases1/202520/M_10806_10624386_6538_3.pdf",
+          "reference": "turn269267search21"
+        },
+        {
+          "title": "District/off: 0971-4  User: tleyba  Page 22 of 157  Date Rcvd: Apr 21, 2009",
+          "url": "https://document.epiq11.com/document/getdocumentbycode/?docId=923415&projectCode=ATI",
+          "reference": "turn269267search22"
+        }
+      ]
+    },
+    {
+      "funnel": 0,
+      "query": "OEM vehicle API middleware OTA October 8 9 10 2026",
+      "sourceUrl": "https://www.google.com/search?q=OEM%20vehicle%20API%20middleware%20OTA%20October%208%209%2010%202026",
+      "sourceFamily": "OEM concepts",
+      "retrievalStatus": "complete",
+      "rawHitCount": 17,
+      "observedAt": "2026-10-10T03:30:09.818Z",
+      "results": [
+        {
+          "title": "High Mobility status",
+          "url": "https://status.high-mobility.com/",
+          "reference": "turn676394search0"
+        },
+        {
+          "title": "Zilogic Systems at SDV Summit 2026",
+          "url": "https://zilogic.com/blog/sdv-summit-2026.html",
+          "reference": "turn676394search1",
+          "date": "Published: 2 weeks ago"
+        },
+        {
+          "title": "Motive Retail: Data Integration & Middleware | VendorMotive",
+          "url": "https://www.vendormotive.com/vendors/motive-integrator",
+          "reference": "turn676394search2"
+        },
+        {
+          "title": "Explanation of Automotive API",
+          "url": "https://www.autosar.org/fileadmin/standards/R25-11/AP/AUTOSAR_AP_EXP_AutomotiveAPI.pdf",
+          "reference": "turn676394search12",
+          "date": "Published: last year"
+        },
+        {
+          "title": "History - Status Page - Motive",
+          "url": "https://status.gomotive.com/history",
+          "reference": "turn676394search3"
+        },
+        {
+          "title": "3.1 Mobility | ECS SRIA",
+          "url": "https://ecssria.eu/2026_3.1",
+          "reference": "turn676394search4"
+        },
+        {
+          "title": "APIs & SDKs – Developer Tools | Sibros",
+          "url": "https://sibros.tech/products/developers/apis-sdks",
+          "reference": "turn676394search5"
+        },
+        {
+          "title": "Software Platforms & OS news · SDV Sector",
+          "url": "https://sdvsector.com/topic/software-platforms-and-os",
+          "reference": "turn676394search6"
+        },
+        {
+          "title": "Otonomo: Data Integration & Middleware | VendorMotive",
+          "url": "https://www.vendormotive.com/vendors/otonomo",
+          "reference": "turn676394search7"
+        },
+        {
+          "title": "Middleware Architect at Aptiv · EchoJobs",
+          "url": "https://echojobs.io/job/aptiv-middleware-architect-wv963",
+          "reference": "turn676394search8"
+        },
+        {
+          "title": "API Portal for Automotive &amp; Connected Car | API Portal",
+          "url": "https://www.api-portal.io/en/industries/automotive",
+          "reference": "turn676394search9"
+        },
+        {
+          "title": "IoT OTA Updates API",
+          "url": "https://techdocs.akamai.com/iot-ota-updates/reference/api",
+          "reference": "turn676394search10"
+        },
+        {
+          "title": "guidance-for-automotive-data-platform-on-aws/guidance-for-telemetry-normalization/docs/ARCHITECTURE.md at main · aws-solutions-library-samples/guidance-for-automotive-data-platform-on-aws · GitHub",
+          "url": "https://github.com/aws-solutions-library-samples/guidance-for-automotive-data-platform-on-aws/blob/main/guidance-for-telemetry-normalization/docs/ARCHITECTURE.md",
+          "reference": "turn676394search11"
+        },
+        {
+          "title": "Innovation Day: Software-Defined Vehicles",
+          "url": "https://cdn.ihsmarkit.com/www/pdf/1023/Innovation-Day_Software-Defined-Vehicles_October-31_2023_Master-V2.pdf",
+          "reference": "turn676394search13",
+          "date": "Published: 2.9 years ago"
+        },
+        {
+          "title": "WHITE PAPER",
+          "url": "https://www.aptiv.com/docs/default-source/white-papers/2025_aptiv_whitepaper_middleware.pdf?sfvrsn=e3e46c36_2",
+          "reference": "turn676394search14",
+          "date": "Published: 5 months ago"
+        },
+        {
+          "title": "OTA Updates - Requirements for a",
+          "url": "https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/connects/49/1/APF-",
+          "reference": "turn676394search15",
+          "date": "Published: 5 months ago"
+        },
+        {
+          "title": "The Rise of the Software-Defined Vehicle: Architectures, Enabling Technologies, and Future Opportunities",
+          "url": "https://arxiv.org/abs/2605.30001",
+          "reference": "turn676394academia16",
+          "date": "Published: 4 months ago"
+        }
+      ]
+    },
+    {
+      "funnel": 1,
+      "query": "AAOS AUTOSAR Adaptive QNX Alloy Kore after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=AAOS%20AUTOSAR%20Adaptive%20QNX%20Alloy%20Kore%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "Platform concepts",
+      "retrievalStatus": "complete",
+      "rawHitCount": 17,
+      "observedAt": "2026-10-10T03:30:09.777Z",
+      "results": [
+        {
+          "title": "Alloy Kore | The Automotive OS Co-Developed by QNX and Vector",
+          "url": "https://alloykore.com/",
+          "reference": "turn959303search0"
+        },
+        {
+          "title": "AUTOSAR Adaptive Platform",
+          "url": "https://www.autosar.org/standards/adaptive-platform",
+          "reference": "turn959303search1"
+        },
+        {
+          "title": "QNX in Automotive - Advanced Driver Assistance Systems",
+          "url": "https://www.qnx.com/solutions/industries/automotive/driver_assistance.html?lang=en",
+          "reference": "turn959303search2"
+        },
+        {
+          "title": "Search AUTOSAR",
+          "url": "https://www.autosar.org/search",
+          "reference": "turn959303search3"
+        },
+        {
+          "title": "Standards of AUTOSAR",
+          "url": "https://www.autosar.org/standards",
+          "reference": "turn959303search4"
+        },
+        {
+          "title": "AUTOSAR (Automotive Open System Architecture)",
+          "url": "https://www.autosar.org/",
+          "reference": "turn959303search5"
+        },
+        {
+          "title": "AUTOSAR vs QNX vs Adaptive AUTOSAR: 아키텍처 및 스케줄링 비교 | Mahmoud Eltantawy님이 토픽에 대해 올림 | LinkedIn",
+          "url": "https://kr.linkedin.com/posts/mahmoud-eltantawy_classicautosar-adaptiveautosar-qnx-activity-7412787536965668864-MzrL?tl=ko",
+          "reference": "turn959303search6"
+        },
+        {
+          "title": "Agenda 2026, Day 1",
+          "url": "https://www.automotive-software-strategies-usa.com/agenda/",
+          "reference": "turn959303search7"
+        },
+        {
+          "title": "AUTOSAR Standardized Keywords",
+          "url": "https://www.autosar.org/standards/classic-platform/application-interfaces/keywords",
+          "reference": "turn959303search8"
+        },
+        {
+          "title": "벡터-QNX, 벤츠가 도입한 SDV 소프트웨어 운영 플랫폼 ‘알로이 코어’ 발표",
+          "url": "https://www.autoview.co.kr/ko-kr/articles/98692",
+          "reference": "turn959303search9",
+          "date": "Published: 8 months ago"
+        },
+        {
+          "title": "CES 2026: QNX teams up with Vector to unveil Alloy Kore | Gasgoo",
+          "url": "https://autonews.gasgoo.com/articles/news/2009297179309346817",
+          "reference": "turn959303search10",
+          "date": "Published: 9 months ago"
+        },
+        {
+          "title": "AUTOSAR Concept Roadmap & Upcoming Standards",
+          "url": "https://www.autosar.org/standards/autosar-concept-roadmap",
+          "reference": "turn959303search11"
+        },
+        {
+          "title": "AUTOSAR",
+          "url": "https://es.wikipedia.org/wiki/AUTOSAR",
+          "reference": "turn959303search12"
+        },
+        {
+          "title": "AUTOSAR",
+          "url": "https://en.wikipedia.org/wiki/AUTOSAR",
+          "reference": "turn959303search13"
+        },
+        {
+          "title": "AUTOSAR",
+          "url": "https://zh.wikipedia.org/wiki/AUTOSAR",
+          "reference": "turn959303search14"
+        },
+        {
+          "title": "QNX",
+          "url": "https://en.wikipedia.org/wiki/QNX",
+          "reference": "turn959303search15"
+        },
+        {
+          "title": "AUTOSAR",
+          "url": "https://de.wikipedia.org/wiki/AUTOSAR",
+          "reference": "turn959303search16"
+        }
+      ]
+    },
+    {
+      "funnel": 1,
+      "query": "Eclipse SDV COVESA SOAFEE October 2026 news",
+      "sourceUrl": "https://www.google.com/search?q=Eclipse%20SDV%20COVESA%20SOAFEE%20October%202026%20news",
+      "sourceFamily": "Platform concepts",
+      "retrievalStatus": "complete",
+      "rawHitCount": 16,
+      "observedAt": "2026-10-10T03:30:09.933Z",
+      "results": [
+        {
+          "title": "[sdv-wg] Eclipse SDV Members Meeting | October 5th",
+          "url": "https://www.eclipse.org/lists/sdv-wg/msg00906.html",
+          "reference": "turn362630search0",
+          "date": "Published: last week"
+        },
+        {
+          "title": "Newsroom | Soafee.io",
+          "url": "https://www.soafee.io/news/",
+          "reference": "turn362630search1"
+        },
+        {
+          "title": "Software Platforms & OS news · SDV Sector",
+          "url": "https://sdvsector.com/topic/software-platforms-and-os",
+          "reference": "turn362630search2"
+        },
+        {
+          "title": "sdv-wg Archive (Date View)",
+          "url": "https://www.eclipse.org/lists/sdv-wg/maillist.html",
+          "reference": "turn362630search3"
+        },
+        {
+          "title": "Eclipse SDV News – Press Releases & Updates",
+          "url": "https://eclipsesdv.org/news-press/",
+          "reference": "turn362630search4",
+          "date": "Published: 9 months ago"
+        },
+        {
+          "title": "Index of sdv-wg for September 2026",
+          "url": "https://www.eclipse.org/lists/sdv-wg/2026/Sep/index.html",
+          "reference": "turn362630search5"
+        },
+        {
+          "title": "Eclipse SDV – Open Source Automotive Software Platform",
+          "url": "https://eclipsesdv.org/?trk=public_post-text",
+          "reference": "turn362630search6",
+          "date": "Published: 4 months ago"
+        },
+        {
+          "title": "sdv | Eclipse News, Eclipse in the News, Eclipse Announcement",
+          "url": "https://newsroom.eclipse.org/tags/sdv",
+          "reference": "turn362630search7"
+        },
+        {
+          "title": "#sdvalliance #ces2024 #itsinourcode #softwaredefinedvehicle | Eclipse Software Defined Vehicle",
+          "url": "https://www.linkedin.com/posts/software-defined-vehicle_sdvalliance-ces2024-itsinourcode-activity-7150516694501740546-l5kf",
+          "reference": "turn362630search9"
+        },
+        {
+          "title": "Newsroom | Soafee.io",
+          "url": "https://www.soafee.io/news/?category=1",
+          "reference": "turn362630search10"
+        },
+        {
+          "title": "Eclipse SDVは「日本の自動車産業にコミットしたい」、参加を強く呼び掛け：オートモーティブワールド［秋］2026 - MONOist",
+          "url": "https://monoist.itmedia.co.jp/mn/articles/2609/28/news059.html",
+          "reference": "turn362630search11",
+          "date": "Published: last week"
+        },
+        {
+          "title": "Notes from the COVESA Software Defined Vehicle Birds of a Feather Session",
+          "url": "https://wiki.covesa.global/download/attachments/22643862/COVESA%20SdV%20BoF%2027Apr2022.pdf?api=v2&modificationDate=1652369434273&version=1",
+          "reference": "turn362630search12",
+          "date": "Published: last year"
+        },
+        {
+          "title": "Software Defined Vehicle",
+          "url": "https://eclipsesdv.org/wp-content/uploads/2025/12/Michael-Plagge-Open-Source-based-Supply-Chain-in-SDV-market.pdf",
+          "reference": "turn362630search13",
+          "date": "Published: 10 months ago"
+        },
+        {
+          "title": "Korea SDV Standardization Initiative",
+          "url": "https://eclipsesdv.org/wp-content/uploads/2025/12/Pusik-Park-Korea-Ministry-SDV-Standardization-Initiative.pdf",
+          "reference": "turn362630search14",
+          "date": "Published: 9 months ago"
+        },
+        {
+          "title": "COVESA and AUTOSAR",
+          "url": "https://wiki.covesa.global/download/attachments/64979378/2023_04_25_COVESA_AUTOSAR_Collaboration.pdf?api=v2&modificationDate=1683577354134&version=1",
+          "reference": "turn362630search16",
+          "date": "Published: 10 months ago"
+        },
+        {
+          "title": "MICHAEL NIKLAS-HÖRET",
+          "url": "https://wiki.covesa.global/download/attachments/98271360/1710_AUTOSAR%20AND%20COVESA%2016_04.pdf?api=v2&modificationDate=1713691032128&version=1",
+          "reference": "turn362630search17",
+          "date": "Published: 10 months ago"
+        }
+      ]
+    },
+    {
+      "funnel": 1,
+      "query": "automotive middleware hypervisor vehicle SDK after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=automotive%20middleware%20hypervisor%20vehicle%20SDK%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "Platform concepts",
+      "retrievalStatus": "complete",
+      "rawHitCount": 19,
+      "observedAt": "2026-10-10T03:30:09.895Z",
+      "results": [
+        {
+          "title": "Autonomous AI Solutions | NVIDIA Developer",
+          "url": "https://developer.nvidia.com/DRIVE",
+          "reference": "turn702948search0"
+        },
+        {
+          "title": "Full-Stack Safety for Robotaxis and Autonomous Vehicles | NVIDIA Halos",
+          "url": "https://www.nvidia.com/en-us/ai-trust-center/halos/autonomous-vehicles/",
+          "reference": "turn702948search1"
+        },
+        {
+          "title": "Middleware (automotive) — SDV Wiki · SDV Sector",
+          "url": "https://sdvsector.com/wiki/middleware",
+          "reference": "turn702948search2"
+        },
+        {
+          "title": "Zone-ECU Virtualization Solution Platform | Renesas",
+          "url": "https://www.renesas.com/en/applications/automotive/vehicle-control/zone-ecu-virtualization-solution-platform",
+          "reference": "turn702948search3"
+        },
+        {
+          "title": "RoX Software Development Kit | Renesas",
+          "url": "https://www.renesas.com/en/software-tool/rox-software-development-kit",
+          "reference": "turn702948search4"
+        },
+        {
+          "title": "Virtual ECU testing and automotive software | Nebula Automotive",
+          "url": "https://www.nebula-automotive.com/products",
+          "reference": "turn702948search5"
+        },
+        {
+          "title": "NVIDIA DRIVE OS | NVIDIA Developer",
+          "url": "https://developer.nvidia.com/drive/os",
+          "reference": "turn702948search6"
+        },
+        {
+          "title": "Scalable service-Oriented MiddlewarE over IP (SOME/IP)",
+          "url": "https://some-ip.com/details.shtml",
+          "reference": "turn702948search7"
+        },
+        {
+          "title": "RoX Whitebox | Renesas",
+          "url": "https://www.renesas.com/en/software-tool/rox-whitebox",
+          "reference": "turn702948search8"
+        },
+        {
+          "title": "Snapdragon Digital Chassis | Snapdragon | Automotive",
+          "url": "https://www.qualcomm.com/automotive/solutions/snapdragon-digital-chassis",
+          "reference": "turn702948search9"
+        },
+        {
+          "title": "Scalable service-Oriented MiddlewarE over IP (SOME/IP)",
+          "url": "https://some-ip.com/?trk=article-ssr-frontend-pulse_little-text-block",
+          "reference": "turn702948search10"
+        },
+        {
+          "title": "Expansion of Snapdragon Ride Platform | Connectivity & Processing | Qualcomm",
+          "url": "https://www.qualcomm.com/news/releases/2021/01/qualcomm-announces-expansion-scalable-snapdragon-ride-platform-portfolio",
+          "reference": "turn702948search11",
+          "date": "Published: 5.7 years ago"
+        },
+        {
+          "title": "COVESA",
+          "url": "https://en.wikipedia.org/wiki/COVESA",
+          "reference": "turn702948search12"
+        },
+        {
+          "title": "AUTOSAR",
+          "url": "https://en.wikipedia.org/wiki/AUTOSAR",
+          "reference": "turn702948search13"
+        },
+        {
+          "title": "SmartDeviceLink",
+          "url": "https://en.wikipedia.org/wiki/SmartDeviceLink",
+          "reference": "turn702948search14"
+        },
+        {
+          "title": "OSEK",
+          "url": "https://en.wikipedia.org/wiki/OSEK",
+          "reference": "turn702948search15"
+        },
+        {
+          "title": "LynxSecure",
+          "url": "https://en.wikipedia.org/wiki/LynxSecure",
+          "reference": "turn702948search16"
+        },
+        {
+          "title": "Scalable Service-Oriented Middleware over IP",
+          "url": "https://de.wikipedia.org/wiki/Scalable_Service-Oriented_Middleware_over_IP",
+          "reference": "turn702948search17"
+        },
+        {
+          "title": "SB 495                                                                 6",
+          "url": "https://kslegislature.gov/b2025_26/bills/download/?apn=b2025_26%2Fyear2%2Fready_for_publication%2Fsb_495%2Fsb495_00_0000.pdf",
+          "reference": "turn702948search18",
+          "date": "Published: 8 months ago"
+        }
+      ]
+    },
+    {
+      "funnel": 2,
+      "query": "Bosch Continental Aptiv automotive software zonal after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=Bosch%20Continental%20Aptiv%20automotive%20software%20zonal%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "Tier1 concepts",
+      "retrievalStatus": "complete",
+      "rawHitCount": 17,
+      "observedAt": "2026-10-10T03:30:09.972Z",
+      "results": [
+        {
+          "title": "Advanced Compute | Aptiv",
+          "url": "https://www.aptiv.com/en/solutions/advanced-compute",
+          "reference": "turn116475search0"
+        },
+        {
+          "title": "Software-driven transportation",
+          "url": "https://www.bosch-mobility.com/en/mobility-topics/software-driven-transportation/",
+          "reference": "turn116475search1"
+        },
+        {
+          "title": "Body electronics | Bosch Engineering",
+          "url": "https://www.bosch-engineering.com/services/mobility-solutions/body-and-comfort/body-electronics/",
+          "reference": "turn116475search2"
+        },
+        {
+          "title": "Software & Services | Aptiv",
+          "url": "https://www.aptiv.com/en/solutions/software-and-services",
+          "reference": "turn116475search3"
+        },
+        {
+          "title": "The E/E architecture of the future",
+          "url": "https://www.bosch-mobility.com/en/mobility-topics/ee-architecture/",
+          "reference": "turn116475search4"
+        },
+        {
+          "title": "Vehicle Motion Management",
+          "url": "https://www.bosch-mobility.com/en/solutions/software/vehicle-motion-management/",
+          "reference": "turn116475search5"
+        },
+        {
+          "title": "Middleware & DevOps | Aptiv",
+          "url": "https://www.aptiv.com/en/solutions/software-and-services/middleware",
+          "reference": "turn116475search6"
+        },
+        {
+          "title": "Digital Cockpit | Aptiv",
+          "url": "https://www.aptiv.com/en/solutions/digital-cockpit",
+          "reference": "turn116475search7"
+        },
+        {
+          "title": "ETAS | Driving innovation in automotive software",
+          "url": "https://www.etas.com/ww/en/",
+          "reference": "turn116475search8"
+        },
+        {
+          "title": "What Is a Zone Controller?",
+          "url": "https://www.aptiv.com/en/insights/article/what-is-a-zone-controller",
+          "reference": "turn116475search9",
+          "date": "Published: 5.7 years ago"
+        },
+        {
+          "title": "Automotive Zonal Architecture & Domain Controller Market, 2035",
+          "url": "https://www.gminsights.com/industry-analysis/automotive-zonal-architecture-domain-controller-market",
+          "reference": "turn116475search10",
+          "date": "Published: 2 months ago"
+        },
+        {
+          "title": "SDV portfolio",
+          "url": "https://www.bosch-mobility.com/en/mobility-topics/sdv-portfolio/",
+          "reference": "turn116475search11"
+        },
+        {
+          "title": "Электронная система контроля устойчивости автомобиля",
+          "url": "https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F_%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B8_%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+          "reference": "turn116475search12"
+        },
+        {
+          "title": "10-Q - 11/02/2023 - Aurora Innovation, Inc.",
+          "url": "https://ir.aurora.tech/sec-filings/all-sec-filings/content/0001828108-23-000219/0001828108-23-000219.pdf",
+          "reference": "turn116475search13",
+          "date": "Published: 2.9 years ago"
+        },
+        {
+          "title": "learning false positives.” The general guidance now reads “…camera blinding, and excitation…” rather than “…camera blinding, or excitation….” NHTSA agrees with NMFTA’s comment that the use of “or” rather than “and” incorrectly suggests that manufacturers could focus on any one of the presented spoofing issues rather than considering all the spoofing issues.",
+          "url": "https://public-inspection.federalregister.gov/2022-19507.pdf",
+          "reference": "turn116475search14"
+        },
+        {
+          "title": "Aptiv",
+          "url": "https://en.wikipedia.org/wiki/Aptiv",
+          "reference": "turn116475search15"
+        },
+        {
+          "title": "Liste der größten Automobilzulieferer",
+          "url": "https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Automobilzulieferer",
+          "reference": "turn116475search16"
+        }
+      ]
+    },
+    {
+      "funnel": 2,
+      "query": "NXP Qualcomm NVIDIA automotive central compute after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=NXP%20Qualcomm%20NVIDIA%20automotive%20central%20compute%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "Tier1 concepts",
+      "retrievalStatus": "complete",
+      "rawHitCount": 19,
+      "observedAt": "2026-10-10T03:30:10.237Z",
+      "results": [
+        {
+          "title": "In-Vehicle Computing for Robotaxis and Autonomous Vehicles | NVIDIA",
+          "url": "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/in-vehicle-computing/",
+          "reference": "turn593486search0"
+        },
+        {
+          "title": "Qualcomm and HARMAN Collaborate to Advance Generative AI in Automotive | Qualcomm",
+          "url": "https://www.qualcomm.com/news/releases/2025/09/qualcomm-and-harman-collaborate-to-advance-generative-ai-in-auto",
+          "reference": "turn593486search1",
+          "date": "Published: 1.1 years ago"
+        },
+        {
+          "title": "S32N5 Vehicle Super-Integration Processor",
+          "url": "https://www.nxp.com/products/S32N5?tid=vanS32N55",
+          "reference": "turn593486search2"
+        },
+        {
+          "title": "BlueBox 3.0 Automotive High-Performance Compute (AHPC) Development Platform",
+          "url": "https://www.nxp.com/design/design-center/development-boards-and-designs/BlueBox?tid=vanBlueBox",
+          "reference": "turn593486search3"
+        },
+        {
+          "title": "NVIDIA and MediaTek Deepen Long-Standing Partnership to Build AI Edge to Cloud Computing Platforms | NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms?ncid=so-twit-324181",
+          "reference": "turn593486search4",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Robotaxis, Autonomous Vehicles & Self-Driving Cars | NVIDIA",
+          "url": "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/",
+          "reference": "turn593486search5"
+        },
+        {
+          "title": "Autonomous AI Solutions | NVIDIA Developer",
+          "url": "https://developer.nvidia.com/DRIVE",
+          "reference": "turn593486search6"
+        },
+        {
+          "title": "Introduction - NVIDIA Docs",
+          "url": "https://docs.nvidia.com/self-driving-cars/autonomous-driving-safety-report/index.html",
+          "reference": "turn593486search7",
+          "date": "Published: 1.6 years ago"
+        },
+        {
+          "title": "CES 2026 Press Kit",
+          "url": "https://www.qualcomm.com/news/press-kits/ces-2026-press-kit",
+          "reference": "turn593486search8"
+        },
+        {
+          "title": "NVIDIA DRIVE OS | NVIDIA Developer",
+          "url": "https://developer.nvidia.com/drive/os",
+          "reference": "turn593486search9"
+        },
+        {
+          "title": "Qualcomm Unveils Snapdragon Ride Flex – the Automotive Industry’s First Scalable Family of SoCs to Simultaneously Support Digital Cockpit and Advanced Driver Assistance Systems | Qualcomm",
+          "url": "https://www.qualcomm.com/news/releases/2023/01/qualcomm-unveils-snapdragon-ride-flex---the-automotive-industry-",
+          "reference": "turn593486search10",
+          "date": "Published: 3.8 years ago"
+        },
+        {
+          "title": "Qualcomm Automotive Technologies | Connected Intelligent Car Solutions | Qualcomm",
+          "url": "https://www.qualcomm.com/automotive",
+          "reference": "turn593486search11"
+        },
+        {
+          "title": "Micron Technology, Inc.;",
+          "url": "https://public-inspection.federalregister.gov/2025-00711.pdf?1736948727=",
+          "reference": "turn593486search12"
+        },
+        {
+          "title": "NXP Semiconductors",
+          "url": "https://en.wikipedia.org/wiki/NXP_Semiconductors",
+          "reference": "turn593486search13"
+        },
+        {
+          "title": "Form SCHEDULE 13G/A for NXP Semiconductors NV filed 10/07/2026",
+          "url": "https://investors.nxp.com/static-files/2a24caac-40cd-4900-bab0-21052a9b57d0",
+          "reference": "turn593486search14",
+          "date": "Published: 2 days ago"
+        },
+        {
+          "title": "Qualcomm",
+          "url": "https://en.wikipedia.org/wiki/Qualcomm",
+          "reference": "turn593486search15"
+        },
+        {
+          "title": "Nio Inc.",
+          "url": "https://en.wikipedia.org/wiki/Nio_Inc.",
+          "reference": "turn593486search16"
+        },
+        {
+          "title": "Arm Cortex-A",
+          "url": "https://de.wikipedia.org/wiki/Arm_Cortex-A",
+          "reference": "turn593486search17"
+        },
+        {
+          "title": "1. **THE PARTIES AND THE OPERATION**",
+          "url": "https://ec.europa.eu/competition/mergers/cases1/202516/M_11766_10599589_2740_3.pdf",
+          "reference": "turn593486search18"
+        }
+      ]
+    },
+    {
+      "funnel": 2,
+      "query": "automotive Ethernet cockpit SDV semiconductor October 8 9 10 2026",
+      "sourceUrl": "https://www.google.com/search?q=automotive%20Ethernet%20cockpit%20SDV%20semiconductor%20October%208%209%2010%202026",
+      "sourceFamily": "Tier1 concepts",
+      "retrievalStatus": "complete",
+      "rawHitCount": 19,
+      "observedAt": "2026-10-10T03:30:09.807Z",
+      "results": [
+        {
+          "title": "Agenda · SDV Summit 2026",
+          "url": "https://www.sdvsummit.com/agenda",
+          "reference": "turn819720search0"
+        },
+        {
+          "title": "SDV & Digital Cockpit Summit 2026 - Rn Embedded Solution",
+          "url": "https://rnembedded.com/events/sdv-digital-cockpit-summit-2026/",
+          "reference": "turn819720search1"
+        },
+        {
+          "title": "SDV Summit 2026 · Code. Connect. Drive.",
+          "url": "https://www.sdvsummit.com/?trk=public_post_main-feed-card_reshare-text",
+          "reference": "turn819720search2"
+        },
+        {
+          "title": "#sdvsummit2026 #sdv #softwaredefinedvehicle #automotivetechnology #automotiveinnovation #futureofmobility #digitalcockpit #connectedvehicles #automotivesoftware #mobilitytech | SDV & Digital Cockpit Summit",
+          "url": "https://www.linkedin.com/posts/sdv-summit_sdvsummit2026-sdv-softwaredefinedvehicle-activity-7495698596672024576-d54o",
+          "reference": "turn819720search3"
+        },
+        {
+          "title": "#sdvsummit2026 #sdv #softwaredefinedvehicle #automotivetechnology #automotiveinnovation #futureofmobility #digitalcockpit #connectedvehicles #automotivesoftware #mobilitytech | SDV & Digital Cockpit Summit",
+          "url": "https://www.linkedin.com/posts/sdv-summit_sdvsummit2026-sdv-softwaredefinedvehicle-activity-7504101796315881472-ZMrA",
+          "reference": "turn819720search4"
+        },
+        {
+          "title": "#sdvsummit2026 #sdv #softwaredefinedvehicle #automotivetechnology #automotiveinnovation #futureofmobility #digitalcockpit #connectedvehicles #automotivesoftware #mobilitytech | SDV & Digital Cockpit Summit",
+          "url": "https://www.linkedin.com/posts/sdv-summit_sdvsummit2026-sdv-softwaredefinedvehicle-activity-7495074710708367360-k__W",
+          "reference": "turn819720search5"
+        },
+        {
+          "title": "SDV & Digital Cockpit Summit | LinkedIn",
+          "url": "https://www.linkedin.com/company/sdv-summit",
+          "reference": "turn819720search6"
+        },
+        {
+          "title": "Zilogic Systems at SDV Summit 2026",
+          "url": "https://www.zilogic.com/blog/sdv-summit-2026.html",
+          "reference": "turn819720search7",
+          "date": "Published: last week"
+        },
+        {
+          "title": "#sdvsummit2026 #sdv #softwaredefinedvehicle #automotivetechnology #automotiveinnovation #futureofmobility #digitalcockpit #connectedvehicles #automotivesoftware #mobilitytech | SDV & Digital Cockpit Summit",
+          "url": "https://www.linkedin.com/posts/activity-7495713676935610368-v5fi",
+          "reference": "turn819720search8"
+        },
+        {
+          "title": "sdv-wg Archive (Date View)",
+          "url": "https://www.eclipse.org/lists/sdv-wg/maillist.html",
+          "reference": "turn819720search9"
+        },
+        {
+          "title": "IEEE SA - Ethernet & IP @ Automotive Technology Day",
+          "url": "https://standards.ieee.org/events/automotive/",
+          "reference": "turn819720search10"
+        },
+        {
+          "title": "車載Ethernet2026 | 半導体ソリューション | 東京エレクトロンデバイス",
+          "url": "https://www.teldevice.co.jp/semiconductor/event/nxp-26-07-28/",
+          "reference": "turn819720search11"
+        },
+        {
+          "title": "LAUNCHING FIRST RENAULT SDV IN 2026",
+          "url": "https://standards.ieee.org/wp-content/uploads/2025/10/D1_01_KEYNOTE-_2025_TECHDAY_V4.2_FINAL.pdf",
+          "reference": "turn819720search12",
+          "date": "Published: 11 months ago"
+        },
+        {
+          "title": "PowerPoint-Präsentation",
+          "url": "https://www.autoforschung.de/download/CAM_Accenture_Software-Defined-Future_Report-2026_v1.02.pdf",
+          "reference": "turn819720search13",
+          "date": "Published: 5 months ago"
+        },
+        {
+          "title": "Know-how für Entwickler",
+          "url": "https://wfm-publish.blaetterkatalog.de/frontend/catalogs/1253809/3/pdf/complete_print.pdf",
+          "reference": "turn819720search14",
+          "date": "Published: 5 months ago"
+        },
+        {
+          "title": "25 MARCH 2026 I Day 2",
+          "url": "https://cdn.componeers.net/wes/AEC26-Programme.pdf",
+          "reference": "turn819720search15",
+          "date": "Published: 5 months ago"
+        },
+        {
+          "title": "25-3141-ASMPT Titelflappe Messezeitung productronica_innen_5mm_oben_links_unten_251030.indd",
+          "url": "https://wfm-publish.blaetterkatalog.de/frontend/catalogs/1176731/2/pdf/complete.pdf",
+          "reference": "turn819720search16",
+          "date": "Published: 11 months ago"
+        },
+        {
+          "title": "The Rise of the Software-Defined Vehicle: Architectures, Enabling Technologies, and Future Opportunities",
+          "url": "https://arxiv.org/abs/2605.30001",
+          "reference": "turn819720academia17",
+          "date": "Published: 4 months ago"
+        },
+        {
+          "title": "OPEN Alliance SIG",
+          "url": "https://en.wikipedia.org/wiki/OPEN_Alliance_SIG",
+          "reference": "turn819720search18"
+        }
+      ]
+    },
+    {
+      "funnel": 3,
+      "query": "AWS Azure automotive virtual ECU after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=AWS%20Azure%20automotive%20virtual%20ECU%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "Cloud development",
+      "retrievalStatus": "complete",
+      "rawHitCount": 12,
+      "observedAt": "2026-10-10T03:30:09.932Z",
+      "results": [
+        {
+          "title": "Cloud Solutions for Automotive Industry - Cloud Computing - AWS",
+          "url": "https://aws.amazon.com/automotive/",
+          "reference": "turn618104search0"
+        },
+        {
+          "title": "Simulation platform - Guidance for Connected Mobility on AWS",
+          "url": "https://docs.aws.amazon.com/guidance/latest/connected-mobility-on-aws/simulation-platform.html",
+          "reference": "turn618104search1"
+        },
+        {
+          "title": "Solutions on AWS for Automotive",
+          "url": "https://aws.amazon.com/solutions/automotive/",
+          "reference": "turn618104search2"
+        },
+        {
+          "title": "Infineon launches cloud-based virtual platform powered | Infineon Technologies",
+          "url": "https://www.infineon.com/technology-news/2026/infatv202606-112",
+          "reference": "turn618104search3",
+          "date": "Published: 3 months ago"
+        },
+        {
+          "title": "Identity and access management - Connected Mobility Lens",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/connected-mobility-lens/identity-and-access-management.html",
+          "reference": "turn618104search4"
+        },
+        {
+          "title": "AWS Connected Vehicle Reference Architecture - AWS Connected Vehicle Reference Architecture",
+          "url": "https://docs.aws.amazon.com/reference-architecture-diagrams/latest/aws-connected-vehicle/aws-connected-vehicle.html",
+          "reference": "turn618104search6",
+          "date": "Published: 2.7 years ago"
+        },
+        {
+          "title": "product-engineering",
+          "url": "https://aws.amazon.com/automotive/product-engineering/?trk=article-ssr-frontend-pulse_little-text-block",
+          "reference": "turn618104search7"
+        },
+        {
+          "title": "Amazon Automotive",
+          "url": "https://developer.amazon.com/automotive",
+          "reference": "turn618104search8"
+        },
+        {
+          "title": "Vehicle simulator - Guidance for Connected Mobility on AWS",
+          "url": "https://docs.aws.amazon.com/id_id/guidance/latest/connected-mobility-on-aws/vehicle-simulator-section.html",
+          "reference": "turn618104search9"
+        },
+        {
+          "title": "IA generativa para el sector automotriz",
+          "url": "https://aws.amazon.com.cdn.amazon.com/es/automotive/automotive-generative-ai/",
+          "reference": "turn618104search10"
+        },
+        {
+          "title": "Guidance for In-Vehicle AI Assistant",
+          "url": "https://docs.aws.amazon.com/solutions/in-vehicle-ai-assistant-on-aws/?did=sl_card&trk=sl_card",
+          "reference": "turn618104search11"
+        },
+        {
+          "title": "10-K - 05/22/2025 - Dynatrace, Inc.",
+          "url": "https://ir.dynatrace.com/sec-filings/all-sec-filings/content/0001773383-25-000065/0001773383-25-000065.pdf",
+          "reference": "turn618104search12",
+          "date": "Published: 1.4 years ago"
+        }
+      ]
+    },
+    {
+      "funnel": 3,
+      "query": "automotive SIL HIL CI/CD digital twin October 8 9 10 2026",
+      "sourceUrl": "https://www.google.com/search?q=automotive%20SIL%20HIL%20CI%2FCD%20digital%20twin%20October%208%209%2010%202026",
+      "sourceFamily": "Cloud development",
+      "retrievalStatus": "complete",
+      "rawHitCount": 16,
+      "observedAt": "2026-10-10T03:30:09.817Z",
+      "results": [
+        {
+          "title": "Agenda · SDV Summit 2026",
+          "url": "https://www.sdvsummit.com/agenda",
+          "reference": "turn898399search0"
+        },
+        {
+          "title": "Session List｜2026 JSAE Congress (Autumn)",
+          "url": "https://www.gakkai-web.net/jsae/a/2026/program/data/en/program.html",
+          "reference": "turn898399search1"
+        },
+        {
+          "title": "SDV Summit 2026 · Code. Connect. Drive.",
+          "url": "https://www.sdvsummit.com/?trk=public_post_main-feed-card_reshare-text",
+          "reference": "turn898399search2"
+        },
+        {
+          "title": "Speakers · SDV Summit 2026",
+          "url": "https://www.sdvsummit.com/speakers",
+          "reference": "turn898399search3"
+        },
+        {
+          "title": "dSPACE UC India 2026 - dSPACE",
+          "url": "https://www.dspace.com/en/pub/home/company/events/dspace_events/dspace-uc-india-2026.cfm",
+          "reference": "turn898399search4"
+        },
+        {
+          "title": "Software-in-the-Loop: Wie SIL im SDV skaliert",
+          "url": "https://www.all-electronics.de/veranstaltungen-automobil-elektronik-kongress/software-in-the-loop-wird-zur-plattform-fuer-das-sdv/2744775",
+          "reference": "turn898399search5",
+          "date": "Published: 3 days ago"
+        },
+        {
+          "title": "Meet Cyient at Eliv 2026 | Book a Meeting Today",
+          "url": "https://www.cyient.com/events/eliv-2026",
+          "reference": "turn898399search6"
+        },
+        {
+          "title": "HiL as the Hub | AVL",
+          "url": "https://www.avl.com/en/webinars/hil-hub",
+          "reference": "turn898399search7"
+        },
+        {
+          "title": "EUCAD Symposium 2026, Geneva (8-9 Oct 2026) | Horizon Europe",
+          "url": "https://horizoneurope.ie/event/eucad-symposium-2026-geneva-8-9-oct-2026",
+          "reference": "turn898399search8"
+        },
+        {
+          "title": "Software-defined vehicle DevOps toolchain - Microsoft for Mobility reference architecture | Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/industry/mobility/architecture/software-defined-vehicle-reference-architecture-content",
+          "reference": "turn898399search9"
+        },
+        {
+          "title": "Panel Discussion: Closed-Loop Physics & Actuation-Bridging High-Fidelity Vehicle Dynamics with SIL/HIL Architectures - Automotive Testing Expo NA 2026 NEW",
+          "url": "https://testingexpo-usa.com/vtna26-vehicle-testing-conference/panel-discussion-closed-loop-physics-actuation-bridging-high-fidelity-vehicle-dynamics-with-sil/hil-architectures",
+          "reference": "turn898399search10"
+        },
+        {
+          "title": "Software-in-the-Loop (SIL) skalieren: Architektur & Tests | HDT",
+          "url": "https://www.hdt.de/software-in-the-loop-2026-vv00014/",
+          "reference": "turn898399search11"
+        },
+        {
+          "title": "1st Congress Day",
+          "url": "https://www.vdiconference.com/fileadmin/VDI_Wissensforum/Veranstaltungen/Highlights/ELIV/Programm/ELIV_2025.pdf",
+          "reference": "turn898399search13",
+          "date": "Published: 1.3 years ago"
+        },
+        {
+          "title": "applied sciencesMDPIPerspective",
+          "url": "https://www.diva-portal.org/smash/get/diva2%3A1992751/FULLTEXT01.pdf",
+          "reference": "turn898399search14",
+          "date": "Published: 6 months ago"
+        },
+        {
+          "title": "CD-TWINSAFE: A ROS-enabled Digital Twin for Scene Understanding and Safety Emerging V2I Technology",
+          "url": "https://arxiv.org/abs/2601.12373",
+          "reference": "turn898399academia15",
+          "date": "Published: 8 months ago"
+        },
+        {
+          "title": "Engineering Automotive Digital Twins on Standardized Architectures: A Case Study",
+          "url": "https://arxiv.org/abs/2508.18662",
+          "reference": "turn898399academia16",
+          "date": "Published: 1.1 years ago"
+        }
+      ]
+    },
+    {
+      "funnel": 3,
+      "query": "Android Automotive QNX vehicle development October 2026 news",
+      "sourceUrl": "https://www.google.com/search?q=Android%20Automotive%20QNX%20vehicle%20development%20October%202026%20news",
+      "sourceFamily": "Cloud development",
+      "retrievalStatus": "complete",
+      "rawHitCount": 20,
+      "observedAt": "2026-10-10T03:30:09.832Z",
+      "results": [
+        {
+          "title": "Stellantis CEO says Wayve tie-up can cut self-driving costs, development time",
+          "url": "https://www.reuters.com/business/autos-transportation/stellantis-ceo-says-wayve-tie-up-can-cut-self-driving-costs-development-time-2026-10-09/",
+          "reference": "turn205565news12",
+          "date": "Published: today"
+        },
+        {
+          "title": "QNX and neueHCT Join Forces to Accelerate Global Intelligent Driving Deployment",
+          "url": "https://qnx.software/en/press-release/2026/qnx-and-neuehct-join-forces-to-accelerate-global-intelligent-driving-deployment",
+          "reference": "turn205565search0",
+          "date": "Published: last week"
+        },
+        {
+          "title": "BlackBerry lifts annual revenue forecast on strength in automotive software business",
+          "url": "https://www.reuters.com/business/blackberry-lifts-annual-revenue-forecast-strength-automotive-software-business-2026-09-24/",
+          "reference": "turn205565news13",
+          "date": "Published: 2 weeks ago"
+        },
+        {
+          "title": "Press Releases",
+          "url": "https://qnx.software/en/press-release",
+          "reference": "turn205565search1"
+        },
+        {
+          "title": "QNX at CES 2026",
+          "url": "https://qnx.software/en/events/2026/ces",
+          "reference": "turn205565search2"
+        },
+        {
+          "title": "QNX Technology to Power BMW Group's Next-Gen SDVs",
+          "url": "https://qnx.software/en/press-release/2026/qnx-technology-to-help-drive-bmw-group-s-next-generation-of-software-defined-vehicles",
+          "reference": "turn205565search3",
+          "date": "Published: 9 months ago"
+        },
+        {
+          "title": "BlackBerry lifts annual revenue forecast as QNX unit powers growth, shares rise",
+          "url": "https://www.reuters.com/world/americas/blackberry-lifts-annual-revenue-forecast-qnx-unit-powers-growth-2026-06-25/",
+          "reference": "turn205565news15",
+          "date": "Published: 3 months ago"
+        },
+        {
+          "title": "PRODUCT BRIEF",
+          "url": "https://blackberry.qnx.com/content/dam/qnx/products/bts-digital-cockpits-product-brief.pdf",
+          "reference": "turn205565search16",
+          "date": "Published: 11 months ago"
+        },
+        {
+          "title": "How QNX is Defining the Software-Defined Future",
+          "url": "https://qnx.software/en/blog/2026/qnx-at-ces-2026-highlights",
+          "reference": "turn205565search4",
+          "date": "Published: 8 months ago"
+        },
+        {
+          "title": "QNX and Vector's Alloy Kore Attracts Mercedes-Benz in Push Toward Accelerating SDV Development | Nasdaq",
+          "url": "https://www.nasdaq.com/press-release/qnx-and-vectors-alloy-kore-attracts-mercedes-benz-push-toward-accelerating-sdv",
+          "reference": "turn205565search5",
+          "date": "Published: 9 months ago"
+        },
+        {
+          "title": "QNX BlackBerry: il sistema operativo dentro 275 milioni di auto - Quotidiano Motori",
+          "url": "https://www.quotidianomotori.com/automobili/qnx-blackberry-sistema-operativo-auto-costruttori/",
+          "reference": "turn205565search6",
+          "date": "Published: last month"
+        },
+        {
+          "title": "QNX Automotive Overview",
+          "url": "https://www.qnx.co.jp/news/events/ktic/en/archive/automotive_en.pdf",
+          "reference": "turn205565search17",
+          "date": "Published: 5 months ago"
+        },
+        {
+          "title": "TECHForum Korea",
+          "url": "https://blackberry.qnx.com/content/dam/blackberry-qnx-com/en/events/korea-techforum-agenda.pdf",
+          "reference": "turn205565search18",
+          "date": "Published: 11 months ago"
+        },
+        {
+          "title": "Survey: QNX Finds Challenges, Openings in SDV Work - Mobility Engineering Technology",
+          "url": "https://www.mobilityengineeringtech.com/component/content/article/53979-survey-qnx-finds-challenges-openings-in-sdv-work",
+          "reference": "turn205565search7",
+          "date": "Published: 8 months ago"
+        },
+        {
+          "title": "CES 2026: From Software to AI-Defined on Wheels",
+          "url": "https://www.frost.com/growth-opportunity-news/mobility-automotive-transportation/digital-software/ces-2026-from-software-to-ai-defined-on-wheels/",
+          "reference": "turn205565search8",
+          "date": "Published: 8 months ago"
+        },
+        {
+          "title": "CES 2026: QNX teams up with Vector to unveil Alloy Kore | Gasgoo",
+          "url": "https://autonews.gasgoo.com/articles/news/2009297179309346817",
+          "reference": "turn205565search9",
+          "date": "Published: 9 months ago"
+        },
+        {
+          "title": "Perspectives on Automotive Operating Systems: Android, QNX, AUTOSAR",
+          "url": "https://www.itechguides.com/perspectives-on-automotive-operating-systems-why-cars-use-many-platforms-not-one/",
+          "reference": "turn205565search10",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Comparison: Android Automotive 15 vs QNX 8.0 for 2026 Car Infotainment — johal.in",
+          "url": "https://www.johal.in/comparison-android-automotive-15-vs-qnx-80-2026-comparison",
+          "reference": "turn205565search11",
+          "date": "Published: 5 months ago"
+        },
+        {
+          "title": "Android Automotive",
+          "url": "https://en.wikipedia.org/wiki/Android_Automotive",
+          "reference": "turn205565search20"
+        },
+        {
+          "title": "QNX and neueHCT Join Forces to Accelerate Global Intelligent Driving Deployment, Anchored by Major German Automaker Program Win",
+          "url": "https://www.reddit.com/r/BB_Stock/comments/1wsx3o8/qnx_and_neuehct_join_forces_to_accelerate_global/",
+          "reference": "turn205565reddit21",
+          "date": "Published: last week"
+        }
+      ]
+    },
+    {
+      "funnel": 4,
+      "query": "UNECE R155 R156 ISO 21434 24089 after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=UNECE%20R155%20R156%20ISO%2021434%2024089%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "Regulation security",
+      "retrievalStatus": "complete",
+      "rawHitCount": 20,
+      "observedAt": "2026-10-10T03:30:09.843Z",
+      "results": [
+        {
+          "title": "UN Regulation No. 155 - Cyber security and cyber security management system | UNECE",
+          "url": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security",
+          "reference": "turn308367search0"
+        },
+        {
+          "title": "ISO/SAE 21434:2021 - Road vehicles — Cybersecurity engineering",
+          "url": "https://www.iso.org/standard/70918.html",
+          "reference": "turn308367search1",
+          "date": "Published: 5.1 years ago"
+        },
+        {
+          "title": "Documents de référence | UNECE",
+          "url": "https://unece.org/fr/documents-de-reference",
+          "reference": "turn308367search2"
+        },
+        {
+          "title": "Cyber Security and Software Updating - Vehicle Certification Agency",
+          "url": "https://www.vehicle-certification-agency.gov.uk/connected-and-automated-vehicles/cyber-security-and-software-updating/",
+          "reference": "turn308367search3"
+        },
+        {
+          "title": "Download Documents for GRVA workshop on the implementation of UNR 155/156 (Cybersecurity and software updates) | UNECE",
+          "url": "https://unece.org/media/documents-download/events/402579",
+          "reference": "turn308367search4"
+        },
+        {
+          "title": "Vehicle Cybersecurity Tools India | UNECE R155 R156",
+          "url": "https://gsasindia.com/compliance/unece-r155-r156",
+          "reference": "turn308367search5"
+        },
+        {
+          "title": "GRVA workshop on the implementation of UNR 155/156 (Cybersecurity and software updates) | UNECE",
+          "url": "https://unece.org/transport/events/grva-workshop-implementation-unr-155156-cybersecurity-and-software-updates",
+          "reference": "turn308367search6",
+          "date": "Published: 1.4 years ago"
+        },
+        {
+          "title": "Technical service for road vehicle cybersecurity, UNECE R155, R156, ISO/SAE 21434, ISO 24089 | RISE",
+          "url": "https://www.ri.se/en/cybersecurity/service/technical-service-for-road-vehicle-cybersecurity-unece-r155-r156-isosae-21434",
+          "reference": "turn308367search7"
+        },
+        {
+          "title": "Reference documents | UNECE",
+          "url": "https://unece.org/ru/node/352050",
+          "reference": "turn308367search8"
+        },
+        {
+          "title": "ISO/SAE 21434, UN R155 and R156: automotive cyber | spilma",
+          "url": "https://www.spilma.com/en/guides/iso-21434-unece-r155-r156-automotive-cyber?trk=article-ssr-frontend-pulse_little-text-block",
+          "reference": "turn308367search9"
+        },
+        {
+          "title": "Vägtrafik- och fordonsfrågor (Betänkande 2025/26:TU9 Trafikutskottet) | Sveriges riksdag",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/vagtrafik-och-fordonsfragor_hd01tu9/html/",
+          "reference": "turn308367search10",
+          "date": "Published: 8 months ago"
+        },
+        {
+          "title": "(WP.29/GRVA) Working Party on Automated/Autonomous and Connected Vehicles (18th session) | UNECE",
+          "url": "https://unece.org/info/events/event/384684",
+          "reference": "turn308367search11"
+        },
+        {
+          "title": "UNECE R 156",
+          "url": "https://de.wikipedia.org/wiki/UNECE_R_156",
+          "reference": "turn308367search12"
+        },
+        {
+          "title": "ISO/SAE 21434",
+          "url": "https://de.wikipedia.org/wiki/ISO/SAE_21434",
+          "reference": "turn308367search13"
+        },
+        {
+          "title": "UNECE R 155",
+          "url": "https://de.wikipedia.org/wiki/UNECE_R_155",
+          "reference": "turn308367search14"
+        },
+        {
+          "title": "Information security standards",
+          "url": "https://en.wikipedia.org/wiki/Information_security_standards",
+          "reference": "turn308367search15"
+        },
+        {
+          "title": "Véhicule connecté",
+          "url": "https://fr.wikipedia.org/wiki/V%C3%A9hicule_connect%C3%A9",
+          "reference": "turn308367search16"
+        },
+        {
+          "title": "UNECE R 155",
+          "url": "https://zh.wikipedia.org/wiki/UNECE_R_155",
+          "reference": "turn308367search17"
+        },
+        {
+          "title": "For example, one commenter stated that NHTSA should add references to the NIST cryptography standards to supplement technical practice [T.4]29, dealing with cryptographic credentials. NHTSA decided that this modification met the criteria described above, and the agency adopted this suggestion by adding a technical practice [T.3] and a reference to NIST’s Federal Information Processing Standards (FIPS) 140 Series. The FIPS 140 series is a set of documents updated by NIST that describes minimum standards for cryptography.",
+          "url": "https://public-inspection.federalregister.gov/2022-19507.pdf",
+          "reference": "turn308367search18"
+        },
+        {
+          "title": "D011E050",
+          "url": "https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000002313837",
+          "reference": "turn308367search19",
+          "date": "Published: 24.2 years ago"
+        }
+      ]
+    },
+    {
+      "funnel": 4,
+      "query": "vehicle cybersecurity software update regulation after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=vehicle%20cybersecurity%20software%20update%20regulation%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "Regulation security",
+      "retrievalStatus": "complete",
+      "rawHitCount": 20,
+      "observedAt": "2026-10-10T03:30:09.934Z",
+      "results": [
+        {
+          "title": "Cyber Security and Software Updating - Vehicle Certification Agency",
+          "url": "https://www.vehicle-certification-agency.gov.uk/connected-and-automated-vehicles/cyber-security-and-software-updating/",
+          "reference": "turn602342search0"
+        },
+        {
+          "title": "ISO/SAE 21434:2021 - Road vehicles — Cybersecurity engineering",
+          "url": "https://www.iso.org/standard/70918.html",
+          "reference": "turn602342search1",
+          "date": "Published: 5.1 years ago"
+        },
+        {
+          "title": "2026-26-0621: Cybersecurity in Automotive OTA Update Systems and Automotive Software Stores - Technical Paper",
+          "url": "https://saemobilus.sae.org/papers/cybersecurity-automotive-ota-update-systems-automotive-software-stores-2026-26-0621",
+          "reference": "turn602342search2",
+          "date": "Published: 8 months ago"
+        },
+        {
+          "title": "Three landmark UN vehicle regulations enter into force | UNECE",
+          "url": "https://unece.org/media/transport/Vehicle-Regulations/press/352397",
+          "reference": "turn602342search3",
+          "date": "Published: 5.7 years ago"
+        },
+        {
+          "title": "EUR-Lex - 42025X0005 - EN - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1786731856789&uri=CELEX%3A42025X0005",
+          "reference": "turn602342search4",
+          "date": "Published: 1.7 years ago"
+        },
+        {
+          "title": "UN Regulations on Cybersecurity and Software Updates to pave the way for mass roll out of ‎connected vehicles ‎ | UNECE",
+          "url": "https://unece.org/media/press/1632",
+          "reference": "turn602342search5",
+          "date": "Published: 6.3 years ago"
+        },
+        {
+          "title": "ITU-T Work Programme",
+          "url": "https://www.itu.int/ITU-T/workprog/wp_item.aspx?isn=21789",
+          "reference": "turn602342search6"
+        },
+        {
+          "title": "GB 44496-2024 English PDF — General technical requirements",
+          "url": "https://chinastandards.org/standards/gb-44496-2024",
+          "reference": "turn602342search7",
+          "date": "Published: 2.1 years ago"
+        },
+        {
+          "title": "ISO/TS 20003:2026(en), Road vehicles ? Human-machine interface (HMI) for over the air (OTA) software updates",
+          "url": "https://www.iso.org/obp/ui?_escaped_fragment_=iso%3Astd%3Aiso%3Ats%3A20003%3Aed-1%3Av1%3Aen",
+          "reference": "turn602342search8"
+        },
+        {
+          "title": "Delegated regulation - EU - 2026/699 - NL - EUR-Lex",
+          "url": "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=oj%3AL_202600699",
+          "reference": "turn602342search9",
+          "date": "Published: 4 months ago"
+        },
+        {
+          "title": "(WP.29/GRVA) Working Party on Automated/Autonomous and Connected Vehicles (5th session) | UNECE",
+          "url": "https://unece.org/info/Transport/events/18998",
+          "reference": "turn602342search10",
+          "date": "Published: 6.7 years ago"
+        },
+        {
+          "title": "GB type approval scheme: cyber-security and software update requirements – government response - GOV.UK",
+          "url": "https://www.gov.uk/government/consultations/gb-type-approval-scheme-cyber-security-and-software-update-requirements/outcome/gb-type-approval-scheme-cyber-security-and-software-update-requirements-government-response",
+          "reference": "turn602342search11",
+          "date": "Published: 1.1 years ago"
+        },
+        {
+          "title": "DEPARTMENT OF TRANSPORTATION",
+          "url": "https://public-inspection.federalregister.gov/2022-19507.pdf",
+          "reference": "turn602342search12"
+        },
+        {
+          "title": "Commission Delegated Regulation (EU) 2025/303 of 31 October 2024 supplementing Regulation (EU) 2023/1114 of the European Parliament and of the Council with regard to regulatory technical standards specifying the information to be included by certain financial entities in the notification of their intention to provide crypto-asset services",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202500303",
+          "reference": "turn602342search13",
+          "date": "Published: 1.6 years ago"
+        },
+        {
+          "title": "UNECE R 156",
+          "url": "https://de.wikipedia.org/wiki/UNECE_R_156",
+          "reference": "turn602342search14"
+        },
+        {
+          "title": "Regulation of self-driving cars",
+          "url": "https://en.wikipedia.org/wiki/Regulation_of_self-driving_cars",
+          "reference": "turn602342search15"
+        },
+        {
+          "title": "UNECE R 155",
+          "url": "https://de.wikipedia.org/wiki/UNECE_R_155",
+          "reference": "turn602342search16"
+        },
+        {
+          "title": "Cyber Security Management System",
+          "url": "https://en.wikipedia.org/wiki/Cyber_Security_Management_System",
+          "reference": "turn602342search17"
+        },
+        {
+          "title": "UNECE R 156",
+          "url": "https://zh.wikipedia.org/wiki/UNECE_R_156",
+          "reference": "turn602342search18"
+        },
+        {
+          "title": "Cyber Resilience Act",
+          "url": "https://en.wikipedia.org/wiki/Cyber_Resilience_Act",
+          "reference": "turn602342search19"
+        }
+      ]
+    },
+    {
+      "funnel": 4,
+      "query": "connected vehicle security OTA October 8 9 10 2026",
+      "sourceUrl": "https://www.google.com/search?q=connected%20vehicle%20security%20OTA%20October%208%209%2010%202026",
+      "sourceFamily": "Regulation security",
+      "retrievalStatus": "complete",
+      "rawHitCount": 21,
+      "observedAt": "2026-10-10T03:30:09.807Z",
+      "results": [
+        {
+          "title": "ITU-T�SG17� TD-WP2�(2026-09-07)�",
+          "url": "https://www.itu.int/md/T25-SG17-260907-TD-WP2",
+          "reference": "turn895563search0"
+        },
+        {
+          "title": "ITU-T�SG17� TD-WP2�(2026-09-07)�",
+          "url": "https://www.itu.int/md/meetingdoc.asp?lang=en&parent=T25-SG17-260907-TD-WP2&source=Editor",
+          "reference": "turn895563search1",
+          "date": "Published: last month"
+        },
+        {
+          "title": "ITU-T Work Programme",
+          "url": "https://www.itu.int/ITU-T/workprog/wp_item.aspx?isn=21789",
+          "reference": "turn895563search2"
+        },
+        {
+          "title": "2026 Annual Cybersecurity Summit — Automotive ISAC",
+          "url": "https://automotiveisac.com/2026-annual-summit",
+          "reference": "turn895563search3"
+        },
+        {
+          "title": "2026-26-0621: Cybersecurity in Automotive OTA Update Systems and Automotive Software Stores - Technical Paper",
+          "url": "https://saemobilus.sae.org/papers/cybersecurity-automotive-ota-update-systems-automotive-software-stores-2026-26-0621",
+          "reference": "turn895563search4",
+          "date": "Published: 8 months ago"
+        },
+        {
+          "title": "Android Automotive OS Update Bulletin  |  Security  |  Android Open Source Project",
+          "url": "https://source.android.google.cn/docs/security/bulletin/aaos?hl=en",
+          "reference": "turn895563search5"
+        },
+        {
+          "title": "Securing automotive data flow: A survey of telematics security across intra-vehicle, V2X, and cloud layers - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214209626000264",
+          "reference": "turn895563search6"
+        },
+        {
+          "title": "Auto-ISAC Announces Tenth Annual Summit in 2026 — Automotive ISAC",
+          "url": "https://automotiveisac.com/press-news/auto-isac-announces-tenth-annual-summit-in-2026",
+          "reference": "turn895563search7",
+          "date": "Published: 4 months ago"
+        },
+        {
+          "title": "A novel and failsafe blockchain framework for secure OTA updates in connected autonomous vehicles - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2214209623000888",
+          "reference": "turn895563search8"
+        },
+        {
+          "title": "PSA: New OTA Update",
+          "url": "https://www.reddit.com/r/Ioniq5/comments/1x1b72k/psa_new_ota_update/",
+          "reference": "turn895563reddit12",
+          "date": "Published: today"
+        },
+        {
+          "title": "Automotive Cybersecurity for Connected Cars: Secure OTA, V2X & SDV Trends",
+          "url": "https://www.marketsandmarkets.com/blog/AT/connected-car-security-market-technology",
+          "reference": "turn895563search9",
+          "date": "Published: 2 weeks ago"
+        },
+        {
+          "title": "Events · SDV Sector",
+          "url": "https://sdvsector.com/events",
+          "reference": "turn895563search10"
+        },
+        {
+          "title": "USA — vehicle software news · SDV Sector",
+          "url": "https://sdvsector.com/region/usa",
+          "reference": "turn895563search11"
+        },
+        {
+          "title": "Hong Kong Exchanges and Clearing Limited, The Stock Exchange of Hong Kong Limited and the Securities and",
+          "url": "https://www.hkexnews.hk/app/sehk/2026/108437/documents/sehk26041200164.pdf",
+          "reference": "turn895563search13",
+          "date": "Published: 6 months ago"
+        },
+        {
+          "title": "The company that hacked the BYD shark for ABC segment, gives further details on their hack, including they installed software after having physical access to inside the Shark, and the same technique can be used against other Android-based head units in vehicles from other companies (not just BYD)",
+          "url": "https://www.reddit.com/r/BYDAU/comments/1wurn2f/the_company_that_hacked_the_byd_shark_for_abc/",
+          "reference": "turn895563reddit14",
+          "date": "Published: last week"
+        },
+        {
+          "title": "Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla",
+          "url": "https://arxiv.org/abs/2510.22024",
+          "reference": "turn895563academia15",
+          "date": "Published: last year"
+        },
+        {
+          "title": "A saga of a 2026 CRV OTA update",
+          "url": "https://www.reddit.com/r/crv/comments/1wwx0zc/a_saga_of_a_2026_crv_ota_update/",
+          "reference": "turn895563reddit16",
+          "date": "Published: 6 days ago"
+        },
+        {
+          "title": "primary developments for C-ITS Release-2 Security have been completed and extensions to address misbehaviour reporting (TS 103 759), as well as developing a wider understanding of the risk environment are at the forefront of the security workplan. This includes extension of risk analysis to address the roles and risks from RSUs, Central ITS authorities, data on vehicles and remote access to that data, and to more fully address any security requirements arising from integration of multiple radio connectivity options.",
+          "url": "https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2026-03/cnect_rollingplan_ict_2026_spr_pr1.pdf",
+          "reference": "turn895563search17",
+          "date": "Published: 6 months ago"
+        },
+        {
+          "title": "Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security",
+          "url": "https://arxiv.org/abs/2608.19135",
+          "reference": "turn895563academia18",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Connected Vehicle Security Act",
+          "url": "https://en.wikipedia.org/wiki/Connected_Vehicle_Security_Act",
+          "reference": "turn895563search19"
+        },
+        {
+          "title": "Security Conference 2024",
+          "url": "https://docbox.etsi.org/Workshop/2024/10_SECURITYCONFERENCE/16OCTOBER/D35_Liyanage_CONFIDENTIAL6G.pdf",
+          "reference": "turn895563search20",
+          "date": "Published: 2.0 years ago"
+        }
+      ]
+    },
+    {
+      "funnel": 5,
+      "query": "software-defined vehicle after:2026-10-07 before:2026-10-11",
+      "sourceUrl": "https://www.google.com/search?q=software-defined%20vehicle%20after%3A2026-10-07%20before%3A2026-10-11",
+      "sourceFamily": "Cross industry",
+      "retrievalStatus": "complete",
+      "rawHitCount": 22,
+      "observedAt": "2026-10-10T03:30:10.405Z",
+      "results": [
+        {
+          "title": "Vehicle software and software-defined vehicles - IEA",
+          "url": "https://www.iea.org/reports/vehicle-software-and-software-defined-vehicles",
+          "reference": "turn981449search0",
+          "date": "Published: 4 months ago"
+        },
+        {
+          "title": "What is a Software Defined Vehicle? | IBM",
+          "url": "https://www.ibm.com/think/topics/software-defined-vehicle",
+          "reference": "turn981449search1",
+          "date": "Published: 1.3 years ago"
+        },
+        {
+          "title": "What is a Software Defined Vehicle? | Salesforce",
+          "url": "https://www.salesforce.com/automotive/software-defined-vehicle/?bc=OTH",
+          "reference": "turn981449search2"
+        },
+        {
+          "title": "Software-defined vehicle | Siemens",
+          "url": "https://www.siemens.com/en-us/digital-thread/mbse/software-defined-vehicle/",
+          "reference": "turn981449search3"
+        },
+        {
+          "title": "Software Defined Vehicle",
+          "url": "https://en.wikipedia.org/wiki/Software_Defined_Vehicle",
+          "reference": "turn981449search12"
+        },
+        {
+          "title": "digital.auto | software-defined vehicle solutions",
+          "url": "https://www.digital.auto/",
+          "reference": "turn981449search4"
+        },
+        {
+          "title": "Google open sources Android Automotive for core car functions",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-automotive-os/",
+          "reference": "turn981449search5",
+          "date": "Published: 6 months ago"
+        },
+        {
+          "title": "ITU-T Work Programme",
+          "url": "https://www.itu.int/ITU-T/workprog/wp_item.aspx?isn=21230",
+          "reference": "turn981449search6"
+        },
+        {
+          "title": "Software-defined vehicle (SDV) — SDV Wiki · SDV Sector",
+          "url": "https://sdvsector.com/wiki/software-defined-vehicle",
+          "reference": "turn981449search7"
+        },
+        {
+          "title": "ITU-T Work Programme",
+          "url": "https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=22186",
+          "reference": "turn981449search8"
+        },
+        {
+          "title": "Software defined vehicles: Global manufacturer readiness study | Deloitte Global",
+          "url": "https://www.deloitte.com/global/en/Industries/automotive/analysis/software-defined-vehicles.html",
+          "reference": "turn981449search9",
+          "date": "Published: 2.0 years ago"
+        },
+        {
+          "title": "Shift into high gear with agents: Securing the software-defined vehicle | Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
+          "reference": "turn981449search10",
+          "date": "Published: 3 months ago"
+        },
+        {
+          "title": "The Car of the Future",
+          "url": "https://www.volkswagen-group.com/en/the-car-of-the-future-19027",
+          "reference": "turn981449search11"
+        },
+        {
+          "title": "軟體定義汽車",
+          "url": "https://zh.wikipedia.org/wiki/%E8%BB%9F%E9%AB%94%E5%AE%9A%E7%BE%A9%E6%B1%BD%E8%BB%8A",
+          "reference": "turn981449search13"
+        },
+        {
+          "title": "Eclipse Foundation",
+          "url": "https://en.wikipedia.org/wiki/Eclipse_Foundation",
+          "reference": "turn981449search14"
+        },
+        {
+          "title": "SDV",
+          "url": "https://en.wikipedia.org/wiki/SDV",
+          "reference": "turn981449search15"
+        },
+        {
+          "title": "Rivian and Volkswagen Group Technologies",
+          "url": "https://en.wikipedia.org/wiki/Rivian_and_Volkswagen_Group_Technologies",
+          "reference": "turn981449search16"
+        },
+        {
+          "title": "Table of Contents",
+          "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000086/a2024annualreport.pdf",
+          "reference": "turn981449search17"
+        },
+        {
+          "title": "Vehicular automation",
+          "url": "https://en.wikipedia.org/wiki/Vehicular_automation",
+          "reference": "turn981449search18"
+        },
+        {
+          "title": "CORE TECHNOLOGY",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828025018851/tsla-20250422-gen.pdf",
+          "reference": "turn981449search19",
+          "date": "Published: 1.5 years ago"
+        },
+        {
+          "title": "Industry trends and strategic direction",
+          "url": "https://www.gjensidige.com/investor-relations/capital-markets-days/capital-markets-day-2023/Capital%20Markets%20Day%20Gjensidige%20Forsikring.pdf",
+          "reference": "turn981449search20"
+        },
+        {
+          "title": "HB 2062                                                                 2",
+          "url": "https://kslegislature.gov/b2023_24/bills/download/?apn=b2023_24%2Fyear2%2Fready_for_publication%2Fhb_2062%2Fhb2062_00_0000.pdf",
+          "reference": "turn981449search21",
+          "date": "Published: 3.7 years ago"
+        }
+      ]
+    },
+    {
+      "funnel": 5,
+      "query": "SDV automotive software vehicle OS October 8 9 10 2026",
+      "sourceUrl": "https://www.google.com/search?q=SDV%20automotive%20software%20vehicle%20OS%20October%208%209%2010%202026",
+      "sourceFamily": "Cross industry",
+      "retrievalStatus": "complete",
+      "rawHitCount": 25,
+      "observedAt": "2026-10-10T03:30:09.848Z",
+      "results": [
+        {
+          "title": "Agenda · SDV Summit 2026",
+          "url": "https://www.sdvsummit.com/agenda",
+          "reference": "turn310952search0"
+        },
+        {
+          "title": "SDV Summit 2026 · Code. Connect. Drive.",
+          "url": "https://www.sdvsummit.com/?trk=public_post_main-feed-card_reshare-text",
+          "reference": "turn310952search1"
+        },
+        {
+          "title": "SDV Sector — daily software-defined vehicle news and analysis",
+          "url": "https://sdvsector.com/",
+          "reference": "turn310952search2",
+          "date": "Published: yesterday"
+        },
+        {
+          "title": "About · SDV Summit 2026",
+          "url": "https://www.sdvsummit.com/about",
+          "reference": "turn310952search3"
+        },
+        {
+          "title": "SDV Summit 2026: Software-Defined Vehicle Conference",
+          "url": "https://www.automotive-technology.com/events/sdv-summit-2026",
+          "reference": "turn310952search4"
+        },
+        {
+          "title": "sdv-wg Archive (Date View)",
+          "url": "https://www.eclipse.org/lists/sdv-wg/maillist.html",
+          "reference": "turn310952search5"
+        },
+        {
+          "title": "Global — vehicle software news · SDV Sector",
+          "url": "https://sdvsector.com/region/global",
+          "reference": "turn310952search6"
+        },
+        {
+          "title": "Software Platforms & OS news · SDV Sector",
+          "url": "https://sdvsector.com/topic/software-platforms-and-os",
+          "reference": "turn310952search7"
+        },
+        {
+          "title": "Google open sources Android Automotive for core car functions",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-automotive-os/",
+          "reference": "turn310952search8",
+          "date": "Published: 6 months ago"
+        },
+        {
+          "title": "#sdvsummit2026 #sdv #softwaredefinedvehicle #automotivetechnology #automotiveinnovation #futureofmobility #digitalcockpit #connectedvehicles #automotivesoftware #mobilitytech | SDV & Digital Cockpit Summit",
+          "url": "https://www.linkedin.com/posts/sdv-summit_sdvsummit2026-sdv-softwaredefinedvehicle-activity-7495074710708367360-k__W",
+          "reference": "turn310952search9"
+        },
+        {
+          "title": "SDV Summit 2026: Software-Defined Vehicle Conference",
+          "url": "https://www.automotive-technology.com/index.php/events/sdv-summit-2026",
+          "reference": "turn310952search10"
+        },
+        {
+          "title": "FAQ · SDV Summit 2026",
+          "url": "https://www.sdvsummit.com/faq",
+          "reference": "turn310952search11"
+        },
+        {
+          "title": "PowerPoint-Präsentation",
+          "url": "https://www.autoforschung.de/download/CAM_Accenture_Software-Defined-Future_Report-2026_v1.02.pdf",
+          "reference": "turn310952search12",
+          "date": "Published: 5 months ago"
+        },
+        {
+          "title": "PowerPoint 프레젠테이션",
+          "url": "https://worldwide.kia.com/files/investors/ir-activities/gn/oc/vphlirwy/287169801zcnk.pdf",
+          "reference": "turn310952search13",
+          "date": "Published: 8 months ago"
+        },
+        {
+          "title": "PowerPoint 프레젠테이션",
+          "url": "https://worldwide.kia.com/files/investors/ir-activities/rr/ew/lgfpqvue/289493565bbuu.pdf",
+          "reference": "turn310952search14",
+          "date": "Published: 7 months ago"
+        },
+        {
+          "title": "SDV Pulse volume 2",
+          "url": "https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/Thoughtworks_SDV_Pulse_2026.pdf",
+          "reference": "turn310952search15",
+          "date": "Published: 11 months ago"
+        },
+        {
+          "title": "Monitoring Vulnerabilities in Next-Generation Automotive Operating Systems",
+          "url": "https://arxiv.org/abs/2607.07226",
+          "reference": "turn310952academia16",
+          "date": "Published: 3 months ago"
+        },
+        {
+          "title": "The Rise of the Software-Defined Vehicle: Architectures, Enabling Technologies, and Future Opportunities",
+          "url": "https://arxiv.org/abs/2605.30001",
+          "reference": "turn310952academia17",
+          "date": "Published: 4 months ago"
+        },
+        {
+          "title": "Sonatus",
+          "url": "https://en.wikipedia.org/wiki/Sonatus",
+          "reference": "turn310952search18"
+        },
+        {
+          "title": "Software Defined Vehicle",
+          "url": "https://en.wikipedia.org/wiki/Software_Defined_Vehicle",
+          "reference": "turn310952search19"
+        },
+        {
+          "title": "Analysis of OEM software defined vehicle capabilities and underlying HW and SW plattforms by a German Automotive institute.",
+          "url": "https://www.reddit.com/r/Stellantis/comments/1wikmsn/analysis_of_oem_software_defined_vehicle/",
+          "reference": "turn310952reddit20",
+          "date": "Published: 3 weeks ago"
+        },
+        {
+          "title": "Google Planning an Open-Source Platform for Android Auto",
+          "url": "https://www.caranddriver.com/news/a70928680/open-source-android-auto-platform/",
+          "reference": "turn310952news21",
+          "date": "Published: 6 months ago"
+        },
+        {
+          "title": "Software-Defined Vehicles: the critical road to a secure future",
+          "url": "https://www.techradar.com/pro/software-defined-vehicles-the-critical-road-to-a-secure-future",
+          "reference": "turn310952news22",
+          "date": "Published: 1.2 years ago"
+        },
+        {
+          "title": "Predictable Modelling and Analysis of Software-defined Vehicle Implementations",
+          "url": "https://arxiv.org/abs/2609.17392",
+          "reference": "turn310952academia23",
+          "date": "Published: 3 weeks ago"
+        },
+        {
+          "title": "AUTOFRAME -- A Software-driven Integration Framework for Automotive Systems",
+          "url": "https://arxiv.org/abs/2503.04928",
+          "reference": "turn310952academia24",
+          "date": "Published: 1.6 years ago"
+        }
+      ]
+    },
+    {
+      "funnel": 5,
+      "query": "Nissan Honda software AI defined vehicle October 2026 news",
+      "sourceUrl": "https://www.google.com/search?q=Nissan%20Honda%20software%20AI%20defined%20vehicle%20October%202026%20news",
+      "sourceFamily": "Cross industry",
+      "retrievalStatus": "complete",
+      "rawHitCount": 23,
+      "observedAt": "2026-10-10T03:30:09.945Z",
+      "results": [
+        {
+          "title": "Honda Announces New Details and the Name of Its Next Hybrid System",
+          "url": "https://www.caranddriver.com/news/a74092472/honda-new-hybrid-system-name-details/",
+          "reference": "turn764030news12",
+          "date": "Published: today"
+        },
+        {
+          "title": "Next-Gen 'Honda Hybrid' Platform Promises Better Handling, 'Exhilarating' Drive",
+          "url": "https://www.roadandtrack.com/news/a74092149/next-gen-honda-hybrid-platform-better-handling/",
+          "reference": "turn764030news13",
+          "date": "Published: today"
+        },
+        {
+          "title": "Cost pressures and deadlock force Honda to rework India strategy, sources say",
+          "url": "https://www.reuters.com/world/asia-pacific/cost-pressures-deadlock-force-honda-rework-india-strategy-sources-say-2026-10-05/",
+          "reference": "turn764030news14",
+          "date": "Published: 4 days ago"
+        },
+        {
+          "title": "Honda plans highway test of wireless charging for moving trucks",
+          "url": "https://www.reuters.com/technology/honda-plans-highway-test-wireless-charging-moving-trucks-2026-10-05/",
+          "reference": "turn764030news15",
+          "date": "Published: 4 days ago"
+        },
+        {
+          "title": "Why EV sales are lukewarm in America, but hot in Europe",
+          "url": "https://www.reuters.com/business/autos-transportation/why-ev-sales-are-lukewarm-america-hot-europe-2026-10-08/",
+          "reference": "turn764030news16",
+          "date": "Published: yesterday"
+        },
+        {
+          "title": "America's EV graveyard has grown by nearly 20 discontinued vehicles this year",
+          "url": "https://www.businessinsider.com/evs-automakers-axed-this-year-2026-3",
+          "reference": "turn764030news17",
+          "date": "Published: 4 days ago"
+        },
+        {
+          "title": "Nissan and Honda Conclude Joint Development Agreement to Standardize ECUs and Software for Next-Generation SDVs | Honda Global Corporate Website",
+          "url": "https://global.honda/en/newsroom/news/2026/c260831beng.html",
+          "reference": "turn764030search0",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Honda, Nissan target rollout of joint vehicle software in fiscal 2029",
+          "url": "https://www.reuters.com/technology/honda-nissan-target-fy2029-roll-out-jointly-developed-vehicle-software-control-2026-08-31/",
+          "reference": "turn764030news18",
+          "date": "Published: last month"
+        },
+        {
+          "title": "NISSAN MOTOR CORPORATION",
+          "url": "https://global.honda/en/investors/library/filings/auto_20260831528871/pdfFile.pdf",
+          "reference": "turn764030search19",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Honda and Nissan each hired Applied Intuition's Vehicle OS for their next platforms · SDV Sector",
+          "url": "https://sdvsector.com/news/2026-10-07-applied-intuition-honda-nissan-vehicle-os",
+          "reference": "turn764030search1",
+          "date": "Published: 3 days ago"
+        },
+        {
+          "title": "Nissan and Honda Finalize Joint Development Agreement to Standardize ECUs and Software for Next-Generation SDVs",
+          "url": "https://me.nissanmotornews.com/en/releases/release-06f00ed991a48d87a5927b6e75071235?gallery=release-06f00ed991a48d87a5927b6e75071235&viewallTab=photos",
+          "reference": "turn764030search2",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Japanese automakers Nissan and Honda agree to work together on software for cars",
+          "url": "https://apnews.com/article/521bc44069a8d73fbd672e0cfd32a5bf",
+          "reference": "turn764030news20",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Honda and Nissan strike software deal despite failed merger",
+          "url": "https://www.ft.com/content/3d00a9c1-d572-4a0d-b8e1-dfc5e54ca497",
+          "reference": "turn764030news21",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Applied Intuition Lands Honda, Nissan Vehicle OS Deals - Self Drive News",
+          "url": "https://selfdrivenews.com/applied-intuition-vehicle-os-honda-nissan/",
+          "reference": "turn764030search3",
+          "date": "Published: 4 days ago"
+        },
+        {
+          "title": "Honda and Nissan's New Partnership Has an Unexpected Twist - Autoblog",
+          "url": "https://www.autoblog.com/news/honda-and-nissans-new-partnership-has-an-unexpected-twist",
+          "reference": "turn764030search4",
+          "date": "Published: 3 days ago"
+        },
+        {
+          "title": "Honda and Nissan Tap Applied Intuition to Accelerate Software-Defined Vehicle Programs | AI NewsCycle",
+          "url": "https://ainewscycle.com/story/honda-and-nissan-tap-applied-intuition-to-accelerate-software-defined-vehicle-pr-06bf0f1e",
+          "reference": "turn764030search5",
+          "date": "Published: 4 days ago"
+        },
+        {
+          "title": "Nissan and Honda Announce Software and Electronics Partnership",
+          "url": "https://www.caranddriver.com/news/a73571919/nissan-honda-software-electronics-partnership/",
+          "reference": "turn764030search6",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Applied Intuition Expands Japanese Footprint with Nissan and Honda OS Partnerships | AI NewsCycle",
+          "url": "https://www.ainewscycle.com/story/applied-intuition-expands-japanese-footprint-with-nissan-and-honda-os-partnershi-a07e972b",
+          "reference": "turn764030search7",
+          "date": "Published: 4 days ago"
+        },
+        {
+          "title": "News, research & insights | Applied Intuition",
+          "url": "https://www.appliedintuition.com/autonomy-news?tag=nissan",
+          "reference": "turn764030search8"
+        },
+        {
+          "title": "Nissan and Honda: Joint SDV Platform | IAA MOBILITY",
+          "url": "https://www.iaa-mobility.com/en/newsroom/news/smart-infrastructure/nissan-honda-joint-sdv-platform",
+          "reference": "turn764030search9",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Nissan e Honda, accordo per centraline e software degli SDV - New Tech - Ansa.it",
+          "url": "https://www.ansa.it/canale_motori/notizie/new_tech/2026/08/31/nissan-e-honda-accordo-per-centraline-e-software-degli-sdv_1c9b5710-5ae5-4627-9357-39aeb25644fd.html",
+          "reference": "turn764030search10",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Nissan Motor Co. Ltd. (via Public) / 日産自動車とHonda 次世代SDVの中核を構成するECUやソフトウェアの共通化に向けた共同開発契約を締結",
+          "url": "https://www.publicnow.com/view/05356349AC562A3BCC49937DCCF4B6A88CC1B0AB",
+          "reference": "turn764030search11",
+          "date": "Published: last month"
+        },
+        {
+          "title": "Nissan e Honda vão desenvolver juntas sistemas para carros definidos por software",
+          "url": "https://www1.folha.uol.com.br/mercado/2026/08/nissan-e-honda-vao-desenvolver-juntas-sistemas-para-carros-definidos-por-software.shtml",
+          "reference": "turn764030news23",
+          "date": "Published: last month"
+        }
+      ]
+    }
+  ]
+}

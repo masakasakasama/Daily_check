@@ -1,11 +1,11 @@
 {
   "start": "2026-09-22",
   "end": "2026-09-28",
-  "generatedAt": "2026-10-02T18:41:09.386Z",
+  "generatedAt": "2026-10-10T03:43:54.611049+00:00",
   "headline": "直近7日Daily Check集計",
   "counts": {
     "important": 9,
-    "reference": 11
+    "reference": 13
   },
   "categories": [
     {
@@ -18,38 +18,10 @@
     },
     {
       "name": "SDV",
-      "summary": "重要1件・参考7件"
+      "summary": "重要1件・参考9件"
     }
   ],
   "highlights": [
-    {
-      "id": "ai-openai-global-frontier-standards-20260921",
-      "eventKey": "openai-frontier-ai-global-technical-standards-2026-09-21",
-      "category": "AI",
-      "score": 82,
-      "title": "OpenAI、フロンティアAIの国際技術標準づくりで米国主導を提唱",
-      "summary": "OpenAIが高度AI向けに国際・国内の共通技術標準、測定、インシデント報告の整備を提唱。再帰的自己改善を見据え、安全性と能力進展を同期させるpacingを政策方針として明示した",
-      "publishedAt": "2026/09/21",
-      "firstSeenAt": "2026-09-22T07:04:00+09:00",
-      "source": {
-        "label": "OpenAI",
-        "url": "https://openai.com/index/building-standards-next-phase-ai/"
-      }
-    },
-    {
-      "id": "ai-us-china-safety-dialogue-20260921",
-      "eventKey": "us-china-ai-safety-dialogue-incident-line-shenzhen-2026-09-21",
-      "category": "AI",
-      "score": 80,
-      "title": "米中、AI安全の正式対話とインシデント連絡線で合意",
-      "summary": "米中高官がAI安全の正式対話を設け、AI事故時のincident lineを含む共通プロトコルを協議。約2か月後に深圳で次回会合を予定しており、主要AI大国間の安全枠組みが具体化した",
-      "publishedAt": "2026/09/21",
-      "firstSeenAt": "2026-09-22T07:04:00+09:00",
-      "source": {
-        "label": "Reuters",
-        "url": "https://www.reuters.com/world/asia-pacific/us-china-meet-again-ai-safety-two-months-shenzhen-bessent-says-2026-09-21/"
-      }
-    },
     {
       "id": "ai-openai-gpt6-sol-luna-20260922",
       "eventKey": "openai-gpt6-sol-luna-2026-09-22",
@@ -76,6 +48,34 @@
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/"
+      }
+    },
+    {
+      "id": "ai-anthropic-crispr-enzyme-20260923",
+      "eventKey": "anthropic-claude-crispr-like-enzyme-discovery-2026-09-23",
+      "category": "AI",
+      "score": 84,
+      "title": "Anthropic、ClaudeがCRISPR様反復配列を持つ新規酵素系を発見",
+      "summary": "Anthropicが生命科学研究グループと自社ラボを新設し、Claudeが科学者の高レベル指示のみでDNAデータから未解明のCRISPR様酵素系を発見した初期成果を公開。AIが仮説生成から実験検証につながる科学研究を主導した具体例として重要",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:02:44+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+      }
+    },
+    {
+      "id": "ai-openai-global-frontier-standards-20260921",
+      "eventKey": "openai-frontier-ai-global-technical-standards-2026-09-21",
+      "category": "AI",
+      "score": 82,
+      "title": "OpenAI、フロンティアAIの国際技術標準づくりで米国主導を提唱",
+      "summary": "OpenAIが高度AI向けに国際・国内の共通技術標準、測定、インシデント報告の整備を提唱。再帰的自己改善を見据え、安全性と能力進展を同期させるpacingを政策方針として明示した",
+      "publishedAt": "2026/09/21",
+      "firstSeenAt": "2026-09-22T07:04:00+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/building-standards-next-phase-ai/"
       }
     },
     {
@@ -107,17 +107,31 @@
       }
     },
     {
-      "id": "ai-anthropic-crispr-enzyme-20260923",
-      "eventKey": "anthropic-claude-crispr-like-enzyme-discovery-2026-09-23",
+      "id": "ai-google-gemini38-live-avatar-20260924",
+      "eventKey": "google-gemini-3-8-live-avatar-2026-09-24",
       "category": "AI",
-      "score": 84,
-      "title": "Anthropic、ClaudeがCRISPR様反復配列を持つ新規酵素系を発見",
-      "summary": "Anthropicが生命科学研究グループと自社ラボを新設し、Claudeが科学者の高レベル指示のみでDNAデータから未解明のCRISPR様酵素系を発見した初期成果を公開。AIが仮説生成から実験検証につながる科学研究を主導した具体例として重要",
-      "publishedAt": "2026/09/23",
-      "firstSeenAt": "2026-09-24T07:02:44+09:00",
+      "score": 82,
+      "title": "Google、Gemini 3.8 Live with Live AvatarをGemini Enterpriseで提供開始",
+      "summary": "GoogleがGemini 3.8 Liveに低遅延ストリーミング映像を統合したLive Avatarを発表。音声と映像を同期し、非同期ツール実行中も対話を継続でき、97言語に対応する企業向けリアルタイム対話基盤",
+      "publishedAt": "2026/09/24",
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
       "source": {
-        "label": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
+      }
+    },
+    {
+      "id": "ai-us-china-safety-dialogue-20260921",
+      "eventKey": "us-china-ai-safety-dialogue-incident-line-shenzhen-2026-09-21",
+      "category": "AI",
+      "score": 80,
+      "title": "米中、AI安全の正式対話とインシデント連絡線で合意",
+      "summary": "米中高官がAI安全の正式対話を設け、AI事故時のincident lineを含む共通プロトコルを協議。約2か月後に深圳で次回会合を予定しており、主要AI大国間の安全枠組みが具体化した",
+      "publishedAt": "2026/09/21",
+      "firstSeenAt": "2026-09-22T07:04:00+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/us-china-meet-again-ai-safety-two-months-shenzhen-bessent-says-2026-09-21/"
       }
     },
     {
@@ -133,37 +147,9 @@
         "label": "Google DeepMind",
         "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
       }
-    },
-    {
-      "id": "ai-google-gemini38-live-avatar-20260924",
-      "eventKey": "google-gemini-3-8-live-avatar-2026-09-24",
-      "category": "AI",
-      "score": 82,
-      "title": "Google、Gemini 3.8 Live with Live AvatarをGemini Enterpriseで提供開始",
-      "summary": "GoogleがGemini 3.8 Liveに低遅延ストリーミング映像を統合したLive Avatarを発表。音声と映像を同期し、非同期ツール実行中も対話を継続でき、97言語に対応する企業向けリアルタイム対話基盤",
-      "publishedAt": "2026/09/24",
-      "firstSeenAt": "2026-09-25T07:30:00+09:00",
-      "source": {
-        "label": "Google",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
-      }
     }
   ],
   "references": [
-    {
-      "id": "sdv-mercedes-wayve-l2-20260922",
-      "eventKey": "mercedes-wayve-l2-ai-driver-2026-09-22",
-      "category": "SDV",
-      "score": 72,
-      "title": "Mercedes-Benz、WayveのAI Driverを量産車へ採用へ",
-      "summary": "Mercedes-BenzがWayveのカメラ中心のAI Driverを少なくとも1車種へ2年以内に統合する計画。NVIDIA系の自社MB.DRIVEと並行するマルチパートナー戦略で、車両ソフトウェア層の外部AI採用として実務上参考になる",
-      "publishedAt": "2026/09/22",
-      "firstSeenAt": "2026-09-22T09:32:00+09:00",
-      "source": {
-        "label": "Financial Times",
-        "url": "https://www.ft.com/content/4ed7bccb-7d02-485f-aed6-9e7b0244ac78"
-      }
-    },
     {
       "id": "sdv-volvo-horizon-aaos-20260922",
       "eventKey": "volvo-horizon-aaos-development-platform-2026-09-22",
@@ -179,31 +165,17 @@
       }
     },
     {
-      "id": "sdv-voyah-dream9-huawei-20260923",
-      "eventKey": "voyah-dream9-huawei-ads5-harmonyspace6-2026-09-23",
+      "id": "sdv-mercedes-wayve-l2-20260922",
+      "eventKey": "mercedes-wayve-l2-ai-driver-2026-09-22",
       "category": "SDV",
-      "score": 68,
-      "title": "Dongfeng Voyah Dream 9、Huawei ADS 5とHarmonySpace 6を全車標準化",
-      "summary": "Voyah Dream 9が全グレードでHuawei Qiankun ADS 5とHarmonySpace 6を組み込むL3-grade全領域アーキテクチャを採用。中国OEMの車載OS・ADAS統合の量産事例として参考",
-      "publishedAt": "2026/09/23",
-      "firstSeenAt": "2026-09-23T22:20:00+09:00",
+      "score": 72,
+      "title": "Mercedes-Benz、WayveのAI Driverを量産車へ採用へ",
+      "summary": "Mercedes-BenzがWayveのカメラ中心のAI Driverを少なくとも1車種へ2年以内に統合する計画。NVIDIA系の自社MB.DRIVEと並行するマルチパートナー戦略で、車両ソフトウェア層の外部AI採用として実務上参考になる",
+      "publishedAt": "2026/09/22",
+      "firstSeenAt": "2026-09-22T09:32:00+09:00",
       "source": {
-        "label": "SDV Sector",
-        "url": "https://sdvsector.com/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture"
-      }
-    },
-    {
-      "id": "sdv-tencent-leapmotor-workbuddy-20260923",
-      "eventKey": "tencent-workbuddy-leapmotor-software-teams-2026-09-23",
-      "category": "SDV",
-      "score": 58,
-      "title": "Leapmotor、車両開発・智能運転チームへTencent WorkBuddyを展開",
-      "summary": "Tencentのエージェント型開発ワークベンチWorkBuddyがLeapmotorの車両開発、智能運転、コネクテッドカー等へ展開されたと報道。約40システムで開発工数短縮の数値が示されたが、一次発表を確認できないため参考扱い",
-      "publishedAt": "2026/09/23",
-      "firstSeenAt": "2026-09-23T22:20:00+09:00",
-      "source": {
-        "label": "SDV Sector",
-        "url": "https://sdvsector.com/news/2026-09-23-tencent-workbuddy-leapmotor"
+        "label": "Financial Times",
+        "url": "https://www.ft.com/content/4ed7bccb-7d02-485f-aed6-9e7b0244ac78"
       }
     },
     {
@@ -221,59 +193,17 @@
       }
     },
     {
-      "id": "sdv-vicone-cymetris-live-tara-20260923",
-      "eventKey": "vicone-cymetris-live-tara-2026-09-23",
+      "id": "sdv-voyah-dream9-huawei-20260923",
+      "eventKey": "voyah-dream9-huawei-ads5-harmonyspace6-2026-09-23",
       "category": "SDV",
-      "score": 60,
-      "title": "VicOne×CYMETRIS、新規CVEを車両別リスク判断へ連携するLive TARAを発表",
-      "summary": "VicOne xZETAの車載脆弱性インテリジェンスとCYMETRISのシステムレベルリスクモデルを双方向統合。新規CVEが特定車両プログラムへ与える影響を継続評価し、TARAのリスク判断を更新する運用基盤",
+      "score": 68,
+      "title": "Dongfeng Voyah Dream 9、Huawei ADS 5とHarmonySpace 6を全車標準化",
+      "summary": "Voyah Dream 9が全グレードでHuawei Qiankun ADS 5とHarmonySpace 6を組み込むL3-grade全領域アーキテクチャを採用。中国OEMの車載OS・ADAS統合の量産事例として参考",
       "publishedAt": "2026/09/23",
-      "firstSeenAt": "2026-09-24T07:42:00+09:00",
-      "source": {
-        "label": "VicOne",
-        "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/"
-      }
-    },
-    {
-      "id": "sdv-valens-onsemi-aphy-license-20260923",
-      "eventKey": "valens-onsemi-aphy-image-sensor-license-2026-09-23",
-      "category": "SDV",
-      "score": 56,
-      "title": "Valens、A-PHY車載センサー接続技術をonsemiへライセンス",
-      "summary": "ValensがMIPI A-PHYベースの車載高速接続技術をonsemiへロイヤルティ付きでライセンス。次世代イメージセンサーへの直接統合を可能にし、集中型E/Eアーキテクチャのセンサー接続基盤として参考",
-      "publishedAt": "2026/09/23",
-      "firstSeenAt": "2026-09-24T07:42:00+09:00",
+      "firstSeenAt": "2026-09-23T22:20:00+09:00",
       "source": {
         "label": "SDV Sector",
-        "url": "https://sdvsector.com/region/global"
-      }
-    },
-    {
-      "id": "sdv-brp-canam-software-recall-20260923",
-      "eventKey": "brp-canam-instrument-cluster-software-recall-2026-09-23",
-      "category": "SDV",
-      "score": 48,
-      "title": "Can-Am、14,014台のメーターソフト不具合をOTAまたは販売店で修正",
-      "summary": "BRPのCan-Am二輪車14,014台を対象に、メータークラスターのソフトウェア不具合による安全基準不適合が米国公開記録に反映。修正はOTAまたは販売店で提供され、SDVのソフトウェアライフサイクル事例として参考",
-      "publishedAt": "2026/09/23",
-      "firstSeenAt": "2026-09-24T07:42:00+09:00",
-      "source": {
-        "label": "SDV Sector",
-        "url": "https://sdvsector.com/topic/diagnostics-and-service"
-      }
-    },
-    {
-      "id": "ai-openai-chatgpt-ads-asia-20260924",
-      "eventKey": "openai-chatgpt-ads-southeast-asia-taiwan-2026-09-24",
-      "category": "AI",
-      "score": 64,
-      "title": "OpenAI、ChatGPT Adsを東南アジアと台湾へ拡大",
-      "summary": "OpenAIがChatGPT Adsの対象市場を東南アジアと台湾へ拡大し、広告主が60超の国・地域へ展開できるようにした。モデル能力そのものではないがChatGPT事業展開の新規更新として参考",
-      "publishedAt": "2026/09/24",
-      "firstSeenAt": "2026-09-25T07:30:00+09:00",
-      "source": {
-        "label": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
+        "url": "https://sdvsector.com/news/2026-09-23-voyah-dream-9-huawei-ads5-architecture"
       }
     },
     {
@@ -291,6 +221,20 @@
       }
     },
     {
+      "id": "ai-openai-chatgpt-ads-asia-20260924",
+      "eventKey": "openai-chatgpt-ads-southeast-asia-taiwan-2026-09-24",
+      "category": "AI",
+      "score": 64,
+      "title": "OpenAI、ChatGPT Adsを東南アジアと台湾へ拡大",
+      "summary": "OpenAIがChatGPT Adsの対象市場を東南アジアと台湾へ拡大し、広告主が60超の国・地域へ展開できるようにした。モデル能力そのものではないがChatGPT事業展開の新規更新として参考",
+      "publishedAt": "2026/09/24",
+      "firstSeenAt": "2026-09-25T07:30:00+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
+      }
+    },
+    {
       "id": "ai-replit-atta-acquisition-20260926",
       "eventKey": "replit-atta-acquisition-2026-09-26",
       "category": "AI",
@@ -302,6 +246,106 @@
       "source": {
         "label": "Daily AI Newsbites",
         "url": "https://replit.com/blog/replit-acquires-atta"
+      }
+    },
+    {
+      "id": "sdv-vicone-cymetris-live-tara-20260923",
+      "eventKey": "vicone-cymetris-live-tara-2026-09-23",
+      "category": "SDV",
+      "score": 60,
+      "title": "VicOne×CYMETRIS、新規CVEを車両別リスク判断へ連携するLive TARAを発表",
+      "summary": "VicOne xZETAの車載脆弱性インテリジェンスとCYMETRISのシステムレベルリスクモデルを双方向統合。新規CVEが特定車両プログラムへ与える影響を継続評価し、TARAのリスク判断を更新する運用基盤",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:42:00+09:00",
+      "source": {
+        "label": "VicOne",
+        "url": "https://vicone.com/company/press-releases/vicone-and-cymetris-turn-new-cves-into-vehicle-specific-risk-decisions-as-ai-accelerates-vulnerability-discovery/"
+      }
+    },
+    {
+      "id": "sdv-tencent-leapmotor-workbuddy-20260923",
+      "eventKey": "tencent-workbuddy-leapmotor-software-teams-2026-09-23",
+      "category": "SDV",
+      "score": 58,
+      "title": "Leapmotor、車両開発・智能運転チームへTencent WorkBuddyを展開",
+      "summary": "Tencentのエージェント型開発ワークベンチWorkBuddyがLeapmotorの車両開発、智能運転、コネクテッドカー等へ展開されたと報道。約40システムで開発工数短縮の数値が示されたが、一次発表を確認できないため参考扱い",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-23T22:20:00+09:00",
+      "source": {
+        "label": "SDV Sector",
+        "url": "https://sdvsector.com/news/2026-09-23-tencent-workbuddy-leapmotor"
+      }
+    },
+    {
+      "id": "dspace-v2x-sil-hil-20260926",
+      "eventKey": "dspace-v2x-sil-hil-20260926",
+      "category": "SDV",
+      "score": 58,
+      "scoreBreakdown": {
+        "sdvDirectness": 14,
+        "practicalImpact": 16,
+        "scale": 9,
+        "specificity": 12,
+        "novelty": 7
+      },
+      "title": "dSPACE、インドのV2X検証をSIL/HILと通信模擬で支援",
+      "summary": "現地道路の混在交通を仮想再現し、ECUや4G・5G通信環境を組み合わせて検証。2028年のV2X制度案への対応を取材で説明。制度の成立を伝える記事ではない",
+      "publishedAt": "2026/09/26",
+      "firstSeenAt": "2026-09-28T06:10:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "YourStory",
+        "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
+      }
+    },
+    {
+      "id": "sdv-valens-onsemi-aphy-license-20260923",
+      "eventKey": "valens-onsemi-aphy-image-sensor-license-2026-09-23",
+      "category": "SDV",
+      "score": 56,
+      "title": "Valens、A-PHY車載センサー接続技術をonsemiへライセンス",
+      "summary": "ValensがMIPI A-PHYベースの車載高速接続技術をonsemiへロイヤルティ付きでライセンス。次世代イメージセンサーへの直接統合を可能にし、集中型E/Eアーキテクチャのセンサー接続基盤として参考",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:42:00+09:00",
+      "source": {
+        "label": "SDV Sector",
+        "url": "https://sdvsector.com/region/global"
+      }
+    },
+    {
+      "id": "bosch-rexroth-bodas-ota-20260927",
+      "eventKey": "bosch-rexroth-bodas-ota-20260927",
+      "category": "SDV",
+      "score": 55,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 15,
+        "scale": 9,
+        "specificity": 11,
+        "novelty": 7
+      },
+      "title": "Bosch RexrothとOwasys、建機向けOTA・遠隔診断基盤を拡張",
+      "summary": "Linuxベースの通信ゲートウェイと機器管理をBODASに統合。車両ECUの遠隔アクセス、診断、OTA更新を支え、複数パートナーへ展開する",
+      "publishedAt": "2026/09/25",
+      "firstSeenAt": "2026-09-28T06:11:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "Bosch Rexroth公式",
+        "url": "https://www.boschrexroth.com/en/at/company/press/owasys-47232.html"
+      }
+    },
+    {
+      "id": "sdv-brp-canam-software-recall-20260923",
+      "eventKey": "brp-canam-instrument-cluster-software-recall-2026-09-23",
+      "category": "SDV",
+      "score": 48,
+      "title": "Can-Am、14,014台のメーターソフト不具合をOTAまたは販売店で修正",
+      "summary": "BRPのCan-Am二輪車14,014台を対象に、メータークラスターのソフトウェア不具合による安全基準不適合が米国公開記録に反映。修正はOTAまたは販売店で提供され、SDVのソフトウェアライフサイクル事例として参考",
+      "publishedAt": "2026/09/23",
+      "firstSeenAt": "2026-09-24T07:42:00+09:00",
+      "source": {
+        "label": "SDV Sector",
+        "url": "https://sdvsector.com/topic/diagnostics-and-service"
       }
     }
   ]

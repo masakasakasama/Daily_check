@@ -65,7 +65,7 @@
       "adoptedCount": 1,
       "excludedCount": 1,
       "duplicateCount": 0,
-      "lateAuditOnlyCount": 1
+      "lateAuditOnlyCount": 0
     },
     {
       "name": "Platform/ecosystem",
@@ -109,7 +109,7 @@
       "adoptedCount": 0,
       "excludedCount": 2,
       "duplicateCount": 0,
-      "lateAuditOnlyCount": 1
+      "lateAuditOnlyCount": 0
     },
     {
       "name": "Tier1/semiconductor",
@@ -153,7 +153,7 @@
       "adoptedCount": 0,
       "excludedCount": 2,
       "duplicateCount": 0,
-      "lateAuditOnlyCount": 2
+      "lateAuditOnlyCount": 0
     },
     {
       "name": "Cloud/OS/development",
@@ -197,7 +197,7 @@
       "adoptedCount": 0,
       "excludedCount": 2,
       "duplicateCount": 0,
-      "lateAuditOnlyCount": 2
+      "lateAuditOnlyCount": 0
     },
     {
       "name": "Regulation/Security",
@@ -241,7 +241,7 @@
       "adoptedCount": 0,
       "excludedCount": 2,
       "duplicateCount": 0,
-      "lateAuditOnlyCount": 1
+      "lateAuditOnlyCount": 0
     },
     {
       "name": "Cross",
@@ -285,7 +285,7 @@
       "adoptedCount": 0,
       "excludedCount": 2,
       "duplicateCount": 0,
-      "lateAuditOnlyCount": 1
+      "lateAuditOnlyCount": 0
     }
   ],
   "deepScan": [],
@@ -770,5 +770,50 @@
     "importantCount": 0,
     "referenceCount": 1
   },
-  "completedAt": "2026-10-06T07:18:00+09:00"
+  "completedAt": "2026-10-06T07:18:00+09:00",
+  "countCorrections": [
+    {
+      "correctedAt": "2026-10-10T03:40:23.954464+00:00",
+      "reason": "Reconcile saved terminal decisions without changing candidate decisions",
+      "rawCandidatesSHA256": "7067794efb74f7fb9d09d092f3006a841a1152f9230be9a46c8f57ef3998b37c",
+      "changes": [
+        {
+          "funnel": "OEM",
+          "field": "lateAuditOnlyCount",
+          "original": 1,
+          "corrected": 0
+        },
+        {
+          "funnel": "Platform/ecosystem",
+          "field": "lateAuditOnlyCount",
+          "original": 1,
+          "corrected": 0
+        },
+        {
+          "funnel": "Tier1/semiconductor",
+          "field": "lateAuditOnlyCount",
+          "original": 2,
+          "corrected": 0
+        },
+        {
+          "funnel": "Cloud/OS/development",
+          "field": "lateAuditOnlyCount",
+          "original": 2,
+          "corrected": 0
+        },
+        {
+          "funnel": "Regulation/Security",
+          "field": "lateAuditOnlyCount",
+          "original": 1,
+          "corrected": 0
+        },
+        {
+          "funnel": "Cross",
+          "field": "lateAuditOnlyCount",
+          "original": 1,
+          "corrected": 0
+        }
+      ]
+    }
+  ]
 }

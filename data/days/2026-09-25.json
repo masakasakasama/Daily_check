@@ -30,6 +30,28 @@
         "label": "OpenAI",
         "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
       }
+    },
+    {
+      "id": "bosch-rexroth-bodas-ota-20260927",
+      "eventKey": "bosch-rexroth-bodas-ota-20260927",
+      "category": "SDV",
+      "score": 55,
+      "scoreBreakdown": {
+        "sdvDirectness": 13,
+        "practicalImpact": 15,
+        "scale": 9,
+        "specificity": 11,
+        "novelty": 7
+      },
+      "title": "Bosch RexrothとOwasys、建機向けOTA・遠隔診断基盤を拡張",
+      "summary": "Linuxベースの通信ゲートウェイと機器管理をBODASに統合。車両ECUの遠隔アクセス、診断、OTA更新を支え、複数パートナーへ展開する",
+      "publishedAt": "2026/09/25",
+      "firstSeenAt": "2026-09-28T06:11:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "Bosch Rexroth公式",
+        "url": "https://www.boschrexroth.com/en/at/company/press/owasys-47232.html"
+      }
     }
   ],
   "checks": [
@@ -45,11 +67,11 @@
     {
       "id": "sdv-nissan",
       "name": "SDV / Nissanニュース",
-      "status": "clear",
-      "summary": "遅延発見6件を掲載対象から除外。元の収集・採用証跡は当日auditのpublicationCorrectionsに保持。",
-      "checkedAt": "2026-09-28T05:40:00+09:00",
+      "status": "update",
+      "summary": "不足監査を10月10日に再収集。6系統18検索・追加12検索と本文再確認。重要0件・参考1件。取得できない候補は理由付きで除外",
+      "checkedAt": "2026-10-10T03:43:54.611049+00:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 1
     },
     {
       "id": "codex-reset",
@@ -69,5 +91,20 @@
       "alertCount": 0,
       "referenceCount": 0
     }
-  ]
+  ],
+  "recovery": {
+    "mode": "verified-historical-recovery",
+    "completed": true,
+    "startedAt": "2026-10-10T03:41:21.628Z",
+    "completedAt": "2026-10-10T03:43:54.611049+00:00",
+    "evidencePath": "data/recovery/2026-10-10-september-searches.json",
+    "articles": [
+      {
+        "eventKey": "bosch-rexroth-bodas-ota-20260927",
+        "verified": true,
+        "sourceUrl": "https://www.boschrexroth.com/en/at/company/press/owasys-47232.html"
+      }
+    ],
+    "note": "10月10日に不足監査の検索を再実施。過去の取得成功を推測せず、元の失敗・証跡をrecovery原本へ保存。再確認した欠落記事を復元。"
+  }
 }

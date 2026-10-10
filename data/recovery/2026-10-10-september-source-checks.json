@@ -1,0 +1,308 @@
+{
+  "checks": [
+    {
+      "eventKey": "china-road-vehicles-software-update-engineering-approval-draft-2026-09-24",
+      "url": "https://sdvsector.com/news/2026-09-24-miit-software-update-engineering-approval-draft",
+      "checkedAt": "2026-10-10T03:42:58.015Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "china-vehicle-intrusion-detection-draft-standard-2026-09-24",
+      "url": "https://sdvsector.com/news/2026-09-24-china-gbt-intrusion-detection-draft",
+      "checkedAt": "2026-10-10T03:42:58.015Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "eu-euro7-software-cybersecurity-type-approval-2026-09-24",
+      "url": "https://sdvsector.com/news/2026-09-24-eu-euro-7-type-approval-obd-cybersecurity",
+      "checkedAt": "2026-10-10T03:42:58.015Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "nhtsa-openpilot-forks-investigation-pe26007-2026-09-24",
+      "url": "https://sdvsector.com/news/2026-09-24-nhtsa-comma-ai-openpilot-investigation",
+      "checkedAt": "2026-10-10T03:42:58.015Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "aumovio-vdo-link-distributed-eets-certification-2026-09-24",
+      "url": "https://sdvsector.com/news/2026-09-24-aumovio-eets-distributed-onboard-unit",
+      "checkedAt": "2026-10-10T03:42:58.015Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "fibocom-hangsheng-cockpit-domain-controller-acquisition-2026-09-24",
+      "url": "https://sdvsector.com/news/2026-09-24-fibocom-hangsheng-control-acquisition",
+      "checkedAt": "2026-10-10T03:42:58.016Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "url": "https://qnx.software/en/press-release/2026/coretura-selects-alloy-kore-for-its-commercial-vehicle-customers",
+      "checkedAt": "2026-10-10T03:42:58.016Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "volvo-horizon-aaos-development-platform-2026-09-22",
+      "url": "https://www.automotiveworld.com/news/volvo-cars-leads-aaos-cloud-development-push-with-horizon/",
+      "checkedAt": "2026-10-10T03:42:58.016Z",
+      "retrievalStatus": "failed",
+      "bodyVerified": false,
+      "verificationNote": "Direct retrieval failed; excluded unless independently verified via an alternative source."
+    },
+    {
+      "eventKey": "blackberry-qnx-revenue-forecast-2026-09-24",
+      "url": "https://www.reuters.com/business/blackberry-lifts-annual-revenue-forecast-strength-automotive-software-business-2026-09-24/",
+      "checkedAt": "2026-10-10T03:42:58.016Z",
+      "retrievalStatus": "failed",
+      "bodyVerified": false,
+      "verificationNote": "Direct retrieval failed; excluded unless independently verified via an alternative source."
+    },
+    {
+      "eventKey": "cubic3-connected-vehicle-value-analysis-2026-09-24",
+      "url": "https://www.cubic3.com/blog/connected-vehicle-value/",
+      "checkedAt": "2026-10-10T03:42:58.016Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "dspace-v2x-sil-hil-20260926",
+      "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace",
+      "checkedAt": "2026-10-10T03:42:58.016Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "bosch-rexroth-bodas-ota-20260927",
+      "url": "https://www.heavyquipmag.com/2026/09/27/bosch-rexroth-owasys-telematics-iot-off-highway/",
+      "checkedAt": "2026-10-10T03:42:58.017Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "rivian-rearview-camera-software-recall-20260923",
+      "url": "https://www.aol.ca/articles/rivian-sends-safety-message-thousands-151700000.html",
+      "checkedAt": "2026-10-10T03:42:58.017Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "alixpartners-western-automakers-sdv-control-points-20260425",
+      "url": "https://insideevs.com/features/794029/how-western-companies-are-losing-the-software-race/",
+      "checkedAt": "2026-10-10T03:42:58.017Z",
+      "retrievalStatus": "failed",
+      "bodyVerified": false,
+      "verificationNote": "Direct retrieval failed; excluded unless independently verified via an alternative source."
+    },
+    {
+      "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "url": "https://www.freightwaves.com/news/coretura-selects-vector-qnx-software-for-commercial-vehicle-platform",
+      "checkedAt": "2026-10-10T03:42:58.017Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "automotive-world-sdv-brief-20260924",
+      "url": "https://www.automotiveworld.com/intelligence-briefs/software-defined-vehicle-intelligence-brief-september-24-2026/",
+      "checkedAt": "2026-10-10T03:42:58.017Z",
+      "retrievalStatus": "failed",
+      "bodyVerified": false,
+      "verificationNote": "Direct retrieval failed; excluded unless independently verified via an alternative source."
+    },
+    {
+      "eventKey": "kigen-automotive-esim-sgp32-v13-20260925",
+      "url": "https://www.iotinsider.com/industries/communications/kigen-certifies-automotive-esim-for-latest-iot-specification/",
+      "checkedAt": "2026-10-10T03:42:58.017Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "pwc-ai-automotive-sdv-investment-outlook-2026",
+      "url": "https://www.pwc.com/us/en/industries/industrial-products/library/ai-automotive-outlook.html",
+      "checkedAt": "2026-10-10T03:42:58.018Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "forbes-sdv-enterprise-operating-model-20260925",
+      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/the-software-defined-vehicle-has-arrived-automakers-must-follow-suit/",
+      "checkedAt": "2026-10-10T03:42:58.018Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "ibm-india-sdv-ai-opinion-20260926",
+      "url": "https://auto.economictimes.indiatimes.com/news/auto-technology/how-india-can-lead-the-software-defined-automotive-era/134497439",
+      "checkedAt": "2026-10-10T03:42:58.019Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "eetimes-automotive-chiplet-architecture-20260807",
+      "url": "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
+      "checkedAt": "2026-10-10T03:42:58.019Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "stellantis-dongfeng-momenta-adas-jeep-peugeot-2026-09-28",
+      "url": "https://www.autonews.com/stellantis/ane-momenta-stellantis-dongfeng-autonomous-driving-0928/",
+      "checkedAt": "2026-10-10T03:42:58.019Z",
+      "retrievalStatus": "failed",
+      "bodyVerified": false,
+      "verificationNote": "Direct retrieval failed; excluded unless independently verified via an alternative source."
+    },
+    {
+      "eventKey": "kia-k5-prototype-pleos-connect-aaos-2026-09-28",
+      "url": "https://electrek.co/2026/09/28/kias-new-interior-spotted-larger-screen-high-tech-software/",
+      "checkedAt": "2026-10-10T03:42:58.019Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "coretura-alloy-kore-first-design-win-2026-09-22",
+      "url": "https://www.just-auto.com/news/blackberry-gets-automotive-business-boost/",
+      "checkedAt": "2026-10-10T03:42:58.020Z",
+      "retrievalStatus": "failed",
+      "bodyVerified": false,
+      "verificationNote": "Direct retrieval failed; excluded unless independently verified via an alternative source."
+    },
+    {
+      "eventKey": "siemens-eda-sdv-silicon-software-codesign-sponsored-20260928",
+      "url": "https://www.autocarpro.in/sponsored-content/branded-content-the-silicon-backbone-of-next-gen-mobility-134939",
+      "checkedAt": "2026-10-10T03:42:58.020Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "tau-motors-electrification-papers-20260928",
+      "url": "https://www.automotiveworld.com/news/tau-motors-presents-19-electrification-papers-in-new-york/",
+      "checkedAt": "2026-10-10T03:42:58.020Z",
+      "retrievalStatus": "failed",
+      "bodyVerified": false,
+      "verificationNote": "Direct retrieval failed; excluded unless independently verified via an alternative source."
+    },
+    {
+      "eventKey": "wardsauto-sdv-engineering-workflow-sponsored-20260928",
+      "url": "https://www.wardsauto.com/spons/beyond-ai-when-software-engineering-workflow-becomes-an-automakers-edge/830977/",
+      "checkedAt": "2026-10-10T03:42:58.020Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "indexbox-aaos-market-forecast-2035-20260928",
+      "url": "https://www.indexbox.io/blog/android-automotive-os-aaos-market-forecast-to-2035-growth-driven-by-software-defined-vehicle-demand/",
+      "checkedAt": "2026-10-10T03:42:58.020Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "openpr-sdv-market-study-20260928",
+      "url": "https://www.openpr.com/news/4645976/software-defined-vehicles-market-study-highlights-how",
+      "checkedAt": "2026-10-10T03:42:58.022Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "eventKey": "kpit-cockpit-adas-convergence-central-compute-2026-09-28",
+      "url": "https://auto.economictimes.indiatimes.com/amp/news/auto-technology/trust-will-depend-not-only-on-how-well-the-vehicle-drives-but-on-how-clearly-it-explains-its-status-and-intent-omkar-panse-cto-kpit/134532232",
+      "checkedAt": "2026-10-10T03:42:58.022Z",
+      "retrievalStatus": "complete",
+      "bodyVerified": true,
+      "verificationNote": "Publisher article body retrieved and inspected; date/event identity reconciled against preserved original record."
+    },
+    {
+      "url": "https://www.momenta.cn/en/article/617.html",
+      "checkedAt": "2026-10-10T03:42:58.023Z",
+      "retrievalStatus": "complete"
+    },
+    {
+      "url": "https://www.boschrexroth.com/en/at/company/press/owasys-47232.html",
+      "checkedAt": "2026-10-10T03:42:58.023Z",
+      "retrievalStatus": "complete"
+    },
+    {
+      "url": "https://kigen.com/resources/press-releases/kigen-automotive-esim-first-to-achieve-gsma-esa-certification/",
+      "checkedAt": "2026-10-10T03:42:58.023Z",
+      "retrievalStatus": "complete"
+    },
+    {
+      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-introduces-air-ux-30-offering-lucid-air-owners-faster-more",
+      "checkedAt": "2026-10-10T03:42:58.023Z",
+      "retrievalStatus": "failed"
+    },
+    {
+      "url": "https://www.dspace.com/en/ltd/home/news/dspace_pressroom/press/sil-hil-co-simulation.cfm",
+      "checkedAt": "2026-10-10T03:42:58.023Z",
+      "retrievalStatus": "complete"
+    },
+    {
+      "url": "https://news.research.gatech.edu/2026/09/24/study-uncovers-security-weaknesses-next-generation-vehicle-technology",
+      "checkedAt": "2026-10-10T03:42:58.024Z",
+      "retrievalStatus": "complete"
+    },
+    {
+      "url": "https://qnx.software/en/press-release/2026/coretura-selects-alloy-kore-for-its-commercial-vehicle-customers",
+      "checkedAt": "2026-10-10T03:42:58.024Z",
+      "retrievalStatus": "complete"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-25/pdf/2026-19636.pdf",
+      "checkedAt": "2026-10-10T03:42:58.024Z",
+      "retrievalStatus": "complete"
+    }
+  ],
+  "dateCorrections": [
+    {
+      "event": "Bosch Rexroth/Owasys partnership",
+      "officialPublishedAt": "2026-09-25",
+      "officialUrl": "https://www.boschrexroth.com/en/at/company/press/owasys-47232.html",
+      "note": "September 27 is secondary coverage date, not original official publication date."
+    },
+    {
+      "event": "Kigen eSIM certification",
+      "officialPublishedAt": "2026-09-23",
+      "note": "September 25 secondary coverage is not a new event."
+    },
+    {
+      "event": "dSPACE SIL/HIL product announcement",
+      "officialPublishedAt": "2026-06-17",
+      "note": "September 26 YourStory interview is distinct from the June product release."
+    },
+    {
+      "event": "Momenta DSAT partnership",
+      "officialPublishedAt": "2026-09-28",
+      "occurredAt": "2026-09-24",
+      "note": "Official article published September 28, signing announced September 24. Existing September 29 morning monitoring publication preserved."
+    }
+  ]
+}

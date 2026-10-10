@@ -113,8 +113,8 @@
       "rawHitCount": 6,
       "candidateCount": 2,
       "adoptedCount": 1,
-      "excludedCount": 1,
-      "duplicateCount": 0,
+      "excludedCount": 0,
+      "duplicateCount": 1,
       "lateAuditOnlyCount": 0
     },
     {
@@ -157,8 +157,8 @@
       "rawHitCount": 15,
       "candidateCount": 2,
       "adoptedCount": 1,
-      "excludedCount": 1,
-      "duplicateCount": 0,
+      "excludedCount": 0,
+      "duplicateCount": 1,
       "lateAuditOnlyCount": 0
     },
     {
@@ -201,7 +201,7 @@
       "rawHitCount": 12,
       "candidateCount": 2,
       "adoptedCount": 0,
-      "excludedCount": 2,
+      "excludedCount": 1,
       "duplicateCount": 1,
       "lateAuditOnlyCount": 0
     },
@@ -247,7 +247,7 @@
       "adoptedCount": 0,
       "excludedCount": 2,
       "duplicateCount": 0,
-      "lateAuditOnlyCount": 2
+      "lateAuditOnlyCount": 0
     },
     {
       "name": "Cross",
@@ -289,8 +289,8 @@
       "rawHitCount": 23,
       "candidateCount": 2,
       "adoptedCount": 0,
-      "excludedCount": 2,
-      "duplicateCount": 1,
+      "excludedCount": 0,
+      "duplicateCount": 2,
       "lateAuditOnlyCount": 0
     }
   ],
@@ -739,5 +739,69 @@
   "qualityCorrections": {
     "appliedIntuitionAddedToFixedSources": true,
     "reason": "Honda/Nissan announcements were missed when Applied Intuition was not a fixed official source."
-  }
+  },
+  "countCorrections": [
+    {
+      "correctedAt": "2026-10-10T03:40:09.562073+00:00",
+      "reason": "Reconcile saved terminal decisions; original retrieval/publication/decisions unchanged",
+      "rawCandidatesSHA256": "51d02097164c367f3b44f5a29f57a6abeefbaa7e2db53175919f9acf2873c9aa",
+      "changes": [
+        {
+          "funnel": "Platform/ecosystem",
+          "field": "excludedCount",
+          "original": 1,
+          "corrected": 0
+        },
+        {
+          "funnel": "Platform/ecosystem",
+          "field": "duplicateCount",
+          "original": 0,
+          "corrected": 1
+        },
+        {
+          "funnel": "Tier1/semiconductor",
+          "field": "excludedCount",
+          "original": 1,
+          "corrected": 0
+        },
+        {
+          "funnel": "Tier1/semiconductor",
+          "field": "duplicateCount",
+          "original": 0,
+          "corrected": 1
+        },
+        {
+          "funnel": "Cloud/OS/development",
+          "field": "excludedCount",
+          "original": 2,
+          "corrected": 1
+        },
+        {
+          "funnel": "Cross",
+          "field": "excludedCount",
+          "original": 2,
+          "corrected": 0
+        },
+        {
+          "funnel": "Cross",
+          "field": "duplicateCount",
+          "original": 1,
+          "corrected": 2
+        }
+      ]
+    },
+    {
+      "correctedAt": "2026-10-10T03:40:23.955705+00:00",
+      "reason": "Reconcile saved terminal decisions without changing candidate decisions",
+      "rawCandidatesSHA256": "51d02097164c367f3b44f5a29f57a6abeefbaa7e2db53175919f9acf2873c9aa",
+      "changes": [
+        {
+          "funnel": "Regulation/Security",
+          "field": "lateAuditOnlyCount",
+          "original": 2,
+          "corrected": 0
+        }
+      ]
+    }
+  ]
 }

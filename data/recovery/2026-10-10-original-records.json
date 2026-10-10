@@ -1,0 +1,434 @@
+{
+  "savedAt": "2026-10-10T03:35:37.821792+00:00",
+  "days": {
+    "2026-10-08": {
+      "date": "2026-10-08",
+      "alerts": [
+        {
+          "id": "codex-steering-20261008",
+          "eventKey": "codex-steering-20261008",
+          "category": "Codex",
+          "score": 88,
+          "title": "Codex、実行中の指示変更への反応を高速化",
+          "summary": "Codexデスクトップアプリで実行中のタスクへ追加入力した際の反応を高速化。Settings → General → Follow-up behaviorで適用方法を選択可能",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Release Notes",
+            "url": "https://openai.com/products/release-notes/"
+          }
+        },
+        {
+          "id": "api-ultrafast-sol-20261008",
+          "eventKey": "api-ultrafast-sol-20261008",
+          "category": "AI",
+          "score": 86,
+          "title": "GPT-6.1 SolにUltrafastモードを追加",
+          "summary": "Responses APIでservice_tier: ultrafastを指定可能。トークン生成間隔を短縮。APIユーザー向けに一般提供",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Release Notes",
+            "url": "https://openai.com/products/release-notes/"
+          }
+        },
+        {
+          "id": "codex-ultrafast-work-20261008",
+          "eventKey": "codex-gpt61-sol-ultrafast-work-2026-10-08",
+          "category": "Codex",
+          "score": 76,
+          "title": "GPT-6.1 Sol Ultrafast、CodexとChatGPT Workに追加",
+          "summary": "Pro $500および対象Enterprise/Eduで高速生成モードを提供。通常Plusプランの提供対象ではない",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "ChatGPT & Codex changelog",
+            "url": "https://learn.chatgpt.com/docs/changelog"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "codex-cli-01620-20261008",
+          "eventKey": "codex-cli-01620-2026-10-08",
+          "category": "Codex",
+          "score": 66,
+          "title": "Codex CLI 0.162.0、Git worktree管理とタスクピン留めを追加",
+          "summary": "信頼済みプロジェクトのworktree作成・一覧とCommand Centerのタスクピン留めなどを追加",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "ChatGPT & Codex changelog",
+            "url": "https://learn.chatgpt.com/docs/changelog"
+          }
+        },
+        {
+          "id": "chatgpt-plugin-rbac-20261008",
+          "eventKey": "chatgpt-plugin-rbac-20261008",
+          "category": "AI",
+          "score": 51,
+          "title": "Enterprise/Eduでプラグイン権限をロール別管理",
+          "summary": "RBACを有効化したEnterprise/Eduの管理者はプラグインの利用可否をロール単位で設定可能",
+          "publishedAt": "2026/10/08",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Release Notes",
+            "url": "https://openai.com/products/release-notes/"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "collection",
+          "name": "ニュース・SDV収集",
+          "status": "error",
+          "summary": "収集・監査未完了",
+          "checkedAt": "2026-10-10T12:00:00+09:00"
+        }
+      ],
+      "backfill": {
+        "partial": true,
+        "reason": "Historical backfill, not a completed six-funnel audit",
+        "restoredAt": "2026-10-10T12:00:00+09:00"
+      }
+    },
+    "2026-10-09": {
+      "date": "2026-10-09",
+      "alerts": [],
+      "references": [
+        {
+          "id": "codex-composer-predictions-20261009",
+          "eventKey": "codex-composer-predictions-20261009",
+          "category": "Codex",
+          "score": 69,
+          "title": "Codex、次の入力を予測するComposer predictionsをβ公開",
+          "summary": "個人Pro向けCodexデスクトップで次の入力候補を提示。候補生成はβ期間中Codex枠を消費せず、送信したメッセージは通常の利用枠対象",
+          "publishedAt": "2026/10/09",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "OpenAI Release Notes",
+            "url": "https://openai.com/products/release-notes/"
+          }
+        },
+        {
+          "id": "codex-cli-01621-20261009",
+          "eventKey": "codex-cli-01621-2026-10-09",
+          "category": "Codex",
+          "score": 62,
+          "title": "Codex CLI 0.162.1、複数行の非同期質問でのクラッシュを修正",
+          "summary": "TUIクラッシュとバックグラウンドサーバー設定差分に起因する起動失敗を修正",
+          "publishedAt": "2026/10/09",
+          "firstSeenAt": "2026-10-10T12:00:00+09:00",
+          "discoveredLate": true,
+          "source": {
+            "label": "ChatGPT & Codex changelog",
+            "url": "https://learn.chatgpt.com/docs/changelog"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "collection",
+          "name": "ニュース・SDV収集",
+          "status": "error",
+          "summary": "収集・監査未完了",
+          "checkedAt": "2026-10-10T12:00:00+09:00"
+        }
+      ],
+      "backfill": {
+        "partial": true,
+        "reason": "Historical backfill, not a completed six-funnel audit",
+        "restoredAt": "2026-10-10T12:00:00+09:00"
+      }
+    },
+    "2026-10-10": {
+      "date": "2026-10-10",
+      "alerts": [],
+      "references": [],
+      "checks": [
+        {
+          "id": "collection",
+          "name": "ニュース・SDV収集",
+          "status": "error",
+          "summary": "収集・監査未完了",
+          "checkedAt": "2026-10-10T12:00:00+09:00"
+        }
+      ],
+      "backfill": {
+        "partial": true,
+        "reason": "Historical backfill, not a completed six-funnel audit",
+        "restoredAt": "2026-10-10T12:00:00+09:00"
+      }
+    }
+  },
+  "audits": {
+    "2026-10-08": {
+      "date": "2026-10-08",
+      "collectionComplete": false,
+      "anomaly": true,
+      "deepScanPerformed": false,
+      "rawCandidates": [],
+      "funnels": [
+        {
+          "name": "OEM",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Platform/ecosystem",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Tier1/semiconductor",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Cloud/OS/development",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Regulation/Security",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Cross",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        }
+      ],
+      "backfill": {
+        "partial": true,
+        "reason": "Historical audit could not be reconstructed from actual searches; no invented search evidence"
+      }
+    },
+    "2026-10-09": {
+      "date": "2026-10-09",
+      "collectionComplete": false,
+      "anomaly": true,
+      "deepScanPerformed": false,
+      "rawCandidates": [],
+      "funnels": [
+        {
+          "name": "OEM",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Platform/ecosystem",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Tier1/semiconductor",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Cloud/OS/development",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Regulation/Security",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Cross",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        }
+      ],
+      "backfill": {
+        "partial": true,
+        "reason": "Historical audit could not be reconstructed from actual searches; no invented search evidence"
+      }
+    },
+    "2026-10-10": {
+      "date": "2026-10-10",
+      "collectionComplete": false,
+      "anomaly": true,
+      "deepScanPerformed": false,
+      "rawCandidates": [],
+      "funnels": [
+        {
+          "name": "OEM",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Platform/ecosystem",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Tier1/semiconductor",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Cloud/OS/development",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Regulation/Security",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        },
+        {
+          "name": "Cross",
+          "retrievalStatus": "not_completed",
+          "queries": [],
+          "rawHitCount": 0
+        }
+      ],
+      "backfill": {
+        "partial": true,
+        "reason": "Historical audit could not be reconstructed from actual searches; no invented search evidence"
+      }
+    }
+  },
+  "state": {
+    "version": 1,
+    "updatedAt": "2026-10-07T07:12:35.883+09:00",
+    "lastSuccessfulAt": "2026-10-07T07:12:35.883+09:00",
+    "funnels": {
+      "OEM": {
+        "lastSuccessfulAt": "2026-10-07T07:12:35.883+09:00",
+        "lastCount": 2
+      },
+      "Platform": {
+        "lastSuccessfulAt": "2026-10-07T07:12:35.883+09:00",
+        "lastCount": 2
+      },
+      "Tier1Semi": {
+        "lastSuccessfulAt": "2026-10-07T07:12:35.883+09:00",
+        "lastCount": 2
+      },
+      "CloudOS": {
+        "lastSuccessfulAt": "2026-10-07T07:12:35.883+09:00",
+        "lastCount": 2
+      },
+      "RegSecurity": {
+        "lastSuccessfulAt": "2026-10-07T07:12:35.883+09:00",
+        "lastCount": 2
+      },
+      "Cross": {
+        "lastSuccessfulAt": "2026-10-07T07:12:35.883+09:00",
+        "lastCount": 2
+      }
+    },
+    "unresolvedWindows": [],
+    "pendingBatch": null,
+    "lastVerifiedDailyCommit": "d4d8fa392f587b497f1e0021673a13757d38382f",
+    "lastAudit": "data/audits/2026-10-07-sdv.json",
+    "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
+    "weeklyBackfill": "last 7 days",
+    "collectionPolicy": {
+      "version": 3,
+      "candidateFloor": 0,
+      "rule": "Never conclude zero candidates from publication threshold. Record every plausible SDV hit before relevance, duplicate, and score filtering.",
+      "funnelQueries": {
+        "OEM": [
+          "software-defined vehicle",
+          "vehicle OS",
+          "E/E architecture",
+          "central compute",
+          "zonal ECU",
+          "OTA",
+          "vehicle API",
+          "automotive middleware"
+        ],
+        "Platform": [
+          "AAOS",
+          "AUTOSAR Adaptive",
+          "SOAFEE",
+          "Eclipse SDV",
+          "COVESA",
+          "QNX",
+          "Alloy Kore",
+          "vehicle OS",
+          "automotive hypervisor"
+        ],
+        "Tier1Semi": [
+          "SDV platform",
+          "central compute",
+          "HPC automotive",
+          "zonal controller",
+          "automotive middleware",
+          "OTA"
+        ],
+        "CloudOS": [
+          "automotive cloud development",
+          "virtual ECU",
+          "SIL HIL",
+          "digital twin automotive",
+          "vehicle SDK",
+          "CI/CD automotive"
+        ],
+        "RegSecurity": [
+          "UNECE R155",
+          "UNECE R156",
+          "ISO 21434",
+          "automotive cybersecurity",
+          "software update regulation"
+        ],
+        "Cross": [
+          "software-defined vehicle",
+          "SDV automotive software",
+          "vehicle OS middleware HPC zonal OTA"
+        ]
+      },
+      "zeroResultRule": "If any funnel has zero raw candidates, rerun with at least two alternate query families and record query, source URL, retrieval status, and raw hit count.",
+      "auditRule": "Audit must contain rawCandidates, excluded candidates with reason, duplicates with canonical eventKey, and adopted candidates. candidateCount means raw candidates before filtering.",
+      "scoring": {
+        "sdvDirectness": 25,
+        "practicalImpact": 25,
+        "scale": 20,
+        "specificity": 15,
+        "novelty": 15,
+        "publicationFloor": 40,
+        "importantFloor": 65
+      },
+      "deepScanRule": "Run a second pass when total rawCandidates < 8, four or more funnels have zero raw candidates, all six funnels are zero, or SDV publication count is zero for two consecutive days. Deep Scan must add at least 12 date/company/technology/regulation/source-specific queries.",
+      "completionGate": "Do not set collectionComplete=true or declare SDV clear unless audit contains concrete query strings, source URLs/source families, observed raw hit counts, raw candidates and explicit adoption/exclusion/duplicate reasons. If evidence is insufficient, set anomaly=true and leave collection incomplete.",
+      "lateDiscoveryRule": "If a missed event from the 48-hour overlap window is discovered later, preserve original publishedAt, set firstSeenAt to actual discovery time, mark discoveredLate=true, and keep it audit-only when it belongs to a past daily publication window. Never insert it into today's alerts or references.",
+      "fixedOfficialSources": [
+        "Applied Intuition newsroom",
+        "Honda newsroom",
+        "Nissan newsroom/technology",
+        "OpenAI Help Center",
+        "OpenAI Developers",
+        "OpenAI Status"
+      ]
+    }
+  }
+}

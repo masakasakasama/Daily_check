@@ -37,9 +37,11 @@ export function validateCollectionAudit(audit, day, previousDay) {
     || new Set(audit.funnels.map(f => f.name)).size !== 6) fail('six distinct funnels required');
   const names = new Set(audit.funnels.map(f => f.name));
   if (audit.rawCandidates.some(c => !names.has(c.funnel) || !terminal.has(c.decision)
-    || !text(c.eventKey) || !url(c.primaryUrl) || !text(c.reason)
+    || !text(c.eventKey) || !url(c.primaryUrl ?? c.source?.url) || !text(c.reason)
+    || (c.primaryUrl !== undefined && c.source?.url !== undefined && c.primaryUrl !== c.source.url)
+    || (c.verified !== undefined && c.bodyVerified !== undefined && c.verified !== c.bodyVerified)
     || (c.decision === 'duplicate' && !text(c.duplicateOf))
-    || (c.decision === 'late-audit-only' && (c.discoveredLate !== true || c.verified !== true)))) {
+    || (c.decision === 'late-audit-only' && (c.discoveredLate !== true || (c.verified ?? c.bodyVerified) !== true)))) {
     fail('candidate terminal decision/reason/source/identity evidence incomplete');
   }
   const normalQueries = [];

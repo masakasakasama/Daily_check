@@ -1,20 +1,20 @@
 {
-  "start": "2026-10-04",
-  "end": "2026-10-10",
+  "start": "2026-10-02",
+  "end": "2026-10-08",
   "generatedAt": "2026-10-10T03:35:37.821792+00:00",
   "headline": "保存済み日別記事から再集計。10月8〜10日の欠落分を再収集",
   "counts": {
-    "important": 16,
-    "reference": 15
+    "important": 15,
+    "reference": 18
   },
   "categories": [
     {
       "name": "AI",
-      "summary": "重要4件・参考7件"
+      "summary": "重要5件・参考9件"
     },
     {
       "name": "Codex",
-      "summary": "重要4件・参考3件"
+      "summary": "重要4件・参考0件"
     },
     {
       "name": "Permanent Residency",
@@ -22,7 +22,7 @@
     },
     {
       "name": "SDV",
-      "summary": "重要7件・参考4件"
+      "summary": "重要5件・参考8件"
     }
   ],
   "highlights": [
@@ -140,6 +140,20 @@
       "source": {
         "label": "OpenAI Developers",
         "url": "https://developers.openai.com/api/reference/cli/resources/decisions/methods/create"
+      }
+    },
+    {
+      "id": "ai-anthropic-claude-code-mods-20261001",
+      "eventKey": "anthropic-claude-code-2-1-287-mods-2026-10-01",
+      "category": "AI",
+      "score": 83,
+      "title": "Claude Code 2.1.287、動作を拡張するClaude Modsと監視サイドエージェントを追加",
+      "summary": "プラグインがより深い動作を変更できるClaude Modsを導入。見落としを指摘する組み込みサイドエージェント、エージェント検索、MCP URLプロンプトにも対応",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://code.claude.com/docs/en/changelog"
       }
     },
     {
@@ -298,68 +312,22 @@
         "specificity": 10,
         "novelty": 7
       }
-    },
-    {
-      "id": "stellantis-wayve-road-demo-20261009",
-      "eventKey": "stellantis-wayve-road-demo-20261009",
-      "category": "SDV",
-      "score": 72,
-      "title": "StellantisとWayve、2車種で共通AI運転基盤の実走を披露",
-      "summary": "Fiat 500eとMaserati Grecaleの試験車でSTLA AutoDriveとWayve AI Driverを統合。4週間未満で実走試験へ進み、監督付きL2++運転を実演。量産開始の発表ではない",
-      "publishedAt": "2026/10/09",
-      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "Stellantis公式",
-        "url": "https://www.media.stellantis.com/em-en/corporate/press/stellantis-and-wayve-demonstrate-how-ai-can-scale-across-vehicle-platforms-and-enhance-everyday-mobility"
-      },
-      "scoreBreakdown": {
-        "sdvDirectness": 22,
-        "practicalImpact": 18,
-        "scale": 15,
-        "specificity": 10,
-        "novelty": 7
-      }
-    },
-    {
-      "id": "fmcsa-aurora-warning-beacons-20261009",
-      "eventKey": "fmcsa-aurora-warning-beacons-20261009",
-      "category": "SDV",
-      "score": 65,
-      "title": "米FMCSA、L4トラックの停止時警告装置に5年間の特例",
-      "summary": "停止時の三角表示板の代わりに車載警告灯を認める。Auroraに加え、事前届出と条件を満たすL4事業者も対象。適用は10月7日〜2031年10月7日",
-      "publishedAt": "2026/10/09",
-      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
-      "discoveredLate": true,
-      "source": {
-        "label": "Federal Register",
-        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/pdf/2026-20734.pdf"
-      },
-      "scoreBreakdown": {
-        "sdvDirectness": 16,
-        "practicalImpact": 19,
-        "scale": 15,
-        "specificity": 10,
-        "novelty": 5
-      }
     }
   ],
   "references": [
     {
-      "id": "codex-composer-predictions-20261009",
-      "eventKey": "codex-composer-predictions-20261009",
-      "category": "Codex",
-      "score": 69,
-      "title": "Codex、次の入力を予測するComposer predictionsをβ公開",
-      "summary": "個人Pro向けCodexデスクトップで次の入力候補を提示。候補生成はβ期間中Codex枠を消費せず、送信したメッセージは通常の利用枠対象",
-      "publishedAt": "2026/10/09",
-      "firstSeenAt": "2026-10-10T12:00:00+09:00",
-      "discoveredLate": true,
+      "id": "ai-anthropic-claude-code-2-1-288-20261002",
+      "eventKey": "anthropic-claude-code-2-1-288-2026-10-02",
+      "category": "AI",
+      "score": 70,
+      "title": "Claude Code 2.1.288、コードレビュー件数制御とセッション復旧を強化",
+      "summary": "/code-reviewの検出件数指定、agents画面の検索、MCP OAuth再認証、Ctrl+Cで消した下書き復元を追加。途中タイムアウトやresume時の文脈欠落も修正",
+      "publishedAt": "2026/10/02",
+      "firstSeenAt": "2026-10-03T06:56:41+09:00",
       "source": {
-        "label": "OpenAI Release Notes",
-        "url": "https://openai.com/products/release-notes/"
-      },
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+        "label": "Anthropic",
+        "url": "https://code.claude.com/docs/en/changelog"
+      }
     },
     {
       "id": "ai-google-antigravity-claude-55-20261003",
@@ -397,21 +365,18 @@
       }
     },
     {
-      "id": "codex-cli-01620-20261008",
-      "eventKey": "codex-cli-01620-2026-10-08",
-      "category": "Codex",
-      "score": 66,
-      "title": "Codex CLI 0.162.0、Git worktree管理とタスクピン留めを追加",
-      "summary": "信頼済みプロジェクトのworktree作成・一覧とCommand Centerのタスクピン留めなどを追加",
-      "publishedAt": "2026/10/09",
-      "firstSeenAt": "2026-10-10T12:00:00+09:00",
-      "discoveredLate": true,
+      "id": "sdv-scsk-vector-edge-ecu-platform-20261001",
+      "eventKey": "scsk-vector-microsar-qines-rl78-edge-ecu-2026-10-01",
+      "category": "SDV",
+      "score": 64,
+      "title": "SCSKとVector、小型ECU向け共通ソフト基盤を共同開発",
+      "summary": "MICROSAR IOとQINeS-LiteをRenesas RL78/F2x向けに統合し、ドア・センサー・空調などのエッジECU開発工数を50〜80%削減する試作を10月から提供",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
       "source": {
-        "label": "OpenAI Codex GitHub release",
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0"
-      },
-      "sourcePublishedAt": "2026-10-08T18:55:59Z",
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+        "label": "SDV Sector / SCSK",
+        "url": "https://sdvsector.com/news/2026-10-01-scsk-vector-microsar-io-qines-lite-rl78"
+      }
     },
     {
       "id": "ai-anthropic-cvp-expanded-20261006",
@@ -457,21 +422,18 @@
       }
     },
     {
-      "id": "codex-cli-01621-20261009",
-      "eventKey": "codex-cli-01621-2026-10-09",
-      "category": "Codex",
-      "score": 62,
-      "title": "Codex CLI 0.162.1、複数行の非同期質問でのクラッシュを修正",
-      "summary": "TUIクラッシュとバックグラウンドサーバー設定差分に起因する起動失敗を修正",
-      "publishedAt": "2026/10/10",
-      "firstSeenAt": "2026-10-10T12:00:00+09:00",
-      "discoveredLate": true,
+      "id": "sdv-tieriv-arm-autoware-20261001",
+      "eventKey": "tieriv-arm-total-design-autoware-2026-10-01",
+      "category": "SDV",
+      "score": 61,
+      "title": "TIER IV、ArmのPhysical AI連携に参加しAutoware実装を加速",
+      "summary": "Arm SoCから車載コンピューターまでAutowareを即利用できる構成へパッケージ化し、半導体メーカーとOEMの自動運転システム開発を短縮する方針",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
       "source": {
-        "label": "OpenAI Codex GitHub release",
-        "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1"
-      },
-      "sourcePublishedAt": "2026-10-09T19:44:51Z",
-      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+        "label": "SDV Sector / TIER IV",
+        "url": "https://sdvsector.com/news/2026-10-01-tier-iv-arm-total-design-physical-ai-autoware"
+      }
     },
     {
       "id": "sdv-stellantis-wayve-fiat-maserati-20261004",
@@ -485,6 +447,20 @@
       "source": {
         "label": "AUTO Connected Car News",
         "url": "https://www.autoconnectedcar.com/2026/10/autonomous-self-driving-vehicle-news-arbe-robotics-faraday-future-tier-iv-rideflux-kgm-hyundai-mobis-stellantis-wayve-california/"
+      }
+    },
+    {
+      "id": "sdv-gm-onstar-fleet-ai-20261001",
+      "eventKey": "gm-onstar-fleet-intelligence-ai-2026-10-01",
+      "category": "SDV",
+      "score": 58,
+      "title": "GM、車両データとAI分析を統合したOnStar Fleet Intelligenceを展開",
+      "summary": "診断、位置情報、契約更新、車両保護を単一アカウントへ統合し、自然言語で稼働率やアイドリング時間を照会可能。対象顧客へ段階展開",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / GM",
+        "url": "https://sdvsector.com/news/2026-10-01-gm-onstar-fleet-intelligence-ai-assistant"
       }
     },
     {
@@ -546,6 +522,20 @@
       }
     },
     {
+      "id": "sdv-china-supply-chain-cyber-standard-20261001",
+      "eventKey": "china-miit-vehicle-supply-chain-cyber-standard-2026-10-01",
+      "category": "SDV",
+      "score": 55,
+      "title": "中国、コネクテッド車サプライチェーンのサイバー標準案を公募",
+      "summary": "MIITが技術要件と試験方法を定める推奨国家標準プロジェクトを公開。部品・ファームウェア供給網まで対象を広げ、10月29日まで意見募集",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "SDV Sector / MIIT",
+        "url": "https://sdvsector.com/news/2026-10-01-miit-supply-chain-cybersecurity-standard-project"
+      }
+    },
+    {
       "id": "ai-reflection-open-weight-preview-20261004",
       "eventKey": "reflection-open-weight-model-preview-2026-10-04",
       "category": "AI",
@@ -557,6 +547,20 @@
       "source": {
         "label": "Axios",
         "url": "https://www.axios.com/newsletters/axios-am-2b1de489-384e-4789-90c6-c71365f81223"
+      }
+    },
+    {
+      "id": "ai-anthropic-barclays-claude-scale-20261001",
+      "eventKey": "anthropic-barclays-claude-rollout-2026-10-01",
+      "category": "AI",
+      "score": 54,
+      "title": "Barclays、Claude Codeを2026年末までに開発者の半数へ拡大",
+      "summary": "既存16,000人の知識支援と1日12万通のメール処理に加え、Claude Codeを2026年末に開発者の50%、2027年に過半数へ展開する計画",
+      "publishedAt": "2026/10/01",
+      "firstSeenAt": "2026-10-02T07:03:42+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/news/barclays-scales-claude"
       }
     },
     {

@@ -1,6 +1,12 @@
 name: Verify Daily Check freshness
 
 on:
+  push:
+    paths:
+      - 'index.html'
+      - 'scripts/**'
+      - 'data/**'
+      - '.github/workflows/daily-freshness.yml'
   schedule:
     # 22:45 UTC = 07:45 JST. The confirmed primary task runs at 07:00; no recovery task is confirmed.
     - cron: "45 22 * * *"
@@ -20,5 +26,7 @@ jobs:
           node-version: "22"
       - name: Verify audit validation regressions
         run: node --test scripts/*.test.mjs
+      - name: Verify UI JavaScript syntax
+        run: node scripts/verify-ui.mjs
       - name: Verify today's persisted data
         run: node scripts/verify-daily-data.mjs

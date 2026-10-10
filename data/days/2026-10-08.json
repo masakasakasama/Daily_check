@@ -14,7 +14,8 @@
       "source": {
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
-      }
+      },
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
     },
     {
       "id": "api-ultrafast-sol-20261008",
@@ -29,7 +30,8 @@
       "source": {
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
-      }
+      },
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
     },
     {
       "id": "codex-ultrafast-work-20261008",
@@ -44,23 +46,90 @@
       "source": {
         "label": "ChatGPT & Codex changelog",
         "url": "https://learn.chatgpt.com/docs/changelog"
+      },
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+    },
+    {
+      "id": "foton-zhuoyu-commercial-autonomy-20261008",
+      "eventKey": "foton-zhuoyu-commercial-autonomy-20261008",
+      "category": "SDV",
+      "score": 73,
+      "title": "福田と卓驭、商用車向け自動運転とL3/L4試点を共同開発",
+      "summary": "卓驭のモデル・センサー融合・ドメイン制御装置と福田の車両制御を統合。大型トラックや物流車へ段階展開し、量産と規制試点を進める",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "Foton公式",
+        "url": "https://www.foton.com.cn/newsDetaile24976.html"
+      },
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 20,
+        "scale": 15,
+        "specificity": 10,
+        "novelty": 7
       }
     }
   ],
   "references": [
     {
-      "id": "codex-cli-01620-20261008",
-      "eventKey": "codex-cli-01620-2026-10-08",
-      "category": "Codex",
-      "score": 66,
-      "title": "Codex CLI 0.162.0、Git worktree管理とタスクピン留めを追加",
-      "summary": "信頼済みプロジェクトのworktree作成・一覧とCommand Centerのタスクピン留めなどを追加",
+      "id": "kodiak-charger-laredo-20261008",
+      "eventKey": "kodiak-charger-laredo-20261008",
+      "category": "SDV",
+      "score": 62,
+      "title": "Kodiak、Dallas–Laredo間435マイルの自動運転輸送を開始",
+      "summary": "Charger USAと冷蔵・一般貨物を輸送。当面は安全運転者が同乗し、無人化は安全性の立証完了後。初回輸送は9月8日、今回の発表は10月8日",
       "publishedAt": "2026/10/08",
-      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
       "discoveredLate": true,
       "source": {
-        "label": "ChatGPT & Codex changelog",
-        "url": "https://learn.chatgpt.com/docs/changelog"
+        "label": "Kodiak AI",
+        "url": "https://kodiak.ai/news/kodiak-charger-usa-autonomous-trucking-dallas-laredo"
+      },
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 18,
+        "scale": 10,
+        "specificity": 10,
+        "novelty": 6
+      }
+    },
+    {
+      "id": "volvo-ex30-ecall-recall-4232-20261008",
+      "eventKey": "volvo-ex30-ecall-recall-4232-20261008",
+      "category": "SDV",
+      "score": 58,
+      "title": "Volvo EX30、緊急通報ソフト不具合をOTAまたは入庫で修正",
+      "summary": "日本の116台が対象。通信モジュールの制御プログラム不具合で緊急通報できない問題を修正。使用者自身による遠隔更新も選択可能",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "国土交通省",
+        "url": "https://www.mlit.go.jp/report/press/jidosha08_hh_005856.html"
+      },
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 14,
+        "scale": 5,
+        "specificity": 12,
+        "novelty": 4
+      }
+    },
+    {
+      "id": "anthropic-usage-policy-20261008",
+      "eventKey": "anthropic-usage-policy-20261008",
+      "category": "AI",
+      "score": 58,
+      "title": "Anthropic、11月12日適用の利用ポリシー改定を発表",
+      "summary": "自律的に物理動作するハードウェアでの利用要件などを明確化。主に既存ルールの説明を更新し、適用開始は11月12日",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "Anthropic公式",
+        "url": "https://www.anthropic.com/news/2026-usage-policy-update"
       }
     },
     {
@@ -76,21 +145,116 @@
       "source": {
         "label": "OpenAI Release Notes",
         "url": "https://openai.com/products/release-notes/"
+      },
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00"
+    },
+    {
+      "id": "uk-long-residence-guidance-20261008",
+      "eventKey": "uk-long-residence-guidance-20261008",
+      "category": "Permanent Residency",
+      "score": 48,
+      "title": "英国、長期居住申請の在留許可への切替手続きを明確化",
+      "summary": "10年居住ルートの永住要件を満たさない場合の申請切替を説明。居住年数短縮の発表ではなく、Long Residenceから家族・私生活ルートへ切り替える判断を更新",
+      "publishedAt": "2026/10/08",
+      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "UKVI",
+        "url": "https://www.gov.uk/government/publications/long-residence/long-residence-accessible"
       }
     }
   ],
   "checks": [
     {
-      "id": "collection",
-      "name": "ニュース・SDV収集",
-      "status": "error",
-      "summary": "収集・監査未完了",
-      "checkedAt": "2026-10-10T12:00:00+09:00"
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "公式本文を再確認。OpenAI・Anthropic・Geminiの対象期間を検索（欠落日の再収集）",
+      "checkedAt": "2026-10-10T03:35:37.821792+00:00",
+      "alertCount": 1,
+      "referenceCount": 2
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "公式更新・GitHub公開時刻・X検索を確認。新規リセットは未確認（欠落日の再収集）",
+      "checkedAt": "2026-10-10T03:35:37.821792+00:00",
+      "alertCount": 2,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "update",
+      "summary": "6系統の実検索18本、追加検索12本、固定公式巡回を実施（欠落日の再収集）",
+      "checkedAt": "2026-10-10T03:35:37.821792+00:00",
+      "alertCount": 1,
+      "referenceCount": 2
+    },
+    {
+      "id": "residency",
+      "name": "主要国の永住条件",
+      "status": "update",
+      "summary": "日英米加豪NZの公式検索。英国の申請切替を確認。日本の直接取得は制限あり、索引で確認（欠落日の再収集）",
+      "checkedAt": "2026-10-10T03:35:37.821792+00:00",
+      "alertCount": 0,
+      "referenceCount": 1
     }
   ],
-  "backfill": {
-    "partial": true,
-    "reason": "Historical backfill, not a completed six-funnel audit",
-    "restoredAt": "2026-10-10T12:00:00+09:00"
+  "recovery": {
+    "mode": "verified-historical-recovery",
+    "completed": true,
+    "startedAt": "2026-10-10T03:30:09.777Z",
+    "completedAt": "2026-10-10T03:35:37.821792+00:00",
+    "evidencePath": "data/recovery/2026-10-10-searches.json",
+    "articles": [
+      {
+        "eventKey": "codex-steering-20261008",
+        "verified": true,
+        "sourceUrl": "https://openai.com/products/release-notes/"
+      },
+      {
+        "eventKey": "api-ultrafast-sol-20261008",
+        "verified": true,
+        "sourceUrl": "https://openai.com/products/release-notes/"
+      },
+      {
+        "eventKey": "codex-gpt61-sol-ultrafast-work-2026-10-08",
+        "verified": true,
+        "sourceUrl": "https://learn.chatgpt.com/docs/changelog"
+      },
+      {
+        "eventKey": "chatgpt-plugin-rbac-20261008",
+        "verified": true,
+        "sourceUrl": "https://openai.com/products/release-notes/"
+      },
+      {
+        "eventKey": "volvo-ex30-ecall-recall-4232-20261008",
+        "verified": true,
+        "sourceUrl": "https://www.mlit.go.jp/report/press/jidosha08_hh_005856.html"
+      },
+      {
+        "eventKey": "foton-zhuoyu-commercial-autonomy-20261008",
+        "verified": true,
+        "sourceUrl": "https://www.foton.com.cn/newsDetaile24976.html"
+      },
+      {
+        "eventKey": "kodiak-charger-laredo-20261008",
+        "verified": true,
+        "sourceUrl": "https://kodiak.ai/news/kodiak-charger-usa-autonomous-trucking-dallas-laredo"
+      },
+      {
+        "eventKey": "anthropic-usage-policy-20261008",
+        "verified": true,
+        "sourceUrl": "https://www.anthropic.com/news/2026-usage-policy-update"
+      },
+      {
+        "eventKey": "uk-long-residence-guidance-20261008",
+        "verified": true,
+        "sourceUrl": "https://www.gov.uk/government/publications/long-residence/long-residence-accessible"
+      }
+    ],
+    "note": "10月10日に未実行日の検索・本文確認を再実施。元の失敗記録はdata/recoveryに保存。公開日と実際の発見日時を保持。"
   }
 }

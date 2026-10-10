@@ -44,3 +44,15 @@ test('October 3 persisted late-audit-only candidates are terminal and do not cou
   assert.equal(check(f).deepScanRequired,false);
   const late=f.audit.rawCandidates.find(c=>c.decision==='late-audit-only');late.discoveredLate=false;assert.throws(()=>check(f),/candidate terminal/);
 });
+
+test('persisted nested source/body verification is compatible while conflicting evidence is rejected', () => {
+  const f=fixture();
+  const c=f.audit.rawCandidates[0];
+  c.source={family:'official',url:c.primaryUrl};delete c.primaryUrl;
+  c.decision='late-audit-only';c.bodyVerified=true;c.discoveredLate=true;
+  f.audit.funnels[0].excludedCount--;f.audit.funnels[0].lateAuditOnlyCount=1;
+  assert.equal(check(f).deepScanRequired,false);
+  c.primaryUrl='https://example.com/other';assert.throws(()=>check(f),/candidate terminal/);
+  c.primaryUrl=c.source.url;c.verified=false;assert.throws(()=>check(f),/candidate terminal/);
+  delete c.verified;delete c.bodyVerified;assert.throws(()=>check(f),/candidate terminal/);
+});

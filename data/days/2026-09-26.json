@@ -29,6 +29,28 @@
         "label": "Daily AI Newsbites",
         "url": "https://replit.com/blog/replit-acquires-atta"
       }
+    },
+    {
+      "id": "dspace-v2x-sil-hil-20260926",
+      "eventKey": "dspace-v2x-sil-hil-20260926",
+      "category": "SDV",
+      "score": 58,
+      "scoreBreakdown": {
+        "sdvDirectness": 14,
+        "practicalImpact": 16,
+        "scale": 9,
+        "specificity": 12,
+        "novelty": 7
+      },
+      "title": "dSPACE、インドのV2X検証をSIL/HILと通信模擬で支援",
+      "summary": "現地道路の混在交通を仮想再現し、ECUや4G・5G通信環境を組み合わせて検証。2028年のV2X制度案への対応を取材で説明。制度の成立を伝える記事ではない",
+      "publishedAt": "2026/09/26",
+      "firstSeenAt": "2026-09-28T06:10:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "YourStory",
+        "url": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
+      }
     }
   ],
   "checks": [
@@ -44,11 +66,11 @@
     {
       "id": "sdv-nissan",
       "name": "SDV / Nissanニュース",
-      "status": "clear",
-      "summary": "遅延発見1件を掲載対象から除外。元の収集・採用証跡は当日auditのpublicationCorrectionsに保持。",
-      "checkedAt": "2026-09-28T06:10:00+09:00",
+      "status": "update",
+      "summary": "不足監査を10月10日に再収集。6系統18検索・追加12検索と本文再確認。重要0件・参考1件。取得できない候補は理由付きで除外",
+      "checkedAt": "2026-10-10T03:43:54.611049+00:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 1
     },
     {
       "id": "codex-reset",
@@ -68,5 +90,20 @@
       "alertCount": 0,
       "referenceCount": 0
     }
-  ]
+  ],
+  "recovery": {
+    "mode": "verified-historical-recovery",
+    "completed": true,
+    "startedAt": "2026-10-10T03:41:21.628Z",
+    "completedAt": "2026-10-10T03:43:54.611049+00:00",
+    "evidencePath": "data/recovery/2026-10-10-september-searches.json",
+    "articles": [
+      {
+        "eventKey": "dspace-v2x-sil-hil-20260926",
+        "verified": true,
+        "sourceUrl": "https://yourstory.com/2026/09/connected-car-push-simulation-making-vehicles-safer-dspace"
+      }
+    ],
+    "note": "10月10日に不足監査の検索を再実施。過去の取得成功を推測せず、元の失敗・証跡をrecovery原本へ保存。再確認した欠落記事を復元。"
+  }
 }

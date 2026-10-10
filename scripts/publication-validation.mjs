@@ -6,7 +6,20 @@ export function validateDailyPublication(day, previousDays = []) {
   const seen = new Set();
   for (const article of articles(day)) {
     if (!key(article)) fail(`${day.date}: article identity missing`);
-    if (article.discoveredLate === true) fail(`${day.date}: discoveredLate leaked into daily feed: ${key(article)}`);
+    if (article.discoveredLate === true) {
+      const recovery = day.recovery;
+      const evidence = recovery?.articles?.find(item => item.eventKey === key(article));
+      // Explicit reconstruction of a missed day keeps the true discovery time.
+      const publishedDate = String(article.publishedAt || '').replaceAll('/', '-');
+      if (recovery?.mode !== 'verified-historical-recovery'
+        || recovery.completed !== true || publishedDate !== day.date
+        || evidence?.verified !== true || evidence.sourceUrl !== article.source?.url
+        || !Number.isFinite(Date.parse(recovery.completedAt))
+        || !Number.isFinite(Date.parse(article.firstSeenAt))
+        || Date.parse(article.firstSeenAt) > Date.parse(recovery.completedAt)) {
+        fail(`${day.date}: discoveredLate leaked into daily feed: ${key(article)}`);
+      }
+    }
     if (previous.has(key(article))) fail(`${day.date}: previously published eventKey: ${key(article)}`);
     if (seen.has(key(article))) fail(`${day.date}: duplicate eventKey: ${key(article)}`);
     seen.add(key(article));
