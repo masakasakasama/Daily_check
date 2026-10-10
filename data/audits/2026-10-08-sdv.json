@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-08",
+  "collectionComplete": false,
+  "anomaly": true,
+  "deepScanPerformed": false,
+  "rawCandidates": [],
+  "funnels": [
+    {
+      "name": "OEM",
+      "retrievalStatus": "not_completed",
+      "queries": [],
+      "rawHitCount": 0
+    },
+    {
+      "name": "Platform/ecosystem",
+      "retrievalStatus": "not_completed",
+      "queries": [],
+      "rawHitCount": 0
+    },
+    {
+      "name": "Tier1/semiconductor",
+      "retrievalStatus": "not_completed",
+      "queries": [],
+      "rawHitCount": 0
+    },
+    {
+      "name": "Cloud/OS/development",
+      "retrievalStatus": "not_completed",
+      "queries": [],
+      "rawHitCount": 0
+    },
+    {
+      "name": "Regulation/Security",
+      "retrievalStatus": "not_completed",
+      "queries": [],
+      "rawHitCount": 0
+    },
+    {
+      "name": "Cross",
+      "retrievalStatus": "not_completed",
+      "queries": [],
+      "rawHitCount": 0
+    }
+  ],
+  "backfill": {
+    "partial": true,
+    "reason": "Historical audit could not be reconstructed from actual searches; no invented search evidence"
+  }
+}
