@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-12",
+  "alerts": [],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "当日の新規掲載なし",
+      "checkedAt": "2026-10-12T07:07:19+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "当日の新規掲載なし",
+      "checkedAt": "2026-10-12T07:07:19+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "clear",
+      "summary": "当日の新規掲載なし",
+      "checkedAt": "2026-10-12T07:07:19+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "当日の新規掲載なし",
+      "checkedAt": "2026-10-12T07:07:19+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
