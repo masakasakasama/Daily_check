@@ -1,6 +1,6 @@
 {
   "schema": "split-daily-v1",
-  "lastSuccessfulAt": "2026-10-11T07:24:00+09:00",
-  "lastAudit": "data/audits/2026-10-11-sdv.json",
+  "lastSuccessfulAt": "2026-10-12T07:07:19+09:00",
+  "lastAudit": "data/audits/2026-10-12-sdv.json",
   "pendingBatch": null
 }
