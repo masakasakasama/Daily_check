@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-13",
+  "alerts": [
+    {
+      "id": "ai-meta-muse-wonder-20261013",
+      "eventKey": "meta-muse-wonder-agent-coding-models-2026-10-12",
+      "category": "AI",
+      "score": 97,
+      "scoreBreakdown": {
+        "userImpact": 34,
+        "novelty": 20,
+        "technicalImportance": 19,
+        "specificityAvailability": 15,
+        "industryImpact": 9
+      },
+      "title": "Meta、長時間エージェント向けMuse Wonderを即日提供",
+      "summary": "1Mトークン文脈、長時間タスク、サブエージェント委任、ブラウザー／デスクトップ操作に対応。Muse WonderはMeta Model APIとMuse Codeで利用でき、OpenAI SDK互換APIは入力$4・キャッシュ入力$0.20・出力$20/100万トークン",
+      "publishedAt": "2026/10/13",
+      "sourcePublishedAt": "2026-10-12T17:00:15Z",
+      "firstSeenAt": "2026-10-13T06:56:58+09:00",
+      "verifiedAt": "2026-10-13T07:02:35+09:00",
+      "source": {
+        "label": "Meta",
+        "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+      },
+      "thumbnail": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1604761444454458&transcode_extension=webp&version=1791764444"
+    },
+    {
+      "id": "sdv-ecava-roadmaps-20261013",
+      "eventKey": "ecava-sdv-roadmap-paris-2026-10-12",
+      "category": "SDV",
+      "score": 92,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 22,
+        "scale": 19,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "EU、2030年へ向けたSDV共通ロードマップを提示",
+      "summary": "ECAVAがパリで、共通アーキテクチャ契約、相互運用性、再利用可能なOSS部品、安全重要領域を柱とするSDVロードマップを提示。チップレット型欧州車載計算基盤と、実装を支える2件のDIGITALプロジェクトも開始",
+      "publishedAt": "2026/10/12",
+      "updatedAt": "2026-10-12",
+      "eventAt": "2026-10-12",
+      "firstSeenAt": "2026-10-13T06:56:58+09:00",
+      "verifiedAt": "2026-10-13T07:02:35+09:00",
+      "source": {
+        "label": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/ecava-brings-europes-connected-and-autonomous-vehicle-ambitions-paris"
+      },
+      "thumbnail": "https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/GettyImages_1190108780__gorodenkoff_py8mTSAWcGAjlUdr7sWtuYLR9a8_248133.jpg?itok=mSZIZRlh"
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "Muse Wonderの即日提供を確認",
+      "checkedAt": "2026-10-13T07:02:35+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "新規リリース・利用枠変更・公式障害なし",
+      "checkedAt": "2026-10-13T07:02:35+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "update",
+      "summary": "ECAVAのSDV実装ロードマップを確認",
+      "checkedAt": "2026-10-13T07:02:35+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国の永住条件",
+      "status": "clear",
+      "summary": "主要国公式経路に新規の実質変更なし",
+      "checkedAt": "2026-10-13T07:02:35+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
