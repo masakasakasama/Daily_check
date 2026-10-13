@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-14",
+  "alerts": [
+    {
+      "id": "ai-google-gemini4-argon-global-20261014",
+      "eventKey": "google-gemini-4-argon-global-availability-2026-10-13",
+      "category": "AI",
+      "score": 97,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Gemini 4 Argon、API・アプリへ世界提供を拡大",
+      "summary": "早期提供から一般提供へ移行し、Gemini API／AI Studio、Geminiアプリ、AI Mode、Antigravityで利用可能に。複雑なソフトウェア開発や長時間エージェント向けで、導入価格は入力$2・出力$10/100万トークン",
+      "publishedAt": "2026/10/14",
+      "sourcePublishedAt": "2026-10-13",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png"
+    },
+    {
+      "id": "codex-global-reset-20261013",
+      "eventKey": "codex-global-usage-reset-2026-10-13",
+      "category": "Codex",
+      "score": 93,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 16,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Codex、利用枠のグローバルリセットを完了",
+      "summary": "Codex責任者TiboのX投稿で、全体リセットが10月13日14:06 JSTに完了したことを確認。利用可能枠が実際に回復する重要イベントで、反映状況はSettingsのUsage表示で確認できる",
+      "publishedAt": "2026/10/13",
+      "sourcePublishedAt": "2026-10-13T05:06:00Z",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "Tibo / X",
+        "url": "https://x.com/thsottiaux/status/2109873287853707513"
+      }
+    },
+    {
+      "id": "codex-gpt55-retirement-20261014",
+      "eventKey": "gpt-5-5-chatgpt-work-codex-retirement-effective-2026-10-14",
+      "category": "Codex",
+      "score": 90,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 17,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "GPT-5.5、本日ChatGPT Work／Codexで提供終了",
+      "summary": "全プランのChatGPT、ChatGPT Work、CodexからGPT-5.5が終了。APIは対象外。保存済みモデル設定、workspace既定値、custom agents、scheduled tasks、scriptsでgpt-5.5を指定している場合は置換が必要",
+      "publishedAt": "2026/10/14",
+      "sourcePublishedAt": "2026-09-14",
+      "eventAt": "2026-10-14",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://learn.chatgpt.com/docs/changelog"
+      }
+    },
+    {
+      "id": "sdv-google-play-cars-20261014",
+      "eventKey": "google-built-in-play-store-redesign-2026-10-13",
+      "category": "SDV",
+      "score": 81,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 17,
+        "scale": 18,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "Google built-in車、車載Playを全面刷新",
+      "summary": "16ブランド・100超モデル向けに、車両ディスプレイへ自動適応するPlay Storeを数週間以内に自動配信。700超の車載アプリに加え、停車中の動画から走行時の音声へ切り替える機能も導入",
+      "publishedAt": "2026/10/14",
+      "sourcePublishedAt": "2026-10-13",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/"
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleAuto_Blogpost_Play_Horizont.width-200.format-webp.webp"
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "Gemini 4 Argonの世界提供開始を確認",
+      "checkedAt": "2026-10-14T07:12:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "利用枠リセット完了とGPT-5.5提供終了を確認",
+      "checkedAt": "2026-10-14T07:12:00+09:00",
+      "alertCount": 2,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "update",
+      "summary": "Google built-in車の車載Play刷新を確認",
+      "checkedAt": "2026-10-14T07:12:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米・加・英・独・豪の公式経路に条件の実質変更なし",
+      "checkedAt": "2026-10-14T07:12:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
