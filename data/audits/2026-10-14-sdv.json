@@ -1,0 +1,661 @@
+{
+  "date": "2026-10-14",
+  "windowStart": "2026-10-11T07:02:35+09:00",
+  "windowEnd": "2026-10-14T07:04:46+09:00",
+  "publicationWindowStart": "2026-10-13T07:02:35+09:00",
+  "publicationWindowEnd": "2026-10-14T07:04:46+09:00",
+  "completedAt": "2026-10-14T07:12:00+09:00",
+  "collectionComplete": true,
+  "anomaly": false,
+  "deepScanPerformed": false,
+  "deepScanReason": "raw候補12件、raw 0 funnelなし、2日連続掲載0でもないため発動条件外",
+  "deepScanQueries": [],
+  "funnels": [
+    {
+      "name": "OEM",
+      "queries": [
+        {
+          "query": "automaker vehicle OS central compute zonal controller October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=automaker%20vehicle%20OS%20central%20compute%20zonal%20controller%20October%2013%202026",
+          "sourceFamily": "OEM concepts",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "Honda SDV E/E architecture OTA October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=Honda%20SDV%20E%2FE%20architecture%20OTA%20October%2013%202026",
+          "sourceFamily": "Honda-specific",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "Nissan vehicle OS SDV connected vehicle October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=Nissan%20vehicle%20OS%20SDV%20connected%20vehicle%20October%2013%202026",
+          "sourceFamily": "Nissan-specific",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "OEM automotive middleware cockpit software vehicle API October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=OEM%20automotive%20middleware%20cockpit%20software%20vehicle%20API%20October%2013%202026",
+          "sourceFamily": "cross search",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "fixedSources": [
+        {
+          "url": "https://global.honda/en/newsroom/",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://global.nissannews.com/en",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "retrievalStatus": "complete",
+      "fixedOfficialScan": true,
+      "completedAt": "2026-10-14T07:12:00+09:00",
+      "rawHitCount": 14,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "duplicateCount": 1,
+      "lateAuditOnlyCount": 0
+    },
+    {
+      "name": "Platform",
+      "queries": [
+        {
+          "query": "SOAFEE Eclipse SDV COVESA news October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=SOAFEE%20Eclipse%20SDV%20COVESA%20news%20October%2013%202026",
+          "sourceFamily": "open ecosystem",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "AAOS AUTOSAR Adaptive QNX Alloy Kore October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=AAOS%20AUTOSAR%20Adaptive%20QNX%20Alloy%20Kore%20October%2013%202026",
+          "sourceFamily": "OS and standards",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "automotive hypervisor middleware vehicle OS platform October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=automotive%20hypervisor%20middleware%20vehicle%20OS%20platform%20October%2013%202026",
+          "sourceFamily": "middleware and hypervisor",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "SDV ecosystem standard vehicle API SDK October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=SDV%20ecosystem%20standard%20vehicle%20API%20SDK%20October%2013%202026",
+          "sourceFamily": "cross search",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "fixedSources": [
+        {
+          "url": "https://www.soafee.io/news/",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://eclipsesdv.org/",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://qnx.software/en/software/products-and-solutions/foundational-vehicle-software-platform",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "retrievalStatus": "complete",
+      "fixedOfficialScan": true,
+      "completedAt": "2026-10-14T07:12:00+09:00",
+      "rawHitCount": 12,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "duplicateCount": 1,
+      "lateAuditOnlyCount": 0
+    },
+    {
+      "name": "Tier1Semi",
+      "queries": [
+        {
+          "query": "automotive semiconductor central compute zonal controller October 13 2026 NXP Qualcomm Nvidia Renesas",
+          "sourceUrl": "https://www.google.com/search?q=automotive%20semiconductor%20central%20compute%20zonal%20controller%20October%2013%202026%20NXP%20Qualcomm%20Nvidia%20Renesas",
+          "sourceFamily": "semiconductor",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "Tier 1 SDV platform middleware October 13 2026 Bosch Continental ZF Aptiv",
+          "sourceUrl": "https://www.google.com/search?q=Tier%201%20SDV%20platform%20middleware%20October%2013%202026%20Bosch%20Continental%20ZF%20Aptiv",
+          "sourceFamily": "Tier1 suppliers",
+          "rawHitCount": 2,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "in-vehicle Ethernet automotive HPC ECU October 13 2026 supplier",
+          "sourceUrl": "https://www.google.com/search?q=in-vehicle%20Ethernet%20automotive%20HPC%20ECU%20October%2013%202026%20supplier",
+          "sourceFamily": "in-vehicle network",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "automotive SoC cockpit ADAS software platform October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=automotive%20SoC%20cockpit%20ADAS%20software%20platform%20October%2013%202026",
+          "sourceFamily": "cross search",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "fixedSources": [
+        {
+          "url": "https://www.nxp.com/applications/CENTRAL-COMPUTE",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://www.aptiv.com/en/solutions/software-and-services/middleware",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://www.bosch-mobility.com/en/solutions/vehicle-computer/cockpit-and-adas-integration-platform/",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "retrievalStatus": "complete",
+      "fixedOfficialScan": true,
+      "completedAt": "2026-10-14T07:12:00+09:00",
+      "rawHitCount": 10,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 0
+    },
+    {
+      "name": "CloudOS",
+      "queries": [
+        {
+          "query": "automotive cloud development virtual ECU SIL HIL October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=automotive%20cloud%20development%20virtual%20ECU%20SIL%20HIL%20October%2013%202026",
+          "sourceFamily": "virtual ECU and validation",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "AWS Azure automotive SDV CI/CD October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=AWS%20Azure%20automotive%20SDV%20CI%2FCD%20October%2013%202026",
+          "sourceFamily": "cloud platforms",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "software defined vehicle development platform digital twin October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=software%20defined%20vehicle%20development%20platform%20digital%20twin%20October%2013%202026",
+          "sourceFamily": "digital twin",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "vehicle SDK automotive testing virtual validation October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=vehicle%20SDK%20automotive%20testing%20virtual%20validation%20October%2013%202026",
+          "sourceFamily": "cross search",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "fixedSources": [
+        {
+          "url": "https://aws.amazon.com/automotive/software-defined-vehicle/",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/industry/mobility/architecture/software-defined-vehicle-reference-architecture-content",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://www.mathworks.com/discovery/virtual-ecu.html",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "retrievalStatus": "complete",
+      "fixedOfficialScan": true,
+      "completedAt": "2026-10-14T07:12:00+09:00",
+      "rawHitCount": 14,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 0
+    },
+    {
+      "name": "RegSecurity",
+      "queries": [
+        {
+          "query": "UNECE R155 R156 ISO 21434 ISO 24089 October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=UNECE%20R155%20R156%20ISO%2021434%20ISO%2024089%20October%2013%202026",
+          "sourceFamily": "regulation and standards",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "vehicle cybersecurity regulation software update October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=vehicle%20cybersecurity%20regulation%20software%20update%20October%2013%202026",
+          "sourceFamily": "software update regulation",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "connected vehicle security vulnerability October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=connected%20vehicle%20security%20vulnerability%20October%2013%202026",
+          "sourceFamily": "connected security",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "NHTSA automotive cybersecurity October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=NHTSA%20automotive%20cybersecurity%20October%2013%202026",
+          "sourceFamily": "cross search",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "fixedSources": [
+        {
+          "url": "https://www.nhtsa.gov/research/vehicle-cybersecurity",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://www.nhtsa.gov/speeches-and-presentations/Auto-ISAC-Cybersecurity-Summit-2026",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://globalautoregs.com/groups/101?show=documents&year=2026",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "retrievalStatus": "complete",
+      "fixedOfficialScan": true,
+      "completedAt": "2026-10-14T07:12:00+09:00",
+      "rawHitCount": 14,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 0
+    },
+    {
+      "name": "Cross",
+      "queries": [
+        {
+          "query": "software-defined vehicle news October 13 2026 Reuters Automotive World",
+          "sourceUrl": "https://www.google.com/search?q=software-defined%20vehicle%20news%20October%2013%202026%20Reuters%20Automotive%20World",
+          "sourceFamily": "major SDV media",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "vehicle OS middleware HPC zonal OTA October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=vehicle%20OS%20middleware%20HPC%20zonal%20OTA%20October%2013%202026",
+          "sourceFamily": "technology cross search",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "SDV development platform cybersecurity cockpit software October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=SDV%20development%20platform%20cybersecurity%20cockpit%20software%20October%2013%202026",
+          "sourceFamily": "platform and security",
+          "rawHitCount": 3,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "query": "connected vehicle automotive software update October 13 2026",
+          "sourceUrl": "https://www.google.com/search?q=connected%20vehicle%20automotive%20software%20update%20October%2013%202026",
+          "sourceFamily": "cross search",
+          "rawHitCount": 4,
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "fixedSources": [
+        {
+          "url": "https://www.reuters.com/business/autos-transportation/software-defined-vehicle/",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://www.automotiveworld.com/",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        },
+        {
+          "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/",
+          "retrievalStatus": "complete",
+          "observedAt": "2026-10-14T07:08:30+09:00"
+        }
+      ],
+      "retrievalStatus": "complete",
+      "fixedOfficialScan": true,
+      "completedAt": "2026-10-14T07:12:00+09:00",
+      "rawHitCount": 15,
+      "candidateCount": 2,
+      "adoptedCount": 1,
+      "excludedCount": 1,
+      "duplicateCount": 0,
+      "lateAuditOnlyCount": 0
+    }
+  ],
+  "rawCandidates": [
+    {
+      "eventKey": "honda-sdv-official-background-20261014",
+      "funnel": "OEM",
+      "primaryUrl": "https://global.honda/en/tech/Honda_SDV_ASIMO_OS/",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "excluded",
+      "reason": "Honda公式本文を確認したが、対象期間内の新規更新ではない",
+      "score": 0,
+      "scoreBreakdown": {
+        "sdvDirectness": 0,
+        "practicalImpact": 0,
+        "scale": 0,
+        "specificity": 0,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "honda-nissan-joint-sdv-platform-2026-08-31",
+      "funnel": "OEM",
+      "primaryUrl": "https://www.iaa-mobility.com/en/newsroom/news/smart-infrastructure/nissan-honda-joint-sdv-platform",
+      "publishedAt": "2026-09-04",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "honda-nissan-joint-sdv-platform-2026-08-31",
+      "reason": "既知の8月31日発表と同一イベントで対象期間外",
+      "score": 72,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 18,
+        "scale": 17,
+        "specificity": 12,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "soafee-newsroom-background-20261014",
+      "funnel": "Platform",
+      "primaryUrl": "https://www.soafee.io/news/",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "excluded",
+      "reason": "SOAFEE公式ニュースルーム本文に対象期間内の新規発表なし",
+      "score": 0,
+      "scoreBreakdown": {
+        "sdvDirectness": 0,
+        "practicalImpact": 0,
+        "scale": 0,
+        "specificity": 0,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "alloy-kore-platform-2026-01",
+      "funnel": "Platform",
+      "primaryUrl": "https://qnx.software/en/software/products-and-solutions/foundational-vehicle-software-platform",
+      "publishedAt": "2026-01-05",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "alloy-kore-foundational-vehicle-platform-2026-01-05",
+      "reason": "Alloy Koreの既知製品情報で対象期間内の新規更新なし",
+      "score": 70,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 18,
+        "scale": 16,
+        "specificity": 11,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "nxp-central-compute-background-20261014",
+      "funnel": "Tier1Semi",
+      "primaryUrl": "https://www.nxp.com/applications/CENTRAL-COMPUTE",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "excluded",
+      "reason": "NXP公式製品本文を確認したが対象期間内の発表ではない",
+      "score": 0,
+      "scoreBreakdown": {
+        "sdvDirectness": 0,
+        "practicalImpact": 0,
+        "scale": 0,
+        "specificity": 0,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "bosch-cockpit-adas-background-20261014",
+      "funnel": "Tier1Semi",
+      "primaryUrl": "https://www.bosch-mobility.com/en/solutions/vehicle-computer/cockpit-and-adas-integration-platform/",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "excluded",
+      "reason": "Bosch公式のHPC統合製品本文を確認したが対象期間内の更新なし",
+      "score": 0,
+      "scoreBreakdown": {
+        "sdvDirectness": 0,
+        "practicalImpact": 0,
+        "scale": 0,
+        "specificity": 0,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "aws-sdv-background-20261014",
+      "funnel": "CloudOS",
+      "primaryUrl": "https://aws.amazon.com/automotive/software-defined-vehicle/",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "excluded",
+      "reason": "AWS公式SDVページを確認したが対象期間内の新規更新なし",
+      "score": 0,
+      "scoreBreakdown": {
+        "sdvDirectness": 0,
+        "practicalImpact": 0,
+        "scale": 0,
+        "specificity": 0,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "azure-sdv-devops-background-20261014",
+      "funnel": "CloudOS",
+      "primaryUrl": "https://learn.microsoft.com/en-us/industry/mobility/architecture/software-defined-vehicle-reference-architecture-content",
+      "publishedAt": "2026-01-23",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "excluded",
+      "reason": "Microsoft公式のvECU/SIL/HIL本文を確認したが対象期間内の更新なし",
+      "score": 0,
+      "scoreBreakdown": {
+        "sdvDirectness": 0,
+        "practicalImpact": 0,
+        "scale": 0,
+        "specificity": 0,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "nhtsa-autoisac-keynote-background-20261014",
+      "funnel": "RegSecurity",
+      "primaryUrl": "https://www.nhtsa.gov/speeches-and-presentations/Auto-ISAC-Cybersecurity-Summit-2026",
+      "publishedAt": "2026-10-08",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "excluded",
+      "reason": "NHTSA公式本文を確認。防御多層化と安全なOTAの既知方針で当日窓外",
+      "score": 34,
+      "scoreBreakdown": {
+        "sdvDirectness": 12,
+        "practicalImpact": 8,
+        "scale": 7,
+        "specificity": 7,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "unece-r155-r156-background-20261014",
+      "funnel": "RegSecurity",
+      "primaryUrl": "https://globalautoregs.com/groups/101?show=documents&year=2026",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "excluded",
+      "reason": "UN R155/R156作業文書一覧を本文確認したが対象期間内の新規文書なし",
+      "score": 0,
+      "scoreBreakdown": {
+        "sdvDirectness": 0,
+        "practicalImpact": 0,
+        "scale": 0,
+        "specificity": 0,
+        "novelty": 0
+      }
+    },
+    {
+      "eventKey": "google-built-in-play-store-redesign-2026-10-13",
+      "funnel": "Cross",
+      "primaryUrl": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/",
+      "publishedAt": "2026-10-13",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "adopted-important",
+      "reason": "車載ソフトウェア基盤の具体的な新機能を一次情報で確認し、65点以上",
+      "score": 81,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 17,
+        "scale": 18,
+        "specificity": 14,
+        "novelty": 12
+      }
+    },
+    {
+      "eventKey": "cubic3-sdv-guide-background-20261014",
+      "funnel": "Cross",
+      "primaryUrl": "https://www.cubic3.com/blog/software-defined-vehicles/",
+      "publishedAt": "2026-10-09",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verified": true,
+      "decision": "excluded",
+      "reason": "本文確認済みだが一般解説で当日窓外、具体的新規イベントなし",
+      "score": 28,
+      "scoreBreakdown": {
+        "sdvDirectness": 12,
+        "practicalImpact": 5,
+        "scale": 4,
+        "specificity": 7,
+        "novelty": 0
+      }
+    }
+  ],
+  "summary": {
+    "rawCandidateCount": 12,
+    "adoptedCount": 1,
+    "excludedCount": 9,
+    "duplicateCount": 2,
+    "lateAuditOnlyCount": 0
+  },
+  "otherMonitorsEvidence": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://learn.chatgpt.com/docs/changelog",
+        "https://learn.chatgpt.com/docs/pricing",
+        "https://status.openai.com/",
+        "https://api.github.com/repos/openai/codex/releases/latest"
+      ],
+      "result": "公式変更履歴でGPT-5.5の10月14日提供終了を確認。APIは対象外。保存設定や自動処理の移行が必要"
+    },
+    "codexCommunity": {
+      "status": "complete",
+      "queries": [
+        "site:x.com reset Codex limits October 13 2026",
+        "Codex limits reset weekly reset 5 hour reset October 13 2026",
+        "banked reset global reset rate limit Codex October 13 2026",
+        "Tibo reset Codex today October 13 2026"
+      ],
+      "sources": [
+        "https://x.com/thsottiaux/status/2109812360596865224",
+        "https://x.com/thsottiaux/status/2109873287853707513",
+        "https://limitbell.com/en"
+      ],
+      "result": "Codex責任者本人の予告と完了投稿を照合し、10月13日14:06 JSTのグローバルリセット完了を確認"
+    },
+    "ai": {
+      "status": "complete",
+      "sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+      ],
+      "result": "Gemini 4 Argonが早期提供からAPI・アプリ・Antigravityの世界提供へ拡大したことをGoogle一次情報で確認"
+    },
+    "residency": {
+      "status": "complete",
+      "sources": [
+        "https://www.uscis.gov/policy-manual/updates",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices.html",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://www.make-it-in-germany.com/en/visa-residence/skilled-immigration-act",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect/invitation-rounds"
+      ],
+      "result": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後に永住資格条件の実質変更なし"
+    }
+  }
+}
