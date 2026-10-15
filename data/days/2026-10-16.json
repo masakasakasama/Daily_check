@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-16",
+  "alerts": [
+    {
+      "id": "ai-apple-mlx-muse-spark-open-20261016",
+      "eventKey": "apple-mlx-muse-spark-open-distributed-inference-2026-10-15",
+      "category": "AI",
+      "score": 88,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 18,
+        "technicalImportance": 19,
+        "specificityAvailability": 14,
+        "industryImpact": 6
+      },
+      "title": "Apple MLX、816BモデルをMac Studio単体・複数台で実行",
+      "summary": "最新MLXでMuse Spark Open（816B、42B active）のNVFP4推論に対応。512GB Mac Studio単体からThunderbolt RDMAの4台構成まで利用でき、4台で36 tokens/秒超を確認",
+      "publishedAt": "2026/10/16",
+      "sourcePublishedAt": "2026-10-15",
+      "firstSeenAt": "2026-10-16T06:55:03+09:00",
+      "verifiedAt": "2026-10-16T07:03:00+09:00",
+      "source": {
+        "label": "Apple Machine Learning Research",
+        "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-anthropic-metr-embedded-evaluators-20261016",
+      "eventKey": "anthropic-metr-employee-like-evaluator-access-2026-10-15",
+      "category": "AI",
+      "score": 61,
+      "scoreBreakdown": {
+        "userImpact": 12,
+        "novelty": 15,
+        "technicalImportance": 16,
+        "specificityAvailability": 12,
+        "industryImpact": 6
+      },
+      "title": "Anthropic、METR評価者へ社内チーム相当のアクセスを付与",
+      "summary": "METRの6人を機材・社内ツール付きで受け入れ、モデルや安全対策の独立評価結果をAnthropicの承認なしで公表可能にした。Claudeの利用機能を直接変える発表ではないため参考扱い",
+      "publishedAt": "2026/10/16",
+      "sourcePublishedAt": "2026-10-15",
+      "firstSeenAt": "2026-10-16T06:55:03+09:00",
+      "verifiedAt": "2026-10-16T07:03:00+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/c2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg"
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "Apple MLXの大規模ローカル推論とAnthropicの外部評価体制を確認",
+      "checkedAt": "2026-10-16T07:03:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式変更履歴・Help・StatusとX経路に新規リセット／上限変更なし",
+      "checkedAt": "2026-10-16T07:03:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "clear",
+      "summary": "当日掲載対象の新規SDV発表なし",
+      "checkedAt": "2026-10-16T07:03:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米・加・英・独・豪の公式経路に条件の実質変更なし",
+      "checkedAt": "2026-10-16T07:03:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
