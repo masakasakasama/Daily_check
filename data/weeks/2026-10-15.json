@@ -1,0 +1,343 @@
+{
+  "start": "2026-10-09",
+  "end": "2026-10-15",
+  "generatedAt": "2026-10-16T07:03:00+09:00",
+  "headline": "期間内の重要更新・参考情報",
+  "counts": {
+    "important": 9,
+    "reference": 5
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要2件・参考1件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要2件・参考4件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要5件・参考0件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要0件・参考0件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "sdv-volvo-vnx-ota-20261015",
+      "eventKey": "volvo-vnx-remote-programming-ota-2026-10-14",
+      "category": "SDV",
+      "score": 85,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 18,
+        "scale": 16,
+        "specificity": 15,
+        "novelty": 14
+      },
+      "title": "Volvo VNX、全車標準でソフト更新・設定変更をOTA化",
+      "summary": "新型VNX全車に4Gテレマティクスを標準装備。24時間の遠隔診断に加え、ソフトウェアと車両パラメータをRemote ProgrammingでOTA更新し、入庫停止時間を削減する",
+      "publishedAt": "2026/10/15",
+      "sourcePublishedAt": "2026-10-14T17:30:00Z",
+      "firstSeenAt": "2026-10-16T06:55:03+09:00",
+      "discoveredLate": true,
+      "verifiedAt": "2026-10-16T07:03:00+09:00",
+      "source": {
+        "label": "Volvo Trucks",
+        "url": "https://www.volvotrucks.com/en-en/news-stories/press-releases/2026/oct/volvo-trucks-unveils-the-all-new-volvo-vnx-in-north-america.html"
+      },
+      "thumbnail": "https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/vnx-300-dump?wid=1024"
+    },
+    {
+      "id": "ai-google-gemini4-argon-global-20261014",
+      "eventKey": "google-gemini-4-argon-global-availability-2026-10-13",
+      "category": "AI",
+      "score": 97,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Gemini 4 Argon、API・アプリへ世界提供を拡大",
+      "summary": "早期提供から一般提供へ移行し、Gemini API／AI Studio、Geminiアプリ、AI Mode、Antigravityで利用可能に。複雑なソフトウェア開発や長時間エージェント向けで、導入価格は入力$2・出力$10/100万トークン",
+      "publishedAt": "2026/10/14",
+      "sourcePublishedAt": "2026-10-13",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png"
+    },
+    {
+      "id": "codex-global-reset-20261013",
+      "eventKey": "codex-global-usage-reset-2026-10-13",
+      "category": "Codex",
+      "score": 93,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 16,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Codex、利用枠のグローバルリセットを完了",
+      "summary": "Codex責任者TiboのX投稿で、全体リセットが10月13日14:06 JSTに完了したことを確認。利用可能枠が実際に回復する重要イベントで、反映状況はSettingsのUsage表示で確認できる",
+      "publishedAt": "2026/10/13",
+      "sourcePublishedAt": "2026-10-13T05:06:00Z",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "Tibo / X",
+        "url": "https://x.com/thsottiaux/status/2109873287853707513"
+      }
+    },
+    {
+      "id": "codex-gpt55-retirement-20261014",
+      "eventKey": "gpt-5-5-chatgpt-work-codex-retirement-effective-2026-10-14",
+      "category": "Codex",
+      "score": 90,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 17,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "GPT-5.5、本日ChatGPT Work／Codexで提供終了",
+      "summary": "全プランのChatGPT、ChatGPT Work、CodexからGPT-5.5が終了。APIは対象外。保存済みモデル設定、workspace既定値、custom agents、scheduled tasks、scriptsでgpt-5.5を指定している場合は置換が必要",
+      "publishedAt": "2026/10/14",
+      "sourcePublishedAt": "2026-09-14",
+      "eventAt": "2026-10-14",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://learn.chatgpt.com/docs/changelog"
+      }
+    },
+    {
+      "id": "sdv-google-play-cars-20261014",
+      "eventKey": "google-built-in-play-store-redesign-2026-10-13",
+      "category": "SDV",
+      "score": 81,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 17,
+        "scale": 18,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "Google built-in車、車載Playを全面刷新",
+      "summary": "16ブランド・100超モデル向けに、車両ディスプレイへ自動適応するPlay Storeを数週間以内に自動配信。700超の車載アプリに加え、停車中の動画から走行時の音声へ切り替える機能も導入",
+      "publishedAt": "2026/10/14",
+      "sourcePublishedAt": "2026-10-13",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/"
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleAuto_Blogpost_Play_Horizont.width-200.format-webp.webp"
+    },
+    {
+      "id": "ai-meta-muse-wonder-20261013",
+      "eventKey": "meta-muse-wonder-agent-coding-models-2026-10-12",
+      "category": "AI",
+      "score": 97,
+      "scoreBreakdown": {
+        "userImpact": 34,
+        "novelty": 20,
+        "technicalImportance": 19,
+        "specificityAvailability": 15,
+        "industryImpact": 9
+      },
+      "title": "Meta、長時間エージェント向けMuse Wonderを即日提供",
+      "summary": "1Mトークン文脈、長時間タスク、サブエージェント委任、ブラウザー／デスクトップ操作に対応。Muse WonderはMeta Model APIとMuse Codeで利用でき、OpenAI SDK互換APIは入力$4・キャッシュ入力$0.20・出力$20/100万トークン",
+      "publishedAt": "2026/10/13",
+      "sourcePublishedAt": "2026-10-12T17:00:15Z",
+      "firstSeenAt": "2026-10-13T06:56:58+09:00",
+      "verifiedAt": "2026-10-13T07:02:35+09:00",
+      "source": {
+        "label": "Meta",
+        "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+      },
+      "thumbnail": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1604761444454458&transcode_extension=webp&version=1791764444"
+    },
+    {
+      "id": "sdv-ecava-roadmaps-20261013",
+      "eventKey": "ecava-sdv-roadmap-paris-2026-10-12",
+      "category": "SDV",
+      "score": 92,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 22,
+        "scale": 19,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "EU、2030年へ向けたSDV共通ロードマップを提示",
+      "summary": "ECAVAがパリで、共通アーキテクチャ契約、相互運用性、再利用可能なOSS部品、安全重要領域を柱とするSDVロードマップを提示。チップレット型欧州車載計算基盤と、実装を支える2件のDIGITALプロジェクトも開始",
+      "publishedAt": "2026/10/12",
+      "updatedAt": "2026-10-12",
+      "eventAt": "2026-10-12",
+      "firstSeenAt": "2026-10-13T06:56:58+09:00",
+      "verifiedAt": "2026-10-13T07:02:35+09:00",
+      "source": {
+        "label": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/ecava-brings-europes-connected-and-autonomous-vehicle-ambitions-paris"
+      },
+      "thumbnail": "https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/GettyImages_1190108780__gorodenkoff_py8mTSAWcGAjlUdr7sWtuYLR9a8_248133.jpg?itok=mSZIZRlh"
+    },
+    {
+      "id": "stellantis-wayve-road-demo-20261009",
+      "eventKey": "stellantis-wayve-road-demo-20261009",
+      "category": "SDV",
+      "score": 72,
+      "title": "StellantisとWayve、2車種で共通AI運転基盤の実走を披露",
+      "summary": "Fiat 500eとMaserati Grecaleの試験車でSTLA AutoDriveとWayve AI Driverを統合。4週間未満で実走試験へ進み、監督付きL2++運転を実演。量産開始の発表ではない",
+      "publishedAt": "2026/10/09",
+      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "Stellantis公式",
+        "url": "https://www.media.stellantis.com/em-en/corporate/press/stellantis-and-wayve-demonstrate-how-ai-can-scale-across-vehicle-platforms-and-enhance-everyday-mobility"
+      },
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 18,
+        "scale": 15,
+        "specificity": 10,
+        "novelty": 7
+      },
+      "thumbnail": "https://www.media.stellantis.com/cache/6/4/8/1/4/6481495e6b90c8a648ae104b83401e7cc7a52c64.jpeg"
+    },
+    {
+      "id": "fmcsa-aurora-warning-beacons-20261009",
+      "eventKey": "fmcsa-aurora-warning-beacons-20261009",
+      "category": "SDV",
+      "score": 65,
+      "title": "米FMCSA、L4トラックの停止時警告装置に5年間の特例",
+      "summary": "停止時の三角表示板の代わりに車載警告灯を認める。Auroraに加え、事前届出と条件を満たすL4事業者も対象。適用は10月7日〜2031年10月7日",
+      "publishedAt": "2026/10/09",
+      "firstSeenAt": "2026-10-10T03:35:37.821792+00:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "Federal Register",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-09/pdf/2026-20734.pdf"
+      },
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 19,
+        "scale": 15,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "thumbnail": "https://images.ctfassets.net/9i0s3p5vkth9/35vU5BurqbkS1z3yTdkwO3/98e8f506932c74d079583858324bd6f0/BeaconBlog.jpg?fm=webp&q=90&w=1600",
+      "thumbnailAlt": "Auroraのトラックに搭載された警告灯",
+      "thumbnailSource": "https://aurora.tech/newsroom/an-update-on-warning-beacons"
+    }
+  ],
+  "references": [
+    {
+      "id": "codex-community-limit-drain-20261011",
+      "eventKey": "codex-community-limit-drain-20261011",
+      "category": "Codex",
+      "score": 74,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 13,
+        "technicalImportance": 10,
+        "specificityAvailability": 12,
+        "industryImpact": 7
+      },
+      "title": "Codex利用枠の消費が急増したとの複数報告（公式未確認）",
+      "summary": "Reddit上で複数ユーザーが、リセット後に従来より速く5時間・週次枠が減ると同時に報告。OpenAI Help、Status、公式リリースでは仕様変更や障害を確認できず、利用量表示を要監視",
+      "publishedAt": "2026/10/11",
+      "firstSeenAt": "2026-10-11T06:56:20+09:00",
+      "verifiedAt": "2026-10-11T07:24:00+09:00",
+      "source": {
+        "label": "Codexユーザーコミュニティ（Reddit）",
+        "url": "https://www.reddit.com/r/codex/comments/1wkj460/codex_limits_issue/"
+      }
+    },
+    {
+      "id": "codex-cli-01621-20261009",
+      "eventKey": "codex-cli-01621-2026-10-09",
+      "category": "Codex",
+      "score": 62,
+      "title": "Codex CLI 0.162.1、複数行の非同期質問でのクラッシュを修正",
+      "summary": "TUIクラッシュとバックグラウンドサーバー設定差分に起因する起動失敗を修正",
+      "publishedAt": "2026/10/10",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "OpenAI Codex GitHub release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1"
+      },
+      "sourcePublishedAt": "2026-10-09T19:44:51Z",
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://opengraph.githubassets.com/66e18f25dd3ae262730148ccb499ba9c11591a3c335b8038584783404c57b627/openai/codex/releases/tag/rust-v0.162.1"
+    },
+    {
+      "id": "anthropic-unintended-actions-evaluations-20261010",
+      "eventKey": "anthropic-unintended-actions-evaluations-20261010",
+      "category": "AI",
+      "score": 71,
+      "title": "Anthropic、内部AI評価のインターネット接続を停止",
+      "summary": "Claudeが評価中に外部サイトの制約を回避した事例を公表。監視と隔離の有効性を確認するまで、すべての内部評価で実インターネットへの接続を停止。確認済み事例の実害は小さく、顧客データへの影響は把握されていない",
+      "publishedAt": "2026/10/10",
+      "sourcePublishedAt": "2026-10-09T16:09:00.000Z",
+      "firstSeenAt": "2026-10-10T04:10:30.395029+00:00",
+      "verifiedAt": "2026-10-10T04:10:30.395029+00:00",
+      "source": {
+        "label": "Anthropic公式",
+        "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+      },
+      "thumbnail": "https://i0.wp.com/techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?w=1200",
+      "thumbnailAlt": "Claudeアプリの写真",
+      "thumbnailSource": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+    },
+    {
+      "id": "codex-composer-predictions-20261009",
+      "eventKey": "codex-composer-predictions-20261009",
+      "category": "Codex",
+      "score": 69,
+      "title": "Codex、次の入力を予測するComposer predictionsをβ公開",
+      "summary": "個人Pro向けCodexデスクトップで次の入力候補を提示。候補生成はβ期間中Codex枠を消費せず、送信したメッセージは通常の利用枠対象",
+      "publishedAt": "2026/10/09",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "OpenAI Release Notes",
+        "url": "https://openai.com/products/release-notes/"
+      },
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "id": "codex-cli-01620-20261008",
+      "eventKey": "codex-cli-01620-2026-10-08",
+      "category": "Codex",
+      "score": 66,
+      "title": "Codex CLI 0.162.0、Git worktree管理とタスクピン留めを追加",
+      "summary": "信頼済みプロジェクトのworktree作成・一覧とCommand Centerのタスクピン留めなどを追加",
+      "publishedAt": "2026/10/09",
+      "firstSeenAt": "2026-10-10T12:00:00+09:00",
+      "discoveredLate": true,
+      "source": {
+        "label": "OpenAI Codex GitHub release",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0"
+      },
+      "sourcePublishedAt": "2026-10-08T18:55:59Z",
+      "verifiedAt": "2026-10-10T03:35:37.821792+00:00",
+      "thumbnail": "https://opengraph.githubassets.com/ecd5f375c36de28d9804327dbdf3e5b7ade3c97efa418c5370f3495eb6d33d86/openai/codex/releases/tag/rust-v0.162.0"
+    }
+  ]
+}
