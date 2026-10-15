@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-15",
+  "alerts": [
+    {
+      "id": "sdv-volvo-vnx-ota-20261015",
+      "eventKey": "volvo-vnx-remote-programming-ota-2026-10-14",
+      "category": "SDV",
+      "score": 85,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 18,
+        "scale": 16,
+        "specificity": 15,
+        "novelty": 14
+      },
+      "title": "Volvo VNX、全車標準でソフト更新・設定変更をOTA化",
+      "summary": "新型VNX全車に4Gテレマティクスを標準装備。24時間の遠隔診断に加え、ソフトウェアと車両パラメータをRemote ProgrammingでOTA更新し、入庫停止時間を削減する",
+      "publishedAt": "2026/10/15",
+      "sourcePublishedAt": "2026-10-14T17:30:00Z",
+      "firstSeenAt": "2026-10-16T06:55:03+09:00",
+      "discoveredLate": true,
+      "verifiedAt": "2026-10-16T07:03:00+09:00",
+      "source": {
+        "label": "Volvo Trucks",
+        "url": "https://www.volvotrucks.com/en-en/news-stories/press-releases/2026/oct/volvo-trucks-unveils-the-all-new-volvo-vnx-in-north-america.html"
+      },
+      "thumbnail": "https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/vnx-300-dump?wid=1024"
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "当日窓の新規掲載なし",
+      "checkedAt": "2026-10-16T07:03:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式変更履歴・Help・StatusとX経路に新規リセット／上限変更なし",
+      "checkedAt": "2026-10-16T07:03:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "update",
+      "summary": "Volvo VNXの標準OTA更新機能を確認",
+      "checkedAt": "2026-10-16T07:03:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米・加・英・独・豪の公式経路に条件の実質変更なし",
+      "checkedAt": "2026-10-16T07:03:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ],
+  "recovery": {
+    "mode": "verified-historical-recovery",
+    "completed": true,
+    "startedAt": "2026-10-16T06:55:03+09:00",
+    "completedAt": "2026-10-16T07:03:00+09:00",
+    "evidencePath": "data/recovery/2026-10-16-searches.json",
+    "articles": [
+      {
+        "eventKey": "volvo-vnx-remote-programming-ota-2026-10-14",
+        "verified": true,
+        "sourceUrl": "https://www.volvotrucks.com/en-en/news-stories/press-releases/2026/oct/volvo-trucks-unveils-the-all-new-volvo-vnx-in-north-america.html"
+      }
+    ],
+    "note": "10月16日に欠落日を実検索・本文確認。公開時刻はUTCからJSTへ換算し、実際のfirstSeenAtを保持。"
+  }
+}
