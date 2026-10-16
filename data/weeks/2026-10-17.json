@@ -1,7 +1,7 @@
 {
   "start": "2026-10-11",
   "end": "2026-10-17",
-  "generatedAt": "2026-10-17T07:18:00+09:00",
+  "generatedAt": "2026-10-17T07:04:06+09:00",
   "headline": "期間内の重要更新・参考情報",
   "counts": {
     "important": 10,
@@ -43,7 +43,7 @@
       "publishedAt": "2026/10/17",
       "sourcePublishedAt": "2026-10-16T07:28:27Z",
       "firstSeenAt": "2026-10-17T06:56:23+09:00",
-      "verifiedAt": "2026-10-17T07:18:00+09:00",
+      "verifiedAt": "2026-10-17T07:04:06+09:00",
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/technology/toyota-aims-make-all-its-cars-software-defined-by-2030-nikkei-reports-2026-10-16/"
@@ -60,7 +60,7 @@
       "publishedAt": "2026/10/17",
       "sourcePublishedAt": "2026-10-16",
       "firstSeenAt": "2026-10-17T06:56:23+09:00",
-      "verifiedAt": "2026-10-17T07:18:00+09:00",
+      "verifiedAt": "2026-10-17T07:04:06+09:00",
       "source": {
         "label": "Immigration, Refugees and Citizenship Canada",
         "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/10/canada-refocusing-express-entry-on-top-talent-that-drives-economic-growth.html"
@@ -277,7 +277,7 @@
       "publishedAt": "2026/10/17",
       "sourcePublishedAt": "2026-10-16T07:09:00Z",
       "firstSeenAt": "2026-10-17T06:56:23+09:00",
-      "verifiedAt": "2026-10-17T07:18:00+09:00",
+      "verifiedAt": "2026-10-17T07:04:06+09:00",
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/"
