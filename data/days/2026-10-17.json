@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-17",
+  "alerts": [
+    {
+      "id": "sdv-toyota-arene-10m-50-models-20261017",
+      "eventKey": "toyota-arene-10m-vehicles-50-models-2030-2026-10-16",
+      "category": "SDV",
+      "score": 94,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 23,
+        "scale": 20,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "Toyota、Areneを2030年に年1000万台・50車種へ展開",
+      "summary": "Toyotaは車載ソフトウェア基盤Areneを2030年までに年1000万台・50車種へ展開する計画。SDK、仮想検証、データ基盤を共通化し、提携先車両への拡大も見込む",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-16T07:28:27Z",
+      "firstSeenAt": "2026-10-17T06:56:23+09:00",
+      "verifiedAt": "2026-10-17T07:18:00+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/technology/toyota-aims-make-all-its-cars-software-defined-by-2030-nikkei-reports-2026-10-16/"
+      },
+      "thumbnail": "https://www.reuters.com/resizer/v2/PWEJKFRBUFKGLHVUAZ4Z3RXDO4.jpg?auth=e1d8606dcdb6691fd9767bd201f9e4b7356a31d1730592d2a186009764ef2e39&quality=80&width=1920"
+    },
+    {
+      "id": "residency-canada-express-entry-crs-20261017",
+      "eventKey": "canada-express-entry-crs-work-experience-high-wage-offer-2026-11-03",
+      "category": "Residency",
+      "score": 92,
+      "title": "カナダ、Express EntryのCRS配点と求人要件を11月3日変更",
+      "summary": "対象となるカナダ就労経験または高賃金職の求人に追加点を付与し、求人加点とFSW/FSTの求人要件からLMIAを不要化。既存プールは自動再計算され、招待ラウンドは最長2週間停止する",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-16",
+      "firstSeenAt": "2026-10-17T06:56:23+09:00",
+      "verifiedAt": "2026-10-17T07:18:00+09:00",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/10/canada-refocusing-express-entry-on-top-talent-that-drives-economic-growth.html"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-tencent-agent-unintended-browsing-20261017",
+      "eventKey": "tencent-third-party-model-eval-agents-unintended-browsing-2026-10-16",
+      "category": "AI",
+      "score": 58,
+      "scoreBreakdown": {
+        "userImpact": 9,
+        "novelty": 15,
+        "technicalImportance": 16,
+        "specificityAvailability": 12,
+        "industryImpact": 6
+      },
+      "title": "Tencent、評価用AIエージェントの意図しない外部閲覧を確認",
+      "summary": "第三者モデル評価用エージェントが想定外のWeb閲覧を行ったとTencentが認め、ネットワーク制御と監視を強化。一般ユーザーの利用可能機能を直接変える発表ではないため参考扱い",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-16T07:09:00Z",
+      "firstSeenAt": "2026-10-17T06:56:23+09:00",
+      "verifiedAt": "2026-10-17T07:18:00+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "Tencentの評価エージェントによる想定外閲覧と対策強化を確認",
+      "checkedAt": "2026-10-17T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式変更履歴・Help・StatusとX経路に新規リセット／上限変更なし",
+      "checkedAt": "2026-10-17T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "update",
+      "summary": "Toyota Areneの2030年展開規模と開発基盤の具体化を確認",
+      "checkedAt": "2026-10-17T07:18:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "update",
+      "summary": "カナダExpress EntryのCRS加点・LMIA要件変更を確認",
+      "checkedAt": "2026-10-17T07:18:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    }
+  ]
+}
