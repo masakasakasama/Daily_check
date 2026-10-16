@@ -18,7 +18,7 @@
       "publishedAt": "2026/10/17",
       "sourcePublishedAt": "2026-10-16T07:28:27Z",
       "firstSeenAt": "2026-10-17T06:56:23+09:00",
-      "verifiedAt": "2026-10-17T07:18:00+09:00",
+      "verifiedAt": "2026-10-17T07:04:06+09:00",
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/technology/toyota-aims-make-all-its-cars-software-defined-by-2030-nikkei-reports-2026-10-16/"
@@ -35,7 +35,7 @@
       "publishedAt": "2026/10/17",
       "sourcePublishedAt": "2026-10-16",
       "firstSeenAt": "2026-10-17T06:56:23+09:00",
-      "verifiedAt": "2026-10-17T07:18:00+09:00",
+      "verifiedAt": "2026-10-17T07:04:06+09:00",
       "source": {
         "label": "Immigration, Refugees and Citizenship Canada",
         "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/10/canada-refocusing-express-entry-on-top-talent-that-drives-economic-growth.html"
@@ -60,7 +60,7 @@
       "publishedAt": "2026/10/17",
       "sourcePublishedAt": "2026-10-16T07:09:00Z",
       "firstSeenAt": "2026-10-17T06:56:23+09:00",
-      "verifiedAt": "2026-10-17T07:18:00+09:00",
+      "verifiedAt": "2026-10-17T07:04:06+09:00",
       "source": {
         "label": "Reuters",
         "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/"
@@ -73,7 +73,7 @@
       "name": "AI",
       "status": "update",
       "summary": "Tencentの評価エージェントによる想定外閲覧と対策強化を確認",
-      "checkedAt": "2026-10-17T07:18:00+09:00",
+      "checkedAt": "2026-10-17T07:04:06+09:00",
       "alertCount": 0,
       "referenceCount": 1
     },
@@ -82,7 +82,7 @@
       "name": "Codex",
       "status": "clear",
       "summary": "公式変更履歴・Help・StatusとX経路に新規リセット／上限変更なし",
-      "checkedAt": "2026-10-17T07:18:00+09:00",
+      "checkedAt": "2026-10-17T07:04:06+09:00",
       "alertCount": 0,
       "referenceCount": 0
     },
@@ -91,7 +91,7 @@
       "name": "SDV・日産",
       "status": "update",
       "summary": "Toyota Areneの2030年展開規模と開発基盤の具体化を確認",
-      "checkedAt": "2026-10-17T07:18:00+09:00",
+      "checkedAt": "2026-10-17T07:04:06+09:00",
       "alertCount": 1,
       "referenceCount": 0
     },
@@ -100,7 +100,7 @@
       "name": "主要国永住条件",
       "status": "update",
       "summary": "カナダExpress EntryのCRS加点・LMIA要件変更を確認",
-      "checkedAt": "2026-10-17T07:18:00+09:00",
+      "checkedAt": "2026-10-17T07:04:06+09:00",
       "alertCount": 1,
       "referenceCount": 0
     }
