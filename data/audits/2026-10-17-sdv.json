@@ -4,7 +4,7 @@
   "windowEnd": "2026-10-17T06:56:23+09:00",
   "publicationWindowStart": "2026-10-16T06:55:03+09:00",
   "publicationWindowEnd": "2026-10-17T06:56:23+09:00",
-  "completedAt": "2026-10-17T07:18:00+09:00",
+  "completedAt": "2026-10-17T07:04:06+09:00",
   "collectionComplete": true,
   "anomaly": false,
   "deepScanPerformed": false,
@@ -24,7 +24,7 @@
         {"url":"https://global.nissannews.com/en","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"},
         {"url":"https://global.toyota/en/newsroom/","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"}
       ],
-      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:18:00+09:00","rawHitCount":15,"candidateCount":2,"adoptedCount":1,"excludedCount":1,"duplicateCount":0,"lateAuditOnlyCount":0
+      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:04:06+09:00","rawHitCount":15,"candidateCount":2,"adoptedCount":1,"excludedCount":1,"duplicateCount":0,"lateAuditOnlyCount":0
     },
     {
       "name": "Platform",
@@ -39,7 +39,7 @@
         {"url":"https://eclipsesdv.org/","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"},
         {"url":"https://www.covesa.global/news/","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"}
       ],
-      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:18:00+09:00","rawHitCount":14,"candidateCount":2,"adoptedCount":0,"excludedCount":0,"duplicateCount":0,"lateAuditOnlyCount":2
+      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:04:06+09:00","rawHitCount":14,"candidateCount":2,"adoptedCount":0,"excludedCount":0,"duplicateCount":0,"lateAuditOnlyCount":2
     },
     {
       "name": "Tier1Semi",
@@ -54,7 +54,7 @@
         {"url":"https://www.bosch-mobility.com/en/solutions/vehicle-computer/","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"},
         {"url":"https://www.continental.com/en/press/press-releases/","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"}
       ],
-      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:18:00+09:00","rawHitCount":14,"candidateCount":2,"adoptedCount":0,"excludedCount":2,"duplicateCount":0,"lateAuditOnlyCount":0
+      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:04:06+09:00","rawHitCount":14,"candidateCount":2,"adoptedCount":0,"excludedCount":2,"duplicateCount":0,"lateAuditOnlyCount":0
     },
     {
       "name": "CloudOS",
@@ -69,7 +69,7 @@
         {"url":"https://learn.microsoft.com/en-us/industry/mobility/architecture/software-defined-vehicle-reference-architecture-content","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"},
         {"url":"https://cloud.google.com/solutions/automotive","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"}
       ],
-      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:18:00+09:00","rawHitCount":15,"candidateCount":2,"adoptedCount":0,"excludedCount":2,"duplicateCount":0,"lateAuditOnlyCount":0
+      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:04:06+09:00","rawHitCount":15,"candidateCount":2,"adoptedCount":0,"excludedCount":2,"duplicateCount":0,"lateAuditOnlyCount":0
     },
     {
       "name": "RegSecurity",
@@ -84,7 +84,7 @@
         {"url":"https://www.iso.org/standard/70918.html","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"},
         {"url":"https://www.iso.org/standard/77796.html","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"}
       ],
-      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:18:00+09:00","rawHitCount":14,"candidateCount":2,"adoptedCount":0,"excludedCount":2,"duplicateCount":0,"lateAuditOnlyCount":0
+      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:04:06+09:00","rawHitCount":14,"candidateCount":2,"adoptedCount":0,"excludedCount":2,"duplicateCount":0,"lateAuditOnlyCount":0
     },
     {
       "name": "Cross",
@@ -99,7 +99,7 @@
         {"url":"https://www.automotiveworld.com/","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"},
         {"url":"https://woven.toyota/en/technology/arene/","retrievalStatus":"complete","observedAt":"2026-10-17T06:56:23+09:00"}
       ],
-      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:18:00+09:00","rawHitCount":16,"candidateCount":2,"adoptedCount":0,"excludedCount":0,"duplicateCount":2,"lateAuditOnlyCount":0
+      "retrievalStatus":"complete","fixedOfficialScan":true,"completedAt":"2026-10-17T07:04:06+09:00","rawHitCount":16,"candidateCount":2,"adoptedCount":0,"excludedCount":0,"duplicateCount":2,"lateAuditOnlyCount":0
     }
   ],
   "rawCandidates": [
