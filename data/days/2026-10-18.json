@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-18",
+  "alerts": [
+    {
+      "id": "codex-effective-usage-context-reuse-20261018",
+      "eventKey": "codex-work-effective-usage-context-reuse-cache-routing-2026-10-16",
+      "category": "Codex",
+      "score": 89,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 18,
+        "technicalImportance": 18,
+        "specificityAvailability": 13,
+        "industryImpact": 5
+      },
+      "title": "Codex／Work、コンテキスト再利用で実効利用量を拡大",
+      "summary": "サブエージェント間のコンテキスト再利用、キャッシュ保持延長、リクエスト経路改善でキャッシュヒットを増やし、同じ利用枠で処理できる実効量を引き上げた",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-16T23:55:11.402Z",
+      "firstSeenAt": "2026-10-18T06:55:16+09:00",
+      "verifiedAt": "2026-10-18T06:59:37+09:00",
+      "source": {
+        "label": "Tibo / X",
+        "url": "https://x.com/thsottiaux/status/2111244596131111253"
+      }
+    },
+    {
+      "id": "chatgpt-space-slides-20261018",
+      "eventKey": "chatgpt-space-slides-pro-business-enterprise-2026-10-17",
+      "category": "Codex",
+      "score": 79,
+      "scoreBreakdown": {
+        "userImpact": 30,
+        "novelty": 18,
+        "technicalImportance": 12,
+        "specificityAvailability": 13,
+        "industryImpact": 6
+      },
+      "title": "ChatGPT Space、スライド作成に対応",
+      "summary": "ChatGPT Spaceへスライド対応を追加。Pro、Business、Enterpriseで利用でき、共有ワークスペース内の資料作成フローを直接拡張する",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-17T00:15:54.605Z",
+      "firstSeenAt": "2026-10-18T06:55:16+09:00",
+      "verifiedAt": "2026-10-18T06:59:37+09:00",
+      "source": {
+        "label": "Tibo / X",
+        "url": "https://x.com/thsottiaux/status/2111249810502353152"
+      }
+    },
+    {
+      "id": "codex-global-reset-20261018",
+      "eventKey": "codex-global-usage-reset-2026-10-17",
+      "category": "Codex",
+      "score": 97,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 9
+      },
+      "title": "Codex、利用枠のグローバルリセットを完了",
+      "summary": "Codex責任者Tiboが全体リセットを告知し、10月18日06:12 JSTに完了を確認。対象アカウントの利用可能枠が実際に回復する重要イベント",
+      "publishedAt": "2026/10/18",
+      "sourcePublishedAt": "2026-10-17T16:20:57.749Z",
+      "updatedAt": "2026-10-17T21:12:21.411Z",
+      "firstSeenAt": "2026-10-18T06:55:16+09:00",
+      "verifiedAt": "2026-10-18T06:59:37+09:00",
+      "source": {
+        "label": "Tibo / X",
+        "url": "https://x.com/thsottiaux/status/2111492673890824348"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "主要AI各社の公式発表と信頼できる報道を確認し、当日掲載対象の新規更新なし",
+      "checkedAt": "2026-10-18T06:59:37+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "実効利用量改善、Spaceのスライド対応、グローバル利用枠リセットを確認",
+      "checkedAt": "2026-10-18T06:59:37+09:00",
+      "alertCount": 3,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "clear",
+      "summary": "6 funnelの公式巡回・概念検索・本文確認を完了し、当日掲載対象の新規SDV発表なし",
+      "checkedAt": "2026-10-18T06:59:37+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路に当日実質変更なし",
+      "checkedAt": "2026-10-18T06:59:37+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
