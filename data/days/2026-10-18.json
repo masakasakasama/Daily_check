@@ -18,7 +18,7 @@
       "publishedAt": "2026/10/17",
       "sourcePublishedAt": "2026-10-16T23:55:11.402Z",
       "firstSeenAt": "2026-10-18T06:55:16+09:00",
-      "verifiedAt": "2026-10-18T06:59:37+09:00",
+      "verifiedAt": "2026-10-18T07:01:14+09:00",
       "source": {
         "label": "Tibo / X",
         "url": "https://x.com/thsottiaux/status/2111244596131111253"
@@ -41,7 +41,7 @@
       "publishedAt": "2026/10/17",
       "sourcePublishedAt": "2026-10-17T00:15:54.605Z",
       "firstSeenAt": "2026-10-18T06:55:16+09:00",
-      "verifiedAt": "2026-10-18T06:59:37+09:00",
+      "verifiedAt": "2026-10-18T07:01:14+09:00",
       "source": {
         "label": "Tibo / X",
         "url": "https://x.com/thsottiaux/status/2111249810502353152"
@@ -65,7 +65,7 @@
       "sourcePublishedAt": "2026-10-17T16:20:57.749Z",
       "updatedAt": "2026-10-17T21:12:21.411Z",
       "firstSeenAt": "2026-10-18T06:55:16+09:00",
-      "verifiedAt": "2026-10-18T06:59:37+09:00",
+      "verifiedAt": "2026-10-18T07:01:14+09:00",
       "source": {
         "label": "Tibo / X",
         "url": "https://x.com/thsottiaux/status/2111492673890824348"
@@ -79,7 +79,7 @@
       "name": "AI",
       "status": "clear",
       "summary": "主要AI各社の公式発表と信頼できる報道を確認し、当日掲載対象の新規更新なし",
-      "checkedAt": "2026-10-18T06:59:37+09:00",
+      "checkedAt": "2026-10-18T07:01:14+09:00",
       "alertCount": 0,
       "referenceCount": 0
     },
@@ -88,7 +88,7 @@
       "name": "Codex",
       "status": "update",
       "summary": "実効利用量改善、Spaceのスライド対応、グローバル利用枠リセットを確認",
-      "checkedAt": "2026-10-18T06:59:37+09:00",
+      "checkedAt": "2026-10-18T07:01:14+09:00",
       "alertCount": 3,
       "referenceCount": 0
     },
@@ -97,7 +97,7 @@
       "name": "SDV・日産",
       "status": "clear",
       "summary": "6 funnelの公式巡回・概念検索・本文確認を完了し、当日掲載対象の新規SDV発表なし",
-      "checkedAt": "2026-10-18T06:59:37+09:00",
+      "checkedAt": "2026-10-18T07:01:14+09:00",
       "alertCount": 0,
       "referenceCount": 0
     },
@@ -106,7 +106,7 @@
       "name": "主要国永住条件",
       "status": "clear",
       "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路に当日実質変更なし",
-      "checkedAt": "2026-10-18T06:59:37+09:00",
+      "checkedAt": "2026-10-18T07:01:14+09:00",
       "alertCount": 0,
       "referenceCount": 0
     }
