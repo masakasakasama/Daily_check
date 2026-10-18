@@ -1,0 +1,381 @@
+{
+  "start": "2026-10-13",
+  "end": "2026-10-19",
+  "generatedAt": "2026-10-19T07:04:00+09:00",
+  "headline": "期間内の重要更新・参考情報",
+  "counts": {
+    "important": 13,
+    "reference": 2
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要3件・参考2件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要5件・参考0件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要4件・参考0件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要1件・参考0件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "ai-meta-muse-wonder-20261013",
+      "eventKey": "meta-muse-wonder-agent-coding-models-2026-10-12",
+      "category": "AI",
+      "score": 97,
+      "scoreBreakdown": {
+        "userImpact": 34,
+        "novelty": 20,
+        "technicalImportance": 19,
+        "specificityAvailability": 15,
+        "industryImpact": 9
+      },
+      "title": "Meta、長時間エージェント向けMuse Wonderを即日提供",
+      "summary": "1Mトークン文脈、長時間タスク、サブエージェント委任、ブラウザー／デスクトップ操作に対応。Muse WonderはMeta Model APIとMuse Codeで利用でき、OpenAI SDK互換APIは入力$4・キャッシュ入力$0.20・出力$20/100万トークン",
+      "publishedAt": "2026/10/13",
+      "sourcePublishedAt": "2026-10-12T17:00:15Z",
+      "firstSeenAt": "2026-10-13T06:56:58+09:00",
+      "verifiedAt": "2026-10-13T07:02:35+09:00",
+      "source": {
+        "label": "Meta",
+        "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+      },
+      "thumbnail": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1604761444454458&transcode_extension=webp&version=1791764444"
+    },
+    {
+      "id": "sdv-ecava-roadmaps-20261013",
+      "eventKey": "ecava-sdv-roadmap-paris-2026-10-12",
+      "category": "SDV",
+      "score": 92,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 22,
+        "scale": 19,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "EU、2030年へ向けたSDV共通ロードマップを提示",
+      "summary": "ECAVAがパリで、共通アーキテクチャ契約、相互運用性、再利用可能なOSS部品、安全重要領域を柱とするSDVロードマップを提示。チップレット型欧州車載計算基盤と、実装を支える2件のDIGITALプロジェクトも開始",
+      "publishedAt": "2026/10/12",
+      "updatedAt": "2026-10-12",
+      "eventAt": "2026-10-12",
+      "firstSeenAt": "2026-10-13T06:56:58+09:00",
+      "verifiedAt": "2026-10-13T07:02:35+09:00",
+      "source": {
+        "label": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/ecava-brings-europes-connected-and-autonomous-vehicle-ambitions-paris"
+      },
+      "thumbnail": "https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/GettyImages_1190108780__gorodenkoff_py8mTSAWcGAjlUdr7sWtuYLR9a8_248133.jpg?itok=mSZIZRlh"
+    },
+    {
+      "id": "ai-google-gemini4-argon-global-20261014",
+      "eventKey": "google-gemini-4-argon-global-availability-2026-10-13",
+      "category": "AI",
+      "score": 97,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Gemini 4 Argon、API・アプリへ世界提供を拡大",
+      "summary": "早期提供から一般提供へ移行し、Gemini API／AI Studio、Geminiアプリ、AI Mode、Antigravityで利用可能に。複雑なソフトウェア開発や長時間エージェント向けで、導入価格は入力$2・出力$10/100万トークン",
+      "publishedAt": "2026/10/14",
+      "sourcePublishedAt": "2026-10-13",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png"
+    },
+    {
+      "id": "codex-global-reset-20261013",
+      "eventKey": "codex-global-usage-reset-2026-10-13",
+      "category": "Codex",
+      "score": 93,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 16,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Codex、利用枠のグローバルリセットを完了",
+      "summary": "Codex責任者TiboのX投稿で、全体リセットが10月13日14:06 JSTに完了したことを確認。利用可能枠が実際に回復する重要イベントで、反映状況はSettingsのUsage表示で確認できる",
+      "publishedAt": "2026/10/13",
+      "sourcePublishedAt": "2026-10-13T05:06:00Z",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "Tibo / X",
+        "url": "https://x.com/thsottiaux/status/2109873287853707513"
+      }
+    },
+    {
+      "id": "codex-gpt55-retirement-20261014",
+      "eventKey": "gpt-5-5-chatgpt-work-codex-retirement-effective-2026-10-14",
+      "category": "Codex",
+      "score": 90,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 17,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "GPT-5.5、本日ChatGPT Work／Codexで提供終了",
+      "summary": "全プランのChatGPT、ChatGPT Work、CodexからGPT-5.5が終了。APIは対象外。保存済みモデル設定、workspace既定値、custom agents、scheduled tasks、scriptsでgpt-5.5を指定している場合は置換が必要",
+      "publishedAt": "2026/10/14",
+      "sourcePublishedAt": "2026-09-14",
+      "eventAt": "2026-10-14",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://learn.chatgpt.com/docs/changelog"
+      }
+    },
+    {
+      "id": "sdv-google-play-cars-20261014",
+      "eventKey": "google-built-in-play-store-redesign-2026-10-13",
+      "category": "SDV",
+      "score": 81,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 17,
+        "scale": 18,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "Google built-in車、車載Playを全面刷新",
+      "summary": "16ブランド・100超モデル向けに、車両ディスプレイへ自動適応するPlay Storeを数週間以内に自動配信。700超の車載アプリに加え、停車中の動画から走行時の音声へ切り替える機能も導入",
+      "publishedAt": "2026/10/14",
+      "sourcePublishedAt": "2026-10-13",
+      "firstSeenAt": "2026-10-14T07:04:46+09:00",
+      "verifiedAt": "2026-10-14T07:12:00+09:00",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/"
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleAuto_Blogpost_Play_Horizont.width-200.format-webp.webp"
+    },
+    {
+      "id": "sdv-volvo-vnx-ota-20261015",
+      "eventKey": "volvo-vnx-remote-programming-ota-2026-10-14",
+      "category": "SDV",
+      "score": 85,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 18,
+        "scale": 16,
+        "specificity": 15,
+        "novelty": 14
+      },
+      "title": "Volvo VNX、全車標準でソフト更新・設定変更をOTA化",
+      "summary": "新型VNX全車に4Gテレマティクスを標準装備。24時間の遠隔診断に加え、ソフトウェアと車両パラメータをRemote ProgrammingでOTA更新し、入庫停止時間を削減する",
+      "publishedAt": "2026/10/15",
+      "sourcePublishedAt": "2026-10-14T17:30:00Z",
+      "firstSeenAt": "2026-10-16T06:55:03+09:00",
+      "discoveredLate": true,
+      "verifiedAt": "2026-10-16T07:03:00+09:00",
+      "source": {
+        "label": "Volvo Trucks",
+        "url": "https://www.volvotrucks.com/en-en/news-stories/press-releases/2026/oct/volvo-trucks-unveils-the-all-new-volvo-vnx-in-north-america.html"
+      },
+      "thumbnail": "https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/vnx-300-dump?wid=1024"
+    },
+    {
+      "id": "ai-apple-mlx-muse-spark-open-20261016",
+      "eventKey": "apple-mlx-muse-spark-open-distributed-inference-2026-10-15",
+      "category": "AI",
+      "score": 88,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 18,
+        "technicalImportance": 19,
+        "specificityAvailability": 14,
+        "industryImpact": 6
+      },
+      "title": "Apple MLX、816BモデルをMac Studio単体・複数台で実行",
+      "summary": "最新MLXでMuse Spark Open（816B、42B active）のNVFP4推論に対応。512GB Mac Studio単体からThunderbolt RDMAの4台構成まで利用でき、4台で36 tokens/秒超を確認",
+      "publishedAt": "2026/10/16",
+      "sourcePublishedAt": "2026-10-15",
+      "firstSeenAt": "2026-10-16T06:55:03+09:00",
+      "verifiedAt": "2026-10-16T07:03:00+09:00",
+      "source": {
+        "label": "Apple Machine Learning Research",
+        "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
+      }
+    },
+    {
+      "id": "sdv-toyota-arene-10m-50-models-20261017",
+      "eventKey": "toyota-arene-10m-vehicles-50-models-2030-2026-10-16",
+      "category": "SDV",
+      "score": 94,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 23,
+        "scale": 20,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "Toyota、Areneを2030年に年1000万台・50車種へ展開",
+      "summary": "Toyotaは車載ソフトウェア基盤Areneを2030年までに年1000万台・50車種へ展開する計画。SDK、仮想検証、データ基盤を共通化し、提携先車両への拡大も見込む",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-16T07:28:27Z",
+      "firstSeenAt": "2026-10-17T06:56:23+09:00",
+      "verifiedAt": "2026-10-17T07:04:06+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/technology/toyota-aims-make-all-its-cars-software-defined-by-2030-nikkei-reports-2026-10-16/"
+      },
+      "thumbnail": "https://www.reuters.com/resizer/v2/PWEJKFRBUFKGLHVUAZ4Z3RXDO4.jpg?auth=e1d8606dcdb6691fd9767bd201f9e4b7356a31d1730592d2a186009764ef2e39&quality=80&width=1920"
+    },
+    {
+      "id": "residency-canada-express-entry-crs-20261017",
+      "eventKey": "canada-express-entry-crs-work-experience-high-wage-offer-2026-11-03",
+      "category": "Residency",
+      "score": 92,
+      "title": "カナダ、Express EntryのCRS配点と求人要件を11月3日変更",
+      "summary": "対象となるカナダ就労経験または高賃金職の求人に追加点を付与し、求人加点とFSW/FSTの求人要件からLMIAを不要化。既存プールは自動再計算され、招待ラウンドは最長2週間停止する",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-16",
+      "firstSeenAt": "2026-10-17T06:56:23+09:00",
+      "verifiedAt": "2026-10-17T07:04:06+09:00",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/10/canada-refocusing-express-entry-on-top-talent-that-drives-economic-growth.html"
+      }
+    },
+    {
+      "id": "codex-effective-usage-context-reuse-20261018",
+      "eventKey": "codex-work-effective-usage-context-reuse-cache-routing-2026-10-16",
+      "category": "Codex",
+      "score": 89,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 18,
+        "technicalImportance": 18,
+        "specificityAvailability": 13,
+        "industryImpact": 5
+      },
+      "title": "Codex／Work、コンテキスト再利用で実効利用量を拡大",
+      "summary": "サブエージェント間のコンテキスト再利用、キャッシュ保持延長、リクエスト経路改善でキャッシュヒットを増やし、同じ利用枠で処理できる実効量を引き上げた",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-16T23:55:11.402Z",
+      "firstSeenAt": "2026-10-18T06:55:16+09:00",
+      "verifiedAt": "2026-10-18T07:01:14+09:00",
+      "source": {
+        "label": "Tibo / X",
+        "url": "https://x.com/thsottiaux/status/2111244596131111253"
+      }
+    },
+    {
+      "id": "chatgpt-space-slides-20261018",
+      "eventKey": "chatgpt-space-slides-pro-business-enterprise-2026-10-17",
+      "category": "Codex",
+      "score": 79,
+      "scoreBreakdown": {
+        "userImpact": 30,
+        "novelty": 18,
+        "technicalImportance": 12,
+        "specificityAvailability": 13,
+        "industryImpact": 6
+      },
+      "title": "ChatGPT Space、スライド作成に対応",
+      "summary": "ChatGPT Spaceへスライド対応を追加。Pro、Business、Enterpriseで利用でき、共有ワークスペース内の資料作成フローを直接拡張する",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-17T00:15:54.605Z",
+      "firstSeenAt": "2026-10-18T06:55:16+09:00",
+      "verifiedAt": "2026-10-18T07:01:14+09:00",
+      "source": {
+        "label": "Tibo / X",
+        "url": "https://x.com/thsottiaux/status/2111249810502353152"
+      }
+    },
+    {
+      "id": "codex-global-reset-20261018",
+      "eventKey": "codex-global-usage-reset-2026-10-17",
+      "category": "Codex",
+      "score": 97,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 9
+      },
+      "title": "Codex、利用枠のグローバルリセットを完了",
+      "summary": "Codex責任者Tiboが全体リセットを告知し、10月18日06:12 JSTに完了を確認。対象アカウントの利用可能枠が実際に回復する重要イベント",
+      "publishedAt": "2026/10/18",
+      "sourcePublishedAt": "2026-10-17T16:20:57.749Z",
+      "updatedAt": "2026-10-17T21:12:21.411Z",
+      "firstSeenAt": "2026-10-18T06:55:16+09:00",
+      "verifiedAt": "2026-10-18T07:01:14+09:00",
+      "source": {
+        "label": "Tibo / X",
+        "url": "https://x.com/thsottiaux/status/2111492673890824348"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ai-anthropic-metr-embedded-evaluators-20261016",
+      "eventKey": "anthropic-metr-employee-like-evaluator-access-2026-10-15",
+      "category": "AI",
+      "score": 61,
+      "scoreBreakdown": {
+        "userImpact": 12,
+        "novelty": 15,
+        "technicalImportance": 16,
+        "specificityAvailability": 12,
+        "industryImpact": 6
+      },
+      "title": "Anthropic、METR評価者へ社内チーム相当のアクセスを付与",
+      "summary": "METRの6人を機材・社内ツール付きで受け入れ、モデルや安全対策の独立評価結果をAnthropicの承認なしで公表可能にした。Claudeの利用機能を直接変える発表ではないため参考扱い",
+      "publishedAt": "2026/10/16",
+      "sourcePublishedAt": "2026-10-15",
+      "firstSeenAt": "2026-10-16T06:55:03+09:00",
+      "verifiedAt": "2026-10-16T07:03:00+09:00",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+      },
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/c2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg"
+    },
+    {
+      "id": "ai-tencent-agent-unintended-browsing-20261017",
+      "eventKey": "tencent-third-party-model-eval-agents-unintended-browsing-2026-10-16",
+      "category": "AI",
+      "score": 58,
+      "scoreBreakdown": {
+        "userImpact": 9,
+        "novelty": 15,
+        "technicalImportance": 16,
+        "specificityAvailability": 12,
+        "industryImpact": 6
+      },
+      "title": "Tencent、評価用AIエージェントの意図しない外部閲覧を確認",
+      "summary": "第三者モデル評価用エージェントが想定外のWeb閲覧を行ったとTencentが認め、ネットワーク制御と監視を強化。一般ユーザーの利用可能機能を直接変える発表ではないため参考扱い",
+      "publishedAt": "2026/10/17",
+      "sourcePublishedAt": "2026-10-16T07:09:00Z",
+      "firstSeenAt": "2026-10-17T06:56:23+09:00",
+      "verifiedAt": "2026-10-17T07:04:06+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/"
+      }
+    }
+  ]
+}
