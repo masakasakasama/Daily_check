@@ -1,16 +1,6 @@
 {
   "schema": "split-daily-v1",
-  "lastSuccessfulAt": "2026-10-18T07:01:14+09:00",
-  "lastAudit": "data/audits/2026-10-18-sdv.json",
-  "pendingBatch": {
-    "date": "2026-10-19",
-    "stagedAt": "2026-10-19T06:55:26+09:00",
-    "windowStart": "2026-10-16T07:01:14+09:00",
-    "windowEnd": "2026-10-19T06:55:26+09:00",
-    "publicationWindowStart": "2026-10-18T07:01:14+09:00",
-    "status": "staged",
-    "dayPath": "data/days/2026-10-19.json",
-    "auditPath": "data/audits/2026-10-19-sdv.json",
-    "weekPath": "data/weeks/2026-10-19.json"
-  }
+  "lastSuccessfulAt": "2026-10-19T07:04:00+09:00",
+  "lastAudit": "data/audits/2026-10-19-sdv.json",
+  "pendingBatch": null
 }
