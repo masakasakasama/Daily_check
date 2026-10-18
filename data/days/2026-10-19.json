@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-19",
+  "alerts": [],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "主要AI各社の公式発表と信頼できる報道を確認し、当日掲載対象の新規更新なし",
+      "checkedAt": "2026-10-19T07:04:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX・ユーザー報告を照合し、前日掲載済みの利用枠リセット以外に当日掲載対象の新規更新なし",
+      "checkedAt": "2026-10-19T07:04:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "clear",
+      "summary": "6 funnelと必須Deep Scanの公式巡回・概念検索・本文確認を完了し、当日掲載対象の新規SDV発表なし",
+      "checkedAt": "2026-10-19T07:04:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路に当日実質変更なし",
+      "checkedAt": "2026-10-19T07:04:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
