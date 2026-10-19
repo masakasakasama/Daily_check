@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-20",
+  "alerts": [
+    {
+      "id": "sdv-subaru-platform-devtime-20261020",
+      "eventKey": "subaru-sdv-platform-development-time-40pct-2026-10-19",
+      "category": "SDV",
+      "score": 93,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 23,
+        "scale": 16,
+        "specificity": 14,
+        "novelty": 15
+      },
+      "title": "Subaru、後半2020年代にSDV投入へ　開発期間40%短縮",
+      "summary": "新開発の統合ECUを全車系へ段階展開し、ADAS・自動運転・車両性能をOTA更新。AMDと中核チップを共同開発し、デジタル試作と並行開発で車両開発期間を約40%短縮する",
+      "publishedAt": "2026/10/19",
+      "sourcePublishedAt": "2026-10-19T02:12:02Z",
+      "firstSeenAt": "2026-10-20T06:55:29+09:00",
+      "verifiedAt": "2026-10-20T07:12:00+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/subaru-targets-software-defined-vehicle-launch-late-2020s-plans-cut-development-2026-10-19/"
+      },
+      "thumbnail": "https://www.reuters.com/resizer/v2/YSP5VEU27ROKBIUT7MHXWG6MAI.jpg?auth=268f5dfe014acc1e4e8d80122df1628995ac8746f279821968d3ebee1828a3ff&quality=80&width=1920"
+    },
+    {
+      "id": "sdv-google-cloud-full-virtual-vehicle-20261020",
+      "eventKey": "google-cloud-full-virtual-vehicle-aaos-mcu-2026-10-19",
+      "category": "SDV",
+      "score": 92,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 22,
+        "scale": 17,
+        "specificity": 14,
+        "novelty": 15
+      },
+      "title": "Google Cloud、AAOSからMCUまで「フル仮想車両」を構築",
+      "summary": "AAOS/CuttlefishとRemotiveTopologyを接続し、E/Eネットワーク、ゾーン制御、信号を含む車両全体をクラウド上で実行。実機ベンチ前から複数ドメインをCIで統合検証できる",
+      "publishedAt": "2026/10/19",
+      "sourcePublishedAt": "2026-10-19",
+      "firstSeenAt": "2026-10-20T06:55:29+09:00",
+      "verifiedAt": "2026-10-20T07:12:00+09:00",
+      "source": {
+        "label": "Google Cloud",
+        "url": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu"
+      },
+      "thumbnail": "https://storage.googleapis.com/gweb-cloudblog-publish/images/virtual-vehicles-on-Google-Cloud-header.max-2600x2600.png"
+    }
+  ],
+  "references": [
+    {
+      "id": "sdv-valeo-zonal-compute-presentation-20261020",
+      "eventKey": "valeo-decentralized-ecu-zonal-compute-presentation-2026-10-19",
+      "category": "SDV",
+      "score": 54,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 10,
+        "scale": 7,
+        "specificity": 9,
+        "novelty": 7
+      },
+      "title": "Valeo、分散ECUからゾーン集中型計算への設計資料を公開",
+      "summary": "車載AIとSDVに伴う、数十の分散ECUから中央／ゾーン型アーキテクチャへの移行を解説する技術講演を公開。システム設計担当者向けの参考資料",
+      "publishedAt": "2026/10/19",
+      "sourcePublishedAt": "2026-10-19",
+      "firstSeenAt": "2026-10-20T06:55:29+09:00",
+      "verifiedAt": "2026-10-20T07:12:00+09:00",
+      "source": {
+        "label": "Edge AI and Vision Alliance / Valeo",
+        "url": "https://www.edge-ai-vision.com/2026/10/from-decentralized-ecus-to-zonal-compute-emerging-vehicle-architectures-for-sdv-and-edge-ai-a-presentation-from-valeo/"
+      },
+      "thumbnail": "https://www.edge-ai-vision.com/wp-content/uploads/2026/05/MoesleF_SpeakerCard-1024x538.jpg"
+    },
+    {
+      "id": "sdv-bosch-open-ecosystem-japan-20261020",
+      "eventKey": "bosch-eclipse-covesa-open-sdv-ecosystem-japan-2026-10-19",
+      "category": "SDV",
+      "score": 59,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 13,
+        "scale": 10,
+        "specificity": 10,
+        "novelty": 8
+      },
+      "title": "Bosch、日本のSDV協調開発へEclipse・COVESA連携を拡大",
+      "summary": "COVESAのVSS/VISSを使う車両データ実装Yoriitoや、日本初のEclipse SDV Community会合を紹介。個社開発から標準APIとオープンソースを軸にした協調開発への移行を促す",
+      "publishedAt": "2026/10/19",
+      "sourcePublishedAt": "2026-10-19",
+      "firstSeenAt": "2026-10-20T06:55:29+09:00",
+      "verifiedAt": "2026-10-20T07:12:00+09:00",
+      "source": {
+        "label": "DIGITAL X",
+        "url": "https://dcross.impress.co.jp/docs/column/column20260702/004876-2.html"
+      }
+    },
+    {
+      "id": "ai-oxford-agent-safety-summit-20261020",
+      "eventKey": "oxford-generative-ai-summit-agent-reliability-risks-2026-10-19",
+      "category": "AI",
+      "score": 57,
+      "scoreBreakdown": {
+        "userImpact": 12,
+        "novelty": 15,
+        "technicalImportance": 13,
+        "specificityAvailability": 8,
+        "industryImpact": 9
+      },
+      "title": "企業AIエージェント、協調時の安全性と監査ログに警鐘",
+      "summary": "Oxfordの生成AIサミットで、個別に保護したエージェントも連携時に不正指示へ弱くなる研究と、主要4基盤の実行ログ不足が報告された。企業導入では人の承認モデルと監査可能性の確認が必要",
+      "publishedAt": "2026/10/19",
+      "sourcePublishedAt": "2026-10-19T12:00:00Z",
+      "firstSeenAt": "2026-10-20T06:55:29+09:00",
+      "verifiedAt": "2026-10-20T07:12:00+09:00",
+      "source": {
+        "label": "Reuters Breakingviews",
+        "url": "https://www.reuters.com/commentary/breakingviews/oxford-summit-rings-alarm-corporate-ai-2026-10-19/"
+      },
+      "thumbnail": "https://www.reuters.com/resizer/v2/EV3XTRGCAVNTZCXIVDCWJXEB6U.jpg?auth=1d14b415f235a450a3429e18b65e48b1e4199b7aa5664c6f01e93c09365cbd34&quality=80&width=1920"
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "主要AI各社と信頼できる報道を確認。新規提供変更はなく、企業AIエージェントの安全性・監査上の論点を参考掲載",
+      "checkedAt": "2026-10-20T07:12:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX・ユーザー報告を照合。Xで利用枠急減の複数報告を検出したが本文取得不能かつ公式未確認のため監査候補に留め、当日掲載対象の確定更新なし",
+      "checkedAt": "2026-10-20T07:12:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "update",
+      "summary": "6 funnelと必須Deep Scanを完了。Subaruの統合ECU・OTA計画、Google Cloudのフル仮想車両を重要掲載し、ゾーン計算とオープン標準の資料を参考掲載",
+      "checkedAt": "2026-10-20T07:12:00+09:00",
+      "alertCount": 2,
+      "referenceCount": 2
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後の永住条件の実質変更なし",
+      "checkedAt": "2026-10-20T07:12:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
