@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-21",
+  "alerts": [
+    {
+      "id": "codex-day15-global-reset-20261021",
+      "eventKey": "codex-day15-global-usage-reset-2026-10-20",
+      "category": "Codex",
+      "score": 94,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 18,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "Codex、5時間・週次の利用枠を全員リセット",
+      "summary": "OpenAIのCodex責任者Tibo Sottiaux氏が「Day 15」の更新としてフルリセットを実施。対象ユーザーはCodex／ChatGPT Workの利用可能枠が即時回復するため、Settings → Usageで残量と次回リセット日を確認できる",
+      "publishedAt": "2026/10/20",
+      "sourcePublishedAt": "2026-10-20T06:33:00Z",
+      "firstSeenAt": "2026-10-21T07:00:39+09:00",
+      "verifiedAt": "2026-10-21T07:18:00+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI/Codex)",
+        "url": "https://x.com/thsottiaux/status/2112432076767289678"
+      }
+    },
+    {
+      "id": "codex-limit-plan-mismatch-credits-20261021",
+      "eventKey": "codex-usage-plan-mismatch-40000-accounts-credits-2026-10-20",
+      "category": "Codex",
+      "score": 92,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 19,
+        "technicalImportance": 17,
+        "specificityAvailability": 14,
+        "industryImpact": 7
+      },
+      "title": "Codex利用枠の誤適用を修正　約4万アカウントへクレジット",
+      "summary": "実際の契約プランと異なる利用枠が適用され、想定より速く残量が減る不整合をOpenAIが修正。対象約4万アカウントへ個別連絡し、影響を受けた利用者にはクレジットを付与すると説明した",
+      "publishedAt": "2026/10/21",
+      "sourcePublishedAt": "2026-10-20T17:10:00Z",
+      "firstSeenAt": "2026-10-21T07:00:39+09:00",
+      "verifiedAt": "2026-10-21T07:18:00+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI/Codex)",
+        "url": "https://x.com/thsottiaux/status/2112592264686149749"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "codex-banked-reset-help-update-20261021",
+      "eventKey": "openai-banked-codex-reset-support-clarification-2026-10-21",
+      "category": "Codex",
+      "score": 69,
+      "scoreBreakdown": {
+        "userImpact": 27,
+        "novelty": 12,
+        "technicalImportance": 11,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "OpenAI、Codexの保存済みリセットと補償条件を明確化",
+      "summary": "保存済みフルリセットは5時間枠と週次枠を更新し、週次リセット日も変更する。適用失敗時は対象枠が更新されない限り消費されず、サポートは任意の手動・お詫びリセットを行わないと案内",
+      "publishedAt": "2026/10/21",
+      "updatedAt": "2026-10-21",
+      "firstSeenAt": "2026-10-21T07:00:39+09:00",
+      "verifiedAt": "2026-10-21T07:18:00+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
+      }
+    },
+    {
+      "id": "sdv-lg-flexible-ee-architecture-20261021",
+      "eventKey": "lg-flexible-scalable-ee-architecture-sdv-whitepaper-2026-10-20",
+      "category": "SDV",
+      "score": 62,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 13,
+        "scale": 10,
+        "specificity": 11,
+        "novelty": 5
+      },
+      "title": "LG、SDV向け中央・ゾーン型E/Eアーキテクチャ白書を公開",
+      "summary": "モジュール型HPC、カーネルレベル仮想化、RTOSとRich OSのハイパーバイザー分離、状態管理による計算資源再配分を整理。中央集約とゾーン構成を車種ごとに拡張する設計指針を示した",
+      "publishedAt": "2026/10/20",
+      "sourcePublishedAt": "2026-10-20",
+      "firstSeenAt": "2026-10-21T07:00:39+09:00",
+      "verifiedAt": "2026-10-21T07:18:00+09:00",
+      "source": {
+        "label": "LG Vehicle Solution",
+        "url": "https://www.lg.com/global/business/insights/mobility/white-paper/20261020-ee-architecture-for-sdvs/"
+      },
+      "thumbnail": "https://www.lg.com/content/dam/channelbtb/lgcom/global/vs/common/2026/resources-and-guides/insights/white-paper/20261020-ee-architecture-for-sdvs/vs-common-2026-thumbnail-banner-whitepaper-ee-architecture-for-sdvs-thumbnail.png"
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "OpenAI・Anthropic・Google・Metaの公式発表と主要報道を確認し、前回成功後にユーザーの利用方法を変える独立した新規提供変更なし",
+      "checkedAt": "2026-10-21T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "公式Help・StatusとX経路を照合。全枠リセット、約4万アカウントの利用枠誤適用修正とクレジット付与、保存済みリセット条件の更新を確認",
+      "checkedAt": "2026-10-21T07:18:00+09:00",
+      "alertCount": 2,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "update",
+      "summary": "6 funnelを完了。LGの中央・ゾーン型E/Eアーキテクチャ白書を参考掲載し、既存記事の再配信や過去イベントは監査のみへ分離",
+      "checkedAt": "2026-10-21T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後の永住条件の実質変更なし",
+      "checkedAt": "2026-10-21T07:18:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
