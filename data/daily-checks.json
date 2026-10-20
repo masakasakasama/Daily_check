@@ -1,8 +1,146 @@
 {
   "version": 5,
-  "currentDate": "2026-10-20",
-  "updatedAt": "2026-10-20T07:12:00+09:00",
+  "currentDate": "2026-10-21",
+  "updatedAt": "2026-10-21T07:18:00+09:00",
   "days": [
+    {
+      "date": "2026-10-21",
+      "alerts": [
+        {
+          "id": "codex-day15-global-reset-20261021",
+          "eventKey": "codex-day15-global-usage-reset-2026-10-20",
+          "category": "Codex",
+          "score": 94,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 18,
+            "technicalImportance": 18,
+            "specificityAvailability": 15,
+            "industryImpact": 8
+          },
+          "title": "Codex、5時間・週次の利用枠を全員リセット",
+          "summary": "OpenAIのCodex責任者Tibo Sottiaux氏が「Day 15」の更新としてフルリセットを実施。対象ユーザーはCodex／ChatGPT Workの利用可能枠が即時回復するため、Settings → Usageで残量と次回リセット日を確認できる",
+          "publishedAt": "2026/10/20",
+          "sourcePublishedAt": "2026-10-20T06:33:00Z",
+          "firstSeenAt": "2026-10-21T07:00:39+09:00",
+          "verifiedAt": "2026-10-21T07:18:00+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI/Codex)",
+            "url": "https://x.com/thsottiaux/status/2112432076767289678"
+          }
+        },
+        {
+          "id": "codex-limit-plan-mismatch-credits-20261021",
+          "eventKey": "codex-usage-plan-mismatch-40000-accounts-credits-2026-10-20",
+          "category": "Codex",
+          "score": 92,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 19,
+            "technicalImportance": 17,
+            "specificityAvailability": 14,
+            "industryImpact": 7
+          },
+          "title": "Codex利用枠の誤適用を修正　約4万アカウントへクレジット",
+          "summary": "実際の契約プランと異なる利用枠が適用され、想定より速く残量が減る不整合をOpenAIが修正。対象約4万アカウントへ個別連絡し、影響を受けた利用者にはクレジットを付与すると説明した",
+          "publishedAt": "2026/10/21",
+          "sourcePublishedAt": "2026-10-20T17:10:00Z",
+          "firstSeenAt": "2026-10-21T07:00:39+09:00",
+          "verifiedAt": "2026-10-21T07:18:00+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI/Codex)",
+            "url": "https://x.com/thsottiaux/status/2112592264686149749"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "codex-banked-reset-help-update-20261021",
+          "eventKey": "openai-banked-codex-reset-support-clarification-2026-10-21",
+          "category": "Codex",
+          "score": 69,
+          "scoreBreakdown": {
+            "userImpact": 27,
+            "novelty": 12,
+            "technicalImportance": 11,
+            "specificityAvailability": 14,
+            "industryImpact": 5
+          },
+          "title": "OpenAI、Codexの保存済みリセットと補償条件を明確化",
+          "summary": "保存済みフルリセットは5時間枠と週次枠を更新し、週次リセット日も変更する。適用失敗時は対象枠が更新されない限り消費されず、サポートは任意の手動・お詫びリセットを行わないと案内",
+          "publishedAt": "2026/10/21",
+          "updatedAt": "2026-10-21",
+          "firstSeenAt": "2026-10-21T07:00:39+09:00",
+          "verifiedAt": "2026-10-21T07:18:00+09:00",
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
+          }
+        },
+        {
+          "id": "sdv-lg-flexible-ee-architecture-20261021",
+          "eventKey": "lg-flexible-scalable-ee-architecture-sdv-whitepaper-2026-10-20",
+          "category": "SDV",
+          "score": 62,
+          "scoreBreakdown": {
+            "sdvDirectness": 23,
+            "practicalImpact": 13,
+            "scale": 10,
+            "specificity": 11,
+            "novelty": 5
+          },
+          "title": "LG、SDV向け中央・ゾーン型E/Eアーキテクチャ白書を公開",
+          "summary": "モジュール型HPC、カーネルレベル仮想化、RTOSとRich OSのハイパーバイザー分離、状態管理による計算資源再配分を整理。中央集約とゾーン構成を車種ごとに拡張する設計指針を示した",
+          "publishedAt": "2026/10/20",
+          "sourcePublishedAt": "2026-10-20",
+          "firstSeenAt": "2026-10-21T07:00:39+09:00",
+          "verifiedAt": "2026-10-21T07:18:00+09:00",
+          "source": {
+            "label": "LG Vehicle Solution",
+            "url": "https://www.lg.com/global/business/insights/mobility/white-paper/20261020-ee-architecture-for-sdvs/"
+          },
+          "thumbnail": "https://www.lg.com/content/dam/channelbtb/lgcom/global/vs/common/2026/resources-and-guides/insights/white-paper/20261020-ee-architecture-for-sdvs/vs-common-2026-thumbnail-banner-whitepaper-ee-architecture-for-sdvs-thumbnail.png"
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "OpenAI・Anthropic・Google・Metaの公式発表と主要報道を確認し、前回成功後にユーザーの利用方法を変える独立した新規提供変更なし",
+          "checkedAt": "2026-10-21T07:18:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "公式Help・StatusとX経路を照合。全枠リセット、約4万アカウントの利用枠誤適用修正とクレジット付与、保存済みリセット条件の更新を確認",
+          "checkedAt": "2026-10-21T07:18:00+09:00",
+          "alertCount": 2,
+          "referenceCount": 1
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV・日産",
+          "status": "update",
+          "summary": "6 funnelを完了。LGの中央・ゾーン型E/Eアーキテクチャ白書を参考掲載し、既存記事の再配信や過去イベントは監査のみへ分離",
+          "checkedAt": "2026-10-21T07:18:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後の永住条件の実質変更なし",
+          "checkedAt": "2026-10-21T07:18:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-10-20",
       "alerts": [
@@ -607,271 +745,37 @@
         ],
         "note": "10月16日に欠落日を実検索・本文確認。公開時刻はUTCからJSTへ換算し、実際のfirstSeenAtを保持。"
       }
-    },
-    {
-      "date": "2026-10-14",
-      "alerts": [
-        {
-          "id": "ai-google-gemini4-argon-global-20261014",
-          "eventKey": "google-gemini-4-argon-global-availability-2026-10-13",
-          "category": "AI",
-          "score": 97,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 20,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "Gemini 4 Argon、API・アプリへ世界提供を拡大",
-          "summary": "早期提供から一般提供へ移行し、Gemini API／AI Studio、Geminiアプリ、AI Mode、Antigravityで利用可能に。複雑なソフトウェア開発や長時間エージェント向けで、導入価格は入力$2・出力$10/100万トークン",
-          "publishedAt": "2026/10/14",
-          "sourcePublishedAt": "2026-10-13",
-          "firstSeenAt": "2026-10-14T07:04:46+09:00",
-          "verifiedAt": "2026-10-14T07:12:00+09:00",
-          "source": {
-            "label": "Google",
-            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
-          },
-          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png"
-        },
-        {
-          "id": "codex-global-reset-20261013",
-          "eventKey": "codex-global-usage-reset-2026-10-13",
-          "category": "Codex",
-          "score": 93,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 16,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "Codex、利用枠のグローバルリセットを完了",
-          "summary": "Codex責任者TiboのX投稿で、全体リセットが10月13日14:06 JSTに完了したことを確認。利用可能枠が実際に回復する重要イベントで、反映状況はSettingsのUsage表示で確認できる",
-          "publishedAt": "2026/10/13",
-          "sourcePublishedAt": "2026-10-13T05:06:00Z",
-          "firstSeenAt": "2026-10-14T07:04:46+09:00",
-          "verifiedAt": "2026-10-14T07:12:00+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2109873287853707513"
-          }
-        },
-        {
-          "id": "codex-gpt55-retirement-20261014",
-          "eventKey": "gpt-5-5-chatgpt-work-codex-retirement-effective-2026-10-14",
-          "category": "Codex",
-          "score": 90,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 17,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 5
-          },
-          "title": "GPT-5.5、本日ChatGPT Work／Codexで提供終了",
-          "summary": "全プランのChatGPT、ChatGPT Work、CodexからGPT-5.5が終了。APIは対象外。保存済みモデル設定、workspace既定値、custom agents、scheduled tasks、scriptsでgpt-5.5を指定している場合は置換が必要",
-          "publishedAt": "2026/10/14",
-          "sourcePublishedAt": "2026-09-14",
-          "eventAt": "2026-10-14",
-          "firstSeenAt": "2026-10-14T07:04:46+09:00",
-          "verifiedAt": "2026-10-14T07:12:00+09:00",
-          "source": {
-            "label": "OpenAI",
-            "url": "https://learn.chatgpt.com/docs/changelog"
-          }
-        },
-        {
-          "id": "sdv-google-play-cars-20261014",
-          "eventKey": "google-built-in-play-store-redesign-2026-10-13",
-          "category": "SDV",
-          "score": 81,
-          "scoreBreakdown": {
-            "sdvDirectness": 20,
-            "practicalImpact": 17,
-            "scale": 18,
-            "specificity": 14,
-            "novelty": 12
-          },
-          "title": "Google built-in車、車載Playを全面刷新",
-          "summary": "16ブランド・100超モデル向けに、車両ディスプレイへ自動適応するPlay Storeを数週間以内に自動配信。700超の車載アプリに加え、停車中の動画から走行時の音声へ切り替える機能も導入",
-          "publishedAt": "2026/10/14",
-          "sourcePublishedAt": "2026-10-13",
-          "firstSeenAt": "2026-10-14T07:04:46+09:00",
-          "verifiedAt": "2026-10-14T07:12:00+09:00",
-          "source": {
-            "label": "Google",
-            "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/"
-          },
-          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleAuto_Blogpost_Play_Horizont.width-200.format-webp.webp"
-        }
-      ],
-      "references": [],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "Gemini 4 Argonの世界提供開始を確認",
-          "checkedAt": "2026-10-14T07:12:00+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "利用枠リセット完了とGPT-5.5提供終了を確認",
-          "checkedAt": "2026-10-14T07:12:00+09:00",
-          "alertCount": 2,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV・日産",
-          "status": "update",
-          "summary": "Google built-in車の車載Play刷新を確認",
-          "checkedAt": "2026-10-14T07:12:00+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "米・加・英・独・豪の公式経路に条件の実質変更なし",
-          "checkedAt": "2026-10-14T07:12:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-10-14",
-      "end": "2026-10-20",
-      "generatedAt": "2026-10-20T07:12:00+09:00",
+      "start": "2026-10-15",
+      "end": "2026-10-21",
+      "generatedAt": "2026-10-21T07:18:00+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 13,
-        "reference": 5
+        "important": 11,
+        "reference": 7
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要2件・参考3件"
+          "summary": "重要1件・参考3件"
         },
         {
           "name": "Codex",
-          "summary": "重要5件・参考0件"
+          "summary": "重要5件・参考1件"
         },
         {
           "name": "SDV",
-          "summary": "重要5件・参考2件"
+          "summary": "重要4件・参考3件"
         },
         {
           "name": "Permanent Residency",
-          "summary": "重要1件・参考0件"
+          "summary": "重要0件・参考0件"
         }
       ],
       "highlights": [
-        {
-          "id": "ai-google-gemini4-argon-global-20261014",
-          "eventKey": "google-gemini-4-argon-global-availability-2026-10-13",
-          "category": "AI",
-          "score": 97,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 20,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "Gemini 4 Argon、API・アプリへ世界提供を拡大",
-          "summary": "早期提供から一般提供へ移行し、Gemini API／AI Studio、Geminiアプリ、AI Mode、Antigravityで利用可能に。複雑なソフトウェア開発や長時間エージェント向けで、導入価格は入力$2・出力$10/100万トークン",
-          "publishedAt": "2026/10/14",
-          "sourcePublishedAt": "2026-10-13",
-          "firstSeenAt": "2026-10-14T07:04:46+09:00",
-          "verifiedAt": "2026-10-14T07:12:00+09:00",
-          "source": {
-            "label": "Google",
-            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
-          },
-          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png"
-        },
-        {
-          "id": "codex-global-reset-20261013",
-          "eventKey": "codex-global-usage-reset-2026-10-13",
-          "category": "Codex",
-          "score": 93,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 16,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "Codex、利用枠のグローバルリセットを完了",
-          "summary": "Codex責任者TiboのX投稿で、全体リセットが10月13日14:06 JSTに完了したことを確認。利用可能枠が実際に回復する重要イベントで、反映状況はSettingsのUsage表示で確認できる",
-          "publishedAt": "2026/10/13",
-          "sourcePublishedAt": "2026-10-13T05:06:00Z",
-          "firstSeenAt": "2026-10-14T07:04:46+09:00",
-          "verifiedAt": "2026-10-14T07:12:00+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2109873287853707513"
-          }
-        },
-        {
-          "id": "codex-gpt55-retirement-20261014",
-          "eventKey": "gpt-5-5-chatgpt-work-codex-retirement-effective-2026-10-14",
-          "category": "Codex",
-          "score": 90,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 17,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 5
-          },
-          "title": "GPT-5.5、本日ChatGPT Work／Codexで提供終了",
-          "summary": "全プランのChatGPT、ChatGPT Work、CodexからGPT-5.5が終了。APIは対象外。保存済みモデル設定、workspace既定値、custom agents、scheduled tasks、scriptsでgpt-5.5を指定している場合は置換が必要",
-          "publishedAt": "2026/10/14",
-          "sourcePublishedAt": "2026-09-14",
-          "eventAt": "2026-10-14",
-          "firstSeenAt": "2026-10-14T07:04:46+09:00",
-          "verifiedAt": "2026-10-14T07:12:00+09:00",
-          "source": {
-            "label": "OpenAI",
-            "url": "https://learn.chatgpt.com/docs/changelog"
-          }
-        },
-        {
-          "id": "sdv-google-play-cars-20261014",
-          "eventKey": "google-built-in-play-store-redesign-2026-10-13",
-          "category": "SDV",
-          "score": 81,
-          "scoreBreakdown": {
-            "sdvDirectness": 20,
-            "practicalImpact": 17,
-            "scale": 18,
-            "specificity": 14,
-            "novelty": 12
-          },
-          "title": "Google built-in車、車載Playを全面刷新",
-          "summary": "16ブランド・100超モデル向けに、車両ディスプレイへ自動適応するPlay Storeを数週間以内に自動配信。700超の車載アプリに加え、停車中の動画から走行時の音声へ切り替える機能も導入",
-          "publishedAt": "2026/10/14",
-          "sourcePublishedAt": "2026-10-13",
-          "firstSeenAt": "2026-10-14T07:04:46+09:00",
-          "verifiedAt": "2026-10-14T07:12:00+09:00",
-          "source": {
-            "label": "Google",
-            "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-google-play-updates/"
-          },
-          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleAuto_Blogpost_Play_Horizont.width-200.format-webp.webp"
-        },
         {
           "id": "sdv-volvo-vnx-ota-20261015",
           "eventKey": "volvo-vnx-remote-programming-ota-2026-10-14",
@@ -1077,6 +981,52 @@
             "url": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu"
           },
           "thumbnail": "https://storage.googleapis.com/gweb-cloudblog-publish/images/virtual-vehicles-on-Google-Cloud-header.max-2600x2600.png"
+        },
+        {
+          "id": "codex-day15-global-reset-20261021",
+          "eventKey": "codex-day15-global-usage-reset-2026-10-20",
+          "category": "Codex",
+          "score": 94,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 18,
+            "technicalImportance": 18,
+            "specificityAvailability": 15,
+            "industryImpact": 8
+          },
+          "title": "Codex、5時間・週次の利用枠を全員リセット",
+          "summary": "OpenAIのCodex責任者Tibo Sottiaux氏が「Day 15」の更新としてフルリセットを実施。対象ユーザーはCodex／ChatGPT Workの利用可能枠が即時回復するため、Settings → Usageで残量と次回リセット日を確認できる",
+          "publishedAt": "2026/10/20",
+          "sourcePublishedAt": "2026-10-20T06:33:00Z",
+          "firstSeenAt": "2026-10-21T07:00:39+09:00",
+          "verifiedAt": "2026-10-21T07:18:00+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI/Codex)",
+            "url": "https://x.com/thsottiaux/status/2112432076767289678"
+          }
+        },
+        {
+          "id": "codex-limit-plan-mismatch-credits-20261021",
+          "eventKey": "codex-usage-plan-mismatch-40000-accounts-credits-2026-10-20",
+          "category": "Codex",
+          "score": 92,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 19,
+            "technicalImportance": 17,
+            "specificityAvailability": 14,
+            "industryImpact": 7
+          },
+          "title": "Codex利用枠の誤適用を修正　約4万アカウントへクレジット",
+          "summary": "実際の契約プランと異なる利用枠が適用され、想定より速く残量が減る不整合をOpenAIが修正。対象約4万アカウントへ個別連絡し、影響を受けた利用者にはクレジットを付与すると説明した",
+          "publishedAt": "2026/10/21",
+          "sourcePublishedAt": "2026-10-20T17:10:00Z",
+          "firstSeenAt": "2026-10-21T07:00:39+09:00",
+          "verifiedAt": "2026-10-21T07:18:00+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI/Codex)",
+            "url": "https://x.com/thsottiaux/status/2112592264686149749"
+          }
         }
       ],
       "references": [
@@ -1197,6 +1147,53 @@
             "url": "https://www.reuters.com/commentary/breakingviews/oxford-summit-rings-alarm-corporate-ai-2026-10-19/"
           },
           "thumbnail": "https://www.reuters.com/resizer/v2/EV3XTRGCAVNTZCXIVDCWJXEB6U.jpg?auth=1d14b415f235a450a3429e18b65e48b1e4199b7aa5664c6f01e93c09365cbd34&quality=80&width=1920"
+        },
+        {
+          "id": "codex-banked-reset-help-update-20261021",
+          "eventKey": "openai-banked-codex-reset-support-clarification-2026-10-21",
+          "category": "Codex",
+          "score": 69,
+          "scoreBreakdown": {
+            "userImpact": 27,
+            "novelty": 12,
+            "technicalImportance": 11,
+            "specificityAvailability": 14,
+            "industryImpact": 5
+          },
+          "title": "OpenAI、Codexの保存済みリセットと補償条件を明確化",
+          "summary": "保存済みフルリセットは5時間枠と週次枠を更新し、週次リセット日も変更する。適用失敗時は対象枠が更新されない限り消費されず、サポートは任意の手動・お詫びリセットを行わないと案内",
+          "publishedAt": "2026/10/21",
+          "updatedAt": "2026-10-21",
+          "firstSeenAt": "2026-10-21T07:00:39+09:00",
+          "verifiedAt": "2026-10-21T07:18:00+09:00",
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
+          }
+        },
+        {
+          "id": "sdv-lg-flexible-ee-architecture-20261021",
+          "eventKey": "lg-flexible-scalable-ee-architecture-sdv-whitepaper-2026-10-20",
+          "category": "SDV",
+          "score": 62,
+          "scoreBreakdown": {
+            "sdvDirectness": 23,
+            "practicalImpact": 13,
+            "scale": 10,
+            "specificity": 11,
+            "novelty": 5
+          },
+          "title": "LG、SDV向け中央・ゾーン型E/Eアーキテクチャ白書を公開",
+          "summary": "モジュール型HPC、カーネルレベル仮想化、RTOSとRich OSのハイパーバイザー分離、状態管理による計算資源再配分を整理。中央集約とゾーン構成を車種ごとに拡張する設計指針を示した",
+          "publishedAt": "2026/10/20",
+          "sourcePublishedAt": "2026-10-20",
+          "firstSeenAt": "2026-10-21T07:00:39+09:00",
+          "verifiedAt": "2026-10-21T07:18:00+09:00",
+          "source": {
+            "label": "LG Vehicle Solution",
+            "url": "https://www.lg.com/global/business/insights/mobility/white-paper/20261020-ee-architecture-for-sdvs/"
+          },
+          "thumbnail": "https://www.lg.com/content/dam/channelbtb/lgcom/global/vs/common/2026/resources-and-guides/insights/white-paper/20261020-ee-architecture-for-sdvs/vs-common-2026-thumbnail-banner-whitepaper-ee-architecture-for-sdvs-thumbnail.png"
         }
       ]
     }
