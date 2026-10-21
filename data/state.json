@@ -2,5 +2,11 @@
   "schema": "split-daily-v1",
   "lastSuccessfulAt": "2026-10-21T07:18:00+09:00",
   "lastAudit": "data/audits/2026-10-21-sdv.json",
-  "pendingBatch": null
+  "pendingBatch": {
+    "date": "2026-10-22",
+    "startedAt": "2026-10-22T06:59:35+09:00",
+    "status": "collecting",
+    "windowStart": "2026-10-19T07:18:00+09:00",
+    "publicationWindowStart": "2026-10-21T07:18:00+09:00"
+  }
 }
