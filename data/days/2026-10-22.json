@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-22",
+  "alerts": [
+    {
+      "id": "sdv-gm-central-compute-platform-20261022",
+      "eventKey": "gm-central-compute-sdv-platform-2028-rollout-2026-10-21",
+      "category": "SDV",
+      "score": 94,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 24,
+        "scale": 19,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "GM、単一中央コンピュータ基盤を2028年から量産展開",
+      "summary": "車両ソフトとハードを分離し、知覚・駆動・安全・シャシー制御を単一の高速中央コンピュータへ統合。計算性能40倍、配線30%削減を掲げ、2028年Cadillac Escalade IQから多車種へ展開する",
+      "publishedAt": "2026/10/22",
+      "sourcePublishedAt": "2026-10-21",
+      "firstSeenAt": "2026-10-22T06:59:35+09:00",
+      "verifiedAt": "2026-10-22T07:24:00+09:00",
+      "source": {
+        "label": "General Motors",
+        "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/oct/1021-gm-forward-2026.html"
+      },
+      "thumbnail": "https://news.gm.com/content/Pages/news/us/en/2026/oct/1021-gm-forward-2026/jcr:content/image.resize.maxw_1200.jpg/1792507786934.jpg"
+    },
+    {
+      "id": "sdv-hcltech-nvidia-vv-auto-20261022",
+      "eventKey": "hcltech-nvidia-vv-auto-simulation-validation-2026-10-21",
+      "category": "SDV",
+      "score": 86,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 23,
+        "scale": 16,
+        "specificity": 14,
+        "novelty": 10
+      },
+      "title": "HCLTech、NVIDIA基盤の自動車V&Vサービスを提供",
+      "summary": "要求からテスト生成、シミュレーション、結果解析、適合証跡までをAIで連結。Omniverse、Cosmos、Alpamayo、NuRec等を使い、希少・安全重要シナリオの継続検証とリリース短縮を支援する",
+      "publishedAt": "2026/10/21",
+      "sourcePublishedAt": "2026-10-21",
+      "firstSeenAt": "2026-10-22T06:59:35+09:00",
+      "verifiedAt": "2026-10-22T07:24:00+09:00",
+      "source": {
+        "label": "HCLTech",
+        "url": "https://www.hcltech.com/press-releases/hcltech-launches-nvidia-powered-hcltech-verification-and-validation-auto-transform"
+      },
+      "thumbnail": "https://hcltech.com/sites/default/files/images/1200x630A.png"
+    }
+  ],
+  "references": [
+    {
+      "id": "codex-cross-service-degradation-resolved-20261022",
+      "eventKey": "openai-chatgpt-codex-api-degraded-performance-2026-10-20",
+      "category": "Codex",
+      "score": 63,
+      "scoreBreakdown": {
+        "userImpact": 26,
+        "novelty": 10,
+        "technicalImportance": 12,
+        "specificityAvailability": 11,
+        "industryImpact": 4
+      },
+      "title": "OpenAI、ChatGPT・Codex・APIの性能低下を復旧",
+      "summary": "ChatGPT Work、Codex Web・API・CLIを含む複数サービスで性能低下が発生。OpenAIは原因を特定して修正を適用し、監視後に全面復旧を確認した",
+      "publishedAt": "2026/10/21",
+      "sourcePublishedAt": "2026-10-20T19:26:00Z",
+      "updatedAt": "2026-10-20T20:28:00Z",
+      "firstSeenAt": "2026-10-22T06:59:35+09:00",
+      "verifiedAt": "2026-10-22T07:24:00+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/01M5E4G39TD1BW1QWHZG6RFA5H"
+      }
+    },
+    {
+      "id": "sdv-kpmg-software-differentiator-survey-20261022",
+      "eventKey": "kpmg-auto-executive-survey-software-differentiator-2035-2026-10-21",
+      "category": "SDV",
+      "score": 52,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 9,
+        "scale": 12,
+        "specificity": 8,
+        "novelty": 5
+      },
+      "title": "自動車幹部の51%、2035年はソフトが主要差別化要因と回答",
+      "summary": "KPMGが775人の自動車業界幹部を調査。51%がソフトウェアとデジタル機能を主要差別化要因と見込む一方、92%はAI・ソフト導入に12か月以上、3分の1は2年以上を要すると回答した",
+      "publishedAt": "2026/10/21",
+      "sourcePublishedAt": "2026-10-21T08:02:00Z",
+      "firstSeenAt": "2026-10-22T06:59:35+09:00",
+      "verifiedAt": "2026-10-22T07:24:00+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/auto-industry-bosses-expect-software-china-growth-reshape-sector-by-2035-survey-2026-10-21/"
+      }
+    },
+    {
+      "id": "sdv-einride-nvidia-alpamayo-shadow-20261022",
+      "eventKey": "einride-nvidia-alpamayo-vla-shadow-testing-2026-10-21",
+      "category": "SDV",
+      "score": 58,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 14,
+        "scale": 10,
+        "specificity": 10,
+        "novelty": 6
+      },
+      "title": "Einride、NVIDIAの推論モデルを自動運転トラックで検証",
+      "summary": "NVIDIA Alpamayoの視覚・言語・行動モデルを実車のシャドーモードで評価。2027年後半の公道評価を計画し、開発サイクル短縮と対応ルート・車種の拡大を狙う",
+      "publishedAt": "2026/10/21",
+      "sourcePublishedAt": "2026-10-21T10:56:00Z",
+      "firstSeenAt": "2026-10-22T06:59:35+09:00",
+      "verifiedAt": "2026-10-22T07:24:00+09:00",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/einride-expands-nvidia-partnership-deploy-ai-reasoning-model-self-driving-trucks-2026-10-21/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "OpenAI・Anthropic・Google・Metaの公式発表と主要報道を確認し、前回成功後に利用方法を直接変える独立した新規モデル・機能提供なし",
+      "checkedAt": "2026-10-22T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "公式Help・Release notes・Developers・StatusとX経路を照合。新たな枠リセット報告はなく、ChatGPT・Codex・APIの性能低下と復旧を参考掲載",
+      "checkedAt": "2026-10-22T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "update",
+      "summary": "6 funnelを完了。GMの中央コンピュータ基盤とHCLTech/NVIDIAのV&V基盤を重要掲載し、業界調査と自動運転検証を参考掲載",
+      "checkedAt": "2026-10-22T07:24:00+09:00",
+      "alertCount": 2,
+      "referenceCount": 2
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後の永住条件の実質変更なし",
+      "checkedAt": "2026-10-22T07:24:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
