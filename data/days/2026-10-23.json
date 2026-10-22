@@ -110,7 +110,7 @@
     {
       "id": "codex",
       "name": "Codex",
-      "status": "alert",
+      "status": "update",
       "summary": "公式Help・Developers・StatusとX経路を照合。Tiboのreset day告知と複数ユーザーの利用枠回復報告を重要掲載",
       "checkedAt": "2026-10-23T07:28:00+09:00",
       "alertCount": 1,
