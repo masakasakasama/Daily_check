@@ -1,8 +1,146 @@
 {
   "version": 5,
-  "currentDate": "2026-10-22",
-  "updatedAt": "2026-10-22T07:24:00+09:00",
+  "currentDate": "2026-10-23",
+  "updatedAt": "2026-10-23T07:28:00+09:00",
   "days": [
+    {
+      "date": "2026-10-23",
+      "alerts": [
+        {
+          "id": "codex-day17-global-reset-20261023",
+          "eventKey": "codex-day17-global-usage-reset-2026-10-22",
+          "category": "Codex",
+          "score": 96,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 19,
+            "technicalImportance": 18,
+            "specificityAvailability": 15,
+            "industryImpact": 9
+          },
+          "title": "Codex、Day 17で利用枠を全員リセット",
+          "summary": "Codex責任者Tiboが「reset day」を告知し、その後に複数ユーザーが5時間枠・週次枠の100%回復と3時間有効のbanked resetを同時報告。実際に利用可能量が回復した重要イベント",
+          "publishedAt": "2026/10/23",
+          "sourcePublishedAt": "2026-10-22",
+          "firstSeenAt": "2026-10-23T07:00:52+09:00",
+          "verifiedAt": "2026-10-23T07:28:00+09:00",
+          "source": {
+            "label": "Tibo / X",
+            "url": "https://x.com/thsottiaux/status/2113162277688070445"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "openai-regional-chatgpt-responses-outage-20261023",
+          "eventKey": "openai-chatgpt-responses-regional-degradation-2026-10-22",
+          "category": "AI",
+          "score": 61,
+          "scoreBreakdown": {
+            "userImpact": 28,
+            "novelty": 8,
+            "technicalImportance": 11,
+            "specificityAvailability": 11,
+            "industryImpact": 3
+          },
+          "title": "OpenAI、日韓・インドのChatGPT／Responses障害を復旧",
+          "summary": "ChatGPT ConversationsとResponses APIで性能低下が発生。日本・韓国・インドの利用者が影響を受け、OpenAIは緩和策適用後に全面復旧を確認した",
+          "publishedAt": "2026/10/23",
+          "sourcePublishedAt": "2026-10-22T11:18:00-07:00",
+          "updatedAt": "2026-10-22T17:50:00-07:00",
+          "firstSeenAt": "2026-10-23T07:00:52+09:00",
+          "verifiedAt": "2026-10-23T07:28:00+09:00",
+          "source": {
+            "label": "OpenAI Status",
+            "url": "https://status.openai.com/incidents/6h0ft2qg"
+          }
+        },
+        {
+          "id": "github-copilot-global-default-ga-20261023",
+          "eventKey": "github-copilot-global-default-policy-enforcement-2026-10-22",
+          "category": "AI",
+          "score": 68,
+          "scoreBreakdown": {
+            "userImpact": 27,
+            "novelty": 13,
+            "technicalImportance": 11,
+            "specificityAvailability": 13,
+            "industryImpact": 4
+          },
+          "title": "GitHub Copilot、GA機能のグローバル既定値を適用開始",
+          "summary": "Business／Enterpriseで未設定の一般提供機能とMCPサーバー設定をグローバル方針に従って自動確定。10月26日まで段階適用され、明示設定とPreviewの選択は維持される",
+          "publishedAt": "2026/10/23",
+          "sourcePublishedAt": "2026-10-22",
+          "firstSeenAt": "2026-10-23T07:00:52+09:00",
+          "verifiedAt": "2026-10-23T07:28:00+09:00",
+          "source": {
+            "label": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available"
+          }
+        },
+        {
+          "id": "github-copilot-industry-comparison-20261023",
+          "eventKey": "github-copilot-impact-dashboard-industry-comparison-2026-10-22",
+          "category": "AI",
+          "score": 58,
+          "scoreBreakdown": {
+            "userImpact": 21,
+            "novelty": 13,
+            "technicalImportance": 10,
+            "specificityAvailability": 11,
+            "industryImpact": 3
+          },
+          "title": "GitHub Copilot、企業向けにエージェント活用の業界比較を追加",
+          "summary": "Copilot impact dashboardでagent-first／multi-agent比率やPRマージ率を同規模・同業界の中央値と比較可能にした。参加は既定オフで、比較値は毎日更新され30日後に削除される",
+          "publishedAt": "2026/10/23",
+          "sourcePublishedAt": "2026-10-22",
+          "firstSeenAt": "2026-10-23T07:00:52+09:00",
+          "verifiedAt": "2026-10-23T07:28:00+09:00",
+          "source": {
+            "label": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard/"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。地域障害の復旧とCopilot管理・計測機能2件を参考掲載",
+          "checkedAt": "2026-10-23T07:28:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 3
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "alert",
+          "summary": "公式Help・Developers・StatusとX経路を照合。Tiboのreset day告知と複数ユーザーの利用枠回復報告を重要掲載",
+          "checkedAt": "2026-10-23T07:28:00+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV・日産",
+          "status": "clear",
+          "summary": "6 funnel・固定公式巡回・各4検索を完了。raw候補14件を監査し、前回成功後の新規掲載基準を満たす独立イベントなし",
+          "checkedAt": "2026-10-23T07:28:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
+          "checkedAt": "2026-10-23T07:28:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-10-22",
       "alerts": [
@@ -732,118 +870,26 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-10-16",
-      "alerts": [
-        {
-          "id": "ai-apple-mlx-muse-spark-open-20261016",
-          "eventKey": "apple-mlx-muse-spark-open-distributed-inference-2026-10-15",
-          "category": "AI",
-          "score": 88,
-          "scoreBreakdown": {
-            "userImpact": 31,
-            "novelty": 18,
-            "technicalImportance": 19,
-            "specificityAvailability": 14,
-            "industryImpact": 6
-          },
-          "title": "Apple MLX、816BモデルをMac Studio単体・複数台で実行",
-          "summary": "最新MLXでMuse Spark Open（816B、42B active）のNVFP4推論に対応。512GB Mac Studio単体からThunderbolt RDMAの4台構成まで利用でき、4台で36 tokens/秒超を確認",
-          "publishedAt": "2026/10/16",
-          "sourcePublishedAt": "2026-10-15",
-          "firstSeenAt": "2026-10-16T06:55:03+09:00",
-          "verifiedAt": "2026-10-16T07:03:00+09:00",
-          "source": {
-            "label": "Apple Machine Learning Research",
-            "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "ai-anthropic-metr-embedded-evaluators-20261016",
-          "eventKey": "anthropic-metr-employee-like-evaluator-access-2026-10-15",
-          "category": "AI",
-          "score": 61,
-          "scoreBreakdown": {
-            "userImpact": 12,
-            "novelty": 15,
-            "technicalImportance": 16,
-            "specificityAvailability": 12,
-            "industryImpact": 6
-          },
-          "title": "Anthropic、METR評価者へ社内チーム相当のアクセスを付与",
-          "summary": "METRの6人を機材・社内ツール付きで受け入れ、モデルや安全対策の独立評価結果をAnthropicの承認なしで公表可能にした。Claudeの利用機能を直接変える発表ではないため参考扱い",
-          "publishedAt": "2026/10/16",
-          "sourcePublishedAt": "2026-10-15",
-          "firstSeenAt": "2026-10-16T06:55:03+09:00",
-          "verifiedAt": "2026-10-16T07:03:00+09:00",
-          "source": {
-            "label": "Anthropic",
-            "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
-          },
-          "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/c2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg"
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "Apple MLXの大規模ローカル推論とAnthropicの外部評価体制を確認",
-          "checkedAt": "2026-10-16T07:03:00+09:00",
-          "alertCount": 1,
-          "referenceCount": 1
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "clear",
-          "summary": "公式変更履歴・Help・StatusとX経路に新規リセット／上限変更なし",
-          "checkedAt": "2026-10-16T07:03:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV・日産",
-          "status": "clear",
-          "summary": "当日掲載対象の新規SDV発表なし",
-          "checkedAt": "2026-10-16T07:03:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "米・加・英・独・豪の公式経路に条件の実質変更なし",
-          "checkedAt": "2026-10-16T07:03:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-10-16",
-      "end": "2026-10-22",
-      "generatedAt": "2026-10-22T07:24:00+09:00",
+      "start": "2026-10-17",
+      "end": "2026-10-23",
+      "generatedAt": "2026-10-23T07:28:00+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
         "important": 12,
-        "reference": 10
+        "reference": 12
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要1件・参考3件"
+          "summary": "重要0件・参考5件"
         },
         {
           "name": "Codex",
-          "summary": "重要5件・参考2件"
+          "summary": "重要6件・参考2件"
         },
         {
           "name": "SDV",
@@ -851,33 +897,10 @@
         },
         {
           "name": "Permanent Residency",
-          "summary": "重要0件・参考0件"
+          "summary": "重要1件・参考0件"
         }
       ],
       "highlights": [
-        {
-          "id": "ai-apple-mlx-muse-spark-open-20261016",
-          "eventKey": "apple-mlx-muse-spark-open-distributed-inference-2026-10-15",
-          "category": "AI",
-          "score": 88,
-          "scoreBreakdown": {
-            "userImpact": 31,
-            "novelty": 18,
-            "technicalImportance": 19,
-            "specificityAvailability": 14,
-            "industryImpact": 6
-          },
-          "title": "Apple MLX、816BモデルをMac Studio単体・複数台で実行",
-          "summary": "最新MLXでMuse Spark Open（816B、42B active）のNVFP4推論に対応。512GB Mac Studio単体からThunderbolt RDMAの4台構成まで利用でき、4台で36 tokens/秒超を確認",
-          "publishedAt": "2026/10/16",
-          "sourcePublishedAt": "2026-10-15",
-          "firstSeenAt": "2026-10-16T06:55:03+09:00",
-          "verifiedAt": "2026-10-16T07:03:00+09:00",
-          "source": {
-            "label": "Apple Machine Learning Research",
-            "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
-          }
-        },
         {
           "id": "sdv-toyota-arene-10m-50-models-20261017",
           "eventKey": "toyota-arene-10m-vehicles-50-models-2030-2026-10-16",
@@ -1129,33 +1152,32 @@
             "url": "https://www.hcltech.com/press-releases/hcltech-launches-nvidia-powered-hcltech-verification-and-validation-auto-transform"
           },
           "thumbnail": "https://hcltech.com/sites/default/files/images/1200x630A.png"
+        },
+        {
+          "id": "codex-day17-global-reset-20261023",
+          "eventKey": "codex-day17-global-usage-reset-2026-10-22",
+          "category": "Codex",
+          "score": 96,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 19,
+            "technicalImportance": 18,
+            "specificityAvailability": 15,
+            "industryImpact": 9
+          },
+          "title": "Codex、Day 17で利用枠を全員リセット",
+          "summary": "Codex責任者Tiboが「reset day」を告知し、その後に複数ユーザーが5時間枠・週次枠の100%回復と3時間有効のbanked resetを同時報告。実際に利用可能量が回復した重要イベント",
+          "publishedAt": "2026/10/23",
+          "sourcePublishedAt": "2026-10-22",
+          "firstSeenAt": "2026-10-23T07:00:52+09:00",
+          "verifiedAt": "2026-10-23T07:28:00+09:00",
+          "source": {
+            "label": "Tibo / X",
+            "url": "https://x.com/thsottiaux/status/2113162277688070445"
+          }
         }
       ],
       "references": [
-        {
-          "id": "ai-anthropic-metr-embedded-evaluators-20261016",
-          "eventKey": "anthropic-metr-employee-like-evaluator-access-2026-10-15",
-          "category": "AI",
-          "score": 61,
-          "scoreBreakdown": {
-            "userImpact": 12,
-            "novelty": 15,
-            "technicalImportance": 16,
-            "specificityAvailability": 12,
-            "industryImpact": 6
-          },
-          "title": "Anthropic、METR評価者へ社内チーム相当のアクセスを付与",
-          "summary": "METRの6人を機材・社内ツール付きで受け入れ、モデルや安全対策の独立評価結果をAnthropicの承認なしで公表可能にした。Claudeの利用機能を直接変える発表ではないため参考扱い",
-          "publishedAt": "2026/10/16",
-          "sourcePublishedAt": "2026-10-15",
-          "firstSeenAt": "2026-10-16T06:55:03+09:00",
-          "verifiedAt": "2026-10-16T07:03:00+09:00",
-          "source": {
-            "label": "Anthropic",
-            "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
-          },
-          "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/c2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg"
-        },
         {
           "id": "ai-tencent-agent-unintended-browsing-20261017",
           "eventKey": "tencent-third-party-model-eval-agents-unintended-browsing-2026-10-16",
@@ -1365,6 +1387,76 @@
           "source": {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/einride-expands-nvidia-partnership-deploy-ai-reasoning-model-self-driving-trucks-2026-10-21/"
+          }
+        },
+        {
+          "id": "openai-regional-chatgpt-responses-outage-20261023",
+          "eventKey": "openai-chatgpt-responses-regional-degradation-2026-10-22",
+          "category": "AI",
+          "score": 61,
+          "scoreBreakdown": {
+            "userImpact": 28,
+            "novelty": 8,
+            "technicalImportance": 11,
+            "specificityAvailability": 11,
+            "industryImpact": 3
+          },
+          "title": "OpenAI、日韓・インドのChatGPT／Responses障害を復旧",
+          "summary": "ChatGPT ConversationsとResponses APIで性能低下が発生。日本・韓国・インドの利用者が影響を受け、OpenAIは緩和策適用後に全面復旧を確認した",
+          "publishedAt": "2026/10/23",
+          "sourcePublishedAt": "2026-10-22T11:18:00-07:00",
+          "updatedAt": "2026-10-22T17:50:00-07:00",
+          "firstSeenAt": "2026-10-23T07:00:52+09:00",
+          "verifiedAt": "2026-10-23T07:28:00+09:00",
+          "source": {
+            "label": "OpenAI Status",
+            "url": "https://status.openai.com/incidents/6h0ft2qg"
+          }
+        },
+        {
+          "id": "github-copilot-global-default-ga-20261023",
+          "eventKey": "github-copilot-global-default-policy-enforcement-2026-10-22",
+          "category": "AI",
+          "score": 68,
+          "scoreBreakdown": {
+            "userImpact": 27,
+            "novelty": 13,
+            "technicalImportance": 11,
+            "specificityAvailability": 13,
+            "industryImpact": 4
+          },
+          "title": "GitHub Copilot、GA機能のグローバル既定値を適用開始",
+          "summary": "Business／Enterpriseで未設定の一般提供機能とMCPサーバー設定をグローバル方針に従って自動確定。10月26日まで段階適用され、明示設定とPreviewの選択は維持される",
+          "publishedAt": "2026/10/23",
+          "sourcePublishedAt": "2026-10-22",
+          "firstSeenAt": "2026-10-23T07:00:52+09:00",
+          "verifiedAt": "2026-10-23T07:28:00+09:00",
+          "source": {
+            "label": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available"
+          }
+        },
+        {
+          "id": "github-copilot-industry-comparison-20261023",
+          "eventKey": "github-copilot-impact-dashboard-industry-comparison-2026-10-22",
+          "category": "AI",
+          "score": 58,
+          "scoreBreakdown": {
+            "userImpact": 21,
+            "novelty": 13,
+            "technicalImportance": 10,
+            "specificityAvailability": 11,
+            "industryImpact": 3
+          },
+          "title": "GitHub Copilot、企業向けにエージェント活用の業界比較を追加",
+          "summary": "Copilot impact dashboardでagent-first／multi-agent比率やPRマージ率を同規模・同業界の中央値と比較可能にした。参加は既定オフで、比較値は毎日更新され30日後に削除される",
+          "publishedAt": "2026/10/23",
+          "sourcePublishedAt": "2026-10-22",
+          "firstSeenAt": "2026-10-23T07:00:52+09:00",
+          "verifiedAt": "2026-10-23T07:28:00+09:00",
+          "source": {
+            "label": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard/"
           }
         }
       ]
