@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-24",
+  "alerts": [
+    {
+      "id": "codex-paid-instant-weekly-reset-20261024",
+      "eventKey": "codex-paid-instant-weekly-reset-plus-pro-2026-10-23",
+      "category": "Codex",
+      "score": 92,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Codex、Plus／Pro向けに有料の即時週次リセットを提供",
+      "summary": "対象アカウントはUsage設定または週次上限到達時の案内から即時リセットを購入可能。5時間枠と週次枠が直ちに回復し、次回の週次更新日はリセット後の最初の利用から7日後へ変わる。対象・価格はアカウントにより異なる",
+      "publishedAt": "2026/10/24",
+      "sourcePublishedAt": "2026-10-23",
+      "firstSeenAt": "2026-10-24T07:04:35+09:00",
+      "verifiedAt": "2026-10-24T07:34:00+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認し、前回成功後に実利用を変える独立した新規AI発表なし",
+      "checkedAt": "2026-10-24T07:34:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "公式Help・Developers・StatusとX経路を確認。Plus／Pro対象の有料即時週次リセットを本文確認し重要掲載",
+      "checkedAt": "2026-10-24T07:34:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "clear",
+      "summary": "6 funnel・固定公式巡回・各4検索とDeep Scan 12検索を完了。raw候補16件を監査し、掲載窓より古い候補は当日掲載せず監査へ保持",
+      "checkedAt": "2026-10-24T07:34:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
+      "checkedAt": "2026-10-24T07:34:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
