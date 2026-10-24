@@ -1,8 +1,75 @@
 {
   "version": 5,
-  "currentDate": "2026-10-24",
-  "updatedAt": "2026-10-24T07:34:00+09:00",
+  "currentDate": "2026-10-25",
+  "updatedAt": "2026-10-25T07:28:00+09:00",
   "days": [
+    {
+      "date": "2026-10-25",
+      "alerts": [
+        {
+          "id": "codex-day19-cache-cli-improvements-20261025",
+          "eventKey": "codex-day19-cache-preserving-reasoning-cli-0164-2026-10-24",
+          "category": "Codex",
+          "score": 81,
+          "scoreBreakdown": {
+            "userImpact": 30,
+            "novelty": 17,
+            "technicalImportance": 17,
+            "specificityAvailability": 11,
+            "industryImpact": 6
+          },
+          "title": "Codex、推論設定の途中変更でもキャッシュを維持。CLIにプリセット等を追加",
+          "summary": "Codex／ChatGPT Workの会話中に推論設定を変更してもキャッシュが無効化されなくなった。Codex CLIには再利用プロンプトのプリセット、インラインのモデル・権限設定、企業MCPサインイン、Windows企業プロキシ認証、長いセッションの再開修正などが追加された。新たな利用枠リセットではない",
+          "publishedAt": "2026/10/24",
+          "sourcePublishedAt": "2026-10-24T08:12:00+09:00",
+          "firstSeenAt": "2026-10-25T06:59:35+09:00",
+          "verifiedAt": "2026-10-25T07:28:00+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI) / X",
+            "url": "https://x.com/thsottiaux/status/2113770573994299544"
+          }
+        }
+      ],
+      "references": [],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。前回成功後に実利用を変える独立した新規AI発表なし",
+          "checkedAt": "2026-10-25T07:28:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "公式Help・Developers・Status・GitHub ReleasesとX経路を確認。推論設定変更時のキャッシュ維持とCLI実利用改善を重要掲載。新規リセットは確認されず",
+          "checkedAt": "2026-10-25T07:28:00+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV・日産",
+          "status": "clear",
+          "summary": "6 funnel・固定公式巡回・各4検索とDeep Scan 12検索を完了。raw候補16件は前回成功前の公開または既出で、当日掲載なし",
+          "checkedAt": "2026-10-25T07:28:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
+          "checkedAt": "2026-10-25T07:28:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-10-24",
       "alerts": [
@@ -715,130 +782,16 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-10-18",
-      "alerts": [
-        {
-          "id": "codex-effective-usage-context-reuse-20261018",
-          "eventKey": "codex-work-effective-usage-context-reuse-cache-routing-2026-10-16",
-          "category": "Codex",
-          "score": 89,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 18,
-            "technicalImportance": 18,
-            "specificityAvailability": 13,
-            "industryImpact": 5
-          },
-          "title": "Codex／Work、コンテキスト再利用で実効利用量を拡大",
-          "summary": "サブエージェント間のコンテキスト再利用、キャッシュ保持延長、リクエスト経路改善でキャッシュヒットを増やし、同じ利用枠で処理できる実効量を引き上げた",
-          "publishedAt": "2026/10/17",
-          "sourcePublishedAt": "2026-10-16T23:55:11.402Z",
-          "firstSeenAt": "2026-10-18T06:55:16+09:00",
-          "verifiedAt": "2026-10-18T07:01:14+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2111244596131111253"
-          }
-        },
-        {
-          "id": "chatgpt-space-slides-20261018",
-          "eventKey": "chatgpt-space-slides-pro-business-enterprise-2026-10-17",
-          "category": "Codex",
-          "score": 79,
-          "scoreBreakdown": {
-            "userImpact": 30,
-            "novelty": 18,
-            "technicalImportance": 12,
-            "specificityAvailability": 13,
-            "industryImpact": 6
-          },
-          "title": "ChatGPT Space、スライド作成に対応",
-          "summary": "ChatGPT Spaceへスライド対応を追加。Pro、Business、Enterpriseで利用でき、共有ワークスペース内の資料作成フローを直接拡張する",
-          "publishedAt": "2026/10/17",
-          "sourcePublishedAt": "2026-10-17T00:15:54.605Z",
-          "firstSeenAt": "2026-10-18T06:55:16+09:00",
-          "verifiedAt": "2026-10-18T07:01:14+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2111249810502353152"
-          }
-        },
-        {
-          "id": "codex-global-reset-20261018",
-          "eventKey": "codex-global-usage-reset-2026-10-17",
-          "category": "Codex",
-          "score": 97,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 9
-          },
-          "title": "Codex、利用枠のグローバルリセットを完了",
-          "summary": "Codex責任者Tiboが全体リセットを告知し、10月18日06:12 JSTに完了を確認。対象アカウントの利用可能枠が実際に回復する重要イベント",
-          "publishedAt": "2026/10/18",
-          "sourcePublishedAt": "2026-10-17T16:20:57.749Z",
-          "updatedAt": "2026-10-17T21:12:21.411Z",
-          "firstSeenAt": "2026-10-18T06:55:16+09:00",
-          "verifiedAt": "2026-10-18T07:01:14+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2111492673890824348"
-          }
-        }
-      ],
-      "references": [],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "clear",
-          "summary": "主要AI各社の公式発表と信頼できる報道を確認し、当日掲載対象の新規更新なし",
-          "checkedAt": "2026-10-18T07:01:14+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "実効利用量改善、Spaceのスライド対応、グローバル利用枠リセットを確認",
-          "checkedAt": "2026-10-18T07:01:14+09:00",
-          "alertCount": 3,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV・日産",
-          "status": "clear",
-          "summary": "6 funnelの公式巡回・概念検索・本文確認を完了し、当日掲載対象の新規SDV発表なし",
-          "checkedAt": "2026-10-18T07:01:14+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路に当日実質変更なし",
-          "checkedAt": "2026-10-18T07:01:14+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-10-18",
-      "end": "2026-10-24",
-      "generatedAt": "2026-10-24T07:34:00+09:00",
+      "start": "2026-10-19",
+      "end": "2026-10-25",
+      "generatedAt": "2026-10-25T07:28:00+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 11,
+        "important": 9,
         "reference": 11
       },
       "categories": [
@@ -848,7 +801,7 @@
         },
         {
           "name": "Codex",
-          "summary": "重要7件・参考2件"
+          "summary": "重要5件・参考2件"
         },
         {
           "name": "SDV",
@@ -860,76 +813,6 @@
         }
       ],
       "highlights": [
-        {
-          "id": "codex-effective-usage-context-reuse-20261018",
-          "eventKey": "codex-work-effective-usage-context-reuse-cache-routing-2026-10-16",
-          "category": "Codex",
-          "score": 89,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 18,
-            "technicalImportance": 18,
-            "specificityAvailability": 13,
-            "industryImpact": 5
-          },
-          "title": "Codex／Work、コンテキスト再利用で実効利用量を拡大",
-          "summary": "サブエージェント間のコンテキスト再利用、キャッシュ保持延長、リクエスト経路改善でキャッシュヒットを増やし、同じ利用枠で処理できる実効量を引き上げた",
-          "publishedAt": "2026/10/17",
-          "sourcePublishedAt": "2026-10-16T23:55:11.402Z",
-          "firstSeenAt": "2026-10-18T06:55:16+09:00",
-          "verifiedAt": "2026-10-18T07:01:14+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2111244596131111253"
-          }
-        },
-        {
-          "id": "chatgpt-space-slides-20261018",
-          "eventKey": "chatgpt-space-slides-pro-business-enterprise-2026-10-17",
-          "category": "Codex",
-          "score": 79,
-          "scoreBreakdown": {
-            "userImpact": 30,
-            "novelty": 18,
-            "technicalImportance": 12,
-            "specificityAvailability": 13,
-            "industryImpact": 6
-          },
-          "title": "ChatGPT Space、スライド作成に対応",
-          "summary": "ChatGPT Spaceへスライド対応を追加。Pro、Business、Enterpriseで利用でき、共有ワークスペース内の資料作成フローを直接拡張する",
-          "publishedAt": "2026/10/17",
-          "sourcePublishedAt": "2026-10-17T00:15:54.605Z",
-          "firstSeenAt": "2026-10-18T06:55:16+09:00",
-          "verifiedAt": "2026-10-18T07:01:14+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2111249810502353152"
-          }
-        },
-        {
-          "id": "codex-global-reset-20261018",
-          "eventKey": "codex-global-usage-reset-2026-10-17",
-          "category": "Codex",
-          "score": 97,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 9
-          },
-          "title": "Codex、利用枠のグローバルリセットを完了",
-          "summary": "Codex責任者Tiboが全体リセットを告知し、10月18日06:12 JSTに完了を確認。対象アカウントの利用可能枠が実際に回復する重要イベント",
-          "publishedAt": "2026/10/18",
-          "sourcePublishedAt": "2026-10-17T16:20:57.749Z",
-          "updatedAt": "2026-10-17T21:12:21.411Z",
-          "firstSeenAt": "2026-10-18T06:55:16+09:00",
-          "verifiedAt": "2026-10-18T07:01:14+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2111492673890824348"
-          }
-        },
         {
           "id": "sdv-subaru-platform-devtime-20261020",
           "eventKey": "subaru-sdv-platform-development-time-40pct-2026-10-19",
@@ -1116,6 +999,29 @@
           "source": {
             "label": "OpenAI Help Center",
             "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets"
+          }
+        },
+        {
+          "id": "codex-day19-cache-cli-improvements-20261025",
+          "eventKey": "codex-day19-cache-preserving-reasoning-cli-0164-2026-10-24",
+          "category": "Codex",
+          "score": 81,
+          "scoreBreakdown": {
+            "userImpact": 30,
+            "novelty": 17,
+            "technicalImportance": 17,
+            "specificityAvailability": 11,
+            "industryImpact": 6
+          },
+          "title": "Codex、推論設定の途中変更でもキャッシュを維持。CLIにプリセット等を追加",
+          "summary": "Codex／ChatGPT Workの会話中に推論設定を変更してもキャッシュが無効化されなくなった。Codex CLIには再利用プロンプトのプリセット、インラインのモデル・権限設定、企業MCPサインイン、Windows企業プロキシ認証、長いセッションの再開修正などが追加された。新たな利用枠リセットではない",
+          "publishedAt": "2026/10/24",
+          "sourcePublishedAt": "2026-10-24T08:12:00+09:00",
+          "firstSeenAt": "2026-10-25T06:59:35+09:00",
+          "verifiedAt": "2026-10-25T07:28:00+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI) / X",
+            "url": "https://x.com/thsottiaux/status/2113770573994299544"
           }
         }
       ],
