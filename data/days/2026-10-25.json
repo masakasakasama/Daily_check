@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-25",
+  "alerts": [
+    {
+      "id": "codex-day19-cache-cli-improvements-20261025",
+      "eventKey": "codex-day19-cache-preserving-reasoning-cli-0164-2026-10-24",
+      "category": "Codex",
+      "score": 81,
+      "scoreBreakdown": {
+        "userImpact": 30,
+        "novelty": 17,
+        "technicalImportance": 17,
+        "specificityAvailability": 11,
+        "industryImpact": 6
+      },
+      "title": "Codex、推論設定の途中変更でもキャッシュを維持。CLIにプリセット等を追加",
+      "summary": "Codex／ChatGPT Workの会話中に推論設定を変更してもキャッシュが無効化されなくなった。Codex CLIには再利用プロンプトのプリセット、インラインのモデル・権限設定、企業MCPサインイン、Windows企業プロキシ認証、長いセッションの再開修正などが追加された。新たな利用枠リセットではない",
+      "publishedAt": "2026/10/24",
+      "sourcePublishedAt": "2026-10-24T08:12:00+09:00",
+      "firstSeenAt": "2026-10-25T06:59:35+09:00",
+      "verifiedAt": "2026-10-25T07:28:00+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI) / X",
+        "url": "https://x.com/thsottiaux/status/2113770573994299544"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。前回成功後に実利用を変える独立した新規AI発表なし",
+      "checkedAt": "2026-10-25T07:28:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "公式Help・Developers・Status・GitHub ReleasesとX経路を確認。推論設定変更時のキャッシュ維持とCLI実利用改善を重要掲載。新規リセットは確認されず",
+      "checkedAt": "2026-10-25T07:28:00+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "clear",
+      "summary": "6 funnel・固定公式巡回・各4検索とDeep Scan 12検索を完了。raw候補16件は前回成功前の公開または既出で、当日掲載なし",
+      "checkedAt": "2026-10-25T07:28:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
+      "checkedAt": "2026-10-25T07:28:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
