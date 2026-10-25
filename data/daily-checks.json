@@ -1,8 +1,75 @@
 {
   "version": 5,
-  "currentDate": "2026-10-25",
-  "updatedAt": "2026-10-25T07:28:00+09:00",
+  "currentDate": "2026-10-26",
+  "updatedAt": "2026-10-26T07:25:00+09:00",
   "days": [
+    {
+      "date": "2026-10-26",
+      "alerts": [
+        {
+          "id": "codex-day20-global-reset-20261026",
+          "eventKey": "codex-day20-rest-and-reset-propagated-2026-10-25",
+          "category": "Codex",
+          "score": 97,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 15,
+            "industryImpact": 9
+          },
+          "title": "Codex、Day 20で利用枠を全体リセット　反映完了を公式確認",
+          "summary": "Codex責任者Tibo Sottiauxが「Day 20 / Rest and reset」と利用枠リセットを告知し、その後「It is all propagated」と全体への反映完了を報告。対象ユーザーはSettings → Usageで5時間枠・週次枠の回復を確認できる",
+          "publishedAt": "2026/10/25",
+          "sourcePublishedAt": "2026-10-25T12:39:00+09:00",
+          "firstSeenAt": "2026-10-26T06:57:08+09:00",
+          "verifiedAt": "2026-10-26T07:25:00+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI) / X",
+            "url": "https://x.com/thsottiaux/status/2114200152701575656"
+          }
+        }
+      ],
+      "references": [],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。前回成功後に実利用を変える独立した新規AI発表なし",
+          "checkedAt": "2026-10-26T07:25:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "公式Help・Status・GitHub ReleasesとX経路を確認。Day 20の全体リセットと反映完了を重要掲載",
+          "checkedAt": "2026-10-26T07:25:00+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV・日産",
+          "status": "clear",
+          "summary": "6 funnel・固定公式巡回・各4検索とDeep Scan 12検索を完了。raw候補16件を監査し、前回成功後の新規掲載対象なし",
+          "checkedAt": "2026-10-26T07:25:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
+          "checkedAt": "2026-10-26T07:25:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "alerts": [
@@ -739,59 +806,16 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-10-19",
-      "alerts": [],
-      "references": [],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "clear",
-          "summary": "主要AI各社の公式発表と信頼できる報道を確認し、当日掲載対象の新規更新なし",
-          "checkedAt": "2026-10-19T07:04:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "clear",
-          "summary": "公式経路とX・ユーザー報告を照合し、前日掲載済みの利用枠リセット以外に当日掲載対象の新規更新なし",
-          "checkedAt": "2026-10-19T07:04:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV・日産",
-          "status": "clear",
-          "summary": "6 funnelと必須Deep Scanの公式巡回・概念検索・本文確認を完了し、当日掲載対象の新規SDV発表なし",
-          "checkedAt": "2026-10-19T07:04:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路に当日実質変更なし",
-          "checkedAt": "2026-10-19T07:04:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-10-19",
-      "end": "2026-10-25",
-      "generatedAt": "2026-10-25T07:28:00+09:00",
+      "start": "2026-10-20",
+      "end": "2026-10-26",
+      "generatedAt": "2026-10-26T07:25:00+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 9,
+        "important": 10,
         "reference": 11
       },
       "categories": [
@@ -801,7 +825,7 @@
         },
         {
           "name": "Codex",
-          "summary": "重要5件・参考2件"
+          "summary": "重要6件・参考2件"
         },
         {
           "name": "SDV",
@@ -1022,6 +1046,29 @@
           "source": {
             "label": "Tibo Sottiaux (OpenAI) / X",
             "url": "https://x.com/thsottiaux/status/2113770573994299544"
+          }
+        },
+        {
+          "id": "codex-day20-global-reset-20261026",
+          "eventKey": "codex-day20-rest-and-reset-propagated-2026-10-25",
+          "category": "Codex",
+          "score": 97,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 15,
+            "industryImpact": 9
+          },
+          "title": "Codex、Day 20で利用枠を全体リセット　反映完了を公式確認",
+          "summary": "Codex責任者Tibo Sottiauxが「Day 20 / Rest and reset」と利用枠リセットを告知し、その後「It is all propagated」と全体への反映完了を報告。対象ユーザーはSettings → Usageで5時間枠・週次枠の回復を確認できる",
+          "publishedAt": "2026/10/25",
+          "sourcePublishedAt": "2026-10-25T12:39:00+09:00",
+          "firstSeenAt": "2026-10-26T06:57:08+09:00",
+          "verifiedAt": "2026-10-26T07:25:00+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI) / X",
+            "url": "https://x.com/thsottiaux/status/2114200152701575656"
           }
         }
       ],
