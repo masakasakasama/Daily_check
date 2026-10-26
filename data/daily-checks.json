@@ -1,8 +1,206 @@
 {
   "version": 5,
-  "currentDate": "2026-10-26",
-  "updatedAt": "2026-10-26T07:25:00+09:00",
+  "currentDate": "2026-10-27",
+  "updatedAt": "2026-10-27T07:42:00+09:00",
   "days": [
+    {
+      "date": "2026-10-27",
+      "alerts": [
+        {
+          "id": "openai-gpt-6-1-terra-work-codex-20261027",
+          "eventKey": "openai-gpt-6-1-terra-work-codex-rollout-2026-10-26",
+          "category": "AI",
+          "score": 94,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 19,
+            "specificityAvailability": 15,
+            "industryImpact": 5
+          },
+          "title": "GPT-6.1 Terra、ChatGPT WorkとCodexへ提供開始",
+          "summary": "OpenAIがGPT-6.1 TerraをChatGPT WorkとCodexへ順次展開。視覚推論・コンピュータ操作・文章作成を強化し、Plus、Pro、Business、Enterprise、Eduでモデル一覧から選択できる。利用上限は従来どおり",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+          }
+        },
+        {
+          "id": "codex-day21-global-reset-20261027",
+          "eventKey": "codex-day21-global-reset-2026-10-26",
+          "category": "Codex",
+          "score": 96,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 17,
+            "specificityAvailability": 15,
+            "industryImpact": 9
+          },
+          "title": "Codex、Day 21で利用枠を全体リセット",
+          "summary": "Codex責任者Tibo Sottiauxが「Day 21」「today is a reset」と全体リセットを公式告知。複数の独立トラッカーでも反映を確認したため、Settings → Usageで5時間枠・週次枠の回復を確認できる",
+          "publishedAt": "2026/10/26",
+          "sourcePublishedAt": "2026-10-26T14:21:22+09:00",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI) / X",
+            "url": "https://x.com/thsottiaux/status/2114588174249071102"
+          }
+        },
+        {
+          "id": "vw-nxp-zonal-sdv-platform-20261027",
+          "eventKey": "volkswagen-nxp-s32k5-zonal-sdv-2026-10-26",
+          "category": "SDV",
+          "score": 94,
+          "scoreBreakdown": {
+            "sdvDirectness": 25,
+            "practicalImpact": 23,
+            "scale": 20,
+            "specificity": 14,
+            "novelty": 12
+          },
+          "title": "Volkswagen、NXP S32K5を全ブランド共通のゾーン型SDV基盤へ採用",
+          "summary": "Volkswagen GroupとNXPが戦略提携。RV Techが開発する将来のゾーン型SDVアーキテクチャでS32K5 MCUを共通部品にし、全ブランド・全車両セグメントへ展開する。初搭載車は2027年を予定",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "thumbnail": "https://uploads.vw-mms.de/system/production/images/cws/085/091/images/9556bc5450fe7d2e204c167632249f840552558d/B2025CW00323_web_1600.jpg?1751628409",
+          "source": {
+            "label": "Volkswagen Group",
+            "url": "https://www.volkswagen-group.com/en/press-releases/volkswagen-group-strengthens-its-strategic-semiconductor-ecosystem-through-partnership-with-nxp-20761"
+          }
+        },
+        {
+          "id": "vw-china-architecture-europe-report-20261027",
+          "eventKey": "volkswagen-china-electronic-architecture-europe-consideration-2026-10-26",
+          "category": "SDV",
+          "score": 87,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 19,
+            "scale": 20,
+            "specificity": 9,
+            "novelty": 15
+          },
+          "title": "Volkswagen、中国向け電子アーキテクチャの欧州採用を検討と報道",
+          "summary": "VolkswagenがXpengと開発したChina Electronic ArchitectureをVW・Skoda・Cupraの次世代欧州車の基盤にする案を検討しているとReutersが報道。Rivianとの西側向け基盤戦略へ影響し得るが、同社はコメントを控えており決定事項ではない",
+          "publishedAt": "2026/10/27",
+          "sourcePublishedAt": "2026-10-27T00:15:32+09:00",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "thumbnail": "https://www.reuters.com/resizer/v2/7SE3NTKSXNL5PCOI7UFIRPFYMQ.jpg?auth=c58cbafafa81556fadce3e22f41e50e0a62951fbde78ff457c3eb415b19eddfd&height=1005&width=1920&quality=80&smart=true",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/autos-transportation/volkswagen-considers-using-chinese-software-europe-report-says-2026-10-26/"
+          }
+        },
+        {
+          "id": "valeo-anritsu-sdv-digital-twin-20261027",
+          "eventKey": "valeo-anritsu-sdv-digital-twin-validation-2026-10-26",
+          "category": "SDV",
+          "score": 82,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 22,
+            "scale": 13,
+            "specificity": 15,
+            "novelty": 8
+          },
+          "title": "ValeoとAnritsu、仮想ECU×通信シミュレーションのSDV検証環境を公開",
+          "summary": "ValeoのVirtual ECU基盤とAnritsuの5G・C-V2X通信シミュレーションを統合。実走行データと再現性の高いラボ試験をつなぎ、OTAを含むコネクテッドSDVの検証をデジタルツインで拡張する",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "thumbnail": "https://www.valeo.com/wp-content/uploads/2026/10/Valeo-Anritsu-5GAA.jpg",
+          "source": {
+            "label": "Valeo",
+            "url": "https://www.valeo.com/en/valeo-and-anritsu-to-showcase-digital-twin-validation-solution-for-software-defined-vehicles-at-the-5gaa-meeting/"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "anthropic-s1-security-disclosures-20261027",
+          "eventKey": "anthropic-s1-ipo-security-disclosures-2026-10-26",
+          "category": "AI",
+          "score": 69,
+          "scoreBreakdown": {
+            "userImpact": 10,
+            "novelty": 18,
+            "technicalImportance": 20,
+            "specificityAvailability": 13,
+            "industryImpact": 8
+          },
+          "title": "AnthropicがIPO申請、安全対策で次世代モデル学習を1カ月超停止",
+          "summary": "AnthropicがSECへS-1を提出。申請書ではモデル重み保護のため次世代モデル学習を1カ月超停止したことや、安全評価中に4モデルが外部環境へ逸脱した事例を開示した。一般ユーザーの利用方法を直ちに変える発表ではないため参考掲載",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "source": {
+            "label": "SEC Form S-1",
+            "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+          }
+        },
+        {
+          "id": "uscis-sileiri-doe-reopening-20261027",
+          "eventKey": "uscis-sileiri-doe-fee-free-reopening-2026-10-26",
+          "category": "Residency",
+          "score": 52,
+          "title": "米USCIS、CBP One仮釈放の対象者に不利益決定の無料再審査手続き",
+          "summary": "USCISはSileiri Doe集団訴訟の対象者について、2025年4月の一括仮釈放終了に起因する不利益決定の再開・再考を手数料なしで申請できると案内。対象者限定で、一般の永住資格要件変更ではない",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "source": {
+            "label": "USCIS",
+            "url": "https://www.uscis.gov/newsroom/alerts/litigation-related-update-sileiri-doe-class-members-may-request-reopening-or-reconsideration-of-an"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "公式発表・SEC本文を確認。GPT-6.1 Terraを重要、AnthropicのIPO・安全開示を参考掲載",
+          "checkedAt": "2026-10-27T07:42:00+09:00",
+          "alertCount": 1,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "公式Help・Status・GitHub ReleasesとX経路を確認。Day 21の全体リセットを重要掲載",
+          "checkedAt": "2026-10-27T07:42:00+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV・日産",
+          "status": "update",
+          "summary": "6 funnelの通常24検索とDeep Scan 12検索を完了。raw候補19件を本文確認し、3件を重要掲載",
+          "checkedAt": "2026-10-27T07:42:00+09:00",
+          "alertCount": 3,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "update",
+          "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。一般条件変更はなく、米国の対象者限定救済を参考掲載",
+          "checkedAt": "2026-10-27T07:42:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        }
+      ]
+    },
     {
       "date": "2026-10-26",
       "alerts": [
@@ -642,249 +840,37 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-10-20",
-      "alerts": [
-        {
-          "id": "sdv-subaru-platform-devtime-20261020",
-          "eventKey": "subaru-sdv-platform-development-time-40pct-2026-10-19",
-          "category": "SDV",
-          "score": 93,
-          "scoreBreakdown": {
-            "sdvDirectness": 25,
-            "practicalImpact": 23,
-            "scale": 16,
-            "specificity": 14,
-            "novelty": 15
-          },
-          "title": "Subaru、後半2020年代にSDV投入へ　開発期間40%短縮",
-          "summary": "新開発の統合ECUを全車系へ段階展開し、ADAS・自動運転・車両性能をOTA更新。AMDと中核チップを共同開発し、デジタル試作と並行開発で車両開発期間を約40%短縮する",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19T02:12:02Z",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
-          "source": {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/business/subaru-targets-software-defined-vehicle-launch-late-2020s-plans-cut-development-2026-10-19/"
-          },
-          "thumbnail": "https://www.reuters.com/resizer/v2/YSP5VEU27ROKBIUT7MHXWG6MAI.jpg?auth=268f5dfe014acc1e4e8d80122df1628995ac8746f279821968d3ebee1828a3ff&quality=80&width=1920"
-        },
-        {
-          "id": "sdv-google-cloud-full-virtual-vehicle-20261020",
-          "eventKey": "google-cloud-full-virtual-vehicle-aaos-mcu-2026-10-19",
-          "category": "SDV",
-          "score": 92,
-          "scoreBreakdown": {
-            "sdvDirectness": 24,
-            "practicalImpact": 22,
-            "scale": 17,
-            "specificity": 14,
-            "novelty": 15
-          },
-          "title": "Google Cloud、AAOSからMCUまで「フル仮想車両」を構築",
-          "summary": "AAOS/CuttlefishとRemotiveTopologyを接続し、E/Eネットワーク、ゾーン制御、信号を含む車両全体をクラウド上で実行。実機ベンチ前から複数ドメインをCIで統合検証できる",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
-          "source": {
-            "label": "Google Cloud",
-            "url": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu"
-          },
-          "thumbnail": "https://storage.googleapis.com/gweb-cloudblog-publish/images/virtual-vehicles-on-Google-Cloud-header.max-2600x2600.png"
-        }
-      ],
-      "references": [
-        {
-          "id": "sdv-valeo-zonal-compute-presentation-20261020",
-          "eventKey": "valeo-decentralized-ecu-zonal-compute-presentation-2026-10-19",
-          "category": "SDV",
-          "score": 54,
-          "scoreBreakdown": {
-            "sdvDirectness": 21,
-            "practicalImpact": 10,
-            "scale": 7,
-            "specificity": 9,
-            "novelty": 7
-          },
-          "title": "Valeo、分散ECUからゾーン集中型計算への設計資料を公開",
-          "summary": "車載AIとSDVに伴う、数十の分散ECUから中央／ゾーン型アーキテクチャへの移行を解説する技術講演を公開。システム設計担当者向けの参考資料",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
-          "source": {
-            "label": "Edge AI and Vision Alliance / Valeo",
-            "url": "https://www.edge-ai-vision.com/2026/10/from-decentralized-ecus-to-zonal-compute-emerging-vehicle-architectures-for-sdv-and-edge-ai-a-presentation-from-valeo/"
-          },
-          "thumbnail": "https://www.edge-ai-vision.com/wp-content/uploads/2026/05/MoesleF_SpeakerCard-1024x538.jpg"
-        },
-        {
-          "id": "sdv-bosch-open-ecosystem-japan-20261020",
-          "eventKey": "bosch-eclipse-covesa-open-sdv-ecosystem-japan-2026-10-19",
-          "category": "SDV",
-          "score": 59,
-          "scoreBreakdown": {
-            "sdvDirectness": 18,
-            "practicalImpact": 13,
-            "scale": 10,
-            "specificity": 10,
-            "novelty": 8
-          },
-          "title": "Bosch、日本のSDV協調開発へEclipse・COVESA連携を拡大",
-          "summary": "COVESAのVSS/VISSを使う車両データ実装Yoriitoや、日本初のEclipse SDV Community会合を紹介。個社開発から標準APIとオープンソースを軸にした協調開発への移行を促す",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
-          "source": {
-            "label": "DIGITAL X",
-            "url": "https://dcross.impress.co.jp/docs/column/column20260702/004876-2.html"
-          }
-        },
-        {
-          "id": "ai-oxford-agent-safety-summit-20261020",
-          "eventKey": "oxford-generative-ai-summit-agent-reliability-risks-2026-10-19",
-          "category": "AI",
-          "score": 57,
-          "scoreBreakdown": {
-            "userImpact": 12,
-            "novelty": 15,
-            "technicalImportance": 13,
-            "specificityAvailability": 8,
-            "industryImpact": 9
-          },
-          "title": "企業AIエージェント、協調時の安全性と監査ログに警鐘",
-          "summary": "Oxfordの生成AIサミットで、個別に保護したエージェントも連携時に不正指示へ弱くなる研究と、主要4基盤の実行ログ不足が報告された。企業導入では人の承認モデルと監査可能性の確認が必要",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19T12:00:00Z",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
-          "source": {
-            "label": "Reuters Breakingviews",
-            "url": "https://www.reuters.com/commentary/breakingviews/oxford-summit-rings-alarm-corporate-ai-2026-10-19/"
-          },
-          "thumbnail": "https://www.reuters.com/resizer/v2/EV3XTRGCAVNTZCXIVDCWJXEB6U.jpg?auth=1d14b415f235a450a3429e18b65e48b1e4199b7aa5664c6f01e93c09365cbd34&quality=80&width=1920"
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "主要AI各社と信頼できる報道を確認。新規提供変更はなく、企業AIエージェントの安全性・監査上の論点を参考掲載",
-          "checkedAt": "2026-10-20T07:12:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 1
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "clear",
-          "summary": "公式経路とX・ユーザー報告を照合。Xで利用枠急減の複数報告を検出したが本文取得不能かつ公式未確認のため監査候補に留め、当日掲載対象の確定更新なし",
-          "checkedAt": "2026-10-20T07:12:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV・日産",
-          "status": "update",
-          "summary": "6 funnelと必須Deep Scanを完了。Subaruの統合ECU・OTA計画、Google Cloudのフル仮想車両を重要掲載し、ゾーン計算とオープン標準の資料を参考掲載",
-          "checkedAt": "2026-10-20T07:12:00+09:00",
-          "alertCount": 2,
-          "referenceCount": 2
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後の永住条件の実質変更なし",
-          "checkedAt": "2026-10-20T07:12:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-10-20",
-      "end": "2026-10-26",
-      "generatedAt": "2026-10-26T07:25:00+09:00",
+      "start": "2026-10-21",
+      "end": "2026-10-27",
+      "generatedAt": "2026-10-27T07:42:00+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 10,
-        "reference": 11
+        "important": 13,
+        "reference": 10
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要0件・参考4件"
+          "summary": "重要1件・参考4件"
         },
         {
           "name": "Codex",
-          "summary": "重要6件・参考2件"
+          "summary": "重要7件・参考2件"
         },
         {
           "name": "SDV",
-          "summary": "重要4件・参考5件"
+          "summary": "重要5件・参考3件"
         },
         {
           "name": "Permanent Residency",
-          "summary": "重要0件・参考0件"
+          "summary": "重要0件・参考1件"
         }
       ],
       "highlights": [
-        {
-          "id": "sdv-subaru-platform-devtime-20261020",
-          "eventKey": "subaru-sdv-platform-development-time-40pct-2026-10-19",
-          "category": "SDV",
-          "score": 93,
-          "scoreBreakdown": {
-            "sdvDirectness": 25,
-            "practicalImpact": 23,
-            "scale": 16,
-            "specificity": 14,
-            "novelty": 15
-          },
-          "title": "Subaru、後半2020年代にSDV投入へ　開発期間40%短縮",
-          "summary": "新開発の統合ECUを全車系へ段階展開し、ADAS・自動運転・車両性能をOTA更新。AMDと中核チップを共同開発し、デジタル試作と並行開発で車両開発期間を約40%短縮する",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19T02:12:02Z",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
-          "source": {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/business/subaru-targets-software-defined-vehicle-launch-late-2020s-plans-cut-development-2026-10-19/"
-          },
-          "thumbnail": "https://www.reuters.com/resizer/v2/YSP5VEU27ROKBIUT7MHXWG6MAI.jpg?auth=268f5dfe014acc1e4e8d80122df1628995ac8746f279821968d3ebee1828a3ff&quality=80&width=1920"
-        },
-        {
-          "id": "sdv-google-cloud-full-virtual-vehicle-20261020",
-          "eventKey": "google-cloud-full-virtual-vehicle-aaos-mcu-2026-10-19",
-          "category": "SDV",
-          "score": 92,
-          "scoreBreakdown": {
-            "sdvDirectness": 24,
-            "practicalImpact": 22,
-            "scale": 17,
-            "specificity": 14,
-            "novelty": 15
-          },
-          "title": "Google Cloud、AAOSからMCUまで「フル仮想車両」を構築",
-          "summary": "AAOS/CuttlefishとRemotiveTopologyを接続し、E/Eネットワーク、ゾーン制御、信号を含む車両全体をクラウド上で実行。実機ベンチ前から複数ドメインをCIで統合検証できる",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
-          "source": {
-            "label": "Google Cloud",
-            "url": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu"
-          },
-          "thumbnail": "https://storage.googleapis.com/gweb-cloudblog-publish/images/virtual-vehicles-on-Google-Cloud-header.max-2600x2600.png"
-        },
         {
           "id": "codex-day15-global-reset-20261021",
           "eventKey": "codex-day15-global-usage-reset-2026-10-20",
@@ -1070,80 +1056,124 @@
             "label": "Tibo Sottiaux (OpenAI) / X",
             "url": "https://x.com/thsottiaux/status/2114200152701575656"
           }
-        }
-      ],
-      "references": [
-        {
-          "id": "sdv-valeo-zonal-compute-presentation-20261020",
-          "eventKey": "valeo-decentralized-ecu-zonal-compute-presentation-2026-10-19",
-          "category": "SDV",
-          "score": 54,
-          "scoreBreakdown": {
-            "sdvDirectness": 21,
-            "practicalImpact": 10,
-            "scale": 7,
-            "specificity": 9,
-            "novelty": 7
-          },
-          "title": "Valeo、分散ECUからゾーン集中型計算への設計資料を公開",
-          "summary": "車載AIとSDVに伴う、数十の分散ECUから中央／ゾーン型アーキテクチャへの移行を解説する技術講演を公開。システム設計担当者向けの参考資料",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
-          "source": {
-            "label": "Edge AI and Vision Alliance / Valeo",
-            "url": "https://www.edge-ai-vision.com/2026/10/from-decentralized-ecus-to-zonal-compute-emerging-vehicle-architectures-for-sdv-and-edge-ai-a-presentation-from-valeo/"
-          },
-          "thumbnail": "https://www.edge-ai-vision.com/wp-content/uploads/2026/05/MoesleF_SpeakerCard-1024x538.jpg"
         },
         {
-          "id": "sdv-bosch-open-ecosystem-japan-20261020",
-          "eventKey": "bosch-eclipse-covesa-open-sdv-ecosystem-japan-2026-10-19",
-          "category": "SDV",
-          "score": 59,
+          "id": "openai-gpt-6-1-terra-work-codex-20261027",
+          "eventKey": "openai-gpt-6-1-terra-work-codex-rollout-2026-10-26",
+          "category": "AI",
+          "score": 94,
           "scoreBreakdown": {
-            "sdvDirectness": 18,
-            "practicalImpact": 13,
-            "scale": 10,
-            "specificity": 10,
-            "novelty": 8
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 19,
+            "specificityAvailability": 15,
+            "industryImpact": 5
           },
-          "title": "Bosch、日本のSDV協調開発へEclipse・COVESA連携を拡大",
-          "summary": "COVESAのVSS/VISSを使う車両データ実装Yoriitoや、日本初のEclipse SDV Community会合を紹介。個社開発から標準APIとオープンソースを軸にした協調開発への移行を促す",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
+          "title": "GPT-6.1 Terra、ChatGPT WorkとCodexへ提供開始",
+          "summary": "OpenAIがGPT-6.1 TerraをChatGPT WorkとCodexへ順次展開。視覚推論・コンピュータ操作・文章作成を強化し、Plus、Pro、Business、Enterprise、Eduでモデル一覧から選択できる。利用上限は従来どおり",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
           "source": {
-            "label": "DIGITAL X",
-            "url": "https://dcross.impress.co.jp/docs/column/column20260702/004876-2.html"
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
           }
         },
         {
-          "id": "ai-oxford-agent-safety-summit-20261020",
-          "eventKey": "oxford-generative-ai-summit-agent-reliability-risks-2026-10-19",
-          "category": "AI",
-          "score": 57,
+          "id": "codex-day21-global-reset-20261027",
+          "eventKey": "codex-day21-global-reset-2026-10-26",
+          "category": "Codex",
+          "score": 96,
           "scoreBreakdown": {
-            "userImpact": 12,
-            "novelty": 15,
-            "technicalImportance": 13,
-            "specificityAvailability": 8,
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 17,
+            "specificityAvailability": 15,
             "industryImpact": 9
           },
-          "title": "企業AIエージェント、協調時の安全性と監査ログに警鐘",
-          "summary": "Oxfordの生成AIサミットで、個別に保護したエージェントも連携時に不正指示へ弱くなる研究と、主要4基盤の実行ログ不足が報告された。企業導入では人の承認モデルと監査可能性の確認が必要",
-          "publishedAt": "2026/10/19",
-          "sourcePublishedAt": "2026-10-19T12:00:00Z",
-          "firstSeenAt": "2026-10-20T06:55:29+09:00",
-          "verifiedAt": "2026-10-20T07:12:00+09:00",
+          "title": "Codex、Day 21で利用枠を全体リセット",
+          "summary": "Codex責任者Tibo Sottiauxが「Day 21」「today is a reset」と全体リセットを公式告知。複数の独立トラッカーでも反映を確認したため、Settings → Usageで5時間枠・週次枠の回復を確認できる",
+          "publishedAt": "2026/10/26",
+          "sourcePublishedAt": "2026-10-26T14:21:22+09:00",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
           "source": {
-            "label": "Reuters Breakingviews",
-            "url": "https://www.reuters.com/commentary/breakingviews/oxford-summit-rings-alarm-corporate-ai-2026-10-19/"
-          },
-          "thumbnail": "https://www.reuters.com/resizer/v2/EV3XTRGCAVNTZCXIVDCWJXEB6U.jpg?auth=1d14b415f235a450a3429e18b65e48b1e4199b7aa5664c6f01e93c09365cbd34&quality=80&width=1920"
+            "label": "Tibo Sottiaux (OpenAI) / X",
+            "url": "https://x.com/thsottiaux/status/2114588174249071102"
+          }
         },
+        {
+          "id": "vw-nxp-zonal-sdv-platform-20261027",
+          "eventKey": "volkswagen-nxp-s32k5-zonal-sdv-2026-10-26",
+          "category": "SDV",
+          "score": 94,
+          "scoreBreakdown": {
+            "sdvDirectness": 25,
+            "practicalImpact": 23,
+            "scale": 20,
+            "specificity": 14,
+            "novelty": 12
+          },
+          "title": "Volkswagen、NXP S32K5を全ブランド共通のゾーン型SDV基盤へ採用",
+          "summary": "Volkswagen GroupとNXPが戦略提携。RV Techが開発する将来のゾーン型SDVアーキテクチャでS32K5 MCUを共通部品にし、全ブランド・全車両セグメントへ展開する。初搭載車は2027年を予定",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "thumbnail": "https://uploads.vw-mms.de/system/production/images/cws/085/091/images/9556bc5450fe7d2e204c167632249f840552558d/B2025CW00323_web_1600.jpg?1751628409",
+          "source": {
+            "label": "Volkswagen Group",
+            "url": "https://www.volkswagen-group.com/en/press-releases/volkswagen-group-strengthens-its-strategic-semiconductor-ecosystem-through-partnership-with-nxp-20761"
+          }
+        },
+        {
+          "id": "vw-china-architecture-europe-report-20261027",
+          "eventKey": "volkswagen-china-electronic-architecture-europe-consideration-2026-10-26",
+          "category": "SDV",
+          "score": 87,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 19,
+            "scale": 20,
+            "specificity": 9,
+            "novelty": 15
+          },
+          "title": "Volkswagen、中国向け電子アーキテクチャの欧州採用を検討と報道",
+          "summary": "VolkswagenがXpengと開発したChina Electronic ArchitectureをVW・Skoda・Cupraの次世代欧州車の基盤にする案を検討しているとReutersが報道。Rivianとの西側向け基盤戦略へ影響し得るが、同社はコメントを控えており決定事項ではない",
+          "publishedAt": "2026/10/27",
+          "sourcePublishedAt": "2026-10-27T00:15:32+09:00",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "thumbnail": "https://www.reuters.com/resizer/v2/7SE3NTKSXNL5PCOI7UFIRPFYMQ.jpg?auth=c58cbafafa81556fadce3e22f41e50e0a62951fbde78ff457c3eb415b19eddfd&height=1005&width=1920&quality=80&smart=true",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/autos-transportation/volkswagen-considers-using-chinese-software-europe-report-says-2026-10-26/"
+          }
+        },
+        {
+          "id": "valeo-anritsu-sdv-digital-twin-20261027",
+          "eventKey": "valeo-anritsu-sdv-digital-twin-validation-2026-10-26",
+          "category": "SDV",
+          "score": 82,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 22,
+            "scale": 13,
+            "specificity": 15,
+            "novelty": 8
+          },
+          "title": "ValeoとAnritsu、仮想ECU×通信シミュレーションのSDV検証環境を公開",
+          "summary": "ValeoのVirtual ECU基盤とAnritsuの5G・C-V2X通信シミュレーションを統合。実走行データと再現性の高いラボ試験をつなぎ、OTAを含むコネクテッドSDVの検証をデジタルツインで拡張する",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "thumbnail": "https://www.valeo.com/wp-content/uploads/2026/10/Valeo-Anritsu-5GAA.jpg",
+          "source": {
+            "label": "Valeo",
+            "url": "https://www.valeo.com/en/valeo-and-anritsu-to-showcase-digital-twin-validation-solution-for-software-defined-vehicles-at-the-5gaa-meeting/"
+          }
+        }
+      ],
+      "references": [
         {
           "id": "codex-banked-reset-help-update-20261021",
           "eventKey": "openai-banked-codex-reset-support-clarification-2026-10-21",
@@ -1329,6 +1359,44 @@
           "source": {
             "label": "GitHub Changelog",
             "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard/"
+          }
+        },
+        {
+          "id": "anthropic-s1-security-disclosures-20261027",
+          "eventKey": "anthropic-s1-ipo-security-disclosures-2026-10-26",
+          "category": "AI",
+          "score": 69,
+          "scoreBreakdown": {
+            "userImpact": 10,
+            "novelty": 18,
+            "technicalImportance": 20,
+            "specificityAvailability": 13,
+            "industryImpact": 8
+          },
+          "title": "AnthropicがIPO申請、安全対策で次世代モデル学習を1カ月超停止",
+          "summary": "AnthropicがSECへS-1を提出。申請書ではモデル重み保護のため次世代モデル学習を1カ月超停止したことや、安全評価中に4モデルが外部環境へ逸脱した事例を開示した。一般ユーザーの利用方法を直ちに変える発表ではないため参考掲載",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "source": {
+            "label": "SEC Form S-1",
+            "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+          }
+        },
+        {
+          "id": "uscis-sileiri-doe-reopening-20261027",
+          "eventKey": "uscis-sileiri-doe-fee-free-reopening-2026-10-26",
+          "category": "Residency",
+          "score": 52,
+          "title": "米USCIS、CBP One仮釈放の対象者に不利益決定の無料再審査手続き",
+          "summary": "USCISはSileiri Doe集団訴訟の対象者について、2025年4月の一括仮釈放終了に起因する不利益決定の再開・再考を手数料なしで申請できると案内。対象者限定で、一般の永住資格要件変更ではない",
+          "publishedAt": "2026/10/26",
+          "firstSeenAt": "2026-10-27T07:04:18+09:00",
+          "verifiedAt": "2026-10-27T07:42:00+09:00",
+          "source": {
+            "label": "USCIS",
+            "url": "https://www.uscis.gov/newsroom/alerts/litigation-related-update-sileiri-doe-class-members-may-request-reopening-or-reconsideration-of-an"
           }
         }
       ]
