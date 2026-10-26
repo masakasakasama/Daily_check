@@ -1,12 +1,6 @@
 {
   "schema": "split-daily-v1",
-  "lastSuccessfulAt": "2026-10-26T07:25:00+09:00",
-  "lastAudit": "data/audits/2026-10-26-sdv.json",
-  "pendingBatch": {
-    "date": "2026-10-27",
-    "startedAt": "2026-10-27T07:04:18+09:00",
-    "status": "collecting",
-    "windowStart": "2026-10-24T07:25:00+09:00",
-    "publicationWindowStart": "2026-10-26T07:25:00+09:00"
-  }
+  "lastSuccessfulAt": "2026-10-27T07:42:00+09:00",
+  "lastAudit": "data/audits/2026-10-27-sdv.json",
+  "pendingBatch": null
 }
