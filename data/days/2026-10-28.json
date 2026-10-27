@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-28",
+  "alerts": [],
+  "references": [
+    {
+      "id": "openai-sol-degraded-api-20261028",
+      "eventKey": "openai-gpt-6-1-sol-api-degraded-2026-10-27",
+      "category": "AI",
+      "score": 67,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 11,
+        "technicalImportance": 13,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "GPT-6.1 SolのAPI性能低下、OpenAIが復旧を確認",
+      "summary": "OpenAI StatusはGPT-6.1 SolについてChat Completions、Responses、Batchの性能低下を報告。緩和策の適用後に全サービスの正常化を確認した。継続障害ではないため参考掲載",
+      "publishedAt": "2026/10/28",
+      "sourcePublishedAt": "2026-10-27T16:02:00-07:00",
+      "firstSeenAt": "2026-10-28T06:56:19+09:00",
+      "verifiedAt": "2026-10-28T07:34:00+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/01M5YY4A3TQETEQ53DVSK8SW10"
+      }
+    },
+    {
+      "id": "openai-oracle-apps-chatgpt-20261028",
+      "eventKey": "openai-oracle-apps-chatgpt-codex-marketplace-2026-10-27",
+      "category": "AI",
+      "score": 72,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 16,
+        "technicalImportance": 14,
+        "specificityAvailability": 12,
+        "industryImpact": 6
+      },
+      "title": "OracleアプリをChatGPTへ統合、Codex付き中小企業向けバンドルも発表",
+      "summary": "OpenAIとOracleが、Oracle AI Workspaceによる業務データ・ワークフローのChatGPT統合を発表。ChatGPT BusinessとCodex、Oracleアプリ、OCIクレジットを組み合わせるSMB Bundleや、Oracle MarketplaceでのCodex購入も案内した。主に法人向けのため参考掲載",
+      "publishedAt": "2026/10/27",
+      "firstSeenAt": "2026-10-28T06:56:19+09:00",
+      "verifiedAt": "2026-10-28T07:34:00+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
+      }
+    },
+    {
+      "id": "australia-employer-sponsored-pages-update-20261028",
+      "eventKey": "australia-ens-186-494-official-pages-update-2026-10-27",
+      "category": "Residency",
+      "score": 58,
+      "title": "豪州、雇用主指名・地域雇用主保証ビザの公式案内を更新",
+      "summary": "豪州内務省が永住のEmployer Nomination Scheme（subclass 186）と、3年後に永住申請へ進めるSkilled Employer Sponsored Regional（subclass 494）の公式案内を10月27日付で更新。186の表示申請費はAUD 6,140から。要件変更の差分は公式本文で特定できないため参考掲載",
+      "publishedAt": "2026/10/27",
+      "firstSeenAt": "2026-10-28T06:56:19+09:00",
+      "verifiedAt": "2026-10-28T07:34:00+09:00",
+      "source": {
+        "label": "Australian Department of Home Affairs",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "OpenAI・Anthropic・Google・GitHubの公式発表を確認。Sol障害とOracle連携を絶対評価で参考掲載",
+      "checkedAt": "2026-10-28T07:34:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 2
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式Help・Release Notes・Developers・Status・GitHub ReleasesとX経路を確認。Day 22は前日掲載済みTerraと同一イベントで、新規リセットなし",
+      "checkedAt": "2026-10-28T07:34:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV・日産",
+      "status": "clear",
+      "summary": "6 funnelの通常24検索と固定公式巡回を完了。raw候補12件を本文・公開日・重複で判定し、当日掲載窓の新規採用なし",
+      "checkedAt": "2026-10-28T07:34:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "update",
+      "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。豪州の雇用主指名系公式ページ更新を参考掲載",
+      "checkedAt": "2026-10-28T07:34:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    }
+  ]
+}
