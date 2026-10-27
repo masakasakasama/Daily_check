@@ -1,8 +1,112 @@
 {
   "version": 5,
-  "currentDate": "2026-10-27",
-  "updatedAt": "2026-10-27T07:42:00+09:00",
+  "currentDate": "2026-10-28",
+  "updatedAt": "2026-10-28T07:34:00+09:00",
   "days": [
+    {
+      "date": "2026-10-28",
+      "alerts": [],
+      "references": [
+        {
+          "id": "openai-sol-degraded-api-20261028",
+          "eventKey": "openai-gpt-6-1-sol-api-degraded-2026-10-27",
+          "category": "AI",
+          "score": 67,
+          "scoreBreakdown": {
+            "userImpact": 24,
+            "novelty": 11,
+            "technicalImportance": 13,
+            "specificityAvailability": 14,
+            "industryImpact": 5
+          },
+          "title": "GPT-6.1 SolのAPI性能低下、OpenAIが復旧を確認",
+          "summary": "OpenAI StatusはGPT-6.1 SolについてChat Completions、Responses、Batchの性能低下を報告。緩和策の適用後に全サービスの正常化を確認した。継続障害ではないため参考掲載",
+          "publishedAt": "2026/10/28",
+          "sourcePublishedAt": "2026-10-27T16:02:00-07:00",
+          "firstSeenAt": "2026-10-28T06:56:19+09:00",
+          "verifiedAt": "2026-10-28T07:34:00+09:00",
+          "source": {
+            "label": "OpenAI Status",
+            "url": "https://status.openai.com/incidents/01M5YY4A3TQETEQ53DVSK8SW10"
+          }
+        },
+        {
+          "id": "openai-oracle-apps-chatgpt-20261028",
+          "eventKey": "openai-oracle-apps-chatgpt-codex-marketplace-2026-10-27",
+          "category": "AI",
+          "score": 72,
+          "scoreBreakdown": {
+            "userImpact": 24,
+            "novelty": 16,
+            "technicalImportance": 14,
+            "specificityAvailability": 12,
+            "industryImpact": 6
+          },
+          "title": "OracleアプリをChatGPTへ統合、Codex付き中小企業向けバンドルも発表",
+          "summary": "OpenAIとOracleが、Oracle AI Workspaceによる業務データ・ワークフローのChatGPT統合を発表。ChatGPT BusinessとCodex、Oracleアプリ、OCIクレジットを組み合わせるSMB Bundleや、Oracle MarketplaceでのCodex購入も案内した。主に法人向けのため参考掲載",
+          "publishedAt": "2026/10/27",
+          "firstSeenAt": "2026-10-28T06:56:19+09:00",
+          "verifiedAt": "2026-10-28T07:34:00+09:00",
+          "source": {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
+          }
+        },
+        {
+          "id": "australia-employer-sponsored-pages-update-20261028",
+          "eventKey": "australia-ens-186-494-official-pages-update-2026-10-27",
+          "category": "Residency",
+          "score": 58,
+          "title": "豪州、雇用主指名・地域雇用主保証ビザの公式案内を更新",
+          "summary": "豪州内務省が永住のEmployer Nomination Scheme（subclass 186）と、3年後に永住申請へ進めるSkilled Employer Sponsored Regional（subclass 494）の公式案内を10月27日付で更新。186の表示申請費はAUD 6,140から。要件変更の差分は公式本文で特定できないため参考掲載",
+          "publishedAt": "2026/10/27",
+          "firstSeenAt": "2026-10-28T06:56:19+09:00",
+          "verifiedAt": "2026-10-28T07:34:00+09:00",
+          "source": {
+            "label": "Australian Department of Home Affairs",
+            "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "OpenAI・Anthropic・Google・GitHubの公式発表を確認。Sol障害とOracle連携を絶対評価で参考掲載",
+          "checkedAt": "2026-10-28T07:34:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 2
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "clear",
+          "summary": "公式Help・Release Notes・Developers・Status・GitHub ReleasesとX経路を確認。Day 22は前日掲載済みTerraと同一イベントで、新規リセットなし",
+          "checkedAt": "2026-10-28T07:34:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV・日産",
+          "status": "clear",
+          "summary": "6 funnelの通常24検索と固定公式巡回を完了。raw候補12件を本文・公開日・重複で判定し、当日掲載窓の新規採用なし",
+          "checkedAt": "2026-10-28T07:34:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "update",
+          "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。豪州の雇用主指名系公式ページ更新を参考掲載",
+          "checkedAt": "2026-10-28T07:34:00+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "alerts": [
@@ -702,221 +806,37 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-10-21",
-      "alerts": [
-        {
-          "id": "codex-day15-global-reset-20261021",
-          "eventKey": "codex-day15-global-usage-reset-2026-10-20",
-          "category": "Codex",
-          "score": 94,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 18,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 8
-          },
-          "title": "Codex、5時間・週次の利用枠を全員リセット",
-          "summary": "OpenAIのCodex責任者Tibo Sottiaux氏が「Day 15」の更新としてフルリセットを実施。対象ユーザーはCodex／ChatGPT Workの利用可能枠が即時回復するため、Settings → Usageで残量と次回リセット日を確認できる",
-          "publishedAt": "2026/10/20",
-          "sourcePublishedAt": "2026-10-20T06:33:00Z",
-          "firstSeenAt": "2026-10-21T07:00:39+09:00",
-          "verifiedAt": "2026-10-21T07:18:00+09:00",
-          "source": {
-            "label": "Tibo Sottiaux (OpenAI/Codex)",
-            "url": "https://x.com/thsottiaux/status/2112432076767289678"
-          }
-        },
-        {
-          "id": "codex-limit-plan-mismatch-credits-20261021",
-          "eventKey": "codex-usage-plan-mismatch-40000-accounts-credits-2026-10-20",
-          "category": "Codex",
-          "score": 92,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 19,
-            "technicalImportance": 17,
-            "specificityAvailability": 14,
-            "industryImpact": 7
-          },
-          "title": "Codex利用枠の誤適用を修正　約4万アカウントへクレジット",
-          "summary": "実際の契約プランと異なる利用枠が適用され、想定より速く残量が減る不整合をOpenAIが修正。対象約4万アカウントへ個別連絡し、影響を受けた利用者にはクレジットを付与すると説明した",
-          "publishedAt": "2026/10/21",
-          "sourcePublishedAt": "2026-10-20T17:10:00Z",
-          "firstSeenAt": "2026-10-21T07:00:39+09:00",
-          "verifiedAt": "2026-10-21T07:18:00+09:00",
-          "source": {
-            "label": "Tibo Sottiaux (OpenAI/Codex)",
-            "url": "https://x.com/thsottiaux/status/2112592264686149749"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "codex-banked-reset-help-update-20261021",
-          "eventKey": "openai-banked-codex-reset-support-clarification-2026-10-21",
-          "category": "Codex",
-          "score": 69,
-          "scoreBreakdown": {
-            "userImpact": 27,
-            "novelty": 12,
-            "technicalImportance": 11,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "OpenAI、Codexの保存済みリセットと補償条件を明確化",
-          "summary": "保存済みフルリセットは5時間枠と週次枠を更新し、週次リセット日も変更する。適用失敗時は対象枠が更新されない限り消費されず、サポートは任意の手動・お詫びリセットを行わないと案内",
-          "publishedAt": "2026/10/21",
-          "updatedAt": "2026-10-21",
-          "firstSeenAt": "2026-10-21T07:00:39+09:00",
-          "verifiedAt": "2026-10-21T07:18:00+09:00",
-          "source": {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
-          }
-        },
-        {
-          "id": "sdv-lg-flexible-ee-architecture-20261021",
-          "eventKey": "lg-flexible-scalable-ee-architecture-sdv-whitepaper-2026-10-20",
-          "category": "SDV",
-          "score": 62,
-          "scoreBreakdown": {
-            "sdvDirectness": 23,
-            "practicalImpact": 13,
-            "scale": 10,
-            "specificity": 11,
-            "novelty": 5
-          },
-          "title": "LG、SDV向け中央・ゾーン型E/Eアーキテクチャ白書を公開",
-          "summary": "モジュール型HPC、カーネルレベル仮想化、RTOSとRich OSのハイパーバイザー分離、状態管理による計算資源再配分を整理。中央集約とゾーン構成を車種ごとに拡張する設計指針を示した",
-          "publishedAt": "2026/10/20",
-          "sourcePublishedAt": "2026-10-20",
-          "firstSeenAt": "2026-10-21T07:00:39+09:00",
-          "verifiedAt": "2026-10-21T07:18:00+09:00",
-          "source": {
-            "label": "LG Vehicle Solution",
-            "url": "https://www.lg.com/global/business/insights/mobility/white-paper/20261020-ee-architecture-for-sdvs/"
-          },
-          "thumbnail": "https://www.lg.com/content/dam/channelbtb/lgcom/global/vs/common/2026/resources-and-guides/insights/white-paper/20261020-ee-architecture-for-sdvs/vs-common-2026-thumbnail-banner-whitepaper-ee-architecture-for-sdvs-thumbnail.png"
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "clear",
-          "summary": "OpenAI・Anthropic・Google・Metaの公式発表と主要報道を確認し、前回成功後にユーザーの利用方法を変える独立した新規提供変更なし",
-          "checkedAt": "2026-10-21T07:18:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "公式Help・StatusとX経路を照合。全枠リセット、約4万アカウントの利用枠誤適用修正とクレジット付与、保存済みリセット条件の更新を確認",
-          "checkedAt": "2026-10-21T07:18:00+09:00",
-          "alertCount": 2,
-          "referenceCount": 1
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV・日産",
-          "status": "update",
-          "summary": "6 funnelを完了。LGの中央・ゾーン型E/Eアーキテクチャ白書を参考掲載し、既存記事の再配信や過去イベントは監査のみへ分離",
-          "checkedAt": "2026-10-21T07:18:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 1
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後の永住条件の実質変更なし",
-          "checkedAt": "2026-10-21T07:18:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-10-21",
-      "end": "2026-10-27",
-      "generatedAt": "2026-10-27T07:42:00+09:00",
+      "start": "2026-10-22",
+      "end": "2026-10-28",
+      "generatedAt": "2026-10-28T07:34:00+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 13,
-        "reference": 10
+        "important": 11,
+        "reference": 11
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要1件・参考4件"
+          "summary": "重要1件・参考6件"
         },
         {
           "name": "Codex",
-          "summary": "重要7件・参考2件"
+          "summary": "重要5件・参考1件"
         },
         {
           "name": "SDV",
-          "summary": "重要5件・参考3件"
+          "summary": "重要5件・参考2件"
         },
         {
           "name": "Permanent Residency",
-          "summary": "重要0件・参考1件"
+          "summary": "重要0件・参考2件"
         }
       ],
       "highlights": [
-        {
-          "id": "codex-day15-global-reset-20261021",
-          "eventKey": "codex-day15-global-usage-reset-2026-10-20",
-          "category": "Codex",
-          "score": 94,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 18,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 8
-          },
-          "title": "Codex、5時間・週次の利用枠を全員リセット",
-          "summary": "OpenAIのCodex責任者Tibo Sottiaux氏が「Day 15」の更新としてフルリセットを実施。対象ユーザーはCodex／ChatGPT Workの利用可能枠が即時回復するため、Settings → Usageで残量と次回リセット日を確認できる",
-          "publishedAt": "2026/10/20",
-          "sourcePublishedAt": "2026-10-20T06:33:00Z",
-          "firstSeenAt": "2026-10-21T07:00:39+09:00",
-          "verifiedAt": "2026-10-21T07:18:00+09:00",
-          "source": {
-            "label": "Tibo Sottiaux (OpenAI/Codex)",
-            "url": "https://x.com/thsottiaux/status/2112432076767289678"
-          }
-        },
-        {
-          "id": "codex-limit-plan-mismatch-credits-20261021",
-          "eventKey": "codex-usage-plan-mismatch-40000-accounts-credits-2026-10-20",
-          "category": "Codex",
-          "score": 92,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 19,
-            "technicalImportance": 17,
-            "specificityAvailability": 14,
-            "industryImpact": 7
-          },
-          "title": "Codex利用枠の誤適用を修正　約4万アカウントへクレジット",
-          "summary": "実際の契約プランと異なる利用枠が適用され、想定より速く残量が減る不整合をOpenAIが修正。対象約4万アカウントへ個別連絡し、影響を受けた利用者にはクレジットを付与すると説明した",
-          "publishedAt": "2026/10/21",
-          "sourcePublishedAt": "2026-10-20T17:10:00Z",
-          "firstSeenAt": "2026-10-21T07:00:39+09:00",
-          "verifiedAt": "2026-10-21T07:18:00+09:00",
-          "source": {
-            "label": "Tibo Sottiaux (OpenAI/Codex)",
-            "url": "https://x.com/thsottiaux/status/2112592264686149749"
-          }
-        },
         {
           "id": "sdv-gm-central-compute-platform-20261022",
           "eventKey": "gm-central-compute-sdv-platform-2028-rollout-2026-10-21",
@@ -1175,53 +1095,6 @@
       ],
       "references": [
         {
-          "id": "codex-banked-reset-help-update-20261021",
-          "eventKey": "openai-banked-codex-reset-support-clarification-2026-10-21",
-          "category": "Codex",
-          "score": 69,
-          "scoreBreakdown": {
-            "userImpact": 27,
-            "novelty": 12,
-            "technicalImportance": 11,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "OpenAI、Codexの保存済みリセットと補償条件を明確化",
-          "summary": "保存済みフルリセットは5時間枠と週次枠を更新し、週次リセット日も変更する。適用失敗時は対象枠が更新されない限り消費されず、サポートは任意の手動・お詫びリセットを行わないと案内",
-          "publishedAt": "2026/10/21",
-          "updatedAt": "2026-10-21",
-          "firstSeenAt": "2026-10-21T07:00:39+09:00",
-          "verifiedAt": "2026-10-21T07:18:00+09:00",
-          "source": {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001498-how-banked-codex-resets-work"
-          }
-        },
-        {
-          "id": "sdv-lg-flexible-ee-architecture-20261021",
-          "eventKey": "lg-flexible-scalable-ee-architecture-sdv-whitepaper-2026-10-20",
-          "category": "SDV",
-          "score": 62,
-          "scoreBreakdown": {
-            "sdvDirectness": 23,
-            "practicalImpact": 13,
-            "scale": 10,
-            "specificity": 11,
-            "novelty": 5
-          },
-          "title": "LG、SDV向け中央・ゾーン型E/Eアーキテクチャ白書を公開",
-          "summary": "モジュール型HPC、カーネルレベル仮想化、RTOSとRich OSのハイパーバイザー分離、状態管理による計算資源再配分を整理。中央集約とゾーン構成を車種ごとに拡張する設計指針を示した",
-          "publishedAt": "2026/10/20",
-          "sourcePublishedAt": "2026-10-20",
-          "firstSeenAt": "2026-10-21T07:00:39+09:00",
-          "verifiedAt": "2026-10-21T07:18:00+09:00",
-          "source": {
-            "label": "LG Vehicle Solution",
-            "url": "https://www.lg.com/global/business/insights/mobility/white-paper/20261020-ee-architecture-for-sdvs/"
-          },
-          "thumbnail": "https://www.lg.com/content/dam/channelbtb/lgcom/global/vs/common/2026/resources-and-guides/insights/white-paper/20261020-ee-architecture-for-sdvs/vs-common-2026-thumbnail-banner-whitepaper-ee-architecture-for-sdvs-thumbnail.png"
-        },
-        {
           "id": "codex-cross-service-degradation-resolved-20261022",
           "eventKey": "openai-chatgpt-codex-api-degraded-performance-2026-10-20",
           "category": "Codex",
@@ -1397,6 +1270,66 @@
           "source": {
             "label": "USCIS",
             "url": "https://www.uscis.gov/newsroom/alerts/litigation-related-update-sileiri-doe-class-members-may-request-reopening-or-reconsideration-of-an"
+          }
+        },
+        {
+          "id": "openai-sol-degraded-api-20261028",
+          "eventKey": "openai-gpt-6-1-sol-api-degraded-2026-10-27",
+          "category": "AI",
+          "score": 67,
+          "scoreBreakdown": {
+            "userImpact": 24,
+            "novelty": 11,
+            "technicalImportance": 13,
+            "specificityAvailability": 14,
+            "industryImpact": 5
+          },
+          "title": "GPT-6.1 SolのAPI性能低下、OpenAIが復旧を確認",
+          "summary": "OpenAI StatusはGPT-6.1 SolについてChat Completions、Responses、Batchの性能低下を報告。緩和策の適用後に全サービスの正常化を確認した。継続障害ではないため参考掲載",
+          "publishedAt": "2026/10/28",
+          "sourcePublishedAt": "2026-10-27T16:02:00-07:00",
+          "firstSeenAt": "2026-10-28T06:56:19+09:00",
+          "verifiedAt": "2026-10-28T07:34:00+09:00",
+          "source": {
+            "label": "OpenAI Status",
+            "url": "https://status.openai.com/incidents/01M5YY4A3TQETEQ53DVSK8SW10"
+          }
+        },
+        {
+          "id": "openai-oracle-apps-chatgpt-20261028",
+          "eventKey": "openai-oracle-apps-chatgpt-codex-marketplace-2026-10-27",
+          "category": "AI",
+          "score": 72,
+          "scoreBreakdown": {
+            "userImpact": 24,
+            "novelty": 16,
+            "technicalImportance": 14,
+            "specificityAvailability": 12,
+            "industryImpact": 6
+          },
+          "title": "OracleアプリをChatGPTへ統合、Codex付き中小企業向けバンドルも発表",
+          "summary": "OpenAIとOracleが、Oracle AI Workspaceによる業務データ・ワークフローのChatGPT統合を発表。ChatGPT BusinessとCodex、Oracleアプリ、OCIクレジットを組み合わせるSMB Bundleや、Oracle MarketplaceでのCodex購入も案内した。主に法人向けのため参考掲載",
+          "publishedAt": "2026/10/27",
+          "firstSeenAt": "2026-10-28T06:56:19+09:00",
+          "verifiedAt": "2026-10-28T07:34:00+09:00",
+          "source": {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
+          }
+        },
+        {
+          "id": "australia-employer-sponsored-pages-update-20261028",
+          "eventKey": "australia-ens-186-494-official-pages-update-2026-10-27",
+          "category": "Residency",
+          "score": 58,
+          "title": "豪州、雇用主指名・地域雇用主保証ビザの公式案内を更新",
+          "summary": "豪州内務省が永住のEmployer Nomination Scheme（subclass 186）と、3年後に永住申請へ進めるSkilled Employer Sponsored Regional（subclass 494）の公式案内を10月27日付で更新。186の表示申請費はAUD 6,140から。要件変更の差分は公式本文で特定できないため参考掲載",
+          "publishedAt": "2026/10/27",
+          "firstSeenAt": "2026-10-28T06:56:19+09:00",
+          "verifiedAt": "2026-10-28T07:34:00+09:00",
+          "source": {
+            "label": "Australian Department of Home Affairs",
+            "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186"
           }
         }
       ]
