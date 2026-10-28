@@ -74,7 +74,7 @@
     .signal-hero.pending .signal-dot{background:var(--amber);box-shadow:0 0 0 5px rgba(224,170,89,.08)}
     .overview-title{margin:14px 0 0;font-size:26px;line-height:1.16;font-weight:820;letter-spacing:-.045em;max-width:520px}
     .overview-sub{margin:8px 0 0;color:var(--sub);font-size:12px;line-height:1.55;max-width:560px}
-    .signal-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:18px}
+    .signal-metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:18px}
     .signal-metric{padding:11px 12px;border:1px solid var(--line);border-radius:14px;background:rgba(6,7,10,.48)}
     .signal-metric span{display:block;color:var(--muted);font-size:9px;font-weight:760;letter-spacing:.08em}
     .signal-metric strong{display:block;margin-top:5px;font-size:20px;line-height:1;font-weight:820;font-variant-numeric:tabular-nums}
@@ -201,7 +201,6 @@
         <div class="signal-metrics">
           <div class="signal-metric important"><span>IMPORTANT</span><strong id="metricImportant">—</strong></div>
           <div class="signal-metric"><span>REFERENCE</span><strong id="metricReference">—</strong></div>
-          <div class="signal-metric health"><span>MONITORS</span><strong id="metricHealth">—</strong></div>
         </div>
       </section>
 
@@ -357,7 +356,7 @@
           return {
             id:String(c?.id||''),name:String(c?.name||'監視'),
             status:ALLOWED_STATUS.has(status)?status:'error',
-            summary:(c?.timestampUnverified?'確認時刻を検証できません。':'')+String(c?.summary||''),checkedAt:c?.timestampUnverified?'':String(c?.checkedAt||''),
+            summary:String(c?.summary||''),checkedAt:c?.timestampUnverified?'':String(c?.checkedAt||''),
             alertCount:Number(c?.alertCount||0),referenceCount:Number(c?.referenceCount||0)
           };
         }):[];
@@ -512,14 +511,11 @@
     function createMonitorRow(item){
       const row=document.createElement('article');row.className='monitor-row '+item.status;
       const left=document.createElement('div');left.className='monitor-left';
-      const dot=document.createElement('span');dot.className='status-dot';
       const text=document.createElement('div');
       const name=document.createElement('div');name.className='monitor-name';name.textContent=item.name;
-      const summary=document.createElement('p');summary.className='monitor-summary-text';summary.textContent=item.summary;
-      text.append(name,summary);left.append(dot,text);
+      text.append(name);left.append(text);
       const count=document.createElement('span');count.className='monitor-count';
       const parts=[];if(item.alertCount)parts.push('重要 '+item.alertCount);if(item.referenceCount)parts.push('参考 '+item.referenceCount);
-      if(item.status==='error')parts.push('失敗');if(item.status==='pending')parts.push('未実行');
       count.textContent=parts.join(' · ')||'0';row.append(left,count);return row;
     }
     function renderDay(){
@@ -545,34 +541,14 @@
       const isNissan=item=>item.category.toLowerCase()==='nissan';
       const nissanAlerts=alerts.filter(isNissan),nissanRefs=refs.filter(isNissan);
       const otherAlerts=alerts.filter(x=>!isNissan(x)),otherRefs=refs.filter(x=>!isNissan(x));
-      const success=checks.filter(x=>x.status==='clear'||x.status==='update').length;
-      const errors=checks.filter(x=>x.status==='error'||x.status==='partial'||x.status==='failed').length;
-      const pending=checks.filter(x=>x.status==='pending').length;
-      const latest=checks.map(x=>x.checkedAt).filter(Boolean).sort().at(-1);
-
       setText('metricImportant',String(alerts.length));
       setText('metricReference',String(refs.length));
-      setText('metricHealth',checks.length?success+'/'+checks.length:'—');
 
       if(overview){
         overview.hidden=false;
-        overview.className='signal-hero '+(errors?'warn':pending?'pending':'ok');
-        if(checks.length===0){
-          setText('overviewTitle','監視データなし');
-          setText('overviewSub','保存済み記事のみ表示中'+(latest?' · '+fmtTime(latest)+'更新':''));
-        }else if(errors){
-          setText('overviewTitle','監視エラー '+errors+'件');
-          setText('overviewSub','重要 '+alerts.length+'件 · 参考 '+refs.length+'件 · 未実行 '+pending+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
-        }else if(pending){
-          setText('overviewTitle','確認が必要な監視あり');
-          setText('overviewSub','成功 '+success+'/'+checks.length+' · 重要 '+alerts.length+'件 · 参考 '+refs.length+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
-        }else if(alerts.length===0){
-          setText('overviewTitle','重要シグナルなし');
-          setText('overviewSub','監視 '+success+'/'+checks.length+' 正常 · 参考 '+refs.length+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
-        }else{
-          setText('overviewTitle','重要シグナル '+alerts.length+'件');
-          setText('overviewSub','監視 '+success+'/'+checks.length+' 正常 · 参考 '+refs.length+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
-        }
+        overview.className='signal-hero';
+        setText('overviewTitle',alerts.length?'重要シグナル '+alerts.length+'件':'重要シグナルなし');
+        setText('overviewSub','参考 '+refs.length+'件');
       }
 
       if(important)important.hidden=otherAlerts.length===0;
@@ -585,9 +561,7 @@
 
       setText('alertSectionCount',otherAlerts.length?otherAlerts.length+'件':'');
       setText('referenceSectionCount',otherRefs.length?otherRefs.length+'件':'');
-      if(checks.length===0)setText('monitorSummary','データなし');
-      else if(errors||pending)setText('monitorSummary','成功 '+success+'/'+checks.length);
-      else setText('monitorSummary',success+'/'+checks.length+' 正常');
+      setText('monitorSummary','');
 
       $('alertList')?.replaceChildren(...otherAlerts.map(x=>createFeedItem(x,'important')));
       $('referenceList')?.replaceChildren(...otherRefs.map(x=>createFeedItem(x,'reference')));

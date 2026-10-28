@@ -1,7 +1,7 @@
 import {readFile,readdir} from 'node:fs/promises';
 import vm from 'node:vm';
 const html = await readFile(new URL('../index.html',import.meta.url),'utf8');
-if (/recoveryNotice|欠けていた日の記事を再収集しました/.test(html)) {
+if (/recoveryNotice|欠けていた日の記事を再収集しました|確認が必要な監視あり|確認時刻を検証できません/.test(html)) {
   throw new Error('One-time recovery reports must stay out of the product UI');
 }
 const scripts = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)];
