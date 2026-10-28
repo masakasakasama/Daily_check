@@ -802,7 +802,7 @@
         "https://github.com/openai/codex/releases",
         "https://x.com/thsottiaux/status/2115330127886463244"
       ],
-      "result": "Day 23の全体リセット完了と有料即時リセットの新規公式案内を確認"
+      "result": "Day 23の全体リセット完了を確認。有料即時リセットは10月24日掲載済み"
     },
     "codexCommunity": {
       "status": "complete",
@@ -851,5 +851,16 @@
     "excludedCount": 8,
     "duplicateCount": 3,
     "lateAuditOnlyCount": 2
-  }
+  },
+  "corrections": [
+    {
+      "recordedAt": "2026-10-29T08:11:26+09:00",
+      "reason": "同じHelp Center記事を別のeventKeyで10月29日に再掲載していた",
+      "duplicateEventKey": "openai-paid-weekly-work-codex-instant-reset-2026-10-28",
+      "originalEventKey": "codex-paid-instant-weekly-reset-plus-pro-2026-10-23",
+      "evidencePath": "data/recovery/2026-10-29-duplicate-correction.json"
+    }
+  ],
+  "completionTimestampUnverified": true,
+  "followUpSearchEvidencePath": "data/recovery/2026-10-29-sdv-followup-search.json"
 }

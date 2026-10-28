@@ -1,9 +1,38 @@
 const key = article => article.eventKey || article.id;
 const articles = day => [...(day.alerts || []), ...(day.references || [])];
 const fail = message => { throw new Error(message); };
+
+// A changelog is a rolling list of independent releases, not a single article.
+const rollingSources = new Set([
+  'learn.chatgpt.com/docs/changelog',
+  'code.claude.com/docs/en/changelog',
+  'openai.com/products/release-notes',
+]);
+export function sourceIdentity(source) {
+  try {
+    const url = new URL(source?.url);
+    if (!['http:', 'https:'].includes(url.protocol)) return null;
+    const host = url.hostname.toLowerCase().replace(/^www\./, '');
+    let path = url.pathname.replace(/\/+$/, '') || '/';
+    // Help Center article slugs change; the numeric ID identifies the document.
+    const help = host === 'help.openai.com' && path.match(/^\/(?:[a-z]{2}(?:-[a-z]{2})?\/)?articles\/(\d+)/i);
+    if (help) return `${host}/articles/${help[1]}`;
+    const base = `${host}${path}`;
+    if (rollingSources.has(base)) return null;
+    for (const param of [...url.searchParams.keys()]) {
+      if (/^(utm_|ref$|source$|fbclid$|gclid$)/i.test(param)) url.searchParams.delete(param);
+    }
+    url.searchParams.sort();
+    return base + (url.searchParams.size ? `?${url.searchParams}` : '');
+  } catch { return null; }
+}
+
 export function validateDailyPublication(day, previousDays = []) {
-  const previous = new Set(previousDays.filter(d => d.date < day.date).flatMap(articles).map(key));
+  const earlier = previousDays.filter(d => d.date < day.date).flatMap(articles);
+  const previous = new Set(earlier.map(key));
+  const previousSources = new Map(earlier.map(a => [sourceIdentity(a.source), a]).filter(([url]) => url));
   const seen = new Set();
+  const seenSources = new Set();
   for (const article of articles(day)) {
     if (!key(article)) fail(`${day.date}: article identity missing`);
     if (article.discoveredLate === true) {
@@ -23,6 +52,17 @@ export function validateDailyPublication(day, previousDays = []) {
     if (previous.has(key(article))) fail(`${day.date}: previously published eventKey: ${key(article)}`);
     if (seen.has(key(article))) fail(`${day.date}: duplicate eventKey: ${key(article)}`);
     seen.add(key(article));
+    const identity = sourceIdentity(article.source);
+    if (identity && seenSources.has(identity)) fail(`${day.date}: duplicate article source: ${identity}`);
+    const earlierArticle = identity && previousSources.get(identity);
+    if (earlierArticle) {
+      const revision = article.sourceUpdate;
+      const meaningfulRevision = revision?.previousEventKey === key(earlierArticle)
+        && typeof revision.changeSummary === 'string' && revision.changeSummary.trim().length >= 20
+        && /^https:\/\//.test(revision.evidenceUrl || '') && Number.isFinite(Date.parse(revision.verifiedAt));
+      if (!meaningfulRevision) fail(`${day.date}: previously published article source: ${identity}`);
+    }
+    if (identity) seenSources.add(identity);
   }
 }
 export function validateWeeklyUnion(week, days) {

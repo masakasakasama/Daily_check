@@ -228,6 +228,15 @@
         <div id="emptyReferences" class="missing-state" hidden>新規の参考情報なし</div>
       </section>
 
+      <section id="nissanSection" class="section" hidden>
+        <div class="section-head">
+          <div><div class="section-kicker">NISSAN</div><h2>日産</h2></div>
+          <span id="nissanCount" class="section-count"></span>
+        </div>
+        <div id="nissanList" class="feed"></div>
+        <div id="emptyNissan" class="missing-state" hidden>新規の日産情報なし</div>
+      </section>
+
       <details id="monitorPanel" class="monitor">
         <summary><span>監視ソース</span><span id="monitorSummary" class="summary-value"></span></summary>
         <div id="monitorList" class="monitor-list"></div>
@@ -235,7 +244,7 @@
 
       <details class="criteria">
         <summary><span>判定基準</span></summary>
-        <div class="criteria-body">AIは75点以上を重要更新、75点未満でも有用な新規情報は参考。SDVは80〜100点=最重要（業界構造を変える戦略・基盤・大型提携・重大規制）、65〜79点=重要（量産採用、AAOS・Vehicle API・中央ECU・OTA・SoC等の重要変更）、50〜64点=参考・高（新API/SDK、開発基盤、Tier1製品、アーキテクチャ変更）、40〜49点=参考（SDVに直接関連する有用な新規技術・採用・更新）、39点以下=非掲載。古い発表の日付変更、名称変更のみ、既出・転載は点数にかかわらず除外。Codex、永住条件は既存の通知条件を維持。</div>
+        <div class="criteria-body">AIは75点以上を重要更新、75点未満でも有用な新規情報は参考。SDVは80〜100点=最重要（業界構造を変える戦略・基盤・大型提携・重大規制）、65〜79点=重要（量産採用、AAOS・Vehicle API・中央ECU・OTA・SoC等の重要変更）、50〜64点=参考・高（新API/SDK、開発基盤、Tier1製品、アーキテクチャ変更）、40〜49点=参考（SDVに直接関連する有用な新規技術・採用・更新）、39点以下=非掲載。日産はSDVに限らず、新車・技術・生産・経営などを対象にする。古い発表の日付変更、名称変更のみ、既出・転載は点数にかかわらず除外。Codex、永住条件は既存の通知条件を維持。</div>
       </details>
     </section>
 
@@ -248,6 +257,12 @@
       <section class="section">
         <div class="section-head"><h2>重要トピック</h2><span id="weekHighlightCount" class="section-count"></span></div>
         <div id="weekHighlights" class="feed"></div>
+      </section>
+
+      <section id="weekNissanSection" class="section" hidden>
+        <div class="section-head"><div><div class="section-kicker">NISSAN</div><h2>日産</h2></div><span id="weekNissanCount" class="section-count"></span></div>
+        <div id="weekNissanList" class="feed"></div>
+        <div id="emptyWeekNissan" class="missing-state" hidden>期間内の新規日産情報なし</div>
       </section>
 
       <details class="more">
@@ -338,11 +353,11 @@
       const days=raw.days.map(day=>{
         if(!day||!isValidDateString(String(day.date||'')))throw new Error('日付データが不正');
         const checks=Array.isArray(day.checks)?day.checks.map(c=>{
-          const status=String(c?.status||'pending');
+          const status=c?.timestampUnverified?'pending':String(c?.status||'pending');
           return {
             id:String(c?.id||''),name:String(c?.name||'監視'),
             status:ALLOWED_STATUS.has(status)?status:'error',
-            summary:String(c?.summary||''),checkedAt:String(c?.checkedAt||''),
+            summary:(c?.timestampUnverified?'確認時刻を検証できません。':'')+String(c?.summary||''),checkedAt:c?.timestampUnverified?'':String(c?.checkedAt||''),
             alertCount:Number(c?.alertCount||0),referenceCount:Number(c?.referenceCount||0)
           };
         }):[];
@@ -521,11 +536,15 @@
           $('latestRecordButton').hidden=state.date===latestRecordDate();
         }
         if(important)important.hidden=true;if(reference)reference.hidden=true;if(monitor)monitor.hidden=true;
+        $('nissanSection').hidden=true;
         return;
       }
 
       if(missing)missing.hidden=true;
       const alerts=day.alerts||[],refs=day.references||[],checks=day.checks||[];
+      const isNissan=item=>item.category.toLowerCase()==='nissan';
+      const nissanAlerts=alerts.filter(isNissan),nissanRefs=refs.filter(isNissan);
+      const otherAlerts=alerts.filter(x=>!isNissan(x)),otherRefs=refs.filter(x=>!isNissan(x));
       const success=checks.filter(x=>x.status==='clear'||x.status==='update').length;
       const errors=checks.filter(x=>x.status==='error'||x.status==='partial'||x.status==='failed').length;
       const pending=checks.filter(x=>x.status==='pending').length;
@@ -545,7 +564,7 @@
           setText('overviewTitle','監視エラー '+errors+'件');
           setText('overviewSub','重要 '+alerts.length+'件 · 参考 '+refs.length+'件 · 未実行 '+pending+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
         }else if(pending){
-          setText('overviewTitle','未実行の監視あり');
+          setText('overviewTitle','確認が必要な監視あり');
           setText('overviewSub','成功 '+success+'/'+checks.length+' · 重要 '+alerts.length+'件 · 参考 '+refs.length+'件'+(latest?' · '+fmtTime(latest)+'更新':''));
         }else if(alerts.length===0){
           setText('overviewTitle','重要シグナルなし');
@@ -556,26 +575,31 @@
         }
       }
 
-      if(important)important.hidden=alerts.length===0;
+      if(important)important.hidden=otherAlerts.length===0;
       if(reference)reference.hidden=false;
       if(monitor)monitor.hidden=false;
+      $('nissanSection').hidden=!nissanAlerts.length&&!nissanRefs.length&&!checks.some(c=>c.id==='nissan');
+      setText('nissanCount','重要 '+nissanAlerts.length+'件 · 参考 '+nissanRefs.length+'件');
+      $('nissanList').replaceChildren(...nissanAlerts.map(x=>createFeedItem(x,'important')),...nissanRefs.map(x=>createFeedItem(x,'reference')));
+      $('emptyNissan').hidden=nissanAlerts.length+nissanRefs.length>0;
 
-      setText('alertSectionCount',alerts.length?alerts.length+'件':'');
-      setText('referenceSectionCount',refs.length?refs.length+'件':'');
+      setText('alertSectionCount',otherAlerts.length?otherAlerts.length+'件':'');
+      setText('referenceSectionCount',otherRefs.length?otherRefs.length+'件':'');
       if(checks.length===0)setText('monitorSummary','データなし');
       else if(errors||pending)setText('monitorSummary','成功 '+success+'/'+checks.length);
       else setText('monitorSummary',success+'/'+checks.length+' 正常');
 
-      $('alertList')?.replaceChildren(...alerts.map(x=>createFeedItem(x,'important')));
-      $('referenceList')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference')));
+      $('alertList')?.replaceChildren(...otherAlerts.map(x=>createFeedItem(x,'important')));
+      $('referenceList')?.replaceChildren(...otherRefs.map(x=>createFeedItem(x,'reference')));
       $('monitorList')?.replaceChildren(...checks.map(createMonitorRow));
-      if($('emptyReferences'))$('emptyReferences').hidden=refs.length>0;
+      if($('emptyReferences'))$('emptyReferences').hidden=otherRefs.length>0;
     }
     function renderWeek(){
       const week=getWeek();
       if(!week){
         setText('weekPeriod','');setText('weekGenerated','');setText('weekHeadline','この日を含む保存済み7日サマリーはありません');
         $('weekCategories')?.replaceChildren();$('weekHighlights')?.replaceChildren();$('weekReferences')?.replaceChildren();
+        $('weekNissanSection').hidden=true;
         setText('weekHighlightCount','');setText('weekMoreSummary','0件');return;
       }
       setText('weekPeriod','保存済み7日サマリー · '+shortDate(week.start)+' – '+shortDate(week.end));
@@ -590,9 +614,16 @@
       $('weekCategories')?.replaceChildren(...rows);
       const scoreDesc=(a,b)=>{const av=Number(a?.score),bv=Number(b?.score);return (Number.isFinite(bv)?bv:-1)-(Number.isFinite(av)?av:-1)};
       const highlights=(week.highlights||[]).map(canonicalize).sort(scoreDesc),refs=(week.references||[]).map(canonicalize).sort(scoreDesc);
-      $('weekHighlights')?.replaceChildren(...highlights.map(x=>createFeedItem(x,'important')));
-      $('weekReferences')?.replaceChildren(...refs.map(x=>createFeedItem(x,'reference')));
-      setText('weekHighlightCount',highlights.length?highlights.length+'件':'');setText('weekMoreSummary',refs.length+'件');
+      const isNissan=item=>item.category.toLowerCase()==='nissan';
+      const nissanHighlights=highlights.filter(isNissan),nissanRefs=refs.filter(isNissan);
+      const otherHighlights=highlights.filter(x=>!isNissan(x)),otherRefs=refs.filter(x=>!isNissan(x));
+      $('weekNissanSection').hidden=!nissanHighlights.length&&!nissanRefs.length&&!week.categories.some(c=>String(c.name).toLowerCase()==='nissan');
+      setText('weekNissanCount','重要 '+nissanHighlights.length+'件 · 参考 '+nissanRefs.length+'件');
+      $('weekNissanList').replaceChildren(...nissanHighlights.map(x=>createFeedItem(x,'important')),...nissanRefs.map(x=>createFeedItem(x,'reference')));
+      $('emptyWeekNissan').hidden=nissanHighlights.length+nissanRefs.length>0;
+      $('weekHighlights')?.replaceChildren(...otherHighlights.map(x=>createFeedItem(x,'important')));
+      $('weekReferences')?.replaceChildren(...otherRefs.map(x=>createFeedItem(x,'reference')));
+      setText('weekHighlightCount',otherHighlights.length?otherHighlights.length+'件':'');setText('weekMoreSummary',otherRefs.length+'件');
     }
     function render(){
       setHeaderStatus();

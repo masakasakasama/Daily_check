@@ -1,0 +1,104 @@
+{
+  "purpose": "Follow-up search using the 24 SDV funnel and 12 Deep Scan query strings from the October 29 record. Results are grouped by four queries; the service returned combined results, so per-query hit counts cannot be reconstructed. This does not establish when the original run was performed.",
+  "batches": [
+    {
+      "startedAt": "2026-10-28T23:12:12.568Z",
+      "completedAt": "2026-10-28T23:12:13.480Z",
+      "queries": [
+        "October 28 2026 automaker software-defined vehicle vehicle OS E/E architecture",
+        "October 28 2026 Nissan Honda OTA central compute zonal controller vehicle software",
+        "site:global.nissannews.com OR site:global.honda/en/newsroom October 28 2026 connected vehicle software OTA",
+        "October 28 2026 OEM vehicle API SDK automotive middleware hypervisor"
+      ],
+      "returnedSources": []
+    },
+    {
+      "startedAt": "2026-10-28T23:12:12.569Z",
+      "completedAt": "2026-10-28T23:12:13.596Z",
+      "queries": [
+        "October 28 2026 AAOS AUTOSAR Adaptive SOAFEE Eclipse SDV COVESA release",
+        "October 28 2026 QNX Alloy Kore vehicle OS automotive hypervisor",
+        "site:covesa.global OR site:soafee.io OR site:eclipse.org/sdv October 2026 release automotive",
+        "October 28 2026 automotive platform ecosystem vehicle middleware connected car"
+      ],
+      "returnedSources": []
+    },
+    {
+      "startedAt": "2026-10-28T23:12:12.569Z",
+      "completedAt": "2026-10-28T23:12:13.899Z",
+      "queries": [
+        "October 28 2026 automotive semiconductor central compute HPC zonal controller SDV",
+        "October 28 2026 Bosch Continental Aptiv ZF Qualcomm NVIDIA NXP automotive software",
+        "October 28 2026 in-vehicle Ethernet automotive SoC middleware OTA Tier 1",
+        "site:nxp.com OR site:continental.com OR site:bosch-presse.de October 2026 software-defined vehicle"
+      ],
+      "returnedSources": []
+    },
+    {
+      "startedAt": "2026-10-28T23:12:12.569Z",
+      "completedAt": "2026-10-28T23:12:13.446Z",
+      "queries": [
+        "October 28 2026 automotive cloud development virtual ECU SIL HIL digital twin",
+        "October 28 2026 vehicle SDK automotive CI/CD software development platform",
+        "site:aws.amazon.com/blogs/automotive OR site:cloud.google.com/blog/topics/manufacturing October 2026 virtual vehicle SDV",
+        "October 28 2026 AAOS cloud virtual vehicle software-defined vehicle development"
+      ],
+      "returnedSources": []
+    },
+    {
+      "startedAt": "2026-10-28T23:12:12.569Z",
+      "completedAt": "2026-10-28T23:12:13.517Z",
+      "queries": [
+        "October 28 2026 UNECE R155 R156 ISO 21434 ISO 24089 automotive cybersecurity",
+        "October 28 2026 vehicle software update regulation cybersecurity connected vehicle",
+        "site:unece.org OR site:enisa.europa.eu October 2026 automotive cybersecurity vehicle regulation",
+        "October 28 2026 automotive security OTA SOTA regulation SDV"
+      ],
+      "returnedSources": []
+    },
+    {
+      "startedAt": "2026-10-28T23:12:12.569Z",
+      "completedAt": "2026-10-28T23:12:13.918Z",
+      "queries": [
+        "October 28 2026 software-defined vehicle announcement",
+        "October 28 2026 SDV automotive software central compute OTA",
+        "October 28 2026 connected vehicle cockpit software in-vehicle Ethernet",
+        "October 28 2026 Nissan Honda SDV development platform automotive"
+      ],
+      "returnedSources": []
+    },
+    {
+      "startedAt": "2026-10-28T23:12:12.569Z",
+      "completedAt": "2026-10-28T23:12:13.517Z",
+      "queries": [
+        "site:press.bmwgroup.com OR site:media.mercedes-benz.com OR site:media.stellantis.com October 28 2026 software vehicle",
+        "site:global.toyota/en/newsroom OR site:news.gm.com October 28 2026 central compute OTA",
+        "site:media.volvocars.com OR site:volkswagen-group.com October 28 2026 vehicle software",
+        "site:newsroom.porsche.com OR site:audi-mediacenter.com October 28 2026 software-defined"
+      ],
+      "returnedSources": []
+    },
+    {
+      "startedAt": "2026-10-28T23:12:12.569Z",
+      "completedAt": "2026-10-28T23:12:13.725Z",
+      "queries": [
+        "site:valeo.com OR site:continental.com OR site:aptiv.com October 28 2026 automotive software",
+        "site:qnx.com OR site:vector.com OR site:redhat.com October 28 2026 vehicle OS",
+        "site:qualcomm.com OR site:nvidia.com October 28 2026 automotive platform",
+        "site:infineon.com OR site:renesas.com OR site:nxp.com October 28 2026 automotive"
+      ],
+      "returnedSources": []
+    },
+    {
+      "startedAt": "2026-10-28T23:12:12.569Z",
+      "completedAt": "2026-10-28T23:12:13.426Z",
+      "queries": [
+        "site:aws.amazon.com/blogs/automotive OR site:cloud.google.com/blog October 28 2026 vehicle",
+        "site:unece.org/transport 28 October 2026 vehicle software cybersecurity",
+        "site:autonews.com OR site:reuters.com/business/autos-transportation October 28 2026 vehicle software architecture",
+        "October 28 2026 software-defined vehicles automotive"
+      ],
+      "returnedSources": []
+    }
+  ]
+}

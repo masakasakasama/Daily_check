@@ -20,3 +20,16 @@ test('weekly data must equal both daily buckets and their unique counts',()=>{
   assert.throws(()=>validateWeeklyUnion(week,days.slice(1)),/exactly one day/);
   assert.throws(()=>validateWeeklyUnion({...week,start:'2026-09-30'},days),/D-6/);
 });
+test('article sources prevent recycled reports even when IDs, slugs and tracking parameters differ',()=>{
+  const source=url=>({url});
+  const old=article('old',{source:source('https://help.openai.com/en/articles/20001507-original-title')});
+  const repeated=article('different-key',{source:source('https://help.openai.com/en/articles/20001507-new-title?utm_source=feed')});
+  assert.throws(()=>validateDailyPublication(day('2026-10-07',[repeated]),[day('2026-10-01',[old])]),/previously published article source/);
+  assert.throws(()=>validateDailyPublication(day('2026-10-07',[old,repeated])),/duplicate article source/);
+  const changed={...repeated,sourceUpdate:{previousEventKey:'old',changeSummary:'利用可能な対象プランの範囲について具体的な新変更を確認した',evidenceUrl:'https://example.com/evidence',verifiedAt:'2026-10-07T00:00:00Z'}};
+  assert.doesNotThrow(()=>validateDailyPublication(day('2026-10-07',[changed]),[day('2026-10-01',[old])]));
+  assert.throws(()=>validateDailyPublication(day('2026-10-07',[{...changed,sourceUpdate:{...changed.sourceUpdate,changeSummary:'更新'}}]),[day('2026-10-01',[old])]),/previously published article source/);
+  const changelog=article('release-1',{source:source('https://code.claude.com/docs/en/changelog')});
+  const next=article('release-2',{source:source('https://code.claude.com/docs/en/changelog')});
+  assert.doesNotThrow(()=>validateDailyPublication(day('2026-10-07',[next]),[day('2026-10-01',[changelog])]));
+});

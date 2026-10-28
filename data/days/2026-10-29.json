@@ -23,28 +23,6 @@
         "label": "Tibo Sottiaux (OpenAI) / X",
         "url": "https://x.com/thsottiaux/status/2115330127886463244"
       }
-    },
-    {
-      "id": "openai-paid-instant-codex-reset-20261029",
-      "eventKey": "openai-paid-weekly-work-codex-instant-reset-2026-10-28",
-      "category": "Codex",
-      "score": 91,
-      "scoreBreakdown": {
-        "userImpact": 35,
-        "novelty": 19,
-        "technicalImportance": 15,
-        "specificityAvailability": 15,
-        "industryImpact": 7
-      },
-      "title": "Codex、有料の週次即時リセットを公式案内",
-      "summary": "OpenAIが対象のPlus・Pro個人アカウント向けに、5時間枠と週次枠を即時回復する購入オプションを案内。購入後の最初のWork/Codexリクエストから新しい週次期間が始まり、次回自動リセットは7日後になる。Business・Enterprise・Edu等は対象外",
-      "publishedAt": "2026/10/28",
-      "firstSeenAt": "2026-10-29T07:02:52+09:00",
-      "verifiedAt": "2026-10-29T07:31:00+09:00",
-      "source": {
-        "label": "OpenAI Help Center",
-        "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets"
-      }
     }
   ],
   "references": [
@@ -84,6 +62,24 @@
         "label": "Immigration, Refugees and Citizenship Canada",
         "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds/invitations.html?q=453"
       }
+    },
+    {
+      "id": "nissan-sema-sentra-z-concepts-20261028",
+      "eventKey": "nissan-sema-sentra-z-concepts-2026-10-28",
+      "category": "Nissan",
+      "score": 61,
+      "title": "日産、SEMAでSentra Spec-VとZのコンセプトを発表",
+      "summary": "米SEMAにSentra Spec-V、Zの競技車、初代ZをベースにしたDatsun S30のコンセプトを出展。Sentraは2.0Lターボ・300馬力、6速MT。いずれも展示用で市販は発表されていない",
+      "publishedAt": "2026/10/28",
+      "sourcePublishedAt": "2026-10-28T12:00:00Z",
+      "firstSeenAt": "2026-10-29T08:11:26+09:00",
+      "verifiedAt": "2026-10-29T08:11:26+09:00",
+      "source": {
+        "label": "日産米国公式",
+        "url": "https://usa.nissannews.com/en-US/releases/nissan-taps-into-enthusiast-culture-with-sentra-spec-v-concept-revival-two-z-concepts-at-sema"
+      },
+      "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/890886a666efd4dabc50ac313f45da84a74df406/thumbnail-720x404.jpg",
+      "thumbnailAlt": "日産 Sentra Spec-V コンセプト"
     }
   ],
   "checks": [
@@ -94,25 +90,27 @@
       "summary": "OpenAI・Anthropic・Google・GitHubの公式発表を確認。一般利用を直接変える75点以上の新規AIイベントなし",
       "checkedAt": "2026-10-29T07:31:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "codex",
       "name": "Codex",
       "status": "update",
-      "summary": "公式Help・Release Notes・Developers・Status・GitHub ReleasesとX経路を確認。Day 23全体リセット完了と有料即時リセットを重要掲載",
-      "checkedAt": "2026-10-29T07:31:00+09:00",
-      "alertCount": 2,
+      "summary": "Day 23の利用枠リセット完了を確認",
+      "checkedAt": "2026-10-29T08:11:26+09:00",
+      "alertCount": 1,
       "referenceCount": 0
     },
     {
       "id": "sdv-nissan",
-      "name": "SDV・日産",
+      "name": "SDV",
       "status": "update",
       "summary": "6 funnelの通常24検索とDeep Scan 12検索を完了。raw候補14件を本文・公開日・重複で判定し、Mercedes-BenzのMB.OS展開を参考掲載",
       "checkedAt": "2026-10-29T07:31:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "residency",
@@ -120,6 +118,16 @@
       "status": "update",
       "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。カナダExpress Entry第453回を参考掲載",
       "checkedAt": "2026-10-29T07:31:00+09:00",
+      "alertCount": 0,
+      "referenceCount": 1,
+      "timestampUnverified": true
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "新車・技術・生産・経営をSDVに限定せず確認。SEMA出展を参考掲載",
+      "checkedAt": "2026-10-29T08:11:26+09:00",
       "alertCount": 0,
       "referenceCount": 1
     }

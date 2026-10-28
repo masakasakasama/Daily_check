@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-29",
+  "checkedAt": "2026-10-29T08:11:26+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en",
+    "https://usa.nissannews.com/en-US/channels/us-united-states-nissan",
+    "https://canada.nissannews.com/en-CA/channels/ca-news",
+    "https://usa.nissannews.com/en-US/releases/nissan-taps-into-enthusiast-culture-with-sentra-spec-v-concept-revival-two-z-concepts-at-sema"
+  ],
+  "searches": [
+    {
+      "query": "Nissan news October 28 2026 Nissan press release financial vehicle",
+      "recordedAt": "2026-10-29T08:11:26+09:00"
+    },
+    {
+      "query": "site:global.nissannews.com/en/releases \"October 28, 2026\"",
+      "recordedAt": "2026-10-29T08:11:26+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com/en-US/releases \"October 28, 2026\" Nissan",
+      "recordedAt": "2026-10-29T08:11:26+09:00"
+    },
+    {
+      "query": "日産 2026年 10月28日 日産ニュース 新車 工場 経営",
+      "recordedAt": "2026-10-29T08:11:26+09:00"
+    },
+    {
+      "query": "Nissan earnings plant production recall \"October 28, 2026\"",
+      "recordedAt": "2026-10-29T08:11:26+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-sema-sentra-z-concepts-2026-10-28",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/nissan-taps-into-enthusiast-culture-with-sentra-spec-v-concept-revival-two-z-concepts-at-sema",
+      "sourcePublishedAt": "2026-10-28T12:00:00Z",
+      "bodyVerified": true,
+      "decision": "adopted-reference",
+      "reason": "SDVに依存しない日産の新しい公式コンセプト発表。同じSEMA発表に付属する車両別build sheetは一つの出来事として統合。"
+    }
+  ]
+}

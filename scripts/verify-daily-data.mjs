@@ -43,6 +43,22 @@ for (const aliases of [["ai"], ["codex", "codex-reset"], ["sdv-nissan"], ["resid
   assert(Number.isFinite(Date.parse(check.checkedAt)), `${check.id} checkedAt is missing/invalid`);
 }
 
+// Nissan is an independent monitor beginning with the day it was requested.
+if (expectedDate >= '2026-10-29') {
+  const check = day.checks.find(item => item.id === 'nissan');
+  assert(check && ['clear', 'update'].includes(check.status), 'Nissan monitor missing or incomplete');
+  assert(Number.isFinite(Date.parse(check.checkedAt)), 'Nissan checkedAt is missing/invalid');
+  const nissanAudit = await readJson(`data/audits/${expectedDate}-nissan.json`);
+  assert(nissanAudit.date === expectedDate && nissanAudit.collectionComplete === true, 'Nissan collection is not complete');
+  assert(Array.isArray(nissanAudit.sourcesChecked) && nissanAudit.sourcesChecked.length > 0, 'Nissan sources evidence missing');
+  assert(Array.isArray(nissanAudit.searches) && nissanAudit.searches.length > 0, 'Nissan search evidence missing');
+  assert(check.alertCount === day.alerts.filter(item => item.category === 'Nissan').length, 'Nissan important count mismatch');
+  assert(check.referenceCount === day.references.filter(item => item.category === 'Nissan').length, 'Nissan reference count mismatch');
+}
+
+const timestamps = [manifest.updatedAt, audit.completedAt, ...day.checks.map(c => c.checkedAt), ...articles.flatMap(a => [a.firstSeenAt, a.verifiedAt])].filter(Boolean);
+assert(timestamps.every(value => Number.isFinite(Date.parse(value)) && Date.parse(value) <= Date.now() + 60_000), 'publication contains an invalid or future observation time');
+
 assert(audit.date === expectedDate, `audit contains ${audit.date}; expected ${expectedDate}`);
 assert(audit.collectionComplete === true, "SDV collection is not complete");
 assert(Array.isArray(audit.funnels) && audit.funnels.length === 6, `SDV audit has ${audit.funnels?.length ?? 0}/6 funnels`);
@@ -56,4 +72,6 @@ assert(week.end === expectedDate, `week file ends at ${week.end}; expected ${exp
 assert(state.pendingBatch === null, "pendingBatch is not clear");
 assert(String(state.lastSuccessfulAt || "").startsWith(expectedDate), `lastSuccessfulAt is ${state.lastSuccessfulAt}`);
 
-console.log(`Daily Check ${expectedDate}: OK (${day.alerts.length} important, ${day.references.length} reference, 6/6 SDV funnels)`);
+const uncertain = day.checks.filter(check => check.timestampUnverified);
+console.log(`Daily Check ${expectedDate}: structure OK (${day.alerts.length} important, ${day.references.length} reference, 6/6 SDV funnels)`);
+if (uncertain.length) console.warn(`Warning: ${uncertain.length} monitor timestamp(s) are unverified; structure validation cannot certify their collection`);

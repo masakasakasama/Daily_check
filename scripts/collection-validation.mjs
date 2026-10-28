@@ -17,7 +17,7 @@ function validateQuery(query) {
 }
 function publicationCount(day) {
   if (!day || !Array.isArray(day.alerts) || !Array.isArray(day.references)) fail('daily publication evidence missing');
-  return [...day.alerts, ...day.references].filter(item => item.category === 'SDV').length;
+  return [...day.alerts, ...day.references].filter(item => item.category === 'SDV' || (item.category === 'Nissan' && item.topics?.includes('SDV'))).length;
 }
 
 // This checks persisted evidence, not the truth of the original web retrieval.

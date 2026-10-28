@@ -1,0 +1,31 @@
+{
+  "recordedAt": "2026-10-29T08:11:26+09:00",
+  "previouslyPublishedDate": "2026-10-24",
+  "priorEventKey": "codex-paid-instant-weekly-reset-plus-pro-2026-10-23",
+  "removedDuplicate": {
+    "id": "openai-paid-instant-codex-reset-20261029",
+    "eventKey": "openai-paid-weekly-work-codex-instant-reset-2026-10-28",
+    "category": "Codex",
+    "score": 91,
+    "scoreBreakdown": {
+      "userImpact": 35,
+      "novelty": 19,
+      "technicalImportance": 15,
+      "specificityAvailability": 15,
+      "industryImpact": 7
+    },
+    "title": "Codex、有料の週次即時リセットを公式案内",
+    "summary": "OpenAIが対象のPlus・Pro個人アカウント向けに、5時間枠と週次枠を即時回復する購入オプションを案内。購入後の最初のWork/Codexリクエストから新しい週次期間が始まり、次回自動リセットは7日後になる。Business・Enterprise・Edu等は対象外",
+    "publishedAt": "2026/10/28",
+    "firstSeenAt": "2026-10-29T07:02:52+09:00",
+    "verifiedAt": "2026-10-29T07:31:00+09:00",
+    "source": {
+      "label": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets"
+    }
+  },
+  "originalAuditResult": "Day 23の全体リセット完了と有料即時リセットの新規公式案内を確認",
+  "reason": "同じ公式Help記事と同じ購入機能の再掲載。公開情報の実質的な新変更は確認できていない。Day 23の全体リセットは別イベントとして保持。",
+  "additionalEvidence": "https://community.openai.com/t/codex-usage-improvements-plan-stacking-purchase-resets/1386583/5",
+  "timingDiscrepancy": "10月29日分の元データには、保存コミットの時刻07:10 JSTより後の07:31 JSTが確認時刻として記録されている。元の実際の確認完了時刻は不明。"
+}
