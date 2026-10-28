@@ -74,4 +74,7 @@ assert(String(state.lastSuccessfulAt || "").startsWith(expectedDate), `lastSucce
 
 const uncertain = day.checks.filter(check => check.timestampUnverified);
 console.log(`Daily Check ${expectedDate}: structure OK (${day.alerts.length} important, ${day.references.length} reference, 6/6 SDV funnels)`);
-if (uncertain.length) console.warn(`Warning: ${uncertain.length} monitor timestamp(s) are unverified; structure validation cannot certify their collection`);
+if (uncertain.length) {
+  console.error(`Incomplete: ${uncertain.length} monitor timestamp(s) are unverified; structure validation cannot certify their collection`);
+  process.exitCode = 1;
+}

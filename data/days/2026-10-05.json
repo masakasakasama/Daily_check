@@ -55,7 +55,8 @@
       "summary": "重要0件・参考1件。Reflectionのopen-weightモデルは近日公開予定だが、未提供で利用条件も未確定のため参考採用",
       "checkedAt": "2026-10-05T07:24:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -64,7 +65,8 @@
       "summary": "6 funnel 24検索とDeep Scan 12検索を完走しraw候補12件を監査。Stellantis×Wayveの試作展開1件を参考採用",
       "checkedAt": "2026-10-05T07:24:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "codex-reset",
@@ -73,7 +75,8 @@
       "summary": "公式経路とX経路を確認。前回成功後に新しい一斉・banked・有料・補償リセット、枠仕様変更、複数報告の未確認リセットなし",
       "checkedAt": "2026-10-05T07:24:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "permanent-residency",
@@ -82,7 +85,8 @@
       "summary": "ニュージーランドParent Resident VisaのEOI選考が10月5日に90%先着・10%抽選方式へ移行。年間枠と資格要件は据え置き",
       "checkedAt": "2026-10-05T07:24:00+09:00",
       "alertCount": 1,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

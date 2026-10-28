@@ -76,7 +76,8 @@
       "summary": "重要1件。OpenAIのtextGrainはEUのChatGPT/Codex出力と世界のAPI選択肢を直接変更するため重要採用",
       "checkedAt": "2026-10-06T07:18:00+09:00",
       "alertCount": 1,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -85,7 +86,8 @@
       "summary": "6 funnel・各4経路を完走しraw候補12件を監査。Honda×Tata Technologiesを参考採用。Deep Scan条件なし",
       "checkedAt": "2026-10-06T07:18:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "codex-reset",
@@ -94,7 +96,8 @@
       "summary": "公式経路とX経路を確認。一斉・banked・有料・補償リセットや枠仕様変更の新規確定情報はなし。Work Mode/Codex Desktop障害1件を重要採用",
       "checkedAt": "2026-10-06T07:18:00+09:00",
       "alertCount": 1,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "permanent-residency",
@@ -103,7 +106,8 @@
       "summary": "カナダ、英国、豪州、ニュージーランド、日本、ドイツの公式情報を確認。前回成功以降、通知対象となる実質的な永住条件変更なし",
       "checkedAt": "2026-10-06T07:18:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

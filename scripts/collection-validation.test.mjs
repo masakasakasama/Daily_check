@@ -29,6 +29,13 @@ test('two zero-publication calendar days trigger scan and missing predecessor ca
   assert.throws(()=>check(f),/two consecutive/);assert.equal(check(addDeep(f)).deepScanRequired,true);
   f.previousDay.date='2026-10-01';assert.throws(()=>check(f),/previous calendar day/);
 });
+test('Nissan news counts as SDV only when explicitly tagged as SDV', () => {
+  const f=fixture();f.previousDay.references=[];
+  f.day.references=[{category:'Nissan'}];
+  assert.throws(()=>check(f),/two consecutive/);
+  f.day.references[0].topics=['SDV'];
+  assert.equal(check(f).deepScanRequired,false);
+});
 test('performed scans require twelve new distinct observed queries, not strings or copied queries', () => {
   for (const mutate of [f=>delete f.audit.deepScanQueries,f=>f.audit.deepScanQueries.pop(),f=>f.audit.deepScanQueries[1]=f.audit.deepScanQueries[0],f=>f.audit.deepScanQueries[0]=f.audit.funnels[0].queries[0],f=>delete f.audit.deepScanQueries[0].rawHitCount,f=>f.audit.deepScanQueries[0].rawHitCount=-1,f=>f.audit.deepScanQueries[0].retrievalStatus='pending',f=>f.audit.deepScanQueries[0]='only a query string',f=>f.audit.deepScanQueries[0].sourceUrl='file:///tmp/fake']) {
     const f=addDeep(fixture());mutate(f);assert.throws(()=>check(f));

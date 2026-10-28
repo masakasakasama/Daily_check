@@ -26,7 +26,8 @@
       "summary": "重要0件・参考1件。AntigravityのClaude 5.5追加は開発環境の選択肢を増やすが、利用対象が有料プラン限定で75点未満",
       "checkedAt": "2026-10-04T07:23:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -35,7 +36,8 @@
       "summary": "6 funnel 24検索とDeep Scan 12検索を完走しraw候補12件を監査。当日掲載基準を満たす新規イベントなし",
       "checkedAt": "2026-10-04T07:23:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "codex-reset",
@@ -44,7 +46,8 @@
       "summary": "当日の新規掲載なし",
       "checkedAt": "2026-10-04T07:23:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "permanent-residency",
@@ -53,7 +56,8 @@
       "summary": "カナダ、英国、豪州、ニュージーランドの公式情報を確認。前回成功以降、通知対象となる実質的な永住条件変更なし",
       "checkedAt": "2026-10-04T07:23:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

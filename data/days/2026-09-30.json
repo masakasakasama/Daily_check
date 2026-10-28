@@ -190,7 +190,8 @@
       "summary": "重要6件・参考2件。GPT‑6.1 Sol、Dots、Claude Sonnet 5.5、AMD買収、米AI自主監督原則、America.gov等を採用",
       "checkedAt": "2026-09-30T07:08:00+09:00",
       "alertCount": 6,
-      "referenceCount": 2
+      "referenceCount": 2,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -199,7 +200,8 @@
       "summary": "6系統を完走しraw候補12件を監査。QNX量産ADASを重要、Lucid UX 3.0とインドSDV分析を参考として採用",
       "checkedAt": "2026-09-30T07:08:00+09:00",
       "alertCount": 1,
-      "referenceCount": 2
+      "referenceCount": 2,
+      "timestampUnverified": true
     },
     {
       "id": "codex-reset",
@@ -208,7 +210,8 @@
       "summary": "Codexの大型機能更新1件を採用。5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報はなし",
       "checkedAt": "2026-09-30T07:08:00+09:00",
       "alertCount": 1,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "permanent-residency",
@@ -217,7 +220,8 @@
       "summary": "主要国の公式情報を確認。前回確認以降、通知対象となる実質的な永住条件変更なし",
       "checkedAt": "2026-09-30T07:08:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

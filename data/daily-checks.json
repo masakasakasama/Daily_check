@@ -1,7 +1,7 @@
 {
   "version": 5,
   "currentDate": "2026-10-29",
-  "updatedAt": "2026-10-29T08:11:26+09:00",
+  "updatedAt": "2026-10-29T08:17:50+09:00",
   "days": [
     {
       "date": "2026-10-29",
@@ -211,7 +211,8 @@
           "summary": "OpenAI・Anthropic・Google・GitHubの公式発表を確認。Sol障害とOracle連携を絶対評価で参考掲載",
           "checkedAt": "2026-10-28T07:34:00+09:00",
           "alertCount": 0,
-          "referenceCount": 2
+          "referenceCount": 2,
+          "timestampUnverified": true
         },
         {
           "id": "codex",
@@ -220,7 +221,8 @@
           "summary": "公式Help・Release Notes・Developers・Status・GitHub ReleasesとX経路を確認。Day 22は前日掲載済みTerraと同一イベントで、新規リセットなし",
           "checkedAt": "2026-10-28T07:34:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "sdv-nissan",
@@ -229,7 +231,8 @@
           "summary": "6 funnelの通常24検索と固定公式巡回を完了。raw候補12件を本文・公開日・重複で判定し、当日掲載窓の新規採用なし",
           "checkedAt": "2026-10-28T07:34:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "residency",
@@ -238,7 +241,8 @@
           "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。豪州の雇用主指名系公式ページ更新を参考掲載",
           "checkedAt": "2026-10-28T07:34:00+09:00",
           "alertCount": 0,
-          "referenceCount": 1
+          "referenceCount": 1,
+          "timestampUnverified": true
         }
       ]
     },
@@ -409,7 +413,8 @@
           "summary": "公式発表・SEC本文を確認。GPT-6.1 Terraを重要、AnthropicのIPO・安全開示を参考掲載",
           "checkedAt": "2026-10-27T07:42:00+09:00",
           "alertCount": 1,
-          "referenceCount": 1
+          "referenceCount": 1,
+          "timestampUnverified": true
         },
         {
           "id": "codex",
@@ -418,7 +423,8 @@
           "summary": "公式Help・Status・GitHub ReleasesとX経路を確認。Day 21の全体リセットを重要掲載",
           "checkedAt": "2026-10-27T07:42:00+09:00",
           "alertCount": 1,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "sdv-nissan",
@@ -427,7 +433,8 @@
           "summary": "6 funnelの通常24検索とDeep Scan 12検索を完了。raw候補20件を本文確認し、3件を重要掲載",
           "checkedAt": "2026-10-27T07:42:00+09:00",
           "alertCount": 3,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "residency",
@@ -436,7 +443,8 @@
           "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。一般条件変更はなく、米国の対象者限定救済を参考掲載",
           "checkedAt": "2026-10-27T07:42:00+09:00",
           "alertCount": 0,
-          "referenceCount": 1
+          "referenceCount": 1,
+          "timestampUnverified": true
         }
       ]
     },
@@ -476,7 +484,8 @@
           "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。前回成功後に実利用を変える独立した新規AI発表なし",
           "checkedAt": "2026-10-26T07:25:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "codex",
@@ -485,7 +494,8 @@
           "summary": "公式Help・Status・GitHub ReleasesとX経路を確認。Day 20の全体リセットと反映完了を重要掲載",
           "checkedAt": "2026-10-26T07:25:00+09:00",
           "alertCount": 1,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "sdv-nissan",
@@ -494,7 +504,8 @@
           "summary": "6 funnel・固定公式巡回・各4検索とDeep Scan 12検索を完了。raw候補16件を監査し、前回成功後の新規掲載対象なし",
           "checkedAt": "2026-10-26T07:25:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "residency",
@@ -503,7 +514,8 @@
           "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
           "checkedAt": "2026-10-26T07:25:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         }
       ]
     },
@@ -543,7 +555,8 @@
           "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。前回成功後に実利用を変える独立した新規AI発表なし",
           "checkedAt": "2026-10-25T07:28:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "codex",
@@ -552,7 +565,8 @@
           "summary": "公式Help・Developers・Status・GitHub ReleasesとX経路を確認。推論設定変更時のキャッシュ維持とCLI実利用改善を重要掲載。新規リセットは確認されず",
           "checkedAt": "2026-10-25T07:28:00+09:00",
           "alertCount": 1,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "sdv-nissan",
@@ -561,7 +575,8 @@
           "summary": "6 funnel・固定公式巡回・各4検索とDeep Scan 12検索を完了。raw候補16件は前回成功前の公開または既出で、当日掲載なし",
           "checkedAt": "2026-10-25T07:28:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "residency",
@@ -570,7 +585,8 @@
           "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
           "checkedAt": "2026-10-25T07:28:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         }
       ]
     },
@@ -610,7 +626,8 @@
           "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認し、前回成功後に実利用を変える独立した新規AI発表なし",
           "checkedAt": "2026-10-24T07:34:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "codex",
@@ -619,7 +636,8 @@
           "summary": "公式Help・Developers・StatusとX経路を確認。Plus／Pro対象の有料即時週次リセットを本文確認し重要掲載",
           "checkedAt": "2026-10-24T07:34:00+09:00",
           "alertCount": 1,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "sdv-nissan",
@@ -628,7 +646,8 @@
           "summary": "6 funnel・固定公式巡回・各4検索とDeep Scan 12検索を完了。raw候補16件を監査し、掲載窓より古い候補は当日掲載せず監査へ保持",
           "checkedAt": "2026-10-24T07:34:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "residency",
@@ -637,7 +656,8 @@
           "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
           "checkedAt": "2026-10-24T07:34:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         }
       ]
     },
@@ -748,7 +768,8 @@
           "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。地域障害の復旧とCopilot管理・計測機能2件を参考掲載",
           "checkedAt": "2026-10-23T07:28:00+09:00",
           "alertCount": 0,
-          "referenceCount": 3
+          "referenceCount": 3,
+          "timestampUnverified": true
         },
         {
           "id": "codex",
@@ -757,7 +778,8 @@
           "summary": "公式Help・Developers・StatusとX経路を照合。Tiboのreset day告知と複数ユーザーの利用枠回復報告を重要掲載",
           "checkedAt": "2026-10-23T07:28:00+09:00",
           "alertCount": 1,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "sdv-nissan",
@@ -766,7 +788,8 @@
           "summary": "6 funnel・固定公式巡回・各4検索を完了。raw候補14件を監査し、前回成功後の新規掲載基準を満たす独立イベントなし",
           "checkedAt": "2026-10-23T07:28:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         },
         {
           "id": "residency",
@@ -775,7 +798,8 @@
           "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
           "checkedAt": "2026-10-23T07:28:00+09:00",
           "alertCount": 0,
-          "referenceCount": 0
+          "referenceCount": 0,
+          "timestampUnverified": true
         }
       ]
     }

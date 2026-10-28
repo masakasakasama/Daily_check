@@ -1,30 +1,30 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T07:31:00+09:00",
-  "lastSuccessfulAt": "2026-10-29T07:31:00+09:00",
+  "updatedAt": "2026-10-29T08:17:50+09:00",
+  "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
   "funnels": {
     "OEM": {
-      "lastSuccessfulAt": "2026-10-29T07:31:00+09:00",
+      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
       "lastCount": 2
     },
     "Platform": {
-      "lastSuccessfulAt": "2026-10-29T07:31:00+09:00",
+      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
       "lastCount": 3
     },
     "Tier1Semi": {
-      "lastSuccessfulAt": "2026-10-29T07:31:00+09:00",
+      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
       "lastCount": 3
     },
     "CloudOS": {
-      "lastSuccessfulAt": "2026-10-29T07:31:00+09:00",
+      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
       "lastCount": 2
     },
     "RegSecurity": {
-      "lastSuccessfulAt": "2026-10-29T07:31:00+09:00",
+      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
       "lastCount": 2
     },
     "Cross": {
-      "lastSuccessfulAt": "2026-10-29T07:31:00+09:00",
+      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
       "lastCount": 2
     }
   },
@@ -130,5 +130,6 @@
   },
   "priorVerifiedDailyCommit": "d4d8fa392f587b497f1e0021673a13757d38382f",
   "lastVerifiedDailyCommit": "9118ba6f0a58182df679618fdc558e91cb23f409",
-  "lastVerification": "data/recovery/2026-10-10-verification.json"
+  "lastVerification": "data/recovery/2026-10-10-verification.json",
+  "coverageWatermarkNote": "Conservative end of last collection window; original completion timestamp was later than the saved commit."
 }

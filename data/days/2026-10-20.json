@@ -131,7 +131,8 @@
       "summary": "主要AI各社と信頼できる報道を確認。新規提供変更はなく、企業AIエージェントの安全性・監査上の論点を参考掲載",
       "checkedAt": "2026-10-20T07:12:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "codex",
@@ -140,7 +141,8 @@
       "summary": "公式経路とX・ユーザー報告を照合。Xで利用枠急減の複数報告を検出したが本文取得不能かつ公式未確認のため監査候補に留め、当日掲載対象の確定更新なし",
       "checkedAt": "2026-10-20T07:12:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -149,7 +151,8 @@
       "summary": "6 funnelと必須Deep Scanを完了。Subaruの統合ECU・OTA計画、Google Cloudのフル仮想車両を重要掲載し、ゾーン計算とオープン標準の資料を参考掲載",
       "checkedAt": "2026-10-20T07:12:00+09:00",
       "alertCount": 2,
-      "referenceCount": 2
+      "referenceCount": 2,
+      "timestampUnverified": true
     },
     {
       "id": "residency",
@@ -158,7 +161,8 @@
       "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後の永住条件の実質変更なし",
       "checkedAt": "2026-10-20T07:12:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

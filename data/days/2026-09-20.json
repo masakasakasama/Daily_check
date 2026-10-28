@@ -37,7 +37,8 @@
       "summary": "重要1件・参考1件",
       "checkedAt": "2026-09-20T07:08:00+09:00",
       "alertCount": 1,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -46,7 +47,8 @@
       "summary": "参考0件・6/6系統完了。0件のため固定公式巡回と別経路検索を再確認",
       "checkedAt": "2026-09-20T07:08:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "codex-reset",
@@ -55,7 +57,8 @@
       "summary": "OpenAI公式Help Centerを確認。前回通知後の新しい具体的リセット時刻・周期の確定情報なし",
       "checkedAt": "2026-09-20T07:08:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "permanent-residency",
@@ -64,7 +67,8 @@
       "summary": "主要国の永住条件に通知対象となる実質的制度変更なし",
       "checkedAt": "2026-09-20T07:08:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

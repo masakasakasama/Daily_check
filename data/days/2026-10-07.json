@@ -230,7 +230,8 @@
       "summary": "重要2件・参考3件。Decisions API公開βとAPI tier簡素化を重要採用。Mistral、Anthropic CVP、Ironclad研究は参考",
       "checkedAt": "2026-10-07T07:22:00+09:00",
       "alertCount": 2,
-      "referenceCount": 3
+      "referenceCount": 3,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -239,7 +240,8 @@
       "summary": "6 funnel 24検索を完走しraw候補12件を監査。Applied×Honda/Nissan、LG×Renault、ECARX/Flymeの4件を重要採用。Applied Intuitionを固定巡回へ追加",
       "checkedAt": "2026-10-07T07:22:00+09:00",
       "alertCount": 4,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "codex-reset",
@@ -248,7 +250,8 @@
       "summary": "公式経路とX経路を確認。新規リセットはなし。ChatGPTログイン時のAuto-review無料化を重要採用。10/3 JSTの一斉リセットは過去監査済み",
       "checkedAt": "2026-10-07T07:22:00+09:00",
       "alertCount": 1,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "permanent-residency",
@@ -257,7 +260,8 @@
       "summary": "カナダ、英国、豪州、ニュージーランド、日本、ドイツの公式情報を確認。前回成功以降、通知対象となる実質的変更なし",
       "checkedAt": "2026-10-07T07:22:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

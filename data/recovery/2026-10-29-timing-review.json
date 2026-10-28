@@ -1,0 +1,518 @@
+{
+  "recordedAt": "2026-10-29T08:17:50+09:00",
+  "method": "Compare the checkedAt in the original creation commit with that commit's own recorded committer timestamp. Flag a current check only when it still has the same original checkedAt more than 60 seconds after that commit. A later changed checkedAt is not inferred unreliable by this check. Commit timestamps alone do not prove whether searches were performed.",
+  "affectedDays": [
+    {
+      "date": "2026-09-20",
+      "originalCommit": "adbbf6a7a896c4402011e0562a8bd6263a76b5fe",
+      "originalCommitTime": "2026-09-20T07:02:30+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-09-20T07:08:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-09-20T07:08:00+09:00"
+        },
+        {
+          "id": "codex-reset",
+          "checkedAt": "2026-09-20T07:08:00+09:00"
+        },
+        {
+          "id": "permanent-residency",
+          "checkedAt": "2026-09-20T07:08:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "originalCommit": "033b87a1602a70cf52530effe34477172a2c5033",
+      "originalCommitTime": "2026-09-30T07:05:08+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-09-30T07:08:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-09-30T07:08:00+09:00"
+        },
+        {
+          "id": "codex-reset",
+          "checkedAt": "2026-09-30T07:08:00+09:00"
+        },
+        {
+          "id": "permanent-residency",
+          "checkedAt": "2026-09-30T07:08:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "originalCommit": "1cc925e39b196704b52d4dca8bd42653adbe1ee8",
+      "originalCommitTime": "2026-10-01T07:05:31+09:00",
+      "checks": [
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-01T07:14:00+09:00"
+        },
+        {
+          "id": "codex-reset",
+          "checkedAt": "2026-10-01T07:14:00+09:00"
+        },
+        {
+          "id": "permanent-residency",
+          "checkedAt": "2026-10-01T07:14:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "originalCommit": "61bdb25681c652426440d8bd6d192dc0ea7d0082",
+      "originalCommitTime": "2026-10-02T07:09:16+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-02T07:28:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-02T07:28:00+09:00"
+        },
+        {
+          "id": "codex-reset",
+          "checkedAt": "2026-10-02T07:28:00+09:00"
+        },
+        {
+          "id": "permanent-residency",
+          "checkedAt": "2026-10-02T07:28:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "originalCommit": "760dfbbeb3968a4ecedbd27e47560413888d9800",
+      "originalCommitTime": "2026-10-03T06:58:16+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-03T07:18:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-03T07:18:00+09:00"
+        },
+        {
+          "id": "codex-reset",
+          "checkedAt": "2026-10-03T07:18:00+09:00"
+        },
+        {
+          "id": "permanent-residency",
+          "checkedAt": "2026-10-03T07:18:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "originalCommit": "74b32244373610ed3caf29c28198e6ade38d2645",
+      "originalCommitTime": "2026-10-04T07:01:03+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-04T07:23:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-04T07:23:00+09:00"
+        },
+        {
+          "id": "codex-reset",
+          "checkedAt": "2026-10-04T07:23:00+09:00"
+        },
+        {
+          "id": "permanent-residency",
+          "checkedAt": "2026-10-04T07:23:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "originalCommit": "211ad640ba7fb0d2861c55ee65dfa74e3077371d",
+      "originalCommitTime": "2026-10-05T07:04:50+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-05T07:24:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-05T07:24:00+09:00"
+        },
+        {
+          "id": "codex-reset",
+          "checkedAt": "2026-10-05T07:24:00+09:00"
+        },
+        {
+          "id": "permanent-residency",
+          "checkedAt": "2026-10-05T07:24:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "originalCommit": "2a4bf2f8aa11b2464fec32dfb8e3eb38b14e38ab",
+      "originalCommitTime": "2026-10-06T07:01:13+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-06T07:18:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-06T07:18:00+09:00"
+        },
+        {
+          "id": "codex-reset",
+          "checkedAt": "2026-10-06T07:18:00+09:00"
+        },
+        {
+          "id": "permanent-residency",
+          "checkedAt": "2026-10-06T07:18:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "originalCommit": "de35c1fc2cdaa75c7f479287f24f872afe3b8d9c",
+      "originalCommitTime": "2026-10-07T07:07:09+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-07T07:22:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-07T07:22:00+09:00"
+        },
+        {
+          "id": "codex-reset",
+          "checkedAt": "2026-10-07T07:22:00+09:00"
+        },
+        {
+          "id": "permanent-residency",
+          "checkedAt": "2026-10-07T07:22:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "originalCommit": "dd713dcfcd12e52c7e4b3475e1e2bec8932012a4",
+      "originalCommitTime": "2026-10-11T07:05:23+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-11T07:24:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-11T07:24:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-11T07:24:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-11T07:24:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "originalCommit": "4f195f664165c285193292093dc28ce80133fb14",
+      "originalCommitTime": "2026-10-16T06:59:42+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-16T07:03:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-16T07:03:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-16T07:03:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-16T07:03:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "originalCommit": "519c88cbde03f8202fee0560cc08c78664ab1cf3",
+      "originalCommitTime": "2026-10-16T06:59:44+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-16T07:03:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-16T07:03:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-16T07:03:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-16T07:03:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "originalCommit": "7c14cf0bce03c06855ded349f7d76d8c96e2ff2f",
+      "originalCommitTime": "2026-10-20T07:02:21+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-20T07:12:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-20T07:12:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-20T07:12:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-20T07:12:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "originalCommit": "0a231b3468aa42d58b21784dac268ddecac81033",
+      "originalCommitTime": "2026-10-21T07:07:39+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-21T07:18:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-21T07:18:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-21T07:18:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-21T07:18:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "originalCommit": "a704cfe5f5ea7ddadfb4253b0a96b5c1e83b7eaf",
+      "originalCommitTime": "2026-10-22T07:06:53+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-22T07:24:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-22T07:24:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-22T07:24:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-22T07:24:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "originalCommit": "e4ce607f8238f328776f3de864ca4b0edadf31b5",
+      "originalCommitTime": "2026-10-23T07:06:58+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-23T07:28:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-23T07:28:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-23T07:28:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-23T07:28:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "originalCommit": "3822112aecb67cd9632a5835eff38a6d92567de7",
+      "originalCommitTime": "2026-10-24T07:10:30+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-24T07:34:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-24T07:34:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-24T07:34:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-24T07:34:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "originalCommit": "2cdec573118037e08731af872b1fac2f5ddba13c",
+      "originalCommitTime": "2026-10-25T07:03:46+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-25T07:28:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-25T07:28:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-25T07:28:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-25T07:28:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "originalCommit": "55a7a5e5d1a391dbc4e7ca9449c67d0bfec6a9c4",
+      "originalCommitTime": "2026-10-26T06:59:56+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-26T07:25:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-26T07:25:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-26T07:25:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-26T07:25:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "originalCommit": "60f5fe8beb8ab4033f5a2b0922a23d4b0c6a9e60",
+      "originalCommitTime": "2026-10-27T07:12:06+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-27T07:42:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-27T07:42:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-27T07:42:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-27T07:42:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "originalCommit": "0f08114ddd19ac025836363f8f7cc64d55cce940",
+      "originalCommitTime": "2026-10-28T06:59:41+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-28T07:34:00+09:00"
+        },
+        {
+          "id": "codex",
+          "checkedAt": "2026-10-28T07:34:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-28T07:34:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-28T07:34:00+09:00"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "originalCommit": "af7c2dcab034379a316840e71c7778b45906c4fd",
+      "originalCommitTime": "2026-10-29T07:09:22+09:00",
+      "checks": [
+        {
+          "id": "ai",
+          "checkedAt": "2026-10-29T07:31:00+09:00"
+        },
+        {
+          "id": "sdv-nissan",
+          "checkedAt": "2026-10-29T07:31:00+09:00"
+        },
+        {
+          "id": "residency",
+          "checkedAt": "2026-10-29T07:31:00+09:00"
+        }
+      ]
+    }
+  ],
+  "previousWatermarks": {
+    "general": "2026-10-29T07:31:00+09:00",
+    "sdv": "2026-10-29T07:31:00+09:00",
+    "funnels": {
+      "OEM": "2026-10-29T07:31:00+09:00",
+      "Platform": "2026-10-29T07:31:00+09:00",
+      "Tier1Semi": "2026-10-29T07:31:00+09:00",
+      "CloudOS": "2026-10-29T07:31:00+09:00",
+      "RegSecurity": "2026-10-29T07:31:00+09:00",
+      "Cross": "2026-10-29T07:31:00+09:00"
+    }
+  },
+  "safeCoverageCutoff": "2026-10-29T07:02:52+09:00",
+  "cutoffEvidence": "2026-10-29 SDV audit publicationWindowEnd and recorded run start; earlier than reported task completion; retain overlap for next scan."
+}

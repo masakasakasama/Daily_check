@@ -105,7 +105,8 @@
       "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。地域障害の復旧とCopilot管理・計測機能2件を参考掲載",
       "checkedAt": "2026-10-23T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 3
+      "referenceCount": 3,
+      "timestampUnverified": true
     },
     {
       "id": "codex",
@@ -114,7 +115,8 @@
       "summary": "公式Help・Developers・StatusとX経路を照合。Tiboのreset day告知と複数ユーザーの利用枠回復報告を重要掲載",
       "checkedAt": "2026-10-23T07:28:00+09:00",
       "alertCount": 1,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -123,7 +125,8 @@
       "summary": "6 funnel・固定公式巡回・各4検索を完了。raw候補14件を監査し、前回成功後の新規掲載基準を満たす独立イベントなし",
       "checkedAt": "2026-10-23T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "residency",
@@ -132,7 +135,8 @@
       "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
       "checkedAt": "2026-10-23T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

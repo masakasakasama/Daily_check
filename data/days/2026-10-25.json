@@ -34,7 +34,8 @@
       "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。前回成功後に実利用を変える独立した新規AI発表なし",
       "checkedAt": "2026-10-25T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "codex",
@@ -43,7 +44,8 @@
       "summary": "公式Help・Developers・Status・GitHub ReleasesとX経路を確認。推論設定変更時のキャッシュ維持とCLI実利用改善を重要掲載。新規リセットは確認されず",
       "checkedAt": "2026-10-25T07:28:00+09:00",
       "alertCount": 1,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -52,7 +54,8 @@
       "summary": "6 funnel・固定公式巡回・各4検索とDeep Scan 12検索を完了。raw候補16件は前回成功前の公開または既出で、当日掲載なし",
       "checkedAt": "2026-10-25T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "residency",
@@ -61,7 +64,8 @@
       "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
       "checkedAt": "2026-10-25T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

@@ -102,7 +102,8 @@
       "summary": "重要1件・参考1件。過去日のdiscoveredLate候補は監査のみ保持し、今日フィードから除外",
       "checkedAt": "2026-10-02T07:28:00+09:00",
       "alertCount": 1,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -111,7 +112,8 @@
       "summary": "6 funnelを完走しraw候補8件を監査。対象期間の新規4件を参考採用。過去日のdiscoveredLate候補は監査のみ保持",
       "checkedAt": "2026-10-02T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 4
+      "referenceCount": 4,
+      "timestampUnverified": true
     },
     {
       "id": "codex-reset",
@@ -120,7 +122,8 @@
       "summary": "5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
       "checkedAt": "2026-10-02T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "permanent-residency",
@@ -129,7 +132,8 @@
       "summary": "カナダ、英国、豪州、ニュージーランドの公式情報を確認。前回確認以降、通知対象となる実質的な永住条件変更なし",
       "checkedAt": "2026-10-02T07:28:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

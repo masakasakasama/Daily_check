@@ -26,7 +26,8 @@
       "summary": "重要0件・参考1件。Claude Code 2.1.288は実務改善だが、利用判断を大きく変える75点には届かず参考採用",
       "checkedAt": "2026-10-03T07:18:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -35,7 +36,8 @@
       "summary": "6 funnelを完走しraw候補8件を監査。前回成功以前の見落とし4件と既出重複4件のみで、10月3日フィードへの新規掲載なし",
       "checkedAt": "2026-10-03T07:18:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "codex-reset",
@@ -44,7 +46,8 @@
       "summary": "5時間枠・週次枠のリセット時刻や周期に関する新しい公式確定情報なし",
       "checkedAt": "2026-10-03T07:18:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "permanent-residency",
@@ -53,7 +56,8 @@
       "summary": "カナダ、英国、豪州、ニュージーランドの公式情報を確認。前回確認以降、通知対象となる実質的な永住条件変更なし",
       "checkedAt": "2026-10-03T07:18:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

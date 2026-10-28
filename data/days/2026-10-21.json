@@ -105,7 +105,8 @@
       "summary": "OpenAI・Anthropic・Google・Metaの公式発表と主要報道を確認し、前回成功後にユーザーの利用方法を変える独立した新規提供変更なし",
       "checkedAt": "2026-10-21T07:18:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "codex",
@@ -114,7 +115,8 @@
       "summary": "公式Help・StatusとX経路を照合。全枠リセット、約4万アカウントの利用枠誤適用修正とクレジット付与、保存済みリセット条件の更新を確認",
       "checkedAt": "2026-10-21T07:18:00+09:00",
       "alertCount": 2,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -123,7 +125,8 @@
       "summary": "6 funnelを完了。LGの中央・ゾーン型E/Eアーキテクチャ白書を参考掲載し、既存記事の再配信や過去イベントは監査のみへ分離",
       "checkedAt": "2026-10-21T07:18:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "residency",
@@ -132,7 +135,8 @@
       "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後の永住条件の実質変更なし",
       "checkedAt": "2026-10-21T07:18:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }

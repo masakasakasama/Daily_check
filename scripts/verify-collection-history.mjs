@@ -4,6 +4,7 @@ const root = new URL('../data/', import.meta.url);
 const read = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
 let checked = 0;
 let failures = 0;
+let uncertain = 0;
 for (const name of (await readdir(new URL('audits/', root))).filter(name => /^\d{4}-\d{2}-\d{2}-sdv\.json$/.test(name)).sort()) {
   const audit = await read(`audits/${name}`);
   // Legacy summaries did not persist the modern candidate/query evidence contract.
@@ -11,11 +12,13 @@ for (const name of (await readdir(new URL('audits/', root))).filter(name => /^\d
   checked++;
   try {
     const previousDate = new Date(new Date(`${audit.date}T00:00:00Z`).valueOf() - 86400000).toISOString().slice(0, 10);
-    validateCollectionAudit(audit, await read(`days/${audit.date}.json`), await read(`days/${previousDate}.json`));
+    const day = await read(`days/${audit.date}.json`);
+    if (day.checks?.some(check => check.timestampUnverified)) uncertain++;
+    validateCollectionAudit(audit, day, await read(`days/${previousDate}.json`));
   } catch (error) {
     failures++;
     console.error(`${audit.date}: ${error.message}`);
   }
 }
-console.log(`Collection history: ${checked} modern audits checked, ${failures} evidence failures; legacy summaries skipped, not certified`);
+console.log(`Collection history: ${checked} modern audit structures checked, ${failures} structural failures; ${uncertain} days have unverified check timestamps; legacy summaries skipped, not certified`);
 process.exitCode = failures ? 1 : 0;

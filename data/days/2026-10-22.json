@@ -130,7 +130,8 @@
       "summary": "OpenAI・Anthropic・Google・Metaの公式発表と主要報道を確認し、前回成功後に利用方法を直接変える独立した新規モデル・機能提供なし",
       "checkedAt": "2026-10-22T07:24:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     },
     {
       "id": "codex",
@@ -139,7 +140,8 @@
       "summary": "公式Help・Release notes・Developers・StatusとX経路を照合。新たな枠リセット報告はなく、ChatGPT・Codex・APIの性能低下と復旧を参考掲載",
       "checkedAt": "2026-10-22T07:24:00+09:00",
       "alertCount": 0,
-      "referenceCount": 1
+      "referenceCount": 1,
+      "timestampUnverified": true
     },
     {
       "id": "sdv-nissan",
@@ -148,7 +150,8 @@
       "summary": "6 funnelを完了。GMの中央コンピュータ基盤とHCLTech/NVIDIAのV&V基盤を重要掲載し、業界調査と自動運転検証を参考掲載",
       "checkedAt": "2026-10-22T07:24:00+09:00",
       "alertCount": 2,
-      "referenceCount": 2
+      "referenceCount": 2,
+      "timestampUnverified": true
     },
     {
       "id": "residency",
@@ -157,7 +160,8 @@
       "summary": "米国・カナダ・英国・ドイツ・豪州の公式経路を確認し、前回成功後の永住条件の実質変更なし",
       "checkedAt": "2026-10-22T07:24:00+09:00",
       "alertCount": 0,
-      "referenceCount": 0
+      "referenceCount": 0,
+      "timestampUnverified": true
     }
   ]
 }
