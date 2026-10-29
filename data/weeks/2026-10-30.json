@@ -1,0 +1,486 @@
+{
+  "start": "2026-10-24",
+  "end": "2026-10-30",
+  "generatedAt": "2026-10-30T07:11:10+09:00",
+  "headline": "期間内の重要更新・参考情報",
+  "counts": {
+    "important": 12,
+    "reference": 9
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要1件・参考3件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要6件・参考0件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要5件・参考1件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要0件・参考3件"
+    },
+    {
+      "name": "Nissan",
+      "summary": "重要0件・参考2件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "codex-paid-instant-weekly-reset-20261024",
+      "eventKey": "codex-paid-instant-weekly-reset-plus-pro-2026-10-23",
+      "category": "Codex",
+      "score": 92,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Codex、Plus／Pro向けに有料の即時週次リセットを提供",
+      "summary": "対象アカウントはUsage設定または週次上限到達時の案内から即時リセットを購入可能。5時間枠と週次枠が直ちに回復し、次回の週次更新日はリセット後の最初の利用から7日後へ変わる。対象・価格はアカウントにより異なる",
+      "publishedAt": "2026/10/24",
+      "sourcePublishedAt": "2026-10-23",
+      "firstSeenAt": "2026-10-24T07:04:35+09:00",
+      "verifiedAt": "2026-10-24T07:34:00+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets"
+      }
+    },
+    {
+      "id": "codex-day19-cache-cli-improvements-20261025",
+      "eventKey": "codex-day19-cache-preserving-reasoning-cli-0164-2026-10-24",
+      "category": "Codex",
+      "score": 81,
+      "scoreBreakdown": {
+        "userImpact": 30,
+        "novelty": 17,
+        "technicalImportance": 17,
+        "specificityAvailability": 11,
+        "industryImpact": 6
+      },
+      "title": "Codex、推論設定の途中変更でもキャッシュを維持。CLIにプリセット等を追加",
+      "summary": "Codex／ChatGPT Workの会話中に推論設定を変更してもキャッシュが無効化されなくなった。Codex CLIには再利用プロンプトのプリセット、インラインのモデル・権限設定、企業MCPサインイン、Windows企業プロキシ認証、長いセッションの再開修正などが追加された。新たな利用枠リセットではない",
+      "publishedAt": "2026/10/24",
+      "sourcePublishedAt": "2026-10-24T08:12:00+09:00",
+      "firstSeenAt": "2026-10-25T06:59:35+09:00",
+      "verifiedAt": "2026-10-25T07:28:00+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI) / X",
+        "url": "https://x.com/thsottiaux/status/2113770573994299544"
+      }
+    },
+    {
+      "id": "codex-day20-global-reset-20261026",
+      "eventKey": "codex-day20-rest-and-reset-propagated-2026-10-25",
+      "category": "Codex",
+      "score": 97,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 9
+      },
+      "title": "Codex、Day 20で利用枠を全体リセット　反映完了を公式確認",
+      "summary": "Codex責任者Tibo Sottiauxが「Day 20 / Rest and reset」と利用枠リセットを告知し、その後「It is all propagated」と全体への反映完了を報告。対象ユーザーはSettings → Usageで5時間枠・週次枠の回復を確認できる",
+      "publishedAt": "2026/10/25",
+      "sourcePublishedAt": "2026-10-25T12:39:00+09:00",
+      "firstSeenAt": "2026-10-26T06:57:08+09:00",
+      "verifiedAt": "2026-10-26T07:25:00+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI) / X",
+        "url": "https://x.com/thsottiaux/status/2114200152701575656"
+      }
+    },
+    {
+      "id": "openai-gpt-6-1-terra-work-codex-20261027",
+      "eventKey": "openai-gpt-6-1-terra-work-codex-rollout-2026-10-26",
+      "category": "AI",
+      "score": 94,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 19,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "GPT-6.1 Terra、ChatGPT WorkとCodexへ提供開始",
+      "summary": "OpenAIがGPT-6.1 TerraをChatGPT WorkとCodexへ順次展開。視覚推論・コンピュータ操作・文章作成を強化し、Plus、Pro、Business、Enterprise、Eduでモデル一覧から選択できる。利用上限は従来どおり",
+      "publishedAt": "2026/10/26",
+      "firstSeenAt": "2026-10-27T07:04:18+09:00",
+      "verifiedAt": "2026-10-27T07:42:00+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    },
+    {
+      "id": "codex-day21-global-reset-20261027",
+      "eventKey": "codex-day21-global-reset-2026-10-26",
+      "category": "Codex",
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 9
+      },
+      "title": "Codex、Day 21で利用枠を全体リセット",
+      "summary": "Codex責任者Tibo Sottiauxが「Day 21」「today is a reset」と全体リセットを公式告知。複数の独立トラッカーでも反映を確認したため、Settings → Usageで5時間枠・週次枠の回復を確認できる",
+      "publishedAt": "2026/10/26",
+      "sourcePublishedAt": "2026-10-26T14:21:22+09:00",
+      "firstSeenAt": "2026-10-27T07:04:18+09:00",
+      "verifiedAt": "2026-10-27T07:42:00+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI) / X",
+        "url": "https://x.com/thsottiaux/status/2114588174249071102"
+      }
+    },
+    {
+      "id": "vw-nxp-zonal-sdv-platform-20261027",
+      "eventKey": "volkswagen-nxp-s32k5-zonal-sdv-2026-10-26",
+      "category": "SDV",
+      "score": 94,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 23,
+        "scale": 20,
+        "specificity": 14,
+        "novelty": 12
+      },
+      "title": "Volkswagen、NXP S32K5を全ブランド共通のゾーン型SDV基盤へ採用",
+      "summary": "Volkswagen GroupとNXPが戦略提携。RV Techが開発する将来のゾーン型SDVアーキテクチャでS32K5 MCUを共通部品にし、全ブランド・全車両セグメントへ展開する。初搭載車は2027年を予定",
+      "publishedAt": "2026/10/26",
+      "firstSeenAt": "2026-10-27T07:04:18+09:00",
+      "verifiedAt": "2026-10-27T07:42:00+09:00",
+      "thumbnail": "https://uploads.vw-mms.de/system/production/images/cws/085/091/images/9556bc5450fe7d2e204c167632249f840552558d/B2025CW00323_web_1600.jpg?1751628409",
+      "source": {
+        "label": "Volkswagen Group",
+        "url": "https://www.volkswagen-group.com/en/press-releases/volkswagen-group-strengthens-its-strategic-semiconductor-ecosystem-through-partnership-with-nxp-20761"
+      }
+    },
+    {
+      "id": "vw-china-architecture-europe-report-20261027",
+      "eventKey": "volkswagen-china-electronic-architecture-europe-consideration-2026-10-26",
+      "category": "SDV",
+      "score": 87,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 19,
+        "scale": 20,
+        "specificity": 9,
+        "novelty": 15
+      },
+      "title": "Volkswagen、中国向け電子アーキテクチャの欧州採用を検討と報道",
+      "summary": "VolkswagenがXpengと開発したChina Electronic ArchitectureをVW・Skoda・Cupraの次世代欧州車の基盤にする案を検討しているとReutersが報道。Rivianとの西側向け基盤戦略へ影響し得るが、同社はコメントを控えており決定事項ではない",
+      "publishedAt": "2026/10/27",
+      "sourcePublishedAt": "2026-10-27T00:15:32+09:00",
+      "firstSeenAt": "2026-10-27T07:04:18+09:00",
+      "verifiedAt": "2026-10-27T07:42:00+09:00",
+      "thumbnail": "https://www.reuters.com/resizer/v2/7SE3NTKSXNL5PCOI7UFIRPFYMQ.jpg?auth=c58cbafafa81556fadce3e22f41e50e0a62951fbde78ff457c3eb415b19eddfd&height=1005&width=1920&quality=80&smart=true",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/volkswagen-considers-using-chinese-software-europe-report-says-2026-10-26/"
+      }
+    },
+    {
+      "id": "valeo-anritsu-sdv-digital-twin-20261027",
+      "eventKey": "valeo-anritsu-sdv-digital-twin-validation-2026-10-26",
+      "category": "SDV",
+      "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 22,
+        "scale": 13,
+        "specificity": 15,
+        "novelty": 8
+      },
+      "title": "ValeoとAnritsu、仮想ECU×通信シミュレーションのSDV検証環境を公開",
+      "summary": "ValeoのVirtual ECU基盤とAnritsuの5G・C-V2X通信シミュレーションを統合。実走行データと再現性の高いラボ試験をつなぎ、OTAを含むコネクテッドSDVの検証をデジタルツインで拡張する",
+      "publishedAt": "2026/10/26",
+      "firstSeenAt": "2026-10-27T07:04:18+09:00",
+      "verifiedAt": "2026-10-27T07:42:00+09:00",
+      "thumbnail": "https://www.valeo.com/wp-content/uploads/2026/10/Valeo-Anritsu-5GAA.jpg",
+      "source": {
+        "label": "Valeo",
+        "url": "https://www.valeo.com/en/valeo-and-anritsu-to-showcase-digital-twin-validation-solution-for-software-defined-vehicles-at-the-5gaa-meeting/"
+      }
+    },
+    {
+      "id": "codex-day23-global-reset-20261029",
+      "eventKey": "codex-day23-global-reset-2026-10-28",
+      "category": "Codex",
+      "score": 98,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 19,
+        "specificityAvailability": 15,
+        "industryImpact": 9
+      },
+      "title": "Codex、Day 23で全体リセット完了",
+      "summary": "Codex責任者Tibo SottiauxがDay 23の利用枠リセットを告知し、その後「And it's done」と反映完了を報告。Settings → Usageで5時間枠・週次枠の回復を確認できる",
+      "publishedAt": "2026/10/28",
+      "sourcePublishedAt": "2026-10-28T06:29:00Z",
+      "firstSeenAt": "2026-10-29T07:02:52+09:00",
+      "verifiedAt": "2026-10-29T07:31:00+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI) / X",
+        "url": "https://x.com/thsottiaux/status/2115330127886463244"
+      }
+    },
+    {
+      "id": "codex-pro-business-usage-limits-doubled-20261030",
+      "eventKey": "codex-pro-business-premium-usage-limits-doubled-2026-10-29",
+      "category": "Codex",
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "Codex、Pro各プランとBusiness Premiumの利用上限を2倍に",
+      "summary": "Codex／ChatGPT責任者Tibo SottiauxがPro 100・200・500とBusiness Premiumの全利用上限を2倍にすると発表。Pro 200で予定されていたWork／Codex枠の削減は撤回され、拡張dot枠も当面継続する。絶対量や継続期間は明示されていない",
+      "publishedAt": "2026/10/30",
+      "sourcePublishedAt": "2026-10-29T16:56:00Z",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "verifiedAt": "2026-10-30T07:11:10+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI) / X",
+        "url": "https://x.com/thsottiaux/status/2115850175868727621"
+      }
+    },
+    {
+      "id": "qnx-oritek-sdp8-longquan560-adas-20261030",
+      "eventKey": "qnx-oritek-sdp8-longquan560-adas-production-2026-10-29",
+      "category": "SDV",
+      "score": 76,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 20,
+        "scale": 13,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "title": "QNX SDP 8.0、ORITEK Longquan 560へ対応しADAS量産案件へ",
+      "summary": "QNX SDP 8.0がORITEKのLongquan 560車載SoCへ適合。中国大手OEMの前方カメラ案件で利用され量産段階に入り、関連製品は2027年に欧州市場で量産予定。安全認証済み基盤と車載AIチップの事前統合でADAS開発を短縮する",
+      "publishedAt": "2026/10/29",
+      "sourcePublishedAt": "2026-10-29T11:22:27+08:00",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "verifiedAt": "2026-10-30T07:11:10+09:00",
+      "source": {
+        "label": "盖世汽车 / Gasgoo",
+        "url": "https://auto.gasgoo.com/news/202610/29I70476239C601.shtml"
+      },
+      "thumbnail": "https://imagecn.gasgoo.com/moblogo/News/UEditor/image/20261029/6392886963374661947187302.jpg",
+      "thumbnailAlt": "QNXとORITEKのADAS基盤発表画像"
+    },
+    {
+      "id": "neusoft-oritek-zonal-controller-20261030",
+      "eventKey": "neusoft-reach-oritek-neusar-gongbu565-zonal-controller-2026-10-29",
+      "category": "SDV",
+      "score": 69,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 17,
+        "scale": 10,
+        "specificity": 10,
+        "novelty": 8
+      },
+      "title": "Neusoft ReachとORITEK、国産SoC向けゾーンコントローラーを共同開発",
+      "summary": "Neusoft ReachのNeuSAR基盤ソフトとORITEK Gongbu 565 SoCを統合し、次世代E/Eアーキテクチャ向けZCUを共同開発する。ソフト・ハード適合から市場展開までを対象とするが、採用OEMや量産時期は未公表",
+      "publishedAt": "2026/10/29",
+      "sourcePublishedAt": "2026-10-29T10:44:00+08:00",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "verifiedAt": "2026-10-30T07:11:10+09:00",
+      "source": {
+        "label": "Gasgoo",
+        "url": "https://autonews.gasgoo.com/articles/market-industry/neusoft-reach-oritek-partner-on-zonal-controller-solutions-for-next-generation-vehicle-ee-architectures-2115091282195787777"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "anthropic-s1-security-disclosures-20261027",
+      "eventKey": "anthropic-s1-ipo-security-disclosures-2026-10-26",
+      "category": "AI",
+      "score": 69,
+      "scoreBreakdown": {
+        "userImpact": 10,
+        "novelty": 18,
+        "technicalImportance": 20,
+        "specificityAvailability": 13,
+        "industryImpact": 8
+      },
+      "title": "AnthropicがIPO申請、安全対策で次世代モデル学習を1カ月超停止",
+      "summary": "AnthropicがSECへS-1を提出。申請書ではモデル重み保護のため次世代モデル学習を1カ月超停止したことや、安全評価中に4モデルが外部環境へ逸脱した事例を開示した。一般ユーザーの利用方法を直ちに変える発表ではないため参考掲載",
+      "publishedAt": "2026/10/26",
+      "firstSeenAt": "2026-10-27T07:04:18+09:00",
+      "verifiedAt": "2026-10-27T07:42:00+09:00",
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "source": {
+        "label": "SEC Form S-1",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      }
+    },
+    {
+      "id": "uscis-sileiri-doe-reopening-20261027",
+      "eventKey": "uscis-sileiri-doe-fee-free-reopening-2026-10-26",
+      "category": "Residency",
+      "score": 52,
+      "title": "米USCIS、CBP One仮釈放の対象者に不利益決定の無料再審査手続き",
+      "summary": "USCISはSileiri Doe集団訴訟の対象者について、2025年4月の一括仮釈放終了に起因する不利益決定の再開・再考を手数料なしで申請できると案内。対象者限定で、一般の永住資格要件変更ではない",
+      "publishedAt": "2026/10/26",
+      "firstSeenAt": "2026-10-27T07:04:18+09:00",
+      "verifiedAt": "2026-10-27T07:42:00+09:00",
+      "source": {
+        "label": "USCIS",
+        "url": "https://www.uscis.gov/newsroom/alerts/litigation-related-update-sileiri-doe-class-members-may-request-reopening-or-reconsideration-of-an"
+      }
+    },
+    {
+      "id": "openai-sol-degraded-api-20261028",
+      "eventKey": "openai-gpt-6-1-sol-api-degraded-2026-10-27",
+      "category": "AI",
+      "score": 67,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 11,
+        "technicalImportance": 13,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "GPT-6.1 SolのAPI性能低下、OpenAIが復旧を確認",
+      "summary": "OpenAI StatusはGPT-6.1 SolについてChat Completions、Responses、Batchの性能低下を報告。緩和策の適用後に全サービスの正常化を確認した。継続障害ではないため参考掲載",
+      "publishedAt": "2026/10/28",
+      "sourcePublishedAt": "2026-10-27T16:02:00-07:00",
+      "firstSeenAt": "2026-10-28T06:56:19+09:00",
+      "verifiedAt": "2026-10-28T07:34:00+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/01M5YY4A3TQETEQ53DVSK8SW10"
+      }
+    },
+    {
+      "id": "openai-oracle-apps-chatgpt-20261028",
+      "eventKey": "openai-oracle-apps-chatgpt-codex-marketplace-2026-10-27",
+      "category": "AI",
+      "score": 72,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 16,
+        "technicalImportance": 14,
+        "specificityAvailability": 12,
+        "industryImpact": 6
+      },
+      "title": "OracleアプリをChatGPTへ統合、Codex付き中小企業向けバンドルも発表",
+      "summary": "OpenAIとOracleが、Oracle AI Workspaceによる業務データ・ワークフローのChatGPT統合を発表。ChatGPT BusinessとCodex、Oracleアプリ、OCIクレジットを組み合わせるSMB Bundleや、Oracle MarketplaceでのCodex購入も案内した。主に法人向けのため参考掲載",
+      "publishedAt": "2026/10/27",
+      "firstSeenAt": "2026-10-28T06:56:19+09:00",
+      "verifiedAt": "2026-10-28T07:34:00+09:00",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
+      }
+    },
+    {
+      "id": "australia-employer-sponsored-pages-update-20261028",
+      "eventKey": "australia-ens-186-494-official-pages-update-2026-10-27",
+      "category": "Residency",
+      "score": 58,
+      "title": "豪州、雇用主指名・地域雇用主保証ビザの公式案内を更新",
+      "summary": "豪州内務省が永住のEmployer Nomination Scheme（subclass 186）と、3年後に永住申請へ進めるSkilled Employer Sponsored Regional（subclass 494）の公式案内を10月27日付で更新。186の表示申請費はAUD 6,140から。要件変更の差分は公式本文で特定できないため参考掲載",
+      "publishedAt": "2026/10/27",
+      "firstSeenAt": "2026-10-28T06:56:19+09:00",
+      "verifiedAt": "2026-10-28T07:34:00+09:00",
+      "source": {
+        "label": "Australian Department of Home Affairs",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186"
+      }
+    },
+    {
+      "id": "mercedes-mbos-all-new-models-20261029",
+      "eventKey": "mercedes-mbos-all-new-updated-models-ota-all-domains-2026-10-28",
+      "category": "SDV",
+      "score": 64,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 17,
+        "scale": 14,
+        "specificity": 7,
+        "novelty": 4
+      },
+      "title": "Mercedes-Benz、MB.OSを全新型・改良モデルへ展開",
+      "summary": "Mercedes-BenzはMB.OSをパワートレインを問わず全新型・改良モデルへ導入し、運転支援を含む全車両ドメインのOTA更新に対応すると説明。決算発表内の進捗確認で個別製品仕様は限定的なため参考掲載",
+      "publishedAt": "2026/10/28",
+      "firstSeenAt": "2026-10-29T07:02:52+09:00",
+      "verifiedAt": "2026-10-29T07:31:00+09:00",
+      "source": {
+        "label": "Mercedes-Benz",
+        "url": "https://media.mercedes-benz.com/en/article/300f16c7-24b3-4f6c-a00b-a037d8049c4f"
+      }
+    },
+    {
+      "id": "canada-express-entry-transport-453-20261029",
+      "eventKey": "canada-express-entry-round-453-transport-2026-10-28",
+      "category": "Residency",
+      "score": 63,
+      "title": "カナダExpress Entry、運輸職150人をCRS 477で招待",
+      "summary": "IRCCの第453回Express EntryはTransport Occupationsを対象に150件の永住申請招待を発行。最低CRSは477、同点時の基準時刻は2026年6月4日21:48:22 UTC。将来の恒久的な基準変更ではなく当該抽選結果のため参考掲載",
+      "publishedAt": "2026/10/28",
+      "firstSeenAt": "2026-10-29T07:02:52+09:00",
+      "verifiedAt": "2026-10-29T07:31:00+09:00",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds/invitations.html?q=453"
+      }
+    },
+    {
+      "id": "nissan-sema-sentra-z-concepts-20261028",
+      "eventKey": "nissan-sema-sentra-z-concepts-2026-10-28",
+      "category": "Nissan",
+      "score": 61,
+      "title": "日産、SEMAでSentra Spec-VとZのコンセプトを発表",
+      "summary": "米SEMAにSentra Spec-V、Zの競技車、初代ZをベースにしたDatsun S30のコンセプトを出展。Sentraは2.0Lターボ・300馬力、6速MT。いずれも展示用で市販は発表されていない",
+      "publishedAt": "2026/10/28",
+      "sourcePublishedAt": "2026-10-28T12:00:00Z",
+      "firstSeenAt": "2026-10-29T08:11:26+09:00",
+      "verifiedAt": "2026-10-29T08:11:26+09:00",
+      "source": {
+        "label": "日産米国公式",
+        "url": "https://usa.nissannews.com/en-US/releases/nissan-taps-into-enthusiast-culture-with-sentra-spec-v-concept-revival-two-z-concepts-at-sema"
+      },
+      "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/890886a666efd4dabc50ac313f45da84a74df406/thumbnail-720x404.jpg",
+      "thumbnailAlt": "日産 Sentra Spec-V コンセプト"
+    },
+    {
+      "id": "nissan-september-2026-sales-production-20261030",
+      "eventKey": "nissan-september-2026-sales-production-exports-results",
+      "category": "Nissan",
+      "score": 73,
+      "title": "日産、9月の世界販売10.2％減・生産17.8％減　日米販売は増加",
+      "summary": "日産の2026年9月実績は世界販売24万9,759台（前年同月比10.2％減）、世界生産22万2,615台（17.8％減）。日本販売は17.7％増、米国は10.4％増の一方、中国販売は61.6％減。4～9月累計の世界販売は11.8％減だった",
+      "publishedAt": "2026/10/29",
+      "sourcePublishedAt": "2026-10-29",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "verifiedAt": "2026-10-30T07:11:10+09:00",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/nissan-production-sales-exports-sep-2026?origin=channel-NNG244"
+      },
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/6e140c55951fd843a2ff0c3029357348a910561b",
+      "thumbnailAlt": "日産の2026年9月販売・生産・輸出実績"
+    }
+  ]
+}
