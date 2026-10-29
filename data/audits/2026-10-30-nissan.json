@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-30",
+  "checkedAt": "2026-10-30T07:11:10+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en",
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://usa.nissannews.com/en-US/channels/us-united-states-nissan",
+    "https://www.nissan-global.com/EN/IR/PERFORMANCE/RESULT/",
+    "https://www.nissanusa.com/owners/recalls-vin.html"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com October 29 2026 Nissan sales production exports",
+      "recordedAt": "2026-10-30T07:11:10+09:00"
+    },
+    {
+      "query": "site:global.nissannews.com October 29 2026 Nissan technology recall management personnel",
+      "recordedAt": "2026-10-30T07:11:10+09:00"
+    },
+    {
+      "query": "Nissan October 29 2026 recall production sales Reuters",
+      "recordedAt": "2026-10-30T07:11:10+09:00"
+    },
+    {
+      "query": "Nissan October 29 2026 new vehicle technology management news",
+      "recordedAt": "2026-10-30T07:11:10+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-september-2026-sales-production-exports-results",
+      "sourceUrl": "https://global.nissannews.com/en/releases/nissan-production-sales-exports-sep-2026?origin=channel-NNG244",
+      "sourcePublishedAt": "2026-10-29",
+      "publishedAtPrecision": "date",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "bodyVerified": true,
+      "decision": "adopted-reference",
+      "reason": "公式月次実績。日米の販売増と中国・世界全体の大幅減を同一発表として統合"
+    },
+    {
+      "eventKey": "nissan-us-recall-page-updated-2026-10-29",
+      "sourceUrl": "https://www.nissanusa.com/owners/recalls-vin.html",
+      "updatedAt": "2026-10-29",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "bodyVerified": true,
+      "decision": "excluded",
+      "reason": "ページ更新日のみで新しい個別リコール発表を確認できず、新規イベント扱いしない"
+    }
+  ]
+}
