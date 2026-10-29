@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-30",
+  "revalidatedAt": "2026-10-30T07:11:10+09:00",
+  "originalDate": "2026-10-29",
+  "originalRecordsPreserved": true,
+  "monitors": [
+    {
+      "id": "ai",
+      "status": "revalidated",
+      "basis": "OpenAI/Anthropic/Google/GitHubの公式経路とCodex公式・X経路を収集窓重複で再検索",
+      "sourceUrls": [
+        "https://openai.com/news/?display=list",
+        "https://openai.com/products/release-notes/?category=codex",
+        "https://status.openai.com/",
+        "https://x.com/thsottiaux/status/2115850175868727621"
+      ]
+    },
+    {
+      "id": "sdv-nissan",
+      "status": "revalidated",
+      "basis": "6 funnel各4検索と固定公式巡回を現在時刻に再実行",
+      "audit": "data/audits/2026-10-30-sdv.json"
+    },
+    {
+      "id": "residency",
+      "status": "revalidated",
+      "basis": "日本・米国・カナダ・英国・ドイツ・豪州・NZの公式経路を再検索",
+      "sourceUrls": [
+        "https://www.moj.go.jp/isa/10_00279",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds/invitations.html?q=452",
+        "https://www.gov.uk/guidance/immigration-rules/updates",
+        "https://www.uscis.gov/",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/"
+      ]
+    }
+  ]
+}
