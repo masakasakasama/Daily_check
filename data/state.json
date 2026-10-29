@@ -1,22 +1,7 @@
 {
   "schema": "split-daily-v1",
-  "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
-  "lastAudit": "data/audits/2026-10-29-sdv.json",
-  "pendingBatch": {
-    "date": "2026-10-30",
-    "stagedAt": "2026-10-30T07:05:46+09:00",
-    "publicationWindowStart": "2026-10-29T07:02:52+09:00",
-    "collectionWindowStart": "2026-10-27T07:02:52+09:00",
-    "status": "collecting",
-    "plannedPaths": [
-      "data/days/2026-10-30.json",
-      "data/audits/2026-10-30-sdv.json",
-      "data/audits/2026-10-30-nissan.json",
-      "data/weeks/2026-10-24_2026-10-30.json",
-      "data/manifest.json",
-      "data/daily-checks.json",
-      "index.html"
-    ]
-  },
-  "coverageWatermarkNote": "Conservative end of last collection window; actual completion time and collection quality remain independently unverified."
+  "lastSuccessfulAt": "2026-10-30T07:11:10+09:00",
+  "lastAudit": "data/audits/2026-10-30-sdv.json",
+  "pendingBatch": null,
+  "coverageWatermarkNote": "Actual end of the verified 2026-10-30 collection window; completion and later validation timestamps are recorded separately."
 }
