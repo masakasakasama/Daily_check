@@ -1,41 +1,36 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T08:17:50+09:00",
-  "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
+  "updatedAt": "2026-10-30T07:12:26+09:00",
+  "lastSuccessfulAt": "2026-10-30T07:11:10+09:00",
   "funnels": {
     "OEM": {
-      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
+      "lastSuccessfulAt": "2026-10-30T07:11:10+09:00",
       "lastCount": 2
     },
     "Platform": {
-      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
-      "lastCount": 3
+      "lastSuccessfulAt": "2026-10-30T07:11:10+09:00",
+      "lastCount": 2
     },
     "Tier1Semi": {
-      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
-      "lastCount": 3
+      "lastSuccessfulAt": "2026-10-30T07:11:10+09:00",
+      "lastCount": 2
     },
     "CloudOS": {
-      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
+      "lastSuccessfulAt": "2026-10-30T07:11:10+09:00",
       "lastCount": 2
     },
     "RegSecurity": {
-      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
+      "lastSuccessfulAt": "2026-10-30T07:11:10+09:00",
       "lastCount": 2
     },
     "Cross": {
-      "lastSuccessfulAt": "2026-10-29T07:02:52+09:00",
-      "lastCount": 2
+      "lastSuccessfulAt": "2026-10-30T07:11:10+09:00",
+      "lastCount": 1
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": {
-    "date": "2026-10-30",
-    "stagedAt": "2026-10-30T07:05:46+09:00",
-    "collectionWindowStart": "2026-10-27T07:02:52+09:00",
-    "status": "collecting"
-  },
-  "lastAudit": "data/audits/2026-10-29-sdv.json",
+  "pendingBatch": null,
+  "lastAudit": "data/audits/2026-10-30-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days",
   "collectionPolicy": {
@@ -136,5 +131,5 @@
   "priorVerifiedDailyCommit": "d4d8fa392f587b497f1e0021673a13757d38382f",
   "lastVerifiedDailyCommit": "9118ba6f0a58182df679618fdc558e91cb23f409",
   "lastVerification": "data/recovery/2026-10-10-verification.json",
-  "coverageWatermarkNote": "Conservative end of last collection window; original completion timestamp was later than the saved commit."
+  "coverageWatermarkNote": "Actual end of the verified 2026-10-30 SDV collection window."
 }
