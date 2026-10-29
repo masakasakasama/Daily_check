@@ -1,8 +1,152 @@
 {
   "version": 5,
-  "currentDate": "2026-10-29",
-  "updatedAt": "2026-10-29T08:17:50+09:00",
+  "currentDate": "2026-10-30",
+  "updatedAt": "2026-10-30T07:11:10+09:00",
   "days": [
+    {
+      "date": "2026-10-30",
+      "alerts": [
+        {
+          "id": "codex-pro-business-usage-limits-doubled-20261030",
+          "eventKey": "codex-pro-business-premium-usage-limits-doubled-2026-10-29",
+          "category": "Codex",
+          "score": 96,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 15,
+            "industryImpact": 8
+          },
+          "title": "Codex、Pro各プランとBusiness Premiumの利用上限を2倍に",
+          "summary": "Codex／ChatGPT責任者Tibo SottiauxがPro 100・200・500とBusiness Premiumの全利用上限を2倍にすると発表。Pro 200で予定されていたWork／Codex枠の削減は撤回され、拡張dot枠も当面継続する。絶対量や継続期間は明示されていない",
+          "publishedAt": "2026/10/30",
+          "sourcePublishedAt": "2026-10-29T16:56:00Z",
+          "firstSeenAt": "2026-10-30T07:11:10+09:00",
+          "verifiedAt": "2026-10-30T07:11:10+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI) / X",
+            "url": "https://x.com/thsottiaux/status/2115850175868727621"
+          }
+        },
+        {
+          "id": "qnx-oritek-sdp8-longquan560-adas-20261030",
+          "eventKey": "qnx-oritek-sdp8-longquan560-adas-production-2026-10-29",
+          "category": "SDV",
+          "score": 76,
+          "scoreBreakdown": {
+            "sdvDirectness": 23,
+            "practicalImpact": 20,
+            "scale": 13,
+            "specificity": 12,
+            "novelty": 8
+          },
+          "title": "QNX SDP 8.0、ORITEK Longquan 560へ対応しADAS量産案件へ",
+          "summary": "QNX SDP 8.0がORITEKのLongquan 560車載SoCへ適合。中国大手OEMの前方カメラ案件で利用され量産段階に入り、関連製品は2027年に欧州市場で量産予定。安全認証済み基盤と車載AIチップの事前統合でADAS開発を短縮する",
+          "publishedAt": "2026/10/29",
+          "sourcePublishedAt": "2026-10-29T11:22:27+08:00",
+          "firstSeenAt": "2026-10-30T07:11:10+09:00",
+          "verifiedAt": "2026-10-30T07:11:10+09:00",
+          "source": {
+            "label": "盖世汽车 / Gasgoo",
+            "url": "https://auto.gasgoo.com/news/202610/29I70476239C601.shtml"
+          },
+          "thumbnail": "https://imagecn.gasgoo.com/moblogo/News/UEditor/image/20261029/6392886963374661947187302.jpg",
+          "thumbnailAlt": "QNXとORITEKのADAS基盤発表画像"
+        },
+        {
+          "id": "neusoft-oritek-zonal-controller-20261030",
+          "eventKey": "neusoft-reach-oritek-neusar-gongbu565-zonal-controller-2026-10-29",
+          "category": "SDV",
+          "score": 69,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 17,
+            "scale": 10,
+            "specificity": 10,
+            "novelty": 8
+          },
+          "title": "Neusoft ReachとORITEK、国産SoC向けゾーンコントローラーを共同開発",
+          "summary": "Neusoft ReachのNeuSAR基盤ソフトとORITEK Gongbu 565 SoCを統合し、次世代E/Eアーキテクチャ向けZCUを共同開発する。ソフト・ハード適合から市場展開までを対象とするが、採用OEMや量産時期は未公表",
+          "publishedAt": "2026/10/29",
+          "sourcePublishedAt": "2026-10-29T10:44:00+08:00",
+          "firstSeenAt": "2026-10-30T07:11:10+09:00",
+          "verifiedAt": "2026-10-30T07:11:10+09:00",
+          "source": {
+            "label": "Gasgoo",
+            "url": "https://autonews.gasgoo.com/articles/market-industry/neusoft-reach-oritek-partner-on-zonal-controller-solutions-for-next-generation-vehicle-ee-architectures-2115091282195787777"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "nissan-september-2026-sales-production-20261030",
+          "eventKey": "nissan-september-2026-sales-production-exports-results",
+          "category": "Nissan",
+          "score": 73,
+          "title": "日産、9月の世界販売10.2％減・生産17.8％減　日米販売は増加",
+          "summary": "日産の2026年9月実績は世界販売24万9,759台（前年同月比10.2％減）、世界生産22万2,615台（17.8％減）。日本販売は17.7％増、米国は10.4％増の一方、中国販売は61.6％減。4～9月累計の世界販売は11.8％減だった",
+          "publishedAt": "2026/10/29",
+          "sourcePublishedAt": "2026-10-29",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-10-30T07:11:10+09:00",
+          "verifiedAt": "2026-10-30T07:11:10+09:00",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/nissan-production-sales-exports-sep-2026?origin=channel-NNG244"
+          },
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/6e140c55951fd843a2ff0c3029357348a910561b",
+          "thumbnailAlt": "日産の2026年9月販売・生産・輸出実績"
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "OpenAI、Anthropic、Google、GitHubの公式発表を確認。Codex枠変更以外に75点以上の新規利用変更なし",
+          "checkedAt": "2026-10-30T07:11:10+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "公式Help・Release Notes・StatusとX経路を確認し、Pro各プランとBusiness Premiumの利用上限変更を掲載",
+          "checkedAt": "2026-10-30T07:11:10+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "update",
+          "summary": "6 funnelの通常24検索と固定公式巡回を完了。raw候補11件を本文・公開日・重複で判定し2件を重要掲載",
+          "checkedAt": "2026-10-30T07:11:10+09:00",
+          "alertCount": 2,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "日本・米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。通常掲載窓の制度変更なし",
+          "checkedAt": "2026-10-30T07:11:10+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "update",
+          "summary": "新車・技術・リコール・生産・経営・販売を独立確認し、9月販売・生産・輸出実績を参考掲載",
+          "checkedAt": "2026-10-30T07:11:10+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "alerts": [
@@ -96,7 +240,8 @@
           "checkedAt": "2026-10-29T07:31:00+09:00",
           "alertCount": 0,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-30T07:10:38+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-30-timestamp-revalidation.json"
         },
         {
           "id": "codex",
@@ -115,7 +260,8 @@
           "checkedAt": "2026-10-29T07:31:00+09:00",
           "alertCount": 0,
           "referenceCount": 1,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-30T07:10:38+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-30-timestamp-revalidation.json"
         },
         {
           "id": "residency",
@@ -125,7 +271,8 @@
           "checkedAt": "2026-10-29T07:31:00+09:00",
           "alertCount": 0,
           "referenceCount": 1,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-30T07:10:38+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-30-timestamp-revalidation.json"
         },
         {
           "id": "nissan",
@@ -660,164 +807,22 @@
           "timestampUnverified": true
         }
       ]
-    },
-    {
-      "date": "2026-10-23",
-      "alerts": [
-        {
-          "id": "codex-day17-global-reset-20261023",
-          "eventKey": "codex-day17-global-usage-reset-2026-10-22",
-          "category": "Codex",
-          "score": 96,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 19,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 9
-          },
-          "title": "Codex、Day 17で利用枠を全員リセット",
-          "summary": "Codex責任者Tiboが「reset day」を告知し、その後に複数ユーザーが5時間枠・週次枠の100%回復と3時間有効のbanked resetを同時報告。実際に利用可能量が回復した重要イベント",
-          "publishedAt": "2026/10/23",
-          "sourcePublishedAt": "2026-10-22",
-          "firstSeenAt": "2026-10-23T07:00:52+09:00",
-          "verifiedAt": "2026-10-23T07:28:00+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2113162277688070445"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "openai-regional-chatgpt-responses-outage-20261023",
-          "eventKey": "openai-chatgpt-responses-regional-degradation-2026-10-22",
-          "category": "AI",
-          "score": 61,
-          "scoreBreakdown": {
-            "userImpact": 28,
-            "novelty": 8,
-            "technicalImportance": 11,
-            "specificityAvailability": 11,
-            "industryImpact": 3
-          },
-          "title": "OpenAI、日韓・インドのChatGPT／Responses障害を復旧",
-          "summary": "ChatGPT ConversationsとResponses APIで性能低下が発生。日本・韓国・インドの利用者が影響を受け、OpenAIは緩和策適用後に全面復旧を確認した",
-          "publishedAt": "2026/10/23",
-          "sourcePublishedAt": "2026-10-22T11:18:00-07:00",
-          "updatedAt": "2026-10-22T17:50:00-07:00",
-          "firstSeenAt": "2026-10-23T07:00:52+09:00",
-          "verifiedAt": "2026-10-23T07:28:00+09:00",
-          "source": {
-            "label": "OpenAI Status",
-            "url": "https://status.openai.com/incidents/6h0ft2qg"
-          }
-        },
-        {
-          "id": "github-copilot-global-default-ga-20261023",
-          "eventKey": "github-copilot-global-default-policy-enforcement-2026-10-22",
-          "category": "AI",
-          "score": 68,
-          "scoreBreakdown": {
-            "userImpact": 27,
-            "novelty": 13,
-            "technicalImportance": 11,
-            "specificityAvailability": 13,
-            "industryImpact": 4
-          },
-          "title": "GitHub Copilot、GA機能のグローバル既定値を適用開始",
-          "summary": "Business／Enterpriseで未設定の一般提供機能とMCPサーバー設定をグローバル方針に従って自動確定。10月26日まで段階適用され、明示設定とPreviewの選択は維持される",
-          "publishedAt": "2026/10/23",
-          "sourcePublishedAt": "2026-10-22",
-          "firstSeenAt": "2026-10-23T07:00:52+09:00",
-          "verifiedAt": "2026-10-23T07:28:00+09:00",
-          "source": {
-            "label": "GitHub Changelog",
-            "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available"
-          }
-        },
-        {
-          "id": "github-copilot-industry-comparison-20261023",
-          "eventKey": "github-copilot-impact-dashboard-industry-comparison-2026-10-22",
-          "category": "AI",
-          "score": 58,
-          "scoreBreakdown": {
-            "userImpact": 21,
-            "novelty": 13,
-            "technicalImportance": 10,
-            "specificityAvailability": 11,
-            "industryImpact": 3
-          },
-          "title": "GitHub Copilot、企業向けにエージェント活用の業界比較を追加",
-          "summary": "Copilot impact dashboardでagent-first／multi-agent比率やPRマージ率を同規模・同業界の中央値と比較可能にした。参加は既定オフで、比較値は毎日更新され30日後に削除される",
-          "publishedAt": "2026/10/23",
-          "sourcePublishedAt": "2026-10-22",
-          "firstSeenAt": "2026-10-23T07:00:52+09:00",
-          "verifiedAt": "2026-10-23T07:28:00+09:00",
-          "source": {
-            "label": "GitHub Changelog",
-            "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard/"
-          }
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認。地域障害の復旧とCopilot管理・計測機能2件を参考掲載",
-          "checkedAt": "2026-10-23T07:28:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 3,
-          "timestampUnverified": true
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "公式Help・Developers・StatusとX経路を照合。Tiboのreset day告知と複数ユーザーの利用枠回復報告を重要掲載",
-          "checkedAt": "2026-10-23T07:28:00+09:00",
-          "alertCount": 1,
-          "referenceCount": 0,
-          "timestampUnverified": true
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV・日産",
-          "status": "clear",
-          "summary": "6 funnel・固定公式巡回・各4検索を完了。raw候補14件を監査し、前回成功後の新規掲載基準を満たす独立イベントなし",
-          "checkedAt": "2026-10-23T07:28:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0,
-          "timestampUnverified": true
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
-          "checkedAt": "2026-10-23T07:28:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0,
-          "timestampUnverified": true
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-10-23",
-      "end": "2026-10-29",
-      "generatedAt": "2026-10-29T08:11:26+09:00",
+      "start": "2026-10-24",
+      "end": "2026-10-30",
+      "generatedAt": "2026-10-30T07:11:10+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 10,
-        "reference": 11
+        "important": 12,
+        "reference": 9
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要1件・参考6件"
+          "summary": "重要1件・参考3件"
         },
         {
           "name": "Codex",
@@ -825,7 +830,7 @@
         },
         {
           "name": "SDV",
-          "summary": "重要3件・参考1件"
+          "summary": "重要5件・参考1件"
         },
         {
           "name": "Permanent Residency",
@@ -833,33 +838,10 @@
         },
         {
           "name": "Nissan",
-          "summary": "重要0件・参考1件"
+          "summary": "重要0件・参考2件"
         }
       ],
       "highlights": [
-        {
-          "id": "codex-day17-global-reset-20261023",
-          "eventKey": "codex-day17-global-usage-reset-2026-10-22",
-          "category": "Codex",
-          "score": 96,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 19,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 9
-          },
-          "title": "Codex、Day 17で利用枠を全員リセット",
-          "summary": "Codex責任者Tiboが「reset day」を告知し、その後に複数ユーザーが5時間枠・週次枠の100%回復と3時間有効のbanked resetを同時報告。実際に利用可能量が回復した重要イベント",
-          "publishedAt": "2026/10/23",
-          "sourcePublishedAt": "2026-10-22",
-          "firstSeenAt": "2026-10-23T07:00:52+09:00",
-          "verifiedAt": "2026-10-23T07:28:00+09:00",
-          "source": {
-            "label": "Tibo / X",
-            "url": "https://x.com/thsottiaux/status/2113162277688070445"
-          }
-        },
         {
           "id": "codex-paid-instant-weekly-reset-20261024",
           "eventKey": "codex-paid-instant-weekly-reset-plus-pro-2026-10-23",
@@ -1066,79 +1048,80 @@
             "label": "Tibo Sottiaux (OpenAI) / X",
             "url": "https://x.com/thsottiaux/status/2115330127886463244"
           }
+        },
+        {
+          "id": "codex-pro-business-usage-limits-doubled-20261030",
+          "eventKey": "codex-pro-business-premium-usage-limits-doubled-2026-10-29",
+          "category": "Codex",
+          "score": 96,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 15,
+            "industryImpact": 8
+          },
+          "title": "Codex、Pro各プランとBusiness Premiumの利用上限を2倍に",
+          "summary": "Codex／ChatGPT責任者Tibo SottiauxがPro 100・200・500とBusiness Premiumの全利用上限を2倍にすると発表。Pro 200で予定されていたWork／Codex枠の削減は撤回され、拡張dot枠も当面継続する。絶対量や継続期間は明示されていない",
+          "publishedAt": "2026/10/30",
+          "sourcePublishedAt": "2026-10-29T16:56:00Z",
+          "firstSeenAt": "2026-10-30T07:11:10+09:00",
+          "verifiedAt": "2026-10-30T07:11:10+09:00",
+          "source": {
+            "label": "Tibo Sottiaux (OpenAI) / X",
+            "url": "https://x.com/thsottiaux/status/2115850175868727621"
+          }
+        },
+        {
+          "id": "qnx-oritek-sdp8-longquan560-adas-20261030",
+          "eventKey": "qnx-oritek-sdp8-longquan560-adas-production-2026-10-29",
+          "category": "SDV",
+          "score": 76,
+          "scoreBreakdown": {
+            "sdvDirectness": 23,
+            "practicalImpact": 20,
+            "scale": 13,
+            "specificity": 12,
+            "novelty": 8
+          },
+          "title": "QNX SDP 8.0、ORITEK Longquan 560へ対応しADAS量産案件へ",
+          "summary": "QNX SDP 8.0がORITEKのLongquan 560車載SoCへ適合。中国大手OEMの前方カメラ案件で利用され量産段階に入り、関連製品は2027年に欧州市場で量産予定。安全認証済み基盤と車載AIチップの事前統合でADAS開発を短縮する",
+          "publishedAt": "2026/10/29",
+          "sourcePublishedAt": "2026-10-29T11:22:27+08:00",
+          "firstSeenAt": "2026-10-30T07:11:10+09:00",
+          "verifiedAt": "2026-10-30T07:11:10+09:00",
+          "source": {
+            "label": "盖世汽车 / Gasgoo",
+            "url": "https://auto.gasgoo.com/news/202610/29I70476239C601.shtml"
+          },
+          "thumbnail": "https://imagecn.gasgoo.com/moblogo/News/UEditor/image/20261029/6392886963374661947187302.jpg",
+          "thumbnailAlt": "QNXとORITEKのADAS基盤発表画像"
+        },
+        {
+          "id": "neusoft-oritek-zonal-controller-20261030",
+          "eventKey": "neusoft-reach-oritek-neusar-gongbu565-zonal-controller-2026-10-29",
+          "category": "SDV",
+          "score": 69,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 17,
+            "scale": 10,
+            "specificity": 10,
+            "novelty": 8
+          },
+          "title": "Neusoft ReachとORITEK、国産SoC向けゾーンコントローラーを共同開発",
+          "summary": "Neusoft ReachのNeuSAR基盤ソフトとORITEK Gongbu 565 SoCを統合し、次世代E/Eアーキテクチャ向けZCUを共同開発する。ソフト・ハード適合から市場展開までを対象とするが、採用OEMや量産時期は未公表",
+          "publishedAt": "2026/10/29",
+          "sourcePublishedAt": "2026-10-29T10:44:00+08:00",
+          "firstSeenAt": "2026-10-30T07:11:10+09:00",
+          "verifiedAt": "2026-10-30T07:11:10+09:00",
+          "source": {
+            "label": "Gasgoo",
+            "url": "https://autonews.gasgoo.com/articles/market-industry/neusoft-reach-oritek-partner-on-zonal-controller-solutions-for-next-generation-vehicle-ee-architectures-2115091282195787777"
+          }
         }
       ],
       "references": [
-        {
-          "id": "openai-regional-chatgpt-responses-outage-20261023",
-          "eventKey": "openai-chatgpt-responses-regional-degradation-2026-10-22",
-          "category": "AI",
-          "score": 61,
-          "scoreBreakdown": {
-            "userImpact": 28,
-            "novelty": 8,
-            "technicalImportance": 11,
-            "specificityAvailability": 11,
-            "industryImpact": 3
-          },
-          "title": "OpenAI、日韓・インドのChatGPT／Responses障害を復旧",
-          "summary": "ChatGPT ConversationsとResponses APIで性能低下が発生。日本・韓国・インドの利用者が影響を受け、OpenAIは緩和策適用後に全面復旧を確認した",
-          "publishedAt": "2026/10/23",
-          "sourcePublishedAt": "2026-10-22T11:18:00-07:00",
-          "updatedAt": "2026-10-22T17:50:00-07:00",
-          "firstSeenAt": "2026-10-23T07:00:52+09:00",
-          "verifiedAt": "2026-10-23T07:28:00+09:00",
-          "source": {
-            "label": "OpenAI Status",
-            "url": "https://status.openai.com/incidents/6h0ft2qg"
-          }
-        },
-        {
-          "id": "github-copilot-global-default-ga-20261023",
-          "eventKey": "github-copilot-global-default-policy-enforcement-2026-10-22",
-          "category": "AI",
-          "score": 68,
-          "scoreBreakdown": {
-            "userImpact": 27,
-            "novelty": 13,
-            "technicalImportance": 11,
-            "specificityAvailability": 13,
-            "industryImpact": 4
-          },
-          "title": "GitHub Copilot、GA機能のグローバル既定値を適用開始",
-          "summary": "Business／Enterpriseで未設定の一般提供機能とMCPサーバー設定をグローバル方針に従って自動確定。10月26日まで段階適用され、明示設定とPreviewの選択は維持される",
-          "publishedAt": "2026/10/23",
-          "sourcePublishedAt": "2026-10-22",
-          "firstSeenAt": "2026-10-23T07:00:52+09:00",
-          "verifiedAt": "2026-10-23T07:28:00+09:00",
-          "source": {
-            "label": "GitHub Changelog",
-            "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available"
-          }
-        },
-        {
-          "id": "github-copilot-industry-comparison-20261023",
-          "eventKey": "github-copilot-impact-dashboard-industry-comparison-2026-10-22",
-          "category": "AI",
-          "score": 58,
-          "scoreBreakdown": {
-            "userImpact": 21,
-            "novelty": 13,
-            "technicalImportance": 10,
-            "specificityAvailability": 11,
-            "industryImpact": 3
-          },
-          "title": "GitHub Copilot、企業向けにエージェント活用の業界比較を追加",
-          "summary": "Copilot impact dashboardでagent-first／multi-agent比率やPRマージ率を同規模・同業界の中央値と比較可能にした。参加は既定オフで、比較値は毎日更新され30日後に削除される",
-          "publishedAt": "2026/10/23",
-          "sourcePublishedAt": "2026-10-22",
-          "firstSeenAt": "2026-10-23T07:00:52+09:00",
-          "verifiedAt": "2026-10-23T07:28:00+09:00",
-          "source": {
-            "label": "GitHub Changelog",
-            "url": "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard/"
-          }
-        },
         {
           "id": "anthropic-s1-security-disclosures-20261027",
           "eventKey": "anthropic-s1-ipo-security-disclosures-2026-10-26",
@@ -1291,6 +1274,25 @@
           },
           "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/890886a666efd4dabc50ac313f45da84a74df406/thumbnail-720x404.jpg",
           "thumbnailAlt": "日産 Sentra Spec-V コンセプト"
+        },
+        {
+          "id": "nissan-september-2026-sales-production-20261030",
+          "eventKey": "nissan-september-2026-sales-production-exports-results",
+          "category": "Nissan",
+          "score": 73,
+          "title": "日産、9月の世界販売10.2％減・生産17.8％減　日米販売は増加",
+          "summary": "日産の2026年9月実績は世界販売24万9,759台（前年同月比10.2％減）、世界生産22万2,615台（17.8％減）。日本販売は17.7％増、米国は10.4％増の一方、中国販売は61.6％減。4～9月累計の世界販売は11.8％減だった",
+          "publishedAt": "2026/10/29",
+          "sourcePublishedAt": "2026-10-29",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-10-30T07:11:10+09:00",
+          "verifiedAt": "2026-10-30T07:11:10+09:00",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/nissan-production-sales-exports-sep-2026?origin=channel-NNG244"
+          },
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/6e140c55951fd843a2ff0c3029357348a910561b",
+          "thumbnailAlt": "日産の2026年9月販売・生産・輸出実績"
         }
       ]
     }
