@@ -42,7 +42,9 @@
       "source": {
         "label": "Nissan USA Newsroom",
         "url": "https://usa.nissannews.com/en-US/releases/all-new-2027-nissan-rogue-hybrid-goes-on-sale-in-us?origin=channel-2097"
-      }
+      },
+      "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/4edb80c2d10a89f375b0214da7843d6e0527ace3/thumbnail-720x404.jpg",
+      "thumbnailAlt": "2027年型Nissan Rogue Hybrid SRのフロント外観"
     }
   ],
   "checks": [
