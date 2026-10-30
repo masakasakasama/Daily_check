@@ -1,8 +1,103 @@
 {
   "version": 5,
-  "currentDate": "2026-10-30",
-  "updatedAt": "2026-10-30T07:11:10+09:00",
+  "currentDate": "2026-10-31",
+  "updatedAt": "2026-10-31T07:09:16+09:00",
   "days": [
+    {
+      "date": "2026-10-31",
+      "alerts": [
+        {
+          "id": "openai-gpt-6-rosalind-research-20261031",
+          "eventKey": "openai-gpt-6-rosalind-research-work-codex-api-2026-10-30",
+          "category": "AI",
+          "score": 81,
+          "scoreBreakdown": {
+            "userImpact": 18,
+            "novelty": 20,
+            "technicalImportance": 20,
+            "specificityAvailability": 15,
+            "industryImpact": 8
+          },
+          "title": "GPT-6 Rosalind Research、Work・Codex・APIへ限定提供",
+          "summary": "OpenAIが生命科学の多段階研究向けGPT-6 Rosalind Researchを、承認済みResearch顧客のWork、Codex、APIへ限定展開。APIモデルはgpt-6-rosalind。Enterpriseは2週間のAdmin Preview後も既定で無効で、組織と利用者の個別承認が必要",
+          "publishedAt": "2026/10/30",
+          "sourcePublishedAt": "2026-10-30",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-10-31T07:09:16+09:00",
+          "verifiedAt": "2026-10-31T07:09:16+09:00",
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "nissan-rogue-hybrid-us-sale-20261031",
+          "eventKey": "nissan-2027-rogue-hybrid-us-sale-and-pricing-2026-10-30",
+          "category": "Nissan",
+          "score": 74,
+          "title": "日産、2027年型Rogue Hybridを米国で発売　e-POWERを初投入",
+          "summary": "日産が2027年型Rogue Hybridの米国発売を開始。限定仕様は11月下旬から店頭到着予定で、全グレードは2027年1月に展開する。米国初のe-POWER採用車で、EPA推定は市街地41mpg、複合38mpg。SVの価格は35,490ドルから",
+          "publishedAt": "2026/10/30",
+          "sourcePublishedAt": "2026-10-30",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-10-31T07:09:16+09:00",
+          "verifiedAt": "2026-10-31T07:09:16+09:00",
+          "source": {
+            "label": "Nissan USA Newsroom",
+            "url": "https://usa.nissannews.com/en-US/releases/all-new-2027-nissan-rogue-hybrid-goes-on-sale-in-us?origin=channel-2097"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "OpenAI、Anthropic、Google、GitHubの公式発表を確認し、GPT-6 Rosalind Researchの限定提供を重要掲載",
+          "checkedAt": "2026-10-31T07:09:16+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "clear",
+          "summary": "公式Help、Release Notes、Developers、StatusとX・コミュニティ経路を確認。通常枠・週次枠・一斉リセットの新規変更なし",
+          "checkedAt": "2026-10-31T07:09:16+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "clear",
+          "summary": "6 funnelの通常24検索と固定公式巡回を完了。raw候補14件を本文・公開日・重複で判定し、新規掲載対象なし",
+          "checkedAt": "2026-10-31T07:09:16+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "日本・米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。通常掲載窓の制度変更なし",
+          "checkedAt": "2026-10-31T07:09:16+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "update",
+          "summary": "新車・技術・リコール・生産・経営・人事・販売を独立確認し、Rogue Hybridの米国発売を参考掲載",
+          "checkedAt": "2026-10-31T07:09:16+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        }
+      ]
+    },
     {
       "date": "2026-10-30",
       "alerts": [
@@ -359,7 +454,8 @@
           "checkedAt": "2026-10-28T07:34:00+09:00",
           "alertCount": 0,
           "referenceCount": 2,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "codex",
@@ -369,7 +465,8 @@
           "checkedAt": "2026-10-28T07:34:00+09:00",
           "alertCount": 0,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "sdv-nissan",
@@ -379,7 +476,8 @@
           "checkedAt": "2026-10-28T07:34:00+09:00",
           "alertCount": 0,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "residency",
@@ -389,7 +487,8 @@
           "checkedAt": "2026-10-28T07:34:00+09:00",
           "alertCount": 0,
           "referenceCount": 1,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         }
       ]
     },
@@ -561,7 +660,8 @@
           "checkedAt": "2026-10-27T07:42:00+09:00",
           "alertCount": 1,
           "referenceCount": 1,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "codex",
@@ -571,7 +671,8 @@
           "checkedAt": "2026-10-27T07:42:00+09:00",
           "alertCount": 1,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "sdv-nissan",
@@ -581,7 +682,8 @@
           "checkedAt": "2026-10-27T07:42:00+09:00",
           "alertCount": 3,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "residency",
@@ -591,7 +693,8 @@
           "checkedAt": "2026-10-27T07:42:00+09:00",
           "alertCount": 0,
           "referenceCount": 1,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         }
       ]
     },
@@ -632,7 +735,8 @@
           "checkedAt": "2026-10-26T07:25:00+09:00",
           "alertCount": 0,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "codex",
@@ -642,7 +746,8 @@
           "checkedAt": "2026-10-26T07:25:00+09:00",
           "alertCount": 1,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "sdv-nissan",
@@ -652,7 +757,8 @@
           "checkedAt": "2026-10-26T07:25:00+09:00",
           "alertCount": 0,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "residency",
@@ -662,7 +768,8 @@
           "checkedAt": "2026-10-26T07:25:00+09:00",
           "alertCount": 0,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         }
       ]
     },
@@ -703,7 +810,8 @@
           "checkedAt": "2026-10-25T07:28:00+09:00",
           "alertCount": 0,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "codex",
@@ -713,7 +821,8 @@
           "checkedAt": "2026-10-25T07:28:00+09:00",
           "alertCount": 1,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "sdv-nissan",
@@ -723,7 +832,8 @@
           "checkedAt": "2026-10-25T07:28:00+09:00",
           "alertCount": 0,
           "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         },
         {
           "id": "residency",
@@ -733,100 +843,30 @@
           "checkedAt": "2026-10-25T07:28:00+09:00",
           "alertCount": 0,
           "referenceCount": 0,
-          "timestampUnverified": true
-        }
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "alerts": [
-        {
-          "id": "codex-paid-instant-weekly-reset-20261024",
-          "eventKey": "codex-paid-instant-weekly-reset-plus-pro-2026-10-23",
-          "category": "Codex",
-          "score": 92,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 18,
-            "technicalImportance": 17,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "Codex、Plus／Pro向けに有料の即時週次リセットを提供",
-          "summary": "対象アカウントはUsage設定または週次上限到達時の案内から即時リセットを購入可能。5時間枠と週次枠が直ちに回復し、次回の週次更新日はリセット後の最初の利用から7日後へ変わる。対象・価格はアカウントにより異なる",
-          "publishedAt": "2026/10/24",
-          "sourcePublishedAt": "2026-10-23",
-          "firstSeenAt": "2026-10-24T07:04:35+09:00",
-          "verifiedAt": "2026-10-24T07:34:00+09:00",
-          "source": {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets"
-          }
-        }
-      ],
-      "references": [],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "clear",
-          "summary": "OpenAI・Anthropic・Google・Meta・GitHubの公式経路を確認し、前回成功後に実利用を変える独立した新規AI発表なし",
-          "checkedAt": "2026-10-24T07:34:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0,
-          "timestampUnverified": true
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "公式Help・Developers・StatusとX経路を確認。Plus／Pro対象の有料即時週次リセットを本文確認し重要掲載",
-          "checkedAt": "2026-10-24T07:34:00+09:00",
-          "alertCount": 1,
-          "referenceCount": 0,
-          "timestampUnverified": true
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV・日産",
-          "status": "clear",
-          "summary": "6 funnel・固定公式巡回・各4検索とDeep Scan 12検索を完了。raw候補16件を監査し、掲載窓より古い候補は当日掲載せず監査へ保持",
-          "checkedAt": "2026-10-24T07:34:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0,
-          "timestampUnverified": true
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認し、前回成功後の永住条件の実質変更なし",
-          "checkedAt": "2026-10-24T07:34:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0,
-          "timestampUnverified": true
+          "revalidatedAt": "2026-10-31T07:08:40+09:00",
+          "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
         }
       ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-10-24",
-      "end": "2026-10-30",
-      "generatedAt": "2026-10-30T07:11:10+09:00",
+      "start": "2026-10-25",
+      "end": "2026-10-31",
+      "generatedAt": "2026-10-31T07:09:16+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
         "important": 12,
-        "reference": 9
+        "reference": 10
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要1件・参考3件"
+          "summary": "重要2件・参考3件"
         },
         {
           "name": "Codex",
-          "summary": "重要6件・参考0件"
+          "summary": "重要5件・参考0件"
         },
         {
           "name": "SDV",
@@ -834,37 +874,14 @@
         },
         {
           "name": "Permanent Residency",
-          "summary": "重要0件・参考3件"
+          "summary": "重要0件・参考0件"
         },
         {
           "name": "Nissan",
-          "summary": "重要0件・参考2件"
+          "summary": "重要0件・参考3件"
         }
       ],
       "highlights": [
-        {
-          "id": "codex-paid-instant-weekly-reset-20261024",
-          "eventKey": "codex-paid-instant-weekly-reset-plus-pro-2026-10-23",
-          "category": "Codex",
-          "score": 92,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 18,
-            "technicalImportance": 17,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "Codex、Plus／Pro向けに有料の即時週次リセットを提供",
-          "summary": "対象アカウントはUsage設定または週次上限到達時の案内から即時リセットを購入可能。5時間枠と週次枠が直ちに回復し、次回の週次更新日はリセット後の最初の利用から7日後へ変わる。対象・価格はアカウントにより異なる",
-          "publishedAt": "2026/10/24",
-          "sourcePublishedAt": "2026-10-23",
-          "firstSeenAt": "2026-10-24T07:04:35+09:00",
-          "verifiedAt": "2026-10-24T07:34:00+09:00",
-          "source": {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets"
-          }
-        },
         {
           "id": "codex-day19-cache-cli-improvements-20261025",
           "eventKey": "codex-day19-cache-preserving-reasoning-cli-0164-2026-10-24",
@@ -1119,6 +1136,30 @@
             "label": "Gasgoo",
             "url": "https://autonews.gasgoo.com/articles/market-industry/neusoft-reach-oritek-partner-on-zonal-controller-solutions-for-next-generation-vehicle-ee-architectures-2115091282195787777"
           }
+        },
+        {
+          "id": "openai-gpt-6-rosalind-research-20261031",
+          "eventKey": "openai-gpt-6-rosalind-research-work-codex-api-2026-10-30",
+          "category": "AI",
+          "score": 81,
+          "scoreBreakdown": {
+            "userImpact": 18,
+            "novelty": 20,
+            "technicalImportance": 20,
+            "specificityAvailability": 15,
+            "industryImpact": 8
+          },
+          "title": "GPT-6 Rosalind Research、Work・Codex・APIへ限定提供",
+          "summary": "OpenAIが生命科学の多段階研究向けGPT-6 Rosalind Researchを、承認済みResearch顧客のWork、Codex、APIへ限定展開。APIモデルはgpt-6-rosalind。Enterpriseは2週間のAdmin Preview後も既定で無効で、組織と利用者の個別承認が必要",
+          "publishedAt": "2026/10/30",
+          "sourcePublishedAt": "2026-10-30",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-10-31T07:09:16+09:00",
+          "verifiedAt": "2026-10-31T07:09:16+09:00",
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+          }
         }
       ],
       "references": [
@@ -1293,6 +1334,29 @@
           },
           "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/6e140c55951fd843a2ff0c3029357348a910561b",
           "thumbnailAlt": "日産の2026年9月販売・生産・輸出実績"
+        },
+        {
+          "id": "nissan-rogue-hybrid-us-sale-20261031",
+          "eventKey": "nissan-2027-rogue-hybrid-us-sale-and-pricing-2026-10-30",
+          "category": "Nissan",
+          "score": 74,
+          "title": "日産、2027年型Rogue Hybridを米国で発売　e-POWERを初投入",
+          "summary": "日産が2027年型Rogue Hybridの米国発売を開始。限定仕様は11月下旬から店頭到着予定で、全グレードは2027年1月に展開する。米国初のe-POWER採用車で、EPA推定は市街地41mpg、複合38mpg。SVの価格は35,490ドルから",
+          "publishedAt": "2026/10/30",
+          "sourcePublishedAt": "2026-10-30",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-10-31T07:09:16+09:00",
+          "verifiedAt": "2026-10-31T07:09:16+09:00",
+          "source": {
+            "label": "Nissan USA Newsroom",
+            "url": "https://usa.nissannews.com/en-US/releases/all-new-2027-nissan-rogue-hybrid-goes-on-sale-in-us?origin=channel-2097"
+          },
+          "sourceUpdate": {
+            "previousEventKey": "nissan-2027-rogue-hybrid-us-debut-2026-09-21",
+            "changeSummary": "9月の車両発表から、米国での発売開始、価格、店頭到着時期、全グレード展開時期が具体化した。",
+            "evidenceUrl": "https://usa.nissannews.com/en-US/releases/all-new-2027-nissan-rogue-hybrid-goes-on-sale-in-us?origin=channel-2097",
+            "verifiedAt": "2026-10-31T07:09:16+09:00"
+          }
         }
       ]
     }
