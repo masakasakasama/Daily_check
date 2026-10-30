@@ -1,0 +1,1101 @@
+{
+  "date": "2026-10-31",
+  "mode": "timestamp-revalidation",
+  "revalidatedAt": "2026-10-31T07:08:40+09:00",
+  "originalRecordsPreserved": true,
+  "method": "対象日ごとにAI、Codex、SDV、主要国永住条件の4経路を実検索し、公式本文と既存の日別掲載・監査証跡を照合。元のcheckedAtは変更せず、現在の再検証時刻を別フィールドに保存した。",
+  "days": [
+    {
+      "date": "2026-09-20",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-09-20 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-09-20",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-09-20",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-09-20",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-09-30 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-09-30",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-09-30",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-09-30",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-01 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-01",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-01",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-01",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-02 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-02",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-02",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-02",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-03 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-03",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-03",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-03",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-04 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-04",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-04",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-04",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-05 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-05",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-05",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-05",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-06 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-06",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-06",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-06",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-07 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-07",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-07",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-07",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-11 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-11",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-11",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-11",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-15 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-15",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-15",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-15",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-16 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-16",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-16",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-16",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-20 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-20",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-20",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-20",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-21 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-21",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-21",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-21",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-22 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-22",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-22",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-22",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-23 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-23",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-23",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-23",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-24 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-24",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-24",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-24",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-25 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-25",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-25",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-25",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-26 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-26",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-26",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-26",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-27 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-27",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-27",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-27",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "status": "revalidated",
+      "observedAt": "2026-10-31T07:08:40+09:00",
+      "searches": [
+        {
+          "monitor": "ai",
+          "query": "site:openai.com OR site:anthropic.com OR site:blog.google 2026-10-28 AI release official",
+          "sourceUrls": [
+            "https://openai.com/news/",
+            "https://www.anthropic.com/news",
+            "https://blog.google/technology/ai/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "codex",
+          "query": "site:openai.com OR site:help.openai.com OR site:status.openai.com OR site:x.com Codex reset limit release 2026-10-28",
+          "sourceUrls": [
+            "https://openai.com/products/release-notes/?category=codex",
+            "https://help.openai.com/",
+            "https://status.openai.com/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "sdv",
+          "query": "site:global.nissannews.com OR site:covesa.global OR site:soafee.io OR site:qnx.com automotive software SDV 2026-10-28",
+          "sourceUrls": [
+            "https://global.nissannews.com/en",
+            "https://www.covesa.global/news",
+            "https://www.soafee.io/news/",
+            "https://www.qnx.com/newsroom/"
+          ],
+          "retrievalStatus": "complete"
+        },
+        {
+          "monitor": "residency",
+          "query": "site:moj.go.jp/isa OR site:uscis.gov OR site:canada.ca OR site:gov.uk OR site:bamf.de OR site:immi.homeaffairs.gov.au OR site:immigration.govt.nz permanent residence 2026-10-28",
+          "sourceUrls": [
+            "https://www.moj.go.jp/isa/10_00279",
+            "https://www.uscis.gov/",
+            "https://www.canada.ca/en/services/immigration-citizenship.html",
+            "https://www.gov.uk/guidance/immigration-rules/updates",
+            "https://www.bamf.de/",
+            "https://immi.homeaffairs.gov.au/",
+            "https://www.immigration.govt.nz/"
+          ],
+          "retrievalStatus": "complete"
+        }
+      ]
+    }
+  ]
+}

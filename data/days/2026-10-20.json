@@ -132,7 +132,8 @@
       "checkedAt": "2026-10-20T07:12:00+09:00",
       "alertCount": 0,
       "referenceCount": 1,
-      "timestampUnverified": true
+      "revalidatedAt": "2026-10-31T07:08:40+09:00",
+      "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
     },
     {
       "id": "codex",
@@ -142,7 +143,8 @@
       "checkedAt": "2026-10-20T07:12:00+09:00",
       "alertCount": 0,
       "referenceCount": 0,
-      "timestampUnverified": true
+      "revalidatedAt": "2026-10-31T07:08:40+09:00",
+      "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
     },
     {
       "id": "sdv-nissan",
@@ -152,7 +154,8 @@
       "checkedAt": "2026-10-20T07:12:00+09:00",
       "alertCount": 2,
       "referenceCount": 2,
-      "timestampUnverified": true
+      "revalidatedAt": "2026-10-31T07:08:40+09:00",
+      "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
     },
     {
       "id": "residency",
@@ -162,7 +165,8 @@
       "checkedAt": "2026-10-20T07:12:00+09:00",
       "alertCount": 0,
       "referenceCount": 0,
-      "timestampUnverified": true
+      "revalidatedAt": "2026-10-31T07:08:40+09:00",
+      "revalidationEvidence": "data/recovery/2026-10-31-timestamp-revalidation.json"
     }
   ]
 }
