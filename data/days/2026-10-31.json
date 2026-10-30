@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-31",
+  "alerts": [
+    {
+      "id": "openai-gpt-6-rosalind-research-20261031",
+      "eventKey": "openai-gpt-6-rosalind-research-work-codex-api-2026-10-30",
+      "category": "AI",
+      "score": 81,
+      "scoreBreakdown": {
+        "userImpact": 18,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "GPT-6 Rosalind Research、Work・Codex・APIへ限定提供",
+      "summary": "OpenAIが生命科学の多段階研究向けGPT-6 Rosalind Researchを、承認済みResearch顧客のWork、Codex、APIへ限定展開。APIモデルはgpt-6-rosalind。Enterpriseは2週間のAdmin Preview後も既定で無効で、組織と利用者の個別承認が必要",
+      "publishedAt": "2026/10/30",
+      "sourcePublishedAt": "2026-10-30",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-10-31T07:09:16+09:00",
+      "verifiedAt": "2026-10-31T07:09:16+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "nissan-rogue-hybrid-us-sale-20261031",
+      "eventKey": "nissan-2027-rogue-hybrid-us-sale-and-pricing-2026-10-30",
+      "category": "Nissan",
+      "score": 74,
+      "title": "日産、2027年型Rogue Hybridを米国で発売　e-POWERを初投入",
+      "summary": "日産が2027年型Rogue Hybridの米国発売を開始。限定仕様は11月下旬から店頭到着予定で、全グレードは2027年1月に展開する。米国初のe-POWER採用車で、EPA推定は市街地41mpg、複合38mpg。SVの価格は35,490ドルから",
+      "publishedAt": "2026/10/30",
+      "sourcePublishedAt": "2026-10-30",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-10-31T07:09:16+09:00",
+      "verifiedAt": "2026-10-31T07:09:16+09:00",
+      "source": {
+        "label": "Nissan USA Newsroom",
+        "url": "https://usa.nissannews.com/en-US/releases/all-new-2027-nissan-rogue-hybrid-goes-on-sale-in-us?origin=channel-2097"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "OpenAI、Anthropic、Google、GitHubの公式発表を確認し、GPT-6 Rosalind Researchの限定提供を重要掲載",
+      "checkedAt": "2026-10-31T07:09:16+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式Help、Release Notes、Developers、StatusとX・コミュニティ経路を確認。通常枠・週次枠・一斉リセットの新規変更なし",
+      "checkedAt": "2026-10-31T07:09:16+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "clear",
+      "summary": "6 funnelの通常24検索と固定公式巡回を完了。raw候補14件を本文・公開日・重複で判定し、新規掲載対象なし",
+      "checkedAt": "2026-10-31T07:09:16+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "日本・米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。通常掲載窓の制度変更なし",
+      "checkedAt": "2026-10-31T07:09:16+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "新車・技術・リコール・生産・経営・人事・販売を独立確認し、Rogue Hybridの米国発売を参考掲載",
+      "checkedAt": "2026-10-31T07:09:16+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    }
+  ]
+}
