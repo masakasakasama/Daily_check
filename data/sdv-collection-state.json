@@ -1,36 +1,36 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T07:18:20+09:00",
-  "lastSuccessfulAt": "2026-10-31T07:09:16+09:00",
+  "updatedAt": "2026-11-01T07:00:07+09:00",
+  "lastSuccessfulAt": "2026-11-01T06:59:08+09:00",
   "funnels": {
     "OEM": {
-      "lastSuccessfulAt": "2026-10-31T07:09:16+09:00",
+      "lastSuccessfulAt": "2026-11-01T06:59:08+09:00",
       "lastCount": 2
     },
     "Platform": {
-      "lastSuccessfulAt": "2026-10-31T07:09:16+09:00",
+      "lastSuccessfulAt": "2026-11-01T06:59:08+09:00",
       "lastCount": 2
     },
     "Tier1Semi": {
-      "lastSuccessfulAt": "2026-10-31T07:09:16+09:00",
+      "lastSuccessfulAt": "2026-11-01T06:59:08+09:00",
       "lastCount": 2
     },
     "CloudOS": {
-      "lastSuccessfulAt": "2026-10-31T07:09:16+09:00",
+      "lastSuccessfulAt": "2026-11-01T06:59:08+09:00",
       "lastCount": 2
     },
     "RegSecurity": {
-      "lastSuccessfulAt": "2026-10-31T07:09:16+09:00",
+      "lastSuccessfulAt": "2026-11-01T06:59:08+09:00",
       "lastCount": 2
     },
     "Cross": {
-      "lastSuccessfulAt": "2026-10-31T07:09:16+09:00",
+      "lastSuccessfulAt": "2026-11-01T06:59:08+09:00",
       "lastCount": 4
     }
   },
   "unresolvedWindows": [],
   "pendingBatch": null,
-  "lastAudit": "data/audits/2026-10-31-sdv.json",
+  "lastAudit": "data/audits/2026-11-01-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days",
   "collectionPolicy": {
@@ -131,5 +131,5 @@
   "priorVerifiedDailyCommit": "d4d8fa392f587b497f1e0021673a13757d38382f",
   "lastVerifiedDailyCommit": "9118ba6f0a58182df679618fdc558e91cb23f409",
   "lastVerification": "data/recovery/2026-10-10-verification.json",
-  "coverageWatermarkNote": "Actual end of the verified 2026-10-31 SDV collection window."
+  "coverageWatermarkNote": "Actual end of the verified 2026-11-01 SDV collection window."
 }
