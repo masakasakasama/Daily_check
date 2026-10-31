@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-01",
+  "checkedAt": "2026-11-01T06:59:08+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en",
+    "https://global.nissannews.com/ja-JP/channels/news",
+    "https://usa.nissannews.com/en-US/channels/us-news?sortOrder=PublishedDescending",
+    "https://europe.nissannews.com/en-GB",
+    "https://www.nissan-global.com/EN/IR/PERFORMANCE/RESULT/",
+    "https://www.nissanusa.com/owners/recalls-vin.html"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com October 31 2026 Nissan",
+      "recordedAt": "2026-11-01T06:59:08+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com OR site:europe.nissannews.com October 31 2026 Nissan",
+      "recordedAt": "2026-11-01T06:59:08+09:00"
+    },
+    {
+      "query": "site:nissan-global.com/EN/NEWS October 31 2026 Nissan production recall technology",
+      "recordedAt": "2026-11-01T06:59:08+09:00"
+    },
+    {
+      "query": "Nissan October 31 2026 recall production sales management Reuters",
+      "recordedAt": "2026-11-01T06:59:08+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-september-2026-sales-production-results-2026-10-29",
+      "sourceUrl": "https://global.nissannews.com/en/releases/261029-01-e",
+      "sourcePublishedAt": "2026-10-29",
+      "firstSeenAt": "2026-11-01T06:59:08+09:00",
+      "bodyVerified": true,
+      "decision": "late-audit-only",
+      "discoveredLate": true,
+      "reason": "公開日は当日窓外。販売・生産実績は監査だけに保存"
+    },
+    {
+      "eventKey": "nissan-rogue-hybrid-us-sale-and-pricing-2026-10-30",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/all-new-2027-nissan-rogue-hybrid-goes-on-sale-in-us?origin=channel-2097",
+      "sourcePublishedAt": "2026-10-30",
+      "firstSeenAt": "2026-11-01T06:59:08+09:00",
+      "bodyVerified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-2027-rogue-hybrid-us-sale-and-pricing-2026-10-30",
+      "reason": "10月31日の日別データに掲載済み"
+    }
+  ]
+}
