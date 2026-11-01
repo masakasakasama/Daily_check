@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-02",
+  "checkedAt": "2026-11-02T07:07:06+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news",
+    "https://usa.nissannews.com/en-US/channels/us-news?sortOrder=PublishedDescending",
+    "https://europe.nissannews.com/en-GB/channels/corporate",
+    "https://www.nissan-global.com/EN/IR/PERFORMANCE/RESULT/",
+    "https://www.nissanusa.com/owners/recalls-vin.html"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com/en/releases 2026-11-01 Nissan",
+      "recordedAt": "2026-11-02T07:07:06+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com 2026-11-01 Nissan news",
+      "recordedAt": "2026-11-02T07:07:06+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com 2026-11-01 Nissan news",
+      "recordedAt": "2026-11-02T07:07:06+09:00"
+    },
+    {
+      "query": "Nissan November 1 2026 recall production management sales technology",
+      "recordedAt": "2026-11-02T07:07:06+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-september-2026-sales-production-results-2026-10-29",
+      "sourceUrl": "https://global.nissannews.com/en/releases/nissan-production-sales-exports-sep-2026?origin=channel-NNG244",
+      "sourcePublishedAt": "2026-10-29",
+      "firstSeenAt": "2026-11-02T07:07:06+09:00",
+      "bodyVerified": true,
+      "decision": "late-audit-only",
+      "discoveredLate": true,
+      "reason": "公開日は通常掲載窓外。販売・生産実績は監査だけに保存"
+    },
+    {
+      "eventKey": "nissan-rogue-hybrid-us-sale-and-pricing-2026-10-30",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/all-new-2027-nissan-rogue-hybrid-goes-on-sale-in-us?origin=channel-2097",
+      "sourcePublishedAt": "2026-10-30",
+      "firstSeenAt": "2026-11-02T07:07:06+09:00",
+      "bodyVerified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-2027-rogue-hybrid-us-sale-and-pricing-2026-10-30",
+      "reason": "10月31日の日別データに掲載済み"
+    }
+  ]
+}
