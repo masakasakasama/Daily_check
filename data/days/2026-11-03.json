@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-03",
+  "alerts": [
+    {
+      "id": "uk-earned-settlement-rules-20261102",
+      "eventKey": "uk-earned-settlement-final-rules-2026-11-02",
+      "category": "Permanent Residency",
+      "score": 92,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "英国、永住の標準期間を10年へ延長する最終ルールを公表",
+      "summary": "英国政府は永住（settlement）の標準期間を5年から10年へ延長し、年収・職種に応じた3年または5年の短縮ルートと、違反時の最長20年を含むearned settlement制度を公表。高い英語力、税滞納なし、3年間の国民保険料拠出などを必須条件とし、2027年から施行する方針",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "UK Home Office / GOV.UK",
+        "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk"
+      }
+    },
+    {
+      "id": "sumitomo-scsk-sdv-digital-engineering-20261102",
+      "eventKey": "sumitomo-scsk-sdv-digital-engineering-service-2026-11-02",
+      "category": "SDV",
+      "score": 68,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 17,
+        "scale": 10,
+        "specificity": 9,
+        "novelty": 7
+      },
+      "title": "住友商事とSCSK、SDV開発を企画から検証まで一括支援",
+      "summary": "住友商事とSCSKが「SDVデジタルエンジニアリングサービス」を開始。車両コンセプト・要求仕様から設計、実装、システム統合、検証までを横断し、派生車種・機能の開発を支援する。SCSKは専任組織を新設し、2027年度にはデリバリーを含むエコシステム整備を進める",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "SCSK / 住友商事",
+        "url": "https://www.scsk.jp/news/2026/pdf/20261102_2.pdf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "nissan-fukushima-namie-circular-partnership-20261102",
+      "eventKey": "nissan-six-company-fukushima-namie-circular-society-2026-11-02",
+      "category": "Nissan",
+      "score": 58,
+      "title": "日産など6社、福島・浪江で中古EVと電池の循環モデルを開始",
+      "summary": "日産を含む6社が福島県・浪江町と循環型社会に向けた連携協定を締結。中古EVを地域内に留め、電池の健全度診断、再利用・再資源化までをつなぐモデルを構築し、11月3日から個人向け中古EVリースを始める",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "日産自動車ニュースルーム",
+        "url": "https://global.nissannews.com/ja-JP/releases/261102-01-j"
+      }
+    },
+    {
+      "id": "nissan-roox-ota-stability-update-20261102",
+      "eventKey": "nissan-roox-nissanconnect-ota-282757tc7a-2026-11-02",
+      "category": "Nissan",
+      "topics": [
+        "SDV"
+      ],
+      "score": 55,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 14,
+        "scale": 8,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "title": "日産ルークス、11月11日から安定性向上OTAを配信",
+      "summary": "2025年10月以降発売のルークスで、対象ソフトウェアを282757TC7Aへ更新するOTAを11月11日から順次配信。所要時間は約25分で、車両によって最大2カ月程度の配信差がある",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "日産自動車 NissanConnect",
+        "url": "https://www3.nissan.co.jp/connect/information/roox_ccs2.html"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "主要AIサービスの公式発表と開発者向け更新を確認し、新規掲載対象なし",
+      "checkedAt": "2026-11-03T07:06:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX・コミュニティ経路を照合。既出banked resetの続報を統合し、新規掲載対象なし",
+      "checkedAt": "2026-11-03T07:06:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "6 funnelの通常24検索、固定公式巡回、追加12検索を実施し、SDV開発支援と日産OTAを掲載",
+      "checkedAt": "2026-11-03T07:06:51+09:00",
+      "alertCount": 1,
+      "referenceCount": 1
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "update",
+      "summary": "主要国の公式経路を確認し、英国のearned settlement最終ルールを重要掲載",
+      "checkedAt": "2026-11-03T07:06:51+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "公式各地域と報道を独立確認し、循環型EV協定とルークスOTAを参考掲載",
+      "checkedAt": "2026-11-03T07:06:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 2
+    }
+  ]
+}
