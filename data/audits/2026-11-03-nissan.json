@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-03",
+  "checkedAt": "2026-11-03T07:06:51+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news",
+    "https://usa.nissannews.com/en-US/channels/us-news?sortOrder=PublishedDescending",
+    "https://europe.nissannews.com/en-GB/channels/corporate",
+    "https://www.nissan-global.com/EN/IR/PERFORMANCE/RESULT/",
+    "https://www.nissanusa.com/owners/recalls-vin.html",
+    "https://www3.nissan.co.jp/connect/information/roox_ccs2.html"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com/en/releases 2026-11-02 Nissan",
+      "recordedAt": "2026-11-03T07:06:51+09:00"
+    },
+    {
+      "query": "site:global.nissannews.com/ja-JP/releases 2026-11-02 日産",
+      "recordedAt": "2026-11-03T07:06:51+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com 2026-11-02 Nissan news",
+      "recordedAt": "2026-11-03T07:06:51+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com 2026-11-02 Nissan news",
+      "recordedAt": "2026-11-03T07:06:51+09:00"
+    },
+    {
+      "query": "Nissan November 2 2026 recall production management sales technology",
+      "recordedAt": "2026-11-03T07:06:51+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-six-company-fukushima-namie-circular-society-2026-11-02",
+      "sourceUrl": "https://global.nissannews.com/ja-JP/releases/261102-01-j",
+      "sourcePublishedAt": "2026-11-02",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "bodyVerified": true,
+      "decision": "adopted",
+      "reason": "公式本文で協定内容、EV・電池循環、個人向けリース開始を確認"
+    },
+    {
+      "eventKey": "nissan-roox-nissanconnect-ota-282757tc7a-2026-11-02",
+      "sourceUrl": "https://www3.nissan.co.jp/connect/information/roox_ccs2.html",
+      "sourcePublishedAt": "2026-11-02",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "bodyVerified": true,
+      "decision": "adopted",
+      "reason": "公式本文で対象車、更新前後バージョン、配信開始日、所要時間を確認。SDV監査と同一記事を共有"
+    }
+  ]
+}
