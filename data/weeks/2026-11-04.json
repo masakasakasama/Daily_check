@@ -1,0 +1,459 @@
+{
+  "start": "2026-10-29",
+  "end": "2026-11-04",
+  "generatedAt": "2026-11-04T07:06:05+09:00",
+  "headline": "期間内の重要更新・参考情報",
+  "counts": {
+    "important": 12,
+    "reference": 7
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要4件・参考0件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要4件・参考0件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要3件・参考1件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要1件・参考0件"
+    },
+    {
+      "name": "Nissan",
+      "summary": "重要0件・参考5件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "codex-day23-global-reset-20261029",
+      "eventKey": "codex-day23-global-reset-2026-10-28",
+      "category": "Codex",
+      "score": 98,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 19,
+        "specificityAvailability": 15,
+        "industryImpact": 9
+      },
+      "title": "Codex、Day 23で全体リセット完了",
+      "summary": "Codex責任者Tibo SottiauxがDay 23の利用枠リセットを告知し、その後「And it's done」と反映完了を報告。Settings → Usageで5時間枠・週次枠の回復を確認できる",
+      "publishedAt": "2026/10/28",
+      "sourcePublishedAt": "2026-10-28T06:29:00Z",
+      "firstSeenAt": "2026-10-29T07:02:52+09:00",
+      "verifiedAt": "2026-10-29T07:31:00+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI) / X",
+        "url": "https://x.com/thsottiaux/status/2115330127886463244"
+      }
+    },
+    {
+      "id": "codex-pro-business-usage-limits-doubled-20261030",
+      "eventKey": "codex-pro-business-premium-usage-limits-doubled-2026-10-29",
+      "category": "Codex",
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "Codex、Pro各プランとBusiness Premiumの利用上限を2倍に",
+      "summary": "Codex／ChatGPT責任者Tibo SottiauxがPro 100・200・500とBusiness Premiumの全利用上限を2倍にすると発表。Pro 200で予定されていたWork／Codex枠の削減は撤回され、拡張dot枠も当面継続する。絶対量や継続期間は明示されていない",
+      "publishedAt": "2026/10/30",
+      "sourcePublishedAt": "2026-10-29T16:56:00Z",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "verifiedAt": "2026-10-30T07:11:10+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI) / X",
+        "url": "https://x.com/thsottiaux/status/2115850175868727621"
+      }
+    },
+    {
+      "id": "qnx-oritek-sdp8-longquan560-adas-20261030",
+      "eventKey": "qnx-oritek-sdp8-longquan560-adas-production-2026-10-29",
+      "category": "SDV",
+      "score": 76,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 20,
+        "scale": 13,
+        "specificity": 12,
+        "novelty": 8
+      },
+      "title": "QNX SDP 8.0、ORITEK Longquan 560へ対応しADAS量産案件へ",
+      "summary": "QNX SDP 8.0がORITEKのLongquan 560車載SoCへ適合。中国大手OEMの前方カメラ案件で利用され量産段階に入り、関連製品は2027年に欧州市場で量産予定。安全認証済み基盤と車載AIチップの事前統合でADAS開発を短縮する",
+      "publishedAt": "2026/10/29",
+      "sourcePublishedAt": "2026-10-29T11:22:27+08:00",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "verifiedAt": "2026-10-30T07:11:10+09:00",
+      "source": {
+        "label": "盖世汽车 / Gasgoo",
+        "url": "https://auto.gasgoo.com/news/202610/29I70476239C601.shtml"
+      },
+      "thumbnail": "https://imagecn.gasgoo.com/moblogo/News/UEditor/image/20261029/6392886963374661947187302.jpg",
+      "thumbnailAlt": "QNXとORITEKのADAS基盤発表画像"
+    },
+    {
+      "id": "neusoft-oritek-zonal-controller-20261030",
+      "eventKey": "neusoft-reach-oritek-neusar-gongbu565-zonal-controller-2026-10-29",
+      "category": "SDV",
+      "score": 69,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 17,
+        "scale": 10,
+        "specificity": 10,
+        "novelty": 8
+      },
+      "title": "Neusoft ReachとORITEK、国産SoC向けゾーンコントローラーを共同開発",
+      "summary": "Neusoft ReachのNeuSAR基盤ソフトとORITEK Gongbu 565 SoCを統合し、次世代E/Eアーキテクチャ向けZCUを共同開発する。ソフト・ハード適合から市場展開までを対象とするが、採用OEMや量産時期は未公表",
+      "publishedAt": "2026/10/29",
+      "sourcePublishedAt": "2026-10-29T10:44:00+08:00",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "verifiedAt": "2026-10-30T07:11:10+09:00",
+      "source": {
+        "label": "Gasgoo",
+        "url": "https://autonews.gasgoo.com/articles/market-industry/neusoft-reach-oritek-partner-on-zonal-controller-solutions-for-next-generation-vehicle-ee-architectures-2115091282195787777"
+      }
+    },
+    {
+      "id": "openai-gpt-6-rosalind-research-20261031",
+      "eventKey": "openai-gpt-6-rosalind-research-work-codex-api-2026-10-30",
+      "category": "AI",
+      "score": 81,
+      "scoreBreakdown": {
+        "userImpact": 18,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "GPT-6 Rosalind Research、Work・Codex・APIへ限定提供",
+      "summary": "OpenAIが生命科学の多段階研究向けGPT-6 Rosalind Researchを、承認済みResearch顧客のWork、Codex、APIへ限定展開。APIモデルはgpt-6-rosalind。Enterpriseは2週間のAdmin Preview後も既定で無効で、組織と利用者の個別承認が必要",
+      "publishedAt": "2026/10/30",
+      "sourcePublishedAt": "2026-10-30",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-10-31T07:09:16+09:00",
+      "verifiedAt": "2026-10-31T07:09:16+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+      }
+    },
+    {
+      "id": "openai-shared-chatgpt-codex-allowance-20261101",
+      "eventKey": "openai-plus-pro-business-shared-chatgpt-codex-token-allowance-december-2026",
+      "category": "Codex",
+      "score": 95,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "ChatGPTとCodex、12月から共通のトークン利用枠へ",
+      "summary": "OpenAIはPlus・Pro・Businessで、12月からChatGPTとCodexの利用枠を統合しトークン単位で計測すると案内。Instant chatは対象外で、残量とリセット時刻はSettings → Usageにまとめて表示される。具体的な開始日とプラン別トークン量は未公表",
+      "publishedAt": "2026/10/31",
+      "sourcePublishedAt": "2026-10-31",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-01T06:59:08+09:00",
+      "verifiedAt": "2026-11-01T06:59:08+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+      }
+    },
+    {
+      "id": "codex-two-banked-resets-announced-20261101",
+      "eventKey": "codex-day26-two-banked-resets-announced-2026-10-31",
+      "category": "Codex",
+      "score": 92,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 16,
+        "specificityAvailability": 13,
+        "industryImpact": 8
+      },
+      "title": "Codex、残り2日でbanked reset付与を予告",
+      "summary": "Codex責任者Tibo Sottiauxが28日企画の残り2日をbanked resetにすると告知。banked resetは受領後に利用者がSettings → UsageまたはCLIから任意に適用する保存型リセットで、対象・配布時刻・有効期限はアカウント表示の確認が必要。複数の独立トラッカーでは初回着弾を報告している",
+      "publishedAt": "2026/10/31",
+      "sourcePublishedAt": "2026-10-31T14:42:26+09:00",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-01T06:59:08+09:00",
+      "verifiedAt": "2026-11-01T06:59:08+09:00",
+      "source": {
+        "label": "Tibo Sottiaux (OpenAI) / X",
+        "url": "https://x.com/thsottiaux/status/2116405414921384099"
+      }
+    },
+    {
+      "id": "chatgpt-mobile-account-switching-20261101",
+      "eventKey": "openai-chatgpt-ios-android-two-account-switching-2026-10-30",
+      "category": "AI",
+      "score": 80,
+      "scoreBreakdown": {
+        "userImpact": 28,
+        "novelty": 18,
+        "technicalImportance": 14,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "ChatGPT、iOS・Androidで2アカウント切り替えに対応",
+      "summary": "ChatGPTのiOS・Androidアプリでアカウント切り替えを順次提供。最大2アカウントに同時サインインし、会話・メモリ・設定・請求・ワークスペースを分離したまま切り替えられる。モバイル通知は両アカウントから受け取れる",
+      "publishedAt": "2026/10/31",
+      "sourcePublishedAt": "2026-10-31T14:42:26+09:00",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-01T06:59:08+09:00",
+      "verifiedAt": "2026-11-01T06:59:08+09:00",
+      "source": {
+        "label": "OpenAI Help Center / ChatGPT release notes",
+        "url": "https://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile"
+      }
+    },
+    {
+      "id": "claude-code-21316-20261101",
+      "eventKey": "anthropic-claude-code-v2-1-316-subagent-effort-gateway-controls-2026-10-31",
+      "category": "AI",
+      "score": 84,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 18,
+        "technicalImportance": 18,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "Claude Code 2.1.316、サブエージェントのeffort指定とGateway統制を追加",
+      "summary": "AnthropicがClaude Code v2.1.316を公開。サブエージェント既定effort、ultrathink無効化、Gatewayの共有グループ予算と階層ポリシーを追加し、終了時に残るシェルプロセスなどを修正。Opus 4.8のFast modeは11月30日削除予定",
+      "publishedAt": "2026/10/31",
+      "sourcePublishedAt": "2026-10-31T10:01:10+09:00",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-01T06:59:08+09:00",
+      "verifiedAt": "2026-11-01T06:59:08+09:00",
+      "source": {
+        "label": "Anthropic Claude Code / GitHub Releases",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"
+      }
+    },
+    {
+      "id": "uk-earned-settlement-rules-20261102",
+      "eventKey": "uk-earned-settlement-final-rules-2026-11-02",
+      "category": "Permanent Residency",
+      "score": 92,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "英国、永住の標準期間を10年へ延長する最終ルールを公表",
+      "summary": "英国政府は永住（settlement）の標準期間を5年から10年へ延長し、年収・職種に応じた3年または5年の短縮ルートと、違反時の最長20年を含むearned settlement制度を公表。高い英語力、税滞納なし、3年間の国民保険料拠出などを必須条件とし、2027年から施行する方針",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "UK Home Office / GOV.UK",
+        "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk"
+      }
+    },
+    {
+      "id": "sumitomo-scsk-sdv-digital-engineering-20261102",
+      "eventKey": "sumitomo-scsk-sdv-digital-engineering-service-2026-11-02",
+      "category": "SDV",
+      "score": 68,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 17,
+        "scale": 10,
+        "specificity": 9,
+        "novelty": 7
+      },
+      "title": "住友商事とSCSK、SDV開発を企画から検証まで一括支援",
+      "summary": "住友商事とSCSKが「SDVデジタルエンジニアリングサービス」を開始。車両コンセプト・要求仕様から設計、実装、システム統合、検証までを横断し、派生車種・機能の開発を支援する。SCSKは専任組織を新設し、2027年度にはデリバリーを含むエコシステム整備を進める",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "SCSK / 住友商事",
+        "url": "https://www.scsk.jp/news/2026/pdf/20261102_2.pdf"
+      }
+    },
+    {
+      "id": "claude-code-21317-20261104",
+      "eventKey": "anthropic-claude-code-v2-1-317-schedule-privacy-mcp-fixes-2026-11-03",
+      "category": "AI",
+      "score": 85,
+      "scoreBreakdown": {
+        "userImpact": 30,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "Claude Code 2.1.317、スケジュール権限表示とMCP接続を改善",
+      "summary": "AnthropicがClaude Code v2.1.317を公開。/scheduleで意図せず付与されたコネクタを警告して削除手順を示し、メールアドレスをWeb・シェルへ送る前の確認を追加。プロジェクトMCPが初回ターン後に切断される不具合や、既存セッションでeffortLevelが無視される問題も修正した",
+      "publishedAt": "2026/11/03",
+      "sourcePublishedAt": "2026-11-03T10:25:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-04T07:06:05+09:00",
+      "verifiedAt": "2026-11-04T07:06:05+09:00",
+      "source": {
+        "label": "Anthropic Claude Code / GitHub Releases",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "mercedes-mbos-all-new-models-20261029",
+      "eventKey": "mercedes-mbos-all-new-updated-models-ota-all-domains-2026-10-28",
+      "category": "SDV",
+      "score": 64,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 17,
+        "scale": 14,
+        "specificity": 7,
+        "novelty": 4
+      },
+      "title": "Mercedes-Benz、MB.OSを全新型・改良モデルへ展開",
+      "summary": "Mercedes-BenzはMB.OSをパワートレインを問わず全新型・改良モデルへ導入し、運転支援を含む全車両ドメインのOTA更新に対応すると説明。決算発表内の進捗確認で個別製品仕様は限定的なため参考掲載",
+      "publishedAt": "2026/10/28",
+      "firstSeenAt": "2026-10-29T07:02:52+09:00",
+      "verifiedAt": "2026-10-29T07:31:00+09:00",
+      "source": {
+        "label": "Mercedes-Benz",
+        "url": "https://media.mercedes-benz.com/en/article/300f16c7-24b3-4f6c-a00b-a037d8049c4f"
+      }
+    },
+    {
+      "id": "canada-express-entry-transport-453-20261029",
+      "eventKey": "canada-express-entry-round-453-transport-2026-10-28",
+      "category": "Residency",
+      "score": 63,
+      "title": "カナダExpress Entry、運輸職150人をCRS 477で招待",
+      "summary": "IRCCの第453回Express EntryはTransport Occupationsを対象に150件の永住申請招待を発行。最低CRSは477、同点時の基準時刻は2026年6月4日21:48:22 UTC。将来の恒久的な基準変更ではなく当該抽選結果のため参考掲載",
+      "publishedAt": "2026/10/28",
+      "firstSeenAt": "2026-10-29T07:02:52+09:00",
+      "verifiedAt": "2026-10-29T07:31:00+09:00",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds/invitations.html?q=453"
+      }
+    },
+    {
+      "id": "nissan-sema-sentra-z-concepts-20261028",
+      "eventKey": "nissan-sema-sentra-z-concepts-2026-10-28",
+      "category": "Nissan",
+      "score": 61,
+      "title": "日産、SEMAでSentra Spec-VとZのコンセプトを発表",
+      "summary": "米SEMAにSentra Spec-V、Zの競技車、初代ZをベースにしたDatsun S30のコンセプトを出展。Sentraは2.0Lターボ・300馬力、6速MT。いずれも展示用で市販は発表されていない",
+      "publishedAt": "2026/10/28",
+      "sourcePublishedAt": "2026-10-28T12:00:00Z",
+      "firstSeenAt": "2026-10-29T08:11:26+09:00",
+      "verifiedAt": "2026-10-29T08:11:26+09:00",
+      "source": {
+        "label": "日産米国公式",
+        "url": "https://usa.nissannews.com/en-US/releases/nissan-taps-into-enthusiast-culture-with-sentra-spec-v-concept-revival-two-z-concepts-at-sema"
+      },
+      "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/890886a666efd4dabc50ac313f45da84a74df406/thumbnail-720x404.jpg",
+      "thumbnailAlt": "日産 Sentra Spec-V コンセプト"
+    },
+    {
+      "id": "nissan-september-2026-sales-production-20261030",
+      "eventKey": "nissan-september-2026-sales-production-exports-results",
+      "category": "Nissan",
+      "score": 73,
+      "title": "日産、9月の世界販売10.2％減・生産17.8％減　日米販売は増加",
+      "summary": "日産の2026年9月実績は世界販売24万9,759台（前年同月比10.2％減）、世界生産22万2,615台（17.8％減）。日本販売は17.7％増、米国は10.4％増の一方、中国販売は61.6％減。4～9月累計の世界販売は11.8％減だった",
+      "publishedAt": "2026/10/29",
+      "sourcePublishedAt": "2026-10-29",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-10-30T07:11:10+09:00",
+      "verifiedAt": "2026-10-30T07:11:10+09:00",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/nissan-production-sales-exports-sep-2026?origin=channel-NNG244"
+      },
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/6e140c55951fd843a2ff0c3029357348a910561b",
+      "thumbnailAlt": "日産の2026年9月販売・生産・輸出実績"
+    },
+    {
+      "id": "nissan-rogue-hybrid-us-sale-20261031",
+      "eventKey": "nissan-2027-rogue-hybrid-us-sale-and-pricing-2026-10-30",
+      "category": "Nissan",
+      "score": 74,
+      "title": "日産、2027年型Rogue Hybridを米国で発売　e-POWERを初投入",
+      "summary": "日産が2027年型Rogue Hybridの米国発売を開始。限定仕様は11月下旬から店頭到着予定で、全グレードは2027年1月に展開する。米国初のe-POWER採用車で、EPA推定は市街地41mpg、複合38mpg。SVの価格は35,490ドルから",
+      "publishedAt": "2026/10/30",
+      "sourcePublishedAt": "2026-10-30",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-10-31T07:09:16+09:00",
+      "verifiedAt": "2026-10-31T07:09:16+09:00",
+      "source": {
+        "label": "Nissan USA Newsroom",
+        "url": "https://usa.nissannews.com/en-US/releases/all-new-2027-nissan-rogue-hybrid-goes-on-sale-in-us?origin=channel-2097"
+      },
+      "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/4edb80c2d10a89f375b0214da7843d6e0527ace3/thumbnail-720x404.jpg",
+      "thumbnailAlt": "2027年型Nissan Rogue Hybrid SRのフロント外観"
+    },
+    {
+      "id": "nissan-fukushima-namie-circular-partnership-20261102",
+      "eventKey": "nissan-six-company-fukushima-namie-circular-society-2026-11-02",
+      "category": "Nissan",
+      "score": 58,
+      "title": "日産など6社、福島・浪江で中古EVと電池の循環モデルを開始",
+      "summary": "日産を含む6社が福島県・浪江町と循環型社会に向けた連携協定を締結。中古EVを地域内に留め、電池の健全度診断、再利用・再資源化までをつなぐモデルを構築し、11月3日から個人向け中古EVリースを始める",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "日産自動車ニュースルーム",
+        "url": "https://global.nissannews.com/ja-JP/releases/261102-01-j"
+      }
+    },
+    {
+      "id": "nissan-roox-ota-stability-update-20261102",
+      "eventKey": "nissan-roox-nissanconnect-ota-282757tc7a-2026-11-02",
+      "category": "Nissan",
+      "topics": [
+        "SDV"
+      ],
+      "score": 55,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 14,
+        "scale": 8,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "title": "日産ルークス、11月11日から安定性向上OTAを配信",
+      "summary": "2025年10月以降発売のルークスで、対象ソフトウェアを282757TC7Aへ更新するOTAを11月11日から順次配信。所要時間は約25分で、車両によって最大2カ月程度の配信差がある",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "日産自動車 NissanConnect",
+        "url": "https://www3.nissan.co.jp/connect/information/roox_ccs2.html"
+      }
+    }
+  ]
+}
