@@ -1,14 +1,7 @@
 {
   "schema": "split-daily-v1",
-  "lastSuccessfulAt": "2026-11-03T07:06:51+09:00",
-  "lastAudit": "data/audits/2026-11-03-sdv.json",
-  "pendingBatch": {
-    "date": "2026-11-04",
-    "stagedAt": "2026-11-04T07:01:19+09:00",
-    "windowStart": "2026-11-01T07:06:51+09:00",
-    "publicationWindowStart": "2026-11-03T07:06:51+09:00",
-    "publicationWindowEnd": "2026-11-04T07:01:19+09:00",
-    "status": "staged"
-  },
-  "coverageWatermarkNote": "Actual end of the verified 2026-11-03 collection window; completion and later validation timestamps are recorded separately."
+  "lastSuccessfulAt": "2026-11-04T07:06:05+09:00",
+  "lastAudit": "data/audits/2026-11-04-sdv.json",
+  "pendingBatch": null,
+  "coverageWatermarkNote": "Actual end of the verified 2026-11-04 collection window; completion and later validation timestamps are recorded separately."
 }
