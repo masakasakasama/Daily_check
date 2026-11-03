@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-04",
+  "checkedAt": "2026-11-04T07:06:05+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news",
+    "https://usa.nissannews.com/en-US/channels/us-news?sortOrder=PublishedDescending",
+    "https://europe.nissannews.com/en-GB/channels/corporate",
+    "https://www.nissan-global.com/EN/IR/PERFORMANCE/RESULT/",
+    "https://www.nissanusa.com/owners/recalls-vin.html"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com/en/releases 2026-11-03 Nissan",
+      "recordedAt": "2026-11-04T07:06:05+09:00"
+    },
+    {
+      "query": "site:global.nissannews.com/ja-JP/releases 2026-11-03 日産",
+      "recordedAt": "2026-11-04T07:06:05+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com 2026-11-03 Nissan news",
+      "recordedAt": "2026-11-04T07:06:05+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com 2026-11-03 Nissan news",
+      "recordedAt": "2026-11-04T07:06:05+09:00"
+    },
+    {
+      "query": "Nissan November 3 2026 recall production management sales technology",
+      "recordedAt": "2026-11-04T07:06:05+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-sema-frontier-pathfinder-armada-concepts-2026-11-02",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts?origin=channel-270",
+      "sourcePublishedAt": "2026-11-02",
+      "firstSeenAt": "2026-11-04T07:06:05+09:00",
+      "bodyVerified": true,
+      "discoveredLate": true,
+      "decision": "late-audit-only",
+      "reason": "公式本文を確認したが、公開日は過去の日別掲載窓に属するため当日フィードへ掲載しない"
+    }
+  ]
+}
