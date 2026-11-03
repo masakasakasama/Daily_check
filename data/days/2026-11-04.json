@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-04",
+  "alerts": [
+    {
+      "id": "claude-code-21317-20261104",
+      "eventKey": "anthropic-claude-code-v2-1-317-schedule-privacy-mcp-fixes-2026-11-03",
+      "category": "AI",
+      "score": 85,
+      "scoreBreakdown": {
+        "userImpact": 30,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "Claude Code 2.1.317、スケジュール権限表示とMCP接続を改善",
+      "summary": "AnthropicがClaude Code v2.1.317を公開。/scheduleで意図せず付与されたコネクタを警告して削除手順を示し、メールアドレスをWeb・シェルへ送る前の確認を追加。プロジェクトMCPが初回ターン後に切断される不具合や、既存セッションでeffortLevelが無視される問題も修正した",
+      "publishedAt": "2026/11/03",
+      "sourcePublishedAt": "2026-11-03T10:25:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-04T07:06:05+09:00",
+      "verifiedAt": "2026-11-04T07:06:05+09:00",
+      "source": {
+        "label": "Anthropic Claude Code / GitHub Releases",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "主要AIサービスの公式発表と開発者向け更新を確認し、Claude Code更新を重要掲載",
+      "checkedAt": "2026-11-04T07:06:05+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX・コミュニティ経路を照合し、新規の利用枠回復・仕様変更・障害補償は確認されず",
+      "checkedAt": "2026-11-04T07:06:05+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "clear",
+      "summary": "6 funnelの通常24検索と固定公式巡回を完了。過去窓の候補は監査のみに保持し、当日掲載対象なし",
+      "checkedAt": "2026-11-04T07:06:05+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要国の公式経路を確認し、当日掲載対象となる永住条件の新規変更なし",
+      "checkedAt": "2026-11-04T07:06:05+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "公式各地域と報道を独立確認。SEMA発表は過去掲載窓の見落とし候補として監査に保持し、当日掲載なし",
+      "checkedAt": "2026-11-04T07:06:05+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
