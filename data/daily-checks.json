@@ -1,8 +1,102 @@
 {
   "version": 5,
-  "currentDate": "2026-11-04",
-  "updatedAt": "2026-11-04T07:06:05+09:00",
+  "currentDate": "2026-11-05",
+  "updatedAt": "2026-11-05T07:08:38+09:00",
   "days": [
+    {
+      "date": "2026-11-05",
+      "alerts": [
+        {
+          "id": "claude-code-21318-20261105",
+          "eventKey": "anthropic-claude-code-v2-1-318-reliability-auth-mcp-2026-11-04",
+          "category": "AI",
+          "score": 85,
+          "scoreBreakdown": {
+            "userImpact": 31,
+            "novelty": 18,
+            "technicalImportance": 17,
+            "specificityAvailability": 14,
+            "industryImpact": 5
+          },
+          "title": "Claude Code 2.1.318、会話・認証・MCPの信頼性を大幅改善",
+          "summary": "AnthropicがClaude Code v2.1.318を公開。modのモデル分岐にeffort指定を追加し、ログイン有効期限の表示・警告を改善。--continue時の会話消失、MCP起動・接続、macOS Bashの停止とメモリ増加、クラウド・バックグラウンド実行など多数の不具合も修正した",
+          "publishedAt": "2026/11/04",
+          "sourcePublishedAt": "2026-11-04T09:01:00+09:00",
+          "sourcePublishedAtPrecision": "minute",
+          "firstSeenAt": "2026-11-05T07:08:38+09:00",
+          "verifiedAt": "2026-11-05T07:08:38+09:00",
+          "source": {
+            "label": "Anthropic Claude Code / GitHub Releases",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "nissan-canada-ebay-parts-20261105",
+          "eventKey": "nissan-canada-ebay-parts-accessories-storefront-2026-11-04",
+          "category": "Nissan",
+          "title": "日産カナダ、eBayで純正部品・用品の直接販売を開始",
+          "summary": "日産カナダが自動車メーカーとして初めてeBay Canadaに専用ストアを開設。Nissan・INFINITIの純正部品と用品を地域販売店が発送し、eBay Guaranteed Fitと適合しない場合の30日以内無料返品に対応する",
+          "publishedAt": "2026/11/04",
+          "sourcePublishedAt": "2026-11-04",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-05T07:08:38+09:00",
+          "verifiedAt": "2026-11-05T07:08:38+09:00",
+          "source": {
+            "label": "Nissan Canada Newsroom",
+            "url": "https://canada.nissannews.com/en-CA/releases/nissan-canada-becomes-first-automaker-to-sell-parts-and-accessories-directly-on-ebay-canada"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "主要AIサービスの公式発表と開発者向け更新を確認し、Claude Code更新を重要掲載",
+          "checkedAt": "2026-11-05T07:08:38+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "clear",
+          "summary": "公式経路とX・コミュニティ経路を照合し、新規の利用枠回復・仕様変更・障害補償は確認されず",
+          "checkedAt": "2026-11-05T07:08:38+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "clear",
+          "summary": "6 funnelの通常24検索、固定公式巡回、追加12検索を完了。当日掲載対象なし",
+          "checkedAt": "2026-11-05T07:08:38+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "主要国の公式経路を確認し、当日掲載対象となる永住条件の新規変更なし",
+          "checkedAt": "2026-11-05T07:08:38+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "update",
+          "summary": "公式各地域と報道を独立確認し、カナダの純正部品販売チャネル拡大を参考掲載",
+          "checkedAt": "2026-11-05T07:08:38+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "alerts": [
@@ -667,168 +761,30 @@
           "referenceCount": 1
         }
       ]
-    },
-    {
-      "date": "2026-10-29",
-      "alerts": [
-        {
-          "id": "codex-day23-global-reset-20261029",
-          "eventKey": "codex-day23-global-reset-2026-10-28",
-          "category": "Codex",
-          "score": 98,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 19,
-            "specificityAvailability": 15,
-            "industryImpact": 9
-          },
-          "title": "Codex、Day 23で全体リセット完了",
-          "summary": "Codex責任者Tibo SottiauxがDay 23の利用枠リセットを告知し、その後「And it's done」と反映完了を報告。Settings → Usageで5時間枠・週次枠の回復を確認できる",
-          "publishedAt": "2026/10/28",
-          "sourcePublishedAt": "2026-10-28T06:29:00Z",
-          "firstSeenAt": "2026-10-29T07:02:52+09:00",
-          "verifiedAt": "2026-10-29T07:31:00+09:00",
-          "source": {
-            "label": "Tibo Sottiaux (OpenAI) / X",
-            "url": "https://x.com/thsottiaux/status/2115330127886463244"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "mercedes-mbos-all-new-models-20261029",
-          "eventKey": "mercedes-mbos-all-new-updated-models-ota-all-domains-2026-10-28",
-          "category": "SDV",
-          "score": 64,
-          "scoreBreakdown": {
-            "sdvDirectness": 22,
-            "practicalImpact": 17,
-            "scale": 14,
-            "specificity": 7,
-            "novelty": 4
-          },
-          "title": "Mercedes-Benz、MB.OSを全新型・改良モデルへ展開",
-          "summary": "Mercedes-BenzはMB.OSをパワートレインを問わず全新型・改良モデルへ導入し、運転支援を含む全車両ドメインのOTA更新に対応すると説明。決算発表内の進捗確認で個別製品仕様は限定的なため参考掲載",
-          "publishedAt": "2026/10/28",
-          "firstSeenAt": "2026-10-29T07:02:52+09:00",
-          "verifiedAt": "2026-10-29T07:31:00+09:00",
-          "source": {
-            "label": "Mercedes-Benz",
-            "url": "https://media.mercedes-benz.com/en/article/300f16c7-24b3-4f6c-a00b-a037d8049c4f"
-          }
-        },
-        {
-          "id": "canada-express-entry-transport-453-20261029",
-          "eventKey": "canada-express-entry-round-453-transport-2026-10-28",
-          "category": "Residency",
-          "score": 63,
-          "title": "カナダExpress Entry、運輸職150人をCRS 477で招待",
-          "summary": "IRCCの第453回Express EntryはTransport Occupationsを対象に150件の永住申請招待を発行。最低CRSは477、同点時の基準時刻は2026年6月4日21:48:22 UTC。将来の恒久的な基準変更ではなく当該抽選結果のため参考掲載",
-          "publishedAt": "2026/10/28",
-          "firstSeenAt": "2026-10-29T07:02:52+09:00",
-          "verifiedAt": "2026-10-29T07:31:00+09:00",
-          "source": {
-            "label": "Immigration, Refugees and Citizenship Canada",
-            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds/invitations.html?q=453"
-          }
-        },
-        {
-          "id": "nissan-sema-sentra-z-concepts-20261028",
-          "eventKey": "nissan-sema-sentra-z-concepts-2026-10-28",
-          "category": "Nissan",
-          "score": 61,
-          "title": "日産、SEMAでSentra Spec-VとZのコンセプトを発表",
-          "summary": "米SEMAにSentra Spec-V、Zの競技車、初代ZをベースにしたDatsun S30のコンセプトを出展。Sentraは2.0Lターボ・300馬力、6速MT。いずれも展示用で市販は発表されていない",
-          "publishedAt": "2026/10/28",
-          "sourcePublishedAt": "2026-10-28T12:00:00Z",
-          "firstSeenAt": "2026-10-29T08:11:26+09:00",
-          "verifiedAt": "2026-10-29T08:11:26+09:00",
-          "source": {
-            "label": "日産米国公式",
-            "url": "https://usa.nissannews.com/en-US/releases/nissan-taps-into-enthusiast-culture-with-sentra-spec-v-concept-revival-two-z-concepts-at-sema"
-          },
-          "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/890886a666efd4dabc50ac313f45da84a74df406/thumbnail-720x404.jpg",
-          "thumbnailAlt": "日産 Sentra Spec-V コンセプト"
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "clear",
-          "summary": "OpenAI・Anthropic・Google・GitHubの公式発表を確認。一般利用を直接変える75点以上の新規AIイベントなし",
-          "checkedAt": "2026-10-29T07:31:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 0,
-          "revalidatedAt": "2026-10-30T07:10:38+09:00",
-          "revalidationEvidence": "data/recovery/2026-10-30-timestamp-revalidation.json"
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "Day 23の利用枠リセット完了を確認",
-          "checkedAt": "2026-10-29T08:11:26+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "update",
-          "summary": "6 funnelの通常24検索とDeep Scan 12検索を完了。raw候補14件を本文・公開日・重複で判定し、Mercedes-BenzのMB.OS展開を参考掲載",
-          "checkedAt": "2026-10-29T07:31:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 1,
-          "revalidatedAt": "2026-10-30T07:10:38+09:00",
-          "revalidationEvidence": "data/recovery/2026-10-30-timestamp-revalidation.json"
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "update",
-          "summary": "米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。カナダExpress Entry第453回を参考掲載",
-          "checkedAt": "2026-10-29T07:31:00+09:00",
-          "alertCount": 0,
-          "referenceCount": 1,
-          "revalidatedAt": "2026-10-30T07:10:38+09:00",
-          "revalidationEvidence": "data/recovery/2026-10-30-timestamp-revalidation.json"
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "update",
-          "summary": "新車・技術・生産・経営をSDVに限定せず確認。SEMA出展を参考掲載",
-          "checkedAt": "2026-10-29T08:11:26+09:00",
-          "alertCount": 0,
-          "referenceCount": 1
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-10-29",
-      "end": "2026-11-04",
-      "generatedAt": "2026-11-04T07:06:05+09:00",
+      "start": "2026-10-30",
+      "end": "2026-11-05",
+      "generatedAt": "2026-11-05T07:08:38+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
         "important": 12,
-        "reference": 7
+        "reference": 5
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要4件・参考0件"
+          "summary": "重要5件・参考0件"
         },
         {
           "name": "Codex",
-          "summary": "重要4件・参考0件"
+          "summary": "重要3件・参考0件"
         },
         {
           "name": "SDV",
-          "summary": "重要3件・参考1件"
+          "summary": "重要3件・参考0件"
         },
         {
           "name": "Permanent Residency",
@@ -840,29 +796,6 @@
         }
       ],
       "highlights": [
-        {
-          "id": "codex-day23-global-reset-20261029",
-          "eventKey": "codex-day23-global-reset-2026-10-28",
-          "category": "Codex",
-          "score": 98,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 19,
-            "specificityAvailability": 15,
-            "industryImpact": 9
-          },
-          "title": "Codex、Day 23で全体リセット完了",
-          "summary": "Codex責任者Tibo SottiauxがDay 23の利用枠リセットを告知し、その後「And it's done」と反映完了を報告。Settings → Usageで5時間枠・週次枠の回復を確認できる",
-          "publishedAt": "2026/10/28",
-          "sourcePublishedAt": "2026-10-28T06:29:00Z",
-          "firstSeenAt": "2026-10-29T07:02:52+09:00",
-          "verifiedAt": "2026-10-29T07:31:00+09:00",
-          "source": {
-            "label": "Tibo Sottiaux (OpenAI) / X",
-            "url": "https://x.com/thsottiaux/status/2115330127886463244"
-          }
-        },
         {
           "id": "codex-pro-business-usage-limits-doubled-20261030",
           "eventKey": "codex-pro-business-premium-usage-limits-doubled-2026-10-29",
@@ -1125,64 +1058,33 @@
             "label": "Anthropic Claude Code / GitHub Releases",
             "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"
           }
+        },
+        {
+          "id": "claude-code-21318-20261105",
+          "eventKey": "anthropic-claude-code-v2-1-318-reliability-auth-mcp-2026-11-04",
+          "category": "AI",
+          "score": 85,
+          "scoreBreakdown": {
+            "userImpact": 31,
+            "novelty": 18,
+            "technicalImportance": 17,
+            "specificityAvailability": 14,
+            "industryImpact": 5
+          },
+          "title": "Claude Code 2.1.318、会話・認証・MCPの信頼性を大幅改善",
+          "summary": "AnthropicがClaude Code v2.1.318を公開。modのモデル分岐にeffort指定を追加し、ログイン有効期限の表示・警告を改善。--continue時の会話消失、MCP起動・接続、macOS Bashの停止とメモリ増加、クラウド・バックグラウンド実行など多数の不具合も修正した",
+          "publishedAt": "2026/11/04",
+          "sourcePublishedAt": "2026-11-04T09:01:00+09:00",
+          "sourcePublishedAtPrecision": "minute",
+          "firstSeenAt": "2026-11-05T07:08:38+09:00",
+          "verifiedAt": "2026-11-05T07:08:38+09:00",
+          "source": {
+            "label": "Anthropic Claude Code / GitHub Releases",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
+          }
         }
       ],
       "references": [
-        {
-          "id": "mercedes-mbos-all-new-models-20261029",
-          "eventKey": "mercedes-mbos-all-new-updated-models-ota-all-domains-2026-10-28",
-          "category": "SDV",
-          "score": 64,
-          "scoreBreakdown": {
-            "sdvDirectness": 22,
-            "practicalImpact": 17,
-            "scale": 14,
-            "specificity": 7,
-            "novelty": 4
-          },
-          "title": "Mercedes-Benz、MB.OSを全新型・改良モデルへ展開",
-          "summary": "Mercedes-BenzはMB.OSをパワートレインを問わず全新型・改良モデルへ導入し、運転支援を含む全車両ドメインのOTA更新に対応すると説明。決算発表内の進捗確認で個別製品仕様は限定的なため参考掲載",
-          "publishedAt": "2026/10/28",
-          "firstSeenAt": "2026-10-29T07:02:52+09:00",
-          "verifiedAt": "2026-10-29T07:31:00+09:00",
-          "source": {
-            "label": "Mercedes-Benz",
-            "url": "https://media.mercedes-benz.com/en/article/300f16c7-24b3-4f6c-a00b-a037d8049c4f"
-          }
-        },
-        {
-          "id": "canada-express-entry-transport-453-20261029",
-          "eventKey": "canada-express-entry-round-453-transport-2026-10-28",
-          "category": "Residency",
-          "score": 63,
-          "title": "カナダExpress Entry、運輸職150人をCRS 477で招待",
-          "summary": "IRCCの第453回Express EntryはTransport Occupationsを対象に150件の永住申請招待を発行。最低CRSは477、同点時の基準時刻は2026年6月4日21:48:22 UTC。将来の恒久的な基準変更ではなく当該抽選結果のため参考掲載",
-          "publishedAt": "2026/10/28",
-          "firstSeenAt": "2026-10-29T07:02:52+09:00",
-          "verifiedAt": "2026-10-29T07:31:00+09:00",
-          "source": {
-            "label": "Immigration, Refugees and Citizenship Canada",
-            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds/invitations.html?q=453"
-          }
-        },
-        {
-          "id": "nissan-sema-sentra-z-concepts-20261028",
-          "eventKey": "nissan-sema-sentra-z-concepts-2026-10-28",
-          "category": "Nissan",
-          "score": 61,
-          "title": "日産、SEMAでSentra Spec-VとZのコンセプトを発表",
-          "summary": "米SEMAにSentra Spec-V、Zの競技車、初代ZをベースにしたDatsun S30のコンセプトを出展。Sentraは2.0Lターボ・300馬力、6速MT。いずれも展示用で市販は発表されていない",
-          "publishedAt": "2026/10/28",
-          "sourcePublishedAt": "2026-10-28T12:00:00Z",
-          "firstSeenAt": "2026-10-29T08:11:26+09:00",
-          "verifiedAt": "2026-10-29T08:11:26+09:00",
-          "source": {
-            "label": "日産米国公式",
-            "url": "https://usa.nissannews.com/en-US/releases/nissan-taps-into-enthusiast-culture-with-sentra-spec-v-concept-revival-two-z-concepts-at-sema"
-          },
-          "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/890886a666efd4dabc50ac313f45da84a74df406/thumbnail-720x404.jpg",
-          "thumbnailAlt": "日産 Sentra Spec-V コンセプト"
-        },
         {
           "id": "nissan-september-2026-sales-production-20261030",
           "eventKey": "nissan-september-2026-sales-production-exports-results",
@@ -1263,6 +1165,22 @@
           "source": {
             "label": "日産自動車 NissanConnect",
             "url": "https://www3.nissan.co.jp/connect/information/roox_ccs2.html"
+          }
+        },
+        {
+          "id": "nissan-canada-ebay-parts-20261105",
+          "eventKey": "nissan-canada-ebay-parts-accessories-storefront-2026-11-04",
+          "category": "Nissan",
+          "title": "日産カナダ、eBayで純正部品・用品の直接販売を開始",
+          "summary": "日産カナダが自動車メーカーとして初めてeBay Canadaに専用ストアを開設。Nissan・INFINITIの純正部品と用品を地域販売店が発送し、eBay Guaranteed Fitと適合しない場合の30日以内無料返品に対応する",
+          "publishedAt": "2026/11/04",
+          "sourcePublishedAt": "2026-11-04",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-05T07:08:38+09:00",
+          "verifiedAt": "2026-11-05T07:08:38+09:00",
+          "source": {
+            "label": "Nissan Canada Newsroom",
+            "url": "https://canada.nissannews.com/en-CA/releases/nissan-canada-becomes-first-automaker-to-sell-parts-and-accessories-directly-on-ebay-canada"
           }
         }
       ]
