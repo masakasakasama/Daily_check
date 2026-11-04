@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-05",
+  "checkedAt": "2026-11-05T07:08:38+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news",
+    "https://usa.nissannews.com/en-US/channels/us-news?sortOrder=PublishedDescending",
+    "https://europe.nissannews.com/en-GB/channels/corporate",
+    "https://canada.nissannews.com/en-CA/channels/news-releases",
+    "https://www.nissan-global.com/EN/IR/PERFORMANCE/RESULT/"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com/en/releases 2026-11-04 Nissan",
+      "recordedAt": "2026-11-05T07:08:38+09:00"
+    },
+    {
+      "query": "site:global.nissannews.com/ja-JP/releases 2026-11-04 日産",
+      "recordedAt": "2026-11-05T07:08:38+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com 2026-11-04 Nissan news",
+      "recordedAt": "2026-11-05T07:08:38+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com 2026-11-04 Nissan news",
+      "recordedAt": "2026-11-05T07:08:38+09:00"
+    },
+    {
+      "query": "site:canada.nissannews.com 2026-11-04 Nissan",
+      "recordedAt": "2026-11-05T07:08:38+09:00"
+    },
+    {
+      "query": "Nissan November 4 2026 recall production management sales technology",
+      "recordedAt": "2026-11-05T07:08:38+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-canada-ebay-parts-accessories-storefront-2026-11-04",
+      "sourceUrl": "https://canada.nissannews.com/en-CA/releases/nissan-canada-becomes-first-automaker-to-sell-parts-and-accessories-directly-on-ebay-canada",
+      "sourcePublishedAt": "2026-11-04",
+      "firstSeenAt": "2026-11-05T07:08:38+09:00",
+      "bodyVerified": true,
+      "decision": "adopted-reference",
+      "reason": "公式本文で専用eBayストア、対象ブランド、販売店発送、適合保証と返品条件を確認。掲載窓内の新規販売チャネル拡大として参考採用"
+    },
+    {
+      "eventKey": "nissan-elgrand-good-design-award-2026-11-04",
+      "sourceUrl": "https://global.nissannews.com/en/releases/261104-01-e",
+      "sourcePublishedAt": "2026-11-04",
+      "firstSeenAt": "2026-11-05T07:08:38+09:00",
+      "bodyVerified": true,
+      "decision": "excluded",
+      "reason": "公式本文で受賞を確認したが、利用者・事業への直接的な新変更ではなく、件数を稼がない方針で非掲載"
+    }
+  ]
+}
