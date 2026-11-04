@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-05",
+  "alerts": [
+    {
+      "id": "claude-code-21318-20261105",
+      "eventKey": "anthropic-claude-code-v2-1-318-reliability-auth-mcp-2026-11-04",
+      "category": "AI",
+      "score": 85,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "Claude Code 2.1.318、会話・認証・MCPの信頼性を大幅改善",
+      "summary": "AnthropicがClaude Code v2.1.318を公開。modのモデル分岐にeffort指定を追加し、ログイン有効期限の表示・警告を改善。--continue時の会話消失、MCP起動・接続、macOS Bashの停止とメモリ増加、クラウド・バックグラウンド実行など多数の不具合も修正した",
+      "publishedAt": "2026/11/04",
+      "sourcePublishedAt": "2026-11-04T09:01:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-05T07:08:38+09:00",
+      "verifiedAt": "2026-11-05T07:08:38+09:00",
+      "source": {
+        "label": "Anthropic Claude Code / GitHub Releases",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "nissan-canada-ebay-parts-20261105",
+      "eventKey": "nissan-canada-ebay-parts-accessories-storefront-2026-11-04",
+      "category": "Nissan",
+      "title": "日産カナダ、eBayで純正部品・用品の直接販売を開始",
+      "summary": "日産カナダが自動車メーカーとして初めてeBay Canadaに専用ストアを開設。Nissan・INFINITIの純正部品と用品を地域販売店が発送し、eBay Guaranteed Fitと適合しない場合の30日以内無料返品に対応する",
+      "publishedAt": "2026/11/04",
+      "sourcePublishedAt": "2026-11-04",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-05T07:08:38+09:00",
+      "verifiedAt": "2026-11-05T07:08:38+09:00",
+      "source": {
+        "label": "Nissan Canada Newsroom",
+        "url": "https://canada.nissannews.com/en-CA/releases/nissan-canada-becomes-first-automaker-to-sell-parts-and-accessories-directly-on-ebay-canada"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "主要AIサービスの公式発表と開発者向け更新を確認し、Claude Code更新を重要掲載",
+      "checkedAt": "2026-11-05T07:08:38+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX・コミュニティ経路を照合し、新規の利用枠回復・仕様変更・障害補償は確認されず",
+      "checkedAt": "2026-11-05T07:08:38+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "clear",
+      "summary": "6 funnelの通常24検索、固定公式巡回、追加12検索を完了。当日掲載対象なし",
+      "checkedAt": "2026-11-05T07:08:38+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要国の公式経路を確認し、当日掲載対象となる永住条件の新規変更なし",
+      "checkedAt": "2026-11-05T07:08:38+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "公式各地域と報道を独立確認し、カナダの純正部品販売チャネル拡大を参考掲載",
+      "checkedAt": "2026-11-05T07:08:38+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    }
+  ]
+}
