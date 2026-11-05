@@ -2,6 +2,13 @@
   "schema": "split-daily-v1",
   "lastSuccessfulAt": "2026-11-05T07:08:38+09:00",
   "lastAudit": "data/audits/2026-11-05-sdv.json",
-  "pendingBatch": null,
+  "pendingBatch": {
+    "date": "2026-11-06",
+    "stagedAt": "2026-11-06T07:02:42+09:00",
+    "windowStart": "2026-11-03T07:08:38+09:00",
+    "publicationWindowStart": "2026-11-05T07:08:38+09:00",
+    "publicationWindowEnd": "2026-11-06T07:02:42+09:00",
+    "status": "staged"
+  },
   "coverageWatermarkNote": "Actual end of the verified 2026-11-05 collection window; completion and later validation timestamps are recorded separately."
 }
