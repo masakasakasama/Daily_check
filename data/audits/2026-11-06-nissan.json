@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-06",
+  "checkedAt": "2026-11-06T07:11:26+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://www.nissan.co.jp/",
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news",
+    "https://usa.nissannews.com/en-US/channels/us-news?sortOrder=PublishedDescending",
+    "https://europe.nissannews.com/en-GB/channels/corporate",
+    "https://canada.nissannews.com/en-CA/channels/news-releases"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com 2026-11-05 Nissan",
+      "recordedAt": "2026-11-06T07:11:26+09:00"
+    },
+    {
+      "query": "site:nissan.co.jp 2026-11-05 セレナ",
+      "recordedAt": "2026-11-06T07:11:26+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com 2026-11-05 Nissan news",
+      "recordedAt": "2026-11-06T07:11:26+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com 2026-11-05 Nissan",
+      "recordedAt": "2026-11-06T07:11:26+09:00"
+    },
+    {
+      "query": "site:canada.nissannews.com 2026-11-05 Nissan",
+      "recordedAt": "2026-11-06T07:11:26+09:00"
+    },
+    {
+      "query": "Nissan November 5 2026 recall production management sales technology",
+      "recordedAt": "2026-11-06T07:11:26+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-serena-spec-update-black-edition-price-cut-2026-11-05",
+      "sourceUrl": "https://response.jp/article/2026/11/05/418655.html",
+      "sourcePublishedAt": "2026-11-05T18:30:00+09:00",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "bodyVerified": true,
+      "decision": "adopted-reference",
+      "reason": "日産公式トップの新着と本文報道で仕様変更、装備、価格、限定車を確認。掲載窓内の新しい商品改良として参考採用"
+    },
+    {
+      "eventKey": "nissan-serena-autech-related-variant-2026-11-05",
+      "sourceUrl": "https://response.jp/article/2026/11/05/418655.html",
+      "sourcePublishedAt": "2026-11-05T18:30:00+09:00",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "bodyVerified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-serena-spec-update-black-edition-price-cut-2026-11-05",
+      "reason": "同日のセレナ一部改良に伴う派生車資料で、同一イベントへ統合"
+    },
+    {
+      "eventKey": "jasa-sdx-platform-committee-launch-10-companies-2026-11-05",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000006.000172759.html",
+      "sourcePublishedAt": "2026-11-05T10:30:00+09:00",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "bodyVerified": true,
+      "decision": "covered-by-sdv",
+      "reason": "日産が参画する新規発表だが、SDVカテゴリの記事として一度だけ掲載し重複を作らない"
+    }
+  ]
+}
