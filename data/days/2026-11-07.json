@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-07",
+  "alerts": [
+    {
+      "id": "valeo-qnx-smart-camera-platform-20261107",
+      "eventKey": "valeo-qnx-front-view-smart-camera-platform-2026-11-06",
+      "category": "SDV",
+      "score": 83,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 20,
+        "scale": 14,
+        "specificity": 14,
+        "novelty": 14
+      },
+      "title": "ValeoとQNX、量産対応の前方スマートカメラ基盤を発表",
+      "summary": "Valeoの新しい前方スマートカメラに安全認証済みQNX OS for Safetyを統合。中国の複数自動車メーカーで採用が決まり、2026年中の量産開始を予定する。AI処理と決定論的なリアルタイム動作を組み合わせ、複数車種へ展開できるADAS基盤とした",
+      "publishedAt": "2026/11/06",
+      "sourcePublishedAt": "2026-11-06",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-07T07:06:28+09:00",
+      "verifiedAt": "2026-11-07T07:06:28+09:00",
+      "thumbnail": "https://delivery-p151589-e1582228.adobeaemcloud.com/adobe/assets/urn:aaid:aem:b6878a32-9a54-4eb6-a45e-c4088223bd03/as/qnx_abstract_patterns_1920x1080_16.avif",
+      "source": {
+        "label": "QNX",
+        "url": "https://qnx.software/en/press-release/2026/valeo-and-qnx-unveil-a-new-smart-camera-platform"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "公式発表と主要製品更新を確認し、当日掲載対象となる新規変更なし",
+      "checkedAt": "2026-11-07T07:06:28+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX・コミュニティ経路を照合し、確認可能な新規リセット・利用枠変更なし",
+      "checkedAt": "2026-11-07T07:06:28+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "QNXとValeoの量産対応スマートカメラ基盤を重要掲載",
+      "checkedAt": "2026-11-07T07:06:28+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要国の公式経路を確認し、当日掲載窓の新規条件変更なし",
+      "checkedAt": "2026-11-07T07:06:28+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "公式・地域ニュースと信頼できる報道を独立確認し、当日掲載対象の新規発表なし",
+      "checkedAt": "2026-11-07T07:06:28+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
