@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-07",
+  "checkedAt": "2026-11-07T07:06:28+09:00",
+  "windowStart": "2026-11-04T07:11:26+09:00",
+  "publicationWindowStart": "2026-11-06T07:11:26+09:00",
+  "publicationWindowEnd": "2026-11-07T07:06:28+09:00",
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "anthropic-claude-personal-finance-plaid-beta-2026-11-05",
+      "sourceUrl": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+      "sourcePublishedAt": "2026-11-05",
+      "firstSeenAt": "2026-11-07T07:06:28+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "late-audit-only",
+      "reason": "米国Pro/Max/Ultra向けの実用機能だが、原公開日が通常掲載窓より前のため当日フィードへ掲載しない"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-2027-2029-levels-plan-time-limited-200k-2026-11-05",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/building-a-stronger-canada-through-a-well-managed-predictable-immigration-system.html",
+      "sourcePublishedAt": "2026-11-05",
+      "firstSeenAt": "2026-11-07T07:06:28+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "late-audit-only",
+      "reason": "永住受入38万人維持と国内滞在者最大20万人の時限措置を本文確認したが、原公開日が通常掲載窓より前のため当日フィードへ掲載しない"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "unconfirmed-shuriken-codex-full-reset-2026-11-06",
+      "sourceUrl": "https://shuriken.sh/tools/limit-resets/codex",
+      "firstSeenAt": "2026-11-07T07:06:28+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "decision": "excluded",
+      "reason": "単独トラッカーはFull reset liveと表示したが、公開発表集約と複数独立トラッカーは11月6日の新規リセットなしとしており、公式・複数利用者の確認を得られない"
+    }
+  ]
+}
