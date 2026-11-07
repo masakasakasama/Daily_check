@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-08",
+  "alerts": [],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "主要製品の公式発表・変更履歴を確認し、当日掲載窓の新規変更なし",
+      "checkedAt": "2026-11-08T07:02:42+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX・コミュニティ経路を照合し、確認可能な新規リセット・利用枠変更なし",
+      "checkedAt": "2026-11-08T07:02:42+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "clear",
+      "summary": "6領域の公式巡回と概念検索を実施し、当日掲載基準を満たす新規発表なし",
+      "checkedAt": "2026-11-08T07:02:42+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要国の公式経路を確認し、当日掲載窓の新規条件変更なし",
+      "checkedAt": "2026-11-08T07:02:42+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "公式・地域ニュースと信頼できる報道を独立確認し、当日掲載対象の新規発表なし",
+      "checkedAt": "2026-11-08T07:02:42+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
