@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-08",
+  "checkedAt": "2026-11-08T07:02:42+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://www.nissan.co.jp/",
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases?sortOrder=PublishedDescending",
+    "https://usa.nissannews.com/en-US",
+    "https://europe.nissannews.com/en-GB",
+    "https://canada.nissannews.com/en-CA/channels/news-releases"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com 2026/11/07 Nissan",
+      "recordedAt": "2026-11-08T07:02:42+09:00"
+    },
+    {
+      "query": "site:nissan.co.jp 2026年11月7日 日産",
+      "recordedAt": "2026-11-08T07:02:42+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 7 2026 Nissan",
+      "recordedAt": "2026-11-08T07:02:42+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 7 2026 Nissan",
+      "recordedAt": "2026-11-08T07:02:42+09:00"
+    },
+    {
+      "query": "site:canada.nissannews.com November 7 2026 Nissan",
+      "recordedAt": "2026-11-08T07:02:42+09:00"
+    },
+    {
+      "query": "Nissan November 7 2026 recall production management sales technology",
+      "recordedAt": "2026-11-08T07:02:42+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-matt-ericson-us-product-marketing-2026-11-05",
+      "sourceUrl": "https://usa.nissannews.com/en-US/channels/us-united-states-nissan-homepage-featured?selectedTabId=us-united-states-nissan-homepage-featured-releases",
+      "sourcePublishedAt": "2026-11-05",
+      "firstSeenAt": "2026-11-08T07:02:42+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "late-audit-only",
+      "reason": "米国人事発表は通常掲載窓より前であり当日フィードへ混入させない"
+    },
+    {
+      "eventKey": "nissan-no-new-release-2026-11-07",
+      "sourceUrl": "https://global.nissannews.com/ja-JP/channels/news-releases?sortOrder=PublishedDescending",
+      "firstSeenAt": "2026-11-08T07:02:42+09:00",
+      "bodyVerified": true,
+      "decision": "excluded",
+      "reason": "公式各地域と報道を確認したが、掲載窓内の独立した新規発表なし"
+    }
+  ]
+}
