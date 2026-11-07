@@ -1,8 +1,60 @@
 {
   "version": 5,
-  "currentDate": "2026-11-07",
-  "updatedAt": "2026-11-07T07:06:28+09:00",
+  "currentDate": "2026-11-08",
+  "updatedAt": "2026-11-08T07:02:42+09:00",
   "days": [
+    {
+      "date": "2026-11-08",
+      "alerts": [],
+      "references": [],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "主要製品の公式発表・変更履歴を確認し、当日掲載窓の新規変更なし",
+          "checkedAt": "2026-11-08T07:02:42+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "clear",
+          "summary": "公式経路とX・コミュニティ経路を照合し、確認可能な新規リセット・利用枠変更なし",
+          "checkedAt": "2026-11-08T07:02:42+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "clear",
+          "summary": "6領域の公式巡回と概念検索を実施し、当日掲載基準を満たす新規発表なし",
+          "checkedAt": "2026-11-08T07:02:42+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "主要国の公式経路を確認し、当日掲載窓の新規条件変更なし",
+          "checkedAt": "2026-11-08T07:02:42+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "clear",
+          "summary": "公式・地域ニュースと信頼できる報道を独立確認し、当日掲載対象の新規発表なし",
+          "checkedAt": "2026-11-08T07:02:42+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-11-07",
       "alerts": [
@@ -605,175 +657,26 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-11-01",
-      "alerts": [
-        {
-          "id": "openai-shared-chatgpt-codex-allowance-20261101",
-          "eventKey": "openai-plus-pro-business-shared-chatgpt-codex-token-allowance-december-2026",
-          "category": "Codex",
-          "score": 95,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "ChatGPTとCodex、12月から共通のトークン利用枠へ",
-          "summary": "OpenAIはPlus・Pro・Businessで、12月からChatGPTとCodexの利用枠を統合しトークン単位で計測すると案内。Instant chatは対象外で、残量とリセット時刻はSettings → Usageにまとめて表示される。具体的な開始日とプラン別トークン量は未公表",
-          "publishedAt": "2026/10/31",
-          "sourcePublishedAt": "2026-10-31",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-01T06:59:08+09:00",
-          "verifiedAt": "2026-11-01T06:59:08+09:00",
-          "source": {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
-          }
-        },
-        {
-          "id": "codex-two-banked-resets-announced-20261101",
-          "eventKey": "codex-day26-two-banked-resets-announced-2026-10-31",
-          "category": "Codex",
-          "score": 92,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 16,
-            "specificityAvailability": 13,
-            "industryImpact": 8
-          },
-          "title": "Codex、残り2日でbanked reset付与を予告",
-          "summary": "Codex責任者Tibo Sottiauxが28日企画の残り2日をbanked resetにすると告知。banked resetは受領後に利用者がSettings → UsageまたはCLIから任意に適用する保存型リセットで、対象・配布時刻・有効期限はアカウント表示の確認が必要。複数の独立トラッカーでは初回着弾を報告している",
-          "publishedAt": "2026/10/31",
-          "sourcePublishedAt": "2026-10-31T14:42:26+09:00",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-01T06:59:08+09:00",
-          "verifiedAt": "2026-11-01T06:59:08+09:00",
-          "source": {
-            "label": "Tibo Sottiaux (OpenAI) / X",
-            "url": "https://x.com/thsottiaux/status/2116405414921384099"
-          }
-        },
-        {
-          "id": "chatgpt-mobile-account-switching-20261101",
-          "eventKey": "openai-chatgpt-ios-android-two-account-switching-2026-10-30",
-          "category": "AI",
-          "score": 80,
-          "scoreBreakdown": {
-            "userImpact": 28,
-            "novelty": 18,
-            "technicalImportance": 14,
-            "specificityAvailability": 15,
-            "industryImpact": 5
-          },
-          "title": "ChatGPT、iOS・Androidで2アカウント切り替えに対応",
-          "summary": "ChatGPTのiOS・Androidアプリでアカウント切り替えを順次提供。最大2アカウントに同時サインインし、会話・メモリ・設定・請求・ワークスペースを分離したまま切り替えられる。モバイル通知は両アカウントから受け取れる",
-          "publishedAt": "2026/10/31",
-          "sourcePublishedAt": "2026-10-31T14:42:26+09:00",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-01T06:59:08+09:00",
-          "verifiedAt": "2026-11-01T06:59:08+09:00",
-          "source": {
-            "label": "OpenAI Help Center / ChatGPT release notes",
-            "url": "https://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile"
-          }
-        },
-        {
-          "id": "claude-code-21316-20261101",
-          "eventKey": "anthropic-claude-code-v2-1-316-subagent-effort-gateway-controls-2026-10-31",
-          "category": "AI",
-          "score": 84,
-          "scoreBreakdown": {
-            "userImpact": 29,
-            "novelty": 18,
-            "technicalImportance": 18,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "Claude Code 2.1.316、サブエージェントのeffort指定とGateway統制を追加",
-          "summary": "AnthropicがClaude Code v2.1.316を公開。サブエージェント既定effort、ultrathink無効化、Gatewayの共有グループ予算と階層ポリシーを追加し、終了時に残るシェルプロセスなどを修正。Opus 4.8のFast modeは11月30日削除予定",
-          "publishedAt": "2026/10/31",
-          "sourcePublishedAt": "2026-10-31T10:01:10+09:00",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-01T06:59:08+09:00",
-          "verifiedAt": "2026-11-01T06:59:08+09:00",
-          "source": {
-            "label": "Anthropic Claude Code / GitHub Releases",
-            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"
-          }
-        }
-      ],
-      "references": [],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "OpenAI・Anthropic・Google・GitHubの公式発表を確認し、アカウント切替とClaude Code更新を重要掲載",
-          "checkedAt": "2026-11-01T06:59:08+09:00",
-          "alertCount": 2,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "公式Help・Release Notes・Developers・StatusとX・コミュニティ経路を確認し、利用枠統合とbanked reset予告を重要掲載",
-          "checkedAt": "2026-11-01T06:59:08+09:00",
-          "alertCount": 2,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "clear",
-          "summary": "6 funnelの通常24検索、固定公式巡回、追加12検索を実施し、本文・公開日・重複を確認。新規掲載対象なし",
-          "checkedAt": "2026-11-01T06:59:08+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "日本・米国・カナダ・英国・ドイツ・豪州・NZの公式経路を確認。通常掲載窓の制度変更なし",
-          "checkedAt": "2026-11-01T06:59:08+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "clear",
-          "summary": "新車・技術・リコール・生産・経営・人事・販売を公式各地域と報道で独立確認し、新規掲載対象なし",
-          "checkedAt": "2026-11-01T06:59:08+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-11-01",
-      "end": "2026-11-07",
-      "generatedAt": "2026-11-07T07:06:28+09:00",
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "generatedAt": "2026-11-08T07:02:42+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 11,
+        "important": 7,
         "reference": 5
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要5件・参考1件"
+          "summary": "重要3件・参考1件"
         },
         {
           "name": "Codex",
-          "summary": "重要2件・参考0件"
+          "summary": "重要0件・参考0件"
         },
         {
           "name": "SDV",
@@ -789,102 +692,6 @@
         }
       ],
       "highlights": [
-        {
-          "id": "openai-shared-chatgpt-codex-allowance-20261101",
-          "eventKey": "openai-plus-pro-business-shared-chatgpt-codex-token-allowance-december-2026",
-          "category": "Codex",
-          "score": 95,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "ChatGPTとCodex、12月から共通のトークン利用枠へ",
-          "summary": "OpenAIはPlus・Pro・Businessで、12月からChatGPTとCodexの利用枠を統合しトークン単位で計測すると案内。Instant chatは対象外で、残量とリセット時刻はSettings → Usageにまとめて表示される。具体的な開始日とプラン別トークン量は未公表",
-          "publishedAt": "2026/10/31",
-          "sourcePublishedAt": "2026-10-31",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-01T06:59:08+09:00",
-          "verifiedAt": "2026-11-01T06:59:08+09:00",
-          "source": {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
-          }
-        },
-        {
-          "id": "codex-two-banked-resets-announced-20261101",
-          "eventKey": "codex-day26-two-banked-resets-announced-2026-10-31",
-          "category": "Codex",
-          "score": 92,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 16,
-            "specificityAvailability": 13,
-            "industryImpact": 8
-          },
-          "title": "Codex、残り2日でbanked reset付与を予告",
-          "summary": "Codex責任者Tibo Sottiauxが28日企画の残り2日をbanked resetにすると告知。banked resetは受領後に利用者がSettings → UsageまたはCLIから任意に適用する保存型リセットで、対象・配布時刻・有効期限はアカウント表示の確認が必要。複数の独立トラッカーでは初回着弾を報告している",
-          "publishedAt": "2026/10/31",
-          "sourcePublishedAt": "2026-10-31T14:42:26+09:00",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-01T06:59:08+09:00",
-          "verifiedAt": "2026-11-01T06:59:08+09:00",
-          "source": {
-            "label": "Tibo Sottiaux (OpenAI) / X",
-            "url": "https://x.com/thsottiaux/status/2116405414921384099"
-          }
-        },
-        {
-          "id": "chatgpt-mobile-account-switching-20261101",
-          "eventKey": "openai-chatgpt-ios-android-two-account-switching-2026-10-30",
-          "category": "AI",
-          "score": 80,
-          "scoreBreakdown": {
-            "userImpact": 28,
-            "novelty": 18,
-            "technicalImportance": 14,
-            "specificityAvailability": 15,
-            "industryImpact": 5
-          },
-          "title": "ChatGPT、iOS・Androidで2アカウント切り替えに対応",
-          "summary": "ChatGPTのiOS・Androidアプリでアカウント切り替えを順次提供。最大2アカウントに同時サインインし、会話・メモリ・設定・請求・ワークスペースを分離したまま切り替えられる。モバイル通知は両アカウントから受け取れる",
-          "publishedAt": "2026/10/31",
-          "sourcePublishedAt": "2026-10-31T14:42:26+09:00",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-01T06:59:08+09:00",
-          "verifiedAt": "2026-11-01T06:59:08+09:00",
-          "source": {
-            "label": "OpenAI Help Center / ChatGPT release notes",
-            "url": "https://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile"
-          }
-        },
-        {
-          "id": "claude-code-21316-20261101",
-          "eventKey": "anthropic-claude-code-v2-1-316-subagent-effort-gateway-controls-2026-10-31",
-          "category": "AI",
-          "score": 84,
-          "scoreBreakdown": {
-            "userImpact": 29,
-            "novelty": 18,
-            "technicalImportance": 18,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "Claude Code 2.1.316、サブエージェントのeffort指定とGateway統制を追加",
-          "summary": "AnthropicがClaude Code v2.1.316を公開。サブエージェント既定effort、ultrathink無効化、Gatewayの共有グループ予算と階層ポリシーを追加し、終了時に残るシェルプロセスなどを修正。Opus 4.8のFast modeは11月30日削除予定",
-          "publishedAt": "2026/10/31",
-          "sourcePublishedAt": "2026-10-31T10:01:10+09:00",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-01T06:59:08+09:00",
-          "verifiedAt": "2026-11-01T06:59:08+09:00",
-          "source": {
-            "label": "Anthropic Claude Code / GitHub Releases",
-            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"
-          }
-        },
         {
           "id": "uk-earned-settlement-rules-20261102",
           "eventKey": "uk-earned-settlement-final-rules-2026-11-02",
