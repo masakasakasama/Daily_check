@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-08",
+  "checkedAt": "2026-11-08T07:02:42+09:00",
+  "windowStart": "2026-11-05T07:06:28+09:00",
+  "publicationWindowStart": "2026-11-07T07:06:28+09:00",
+  "publicationWindowEnd": "2026-11-08T07:02:42+09:00",
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "checkedAt": "2026-11-08T07:02:42+09:00"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset",
+        "5 hour reset",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://quota-reset.com/",
+        "https://limittracker.com/"
+      ],
+      "checkedAt": "2026-11-08T07:02:42+09:00",
+      "result": "公式発表・複数独立報告で裏付けられる11月7日の新規リセットなし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-cli-v0-167-0-2026-11-06",
+      "sourceUrl": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "sourcePublishedAt": "2026-11-06T01:40:00Z",
+      "publishedAtJst": "2026-11-06T10:40:00+09:00",
+      "firstSeenAt": "2026-11-08T07:02:42+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "late-audit-only",
+      "reason": "公式GitHub releaseのpublished_atを確認。通常掲載窓より前の見落とし候補のため監査のみ"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "claude-code-v2-1-319-2026-11-07",
+      "sourceUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "sourcePublishedAt": "2026-11-06T17:04:01Z",
+      "publishedAtJst": "2026-11-07T02:04:01+09:00",
+      "firstSeenAt": "2026-11-08T07:02:42+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "late-audit-only",
+      "reason": "公式GitHub releaseのpublished_atをJST換算し、前回成功前の公開のため当日フィードへ掲載しない"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-v0-169-0-alpha-3-2026-11-08",
+      "sourceUrl": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.3",
+      "sourcePublishedAt": "2026-11-07T19:31:41Z",
+      "publishedAtJst": "2026-11-08T04:31:41+09:00",
+      "firstSeenAt": "2026-11-08T07:02:42+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "decision": "excluded",
+      "reason": "公式のalphaプレリリースで安定版利用者への利用可能変更ではない"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "unconfirmed-shuriken-codex-full-reset-2026-11-07",
+      "sourceUrl": "https://shuriken.sh/tools/limit-resets/codex",
+      "firstSeenAt": "2026-11-08T07:02:42+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "decision": "excluded",
+      "reason": "単独トラッカー表示に対し、公式発表と複数独立トラッカーは新規リセットなし。公式未確認かつ複数同時報告なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-2027-additional-pr-space-details-2026-11-05",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/immigration-system/measures.html",
+      "sourcePublishedAt": "2026-11-05",
+      "firstSeenAt": "2026-11-08T07:02:42+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "duplicate",
+      "duplicateOf": "canada-2027-2029-levels-plan-time-limited-200k-2026-11-05",
+      "reason": "11月5日の既出Levels Planに含まれる同一時限措置の説明ページ"
+    }
+  ]
+}
