@@ -1,0 +1,319 @@
+{
+  "start": "2026-11-03",
+  "end": "2026-11-09",
+  "generatedAt": "2026-11-09T07:05:43+09:00",
+  "headline": "期間内の重要更新・参考情報",
+  "counts": {
+    "important": 7,
+    "reference": 5
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要3件・参考1件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要0件・参考0件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要3件・参考0件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要1件・参考0件"
+    },
+    {
+      "name": "Nissan",
+      "summary": "重要0件・参考4件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "uk-earned-settlement-rules-20261102",
+      "eventKey": "uk-earned-settlement-final-rules-2026-11-02",
+      "category": "Permanent Residency",
+      "score": 92,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "英国、永住の標準期間を10年へ延長する最終ルールを公表",
+      "summary": "英国政府は永住（settlement）の標準期間を5年から10年へ延長し、年収・職種に応じた3年または5年の短縮ルートと、違反時の最長20年を含むearned settlement制度を公表。高い英語力、税滞納なし、3年間の国民保険料拠出などを必須条件とし、2027年から施行する方針",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "UK Home Office / GOV.UK",
+        "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk"
+      }
+    },
+    {
+      "id": "sumitomo-scsk-sdv-digital-engineering-20261102",
+      "eventKey": "sumitomo-scsk-sdv-digital-engineering-service-2026-11-02",
+      "category": "SDV",
+      "score": 68,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 17,
+        "scale": 10,
+        "specificity": 9,
+        "novelty": 7
+      },
+      "title": "住友商事とSCSK、SDV開発を企画から検証まで一括支援",
+      "summary": "住友商事とSCSKが「SDVデジタルエンジニアリングサービス」を開始。車両コンセプト・要求仕様から設計、実装、システム統合、検証までを横断し、派生車種・機能の開発を支援する。SCSKは専任組織を新設し、2027年度にはデリバリーを含むエコシステム整備を進める",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "SCSK / 住友商事",
+        "url": "https://www.scsk.jp/news/2026/pdf/20261102_2.pdf"
+      }
+    },
+    {
+      "id": "claude-code-21317-20261104",
+      "eventKey": "anthropic-claude-code-v2-1-317-schedule-privacy-mcp-fixes-2026-11-03",
+      "category": "AI",
+      "score": 85,
+      "scoreBreakdown": {
+        "userImpact": 30,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "Claude Code 2.1.317、スケジュール権限表示とMCP接続を改善",
+      "summary": "AnthropicがClaude Code v2.1.317を公開。/scheduleで意図せず付与されたコネクタを警告して削除手順を示し、メールアドレスをWeb・シェルへ送る前の確認を追加。プロジェクトMCPが初回ターン後に切断される不具合や、既存セッションでeffortLevelが無視される問題も修正した",
+      "publishedAt": "2026/11/03",
+      "sourcePublishedAt": "2026-11-03T10:25:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-04T07:06:05+09:00",
+      "verifiedAt": "2026-11-04T07:06:05+09:00",
+      "source": {
+        "label": "Anthropic Claude Code / GitHub Releases",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"
+      }
+    },
+    {
+      "id": "claude-code-21318-20261105",
+      "eventKey": "anthropic-claude-code-v2-1-318-reliability-auth-mcp-2026-11-04",
+      "category": "AI",
+      "score": 85,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "Claude Code 2.1.318、会話・認証・MCPの信頼性を大幅改善",
+      "summary": "AnthropicがClaude Code v2.1.318を公開。modのモデル分岐にeffort指定を追加し、ログイン有効期限の表示・警告を改善。--continue時の会話消失、MCP起動・接続、macOS Bashの停止とメモリ増加、クラウド・バックグラウンド実行など多数の不具合も修正した",
+      "publishedAt": "2026/11/04",
+      "sourcePublishedAt": "2026-11-04T09:01:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-05T07:08:38+09:00",
+      "verifiedAt": "2026-11-05T07:08:38+09:00",
+      "source": {
+        "label": "Anthropic Claude Code / GitHub Releases",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
+      }
+    },
+    {
+      "id": "openai-images-26-20261106",
+      "eventKey": "openai-images-2-6-gif-reference-images-api-2026-11-04",
+      "category": "AI",
+      "topics": [
+        "Codex"
+      ],
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "ChatGPT Images 2.6、GIF生成と参照画像の再利用に対応",
+      "summary": "OpenAIがImages 2.6をChatGPTとCodexの全サブスクリプション層へ世界提供。生成を従来比50%高速化し、GIF生成、チャットをまたぐ参照画像の保存、APIのFlare／Sunburst、画像マークアップ、SVG書き出し、complexity指定を追加した",
+      "publishedAt": "2026/11/05",
+      "sourcePublishedAt": "2026-11-05T08:35:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "sourcePublishedAtEvidenceUrl": "https://x.com/OpenAI/status/2118124944928432327",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "verifiedAt": "2026-11-06T07:11:26+09:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/introducing-images-2-6/"
+      }
+    },
+    {
+      "id": "jasa-sdx-platform-committee-20261106",
+      "eventKey": "jasa-sdx-platform-committee-launch-10-companies-2026-11-05",
+      "category": "SDV",
+      "topics": [
+        "Nissan"
+      ],
+      "score": 79,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 15,
+        "scale": 18,
+        "specificity": 9,
+        "novelty": 12
+      },
+      "title": "JASA、日産・Honda・マツダなど10社でSDV共通基盤を実証へ",
+      "summary": "組込みシステム技術協会がSDxプラットフォーム委員会を発足。日産、Honda、マツダ、アイシン、Astemo、デンソーなど10社が参画し、2027年末までSDVの共通アーキテクチャ確立と企業横断の実証に取り組む。2027年から技術別WGと新規メンバー募集も始める",
+      "publishedAt": "2026/11/05",
+      "sourcePublishedAt": "2026-11-05T10:30:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "verifiedAt": "2026-11-06T07:11:26+09:00",
+      "thumbnail": "https://response.jp/imgs/ogp_f/2257319.jpg",
+      "source": {
+        "label": "JASA / PR TIMES",
+        "url": "https://prtimes.jp/main/html/rd/p/000000006.000172759.html"
+      }
+    },
+    {
+      "id": "valeo-qnx-smart-camera-platform-20261107",
+      "eventKey": "valeo-qnx-front-view-smart-camera-platform-2026-11-06",
+      "category": "SDV",
+      "score": 83,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 20,
+        "scale": 14,
+        "specificity": 14,
+        "novelty": 14
+      },
+      "title": "ValeoとQNX、量産対応の前方スマートカメラ基盤を発表",
+      "summary": "Valeoの新しい前方スマートカメラに安全認証済みQNX OS for Safetyを統合。中国の複数自動車メーカーで採用が決まり、2026年中の量産開始を予定する。AI処理と決定論的なリアルタイム動作を組み合わせ、複数車種へ展開できるADAS基盤とした",
+      "publishedAt": "2026/11/06",
+      "sourcePublishedAt": "2026-11-06",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-07T07:06:28+09:00",
+      "verifiedAt": "2026-11-07T07:06:28+09:00",
+      "thumbnail": "https://delivery-p151589-e1582228.adobeaemcloud.com/adobe/assets/urn:aaid:aem:b6878a32-9a54-4eb6-a45e-c4088223bd03/as/qnx_abstract_patterns_1920x1080_16.avif",
+      "source": {
+        "label": "QNX",
+        "url": "https://qnx.software/en/press-release/2026/valeo-and-qnx-unveil-a-new-smart-camera-platform"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "nissan-fukushima-namie-circular-partnership-20261102",
+      "eventKey": "nissan-six-company-fukushima-namie-circular-society-2026-11-02",
+      "category": "Nissan",
+      "score": 58,
+      "title": "日産など6社、福島・浪江で中古EVと電池の循環モデルを開始",
+      "summary": "日産を含む6社が福島県・浪江町と循環型社会に向けた連携協定を締結。中古EVを地域内に留め、電池の健全度診断、再利用・再資源化までをつなぐモデルを構築し、11月3日から個人向け中古EVリースを始める",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "日産自動車ニュースルーム",
+        "url": "https://global.nissannews.com/ja-JP/releases/261102-01-j"
+      }
+    },
+    {
+      "id": "nissan-roox-ota-stability-update-20261102",
+      "eventKey": "nissan-roox-nissanconnect-ota-282757tc7a-2026-11-02",
+      "category": "Nissan",
+      "topics": [
+        "SDV"
+      ],
+      "score": 55,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 14,
+        "scale": 8,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "title": "日産ルークス、11月11日から安定性向上OTAを配信",
+      "summary": "2025年10月以降発売のルークスで、対象ソフトウェアを282757TC7Aへ更新するOTAを11月11日から順次配信。所要時間は約25分で、車両によって最大2カ月程度の配信差がある",
+      "publishedAt": "2026/11/02",
+      "sourcePublishedAt": "2026-11-02",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-03T07:06:51+09:00",
+      "verifiedAt": "2026-11-03T07:06:51+09:00",
+      "source": {
+        "label": "日産自動車 NissanConnect",
+        "url": "https://www3.nissan.co.jp/connect/information/roox_ccs2.html"
+      }
+    },
+    {
+      "id": "nissan-canada-ebay-parts-20261105",
+      "eventKey": "nissan-canada-ebay-parts-accessories-storefront-2026-11-04",
+      "category": "Nissan",
+      "title": "日産カナダ、eBayで純正部品・用品の直接販売を開始",
+      "summary": "日産カナダが自動車メーカーとして初めてeBay Canadaに専用ストアを開設。Nissan・INFINITIの純正部品と用品を地域販売店が発送し、eBay Guaranteed Fitと適合しない場合の30日以内無料返品に対応する",
+      "publishedAt": "2026/11/04",
+      "sourcePublishedAt": "2026-11-04",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-05T07:08:38+09:00",
+      "verifiedAt": "2026-11-05T07:08:38+09:00",
+      "source": {
+        "label": "Nissan Canada Newsroom",
+        "url": "https://canada.nissannews.com/en-CA/releases/nissan-canada-becomes-first-automaker-to-sell-parts-and-accessories-directly-on-ebay-canada"
+      }
+    },
+    {
+      "id": "openai-gpt6-cyber-20261106",
+      "eventKey": "openai-gpt-6-cyber-daybreak-red-codex-api-2026-11-05",
+      "category": "AI",
+      "topics": [
+        "Codex"
+      ],
+      "score": 73,
+      "scoreBreakdown": {
+        "userImpact": 15,
+        "novelty": 18,
+        "technicalImportance": 20,
+        "specificityAvailability": 12,
+        "industryImpact": 8
+      },
+      "title": "OpenAI、承認済みDaybreak Red向けにGPT-6 Cyberを提供",
+      "summary": "OpenAIが脆弱性の発見・検証・修正と認可済みテストに特化したGPT-6 Cyberを公開。APIとCodexで一部の承認済みDaybreak Red顧客へ先行提供し、順次全Daybreak Redへ拡大する。コンテキストは105万トークンで、対象範囲順守と不正利用対策を強化した",
+      "publishedAt": "2026/11/05",
+      "sourcePublishedAt": "2026-11-05",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "verifiedAt": "2026-11-06T07:11:26+09:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/73cvZmLsj7WIXQAgMDX8kz/4996c7a084b81e21a8f1357fe395c30b/gpt-6-cyber-social.png?w=1600&h=900&fit=fill",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+      }
+    },
+    {
+      "id": "nissan-serena-update-20261106",
+      "eventKey": "nissan-serena-spec-update-black-edition-price-cut-2026-11-05",
+      "category": "Nissan",
+      "title": "日産、セレナを一部改良　LUXIONを約20万円値下げ",
+      "summary": "日産がセレナを一部仕様変更。最上位LUXIONは快適装備を標準化しつつ20万1300円値下げして479万7100円とし、ハイウェイスターVはアダプティブLEDを標準装備。35周年記念の期間限定Black Editionも追加した",
+      "publishedAt": "2026/11/05",
+      "sourcePublishedAt": "2026-11-05T18:30:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "verifiedAt": "2026-11-06T07:11:26+09:00",
+      "thumbnail": "https://response.jp/imgs/ogp_f/2258222.jpg",
+      "source": {
+        "label": "レスポンス",
+        "url": "https://response.jp/article/2026/11/05/418655.html"
+      }
+    }
+  ]
+}
