@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-09",
+  "checkedAt": "2026-11-09T07:05:43+09:00",
+  "windowStart": "2026-11-06T07:02:42+09:00",
+  "publicationWindowStart": "2026-11-08T07:02:42+09:00",
+  "publicationWindowEnd": "2026-11-09T07:00:10+09:00",
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://developers.openai.com/codex/changelog/",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "checkedAt": "2026-11-09T07:05:43+09:00"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset",
+        "5 hour reset",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://nextreset.org/",
+        "https://codexreset.ai/",
+        "https://codex-resets.net/",
+        "https://reset-tracker.com/",
+        "https://limittracker.com/"
+      ],
+      "checkedAt": "2026-11-09T07:05:43+09:00",
+      "result": "公式発表または複数独立報告で裏付けられる11月8日の新規リセットなし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-cli-v0-167-0-2026-11-06-late-1109",
+      "sourceUrl": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "sourcePublishedAt": "2026-11-06T01:40:00Z",
+      "publishedAtJst": "2026-11-06T10:40:00+09:00",
+      "firstSeenAt": "2026-11-09T07:05:43+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "late-audit-only",
+      "reason": "公式GitHub releaseのpublished_atを確認。前々日以前のため監査のみで当日へ再掲載しない"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "claude-code-v2-1-319-2026-11-07-late-1109",
+      "sourceUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "sourcePublishedAt": "2026-11-06T17:04:01Z",
+      "publishedAtJst": "2026-11-07T02:04:01+09:00",
+      "firstSeenAt": "2026-11-09T07:05:43+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "late-audit-only",
+      "reason": "公式GitHub releaseのpublished_atをJST換算。前々日以前のため監査のみで当日へ再掲載しない"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-no-new-reset-2026-11-08",
+      "sourceUrl": "https://status.openai.com/",
+      "firstSeenAt": "2026-11-09T07:05:43+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "decision": "excluded",
+      "reason": "公式Help・Status・release notesとX・複数トラッカーを照合し、新規リセットまたは利用枠変更を確認できない"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-2027-2029-levels-plan-time-limited-200k-2026-11-05-duplicate-1109",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/immigration-system/measures.html",
+      "sourcePublishedAt": "2026-11-05",
+      "firstSeenAt": "2026-11-09T07:05:43+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "duplicate",
+      "duplicateOf": "canada-2027-2029-levels-plan-time-limited-200k-2026-11-05",
+      "reason": "11月5日の日別データに掲載済みの同一Levels Plan措置"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "uk-earned-settlement-announcement-2026-11-02-duplicate-1109",
+      "sourceUrl": "https://www.gov.uk/government/news/",
+      "sourcePublishedAt": "2026-11-02",
+      "firstSeenAt": "2026-11-09T07:05:43+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "decision": "duplicate",
+      "duplicateOf": "uk-earned-settlement-2026-11-02",
+      "reason": "既出のearned settlement案内で、当日掲載窓の新たな施行規則変更なし"
+    }
+  ]
+}
