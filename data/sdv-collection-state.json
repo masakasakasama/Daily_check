@@ -29,7 +29,16 @@
     }
   },
   "unresolvedWindows": [],
-  "pendingBatch": null,
+  "pendingBatch": {
+    "date": "2026-11-10",
+    "stagedAt": "2026-11-10T07:02:03+09:00",
+    "status": "collecting",
+    "windowStart": "2026-11-07T07:05:43+09:00",
+    "windowEnd": "2026-11-10T07:02:03+09:00",
+    "publicationWindowStart": "2026-11-09T07:05:43+09:00",
+    "publicationWindowEnd": "2026-11-10T07:02:03+09:00",
+    "recoveryPolicy": "retain-on-failure"
+  },
   "lastAudit": "data/audits/2026-11-09-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
   "weeklyBackfill": "last 7 days",
