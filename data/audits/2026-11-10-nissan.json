@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-10",
+  "checkedAt": "2026-11-10T07:08:29+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://www.nissan.co.jp/",
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases?sortOrder=PublishedDescending",
+    "https://usa.nissannews.com/en-US",
+    "https://europe.nissannews.com/en-GB",
+    "https://canada.nissannews.com/en-CA/channels/news-releases",
+    "https://www.nhtsa.gov/recalls"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com 2026/11/09 Nissan",
+      "recordedAt": "2026-11-10T07:08:29+09:00"
+    },
+    {
+      "query": "site:nissan.co.jp 2026年11月9日 日産",
+      "recordedAt": "2026-11-10T07:08:29+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 9 2026 Nissan",
+      "recordedAt": "2026-11-10T07:08:29+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 9 2026 Nissan",
+      "recordedAt": "2026-11-10T07:08:29+09:00"
+    },
+    {
+      "query": "site:canada.nissannews.com November 9 2026 Nissan",
+      "recordedAt": "2026-11-10T07:08:29+09:00"
+    },
+    {
+      "query": "Nissan November 9 2026 recall production management sales technology",
+      "recordedAt": "2026-11-10T07:08:29+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-armada-patrol-pro-4x-us-2027-2026-11-09",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/legendary-patrol-badge-returns-to-the-us-nissan-introduces-armada-patrol-pro-4x-grade",
+      "sourcePublishedAt": "2026-11-09T13:00:00Z",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "reason": "公式本文で名称変更、生産開始、価格、装備を確認し、米国の商品・利用者への影響を参考掲載"
+    },
+    {
+      "eventKey": "nissan-patrol-75-years-companion-2026-11-09",
+      "sourceUrl": "https://usa.nissannews.com/en-US",
+      "sourcePublishedAt": "2026-11-09",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-armada-patrol-pro-4x-us-2027-2026-11-09",
+      "reason": "Patrol名復活と同時公開の沿革記事で同一イベントへ統合"
+    }
+  ]
+}
