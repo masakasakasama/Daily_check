@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-10",
+  "checkedAt": "2026-11-10T07:08:29+09:00",
+  "windowStart": "2026-11-07T07:05:43+09:00",
+  "publicationWindowStart": "2026-11-09T07:05:43+09:00",
+  "publicationWindowEnd": "2026-11-10T07:02:03+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://developers.openai.com/codex/changelog/",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-10T07:08:29+09:00"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset",
+        "5 hour reset",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://nextreset.org/",
+        "https://codexreset.ai/",
+        "https://codex-resets.net/",
+        "https://reset-tracker.com/",
+        "https://limittracker.com/"
+      ],
+      "checkedAt": "2026-11-10T07:08:29+09:00",
+      "result": "当日掲載窓に公式発表または複数独立報告で裏付けられる新規リセットなし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+        "https://www.gov.uk/government/organisations/home-office",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/about-us/news-centre/",
+        "https://www.make-it-in-germany.com/en/",
+        "https://www.ica.gov.sg/about-ica/news-and-publications",
+        "https://www.moj.go.jp/isa/"
+      ],
+      "checkedAt": "2026-11-10T07:08:29+09:00"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "anthropic-claude-fable-5-2-launch-resets-2026-11-09",
+      "sourceUrl": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers",
+      "sourcePublishedAt": "2026-11-09T19:30:12Z",
+      "publishedAtJst": "2026-11-10T04:30:12+09:00",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 95,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 19,
+        "specificityAvailability": 14,
+        "industryImpact": 7
+      },
+      "reason": "新モデルの利用可能性・価格・速度変更に加え、実利用枠を回復するresetを公式Help本文で確認"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-rural-community-immigration-program-permanent-2026-11-09",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-creates-a-permanent-immigration-pathway-to-help-rural-communities-attract-and-retain-talent0.html",
+      "sourcePublishedAt": "2026-11-09",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "reason": "公式本文でパイロットから恒久永住経路への移行、14地域継続、2027年5,500枠を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-cli-v0-169-0-alpha-6-2026-11-09",
+      "sourceUrl": "https://github.com/openai/codex/releases",
+      "sourcePublishedAt": "2026-11-09T19:25:00Z",
+      "publishedAtJst": "2026-11-10T04:25:00+09:00",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "公式GitHubのprereleaseだが独立した変更履歴・安定版提供・利用枠変更がない"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-x-no-new-reset-2026-11-10",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%20today%22&src=typed_query",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "discoveredLate": false,
+      "bodyVerified": false,
+      "verified": false,
+      "decision": "excluded",
+      "reason": "指定語群で検索したが当日窓に公式投稿または複数独立ユーザーの同時報告を確認できない"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "japan-permanent-resident-revocation-guideline-2026-10-01-1110",
+      "sourceUrl": "https://www.moj.go.jp/isa/deportation/resources/nyukan_nyukan85_00002.html",
+      "sourcePublishedAt": "2026-10-01",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "japan-permanent-resident-revocation-guideline-2026-10-01",
+      "reason": "検索一覧の11月9日表示を本文で再検証し、実際は10月1日公表の既出ガイドラインと確認。今日へ混入しない"
+    }
+  ]
+}
