@@ -1,0 +1,331 @@
+{
+  "start": "2026-11-05",
+  "end": "2026-11-11",
+  "generatedAt": "2026-11-11T07:04:20+09:00",
+  "headline": "期間内の重要更新・参考情報",
+  "counts": {
+    "important": 9,
+    "reference": 4
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要4件・参考1件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要0件・参考0件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要2件・参考0件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要3件・参考0件"
+    },
+    {
+      "name": "Nissan",
+      "summary": "重要0件・参考3件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "claude-code-21318-20261105",
+      "eventKey": "anthropic-claude-code-v2-1-318-reliability-auth-mcp-2026-11-04",
+      "category": "AI",
+      "score": 85,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "Claude Code 2.1.318、会話・認証・MCPの信頼性を大幅改善",
+      "summary": "AnthropicがClaude Code v2.1.318を公開。modのモデル分岐にeffort指定を追加し、ログイン有効期限の表示・警告を改善。--continue時の会話消失、MCP起動・接続、macOS Bashの停止とメモリ増加、クラウド・バックグラウンド実行など多数の不具合も修正した",
+      "publishedAt": "2026/11/04",
+      "sourcePublishedAt": "2026-11-04T09:01:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-05T07:08:38+09:00",
+      "verifiedAt": "2026-11-05T07:08:38+09:00",
+      "source": {
+        "label": "Anthropic Claude Code / GitHub Releases",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
+      }
+    },
+    {
+      "id": "openai-images-26-20261106",
+      "eventKey": "openai-images-2-6-gif-reference-images-api-2026-11-04",
+      "category": "AI",
+      "topics": [
+        "Codex"
+      ],
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "ChatGPT Images 2.6、GIF生成と参照画像の再利用に対応",
+      "summary": "OpenAIがImages 2.6をChatGPTとCodexの全サブスクリプション層へ世界提供。生成を従来比50%高速化し、GIF生成、チャットをまたぐ参照画像の保存、APIのFlare／Sunburst、画像マークアップ、SVG書き出し、complexity指定を追加した",
+      "publishedAt": "2026/11/05",
+      "sourcePublishedAt": "2026-11-05T08:35:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "sourcePublishedAtEvidenceUrl": "https://x.com/OpenAI/status/2118124944928432327",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "verifiedAt": "2026-11-06T07:11:26+09:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/introducing-images-2-6/"
+      }
+    },
+    {
+      "id": "jasa-sdx-platform-committee-20261106",
+      "eventKey": "jasa-sdx-platform-committee-launch-10-companies-2026-11-05",
+      "category": "SDV",
+      "topics": [
+        "Nissan"
+      ],
+      "score": 79,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 15,
+        "scale": 18,
+        "specificity": 9,
+        "novelty": 12
+      },
+      "title": "JASA、日産・Honda・マツダなど10社でSDV共通基盤を実証へ",
+      "summary": "組込みシステム技術協会がSDxプラットフォーム委員会を発足。日産、Honda、マツダ、アイシン、Astemo、デンソーなど10社が参画し、2027年末までSDVの共通アーキテクチャ確立と企業横断の実証に取り組む。2027年から技術別WGと新規メンバー募集も始める",
+      "publishedAt": "2026/11/05",
+      "sourcePublishedAt": "2026-11-05T10:30:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "verifiedAt": "2026-11-06T07:11:26+09:00",
+      "thumbnail": "https://response.jp/imgs/ogp_f/2257319.jpg",
+      "source": {
+        "label": "JASA / PR TIMES",
+        "url": "https://prtimes.jp/main/html/rd/p/000000006.000172759.html"
+      }
+    },
+    {
+      "id": "valeo-qnx-smart-camera-platform-20261107",
+      "eventKey": "valeo-qnx-front-view-smart-camera-platform-2026-11-06",
+      "category": "SDV",
+      "score": 83,
+      "scoreBreakdown": {
+        "sdvDirectness": 21,
+        "practicalImpact": 20,
+        "scale": 14,
+        "specificity": 14,
+        "novelty": 14
+      },
+      "title": "ValeoとQNX、量産対応の前方スマートカメラ基盤を発表",
+      "summary": "Valeoの新しい前方スマートカメラに安全認証済みQNX OS for Safetyを統合。中国の複数自動車メーカーで採用が決まり、2026年中の量産開始を予定する。AI処理と決定論的なリアルタイム動作を組み合わせ、複数車種へ展開できるADAS基盤とした",
+      "publishedAt": "2026/11/06",
+      "sourcePublishedAt": "2026-11-06",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-07T07:06:28+09:00",
+      "verifiedAt": "2026-11-07T07:06:28+09:00",
+      "thumbnail": "https://delivery-p151589-e1582228.adobeaemcloud.com/adobe/assets/urn:aaid:aem:b6878a32-9a54-4eb6-a45e-c4088223bd03/as/qnx_abstract_patterns_1920x1080_16.avif",
+      "source": {
+        "label": "QNX",
+        "url": "https://qnx.software/en/press-release/2026/valeo-and-qnx-unveil-a-new-smart-camera-platform"
+      }
+    },
+    {
+      "id": "claude-fable-52-launch-resets-20261110",
+      "eventKey": "anthropic-claude-fable-5-2-launch-resets-2026-11-09",
+      "category": "AI",
+      "topics": [
+        "Claude",
+        "Claude Code"
+      ],
+      "score": 95,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 19,
+        "specificityAvailability": 14,
+        "industryImpact": 7
+      },
+      "title": "Claude Fable 5.2提供開始、対象有料プランへ利用枠リセット",
+      "summary": "AnthropicがFable 5.2／Mythos 5.2を公開。Fableは全ユーザー向けで生成が5.1比最大30%高速、API価格は入力8ドル・出力40ドル/100万token。対象のPro・Max・Ultra・Team等にはFable週次利用分を戻す1〜3回のresetを付与し、5時間枠がある場合は全モデル分を満額回復する",
+      "publishedAt": "2026/11/10",
+      "sourcePublishedAt": "2026-11-09T19:30:12Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "verifiedAt": "2026-11-10T07:08:29+09:00",
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
+      "source": {
+        "label": "Claude Help Center",
+        "url": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers"
+      }
+    },
+    {
+      "id": "canada-rural-immigration-permanent-20261110",
+      "eventKey": "canada-rural-community-immigration-program-permanent-2026-11-09",
+      "category": "Permanent Residency",
+      "score": 90,
+      "title": "カナダ、地方コミュニティ移民パイロットを恒久制度化",
+      "summary": "カナダ政府がRural Community Immigration Pilotを恒久的な永住経路へ移行。現在の14地域を継続し、今後は対象地域を拡大する。2027年は5,500人分の受入枠を予定し、指定雇用主の求人と地域推薦を軸に地方の人手不足へ対応する",
+      "publishedAt": "2026/11/09",
+      "sourcePublishedAt": "2026-11-09",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "verifiedAt": "2026-11-10T07:08:29+09:00",
+      "thumbnail": "https://www.canada.ca/content/dam/ircc/images/twittercard/IRCC_NR_perma-RCIP_261109_EN.jpg",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-creates-a-permanent-immigration-pathway-to-help-rural-communities-attract-and-retain-talent0.html"
+      }
+    },
+    {
+      "id": "gemini-4-carbon-launch-20261111",
+      "eventKey": "google-gemini-4-carbon-launch-2026-11-10",
+      "category": "AI",
+      "topics": [
+        "Gemini",
+        "Google Antigravity"
+      ],
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 6
+      },
+      "title": "Google、Gemini 4 Carbonを一般提供しAntigravityに/swarmを導入",
+      "summary": "Googleが最上位モデルGemini 4 Carbonを公開。API有料枠、Gemini for business、Google AI UltraのGeminiアプリ・AI Mode・Antigravityで提供し、Antigravityでは複数エージェントを一括編成する/swarmをプレビュー。APIの導入価格は入力2ドル・出力10ドル/100万tokenで、12月以降は各4ドル・20ドル",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-10T16:00:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "verifiedAt": "2026-11-11T07:04:20+09:00",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+      }
+    },
+    {
+      "id": "canada-ukraine-hk-pr-processing-20261111",
+      "eventKey": "canada-accelerated-pr-ukraine-hong-kong-2026-11-10",
+      "category": "Permanent Residency",
+      "score": 88,
+      "title": "カナダ、ウクライナ・香港向け既存永住申請を2027年に優先処理",
+      "summary": "カナダ政府が既に国内で待機する対象者の永住申請を速める時限措置を公表。香港向け経路の残存申請を最大3万2,000人、Ukraine Family Reunification Pathwayの残存申請を最大1万8,800人、2027年の追加枠で処理する方針",
+      "publishedAt": "2026/11/10",
+      "sourcePublishedAt": "2026-11-10T14:00:59Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "verifiedAt": "2026-11-11T07:04:20+09:00",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-takes-action-to-efficiently-process-existing-permanent-residence-applications-for-ukrainians-and-hong-kongers.html"
+      }
+    },
+    {
+      "id": "nz-residence-dependent-child-status-20261111",
+      "eventKey": "new-zealand-residence-dependent-child-unlawful-status-rule-2026-11-10",
+      "category": "Permanent Residency",
+      "score": 86,
+      "title": "NZ、扶養する子が不法滞在の場合の居住ビザ許可条件を変更",
+      "summary": "ニュージーランドは11月12日から、扶養する子が国内で不法滞在中の場合、親と他の副申請者へ居住権を付与しない規則へ変更。決定前に状況を是正する機会を与え、11月12日より前の申請には旧規則を適用する",
+      "publishedAt": "2026/11/10",
+      "sourcePublishedAt": "2026-11-10",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "verifiedAt": "2026-11-11T07:04:20+09:00",
+      "source": {
+        "label": "Immigration New Zealand",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-for-resident-visa-applications-if-dependent-children-are-unlawfully-in-new-zealand/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "nissan-canada-ebay-parts-20261105",
+      "eventKey": "nissan-canada-ebay-parts-accessories-storefront-2026-11-04",
+      "category": "Nissan",
+      "title": "日産カナダ、eBayで純正部品・用品の直接販売を開始",
+      "summary": "日産カナダが自動車メーカーとして初めてeBay Canadaに専用ストアを開設。Nissan・INFINITIの純正部品と用品を地域販売店が発送し、eBay Guaranteed Fitと適合しない場合の30日以内無料返品に対応する",
+      "publishedAt": "2026/11/04",
+      "sourcePublishedAt": "2026-11-04",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-05T07:08:38+09:00",
+      "verifiedAt": "2026-11-05T07:08:38+09:00",
+      "source": {
+        "label": "Nissan Canada Newsroom",
+        "url": "https://canada.nissannews.com/en-CA/releases/nissan-canada-becomes-first-automaker-to-sell-parts-and-accessories-directly-on-ebay-canada"
+      }
+    },
+    {
+      "id": "openai-gpt6-cyber-20261106",
+      "eventKey": "openai-gpt-6-cyber-daybreak-red-codex-api-2026-11-05",
+      "category": "AI",
+      "topics": [
+        "Codex"
+      ],
+      "score": 73,
+      "scoreBreakdown": {
+        "userImpact": 15,
+        "novelty": 18,
+        "technicalImportance": 20,
+        "specificityAvailability": 12,
+        "industryImpact": 8
+      },
+      "title": "OpenAI、承認済みDaybreak Red向けにGPT-6 Cyberを提供",
+      "summary": "OpenAIが脆弱性の発見・検証・修正と認可済みテストに特化したGPT-6 Cyberを公開。APIとCodexで一部の承認済みDaybreak Red顧客へ先行提供し、順次全Daybreak Redへ拡大する。コンテキストは105万トークンで、対象範囲順守と不正利用対策を強化した",
+      "publishedAt": "2026/11/05",
+      "sourcePublishedAt": "2026-11-05",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "verifiedAt": "2026-11-06T07:11:26+09:00",
+      "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/73cvZmLsj7WIXQAgMDX8kz/4996c7a084b81e21a8f1357fe395c30b/gpt-6-cyber-social.png?w=1600&h=900&fit=fill",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+      }
+    },
+    {
+      "id": "nissan-serena-update-20261106",
+      "eventKey": "nissan-serena-spec-update-black-edition-price-cut-2026-11-05",
+      "category": "Nissan",
+      "title": "日産、セレナを一部改良　LUXIONを約20万円値下げ",
+      "summary": "日産がセレナを一部仕様変更。最上位LUXIONは快適装備を標準化しつつ20万1300円値下げして479万7100円とし、ハイウェイスターVはアダプティブLEDを標準装備。35周年記念の期間限定Black Editionも追加した",
+      "publishedAt": "2026/11/05",
+      "sourcePublishedAt": "2026-11-05T18:30:00+09:00",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-06T07:11:26+09:00",
+      "verifiedAt": "2026-11-06T07:11:26+09:00",
+      "thumbnail": "https://response.jp/imgs/ogp_f/2258222.jpg",
+      "source": {
+        "label": "レスポンス",
+        "url": "https://response.jp/article/2026/11/05/418655.html"
+      }
+    },
+    {
+      "id": "nissan-armada-patrol-pro4x-20261110",
+      "eventKey": "nissan-armada-patrol-pro-4x-us-2027-2026-11-09",
+      "category": "Nissan",
+      "score": 58,
+      "title": "日産、米国Armada PRO-4XをPatrol PRO-4Xへ改称",
+      "summary": "2027年型Armadaのオフロード仕様をPatrol PRO-4Xとして展開し、米国で1969年以来となるPatrol名を復活。2026年11月に生産を始め、専用NISMOアクセサリーを追加、価格は78,990ドルから",
+      "publishedAt": "2026/11/09",
+      "sourcePublishedAt": "2026-11-09T13:00:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "verifiedAt": "2026-11-10T07:08:29+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/9fcda6b8a8768916b912017d800406577460818a/thumbnail-720x404.jpg",
+      "source": {
+        "label": "Nissan U.S. Newsroom",
+        "url": "https://usa.nissannews.com/en-US/releases/legendary-patrol-badge-returns-to-the-us-nissan-introduces-armada-patrol-pro-4x-grade"
+      }
+    }
+  ]
+}
