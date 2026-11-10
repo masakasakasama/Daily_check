@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-11",
+  "checkedAt": "2026-11-11T07:04:20+09:00",
+  "windowStart": "2026-11-08T07:08:29+09:00",
+  "publicationWindowStart": "2026-11-10T07:08:29+09:00",
+  "publicationWindowEnd": "2026-11-11T07:00:20+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://developers.openai.com/codex/changelog/",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-11T07:04:20+09:00"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query"
+      ],
+      "checkedAt": "2026-11-11T07:04:20+09:00",
+      "result": "当日窓に公式投稿または複数独立ユーザー報告で裏付けられる新規リセットなし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+        "https://www.gov.uk/government/organisations/home-office",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/about-us/news-centre/",
+        "https://www.make-it-in-germany.com/en/",
+        "https://www.ica.gov.sg/about-ica/news-and-publications",
+        "https://www.moj.go.jp/isa/"
+      ],
+      "checkedAt": "2026-11-11T07:04:20+09:00"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "google-gemini-4-carbon-launch-2026-11-10",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "sourcePublishedAt": "2026-11-10T16:00:00Z",
+      "publishedAtJst": "2026-11-11T01:00:00+09:00",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 6
+      },
+      "reason": "利用可能モデル、提供面、価格、/swarmを公式本文で確認"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-accelerated-pr-ukraine-hong-kong-2026-11-10",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-takes-action-to-efficiently-process-existing-permanent-residence-applications-for-ukrainians-and-hong-kongers.html",
+      "sourcePublishedAt": "2026-11-10T14:00:59Z",
+      "publishedAtJst": "2026-11-10T23:00:59+09:00",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "reason": "公式本文で対象経路、追加枠、人数を確認"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "new-zealand-residence-dependent-child-unlawful-status-rule-2026-11-10",
+      "sourceUrl": "https://www.immigration.govt.nz/about-us/news-centre/changes-for-resident-visa-applications-if-dependent-children-are-unlawfully-in-new-zealand/",
+      "sourcePublishedAt": "2026-11-10",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "reason": "公式本文で11月12日発効、経過措置、対象条件を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-no-new-reset-2026-11-11",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%20today%22&src=typed_query",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "bodyVerified": false,
+      "verified": false,
+      "decision": "excluded",
+      "reason": "指定語群を公式経路とX経路で検索したが新規リセットや複数独立報告なし"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "anthropic-ipo-roadshow-2026-11-10",
+      "sourceUrl": "https://www.anthropic.com/news/announcements",
+      "sourcePublishedAt": "2026-11-10",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 28,
+      "scoreBreakdown": {
+        "userImpact": 2,
+        "novelty": 8,
+        "technicalImportance": 3,
+        "specificityAvailability": 7,
+        "industryImpact": 8
+      },
+      "reason": "IPO手続きでClaudeの利用方法・能力・価格を直接変更しない"
+    }
+  ]
+}
