@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-11",
+  "alerts": [
+    {
+      "id": "gemini-4-carbon-launch-20261111",
+      "eventKey": "google-gemini-4-carbon-launch-2026-11-10",
+      "category": "AI",
+      "topics": [
+        "Gemini",
+        "Google Antigravity"
+      ],
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 6
+      },
+      "title": "Google、Gemini 4 Carbonを一般提供しAntigravityに/swarmを導入",
+      "summary": "Googleが最上位モデルGemini 4 Carbonを公開。API有料枠、Gemini for business、Google AI UltraのGeminiアプリ・AI Mode・Antigravityで提供し、Antigravityでは複数エージェントを一括編成する/swarmをプレビュー。APIの導入価格は入力2ドル・出力10ドル/100万tokenで、12月以降は各4ドル・20ドル",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-10T16:00:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "verifiedAt": "2026-11-11T07:04:20+09:00",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+      }
+    },
+    {
+      "id": "canada-ukraine-hk-pr-processing-20261111",
+      "eventKey": "canada-accelerated-pr-ukraine-hong-kong-2026-11-10",
+      "category": "Permanent Residency",
+      "score": 88,
+      "title": "カナダ、ウクライナ・香港向け既存永住申請を2027年に優先処理",
+      "summary": "カナダ政府が既に国内で待機する対象者の永住申請を速める時限措置を公表。香港向け経路の残存申請を最大3万2,000人、Ukraine Family Reunification Pathwayの残存申請を最大1万8,800人、2027年の追加枠で処理する方針",
+      "publishedAt": "2026/11/10",
+      "sourcePublishedAt": "2026-11-10T14:00:59Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "verifiedAt": "2026-11-11T07:04:20+09:00",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-takes-action-to-efficiently-process-existing-permanent-residence-applications-for-ukrainians-and-hong-kongers.html"
+      }
+    },
+    {
+      "id": "nz-residence-dependent-child-status-20261111",
+      "eventKey": "new-zealand-residence-dependent-child-unlawful-status-rule-2026-11-10",
+      "category": "Permanent Residency",
+      "score": 86,
+      "title": "NZ、扶養する子が不法滞在の場合の居住ビザ許可条件を変更",
+      "summary": "ニュージーランドは11月12日から、扶養する子が国内で不法滞在中の場合、親と他の副申請者へ居住権を付与しない規則へ変更。決定前に状況を是正する機会を与え、11月12日より前の申請には旧規則を適用する",
+      "publishedAt": "2026/11/10",
+      "sourcePublishedAt": "2026-11-10",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "verifiedAt": "2026-11-11T07:04:20+09:00",
+      "source": {
+        "label": "Immigration New Zealand",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-for-resident-visa-applications-if-dependent-children-are-unlawfully-in-new-zealand/"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "Gemini 4 Carbonの提供開始とAntigravityの/swarmを重要掲載",
+      "checkedAt": "2026-11-11T07:04:20+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX・コミュニティ経路で新規の利用枠回復イベントなし",
+      "checkedAt": "2026-11-11T07:04:20+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす独立したSDV変更なし",
+      "checkedAt": "2026-11-11T07:04:20+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "update",
+      "summary": "カナダとニュージーランドの永住・居住条件変更を重要掲載",
+      "checkedAt": "2026-11-11T07:04:20+09:00",
+      "alertCount": 2,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす独立した日産の新規イベントなし",
+      "checkedAt": "2026-11-11T07:04:20+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
