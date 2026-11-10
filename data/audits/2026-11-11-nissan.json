@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-11",
+  "checkedAt": "2026-11-11T07:04:20+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://www.nissan.co.jp/",
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases?sortOrder=PublishedDescending",
+    "https://usa.nissannews.com/en-US",
+    "https://europe.nissannews.com/en-GB",
+    "https://canada.nissannews.com/en-CA/channels/news-releases",
+    "https://www.nhtsa.gov/recalls"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com November 10 2026 Nissan",
+      "recordedAt": "2026-11-11T07:04:20+09:00"
+    },
+    {
+      "query": "site:nissan.co.jp 2026年11月10日 日産",
+      "recordedAt": "2026-11-11T07:04:20+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 10 2026 Nissan",
+      "recordedAt": "2026-11-11T07:04:20+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 10 2026 Nissan",
+      "recordedAt": "2026-11-11T07:04:20+09:00"
+    },
+    {
+      "query": "Nissan November 10 2026 recall production sales technology",
+      "recordedAt": "2026-11-11T07:04:20+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-patrol-75-years-2026-11-10",
+      "sourceUrl": "https://global.nissannews.com/ja-JP/channels/news",
+      "sourcePublishedAt": "2026-11-10",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-armada-patrol-pro-4x-us-2027-2026-11-09",
+      "reason": "昨日掲載のPatrol名称復活と同時系列の75周年沿革記事で独立イベントにしない"
+    },
+    {
+      "eventKey": "nissan-rogue-hybrid-explainer-2026-11-10",
+      "sourceUrl": "https://usa.nissannews.com/en-US/channels/channel-58529662d5579277de90ee48ab01f026",
+      "sourcePublishedAt": "2026-11-10",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "reason": "既発表・発売済み2027 Rogue Hybridの商品解説で新たな製品変更なし"
+    }
+  ]
+}
