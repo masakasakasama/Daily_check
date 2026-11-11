@@ -1,8 +1,165 @@
 {
   "version": 5,
-  "currentDate": "2026-11-11",
-  "updatedAt": "2026-11-11T07:04:20+09:00",
+  "currentDate": "2026-11-12",
+  "updatedAt": "2026-11-12T07:00:17+09:00",
   "days": [
+    {
+      "date": "2026-11-12",
+      "alerts": [
+        {
+          "id": "codex-global-reset-20261111",
+          "eventKey": "openai-codex-work-global-reset-2026-11-11",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "ChatGPT Work",
+            "Usage reset"
+          ],
+          "score": 95,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 20,
+            "specificityAvailability": 15,
+            "industryImpact": 5
+          },
+          "title": "CodexとChatGPT Workの利用枠を全員対象でリセット",
+          "summary": "Codex責任者Tibo Sottiaux氏が「全Codex・ChatGPT Workユーザーの利用枠をリセットした」と投稿した記録を、同一投稿ID・時刻・本文を保存した複数の独立トラッカーで照合。原投稿は確認時に削除済みのため、対象枠の反映はSettings→Usageでの確認が必要",
+          "publishedAt": "2026/11/11",
+          "sourcePublishedAt": "2026-11-11T10:47:00Z",
+          "sourcePublishedAtPrecision": "minute",
+          "firstSeenAt": "2026-11-12T07:00:17+09:00",
+          "verifiedAt": "2026-11-12T07:00:17+09:00",
+          "source": {
+            "label": "Tibo Sottiaux on X（複数アーカイブで照合）",
+            "url": "https://x.com/thsottiaux/status/2120468523250614272"
+          }
+        },
+        {
+          "id": "nissan-fy2026-h1-results-20261111",
+          "eventKey": "nissan-fy2026-h1-results-outlook-2026-11-11",
+          "category": "Nissan",
+          "score": 84,
+          "title": "日産、上期営業益800億円へ改善し通期2000億円予想を維持",
+          "summary": "日産が2026年度上期決算を発表。売上高6兆720億円、営業利益800億円、純損失397億円。Re:Nissanで1100億円の追加コスト削減を実現した一方、中国の弱さから通期世界販売見通しを315万台から297万〜300万台へ下方修正し、2027年2月に新事業計画を公表する",
+          "publishedAt": "2026/11/11",
+          "sourcePublishedAt": "2026-11-11T06:31:00Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-12T07:00:17+09:00",
+          "verifiedAt": "2026-11-12T07:00:17+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/42d6d2b4d82048af52b576b757c692cfc25056d2",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/261111-01-e"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "codex-banked-reset-hint-20261111",
+          "eventKey": "codex-banked-reset-hint-2026-11-11",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "Banked reset"
+          ],
+          "score": 72,
+          "scoreBreakdown": {
+            "userImpact": 29,
+            "novelty": 18,
+            "technicalImportance": 10,
+            "specificityAvailability": 8,
+            "industryImpact": 7
+          },
+          "title": "Codex責任者、banked resetの付与を示唆",
+          "summary": "Tibo Sottiaux氏が「木曜はCodex向きで、banked resetにも良い時期かもしれない」と投稿。付与完了、対象プラン、期限は明言していないため、Settings→Usageの「reset available」で実際の付与を確認する必要がある",
+          "publishedAt": "2026/11/11",
+          "sourcePublishedAt": "2026-11-11T06:57:08Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-12T07:00:17+09:00",
+          "verifiedAt": "2026-11-12T07:00:17+09:00",
+          "source": {
+            "label": "Tibo Sottiaux on X",
+            "url": "https://x.com/thsottiaux/status/2120410480204525936"
+          }
+        },
+        {
+          "id": "qwen4-max-preview-20261111",
+          "eventKey": "qwen4-max-preview-token-plan-2026-11-11",
+          "category": "AI",
+          "topics": [
+            "Qwen",
+            "API"
+          ],
+          "score": 74,
+          "scoreBreakdown": {
+            "userImpact": 24,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 8,
+            "industryImpact": 4
+          },
+          "title": "Qwen4-Max-Preview、1M contextで期間限定提供",
+          "summary": "QwenCloudが次世代マルチモーダルモデルqwen4-max-previewを公開。1M token context、最大393,216 token出力、画像・動画理解、tool calling、JSON Schema、OpenAI Responses／Anthropic Messages互換を備える。Token Plan限定で、11月25日24時（UTC+8）に終了予定",
+          "publishedAt": "2026/11/11",
+          "sourcePublishedAt": "2026-11-11T02:00:00Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-12T07:00:17+09:00",
+          "verifiedAt": "2026-11-12T07:00:17+09:00",
+          "source": {
+            "label": "QwenCloud",
+            "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "Qwen4-Max-Previewの期間限定提供を参考掲載",
+          "checkedAt": "2026-11-12T07:00:17+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "全員対象リセットを重要、banked reset示唆を参考掲載",
+          "checkedAt": "2026-11-12T07:00:17+09:00",
+          "alertCount": 1,
+          "referenceCount": 1
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす独立したSDV変更なし",
+          "checkedAt": "2026-11-12T07:00:17+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
+          "checkedAt": "2026-11-12T07:00:17+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "update",
+          "summary": "2026年度上期決算と通期見通しを重要掲載",
+          "checkedAt": "2026-11-12T07:00:17+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-11-11",
       "alerts": [
@@ -575,120 +732,26 @@
           "referenceCount": 1
         }
       ]
-    },
-    {
-      "date": "2026-11-05",
-      "alerts": [
-        {
-          "id": "claude-code-21318-20261105",
-          "eventKey": "anthropic-claude-code-v2-1-318-reliability-auth-mcp-2026-11-04",
-          "category": "AI",
-          "score": 85,
-          "scoreBreakdown": {
-            "userImpact": 31,
-            "novelty": 18,
-            "technicalImportance": 17,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "Claude Code 2.1.318、会話・認証・MCPの信頼性を大幅改善",
-          "summary": "AnthropicがClaude Code v2.1.318を公開。modのモデル分岐にeffort指定を追加し、ログイン有効期限の表示・警告を改善。--continue時の会話消失、MCP起動・接続、macOS Bashの停止とメモリ増加、クラウド・バックグラウンド実行など多数の不具合も修正した",
-          "publishedAt": "2026/11/04",
-          "sourcePublishedAt": "2026-11-04T09:01:00+09:00",
-          "sourcePublishedAtPrecision": "minute",
-          "firstSeenAt": "2026-11-05T07:08:38+09:00",
-          "verifiedAt": "2026-11-05T07:08:38+09:00",
-          "source": {
-            "label": "Anthropic Claude Code / GitHub Releases",
-            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "nissan-canada-ebay-parts-20261105",
-          "eventKey": "nissan-canada-ebay-parts-accessories-storefront-2026-11-04",
-          "category": "Nissan",
-          "title": "日産カナダ、eBayで純正部品・用品の直接販売を開始",
-          "summary": "日産カナダが自動車メーカーとして初めてeBay Canadaに専用ストアを開設。Nissan・INFINITIの純正部品と用品を地域販売店が発送し、eBay Guaranteed Fitと適合しない場合の30日以内無料返品に対応する",
-          "publishedAt": "2026/11/04",
-          "sourcePublishedAt": "2026-11-04",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-05T07:08:38+09:00",
-          "verifiedAt": "2026-11-05T07:08:38+09:00",
-          "source": {
-            "label": "Nissan Canada Newsroom",
-            "url": "https://canada.nissannews.com/en-CA/releases/nissan-canada-becomes-first-automaker-to-sell-parts-and-accessories-directly-on-ebay-canada"
-          }
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "主要AIサービスの公式発表と開発者向け更新を確認し、Claude Code更新を重要掲載",
-          "checkedAt": "2026-11-05T07:08:38+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "clear",
-          "summary": "公式経路とX・コミュニティ経路を照合し、新規の利用枠回復・仕様変更・障害補償は確認されず",
-          "checkedAt": "2026-11-05T07:08:38+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "clear",
-          "summary": "6 funnelの通常24検索、固定公式巡回、追加12検索を完了。当日掲載対象なし",
-          "checkedAt": "2026-11-05T07:08:38+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "主要国の公式経路を確認し、当日掲載対象となる永住条件の新規変更なし",
-          "checkedAt": "2026-11-05T07:08:38+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "update",
-          "summary": "公式各地域と報道を独立確認し、カナダの純正部品販売チャネル拡大を参考掲載",
-          "checkedAt": "2026-11-05T07:08:38+09:00",
-          "alertCount": 0,
-          "referenceCount": 1
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-11-05",
-      "end": "2026-11-11",
-      "generatedAt": "2026-11-11T07:04:20+09:00",
+      "start": "2026-11-06",
+      "end": "2026-11-12",
+      "generatedAt": "2026-11-12T07:00:17+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 9,
-        "reference": 4
+        "important": 10,
+        "reference": 5
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要4件・参考1件"
+          "summary": "重要3件・参考2件"
         },
         {
           "name": "Codex",
-          "summary": "重要0件・参考0件"
+          "summary": "重要1件・参考1件"
         },
         {
           "name": "SDV",
@@ -700,34 +763,10 @@
         },
         {
           "name": "Nissan",
-          "summary": "重要0件・参考3件"
+          "summary": "重要1件・参考2件"
         }
       ],
       "highlights": [
-        {
-          "id": "claude-code-21318-20261105",
-          "eventKey": "anthropic-claude-code-v2-1-318-reliability-auth-mcp-2026-11-04",
-          "category": "AI",
-          "score": 85,
-          "scoreBreakdown": {
-            "userImpact": 31,
-            "novelty": 18,
-            "technicalImportance": 17,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "Claude Code 2.1.318、会話・認証・MCPの信頼性を大幅改善",
-          "summary": "AnthropicがClaude Code v2.1.318を公開。modのモデル分岐にeffort指定を追加し、ログイン有効期限の表示・警告を改善。--continue時の会話消失、MCP起動・接続、macOS Bashの停止とメモリ増加、クラウド・バックグラウンド実行など多数の不具合も修正した",
-          "publishedAt": "2026/11/04",
-          "sourcePublishedAt": "2026-11-04T09:01:00+09:00",
-          "sourcePublishedAtPrecision": "minute",
-          "firstSeenAt": "2026-11-05T07:08:38+09:00",
-          "verifiedAt": "2026-11-05T07:08:38+09:00",
-          "source": {
-            "label": "Anthropic Claude Code / GitHub Releases",
-            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
-          }
-        },
         {
           "id": "openai-images-26-20261106",
           "eventKey": "openai-images-2-6-gif-reference-images-api-2026-11-04",
@@ -919,25 +958,56 @@
             "label": "Immigration New Zealand",
             "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-for-resident-visa-applications-if-dependent-children-are-unlawfully-in-new-zealand/"
           }
+        },
+        {
+          "id": "codex-global-reset-20261111",
+          "eventKey": "openai-codex-work-global-reset-2026-11-11",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "ChatGPT Work",
+            "Usage reset"
+          ],
+          "score": 95,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 20,
+            "specificityAvailability": 15,
+            "industryImpact": 5
+          },
+          "title": "CodexとChatGPT Workの利用枠を全員対象でリセット",
+          "summary": "Codex責任者Tibo Sottiaux氏が「全Codex・ChatGPT Workユーザーの利用枠をリセットした」と投稿した記録を、同一投稿ID・時刻・本文を保存した複数の独立トラッカーで照合。原投稿は確認時に削除済みのため、対象枠の反映はSettings→Usageでの確認が必要",
+          "publishedAt": "2026/11/11",
+          "sourcePublishedAt": "2026-11-11T10:47:00Z",
+          "sourcePublishedAtPrecision": "minute",
+          "firstSeenAt": "2026-11-12T07:00:17+09:00",
+          "verifiedAt": "2026-11-12T07:00:17+09:00",
+          "source": {
+            "label": "Tibo Sottiaux on X（複数アーカイブで照合）",
+            "url": "https://x.com/thsottiaux/status/2120468523250614272"
+          }
+        },
+        {
+          "id": "nissan-fy2026-h1-results-20261111",
+          "eventKey": "nissan-fy2026-h1-results-outlook-2026-11-11",
+          "category": "Nissan",
+          "score": 84,
+          "title": "日産、上期営業益800億円へ改善し通期2000億円予想を維持",
+          "summary": "日産が2026年度上期決算を発表。売上高6兆720億円、営業利益800億円、純損失397億円。Re:Nissanで1100億円の追加コスト削減を実現した一方、中国の弱さから通期世界販売見通しを315万台から297万〜300万台へ下方修正し、2027年2月に新事業計画を公表する",
+          "publishedAt": "2026/11/11",
+          "sourcePublishedAt": "2026-11-11T06:31:00Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-12T07:00:17+09:00",
+          "verifiedAt": "2026-11-12T07:00:17+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/42d6d2b4d82048af52b576b757c692cfc25056d2",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/261111-01-e"
+          }
         }
       ],
       "references": [
-        {
-          "id": "nissan-canada-ebay-parts-20261105",
-          "eventKey": "nissan-canada-ebay-parts-accessories-storefront-2026-11-04",
-          "category": "Nissan",
-          "title": "日産カナダ、eBayで純正部品・用品の直接販売を開始",
-          "summary": "日産カナダが自動車メーカーとして初めてeBay Canadaに専用ストアを開設。Nissan・INFINITIの純正部品と用品を地域販売店が発送し、eBay Guaranteed Fitと適合しない場合の30日以内無料返品に対応する",
-          "publishedAt": "2026/11/04",
-          "sourcePublishedAt": "2026-11-04",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-05T07:08:38+09:00",
-          "verifiedAt": "2026-11-05T07:08:38+09:00",
-          "source": {
-            "label": "Nissan Canada Newsroom",
-            "url": "https://canada.nissannews.com/en-CA/releases/nissan-canada-becomes-first-automaker-to-sell-parts-and-accessories-directly-on-ebay-canada"
-          }
-        },
         {
           "id": "openai-gpt6-cyber-20261106",
           "eventKey": "openai-gpt-6-cyber-daybreak-red-codex-api-2026-11-05",
@@ -999,6 +1069,62 @@
           "source": {
             "label": "Nissan U.S. Newsroom",
             "url": "https://usa.nissannews.com/en-US/releases/legendary-patrol-badge-returns-to-the-us-nissan-introduces-armada-patrol-pro-4x-grade"
+          }
+        },
+        {
+          "id": "codex-banked-reset-hint-20261111",
+          "eventKey": "codex-banked-reset-hint-2026-11-11",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "Banked reset"
+          ],
+          "score": 72,
+          "scoreBreakdown": {
+            "userImpact": 29,
+            "novelty": 18,
+            "technicalImportance": 10,
+            "specificityAvailability": 8,
+            "industryImpact": 7
+          },
+          "title": "Codex責任者、banked resetの付与を示唆",
+          "summary": "Tibo Sottiaux氏が「木曜はCodex向きで、banked resetにも良い時期かもしれない」と投稿。付与完了、対象プラン、期限は明言していないため、Settings→Usageの「reset available」で実際の付与を確認する必要がある",
+          "publishedAt": "2026/11/11",
+          "sourcePublishedAt": "2026-11-11T06:57:08Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-12T07:00:17+09:00",
+          "verifiedAt": "2026-11-12T07:00:17+09:00",
+          "source": {
+            "label": "Tibo Sottiaux on X",
+            "url": "https://x.com/thsottiaux/status/2120410480204525936"
+          }
+        },
+        {
+          "id": "qwen4-max-preview-20261111",
+          "eventKey": "qwen4-max-preview-token-plan-2026-11-11",
+          "category": "AI",
+          "topics": [
+            "Qwen",
+            "API"
+          ],
+          "score": 74,
+          "scoreBreakdown": {
+            "userImpact": 24,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 8,
+            "industryImpact": 4
+          },
+          "title": "Qwen4-Max-Preview、1M contextで期間限定提供",
+          "summary": "QwenCloudが次世代マルチモーダルモデルqwen4-max-previewを公開。1M token context、最大393,216 token出力、画像・動画理解、tool calling、JSON Schema、OpenAI Responses／Anthropic Messages互換を備える。Token Plan限定で、11月25日24時（UTC+8）に終了予定",
+          "publishedAt": "2026/11/11",
+          "sourcePublishedAt": "2026-11-11T02:00:00Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-12T07:00:17+09:00",
+          "verifiedAt": "2026-11-12T07:00:17+09:00",
+          "source": {
+            "label": "QwenCloud",
+            "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
           }
         }
       ]
