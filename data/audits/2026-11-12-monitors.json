@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-12",
+  "checkedAt": "2026-11-12T07:00:17+09:00",
+  "windowStart": "2026-11-09T07:04:20+09:00",
+  "publicationWindowStart": "2026-11-11T07:04:20+09:00",
+  "publicationWindowEnd": "2026-11-12T06:56:14+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://developers.openai.com/codex/changelog/",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-12T07:00:17+09:00"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query"
+      ],
+      "checkedAt": "2026-11-12T07:00:17+09:00",
+      "result": "banked reset示唆の原投稿を直接確認。全員リセット完了投稿は複数の独立トラッカーが同一投稿ID・本文・時刻を記録したが、確認時に原投稿は削除済み"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+        "https://www.gov.uk/government/organisations/home-office",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/about-us/news-centre/",
+        "https://www.make-it-in-germany.com/en/",
+        "https://www.ica.gov.sg/about-ica/news-and-publications",
+        "https://www.moj.go.jp/isa/"
+      ],
+      "checkedAt": "2026-11-12T07:00:17+09:00"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-work-global-reset-2026-11-11",
+      "sourceUrl": "https://x.com/thsottiaux/status/2120468523250614272",
+      "sourcePublishedAt": "2026-11-11T10:47:00Z",
+      "publishedAtJst": "2026-11-11T19:47:00+09:00",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "discoveredLate": false,
+      "bodyVerified": false,
+      "verified": true,
+      "verificationMethod": "複数の独立トラッカーが同一X投稿ID・本文・時刻を保存。原投稿は確認時に削除済み",
+      "decision": "adopted-important",
+      "score": 95,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "reason": "実利用枠の回復を明言するCodex責任者投稿の記録を複数照合"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-banked-reset-hint-2026-11-11",
+      "sourceUrl": "https://x.com/thsottiaux/status/2120410480204525936",
+      "sourcePublishedAt": "2026-11-11T06:57:08Z",
+      "publishedAtJst": "2026-11-11T15:57:08+09:00",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "score": 72,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 18,
+        "technicalImportance": 10,
+        "specificityAvailability": 8,
+        "industryImpact": 7
+      },
+      "reason": "本人投稿は直接確認したが、付与完了や対象を明言していない"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "qwen4-max-preview-token-plan-2026-11-11",
+      "sourceUrl": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model",
+      "sourcePublishedAt": "2026-11-11T02:00:00Z",
+      "publishedAtJst": "2026-11-11T11:00:00+09:00",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "score": 74,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 8,
+        "industryImpact": 4
+      },
+      "reason": "公式モデルページで仕様、提供方法、終了時刻を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-cli-0-167-1-2026-11-10",
+      "sourceUrl": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+      "sourcePublishedAt": "2026-11-10T21:32:00Z",
+      "publishedAtJst": "2026-11-11T06:32:00+09:00",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "late-audit-only",
+      "reason": "前回成功時刻より前のパッチリリースで新機能記載なし。今日へ掲載しない"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "residency-no-new-change-2026-11-12",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "カナダ、英国、豪州、NZ、ドイツ、シンガポール、日本の公式情報を巡回し、当日窓の新規条件変更なし"
+    }
+  ]
+}
