@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-12",
+  "checkedAt": "2026-11-12T07:00:17+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://www.nissan.co.jp/",
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases?sortOrder=PublishedDescending",
+    "https://usa.nissannews.com/en-US",
+    "https://europe.nissannews.com/en-GB",
+    "https://canada.nissannews.com/en-CA/channels/news-releases",
+    "https://www.nhtsa.gov/recalls"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com November 11 2026 Nissan",
+      "recordedAt": "2026-11-12T07:00:17+09:00"
+    },
+    {
+      "query": "site:nissan.co.jp 2026年11月11日 日産",
+      "recordedAt": "2026-11-12T07:00:17+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 11 2026 Nissan",
+      "recordedAt": "2026-11-12T07:00:17+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 11 2026 Nissan",
+      "recordedAt": "2026-11-12T07:00:17+09:00"
+    },
+    {
+      "query": "Nissan November 11 2026 recall production sales technology",
+      "recordedAt": "2026-11-12T07:00:17+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-fy2026-h1-results-outlook-2026-11-11",
+      "sourceUrl": "https://global.nissannews.com/en/releases/261111-01-e",
+      "sourcePublishedAt": "2026-11-11T06:31:00Z",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "reason": "公式本文で上期業績、通期見通し、販売下方修正、Re:Nissan効果、新事業計画時期を確認"
+    },
+    {
+      "eventKey": "nissan-q2-results-wire-duplicates-2026-11-11",
+      "sourceUrl": "https://www.reuters.com/world/asia-pacific/nissans-q2-operating-profit-tumbles-us-emissions-costs-weigh-2026-11-11/",
+      "sourcePublishedAt": "2026-11-11T06:54:47Z",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-fy2026-h1-results-outlook-2026-11-11",
+      "reason": "同一決算を報じる二次記事のため公式発表へ統合"
+    }
+  ]
+}
