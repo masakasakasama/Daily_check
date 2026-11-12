@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-13",
+  "alerts": [
+    {
+      "id": "toyota-arene-50-models-2030-20261113",
+      "eventKey": "toyota-arene-50-models-10m-vehicles-2030-2026-11-11",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Arene",
+        "ADAS"
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 21,
+        "scale": 18,
+        "specificity": 12,
+        "novelty": 10
+      },
+      "title": "トヨタ、Areneを2030年に約50車種・1000万台へ拡大",
+      "summary": "トヨタが車載ソフト基盤AreneをRAV4とLexus ESから、2030年までに世界約50車種・1000万台へ広げ、アライアンス各社への提供も目指すと発表。異なる世代のSoC上でアプリを動かせる設計とし、2028年から一部市販車へL2++運転支援を導入する計画も示した",
+      "publishedAt": "2026/11/12",
+      "sourcePublishedAt": "2026-11-11",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月11日。時刻非公開のため、JST日付は米国発表日の翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "verifiedAt": "2026-11-13T07:02:51+09:00",
+      "source": {
+        "label": "Toyota USA Newsroom",
+        "url": "https://pressroom.toyota.com/toyota-powers-whats-next-in-mobility-and-manufacturing/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "codex-cli-01672-20261113",
+      "eventKey": "openai-codex-cli-0-167-2-incremental-tools-gcp-2026-11-12",
+      "category": "Codex",
+      "topics": [
+        "Codex CLI",
+        "Google Cloud",
+        "Vertex AI"
+      ],
+      "score": 66,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 15,
+        "technicalImportance": 14,
+        "specificityAvailability": 10,
+        "industryImpact": 3
+      },
+      "title": "Codex CLI 0.167.2、Vertex AIのツール更新を逐次送信",
+      "summary": "OpenAIがCodex CLI 0.167.2を公開。Google Cloud Vertex AI利用時のツール更新を既定で逐次送信し、長いツール定義でのリクエスト処理を改善する。従来方式へ戻す場合はfeaturesでincremental_tools_legacy_gcpをfalseに設定する",
+      "publishedAt": "2026/11/12",
+      "sourcePublishedAt": "2026-11-11T22:46:17Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "verifiedAt": "2026-11-13T07:02:51+09:00",
+      "source": {
+        "label": "OpenAI Codex releases",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2"
+      }
+    },
+    {
+      "id": "nissan-epower-rjc-award-20261113",
+      "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-12",
+      "category": "Nissan",
+      "score": 62,
+      "title": "日産、第3世代e-POWERがRJCテクノロジー・オブ・ザ・イヤー受賞",
+      "summary": "日産の第3世代e-POWERが2027年次RJCテクノロジー・オブ・ザ・イヤーを受賞。発電専用エンジンと、モーター・インバーターなどを統合した5-in-1電動パワートレインにより、燃費と静粛性を改善し、新型KicksとElgrandへ搭載する",
+      "publishedAt": "2026/11/12",
+      "sourcePublishedAt": "2026-11-12",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "verifiedAt": "2026-11-13T07:02:51+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/4821ef3ed5af11a60e3c129d563d1910dc413750",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/261112-01-e"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす独立したAI変更なし",
+      "checkedAt": "2026-11-13T07:02:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "Codex CLI 0.167.2を参考掲載",
+      "checkedAt": "2026-11-13T07:02:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "トヨタAreneの展開計画を重要掲載",
+      "checkedAt": "2026-11-13T07:02:51+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
+      "checkedAt": "2026-11-13T07:02:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "第3世代e-POWERの技術賞受賞を参考掲載",
+      "checkedAt": "2026-11-13T07:02:51+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    }
+  ]
+}
