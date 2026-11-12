@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-13",
+  "checkedAt": "2026-11-13T07:02:51+09:00",
+  "windowStart": "2026-11-10T07:00:17+09:00",
+  "publicationWindowStart": "2026-11-12T07:00:17+09:00",
+  "publicationWindowEnd": "2026-11-13T06:56:20+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "https://developers.openai.com/codex/changelog/",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-13T07:02:51+09:00",
+      "result": "Codex CLI 0.167.2を新規確認。利用枠・リセット仕様の追加変更なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query"
+      ],
+      "checkedAt": "2026-11-13T07:02:51+09:00",
+      "result": "前日掲載済みのbanked reset示唆以後、新しい公式確定または複数独立ユーザー報告を確認できず"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://openai.com/news/",
+        "https://www.anthropic.com/news",
+        "https://blog.google/technology/ai/"
+      ],
+      "checkedAt": "2026-11-13T07:02:51+09:00",
+      "result": "当日掲載条件を満たす独立した製品・利用方法変更なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+        "https://www.gov.uk/government/organisations/home-office",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/about-us/news-centre/",
+        "https://www.make-it-in-germany.com/en/",
+        "https://www.ica.gov.sg/about-ica/news-and-publications",
+        "https://www.moj.go.jp/isa/"
+      ],
+      "checkedAt": "2026-11-13T07:02:51+09:00",
+      "result": "英国の相談結果更新は11月3日掲載済み最終ルールと実質同一。他国も当日条件変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-cli-0-167-2-incremental-tools-gcp-2026-11-12",
+      "sourceUrl": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+      "sourcePublishedAt": "2026-11-11T22:46:17Z",
+      "publishedAtJst": "2026-11-12T07:46:17+09:00",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "score": 66,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 15,
+        "technicalImportance": 14,
+        "specificityAvailability": 10,
+        "industryImpact": 3
+      },
+      "reason": "公式GitHub releaseと公式changelogでVertex AIの逐次ツール更新を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-banked-reset-hint-followup-2026-11-13",
+      "sourceUrl": "https://x.com/thsottiaux/status/2120410480204525936",
+      "sourcePublishedAt": "2026-11-11T06:57:08Z",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "codex-banked-reset-hint-2026-11-11",
+      "reason": "前日掲載済み。付与完了や対象の新しい確認なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "uk-earned-settlement-consultation-outcome-update-2026-11-12",
+      "sourceUrl": "https://www.gov.uk/government/consultations/earned-settlement",
+      "sourcePublishedAt": "2026-11-12",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "uk-earned-settlement-final-rule-10-year-standard-2026-11-03",
+      "reason": "更新表示は変わったが、最終ルールの実質内容は11月3日の日別で掲載済み"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "ai-no-new-product-change-2026-11-13",
+      "sourceUrl": "https://openai.com/news/",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "主要公式発表を巡回し、当日窓の独立した利用方法変更なし"
+    }
+  ]
+}
