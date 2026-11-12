@@ -1,8 +1,139 @@
 {
   "version": 5,
-  "currentDate": "2026-11-12",
-  "updatedAt": "2026-11-12T07:00:17+09:00",
+  "currentDate": "2026-11-13",
+  "updatedAt": "2026-11-13T07:02:51+09:00",
   "days": [
+    {
+      "date": "2026-11-13",
+      "alerts": [
+        {
+          "id": "toyota-arene-50-models-2030-20261113",
+          "eventKey": "toyota-arene-50-models-10m-vehicles-2030-2026-11-11",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "Arene",
+            "ADAS"
+          ],
+          "score": 85,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 21,
+            "scale": 18,
+            "specificity": 12,
+            "novelty": 10
+          },
+          "title": "トヨタ、Areneを2030年に約50車種・1000万台へ拡大",
+          "summary": "トヨタが車載ソフト基盤AreneをRAV4とLexus ESから、2030年までに世界約50車種・1000万台へ広げ、アライアンス各社への提供も目指すと発表。異なる世代のSoC上でアプリを動かせる設計とし、2028年から一部市販車へL2++運転支援を導入する計画も示した",
+          "publishedAt": "2026/11/12",
+          "sourcePublishedAt": "2026-11-11",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月11日。時刻非公開のため、JST日付は米国発表日の翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-13T07:02:51+09:00",
+          "verifiedAt": "2026-11-13T07:02:51+09:00",
+          "source": {
+            "label": "Toyota USA Newsroom",
+            "url": "https://pressroom.toyota.com/toyota-powers-whats-next-in-mobility-and-manufacturing/"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "codex-cli-01672-20261113",
+          "eventKey": "openai-codex-cli-0-167-2-incremental-tools-gcp-2026-11-12",
+          "category": "Codex",
+          "topics": [
+            "Codex CLI",
+            "Google Cloud",
+            "Vertex AI"
+          ],
+          "score": 66,
+          "scoreBreakdown": {
+            "userImpact": 24,
+            "novelty": 15,
+            "technicalImportance": 14,
+            "specificityAvailability": 10,
+            "industryImpact": 3
+          },
+          "title": "Codex CLI 0.167.2、Vertex AIのツール更新を逐次送信",
+          "summary": "OpenAIがCodex CLI 0.167.2を公開。Google Cloud Vertex AI利用時のツール更新を既定で逐次送信し、長いツール定義でのリクエスト処理を改善する。従来方式へ戻す場合はfeaturesでincremental_tools_legacy_gcpをfalseに設定する",
+          "publishedAt": "2026/11/12",
+          "sourcePublishedAt": "2026-11-11T22:46:17Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-13T07:02:51+09:00",
+          "verifiedAt": "2026-11-13T07:02:51+09:00",
+          "source": {
+            "label": "OpenAI Codex releases",
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2"
+          }
+        },
+        {
+          "id": "nissan-epower-rjc-award-20261113",
+          "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-12",
+          "category": "Nissan",
+          "score": 62,
+          "title": "日産、第3世代e-POWERがRJCテクノロジー・オブ・ザ・イヤー受賞",
+          "summary": "日産の第3世代e-POWERが2027年次RJCテクノロジー・オブ・ザ・イヤーを受賞。発電専用エンジンと、モーター・インバーターなどを統合した5-in-1電動パワートレインにより、燃費と静粛性を改善し、新型KicksとElgrandへ搭載する",
+          "publishedAt": "2026/11/12",
+          "sourcePublishedAt": "2026-11-12",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-13T07:02:51+09:00",
+          "verifiedAt": "2026-11-13T07:02:51+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/4821ef3ed5af11a60e3c129d563d1910dc413750",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/261112-01-e"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす独立したAI変更なし",
+          "checkedAt": "2026-11-13T07:02:51+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "Codex CLI 0.167.2を参考掲載",
+          "checkedAt": "2026-11-13T07:02:51+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "update",
+          "summary": "トヨタAreneの展開計画を重要掲載",
+          "checkedAt": "2026-11-13T07:02:51+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
+          "checkedAt": "2026-11-13T07:02:51+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "update",
+          "summary": "第3世代e-POWERの技術賞受賞を参考掲載",
+          "checkedAt": "2026-11-13T07:02:51+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        }
+      ]
+    },
     {
       "date": "2026-11-12",
       "alerts": [
@@ -576,182 +707,26 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-11-06",
-      "alerts": [
-        {
-          "id": "openai-images-26-20261106",
-          "eventKey": "openai-images-2-6-gif-reference-images-api-2026-11-04",
-          "category": "AI",
-          "topics": [
-            "Codex"
-          ],
-          "score": 96,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 8
-          },
-          "title": "ChatGPT Images 2.6、GIF生成と参照画像の再利用に対応",
-          "summary": "OpenAIがImages 2.6をChatGPTとCodexの全サブスクリプション層へ世界提供。生成を従来比50%高速化し、GIF生成、チャットをまたぐ参照画像の保存、APIのFlare／Sunburst、画像マークアップ、SVG書き出し、complexity指定を追加した",
-          "publishedAt": "2026/11/05",
-          "sourcePublishedAt": "2026-11-05T08:35:00+09:00",
-          "sourcePublishedAtPrecision": "minute",
-          "sourcePublishedAtEvidenceUrl": "https://x.com/OpenAI/status/2118124944928432327",
-          "firstSeenAt": "2026-11-06T07:11:26+09:00",
-          "verifiedAt": "2026-11-06T07:11:26+09:00",
-          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
-          "source": {
-            "label": "OpenAI",
-            "url": "https://openai.com/index/introducing-images-2-6/"
-          }
-        },
-        {
-          "id": "jasa-sdx-platform-committee-20261106",
-          "eventKey": "jasa-sdx-platform-committee-launch-10-companies-2026-11-05",
-          "category": "SDV",
-          "topics": [
-            "Nissan"
-          ],
-          "score": 79,
-          "scoreBreakdown": {
-            "sdvDirectness": 25,
-            "practicalImpact": 15,
-            "scale": 18,
-            "specificity": 9,
-            "novelty": 12
-          },
-          "title": "JASA、日産・Honda・マツダなど10社でSDV共通基盤を実証へ",
-          "summary": "組込みシステム技術協会がSDxプラットフォーム委員会を発足。日産、Honda、マツダ、アイシン、Astemo、デンソーなど10社が参画し、2027年末までSDVの共通アーキテクチャ確立と企業横断の実証に取り組む。2027年から技術別WGと新規メンバー募集も始める",
-          "publishedAt": "2026/11/05",
-          "sourcePublishedAt": "2026-11-05T10:30:00+09:00",
-          "sourcePublishedAtPrecision": "minute",
-          "firstSeenAt": "2026-11-06T07:11:26+09:00",
-          "verifiedAt": "2026-11-06T07:11:26+09:00",
-          "thumbnail": "https://response.jp/imgs/ogp_f/2257319.jpg",
-          "source": {
-            "label": "JASA / PR TIMES",
-            "url": "https://prtimes.jp/main/html/rd/p/000000006.000172759.html"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "openai-gpt6-cyber-20261106",
-          "eventKey": "openai-gpt-6-cyber-daybreak-red-codex-api-2026-11-05",
-          "category": "AI",
-          "topics": [
-            "Codex"
-          ],
-          "score": 73,
-          "scoreBreakdown": {
-            "userImpact": 15,
-            "novelty": 18,
-            "technicalImportance": 20,
-            "specificityAvailability": 12,
-            "industryImpact": 8
-          },
-          "title": "OpenAI、承認済みDaybreak Red向けにGPT-6 Cyberを提供",
-          "summary": "OpenAIが脆弱性の発見・検証・修正と認可済みテストに特化したGPT-6 Cyberを公開。APIとCodexで一部の承認済みDaybreak Red顧客へ先行提供し、順次全Daybreak Redへ拡大する。コンテキストは105万トークンで、対象範囲順守と不正利用対策を強化した",
-          "publishedAt": "2026/11/05",
-          "sourcePublishedAt": "2026-11-05",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-06T07:11:26+09:00",
-          "verifiedAt": "2026-11-06T07:11:26+09:00",
-          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/73cvZmLsj7WIXQAgMDX8kz/4996c7a084b81e21a8f1357fe395c30b/gpt-6-cyber-social.png?w=1600&h=900&fit=fill",
-          "source": {
-            "label": "OpenAI",
-            "url": "https://openai.com/index/introducing-gpt-6-cyber/"
-          }
-        },
-        {
-          "id": "nissan-serena-update-20261106",
-          "eventKey": "nissan-serena-spec-update-black-edition-price-cut-2026-11-05",
-          "category": "Nissan",
-          "title": "日産、セレナを一部改良　LUXIONを約20万円値下げ",
-          "summary": "日産がセレナを一部仕様変更。最上位LUXIONは快適装備を標準化しつつ20万1300円値下げして479万7100円とし、ハイウェイスターVはアダプティブLEDを標準装備。35周年記念の期間限定Black Editionも追加した",
-          "publishedAt": "2026/11/05",
-          "sourcePublishedAt": "2026-11-05T18:30:00+09:00",
-          "sourcePublishedAtPrecision": "minute",
-          "firstSeenAt": "2026-11-06T07:11:26+09:00",
-          "verifiedAt": "2026-11-06T07:11:26+09:00",
-          "thumbnail": "https://response.jp/imgs/ogp_f/2258222.jpg",
-          "source": {
-            "label": "レスポンス",
-            "url": "https://response.jp/article/2026/11/05/418655.html"
-          }
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "公式発表と開発者向け更新を確認し、Images 2.6を重要、GPT-6 Cyberを限定提供の参考として掲載",
-          "checkedAt": "2026-11-06T07:11:26+09:00",
-          "alertCount": 1,
-          "referenceCount": 1
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "公式経路とX・コミュニティ経路を照合。新規の利用枠リセットはなく、Codex全プランに提供されたImages 2.6と限定Cyberモデルを確認",
-          "checkedAt": "2026-11-06T07:11:26+09:00",
-          "alertCount": 1,
-          "referenceCount": 1
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "update",
-          "summary": "6 funnelの固定公式巡回と通常24検索を実施し、JASAの10社共通基盤実証を重要掲載",
-          "checkedAt": "2026-11-06T07:11:26+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "主要国の公式経路を確認し、当日掲載対象となる永住条件の新規変更なし",
-          "checkedAt": "2026-11-06T07:11:26+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "update",
-          "summary": "公式サイトと地域ニュース、信頼できる報道を独立確認し、セレナ一部改良を参考掲載",
-          "checkedAt": "2026-11-06T07:11:26+09:00",
-          "alertCount": 0,
-          "referenceCount": 1
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-11-06",
-      "end": "2026-11-12",
-      "generatedAt": "2026-11-12T07:00:17+09:00",
+      "start": "2026-11-07",
+      "end": "2026-11-13",
+      "generatedAt": "2026-11-13T07:02:51+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 10,
+        "important": 9,
         "reference": 5
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要3件・参考2件"
+          "summary": "重要2件・参考1件"
         },
         {
           "name": "Codex",
-          "summary": "重要1件・参考1件"
+          "summary": "重要1件・参考2件"
         },
         {
           "name": "SDV",
@@ -767,63 +742,6 @@
         }
       ],
       "highlights": [
-        {
-          "id": "openai-images-26-20261106",
-          "eventKey": "openai-images-2-6-gif-reference-images-api-2026-11-04",
-          "category": "AI",
-          "topics": [
-            "Codex"
-          ],
-          "score": 96,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 8
-          },
-          "title": "ChatGPT Images 2.6、GIF生成と参照画像の再利用に対応",
-          "summary": "OpenAIがImages 2.6をChatGPTとCodexの全サブスクリプション層へ世界提供。生成を従来比50%高速化し、GIF生成、チャットをまたぐ参照画像の保存、APIのFlare／Sunburst、画像マークアップ、SVG書き出し、complexity指定を追加した",
-          "publishedAt": "2026/11/05",
-          "sourcePublishedAt": "2026-11-05T08:35:00+09:00",
-          "sourcePublishedAtPrecision": "minute",
-          "sourcePublishedAtEvidenceUrl": "https://x.com/OpenAI/status/2118124944928432327",
-          "firstSeenAt": "2026-11-06T07:11:26+09:00",
-          "verifiedAt": "2026-11-06T07:11:26+09:00",
-          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
-          "source": {
-            "label": "OpenAI",
-            "url": "https://openai.com/index/introducing-images-2-6/"
-          }
-        },
-        {
-          "id": "jasa-sdx-platform-committee-20261106",
-          "eventKey": "jasa-sdx-platform-committee-launch-10-companies-2026-11-05",
-          "category": "SDV",
-          "topics": [
-            "Nissan"
-          ],
-          "score": 79,
-          "scoreBreakdown": {
-            "sdvDirectness": 25,
-            "practicalImpact": 15,
-            "scale": 18,
-            "specificity": 9,
-            "novelty": 12
-          },
-          "title": "JASA、日産・Honda・マツダなど10社でSDV共通基盤を実証へ",
-          "summary": "組込みシステム技術協会がSDxプラットフォーム委員会を発足。日産、Honda、マツダ、アイシン、Astemo、デンソーなど10社が参画し、2027年末までSDVの共通アーキテクチャ確立と企業横断の実証に取り組む。2027年から技術別WGと新規メンバー募集も始める",
-          "publishedAt": "2026/11/05",
-          "sourcePublishedAt": "2026-11-05T10:30:00+09:00",
-          "sourcePublishedAtPrecision": "minute",
-          "firstSeenAt": "2026-11-06T07:11:26+09:00",
-          "verifiedAt": "2026-11-06T07:11:26+09:00",
-          "thumbnail": "https://response.jp/imgs/ogp_f/2257319.jpg",
-          "source": {
-            "label": "JASA / PR TIMES",
-            "url": "https://prtimes.jp/main/html/rd/p/000000006.000172759.html"
-          }
-        },
         {
           "id": "valeo-qnx-smart-camera-platform-20261107",
           "eventKey": "valeo-qnx-front-view-smart-camera-platform-2026-11-06",
@@ -1005,54 +923,39 @@
             "label": "Nissan Global Newsroom",
             "url": "https://global.nissannews.com/en/releases/261111-01-e"
           }
+        },
+        {
+          "id": "toyota-arene-50-models-2030-20261113",
+          "eventKey": "toyota-arene-50-models-10m-vehicles-2030-2026-11-11",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "Arene",
+            "ADAS"
+          ],
+          "score": 85,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 21,
+            "scale": 18,
+            "specificity": 12,
+            "novelty": 10
+          },
+          "title": "トヨタ、Areneを2030年に約50車種・1000万台へ拡大",
+          "summary": "トヨタが車載ソフト基盤AreneをRAV4とLexus ESから、2030年までに世界約50車種・1000万台へ広げ、アライアンス各社への提供も目指すと発表。異なる世代のSoC上でアプリを動かせる設計とし、2028年から一部市販車へL2++運転支援を導入する計画も示した",
+          "publishedAt": "2026/11/12",
+          "sourcePublishedAt": "2026-11-11",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月11日。時刻非公開のため、JST日付は米国発表日の翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-13T07:02:51+09:00",
+          "verifiedAt": "2026-11-13T07:02:51+09:00",
+          "source": {
+            "label": "Toyota USA Newsroom",
+            "url": "https://pressroom.toyota.com/toyota-powers-whats-next-in-mobility-and-manufacturing/"
+          }
         }
       ],
       "references": [
-        {
-          "id": "openai-gpt6-cyber-20261106",
-          "eventKey": "openai-gpt-6-cyber-daybreak-red-codex-api-2026-11-05",
-          "category": "AI",
-          "topics": [
-            "Codex"
-          ],
-          "score": 73,
-          "scoreBreakdown": {
-            "userImpact": 15,
-            "novelty": 18,
-            "technicalImportance": 20,
-            "specificityAvailability": 12,
-            "industryImpact": 8
-          },
-          "title": "OpenAI、承認済みDaybreak Red向けにGPT-6 Cyberを提供",
-          "summary": "OpenAIが脆弱性の発見・検証・修正と認可済みテストに特化したGPT-6 Cyberを公開。APIとCodexで一部の承認済みDaybreak Red顧客へ先行提供し、順次全Daybreak Redへ拡大する。コンテキストは105万トークンで、対象範囲順守と不正利用対策を強化した",
-          "publishedAt": "2026/11/05",
-          "sourcePublishedAt": "2026-11-05",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-06T07:11:26+09:00",
-          "verifiedAt": "2026-11-06T07:11:26+09:00",
-          "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/73cvZmLsj7WIXQAgMDX8kz/4996c7a084b81e21a8f1357fe395c30b/gpt-6-cyber-social.png?w=1600&h=900&fit=fill",
-          "source": {
-            "label": "OpenAI",
-            "url": "https://openai.com/index/introducing-gpt-6-cyber/"
-          }
-        },
-        {
-          "id": "nissan-serena-update-20261106",
-          "eventKey": "nissan-serena-spec-update-black-edition-price-cut-2026-11-05",
-          "category": "Nissan",
-          "title": "日産、セレナを一部改良　LUXIONを約20万円値下げ",
-          "summary": "日産がセレナを一部仕様変更。最上位LUXIONは快適装備を標準化しつつ20万1300円値下げして479万7100円とし、ハイウェイスターVはアダプティブLEDを標準装備。35周年記念の期間限定Black Editionも追加した",
-          "publishedAt": "2026/11/05",
-          "sourcePublishedAt": "2026-11-05T18:30:00+09:00",
-          "sourcePublishedAtPrecision": "minute",
-          "firstSeenAt": "2026-11-06T07:11:26+09:00",
-          "verifiedAt": "2026-11-06T07:11:26+09:00",
-          "thumbnail": "https://response.jp/imgs/ogp_f/2258222.jpg",
-          "source": {
-            "label": "レスポンス",
-            "url": "https://response.jp/article/2026/11/05/418655.html"
-          }
-        },
         {
           "id": "nissan-armada-patrol-pro4x-20261110",
           "eventKey": "nissan-armada-patrol-pro-4x-us-2027-2026-11-09",
@@ -1125,6 +1028,53 @@
           "source": {
             "label": "QwenCloud",
             "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
+          }
+        },
+        {
+          "id": "codex-cli-01672-20261113",
+          "eventKey": "openai-codex-cli-0-167-2-incremental-tools-gcp-2026-11-12",
+          "category": "Codex",
+          "topics": [
+            "Codex CLI",
+            "Google Cloud",
+            "Vertex AI"
+          ],
+          "score": 66,
+          "scoreBreakdown": {
+            "userImpact": 24,
+            "novelty": 15,
+            "technicalImportance": 14,
+            "specificityAvailability": 10,
+            "industryImpact": 3
+          },
+          "title": "Codex CLI 0.167.2、Vertex AIのツール更新を逐次送信",
+          "summary": "OpenAIがCodex CLI 0.167.2を公開。Google Cloud Vertex AI利用時のツール更新を既定で逐次送信し、長いツール定義でのリクエスト処理を改善する。従来方式へ戻す場合はfeaturesでincremental_tools_legacy_gcpをfalseに設定する",
+          "publishedAt": "2026/11/12",
+          "sourcePublishedAt": "2026-11-11T22:46:17Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-13T07:02:51+09:00",
+          "verifiedAt": "2026-11-13T07:02:51+09:00",
+          "source": {
+            "label": "OpenAI Codex releases",
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2"
+          }
+        },
+        {
+          "id": "nissan-epower-rjc-award-20261113",
+          "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-12",
+          "category": "Nissan",
+          "score": 62,
+          "title": "日産、第3世代e-POWERがRJCテクノロジー・オブ・ザ・イヤー受賞",
+          "summary": "日産の第3世代e-POWERが2027年次RJCテクノロジー・オブ・ザ・イヤーを受賞。発電専用エンジンと、モーター・インバーターなどを統合した5-in-1電動パワートレインにより、燃費と静粛性を改善し、新型KicksとElgrandへ搭載する",
+          "publishedAt": "2026/11/12",
+          "sourcePublishedAt": "2026-11-12",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-13T07:02:51+09:00",
+          "verifiedAt": "2026-11-13T07:02:51+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/4821ef3ed5af11a60e3c129d563d1910dc413750",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/261112-01-e"
           }
         }
       ]
