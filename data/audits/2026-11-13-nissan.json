@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-13",
+  "checkedAt": "2026-11-13T07:02:51+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://www.nissan.co.jp/",
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases?sortOrder=PublishedDescending",
+    "https://usa.nissannews.com/en-US",
+    "https://europe.nissannews.com/en-GB",
+    "https://canada.nissannews.com/en-CA/channels/news-releases",
+    "https://www.nhtsa.gov/recalls"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com November 12 2026 Nissan",
+      "recordedAt": "2026-11-13T07:02:51+09:00"
+    },
+    {
+      "query": "site:nissan.co.jp 2026年11月12日 日産",
+      "recordedAt": "2026-11-13T07:02:51+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 12 2026 Nissan",
+      "recordedAt": "2026-11-13T07:02:51+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 12 2026 Nissan",
+      "recordedAt": "2026-11-13T07:02:51+09:00"
+    },
+    {
+      "query": "Nissan November 12 2026 recall production sales technology",
+      "recordedAt": "2026-11-13T07:02:51+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-12",
+      "sourceUrl": "https://global.nissannews.com/en/releases/261112-01-e",
+      "sourcePublishedAt": "2026-11-12",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "reason": "公式本文で受賞対象、5-in-1構成、燃費・静粛性、搭載車種を確認"
+    },
+    {
+      "eventKey": "nissan-qashqai-20-years-73m-sales-2026-11-12",
+      "sourceUrl": "https://europe.nissannews.com/en-GB/releases/20-years-of-the-nissan-qashqai",
+      "sourcePublishedAt": "2026-11-12",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "20周年と累計販売の回顧で、当日ユーザーや事業へ直接影響する新規変更ではない"
+    }
+  ]
+}
