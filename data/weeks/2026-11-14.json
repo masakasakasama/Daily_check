@@ -1,0 +1,402 @@
+{
+  "start": "2026-11-08",
+  "end": "2026-11-14",
+  "generatedAt": "2026-11-14T07:02:59+09:00",
+  "headline": "期間内の重要更新・参考情報",
+  "counts": {
+    "important": 10,
+    "reference": 5
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要2件・参考1件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要3件・参考2件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要1件・参考0件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要3件・参考0件"
+    },
+    {
+      "name": "Nissan",
+      "summary": "重要1件・参考2件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "claude-fable-52-launch-resets-20261110",
+      "eventKey": "anthropic-claude-fable-5-2-launch-resets-2026-11-09",
+      "category": "AI",
+      "topics": [
+        "Claude",
+        "Claude Code"
+      ],
+      "score": 95,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 19,
+        "specificityAvailability": 14,
+        "industryImpact": 7
+      },
+      "title": "Claude Fable 5.2提供開始、対象有料プランへ利用枠リセット",
+      "summary": "AnthropicがFable 5.2／Mythos 5.2を公開。Fableは全ユーザー向けで生成が5.1比最大30%高速、API価格は入力8ドル・出力40ドル/100万token。対象のPro・Max・Ultra・Team等にはFable週次利用分を戻す1〜3回のresetを付与し、5時間枠がある場合は全モデル分を満額回復する",
+      "publishedAt": "2026/11/10",
+      "sourcePublishedAt": "2026-11-09T19:30:12Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "verifiedAt": "2026-11-10T07:08:29+09:00",
+      "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
+      "source": {
+        "label": "Claude Help Center",
+        "url": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers"
+      }
+    },
+    {
+      "id": "canada-rural-immigration-permanent-20261110",
+      "eventKey": "canada-rural-community-immigration-program-permanent-2026-11-09",
+      "category": "Permanent Residency",
+      "score": 90,
+      "title": "カナダ、地方コミュニティ移民パイロットを恒久制度化",
+      "summary": "カナダ政府がRural Community Immigration Pilotを恒久的な永住経路へ移行。現在の14地域を継続し、今後は対象地域を拡大する。2027年は5,500人分の受入枠を予定し、指定雇用主の求人と地域推薦を軸に地方の人手不足へ対応する",
+      "publishedAt": "2026/11/09",
+      "sourcePublishedAt": "2026-11-09",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "verifiedAt": "2026-11-10T07:08:29+09:00",
+      "thumbnail": "https://www.canada.ca/content/dam/ircc/images/twittercard/IRCC_NR_perma-RCIP_261109_EN.jpg",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-creates-a-permanent-immigration-pathway-to-help-rural-communities-attract-and-retain-talent0.html"
+      }
+    },
+    {
+      "id": "gemini-4-carbon-launch-20261111",
+      "eventKey": "google-gemini-4-carbon-launch-2026-11-10",
+      "category": "AI",
+      "topics": [
+        "Gemini",
+        "Google Antigravity"
+      ],
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 6
+      },
+      "title": "Google、Gemini 4 Carbonを一般提供しAntigravityに/swarmを導入",
+      "summary": "Googleが最上位モデルGemini 4 Carbonを公開。API有料枠、Gemini for business、Google AI UltraのGeminiアプリ・AI Mode・Antigravityで提供し、Antigravityでは複数エージェントを一括編成する/swarmをプレビュー。APIの導入価格は入力2ドル・出力10ドル/100万tokenで、12月以降は各4ドル・20ドル",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-10T16:00:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "verifiedAt": "2026-11-11T07:04:20+09:00",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+      }
+    },
+    {
+      "id": "canada-ukraine-hk-pr-processing-20261111",
+      "eventKey": "canada-accelerated-pr-ukraine-hong-kong-2026-11-10",
+      "category": "Permanent Residency",
+      "score": 88,
+      "title": "カナダ、ウクライナ・香港向け既存永住申請を2027年に優先処理",
+      "summary": "カナダ政府が既に国内で待機する対象者の永住申請を速める時限措置を公表。香港向け経路の残存申請を最大3万2,000人、Ukraine Family Reunification Pathwayの残存申請を最大1万8,800人、2027年の追加枠で処理する方針",
+      "publishedAt": "2026/11/10",
+      "sourcePublishedAt": "2026-11-10T14:00:59Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "verifiedAt": "2026-11-11T07:04:20+09:00",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-takes-action-to-efficiently-process-existing-permanent-residence-applications-for-ukrainians-and-hong-kongers.html"
+      }
+    },
+    {
+      "id": "nz-residence-dependent-child-status-20261111",
+      "eventKey": "new-zealand-residence-dependent-child-unlawful-status-rule-2026-11-10",
+      "category": "Permanent Residency",
+      "score": 86,
+      "title": "NZ、扶養する子が不法滞在の場合の居住ビザ許可条件を変更",
+      "summary": "ニュージーランドは11月12日から、扶養する子が国内で不法滞在中の場合、親と他の副申請者へ居住権を付与しない規則へ変更。決定前に状況を是正する機会を与え、11月12日より前の申請には旧規則を適用する",
+      "publishedAt": "2026/11/10",
+      "sourcePublishedAt": "2026-11-10",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-11T07:04:20+09:00",
+      "verifiedAt": "2026-11-11T07:04:20+09:00",
+      "source": {
+        "label": "Immigration New Zealand",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-for-resident-visa-applications-if-dependent-children-are-unlawfully-in-new-zealand/"
+      }
+    },
+    {
+      "id": "codex-global-reset-20261111",
+      "eventKey": "openai-codex-work-global-reset-2026-11-11",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "ChatGPT Work",
+        "Usage reset"
+      ],
+      "score": 95,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "CodexとChatGPT Workの利用枠を全員対象でリセット",
+      "summary": "Codex責任者Tibo Sottiaux氏が「全Codex・ChatGPT Workユーザーの利用枠をリセットした」と投稿した記録を、同一投稿ID・時刻・本文を保存した複数の独立トラッカーで照合。原投稿は確認時に削除済みのため、対象枠の反映はSettings→Usageでの確認が必要",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-11T10:47:00Z",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "verifiedAt": "2026-11-12T07:00:17+09:00",
+      "source": {
+        "label": "Tibo Sottiaux on X（複数アーカイブで照合）",
+        "url": "https://x.com/thsottiaux/status/2120468523250614272"
+      }
+    },
+    {
+      "id": "nissan-fy2026-h1-results-20261111",
+      "eventKey": "nissan-fy2026-h1-results-outlook-2026-11-11",
+      "category": "Nissan",
+      "score": 84,
+      "title": "日産、上期営業益800億円へ改善し通期2000億円予想を維持",
+      "summary": "日産が2026年度上期決算を発表。売上高6兆720億円、営業利益800億円、純損失397億円。Re:Nissanで1100億円の追加コスト削減を実現した一方、中国の弱さから通期世界販売見通しを315万台から297万〜300万台へ下方修正し、2027年2月に新事業計画を公表する",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-11T06:31:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "verifiedAt": "2026-11-12T07:00:17+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/42d6d2b4d82048af52b576b757c692cfc25056d2",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/261111-01-e"
+      }
+    },
+    {
+      "id": "toyota-arene-50-models-2030-20261113",
+      "eventKey": "toyota-arene-50-models-10m-vehicles-2030-2026-11-11",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Arene",
+        "ADAS"
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 21,
+        "scale": 18,
+        "specificity": 12,
+        "novelty": 10
+      },
+      "title": "トヨタ、Areneを2030年に約50車種・1000万台へ拡大",
+      "summary": "トヨタが車載ソフト基盤AreneをRAV4とLexus ESから、2030年までに世界約50車種・1000万台へ広げ、アライアンス各社への提供も目指すと発表。異なる世代のSoC上でアプリを動かせる設計とし、2028年から一部市販車へL2++運転支援を導入する計画も示した",
+      "publishedAt": "2026/11/12",
+      "sourcePublishedAt": "2026-11-11",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月11日。時刻非公開のため、JST日付は米国発表日の翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "verifiedAt": "2026-11-13T07:02:51+09:00",
+      "source": {
+        "label": "Toyota USA Newsroom",
+        "url": "https://pressroom.toyota.com/toyota-powers-whats-next-in-mobility-and-manufacturing/"
+      }
+    },
+    {
+      "id": "codex-cli-01690-20261114",
+      "eventKey": "openai-codex-cli-0-169-0-terminal-workspace-task-search-2026-11-13",
+      "category": "Codex",
+      "topics": [
+        "Codex CLI",
+        "Terminal workspace",
+        "Codex Cloud"
+      ],
+      "score": 86,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "Codex CLI 0.169.0、複数サイドチャットと過去タスク検索に対応",
+      "summary": "OpenAIがCodex CLI 0.169.0を公開。オプトインのターミナルワークスペースで複数サイドチャットを切り替え、再起動後も保存済みチャットを再開できる。agent command centerでは名前・プロンプト・作業ディレクトリから過去タスクを検索でき、macOS/LinuxのCloud接続では画像送信、モデル・推論強度選択、会話のアーカイブと復元にも対応した",
+      "publishedAt": "2026/11/13",
+      "sourcePublishedAt": "2026-11-13T08:37:00Z",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "verifiedAt": "2026-11-14T07:02:59+09:00",
+      "source": {
+        "label": "OpenAI Codex releases",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0"
+      }
+    },
+    {
+      "id": "openai-flexible-credits-update-20261114",
+      "eventKey": "openai-shared-agentic-credits-auto-reload-codex-work-office-2026-11-13",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "Credits",
+        "Usage limits"
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 16,
+        "technicalImportance": 12,
+        "specificityAvailability": 14,
+        "industryImpact": 7
+      },
+      "title": "OpenAI、Codexなどの共通クレジットと自動リロードを案内",
+      "summary": "OpenAIが個人プランの柔軟利用クレジットを更新。Plus/ProではCodex、ChatGPT Work、Word、Excel、PowerPointが共通のagentic利用枠と購入クレジットを使い、含有枠を使い切ると残高から自動消費する。対象アカウントでは残高の下限・目標額・月額上限を設定する自動リロードをChatGPTまたはCodex appのUsage画面から有効化できる",
+      "publishedAt": "2026/11/13",
+      "sourceUpdatedAt": "2026-11-13",
+      "sourceUpdatedAtPrecision": "date",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "verifiedAt": "2026-11-14T07:02:59+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "nissan-armada-patrol-pro4x-20261110",
+      "eventKey": "nissan-armada-patrol-pro-4x-us-2027-2026-11-09",
+      "category": "Nissan",
+      "score": 58,
+      "title": "日産、米国Armada PRO-4XをPatrol PRO-4Xへ改称",
+      "summary": "2027年型Armadaのオフロード仕様をPatrol PRO-4Xとして展開し、米国で1969年以来となるPatrol名を復活。2026年11月に生産を始め、専用NISMOアクセサリーを追加、価格は78,990ドルから",
+      "publishedAt": "2026/11/09",
+      "sourcePublishedAt": "2026-11-09T13:00:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-10T07:08:29+09:00",
+      "verifiedAt": "2026-11-10T07:08:29+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/9fcda6b8a8768916b912017d800406577460818a/thumbnail-720x404.jpg",
+      "source": {
+        "label": "Nissan U.S. Newsroom",
+        "url": "https://usa.nissannews.com/en-US/releases/legendary-patrol-badge-returns-to-the-us-nissan-introduces-armada-patrol-pro-4x-grade"
+      }
+    },
+    {
+      "id": "codex-banked-reset-hint-20261111",
+      "eventKey": "codex-banked-reset-hint-2026-11-11",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "Banked reset"
+      ],
+      "score": 72,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 18,
+        "technicalImportance": 10,
+        "specificityAvailability": 8,
+        "industryImpact": 7
+      },
+      "title": "Codex責任者、banked resetの付与を示唆",
+      "summary": "Tibo Sottiaux氏が「木曜はCodex向きで、banked resetにも良い時期かもしれない」と投稿。付与完了、対象プラン、期限は明言していないため、Settings→Usageの「reset available」で実際の付与を確認する必要がある",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-11T06:57:08Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "verifiedAt": "2026-11-12T07:00:17+09:00",
+      "source": {
+        "label": "Tibo Sottiaux on X",
+        "url": "https://x.com/thsottiaux/status/2120410480204525936"
+      }
+    },
+    {
+      "id": "qwen4-max-preview-20261111",
+      "eventKey": "qwen4-max-preview-token-plan-2026-11-11",
+      "category": "AI",
+      "topics": [
+        "Qwen",
+        "API"
+      ],
+      "score": 74,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 8,
+        "industryImpact": 4
+      },
+      "title": "Qwen4-Max-Preview、1M contextで期間限定提供",
+      "summary": "QwenCloudが次世代マルチモーダルモデルqwen4-max-previewを公開。1M token context、最大393,216 token出力、画像・動画理解、tool calling、JSON Schema、OpenAI Responses／Anthropic Messages互換を備える。Token Plan限定で、11月25日24時（UTC+8）に終了予定",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-11T02:00:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "verifiedAt": "2026-11-12T07:00:17+09:00",
+      "source": {
+        "label": "QwenCloud",
+        "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
+      }
+    },
+    {
+      "id": "codex-cli-01672-20261113",
+      "eventKey": "openai-codex-cli-0-167-2-incremental-tools-gcp-2026-11-12",
+      "category": "Codex",
+      "topics": [
+        "Codex CLI",
+        "Google Cloud",
+        "Vertex AI"
+      ],
+      "score": 66,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 15,
+        "technicalImportance": 14,
+        "specificityAvailability": 10,
+        "industryImpact": 3
+      },
+      "title": "Codex CLI 0.167.2、Vertex AIのツール更新を逐次送信",
+      "summary": "OpenAIがCodex CLI 0.167.2を公開。Google Cloud Vertex AI利用時のツール更新を既定で逐次送信し、長いツール定義でのリクエスト処理を改善する。従来方式へ戻す場合はfeaturesでincremental_tools_legacy_gcpをfalseに設定する",
+      "publishedAt": "2026/11/12",
+      "sourcePublishedAt": "2026-11-11T22:46:17Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "verifiedAt": "2026-11-13T07:02:51+09:00",
+      "source": {
+        "label": "OpenAI Codex releases",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2"
+      }
+    },
+    {
+      "id": "nissan-epower-rjc-award-20261113",
+      "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-12",
+      "category": "Nissan",
+      "score": 62,
+      "title": "日産、第3世代e-POWERがRJCテクノロジー・オブ・ザ・イヤー受賞",
+      "summary": "日産の第3世代e-POWERが2027年次RJCテクノロジー・オブ・ザ・イヤーを受賞。発電専用エンジンと、モーター・インバーターなどを統合した5-in-1電動パワートレインにより、燃費と静粛性を改善し、新型KicksとElgrandへ搭載する",
+      "publishedAt": "2026/11/12",
+      "sourcePublishedAt": "2026-11-12",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "verifiedAt": "2026-11-13T07:02:51+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/4821ef3ed5af11a60e3c129d563d1910dc413750",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/261112-01-e"
+      }
+    }
+  ]
+}
