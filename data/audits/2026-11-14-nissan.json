@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-14",
+  "checkedAt": "2026-11-14T07:02:59+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://www.nissan.co.jp/",
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases?sortOrder=PublishedDescending",
+    "https://usa.nissannews.com/en-US",
+    "https://europe.nissannews.com/en-GB",
+    "https://canada.nissannews.com/en-CA/channels/news-releases",
+    "https://www.nhtsa.gov/recalls"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com November 13 2026 Nissan",
+      "recordedAt": "2026-11-14T07:02:59+09:00"
+    },
+    {
+      "query": "site:nissan.co.jp 2026年11月13日 日産",
+      "recordedAt": "2026-11-14T07:02:59+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 13 2026 Nissan",
+      "recordedAt": "2026-11-14T07:02:59+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 13 2026 Nissan",
+      "recordedAt": "2026-11-14T07:02:59+09:00"
+    },
+    {
+      "query": "Nissan November 13 2026 recall production sales technology",
+      "recordedAt": "2026-11-14T07:02:59+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-fy26-first-half-five-questions-2026-11-13",
+      "sourceUrl": "https://global.nissannews.com/ja-JP/releases/261113-00-j",
+      "sourcePublishedAt": "2026-11-13",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-fy26-h1-results-re-nissan-2026-11-11",
+      "reason": "11月12日の日別に掲載した上期決算のQ&A再説明で新規イベントではない"
+    },
+    {
+      "eventKey": "nissan-qashqai-20-years-73m-sales-2026-11-12",
+      "sourceUrl": "https://global.nissannews.com/en/releases/release-a97ebc305bc4f49de9b052396220aeb1",
+      "sourcePublishedAt": "2026-11-12",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "late-audit-only",
+      "reason": "前回成功時刻以前の20周年回顧で、通常の今日フィードへ掲載しない"
+    },
+    {
+      "eventKey": "nissan-sentra-spare-tire-kit-placard-recall-pd208-2026-11-13",
+      "sourceUrl": "https://data.transportation.gov/w/6axg-epim",
+      "sourcePublishedAt": "2026-11-13",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "一部2026 Sentra用スペアタイヤアクセサリーキットの表示ラベル訂正。対象が限定的で無料ラベル送付済みのため参考掲載40点未満"
+    }
+  ]
+}
