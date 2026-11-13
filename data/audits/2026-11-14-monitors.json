@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-14",
+  "checkedAt": "2026-11-14T07:02:59+09:00",
+  "windowStart": "2026-11-11T07:02:51+09:00",
+  "publicationWindowStart": "2026-11-13T07:02:51+09:00",
+  "publicationWindowEnd": "2026-11-14T06:56:59+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://learn.chatgpt.com/docs/changelog",
+        "https://status.openai.com/history",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-14T07:02:59+09:00",
+      "result": "Codex CLI 0.169.0と共通クレジット・自動リロードの実質更新を確認。新たな全員リセットや補償リセットはなし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-14T07:02:59+09:00",
+      "result": "公式関係者の新規リセット告知、または複数独立ユーザーによる同時発生報告を確認できず"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://openai.com/news/",
+        "https://www.anthropic.com/news",
+        "https://blog.google/technology/ai/",
+        "https://deepmind.google/models/gemini/"
+      ],
+      "checkedAt": "2026-11-14T07:02:59+09:00",
+      "result": "Gemini 4 Hydrogenは11月12日公開の見落とし候補として監査へ保存。当日窓の独立製品変更なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+        "https://www.gov.uk/government/organisations/home-office",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/about-us/news-centre/",
+        "https://www.make-it-in-germany.com/en/",
+        "https://www.ica.gov.sg/about-ica/news-and-publications",
+        "https://www.moj.go.jp/isa/"
+      ],
+      "checkedAt": "2026-11-14T07:02:59+09:00",
+      "result": "カナダの10万人worker retention詳細は11月12日公開の見落とし候補として監査へ保存。他国も当日条件変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-cli-0-169-0-terminal-workspace-task-search-2026-11-13",
+      "sourceUrl": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+      "sourcePublishedAt": "2026-11-13T08:37:00Z",
+      "publishedAtJst": "2026-11-13T17:37:00+09:00",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 86,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "reason": "公式GitHub releaseと公式changelogで複数side-chat、過去task検索、Cloud接続拡張を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-shared-agentic-credits-auto-reload-codex-work-office-2026-11-13",
+      "sourceUrl": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans",
+      "sourceUpdatedAt": "2026-11-13",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "discoveredLate": false,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 80,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 16,
+        "technicalImportance": 12,
+        "specificityAvailability": 14,
+        "industryImpact": 7
+      },
+      "reason": "Help本文で共通agentic枠、購入creditの自動消費、automatic reloadの条件と画面を確認"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "google-gemini-4-hydrogen-2026-11-12",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "sourcePublishedAt": "2026-11-12",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "late-audit-only",
+      "reason": "公式本文で一般提供とcoding・agentic workflow向けモデルを確認したが前回成功時刻以前の公開のため監査のみ"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-100k-worker-retention-pnp-allocations-2027-2026-11-12",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/minister-metlege-diab-highlights-how-canada-is-working-with-provinces-and-territories-to-support-worker-retention.html",
+      "sourcePublishedAt": "2026-11-12",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "late-audit-only",
+      "reason": "公式本文で州・準州への追加PNP枠、最大10万人と家族、2027年移行を確認したが前回成功時刻以前の公開のため監査のみ"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-reset-search-no-new-event-2026-11-14",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "公式関係者の新規告知または複数独立ユーザーの同時報告なし"
+    }
+  ]
+}
