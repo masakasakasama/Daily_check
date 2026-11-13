@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-14",
+  "alerts": [
+    {
+      "id": "codex-cli-01690-20261114",
+      "eventKey": "openai-codex-cli-0-169-0-terminal-workspace-task-search-2026-11-13",
+      "category": "Codex",
+      "topics": [
+        "Codex CLI",
+        "Terminal workspace",
+        "Codex Cloud"
+      ],
+      "score": 86,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "Codex CLI 0.169.0、複数サイドチャットと過去タスク検索に対応",
+      "summary": "OpenAIがCodex CLI 0.169.0を公開。オプトインのターミナルワークスペースで複数サイドチャットを切り替え、再起動後も保存済みチャットを再開できる。agent command centerでは名前・プロンプト・作業ディレクトリから過去タスクを検索でき、macOS/LinuxのCloud接続では画像送信、モデル・推論強度選択、会話のアーカイブと復元にも対応した",
+      "publishedAt": "2026/11/13",
+      "sourcePublishedAt": "2026-11-13T08:37:00Z",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "verifiedAt": "2026-11-14T07:02:59+09:00",
+      "source": {
+        "label": "OpenAI Codex releases",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0"
+      }
+    },
+    {
+      "id": "openai-flexible-credits-update-20261114",
+      "eventKey": "openai-shared-agentic-credits-auto-reload-codex-work-office-2026-11-13",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "Credits",
+        "Usage limits"
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 16,
+        "technicalImportance": 12,
+        "specificityAvailability": 14,
+        "industryImpact": 7
+      },
+      "title": "OpenAI、Codexなどの共通クレジットと自動リロードを案内",
+      "summary": "OpenAIが個人プランの柔軟利用クレジットを更新。Plus/ProではCodex、ChatGPT Work、Word、Excel、PowerPointが共通のagentic利用枠と購入クレジットを使い、含有枠を使い切ると残高から自動消費する。対象アカウントでは残高の下限・目標額・月額上限を設定する自動リロードをChatGPTまたはCodex appのUsage画面から有効化できる",
+      "publishedAt": "2026/11/13",
+      "sourceUpdatedAt": "2026-11-13",
+      "sourceUpdatedAtPrecision": "date",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "verifiedAt": "2026-11-14T07:02:59+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす独立したAI変更なし",
+      "checkedAt": "2026-11-14T07:02:59+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "Codex CLI 0.169.0と柔軟利用クレジットを重要掲載",
+      "checkedAt": "2026-11-14T07:02:59+09:00",
+      "alertCount": 2,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす独立したSDV変更なし",
+      "checkedAt": "2026-11-14T07:02:59+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
+      "checkedAt": "2026-11-14T07:02:59+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす独立した日産変更なし",
+      "checkedAt": "2026-11-14T07:02:59+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
