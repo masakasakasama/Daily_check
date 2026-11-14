@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-15",
+  "alerts": [
+    {
+      "id": "tesla-cybercab-personal-sales-20261115",
+      "eventKey": "tesla-cybercab-personal-sale-mandatory-autonomy-subscription-2026-11-14",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Autonomous vehicle",
+        "Software subscription",
+        "OTA"
+      ],
+      "score": 78,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 20,
+        "scale": 8,
+        "specificity": 15,
+        "novelty": 15
+      },
+      "title": "Tesla、Cybercabの個人向け販売を開始　運行に月額299ドルのソフト契約が必須",
+      "summary": "Teslaが一部顧客向けにCybercabの個人購入招待を開始。価格は2万9,990ドル、納車予定は12月で、運行には月額299ドルのAutonomy Subscriptionが必須となる。公式契約では自動運転・接続・遠隔支援をソフトウェア契約として提供し、対応するRobotaxiジオフェンス内でのみ走行でき、OTA更新や接続が止まると運行できない。提供は当初米国の限定地域・招待者に限られる",
+      "publishedAt": "2026/11/14",
+      "sourcePublishedAt": "2026-11-14T08:01:44Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-15T07:04:38+09:00",
+      "verifiedAt": "2026-11-15T07:04:38+09:00",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?w=1024",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/tesla-invites-select-customers-buy-cybercab-personal-use-2026-11-14/"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす独立したAI変更なし",
+      "checkedAt": "2026-11-15T07:04:38+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX経路で当日掲載条件を満たす独立した変更なし",
+      "checkedAt": "2026-11-15T07:04:38+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "Cybercabの個人向け販売と必須ソフトウェア契約を重要掲載",
+      "checkedAt": "2026-11-15T07:04:38+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
+      "checkedAt": "2026-11-15T07:04:38+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "当日掲載条件を満たす独立した日産変更なし",
+      "checkedAt": "2026-11-15T07:04:38+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
