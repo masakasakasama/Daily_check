@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-15",
+  "checkedAt": "2026-11-15T07:04:38+09:00",
+  "windowStart": "2026-11-12T07:02:59+09:00",
+  "publicationWindowStart": "2026-11-14T07:02:59+09:00",
+  "publicationWindowEnd": "2026-11-15T06:58:58+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://learn.chatgpt.com/docs/changelog",
+        "https://status.openai.com/history",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-15T07:04:38+09:00",
+      "result": "公式Help、release notes、Developers、Status、Codex公式ページを本文確認。前回掲載済みの0.169.0とクレジット更新以降に新規リセット、制限変更、モデル変更なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-15T07:04:38+09:00",
+      "result": "X公式関係者、関係者本人、ユーザーコミュニティ、trendingを検索。過去イベントのみで、新規公式告知または複数独立ユーザーの同時報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://openai.com/news/",
+        "https://www.anthropic.com/news",
+        "https://blog.google/innovation-and-ai/",
+        "https://deepmind.google/models/gemini/"
+      ],
+      "checkedAt": "2026-11-15T07:04:38+09:00",
+      "result": "ChatGPT WalletとGeminiのGoogle Wallet連携を本文確認したが、いずれも前回成功時刻以前の公開のため見落とし監査のみ。当日窓の独立変更なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+        "https://www.gov.uk/government/organisations/home-office",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/about-us/news-centre/",
+        "https://www.make-it-in-germany.com/en/",
+        "https://www.ica.gov.sg/about-ica/news-and-publications",
+        "https://www.moj.go.jp/isa/"
+      ],
+      "checkedAt": "2026-11-15T07:04:38+09:00",
+      "result": "カナダ、英国、豪州、ニュージーランド、ドイツ、シンガポール、日本の公式情報を確認。当日掲載条件を満たす永住条件変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "openai-chatgpt-wallet-dots-us-pro-2026-11-13",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "sourcePublishedAt": "2026-11-13",
+      "firstSeenAt": "2026-11-15T07:04:38+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "late-audit-only",
+      "score": 82,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 18,
+        "technicalImportance": 14,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "reason": "公式本文でdots向け購入代行、毎回の生体認証、米国Pro限定ロールアウトを確認。公開時刻は前回成功前のため今日へ掲載しない"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "google-gemini-wallet-personal-finance-2026-11-13",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+      "sourcePublishedAt": "2026-11-13",
+      "firstSeenAt": "2026-11-15T07:04:38+09:00",
+      "discoveredLate": true,
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "late-audit-only",
+      "score": 78,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 17,
+        "technicalImportance": 13,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "reason": "公式本文で米国Gemini利用者向けGoogle Wallet/Plaidの支出分析連携を確認。独立報道の公開時刻は前回成功前で監査のみ"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-reset-search-no-new-event-2026-11-15",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-15T07:04:38+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "X検索結果は過去のリセットイベントのみ。公式関係者の新規告知または複数独立ユーザーの同時報告なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-new-event-2026-11-15",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+      "firstSeenAt": "2026-11-15T07:04:38+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "主要国公式情報に当日掲載条件を満たす資格要件、年数、選考、割当ての新変更なし"
+    }
+  ]
+}
