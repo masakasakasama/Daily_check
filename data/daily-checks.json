@@ -1,8 +1,92 @@
 {
   "version": 5,
-  "currentDate": "2026-11-14",
-  "updatedAt": "2026-11-14T07:02:59+09:00",
+  "currentDate": "2026-11-15",
+  "updatedAt": "2026-11-15T07:04:38+09:00",
   "days": [
+    {
+      "date": "2026-11-15",
+      "alerts": [
+        {
+          "id": "tesla-cybercab-personal-sales-20261115",
+          "eventKey": "tesla-cybercab-personal-sale-mandatory-autonomy-subscription-2026-11-14",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "Autonomous vehicle",
+            "Software subscription",
+            "OTA"
+          ],
+          "score": 78,
+          "scoreBreakdown": {
+            "sdvDirectness": 20,
+            "practicalImpact": 20,
+            "scale": 8,
+            "specificity": 15,
+            "novelty": 15
+          },
+          "title": "Tesla、Cybercabの個人向け販売を開始　運行に月額299ドルのソフト契約が必須",
+          "summary": "Teslaが一部顧客向けにCybercabの個人購入招待を開始。価格は2万9,990ドル、納車予定は12月で、運行には月額299ドルのAutonomy Subscriptionが必須となる。公式契約では自動運転・接続・遠隔支援をソフトウェア契約として提供し、対応するRobotaxiジオフェンス内でのみ走行でき、OTA更新や接続が止まると運行できない。提供は当初米国の限定地域・招待者に限られる",
+          "publishedAt": "2026/11/14",
+          "sourcePublishedAt": "2026-11-14T08:01:44Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-15T07:04:38+09:00",
+          "verifiedAt": "2026-11-15T07:04:38+09:00",
+          "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?w=1024",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/autos-transportation/tesla-invites-select-customers-buy-cybercab-personal-use-2026-11-14/"
+          }
+        }
+      ],
+      "references": [],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす独立したAI変更なし",
+          "checkedAt": "2026-11-15T07:04:38+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "clear",
+          "summary": "公式経路とX経路で当日掲載条件を満たす独立した変更なし",
+          "checkedAt": "2026-11-15T07:04:38+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "update",
+          "summary": "Cybercabの個人向け販売と必須ソフトウェア契約を重要掲載",
+          "checkedAt": "2026-11-15T07:04:38+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
+          "checkedAt": "2026-11-15T07:04:38+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす独立した日産変更なし",
+          "checkedAt": "2026-11-15T07:04:38+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-11-14",
       "alerts": [
@@ -688,68 +772,16 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-11-08",
-      "alerts": [],
-      "references": [],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "clear",
-          "summary": "主要製品の公式発表・変更履歴を確認し、当日掲載窓の新規変更なし",
-          "checkedAt": "2026-11-08T07:02:42+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "clear",
-          "summary": "公式経路とX・コミュニティ経路を照合し、確認可能な新規リセット・利用枠変更なし",
-          "checkedAt": "2026-11-08T07:02:42+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "clear",
-          "summary": "6領域の公式巡回と概念検索を実施し、当日掲載基準を満たす新規発表なし",
-          "checkedAt": "2026-11-08T07:02:42+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "主要国の公式経路を確認し、当日掲載窓の新規条件変更なし",
-          "checkedAt": "2026-11-08T07:02:42+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "clear",
-          "summary": "公式・地域ニュースと信頼できる報道を独立確認し、当日掲載対象の新規発表なし",
-          "checkedAt": "2026-11-08T07:02:42+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-11-08",
-      "end": "2026-11-14",
-      "generatedAt": "2026-11-14T07:02:59+09:00",
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "generatedAt": "2026-11-15T07:04:38+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 10,
+        "important": 11,
         "reference": 5
       },
       "categories": [
@@ -763,7 +795,7 @@
         },
         {
           "name": "SDV",
-          "summary": "重要1件・参考0件"
+          "summary": "重要2件・参考0件"
         },
         {
           "name": "Permanent Residency",
@@ -1018,6 +1050,37 @@
           "source": {
             "label": "OpenAI Help Center",
             "url": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans"
+          }
+        },
+        {
+          "id": "tesla-cybercab-personal-sales-20261115",
+          "eventKey": "tesla-cybercab-personal-sale-mandatory-autonomy-subscription-2026-11-14",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "Autonomous vehicle",
+            "Software subscription",
+            "OTA"
+          ],
+          "score": 78,
+          "scoreBreakdown": {
+            "sdvDirectness": 20,
+            "practicalImpact": 20,
+            "scale": 8,
+            "specificity": 15,
+            "novelty": 15
+          },
+          "title": "Tesla、Cybercabの個人向け販売を開始　運行に月額299ドルのソフト契約が必須",
+          "summary": "Teslaが一部顧客向けにCybercabの個人購入招待を開始。価格は2万9,990ドル、納車予定は12月で、運行には月額299ドルのAutonomy Subscriptionが必須となる。公式契約では自動運転・接続・遠隔支援をソフトウェア契約として提供し、対応するRobotaxiジオフェンス内でのみ走行でき、OTA更新や接続が止まると運行できない。提供は当初米国の限定地域・招待者に限られる",
+          "publishedAt": "2026/11/14",
+          "sourcePublishedAt": "2026-11-14T08:01:44Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-15T07:04:38+09:00",
+          "verifiedAt": "2026-11-15T07:04:38+09:00",
+          "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?w=1024",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/autos-transportation/tesla-invites-select-customers-buy-cybercab-personal-use-2026-11-14/"
           }
         }
       ],
