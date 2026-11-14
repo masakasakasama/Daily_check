@@ -1,7 +1,21 @@
 {
   "schema": "split-daily-v1",
-  "lastSuccessfulAt": "2026-11-15T07:04:38+09:00",
-  "lastAudit": "data/audits/2026-11-15-sdv.json",
-  "pendingBatch": null,
-  "coverageWatermarkNote": "Actual end of the verified 2026-11-15 collection window; completion and validation timestamps are recorded separately."
+  "lastSuccessfulAt": "2026-11-14T07:02:59+09:00",
+  "lastAudit": "data/audits/2026-11-14-sdv.json",
+  "pendingBatch": {
+    "date": "2026-11-15",
+    "stagedAt": "2026-11-15T06:58:58+09:00",
+    "failedAt": "2026-11-15T07:08:30+09:00",
+    "status": "pending",
+    "reason": "public-ui-verification-blocked-by-external-content-notice",
+    "artifacts": [
+      "data/days/2026-11-15.json",
+      "data/audits/2026-11-15-sdv.json",
+      "data/audits/2026-11-15-nissan.json",
+      "data/audits/2026-11-15-monitors.json",
+      "data/weeks/2026-11-15.json"
+    ],
+    "resume": "Re-fetch main, re-run validators, and verify the fixed public URL before advancing lastSuccessfulAt or Notion Last checked."
+  },
+  "coverageWatermarkNote": "2026-11-15 data was saved and validated, but public UI verification could not pass the external-content notice. The successful collection watermark remains at 2026-11-14T07:02:59+09:00."
 }
