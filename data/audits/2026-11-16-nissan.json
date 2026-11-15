@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-16",
+  "checkedAt": "2026-11-16T06:58:55+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP",
+    "https://usa.nissannews.com/en-US/",
+    "https://europe.nissannews.com/en-GB/",
+    "https://www.nhtsa.gov/recalls"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com November 15 2026 Nissan",
+      "recordedAt": "2026-11-16T06:58:55+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 15 2026 Nissan",
+      "recordedAt": "2026-11-16T06:58:55+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 15 2026 Nissan",
+      "recordedAt": "2026-11-16T06:58:55+09:00"
+    },
+    {
+      "query": "Nissan November 15 2026 recall production sales Reuters",
+      "recordedAt": "2026-11-16T06:58:55+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-official-scan-no-new-event-2026-11-16",
+      "sourceUrl": "https://global.nissannews.com/en/channels/channel-NNG244?selectedTabId=news-releases-releases",
+      "firstSeenAt": "2026-11-16T06:58:55+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "各地域公式ニュースルームと信頼できる報道を本文確認。最新の独立発表は11月12日で既出"
+    }
+  ]
+}
