@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T07:08:30+09:00",
+  "updatedAt": "2026-11-16T06:57:00+09:00",
   "lastSuccessfulAt": "2026-11-14T07:02:59+09:00",
   "funnels": {
     "OEM": {
@@ -30,13 +30,14 @@
   },
   "unresolvedWindows": [],
   "pendingBatch": {
-    "date": "2026-11-15",
-    "stagedAt": "2026-11-15T06:58:58+09:00",
-    "failedAt": "2026-11-15T07:08:30+09:00",
+    "date": "2026-11-16",
+    "stagedAt": "2026-11-16T06:57:00+09:00",
     "status": "pending",
-    "reason": "public-ui-verification-blocked-by-external-content-notice",
-    "audit": "data/audits/2026-11-15-sdv.json",
-    "resume": "Re-fetch main, re-run validators, and verify the fixed public URL before advancing SDV watermarks."
+    "recoveryFrom": [
+      "2026-11-15"
+    ],
+    "reason": "collection-and-publication-in-progress",
+    "audit": "data/audits/2026-11-16-sdv.json"
   },
   "lastAudit": "data/audits/2026-11-14-sdv.json",
   "nextWindowRule": "per-funnel lastSuccessfulAt minus 48 hours",
