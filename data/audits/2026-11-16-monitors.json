@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-16",
+  "checkedAt": "2026-11-16T06:58:55+09:00",
+  "windowStart": "2026-11-12T07:02:59+09:00",
+  "publicationWindowStart": "2026-11-15T07:04:38+09:00",
+  "publicationWindowEnd": "2026-11-16T06:57:00+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+        "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-16T06:58:55+09:00",
+      "result": "公式Help本文でPro 500、新規Pro 200再開、Work/Codex枠拡大、日本購入クレジット180日期限を確認。Status上にCodex障害なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-16T06:58:55+09:00",
+      "result": "X公式関係者、関係者本人、ユーザーコミュニティ、trendingを検索。新規公式リセット告知または複数独立ユーザーの同時報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://openai.com/news/",
+        "https://www.anthropic.com/news",
+        "https://blog.google/innovation-and-ai/",
+        "https://deepmind.google/models/gemini/"
+      ],
+      "checkedAt": "2026-11-16T06:58:55+09:00",
+      "result": "当日窓の実利用変更はOpenAIのプラン・利用条件2件。その他の独立したAI機能変更なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+        "https://www.gov.uk/browse/visas-immigration",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/about-us/news-centre/",
+        "https://www.make-it-in-germany.com/en/",
+        "https://www.ica.gov.sg/about-ica/news-and-publications",
+        "https://www.moj.go.jp/isa/"
+      ],
+      "checkedAt": "2026-11-16T06:58:55+09:00",
+      "result": "カナダ、英国、豪州、NZ、ドイツ、シンガポール、日本の公式情報を確認。当日掲載条件を満たす永住条件変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-pro-100-200-500-work-codex-allowance-ultrafast-2026-11-16",
+      "sourceUrl": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+      "sourceUpdatedAt": "2026-11-16T06:25:00+09:00",
+      "firstSeenAt": "2026-11-16T06:58:55+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 90,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 16,
+        "specificityAvailability": 15,
+        "industryImpact": 4
+      },
+      "reason": "公式本文で実利用条件の具体的変更を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-usage-credits-japan-180-day-expiry-after-2026-11-13",
+      "sourceUrl": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans",
+      "sourceUpdatedAt": "2026-11-16T05:57:00+09:00",
+      "firstSeenAt": "2026-11-16T06:58:55+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 82,
+      "scoreBreakdown": {
+        "userImpact": 33,
+        "novelty": 19,
+        "technicalImportance": 11,
+        "specificityAvailability": 15,
+        "industryImpact": 4
+      },
+      "reason": "公式本文で実利用条件の具体的変更を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-x-reset-search-no-new-event-2026-11-16",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-16T06:58:55+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "新規公式告知または複数独立報告なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-new-event-2026-11-16",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+      "firstSeenAt": "2026-11-16T06:58:55+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "主要国公式情報に当日掲載条件を満たす変更なし"
+    }
+  ]
+}
