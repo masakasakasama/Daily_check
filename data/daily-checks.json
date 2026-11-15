@@ -1,8 +1,157 @@
 {
   "version": 5,
-  "currentDate": "2026-11-15",
-  "updatedAt": "2026-11-15T07:04:38+09:00",
+  "currentDate": "2026-11-16",
+  "updatedAt": "2026-11-16T06:58:55+09:00",
   "days": [
+    {
+      "date": "2026-11-16",
+      "alerts": [
+        {
+          "id": "openai-pro-tiers-allowance-20261116",
+          "eventKey": "openai-pro-100-200-500-work-codex-allowance-ultrafast-2026-11-16",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "ChatGPT Work",
+            "Usage limits",
+            "GPT-6 Astra"
+          ],
+          "score": 90,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 16,
+            "specificityAvailability": 15,
+            "industryImpact": 4
+          },
+          "title": "OpenAI、Pro 500を新設しPro各プランのWork・Codex利用枠を拡大",
+          "summary": "OpenAIが月額500ドルのPro 500を新設し、GPT-6 Astra／GPT-6.1 SolのUltrafastを提供。Pro 100とPro 500のWork・Codex利用枠は従来比2倍、Pro 200は新規加入を再開し、低い枠だった既存契約も高い枠へ統一された。Ultrafastは含有枠を標準の8倍、購入クレジットを6倍の速度で消費する",
+          "publishedAt": "2026/11/16",
+          "sourceUpdatedAt": "2026-11-16T06:25:00+09:00",
+          "sourceUpdatedAtPrecision": "minute-approximate-from-official-relative-timestamp",
+          "firstSeenAt": "2026-11-16T06:58:55+09:00",
+          "verifiedAt": "2026-11-16T06:58:55+09:00",
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers"
+          }
+        },
+        {
+          "id": "openai-japan-credit-expiry-20261116",
+          "eventKey": "openai-usage-credits-japan-180-day-expiry-after-2026-11-13",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "Credits",
+            "Japan",
+            "Usage limits"
+          ],
+          "score": 82,
+          "scoreBreakdown": {
+            "userImpact": 33,
+            "novelty": 19,
+            "technicalImportance": 11,
+            "specificityAvailability": 15,
+            "industryImpact": 4
+          },
+          "title": "OpenAI、日本で購入する利用クレジットの有効期限を180日に設定",
+          "summary": "OpenAIが利用クレジットのFAQを更新。日本で2026年11月13日以降に購入したクレジットは購入から180日で失効し、未使用分は繰り越されない。Codex、ChatGPT Work、Word、Excel、PowerPointなどの対応機能で共通利用できるが、通常の含有枠が先に消費される",
+          "publishedAt": "2026/11/16",
+          "sourceUpdatedAt": "2026-11-16T05:57:00+09:00",
+          "sourceUpdatedAtPrecision": "minute-approximate-from-official-relative-timestamp",
+          "firstSeenAt": "2026-11-16T06:58:55+09:00",
+          "verifiedAt": "2026-11-16T06:58:55+09:00",
+          "sourceUpdate": {
+            "previousEventKey": "openai-shared-agentic-credits-auto-reload-codex-work-office-2026-11-13",
+            "changeSummary": "日本で2026年11月13日以降に購入した利用クレジットは180日で失効する地域固有条件を追加",
+            "evidenceUrl": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans",
+            "verifiedAt": "2026-11-16T06:58:55+09:00"
+          },
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "vw-infotainment-security-chain-20261116",
+          "eventKey": "volkswagen-id4-bluetooth-carplay-infotainment-security-chain-2026-11-15",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "Vehicle cybersecurity",
+            "OTA"
+          ],
+          "score": 61,
+          "scoreBreakdown": {
+            "sdvDirectness": 18,
+            "practicalImpact": 15,
+            "scale": 10,
+            "specificity": 12,
+            "novelty": 6
+          },
+          "title": "VW旧世代インフォテインメントの侵入経路を研究者が実証、OTA修正を展開",
+          "summary": "PCA Cyber SecurityがVolkswagen ID.4のBluetooth／CarPlayを起点にインフォテインメントへ侵入し、位置情報、車内マイク、連絡先などへ到達する攻撃連鎖を実証。悪用には近距離・ペアリング承認などの条件があり、VWは安全系ECUへの介入を否定。旧世代向けにID. Software 3.9.1などのセキュリティ更新を展開している",
+          "publishedAt": "2026/11/16",
+          "sourcePublishedAt": "2026-11-15T21:00:00Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-16T06:58:55+09:00",
+          "verifiedAt": "2026-11-16T06:58:55+09:00",
+          "source": {
+            "label": "The Times / PCA Cyber Security",
+            "url": "https://www.thetimes.com/uk/technology-uk/article/volkswagen-hack-eavesdrop-drivers-x7ksqqpwc"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "OpenAIのProプラン構成と利用クレジット条件の変更を重要掲載",
+          "checkedAt": "2026-11-16T06:58:55+09:00",
+          "alertCount": 2,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "公式経路でPro利用枠拡大と日本向けクレジット期限を確認。X経路に独立した新規リセット報告なし",
+          "checkedAt": "2026-11-16T06:58:55+09:00",
+          "alertCount": 2,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "update",
+          "summary": "VW旧世代IVIの攻撃連鎖とOTA修正を参考掲載",
+          "checkedAt": "2026-11-16T06:58:55+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
+          "checkedAt": "2026-11-16T06:58:55+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす独立した日産変更なし",
+          "checkedAt": "2026-11-16T06:58:55+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-11-15",
       "alerts": [
@@ -720,69 +869,17 @@
           "referenceCount": 1
         }
       ]
-    },
-    {
-      "date": "2026-11-09",
-      "alerts": [],
-      "references": [],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "clear",
-          "summary": "主要AI製品の公式発表・変更履歴を確認し、当日掲載窓の新規変更なし",
-          "checkedAt": "2026-11-09T07:05:43+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "clear",
-          "summary": "公式経路とX・コミュニティ経路を照合し、確認可能な新規リセット・利用枠変更なし",
-          "checkedAt": "2026-11-09T07:05:43+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "clear",
-          "summary": "6領域の通常検索と12本のDeep Scanを実施し、当日掲載基準を満たす新規発表なし",
-          "checkedAt": "2026-11-09T07:05:43+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "主要国の公式経路を確認し、当日掲載窓の新規条件変更なし",
-          "checkedAt": "2026-11-09T07:05:43+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "clear",
-          "summary": "公式・地域ニュースと信頼できる報道を独立確認し、当日掲載対象の新規発表なし",
-          "checkedAt": "2026-11-09T07:05:43+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-11-09",
-      "end": "2026-11-15",
-      "generatedAt": "2026-11-15T07:04:38+09:00",
+      "start": "2026-11-10",
+      "end": "2026-11-16",
+      "generatedAt": "2026-11-16T06:58:55+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 11,
-        "reference": 5
+        "important": 13,
+        "reference": 6
       },
       "categories": [
         {
@@ -791,11 +888,11 @@
         },
         {
           "name": "Codex",
-          "summary": "重要3件・参考2件"
+          "summary": "重要5件・参考2件"
         },
         {
           "name": "SDV",
-          "summary": "重要2件・参考0件"
+          "summary": "重要2件・参考1件"
         },
         {
           "name": "Permanent Residency",
@@ -1082,6 +1179,72 @@
             "label": "Reuters",
             "url": "https://www.reuters.com/business/autos-transportation/tesla-invites-select-customers-buy-cybercab-personal-use-2026-11-14/"
           }
+        },
+        {
+          "id": "openai-pro-tiers-allowance-20261116",
+          "eventKey": "openai-pro-100-200-500-work-codex-allowance-ultrafast-2026-11-16",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "ChatGPT Work",
+            "Usage limits",
+            "GPT-6 Astra"
+          ],
+          "score": 90,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 16,
+            "specificityAvailability": 15,
+            "industryImpact": 4
+          },
+          "title": "OpenAI、Pro 500を新設しPro各プランのWork・Codex利用枠を拡大",
+          "summary": "OpenAIが月額500ドルのPro 500を新設し、GPT-6 Astra／GPT-6.1 SolのUltrafastを提供。Pro 100とPro 500のWork・Codex利用枠は従来比2倍、Pro 200は新規加入を再開し、低い枠だった既存契約も高い枠へ統一された。Ultrafastは含有枠を標準の8倍、購入クレジットを6倍の速度で消費する",
+          "publishedAt": "2026/11/16",
+          "sourceUpdatedAt": "2026-11-16T06:25:00+09:00",
+          "sourceUpdatedAtPrecision": "minute-approximate-from-official-relative-timestamp",
+          "firstSeenAt": "2026-11-16T06:58:55+09:00",
+          "verifiedAt": "2026-11-16T06:58:55+09:00",
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers"
+          }
+        },
+        {
+          "id": "openai-japan-credit-expiry-20261116",
+          "eventKey": "openai-usage-credits-japan-180-day-expiry-after-2026-11-13",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "Credits",
+            "Japan",
+            "Usage limits"
+          ],
+          "score": 82,
+          "scoreBreakdown": {
+            "userImpact": 33,
+            "novelty": 19,
+            "technicalImportance": 11,
+            "specificityAvailability": 15,
+            "industryImpact": 4
+          },
+          "title": "OpenAI、日本で購入する利用クレジットの有効期限を180日に設定",
+          "summary": "OpenAIが利用クレジットのFAQを更新。日本で2026年11月13日以降に購入したクレジットは購入から180日で失効し、未使用分は繰り越されない。Codex、ChatGPT Work、Word、Excel、PowerPointなどの対応機能で共通利用できるが、通常の含有枠が先に消費される",
+          "publishedAt": "2026/11/16",
+          "sourceUpdatedAt": "2026-11-16T05:57:00+09:00",
+          "sourceUpdatedAtPrecision": "minute-approximate-from-official-relative-timestamp",
+          "firstSeenAt": "2026-11-16T06:58:55+09:00",
+          "verifiedAt": "2026-11-16T06:58:55+09:00",
+          "sourceUpdate": {
+            "previousEventKey": "openai-shared-agentic-credits-auto-reload-codex-work-office-2026-11-13",
+            "changeSummary": "日本で2026年11月13日以降に購入した利用クレジットは180日で失効する地域固有条件を追加",
+            "evidenceUrl": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans",
+            "verifiedAt": "2026-11-16T06:58:55+09:00"
+          },
+          "source": {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans"
+          }
         }
       ],
       "references": [
@@ -1204,6 +1367,35 @@
           "source": {
             "label": "Nissan Global Newsroom",
             "url": "https://global.nissannews.com/en/releases/261112-01-e"
+          }
+        },
+        {
+          "id": "vw-infotainment-security-chain-20261116",
+          "eventKey": "volkswagen-id4-bluetooth-carplay-infotainment-security-chain-2026-11-15",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "Vehicle cybersecurity",
+            "OTA"
+          ],
+          "score": 61,
+          "scoreBreakdown": {
+            "sdvDirectness": 18,
+            "practicalImpact": 15,
+            "scale": 10,
+            "specificity": 12,
+            "novelty": 6
+          },
+          "title": "VW旧世代インフォテインメントの侵入経路を研究者が実証、OTA修正を展開",
+          "summary": "PCA Cyber SecurityがVolkswagen ID.4のBluetooth／CarPlayを起点にインフォテインメントへ侵入し、位置情報、車内マイク、連絡先などへ到達する攻撃連鎖を実証。悪用には近距離・ペアリング承認などの条件があり、VWは安全系ECUへの介入を否定。旧世代向けにID. Software 3.9.1などのセキュリティ更新を展開している",
+          "publishedAt": "2026/11/16",
+          "sourcePublishedAt": "2026-11-15T21:00:00Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-16T06:58:55+09:00",
+          "verifiedAt": "2026-11-16T06:58:55+09:00",
+          "source": {
+            "label": "The Times / PCA Cyber Security",
+            "url": "https://www.thetimes.com/uk/technology-uk/article/volkswagen-hack-eavesdrop-drivers-x7ksqqpwc"
           }
         }
       ]
