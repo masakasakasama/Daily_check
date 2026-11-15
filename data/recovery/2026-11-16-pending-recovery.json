@@ -7,8 +7,18 @@
     "mainArtifactsFetched": true,
     "searchWindowRechecked": true,
     "publicationRulesRechecked": true,
-    "validatorsPending": true,
+    "validatorsPending": false,
     "publicUiPending": true
+  },
+  "currentAttempt": {
+    "date": "2026-11-16",
+    "startedAt": "2026-11-16T06:57:00+09:00",
+    "checkedAt": "2026-11-16T06:58:55+09:00",
+    "artifactsSaved": true,
+    "validatorsPassed": true,
+    "publicUiVerified": false,
+    "verificationAttemptedAt": "2026-11-16T07:05:42+09:00",
+    "reason": "public-ui-verification-blocked-by-external-content-notice"
   },
   "status": "pending-until-public-ui-verification"
 }
