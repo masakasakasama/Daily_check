@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-15",
+  "originalFailureAt": "2026-11-15T07:08:30+09:00",
+  "originalReason": "public-ui-verification-blocked-by-external-content-notice",
+  "reverifiedAt": "2026-11-16T06:58:55+09:00",
+  "reverification": {
+    "mainArtifactsFetched": true,
+    "searchWindowRechecked": true,
+    "publicationRulesRechecked": true,
+    "validatorsPending": true,
+    "publicUiPending": true
+  },
+  "status": "pending-until-public-ui-verification"
+}
