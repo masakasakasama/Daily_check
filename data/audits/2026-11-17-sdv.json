@@ -268,7 +268,7 @@
       "reason": "公式本文で12月Early Access、対象既存車へのOTA、高速道路130km/hハンズフリー、都市Point-to-Point支援を確認"
     }
   ],
-  "excludedCount": 4,
+  "excludedCount": 3,
   "duplicateCount": 4,
   "lateAuditOnlyCount": 4,
   "deepScanPerformed": false,
