@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-17",
+  "startedAt": "2026-11-17T07:00:56+09:00",
+  "checkedAt": "2026-11-17T07:03:18+09:00",
+  "recordedAt": "2026-11-17T07:07:26+09:00",
+  "status": "pending",
+  "recoveryFrom": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "artifacts": {
+    "daySaved": true,
+    "sdvAuditSaved": true,
+    "nissanAuditSaved": true,
+    "monitorAuditSaved": true,
+    "weeklyUnionSaved": true,
+    "indexUpdated": false,
+    "fallbackSynced": false,
+    "stateAdvanced": false,
+    "notionAdvanced": false,
+    "publicUiVerified": false
+  },
+  "validation": {
+    "localExecutorAvailable": false,
+    "verifyUi": false,
+    "nodeTests": false,
+    "verifyDailyData": false,
+    "verifyPublicationHistory": false,
+    "verifyWeeklyHistory": false,
+    "verifyCollectionHistory": false
+  },
+  "reason": "execution-environment-unavailable; required local validators, fallback sync, immutable-SHA UI verification and fixed-URL browser verification could not run",
+  "nextRun": "Recover pendingBatch, rerun all required validators, sync fallback, update index only after success, then verify the fixed public URL before advancing state and Notion."
+}
