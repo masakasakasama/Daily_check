@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T07:03:18+09:00",
+  "updatedAt": "2026-11-17T07:07:26+09:00",
   "lastSuccessfulAt": "2026-11-14T07:02:59+09:00",
   "funnels": {
     "OEM": {
@@ -37,7 +37,7 @@
       "2026-11-15",
       "2026-11-16"
     ],
-    "reason": "collection-and-publication-in-progress",
+    "reason": "execution-environment-unavailable; validators-fallback-sync-index-and-public-ui-pending",
     "audit": "data/audits/2026-11-17-sdv.json"
   },
   "lastAudit": "data/audits/2026-11-14-sdv.json",
@@ -141,5 +141,5 @@
   "priorVerifiedDailyCommit": "d4d8fa392f587b497f1e0021673a13757d38382f",
   "lastVerifiedDailyCommit": "9118ba6f0a58182df679618fdc558e91cb23f409",
   "lastVerification": "data/recovery/2026-10-10-verification.json",
-  "coverageWatermarkNote": "2026-11-15 and 2026-11-16 SDV data remain saved and validated but pending public UI verification. The 2026-11-17 collection is staged without advancing the successful SDV watermark."
+  "coverageWatermarkNote": "2026-11-15 and 2026-11-16 remain pending public UI verification. 2026-11-17 SDV audit was saved, but required validators, fallback sync, index update and public UI verification could not run because the execution environment was unavailable. The successful SDV watermark remains unchanged."
 }
