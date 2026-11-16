@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-17",
+  "checkedAt": "2026-11-17T07:03:18+09:00",
+  "windowStart": "2026-11-12T07:02:59+09:00",
+  "publicationWindowStart": "2026-11-16T06:58:55+09:00",
+  "publicationWindowEnd": "2026-11-17T07:00:56+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-17T07:03:18+09:00",
+      "result": "公式Help、release notes、Developers、Status、Codex関連ページを本文確認。当日窓に新規リセット、障害補償、利用枠・モデル変更なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-17T07:03:18+09:00",
+      "result": "X公式関係者、関係者本人、ユーザーコミュニティ、trendingを検索。既出の11月11日リセットを要約したtrendingは再検出したが、新規の公式告知または複数独立ユーザーの同時報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization",
+        "https://www.anthropic.com/news",
+        "https://blog.google/innovation-and-ai/",
+        "https://developers.googleblog.com/"
+      ],
+      "checkedAt": "2026-11-17T07:03:18+09:00",
+      "result": "Claude EnterpriseのChat・Cowork統合自動有効化を公式本文で確認。Googleの11月16日記事は開発者向け運用・研究記事で一般ユーザー機能変更ではない"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news.html",
+        "https://www.gov.uk/browse/visas-immigration",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/about-us/news-centre/",
+        "https://www.make-it-in-germany.com/en/",
+        "https://www.ica.gov.sg/about-ica/news-and-publications",
+        "https://www.moj.go.jp/isa/"
+      ],
+      "checkedAt": "2026-11-17T07:03:18+09:00",
+      "result": "カナダ、英国、豪州、NZ、ドイツ、シンガポール、日本の公式情報を確認。NZの11月16日変更は一時滞在申請のオンライン移行で、永住条件は変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "anthropic-claude-enterprise-chat-cowork-unified-auto-enable-2026-11-16",
+      "sourceUrl": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization",
+      "sourceUpdatedAt": "2026-11-16",
+      "firstSeenAt": "2026-11-17T07:03:18+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "score": 69,
+      "scoreBreakdown": {
+        "userImpact": 12,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "reason": "公式本文で11月16日の自動有効化と同一会話内のChat・Cowork切替を確認。Enterprise限定のため参考評価"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-x-trending-existing-global-reset-2026-11-11",
+      "sourceUrl": "https://x.com/i/trending/2081943171551154411",
+      "firstSeenAt": "2026-11-17T07:03:18+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "openai-codex-work-global-reset-2026-11-11",
+      "reason": "trending要約は既出の11月11日リセットを示す。新規公式投稿や独立同時報告でないため再掲載しない"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-official-scan-no-new-event-2026-11-17",
+      "sourceUrl": "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+      "firstSeenAt": "2026-11-17T07:03:18+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "公式経路に当日窓の新規リセット・利用枠変更なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-new-event-2026-11-17",
+      "sourceUrl": "https://www.immigration.govt.nz/about-us/news-centre/family-of-new-zealanders-temporary-visa-applications-moving-to-enhanced-immigration-online/",
+      "firstSeenAt": "2026-11-17T07:03:18+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "NZの変更は一時滞在ビザ申請システムの移行で、居住ビザ申請には変更なし。その他主要国にも当日掲載条件を満たす永住条件変更なし"
+    }
+  ]
+}
