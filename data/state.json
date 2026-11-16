@@ -10,7 +10,7 @@
       "2026-11-15",
       "2026-11-16"
     ],
-    "reason": "collection-and-publication-in-progress",
+    "reason": "execution-environment-unavailable; validators-fallback-sync-index-and-public-ui-pending",
     "artifacts": [
       "data/days/2026-11-17.json",
       "data/audits/2026-11-17-sdv.json",
@@ -20,5 +20,5 @@
     ],
     "previousPending": "919a26f8b4887039307993364e558c5f96c5f79a"
   },
-  "coverageWatermarkNote": "2026-11-15 and 2026-11-16 data remain saved and validated but pending public UI verification. The 2026-11-17 collection is staged without advancing the successful collection watermark."
+  "coverageWatermarkNote": "2026-11-15 and 2026-11-16 remain pending public UI verification. 2026-11-17 day, audits and weekly union were saved, but required validators, fallback sync, index update and public UI verification could not run because the execution environment was unavailable. The successful watermark remains unchanged."
 }
