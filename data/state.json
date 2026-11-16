@@ -3,21 +3,22 @@
   "lastSuccessfulAt": "2026-11-14T07:02:59+09:00",
   "lastAudit": "data/audits/2026-11-14-sdv.json",
   "pendingBatch": {
-    "date": "2026-11-16",
-    "stagedAt": "2026-11-16T06:57:00+09:00",
+    "date": "2026-11-17",
+    "stagedAt": "2026-11-17T07:00:56+09:00",
     "status": "pending",
     "recoveryFrom": [
-      "2026-11-15"
+      "2026-11-15",
+      "2026-11-16"
     ],
-    "reason": "public-ui-verification-blocked-by-external-content-notice",
+    "reason": "collection-and-publication-in-progress",
     "artifacts": [
-      "data/days/2026-11-16.json",
-      "data/audits/2026-11-16-sdv.json",
-      "data/audits/2026-11-16-nissan.json",
-      "data/audits/2026-11-16-monitors.json",
-      "data/weeks/2026-11-16.json"
+      "data/days/2026-11-17.json",
+      "data/audits/2026-11-17-sdv.json",
+      "data/audits/2026-11-17-nissan.json",
+      "data/audits/2026-11-17-monitors.json",
+      "data/weeks/2026-11-17.json"
     ],
-    "previousPending": "ec21e060a585597065574419a3297cdeed83a723"
+    "previousPending": "919a26f8b4887039307993364e558c5f96c5f79a"
   },
-  "coverageWatermarkNote": "2026-11-15 and 2026-11-16 data were saved and validated, but public UI verification could not pass the external-content notice. The successful collection watermark remains at 2026-11-14T07:02:59+09:00."
+  "coverageWatermarkNote": "2026-11-15 and 2026-11-16 data remain saved and validated but pending public UI verification. The 2026-11-17 collection is staged without advancing the successful collection watermark."
 }
