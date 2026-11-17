@@ -3,22 +3,40 @@
   "lastSuccessfulAt": "2026-11-14T07:02:59+09:00",
   "lastAudit": "data/audits/2026-11-14-sdv.json",
   "pendingBatch": {
-    "date": "2026-11-17",
-    "stagedAt": "2026-11-17T07:00:56+09:00",
+    "date": "2026-11-18",
+    "stagedAt": "2026-11-18T07:01:48+09:00",
     "status": "pending",
     "recoveryFrom": [
       "2026-11-15",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
-    "reason": "execution-environment-unavailable; validators-fallback-sync-index-and-public-ui-pending",
+    "reason": "active-collection-and-pending-batch-recovery",
     "artifacts": [
-      "data/days/2026-11-17.json",
-      "data/audits/2026-11-17-sdv.json",
-      "data/audits/2026-11-17-nissan.json",
-      "data/audits/2026-11-17-monitors.json",
-      "data/weeks/2026-11-17.json"
+      "data/days/2026-11-18.json",
+      "data/audits/2026-11-18-sdv.json",
+      "data/audits/2026-11-18-nissan.json",
+      "data/audits/2026-11-18-monitors.json",
+      "data/weeks/2026-11-18.json"
     ],
-    "previousPending": "919a26f8b4887039307993364e558c5f96c5f79a"
+    "previousPending": {
+      "date": "2026-11-17",
+      "stagedAt": "2026-11-17T07:00:56+09:00",
+      "status": "pending",
+      "recoveryFrom": [
+        "2026-11-15",
+        "2026-11-16"
+      ],
+      "reason": "execution-environment-unavailable; validators-fallback-sync-index-and-public-ui-pending",
+      "artifacts": [
+        "data/days/2026-11-17.json",
+        "data/audits/2026-11-17-sdv.json",
+        "data/audits/2026-11-17-nissan.json",
+        "data/audits/2026-11-17-monitors.json",
+        "data/weeks/2026-11-17.json"
+      ],
+      "previousPending": "919a26f8b4887039307993364e558c5f96c5f79a"
+    }
   },
-  "coverageWatermarkNote": "2026-11-15 and 2026-11-16 remain pending public UI verification. 2026-11-17 day, audits and weekly union were saved, but required validators, fallback sync, index update and public UI verification could not run because the execution environment was unavailable. The successful watermark remains unchanged."
+  "coverageWatermarkNote": "2026-11-15 through 2026-11-17 pending artifacts are being recovered and revalidated during the 2026-11-18 run. The successful watermark remains unchanged until all saves and public verification pass."
 }
