@@ -1,8 +1,427 @@
 {
   "version": 5,
-  "currentDate": "2026-11-16",
-  "updatedAt": "2026-11-16T06:58:55+09:00",
+  "currentDate": "2026-11-18",
+  "updatedAt": "2026-11-18T07:08:04+09:00",
   "days": [
+    {
+      "date": "2026-11-18",
+      "alerts": [
+        {
+          "id": "openai-gpt-62-astra-sol-20261118",
+          "eventKey": "openai-gpt-6-2-astra-sol-chatgpt-codex-api-2026-11-17",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "ChatGPT",
+            "GPT-6.2"
+          ],
+          "score": 98,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 20,
+            "specificityAvailability": 15,
+            "industryImpact": 8
+          },
+          "title": "OpenAI、GPT-6.2 AstraとSolをChatGPT・Codex・APIへ提供",
+          "summary": "OpenAIがGPT-6.2 AstraとSolを公開。ChatGPT WorkとCodexではPlus、Pro、Enterprise、Eduへ提供し、Pro 500 Ultrafastは両モデル、Pro 200 UltrafastはSolから対応する。API価格はAstraが入力8ドル・出力40ドル、Solが入力2ドル・出力10ドル/100万token",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "thumbnail": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
+          "source": {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+          }
+        },
+        {
+          "id": "gemini-tasks-free-rollout-20261118",
+          "eventKey": "google-gemini-tasks-free-rollout-hydrogen-2026-11-17",
+          "category": "AI",
+          "topics": [
+            "Gemini",
+            "Tasks",
+            "Gemini 4 Hydrogen"
+          ],
+          "score": 93,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 19,
+            "technicalImportance": 17,
+            "specificityAvailability": 15,
+            "industryImpact": 7
+          },
+          "title": "Google、Geminiの実行型Tasksを無料ユーザーへ展開",
+          "summary": "GoogleがGeminiのTasksを米国、日本、韓国、カナダ、豪州、インドの無料ユーザーへ展開。Gemini 4 Hydrogenを使い、依頼に応じて通話、支払い、予約など複数段階の作業を進める。高度機能はまず米国から提供する",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+          "source": {
+            "label": "Google",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+          }
+        },
+        {
+          "id": "github-copilot-mai-code-2-20261118",
+          "eventKey": "github-copilot-mai-code-2-flash-availability-2026-11-17",
+          "category": "AI",
+          "topics": [
+            "GitHub Copilot",
+            "MAI Code 2",
+            "Coding agent"
+          ],
+          "score": 84,
+          "scoreBreakdown": {
+            "userImpact": 31,
+            "novelty": 18,
+            "technicalImportance": 16,
+            "specificityAvailability": 14,
+            "industryImpact": 5
+          },
+          "title": "GitHub Copilot、MAI Code 2と軽量版Flashを追加",
+          "summary": "GitHub CopilotがMAI Code 2をPro、Pro+、Max、Business、Enterpriseへ、MAI Code 2 FlashをFreeやStudentなどの対象年額プランへ追加。VS Code、CLI、クラウドコーディングエージェントなど主要クライアントで利用できる",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "thumbnail": "https://github.blog/wp-content/uploads/2026/11/708477214-1cb51fc6-9621-41e7-b5bb-ae9007edc021.png",
+          "source": {
+            "label": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
+          }
+        },
+        {
+          "id": "microchip-automotive-ethernet-switches-20261118",
+          "eventKey": "microchip-lan9324x-lan9322x-automotive-ethernet-switches-2026-11-17",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "Automotive Ethernet",
+            "Zonal architecture",
+            "TSN"
+          ],
+          "score": 78,
+          "scoreBreakdown": {
+            "sdvDirectness": 23,
+            "practicalImpact": 20,
+            "scale": 14,
+            "specificity": 13,
+            "novelty": 8
+          },
+          "title": "Microchip、ゾーナル・中央演算向け車載Ethernetスイッチを投入",
+          "summary": "MicrochipがLAN9324xとLAN9322xの車載Ethernetスイッチを発表。TSN、セキュリティ、自己管理機能を備え、ゾーナル構成、中央コンピュート、ゲートウェイ用途を対象とする。VelocityDRIVE開発基盤に対応し、サンプル提供を開始した",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "source": {
+            "label": "Microchip Technology",
+            "url": "https://www.microchip.com/en-us/about/news-releases/products/microchip-introduces-advanced-scalable-self-managed-automotive-ethernet-switch-families"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "mistral-vibe-desktop-20261118",
+          "eventKey": "mistral-vibe-desktop-local-cloud-coding-2026-11-17",
+          "category": "AI",
+          "topics": [
+            "Mistral",
+            "Coding agent",
+            "Desktop"
+          ],
+          "score": 72,
+          "scoreBreakdown": {
+            "userImpact": 27,
+            "novelty": 17,
+            "technicalImportance": 14,
+            "specificityAvailability": 10,
+            "industryImpact": 4
+          },
+          "title": "Mistral、ローカルとクラウドのコーディングを統合するVibe Desktopを公開",
+          "summary": "MistralがVibe DesktopをmacOSとWindows向けに公開。ローカル作業、クラウド実行、複数プロジェクトの管理を一つのアプリへ統合し、既存Vibeのエージェント型コーディングをデスクトップから扱える",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "source": {
+            "label": "Mistral AI Documentation",
+            "url": "https://docs.mistral.ai/resources/release-notes"
+          }
+        },
+        {
+          "id": "openai-costs-api-delay-20261118",
+          "eventKey": "openai-costs-api-data-delay-incident-2026-11-17",
+          "category": "Codex",
+          "topics": [
+            "OpenAI Status",
+            "Costs API",
+            "Usage meter"
+          ],
+          "score": 64,
+          "scoreBreakdown": {
+            "userImpact": 25,
+            "novelty": 14,
+            "technicalImportance": 10,
+            "specificityAvailability": 10,
+            "industryImpact": 5
+          },
+          "title": "OpenAI、Costs APIのデータ反映遅延を調査",
+          "summary": "OpenAI StatusでCosts APIのデータ遅延を確認。Compliance APIとChatGPTのコスト表示に影響し、利用量そのものではなく請求・可視化データの反映が遅れている。監視は継続中",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "source": {
+            "label": "OpenAI Status",
+            "url": "https://status.openai.com/incidents/01M7N9VNR6X5SEC90M1YCDB36D"
+          }
+        },
+        {
+          "id": "nissan-pineapple-leaf-panel-20261118",
+          "eventKey": "nissan-pineapple-leaf-natural-fiber-body-panel-2026-11-17",
+          "category": "Nissan",
+          "topics": [
+            "Materials",
+            "Sustainability",
+            "Technology"
+          ],
+          "score": 55,
+          "title": "日産、パイナップル葉由来の天然繊維を車体パネルへ応用",
+          "summary": "日産が廃棄されるパイナップル葉由来の天然繊維を使った車体パネル技術を公開。軽量化と資源循環を狙い、量産車への適用可能性を検証する",
+          "publishedAt": "2026/11/17",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/8a9257fd1cd07c91f7191f3b08def3f3cfb4776f",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/261117-01-e"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "Gemini Tasks、GitHub Copilot、Mistral Vibeの利用可能性変更を掲載",
+          "checkedAt": "2026-11-18T07:08:04+09:00",
+          "alertCount": 2,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "GPT-6.2 Astra/Solを重要掲載し、Costs API遅延を参考掲載",
+          "checkedAt": "2026-11-18T07:08:04+09:00",
+          "alertCount": 1,
+          "referenceCount": 1
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "update",
+          "summary": "Microchipの車載Ethernetスイッチを重要掲載",
+          "checkedAt": "2026-11-18T07:08:04+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
+          "checkedAt": "2026-11-18T07:08:04+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "update",
+          "summary": "パイナップル葉由来天然繊維の車体パネル技術を参考掲載",
+          "checkedAt": "2026-11-18T07:08:04+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "alerts": [
+        {
+          "id": "mercedes-mb-drive-assist-pro-rollout-20261117",
+          "eventKey": "mercedes-mb-drive-assist-pro-point-to-point-hands-free-rollout-2026-11-16",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "MB.OS",
+            "OTA",
+            "ADAS"
+          ],
+          "score": 93,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 24,
+            "scale": 17,
+            "specificity": 15,
+            "novelty": 13
+          },
+          "title": "Mercedes、MB.OS車へ都市Point-to-Point運転支援と高速道路ハンズフリーを展開",
+          "summary": "Mercedes-BenzがMB.DRIVE ASSIST PROの都市部Point-to-Point支援と高速道路Hands-free Assistをドイツ・米国へ展開。2026年12月から選定顧客向けEarly Accessを始め、対象既存車にはOTAで追加する。高速道路では条件下で130km/hまでハンズフリーと自動車線変更に対応し、一般展開は市場・車種別に進める",
+          "publishedAt": "2026/11/16",
+          "sourcePublishedAt": "2026-11-16",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-17T07:03:18+09:00",
+          "verifiedAt": "2026-11-17T07:03:18+09:00",
+          "thumbnail": "https://group.mercedes-benz.com/bilder/technologie/autonomes-fahren/fahren/drive-assist-pro-de-punkt-zu-punkt/mb-drive-assist-pro-2026-012-w1680xh945-cutout.jpg?im=AspectCrop%3D%289%2C4%29%2CxPosition%3D0%2CyPosition%3D1.0&impolicy=acrop",
+          "source": {
+            "label": "Mercedes-Benz Group",
+            "url": "https://group.mercedes-benz.com/technology/autonomous-driving/driving/point-to-point-navigation.html"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "claude-enterprise-unified-chat-cowork-20261117",
+          "eventKey": "anthropic-claude-enterprise-chat-cowork-unified-auto-enable-2026-11-16",
+          "category": "AI",
+          "topics": [
+            "Claude",
+            "Cowork",
+            "Enterprise"
+          ],
+          "score": 69,
+          "scoreBreakdown": {
+            "userImpact": 12,
+            "novelty": 18,
+            "technicalImportance": 17,
+            "specificityAvailability": 15,
+            "industryImpact": 7
+          },
+          "title": "Claude Enterprise、ChatとCoworkを一つの会話へ統合",
+          "summary": "AnthropicのEnterprise向け新体験では、会話をChatで開始し、コード実行やファイル作業が必要になると同じ会話のまま隔離クラウド環境へ移行する。既存組織では設定未変更の場合に11月16日から自動有効化され、スケジュール済みタスクと履歴は引き継がれる",
+          "publishedAt": "2026/11/16",
+          "sourceUpdatedAt": "2026-11-16",
+          "sourceUpdatedAtPrecision": "date",
+          "firstSeenAt": "2026-11-17T07:03:18+09:00",
+          "verifiedAt": "2026-11-17T07:03:18+09:00",
+          "source": {
+            "label": "Claude Help Center",
+            "url": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization"
+          }
+        },
+        {
+          "id": "nissan-formula-e-gen4-madrid-20261117",
+          "eventKey": "nissan-formula-e-gen4-madrid-preseason-testing-2026-11-16",
+          "category": "Nissan",
+          "topics": [
+            "Electrification",
+            "Motorsport"
+          ],
+          "score": 62,
+          "title": "日産Formula E、GEN4初年度へ向けマドリードでプレシーズン試験を開始",
+          "summary": "日産Formula Eチームが2027シーズンのGEN4時代へ向け、11月16・18・20日にマドリードで試験を実施。Oliver RowlandとZane Maloneyが新型e-4ORCE 06の設定とデータ収集を進め、12月6日のNISMO Festivalで正式リバリーを公開する",
+          "publishedAt": "2026/11/16",
+          "sourcePublishedAt": "2026-11-16",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-17T07:03:18+09:00",
+          "verifiedAt": "2026-11-17T07:03:18+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/5355f2abb38b630455051e40af17948dc6b93bcf/preview-928x522.jpg",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/nissan-formula-e-team-to-launch-gen4-era-at-madrid-pre-season-testing"
+          }
+        },
+        {
+          "id": "nismo-festival-fuji-20261117",
+          "eventKey": "nissan-nismo-festival-fuji-gen4-livery-2026-11-16",
+          "category": "Nissan",
+          "topics": [
+            "NISMO",
+            "Motorsport",
+            "Electrification"
+          ],
+          "score": 46,
+          "title": "NISMO Festival、2年ぶりに富士で開催しFormula E GEN4リバリーを世界初公開",
+          "summary": "日産とNMCが12月6日に富士スピードウェイでNISMO Festivalを開催。2年ぶりの開催で、2026/27 Formula E向けGEN4車両の正式リバリーを世界初公開するほか、歴代レーシングカー展示や走行プログラムを予定する",
+          "publishedAt": "2026/11/16",
+          "sourcePublishedAt": "2026-11-16",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-17T07:03:18+09:00",
+          "verifiedAt": "2026-11-17T07:03:18+09:00",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/the-26th-nismo-festival-highlights"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "Claude EnterpriseのChat・Cowork統合を参考掲載",
+          "checkedAt": "2026-11-17T07:03:18+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "clear",
+          "summary": "公式経路とX経路で当日掲載条件を満たす新規リセット・利用枠変更なし",
+          "checkedAt": "2026-11-17T07:03:18+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "update",
+          "summary": "MercedesのMB.OS対応運転支援・OTA展開を重要掲載",
+          "checkedAt": "2026-11-17T07:03:18+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
+          "checkedAt": "2026-11-17T07:03:18+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "update",
+          "summary": "Formula E GEN4試験開始とNISMO Festivalを参考掲載",
+          "checkedAt": "2026-11-17T07:03:18+09:00",
+          "alertCount": 0,
+          "referenceCount": 2
+        }
+      ]
+    },
     {
       "date": "2026-11-16",
       "alerts": [
@@ -634,386 +1053,41 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-11-11",
-      "alerts": [
-        {
-          "id": "gemini-4-carbon-launch-20261111",
-          "eventKey": "google-gemini-4-carbon-launch-2026-11-10",
-          "category": "AI",
-          "topics": [
-            "Gemini",
-            "Google Antigravity"
-          ],
-          "score": 96,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 20,
-            "specificityAvailability": 15,
-            "industryImpact": 6
-          },
-          "title": "Google、Gemini 4 Carbonを一般提供しAntigravityに/swarmを導入",
-          "summary": "Googleが最上位モデルGemini 4 Carbonを公開。API有料枠、Gemini for business、Google AI UltraのGeminiアプリ・AI Mode・Antigravityで提供し、Antigravityでは複数エージェントを一括編成する/swarmをプレビュー。APIの導入価格は入力2ドル・出力10ドル/100万tokenで、12月以降は各4ドル・20ドル",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-10T16:00:00Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-11T07:04:20+09:00",
-          "verifiedAt": "2026-11-11T07:04:20+09:00",
-          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
-          "source": {
-            "label": "Google",
-            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
-          }
-        },
-        {
-          "id": "canada-ukraine-hk-pr-processing-20261111",
-          "eventKey": "canada-accelerated-pr-ukraine-hong-kong-2026-11-10",
-          "category": "Permanent Residency",
-          "score": 88,
-          "title": "カナダ、ウクライナ・香港向け既存永住申請を2027年に優先処理",
-          "summary": "カナダ政府が既に国内で待機する対象者の永住申請を速める時限措置を公表。香港向け経路の残存申請を最大3万2,000人、Ukraine Family Reunification Pathwayの残存申請を最大1万8,800人、2027年の追加枠で処理する方針",
-          "publishedAt": "2026/11/10",
-          "sourcePublishedAt": "2026-11-10T14:00:59Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-11T07:04:20+09:00",
-          "verifiedAt": "2026-11-11T07:04:20+09:00",
-          "source": {
-            "label": "Immigration, Refugees and Citizenship Canada",
-            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-takes-action-to-efficiently-process-existing-permanent-residence-applications-for-ukrainians-and-hong-kongers.html"
-          }
-        },
-        {
-          "id": "nz-residence-dependent-child-status-20261111",
-          "eventKey": "new-zealand-residence-dependent-child-unlawful-status-rule-2026-11-10",
-          "category": "Permanent Residency",
-          "score": 86,
-          "title": "NZ、扶養する子が不法滞在の場合の居住ビザ許可条件を変更",
-          "summary": "ニュージーランドは11月12日から、扶養する子が国内で不法滞在中の場合、親と他の副申請者へ居住権を付与しない規則へ変更。決定前に状況を是正する機会を与え、11月12日より前の申請には旧規則を適用する",
-          "publishedAt": "2026/11/10",
-          "sourcePublishedAt": "2026-11-10",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-11T07:04:20+09:00",
-          "verifiedAt": "2026-11-11T07:04:20+09:00",
-          "source": {
-            "label": "Immigration New Zealand",
-            "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-for-resident-visa-applications-if-dependent-children-are-unlawfully-in-new-zealand/"
-          }
-        }
-      ],
-      "references": [],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "Gemini 4 Carbonの提供開始とAntigravityの/swarmを重要掲載",
-          "checkedAt": "2026-11-11T07:04:20+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "clear",
-          "summary": "公式経路とX・コミュニティ経路で新規の利用枠回復イベントなし",
-          "checkedAt": "2026-11-11T07:04:20+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "clear",
-          "summary": "当日掲載条件を満たす独立したSDV変更なし",
-          "checkedAt": "2026-11-11T07:04:20+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "update",
-          "summary": "カナダとニュージーランドの永住・居住条件変更を重要掲載",
-          "checkedAt": "2026-11-11T07:04:20+09:00",
-          "alertCount": 2,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "clear",
-          "summary": "当日掲載条件を満たす独立した日産の新規イベントなし",
-          "checkedAt": "2026-11-11T07:04:20+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "alerts": [
-        {
-          "id": "claude-fable-52-launch-resets-20261110",
-          "eventKey": "anthropic-claude-fable-5-2-launch-resets-2026-11-09",
-          "category": "AI",
-          "topics": [
-            "Claude",
-            "Claude Code"
-          ],
-          "score": 95,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 19,
-            "specificityAvailability": 14,
-            "industryImpact": 7
-          },
-          "title": "Claude Fable 5.2提供開始、対象有料プランへ利用枠リセット",
-          "summary": "AnthropicがFable 5.2／Mythos 5.2を公開。Fableは全ユーザー向けで生成が5.1比最大30%高速、API価格は入力8ドル・出力40ドル/100万token。対象のPro・Max・Ultra・Team等にはFable週次利用分を戻す1〜3回のresetを付与し、5時間枠がある場合は全モデル分を満額回復する",
-          "publishedAt": "2026/11/10",
-          "sourcePublishedAt": "2026-11-09T19:30:12Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-10T07:08:29+09:00",
-          "verifiedAt": "2026-11-10T07:08:29+09:00",
-          "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
-          "source": {
-            "label": "Claude Help Center",
-            "url": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers"
-          }
-        },
-        {
-          "id": "canada-rural-immigration-permanent-20261110",
-          "eventKey": "canada-rural-community-immigration-program-permanent-2026-11-09",
-          "category": "Permanent Residency",
-          "score": 90,
-          "title": "カナダ、地方コミュニティ移民パイロットを恒久制度化",
-          "summary": "カナダ政府がRural Community Immigration Pilotを恒久的な永住経路へ移行。現在の14地域を継続し、今後は対象地域を拡大する。2027年は5,500人分の受入枠を予定し、指定雇用主の求人と地域推薦を軸に地方の人手不足へ対応する",
-          "publishedAt": "2026/11/09",
-          "sourcePublishedAt": "2026-11-09",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-10T07:08:29+09:00",
-          "verifiedAt": "2026-11-10T07:08:29+09:00",
-          "thumbnail": "https://www.canada.ca/content/dam/ircc/images/twittercard/IRCC_NR_perma-RCIP_261109_EN.jpg",
-          "source": {
-            "label": "Immigration, Refugees and Citizenship Canada",
-            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-creates-a-permanent-immigration-pathway-to-help-rural-communities-attract-and-retain-talent0.html"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "nissan-armada-patrol-pro4x-20261110",
-          "eventKey": "nissan-armada-patrol-pro-4x-us-2027-2026-11-09",
-          "category": "Nissan",
-          "score": 58,
-          "title": "日産、米国Armada PRO-4XをPatrol PRO-4Xへ改称",
-          "summary": "2027年型Armadaのオフロード仕様をPatrol PRO-4Xとして展開し、米国で1969年以来となるPatrol名を復活。2026年11月に生産を始め、専用NISMOアクセサリーを追加、価格は78,990ドルから",
-          "publishedAt": "2026/11/09",
-          "sourcePublishedAt": "2026-11-09T13:00:00Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-10T07:08:29+09:00",
-          "verifiedAt": "2026-11-10T07:08:29+09:00",
-          "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/9fcda6b8a8768916b912017d800406577460818a/thumbnail-720x404.jpg",
-          "source": {
-            "label": "Nissan U.S. Newsroom",
-            "url": "https://usa.nissannews.com/en-US/releases/legendary-patrol-badge-returns-to-the-us-nissan-introduces-armada-patrol-pro-4x-grade"
-          }
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "Claude Fable 5.2の提供開始と対象有料プラン向け利用枠リセットを重要掲載",
-          "checkedAt": "2026-11-10T07:08:29+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "clear",
-          "summary": "公式経路とX・コミュニティ経路を照合し、確認可能な新規リセット・利用枠変更なし",
-          "checkedAt": "2026-11-10T07:08:29+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "clear",
-          "summary": "6領域の通常検索と12本のDeep Scanを実施し、独立した新規変更として掲載する発表なし",
-          "checkedAt": "2026-11-10T07:08:29+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "update",
-          "summary": "カナダの地方コミュニティ向け永住経路の恒久制度化を重要掲載",
-          "checkedAt": "2026-11-10T07:08:29+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "update",
-          "summary": "米国ArmadaのPatrol PRO-4X改称とPatrol名復活を参考掲載",
-          "checkedAt": "2026-11-10T07:08:29+09:00",
-          "alertCount": 0,
-          "referenceCount": 1
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-11-10",
-      "end": "2026-11-16",
-      "generatedAt": "2026-11-16T06:58:55+09:00",
+      "start": "2026-11-12",
+      "end": "2026-11-18",
+      "generatedAt": "2026-11-18T07:08:04+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
         "important": 13,
-        "reference": 6
+        "reference": 11
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要2件・参考1件"
+          "summary": "重要2件・参考3件"
         },
         {
           "name": "Codex",
-          "summary": "重要5件・参考2件"
+          "summary": "重要6件・参考3件"
         },
         {
           "name": "SDV",
-          "summary": "重要2件・参考1件"
+          "summary": "重要4件・参考1件"
         },
         {
           "name": "Permanent Residency",
-          "summary": "重要3件・参考0件"
+          "summary": "重要0件・参考0件"
         },
         {
           "name": "Nissan",
-          "summary": "重要1件・参考2件"
+          "summary": "重要1件・参考4件"
         }
       ],
       "highlights": [
-        {
-          "id": "claude-fable-52-launch-resets-20261110",
-          "eventKey": "anthropic-claude-fable-5-2-launch-resets-2026-11-09",
-          "category": "AI",
-          "topics": [
-            "Claude",
-            "Claude Code"
-          ],
-          "score": 95,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 19,
-            "specificityAvailability": 14,
-            "industryImpact": 7
-          },
-          "title": "Claude Fable 5.2提供開始、対象有料プランへ利用枠リセット",
-          "summary": "AnthropicがFable 5.2／Mythos 5.2を公開。Fableは全ユーザー向けで生成が5.1比最大30%高速、API価格は入力8ドル・出力40ドル/100万token。対象のPro・Max・Ultra・Team等にはFable週次利用分を戻す1〜3回のresetを付与し、5時間枠がある場合は全モデル分を満額回復する",
-          "publishedAt": "2026/11/10",
-          "sourcePublishedAt": "2026-11-09T19:30:12Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-10T07:08:29+09:00",
-          "verifiedAt": "2026-11-10T07:08:29+09:00",
-          "thumbnail": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
-          "source": {
-            "label": "Claude Help Center",
-            "url": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers"
-          }
-        },
-        {
-          "id": "canada-rural-immigration-permanent-20261110",
-          "eventKey": "canada-rural-community-immigration-program-permanent-2026-11-09",
-          "category": "Permanent Residency",
-          "score": 90,
-          "title": "カナダ、地方コミュニティ移民パイロットを恒久制度化",
-          "summary": "カナダ政府がRural Community Immigration Pilotを恒久的な永住経路へ移行。現在の14地域を継続し、今後は対象地域を拡大する。2027年は5,500人分の受入枠を予定し、指定雇用主の求人と地域推薦を軸に地方の人手不足へ対応する",
-          "publishedAt": "2026/11/09",
-          "sourcePublishedAt": "2026-11-09",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-10T07:08:29+09:00",
-          "verifiedAt": "2026-11-10T07:08:29+09:00",
-          "thumbnail": "https://www.canada.ca/content/dam/ircc/images/twittercard/IRCC_NR_perma-RCIP_261109_EN.jpg",
-          "source": {
-            "label": "Immigration, Refugees and Citizenship Canada",
-            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-creates-a-permanent-immigration-pathway-to-help-rural-communities-attract-and-retain-talent0.html"
-          }
-        },
-        {
-          "id": "gemini-4-carbon-launch-20261111",
-          "eventKey": "google-gemini-4-carbon-launch-2026-11-10",
-          "category": "AI",
-          "topics": [
-            "Gemini",
-            "Google Antigravity"
-          ],
-          "score": 96,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 20,
-            "specificityAvailability": 15,
-            "industryImpact": 6
-          },
-          "title": "Google、Gemini 4 Carbonを一般提供しAntigravityに/swarmを導入",
-          "summary": "Googleが最上位モデルGemini 4 Carbonを公開。API有料枠、Gemini for business、Google AI UltraのGeminiアプリ・AI Mode・Antigravityで提供し、Antigravityでは複数エージェントを一括編成する/swarmをプレビュー。APIの導入価格は入力2ドル・出力10ドル/100万tokenで、12月以降は各4ドル・20ドル",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-10T16:00:00Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-11T07:04:20+09:00",
-          "verifiedAt": "2026-11-11T07:04:20+09:00",
-          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
-          "source": {
-            "label": "Google",
-            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
-          }
-        },
-        {
-          "id": "canada-ukraine-hk-pr-processing-20261111",
-          "eventKey": "canada-accelerated-pr-ukraine-hong-kong-2026-11-10",
-          "category": "Permanent Residency",
-          "score": 88,
-          "title": "カナダ、ウクライナ・香港向け既存永住申請を2027年に優先処理",
-          "summary": "カナダ政府が既に国内で待機する対象者の永住申請を速める時限措置を公表。香港向け経路の残存申請を最大3万2,000人、Ukraine Family Reunification Pathwayの残存申請を最大1万8,800人、2027年の追加枠で処理する方針",
-          "publishedAt": "2026/11/10",
-          "sourcePublishedAt": "2026-11-10T14:00:59Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-11T07:04:20+09:00",
-          "verifiedAt": "2026-11-11T07:04:20+09:00",
-          "source": {
-            "label": "Immigration, Refugees and Citizenship Canada",
-            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-takes-action-to-efficiently-process-existing-permanent-residence-applications-for-ukrainians-and-hong-kongers.html"
-          }
-        },
-        {
-          "id": "nz-residence-dependent-child-status-20261111",
-          "eventKey": "new-zealand-residence-dependent-child-unlawful-status-rule-2026-11-10",
-          "category": "Permanent Residency",
-          "score": 86,
-          "title": "NZ、扶養する子が不法滞在の場合の居住ビザ許可条件を変更",
-          "summary": "ニュージーランドは11月12日から、扶養する子が国内で不法滞在中の場合、親と他の副申請者へ居住権を付与しない規則へ変更。決定前に状況を是正する機会を与え、11月12日より前の申請には旧規則を適用する",
-          "publishedAt": "2026/11/10",
-          "sourcePublishedAt": "2026-11-10",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-11T07:04:20+09:00",
-          "verifiedAt": "2026-11-11T07:04:20+09:00",
-          "source": {
-            "label": "Immigration New Zealand",
-            "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-for-resident-visa-applications-if-dependent-children-are-unlawfully-in-new-zealand/"
-          }
-        },
         {
           "id": "codex-global-reset-20261111",
           "eventKey": "openai-codex-work-global-reset-2026-11-11",
@@ -1245,27 +1319,164 @@
             "label": "OpenAI Help Center",
             "url": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans"
           }
+        },
+        {
+          "id": "mercedes-mb-drive-assist-pro-rollout-20261117",
+          "eventKey": "mercedes-mb-drive-assist-pro-point-to-point-hands-free-rollout-2026-11-16",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "MB.OS",
+            "OTA",
+            "ADAS"
+          ],
+          "score": 93,
+          "scoreBreakdown": {
+            "sdvDirectness": 24,
+            "practicalImpact": 24,
+            "scale": 17,
+            "specificity": 15,
+            "novelty": 13
+          },
+          "title": "Mercedes、MB.OS車へ都市Point-to-Point運転支援と高速道路ハンズフリーを展開",
+          "summary": "Mercedes-BenzがMB.DRIVE ASSIST PROの都市部Point-to-Point支援と高速道路Hands-free Assistをドイツ・米国へ展開。2026年12月から選定顧客向けEarly Accessを始め、対象既存車にはOTAで追加する。高速道路では条件下で130km/hまでハンズフリーと自動車線変更に対応し、一般展開は市場・車種別に進める",
+          "publishedAt": "2026/11/16",
+          "sourcePublishedAt": "2026-11-16",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-17T07:03:18+09:00",
+          "verifiedAt": "2026-11-17T07:03:18+09:00",
+          "thumbnail": "https://group.mercedes-benz.com/bilder/technologie/autonomes-fahren/fahren/drive-assist-pro-de-punkt-zu-punkt/mb-drive-assist-pro-2026-012-w1680xh945-cutout.jpg?im=AspectCrop%3D%289%2C4%29%2CxPosition%3D0%2CyPosition%3D1.0&impolicy=acrop",
+          "source": {
+            "label": "Mercedes-Benz Group",
+            "url": "https://group.mercedes-benz.com/technology/autonomous-driving/driving/point-to-point-navigation.html"
+          }
+        },
+        {
+          "id": "openai-gpt-62-astra-sol-20261118",
+          "eventKey": "openai-gpt-6-2-astra-sol-chatgpt-codex-api-2026-11-17",
+          "category": "Codex",
+          "topics": [
+            "Codex",
+            "ChatGPT",
+            "GPT-6.2"
+          ],
+          "score": 98,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 20,
+            "specificityAvailability": 15,
+            "industryImpact": 8
+          },
+          "title": "OpenAI、GPT-6.2 AstraとSolをChatGPT・Codex・APIへ提供",
+          "summary": "OpenAIがGPT-6.2 AstraとSolを公開。ChatGPT WorkとCodexではPlus、Pro、Enterprise、Eduへ提供し、Pro 500 Ultrafastは両モデル、Pro 200 UltrafastはSolから対応する。API価格はAstraが入力8ドル・出力40ドル、Solが入力2ドル・出力10ドル/100万token",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "thumbnail": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
+          "source": {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+          }
+        },
+        {
+          "id": "gemini-tasks-free-rollout-20261118",
+          "eventKey": "google-gemini-tasks-free-rollout-hydrogen-2026-11-17",
+          "category": "AI",
+          "topics": [
+            "Gemini",
+            "Tasks",
+            "Gemini 4 Hydrogen"
+          ],
+          "score": 93,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 19,
+            "technicalImportance": 17,
+            "specificityAvailability": 15,
+            "industryImpact": 7
+          },
+          "title": "Google、Geminiの実行型Tasksを無料ユーザーへ展開",
+          "summary": "GoogleがGeminiのTasksを米国、日本、韓国、カナダ、豪州、インドの無料ユーザーへ展開。Gemini 4 Hydrogenを使い、依頼に応じて通話、支払い、予約など複数段階の作業を進める。高度機能はまず米国から提供する",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+          "source": {
+            "label": "Google",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+          }
+        },
+        {
+          "id": "github-copilot-mai-code-2-20261118",
+          "eventKey": "github-copilot-mai-code-2-flash-availability-2026-11-17",
+          "category": "AI",
+          "topics": [
+            "GitHub Copilot",
+            "MAI Code 2",
+            "Coding agent"
+          ],
+          "score": 84,
+          "scoreBreakdown": {
+            "userImpact": 31,
+            "novelty": 18,
+            "technicalImportance": 16,
+            "specificityAvailability": 14,
+            "industryImpact": 5
+          },
+          "title": "GitHub Copilot、MAI Code 2と軽量版Flashを追加",
+          "summary": "GitHub CopilotがMAI Code 2をPro、Pro+、Max、Business、Enterpriseへ、MAI Code 2 FlashをFreeやStudentなどの対象年額プランへ追加。VS Code、CLI、クラウドコーディングエージェントなど主要クライアントで利用できる",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "thumbnail": "https://github.blog/wp-content/uploads/2026/11/708477214-1cb51fc6-9621-41e7-b5bb-ae9007edc021.png",
+          "source": {
+            "label": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
+          }
+        },
+        {
+          "id": "microchip-automotive-ethernet-switches-20261118",
+          "eventKey": "microchip-lan9324x-lan9322x-automotive-ethernet-switches-2026-11-17",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "Automotive Ethernet",
+            "Zonal architecture",
+            "TSN"
+          ],
+          "score": 78,
+          "scoreBreakdown": {
+            "sdvDirectness": 23,
+            "practicalImpact": 20,
+            "scale": 14,
+            "specificity": 13,
+            "novelty": 8
+          },
+          "title": "Microchip、ゾーナル・中央演算向け車載Ethernetスイッチを投入",
+          "summary": "MicrochipがLAN9324xとLAN9322xの車載Ethernetスイッチを発表。TSN、セキュリティ、自己管理機能を備え、ゾーナル構成、中央コンピュート、ゲートウェイ用途を対象とする。VelocityDRIVE開発基盤に対応し、サンプル提供を開始した",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "source": {
+            "label": "Microchip Technology",
+            "url": "https://www.microchip.com/en-us/about/news-releases/products/microchip-introduces-advanced-scalable-self-managed-automotive-ethernet-switch-families"
+          }
         }
       ],
       "references": [
-        {
-          "id": "nissan-armada-patrol-pro4x-20261110",
-          "eventKey": "nissan-armada-patrol-pro-4x-us-2027-2026-11-09",
-          "category": "Nissan",
-          "score": 58,
-          "title": "日産、米国Armada PRO-4XをPatrol PRO-4Xへ改称",
-          "summary": "2027年型Armadaのオフロード仕様をPatrol PRO-4Xとして展開し、米国で1969年以来となるPatrol名を復活。2026年11月に生産を始め、専用NISMOアクセサリーを追加、価格は78,990ドルから",
-          "publishedAt": "2026/11/09",
-          "sourcePublishedAt": "2026-11-09T13:00:00Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-10T07:08:29+09:00",
-          "verifiedAt": "2026-11-10T07:08:29+09:00",
-          "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/9fcda6b8a8768916b912017d800406577460818a/thumbnail-720x404.jpg",
-          "source": {
-            "label": "Nissan U.S. Newsroom",
-            "url": "https://usa.nissannews.com/en-US/releases/legendary-patrol-badge-returns-to-the-us-nissan-introduces-armada-patrol-pro-4x-grade"
-          }
-        },
         {
           "id": "codex-banked-reset-hint-20261111",
           "eventKey": "codex-banked-reset-hint-2026-11-11",
@@ -1396,6 +1607,162 @@
           "source": {
             "label": "The Times / PCA Cyber Security",
             "url": "https://www.thetimes.com/uk/technology-uk/article/volkswagen-hack-eavesdrop-drivers-x7ksqqpwc"
+          }
+        },
+        {
+          "id": "claude-enterprise-unified-chat-cowork-20261117",
+          "eventKey": "anthropic-claude-enterprise-chat-cowork-unified-auto-enable-2026-11-16",
+          "category": "AI",
+          "topics": [
+            "Claude",
+            "Cowork",
+            "Enterprise"
+          ],
+          "score": 69,
+          "scoreBreakdown": {
+            "userImpact": 12,
+            "novelty": 18,
+            "technicalImportance": 17,
+            "specificityAvailability": 15,
+            "industryImpact": 7
+          },
+          "title": "Claude Enterprise、ChatとCoworkを一つの会話へ統合",
+          "summary": "AnthropicのEnterprise向け新体験では、会話をChatで開始し、コード実行やファイル作業が必要になると同じ会話のまま隔離クラウド環境へ移行する。既存組織では設定未変更の場合に11月16日から自動有効化され、スケジュール済みタスクと履歴は引き継がれる",
+          "publishedAt": "2026/11/16",
+          "sourceUpdatedAt": "2026-11-16",
+          "sourceUpdatedAtPrecision": "date",
+          "firstSeenAt": "2026-11-17T07:03:18+09:00",
+          "verifiedAt": "2026-11-17T07:03:18+09:00",
+          "source": {
+            "label": "Claude Help Center",
+            "url": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization"
+          }
+        },
+        {
+          "id": "nissan-formula-e-gen4-madrid-20261117",
+          "eventKey": "nissan-formula-e-gen4-madrid-preseason-testing-2026-11-16",
+          "category": "Nissan",
+          "topics": [
+            "Electrification",
+            "Motorsport"
+          ],
+          "score": 62,
+          "title": "日産Formula E、GEN4初年度へ向けマドリードでプレシーズン試験を開始",
+          "summary": "日産Formula Eチームが2027シーズンのGEN4時代へ向け、11月16・18・20日にマドリードで試験を実施。Oliver RowlandとZane Maloneyが新型e-4ORCE 06の設定とデータ収集を進め、12月6日のNISMO Festivalで正式リバリーを公開する",
+          "publishedAt": "2026/11/16",
+          "sourcePublishedAt": "2026-11-16",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-17T07:03:18+09:00",
+          "verifiedAt": "2026-11-17T07:03:18+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/5355f2abb38b630455051e40af17948dc6b93bcf/preview-928x522.jpg",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/nissan-formula-e-team-to-launch-gen4-era-at-madrid-pre-season-testing"
+          }
+        },
+        {
+          "id": "nismo-festival-fuji-20261117",
+          "eventKey": "nissan-nismo-festival-fuji-gen4-livery-2026-11-16",
+          "category": "Nissan",
+          "topics": [
+            "NISMO",
+            "Motorsport",
+            "Electrification"
+          ],
+          "score": 46,
+          "title": "NISMO Festival、2年ぶりに富士で開催しFormula E GEN4リバリーを世界初公開",
+          "summary": "日産とNMCが12月6日に富士スピードウェイでNISMO Festivalを開催。2年ぶりの開催で、2026/27 Formula E向けGEN4車両の正式リバリーを世界初公開するほか、歴代レーシングカー展示や走行プログラムを予定する",
+          "publishedAt": "2026/11/16",
+          "sourcePublishedAt": "2026-11-16",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-17T07:03:18+09:00",
+          "verifiedAt": "2026-11-17T07:03:18+09:00",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/the-26th-nismo-festival-highlights"
+          }
+        },
+        {
+          "id": "mistral-vibe-desktop-20261118",
+          "eventKey": "mistral-vibe-desktop-local-cloud-coding-2026-11-17",
+          "category": "AI",
+          "topics": [
+            "Mistral",
+            "Coding agent",
+            "Desktop"
+          ],
+          "score": 72,
+          "scoreBreakdown": {
+            "userImpact": 27,
+            "novelty": 17,
+            "technicalImportance": 14,
+            "specificityAvailability": 10,
+            "industryImpact": 4
+          },
+          "title": "Mistral、ローカルとクラウドのコーディングを統合するVibe Desktopを公開",
+          "summary": "MistralがVibe DesktopをmacOSとWindows向けに公開。ローカル作業、クラウド実行、複数プロジェクトの管理を一つのアプリへ統合し、既存Vibeのエージェント型コーディングをデスクトップから扱える",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "source": {
+            "label": "Mistral AI Documentation",
+            "url": "https://docs.mistral.ai/resources/release-notes"
+          }
+        },
+        {
+          "id": "openai-costs-api-delay-20261118",
+          "eventKey": "openai-costs-api-data-delay-incident-2026-11-17",
+          "category": "Codex",
+          "topics": [
+            "OpenAI Status",
+            "Costs API",
+            "Usage meter"
+          ],
+          "score": 64,
+          "scoreBreakdown": {
+            "userImpact": 25,
+            "novelty": 14,
+            "technicalImportance": 10,
+            "specificityAvailability": 10,
+            "industryImpact": 5
+          },
+          "title": "OpenAI、Costs APIのデータ反映遅延を調査",
+          "summary": "OpenAI StatusでCosts APIのデータ遅延を確認。Compliance APIとChatGPTのコスト表示に影響し、利用量そのものではなく請求・可視化データの反映が遅れている。監視は継続中",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "source": {
+            "label": "OpenAI Status",
+            "url": "https://status.openai.com/incidents/01M7N9VNR6X5SEC90M1YCDB36D"
+          }
+        },
+        {
+          "id": "nissan-pineapple-leaf-panel-20261118",
+          "eventKey": "nissan-pineapple-leaf-natural-fiber-body-panel-2026-11-17",
+          "category": "Nissan",
+          "topics": [
+            "Materials",
+            "Sustainability",
+            "Technology"
+          ],
+          "score": 55,
+          "title": "日産、パイナップル葉由来の天然繊維を車体パネルへ応用",
+          "summary": "日産が廃棄されるパイナップル葉由来の天然繊維を使った車体パネル技術を公開。軽量化と資源循環を狙い、量産車への適用可能性を検証する",
+          "publishedAt": "2026/11/17",
+          "sourcePublishedAt": "2026-11-17",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-18T07:08:04+09:00",
+          "verifiedAt": "2026-11-18T07:08:04+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/8a9257fd1cd07c91f7191f3b08def3f3cfb4776f",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/261117-01-e"
           }
         }
       ]
