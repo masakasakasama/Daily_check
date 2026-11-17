@@ -2,14 +2,14 @@
   "date": "2026-11-18",
   "mode": "pending-batch-recovery",
   "startedAt": "2026-11-18T07:01:48+09:00",
-  "completedAt": "2026-11-18T07:08:04+09:00",
+  "completedAt": "2026-11-18T07:13:35+09:00",
   "originalPendingDates": [
     "2026-11-15",
     "2026-11-16",
     "2026-11-17"
   ],
   "statement": "Original records and timestamps were preserved. Existing day and audit artifacts were re-read and validated at the actual recovery time; no prior work time was reconstructed.",
-  "reverifiedAt": "2026-11-18T07:08:04+09:00",
+  "reverifiedAt": "2026-11-18T07:13:35+09:00",
   "validations": [
     "day and audit presence",
     "daily publication dedupe",
