@@ -1,0 +1,711 @@
+{
+  "start": "2026-11-12",
+  "end": "2026-11-18",
+  "generatedAt": "2026-11-18T07:08:04+09:00",
+  "headline": "期間内の重要更新・参考情報",
+  "counts": {
+    "important": 13,
+    "reference": 11
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要2件・参考3件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要6件・参考3件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要4件・参考1件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要0件・参考0件"
+    },
+    {
+      "name": "Nissan",
+      "summary": "重要1件・参考4件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "codex-global-reset-20261111",
+      "eventKey": "openai-codex-work-global-reset-2026-11-11",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "ChatGPT Work",
+        "Usage reset"
+      ],
+      "score": 95,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "CodexとChatGPT Workの利用枠を全員対象でリセット",
+      "summary": "Codex責任者Tibo Sottiaux氏が「全Codex・ChatGPT Workユーザーの利用枠をリセットした」と投稿した記録を、同一投稿ID・時刻・本文を保存した複数の独立トラッカーで照合。原投稿は確認時に削除済みのため、対象枠の反映はSettings→Usageでの確認が必要",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-11T10:47:00Z",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "verifiedAt": "2026-11-12T07:00:17+09:00",
+      "source": {
+        "label": "Tibo Sottiaux on X（複数アーカイブで照合）",
+        "url": "https://x.com/thsottiaux/status/2120468523250614272"
+      }
+    },
+    {
+      "id": "nissan-fy2026-h1-results-20261111",
+      "eventKey": "nissan-fy2026-h1-results-outlook-2026-11-11",
+      "category": "Nissan",
+      "score": 84,
+      "title": "日産、上期営業益800億円へ改善し通期2000億円予想を維持",
+      "summary": "日産が2026年度上期決算を発表。売上高6兆720億円、営業利益800億円、純損失397億円。Re:Nissanで1100億円の追加コスト削減を実現した一方、中国の弱さから通期世界販売見通しを315万台から297万〜300万台へ下方修正し、2027年2月に新事業計画を公表する",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-11T06:31:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "verifiedAt": "2026-11-12T07:00:17+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/42d6d2b4d82048af52b576b757c692cfc25056d2",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/261111-01-e"
+      }
+    },
+    {
+      "id": "toyota-arene-50-models-2030-20261113",
+      "eventKey": "toyota-arene-50-models-10m-vehicles-2030-2026-11-11",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Arene",
+        "ADAS"
+      ],
+      "score": 85,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 21,
+        "scale": 18,
+        "specificity": 12,
+        "novelty": 10
+      },
+      "title": "トヨタ、Areneを2030年に約50車種・1000万台へ拡大",
+      "summary": "トヨタが車載ソフト基盤AreneをRAV4とLexus ESから、2030年までに世界約50車種・1000万台へ広げ、アライアンス各社への提供も目指すと発表。異なる世代のSoC上でアプリを動かせる設計とし、2028年から一部市販車へL2++運転支援を導入する計画も示した",
+      "publishedAt": "2026/11/12",
+      "sourcePublishedAt": "2026-11-11",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月11日。時刻非公開のため、JST日付は米国発表日の翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "verifiedAt": "2026-11-13T07:02:51+09:00",
+      "source": {
+        "label": "Toyota USA Newsroom",
+        "url": "https://pressroom.toyota.com/toyota-powers-whats-next-in-mobility-and-manufacturing/"
+      }
+    },
+    {
+      "id": "codex-cli-01690-20261114",
+      "eventKey": "openai-codex-cli-0-169-0-terminal-workspace-task-search-2026-11-13",
+      "category": "Codex",
+      "topics": [
+        "Codex CLI",
+        "Terminal workspace",
+        "Codex Cloud"
+      ],
+      "score": 86,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "Codex CLI 0.169.0、複数サイドチャットと過去タスク検索に対応",
+      "summary": "OpenAIがCodex CLI 0.169.0を公開。オプトインのターミナルワークスペースで複数サイドチャットを切り替え、再起動後も保存済みチャットを再開できる。agent command centerでは名前・プロンプト・作業ディレクトリから過去タスクを検索でき、macOS/LinuxのCloud接続では画像送信、モデル・推論強度選択、会話のアーカイブと復元にも対応した",
+      "publishedAt": "2026/11/13",
+      "sourcePublishedAt": "2026-11-13T08:37:00Z",
+      "sourcePublishedAtPrecision": "minute",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "verifiedAt": "2026-11-14T07:02:59+09:00",
+      "source": {
+        "label": "OpenAI Codex releases",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0"
+      }
+    },
+    {
+      "id": "openai-flexible-credits-update-20261114",
+      "eventKey": "openai-shared-agentic-credits-auto-reload-codex-work-office-2026-11-13",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "Credits",
+        "Usage limits"
+      ],
+      "score": 80,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 16,
+        "technicalImportance": 12,
+        "specificityAvailability": 14,
+        "industryImpact": 7
+      },
+      "title": "OpenAI、Codexなどの共通クレジットと自動リロードを案内",
+      "summary": "OpenAIが個人プランの柔軟利用クレジットを更新。Plus/ProではCodex、ChatGPT Work、Word、Excel、PowerPointが共通のagentic利用枠と購入クレジットを使い、含有枠を使い切ると残高から自動消費する。対象アカウントでは残高の下限・目標額・月額上限を設定する自動リロードをChatGPTまたはCodex appのUsage画面から有効化できる",
+      "publishedAt": "2026/11/13",
+      "sourceUpdatedAt": "2026-11-13",
+      "sourceUpdatedAtPrecision": "date",
+      "firstSeenAt": "2026-11-14T07:02:59+09:00",
+      "verifiedAt": "2026-11-14T07:02:59+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans"
+      }
+    },
+    {
+      "id": "tesla-cybercab-personal-sales-20261115",
+      "eventKey": "tesla-cybercab-personal-sale-mandatory-autonomy-subscription-2026-11-14",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Autonomous vehicle",
+        "Software subscription",
+        "OTA"
+      ],
+      "score": 78,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 20,
+        "scale": 8,
+        "specificity": 15,
+        "novelty": 15
+      },
+      "title": "Tesla、Cybercabの個人向け販売を開始　運行に月額299ドルのソフト契約が必須",
+      "summary": "Teslaが一部顧客向けにCybercabの個人購入招待を開始。価格は2万9,990ドル、納車予定は12月で、運行には月額299ドルのAutonomy Subscriptionが必須となる。公式契約では自動運転・接続・遠隔支援をソフトウェア契約として提供し、対応するRobotaxiジオフェンス内でのみ走行でき、OTA更新や接続が止まると運行できない。提供は当初米国の限定地域・招待者に限られる",
+      "publishedAt": "2026/11/14",
+      "sourcePublishedAt": "2026-11-14T08:01:44Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-15T07:04:38+09:00",
+      "verifiedAt": "2026-11-15T07:04:38+09:00",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?w=1024",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/tesla-invites-select-customers-buy-cybercab-personal-use-2026-11-14/"
+      }
+    },
+    {
+      "id": "openai-pro-tiers-allowance-20261116",
+      "eventKey": "openai-pro-100-200-500-work-codex-allowance-ultrafast-2026-11-16",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "ChatGPT Work",
+        "Usage limits",
+        "GPT-6 Astra"
+      ],
+      "score": 90,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 16,
+        "specificityAvailability": 15,
+        "industryImpact": 4
+      },
+      "title": "OpenAI、Pro 500を新設しPro各プランのWork・Codex利用枠を拡大",
+      "summary": "OpenAIが月額500ドルのPro 500を新設し、GPT-6 Astra／GPT-6.1 SolのUltrafastを提供。Pro 100とPro 500のWork・Codex利用枠は従来比2倍、Pro 200は新規加入を再開し、低い枠だった既存契約も高い枠へ統一された。Ultrafastは含有枠を標準の8倍、購入クレジットを6倍の速度で消費する",
+      "publishedAt": "2026/11/16",
+      "sourceUpdatedAt": "2026-11-16T06:25:00+09:00",
+      "sourceUpdatedAtPrecision": "minute-approximate-from-official-relative-timestamp",
+      "firstSeenAt": "2026-11-16T06:58:55+09:00",
+      "verifiedAt": "2026-11-16T06:58:55+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers"
+      }
+    },
+    {
+      "id": "openai-japan-credit-expiry-20261116",
+      "eventKey": "openai-usage-credits-japan-180-day-expiry-after-2026-11-13",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "Credits",
+        "Japan",
+        "Usage limits"
+      ],
+      "score": 82,
+      "scoreBreakdown": {
+        "userImpact": 33,
+        "novelty": 19,
+        "technicalImportance": 11,
+        "specificityAvailability": 15,
+        "industryImpact": 4
+      },
+      "title": "OpenAI、日本で購入する利用クレジットの有効期限を180日に設定",
+      "summary": "OpenAIが利用クレジットのFAQを更新。日本で2026年11月13日以降に購入したクレジットは購入から180日で失効し、未使用分は繰り越されない。Codex、ChatGPT Work、Word、Excel、PowerPointなどの対応機能で共通利用できるが、通常の含有枠が先に消費される",
+      "publishedAt": "2026/11/16",
+      "sourceUpdatedAt": "2026-11-16T05:57:00+09:00",
+      "sourceUpdatedAtPrecision": "minute-approximate-from-official-relative-timestamp",
+      "firstSeenAt": "2026-11-16T06:58:55+09:00",
+      "verifiedAt": "2026-11-16T06:58:55+09:00",
+      "sourceUpdate": {
+        "previousEventKey": "openai-shared-agentic-credits-auto-reload-codex-work-office-2026-11-13",
+        "changeSummary": "日本で2026年11月13日以降に購入した利用クレジットは180日で失効する地域固有条件を追加",
+        "evidenceUrl": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans",
+        "verifiedAt": "2026-11-16T06:58:55+09:00"
+      },
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans"
+      }
+    },
+    {
+      "id": "mercedes-mb-drive-assist-pro-rollout-20261117",
+      "eventKey": "mercedes-mb-drive-assist-pro-point-to-point-hands-free-rollout-2026-11-16",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "MB.OS",
+        "OTA",
+        "ADAS"
+      ],
+      "score": 93,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 24,
+        "scale": 17,
+        "specificity": 15,
+        "novelty": 13
+      },
+      "title": "Mercedes、MB.OS車へ都市Point-to-Point運転支援と高速道路ハンズフリーを展開",
+      "summary": "Mercedes-BenzがMB.DRIVE ASSIST PROの都市部Point-to-Point支援と高速道路Hands-free Assistをドイツ・米国へ展開。2026年12月から選定顧客向けEarly Accessを始め、対象既存車にはOTAで追加する。高速道路では条件下で130km/hまでハンズフリーと自動車線変更に対応し、一般展開は市場・車種別に進める",
+      "publishedAt": "2026/11/16",
+      "sourcePublishedAt": "2026-11-16",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-17T07:03:18+09:00",
+      "verifiedAt": "2026-11-17T07:03:18+09:00",
+      "thumbnail": "https://group.mercedes-benz.com/bilder/technologie/autonomes-fahren/fahren/drive-assist-pro-de-punkt-zu-punkt/mb-drive-assist-pro-2026-012-w1680xh945-cutout.jpg?im=AspectCrop%3D%289%2C4%29%2CxPosition%3D0%2CyPosition%3D1.0&impolicy=acrop",
+      "source": {
+        "label": "Mercedes-Benz Group",
+        "url": "https://group.mercedes-benz.com/technology/autonomous-driving/driving/point-to-point-navigation.html"
+      }
+    },
+    {
+      "id": "openai-gpt-62-astra-sol-20261118",
+      "eventKey": "openai-gpt-6-2-astra-sol-chatgpt-codex-api-2026-11-17",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "ChatGPT",
+        "GPT-6.2"
+      ],
+      "score": 98,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "OpenAI、GPT-6.2 AstraとSolをChatGPT・Codex・APIへ提供",
+      "summary": "OpenAIがGPT-6.2 AstraとSolを公開。ChatGPT WorkとCodexではPlus、Pro、Enterprise、Eduへ提供し、Pro 500 Ultrafastは両モデル、Pro 200 UltrafastはSolから対応する。API価格はAstraが入力8ドル・出力40ドル、Solが入力2ドル・出力10ドル/100万token",
+      "publishedAt": "2026/11/18",
+      "sourcePublishedAt": "2026-11-17",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-18T07:08:04+09:00",
+      "verifiedAt": "2026-11-18T07:08:04+09:00",
+      "thumbnail": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+      }
+    },
+    {
+      "id": "gemini-tasks-free-rollout-20261118",
+      "eventKey": "google-gemini-tasks-free-rollout-hydrogen-2026-11-17",
+      "category": "AI",
+      "topics": [
+        "Gemini",
+        "Tasks",
+        "Gemini 4 Hydrogen"
+      ],
+      "score": 93,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 19,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Google、Geminiの実行型Tasksを無料ユーザーへ展開",
+      "summary": "GoogleがGeminiのTasksを米国、日本、韓国、カナダ、豪州、インドの無料ユーザーへ展開。Gemini 4 Hydrogenを使い、依頼に応じて通話、支払い、予約など複数段階の作業を進める。高度機能はまず米国から提供する",
+      "publishedAt": "2026/11/18",
+      "sourcePublishedAt": "2026-11-17",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-18T07:08:04+09:00",
+      "verifiedAt": "2026-11-18T07:08:04+09:00",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+      }
+    },
+    {
+      "id": "github-copilot-mai-code-2-20261118",
+      "eventKey": "github-copilot-mai-code-2-flash-availability-2026-11-17",
+      "category": "AI",
+      "topics": [
+        "GitHub Copilot",
+        "MAI Code 2",
+        "Coding agent"
+      ],
+      "score": 84,
+      "scoreBreakdown": {
+        "userImpact": 31,
+        "novelty": 18,
+        "technicalImportance": 16,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "GitHub Copilot、MAI Code 2と軽量版Flashを追加",
+      "summary": "GitHub CopilotがMAI Code 2をPro、Pro+、Max、Business、Enterpriseへ、MAI Code 2 FlashをFreeやStudentなどの対象年額プランへ追加。VS Code、CLI、クラウドコーディングエージェントなど主要クライアントで利用できる",
+      "publishedAt": "2026/11/18",
+      "sourcePublishedAt": "2026-11-17",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-18T07:08:04+09:00",
+      "verifiedAt": "2026-11-18T07:08:04+09:00",
+      "thumbnail": "https://github.blog/wp-content/uploads/2026/11/708477214-1cb51fc6-9621-41e7-b5bb-ae9007edc021.png",
+      "source": {
+        "label": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
+      }
+    },
+    {
+      "id": "microchip-automotive-ethernet-switches-20261118",
+      "eventKey": "microchip-lan9324x-lan9322x-automotive-ethernet-switches-2026-11-17",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Automotive Ethernet",
+        "Zonal architecture",
+        "TSN"
+      ],
+      "score": 78,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 20,
+        "scale": 14,
+        "specificity": 13,
+        "novelty": 8
+      },
+      "title": "Microchip、ゾーナル・中央演算向け車載Ethernetスイッチを投入",
+      "summary": "MicrochipがLAN9324xとLAN9322xの車載Ethernetスイッチを発表。TSN、セキュリティ、自己管理機能を備え、ゾーナル構成、中央コンピュート、ゲートウェイ用途を対象とする。VelocityDRIVE開発基盤に対応し、サンプル提供を開始した",
+      "publishedAt": "2026/11/18",
+      "sourcePublishedAt": "2026-11-17",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-18T07:08:04+09:00",
+      "verifiedAt": "2026-11-18T07:08:04+09:00",
+      "source": {
+        "label": "Microchip Technology",
+        "url": "https://www.microchip.com/en-us/about/news-releases/products/microchip-introduces-advanced-scalable-self-managed-automotive-ethernet-switch-families"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "codex-banked-reset-hint-20261111",
+      "eventKey": "codex-banked-reset-hint-2026-11-11",
+      "category": "Codex",
+      "topics": [
+        "Codex",
+        "Banked reset"
+      ],
+      "score": 72,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 18,
+        "technicalImportance": 10,
+        "specificityAvailability": 8,
+        "industryImpact": 7
+      },
+      "title": "Codex責任者、banked resetの付与を示唆",
+      "summary": "Tibo Sottiaux氏が「木曜はCodex向きで、banked resetにも良い時期かもしれない」と投稿。付与完了、対象プラン、期限は明言していないため、Settings→Usageの「reset available」で実際の付与を確認する必要がある",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-11T06:57:08Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "verifiedAt": "2026-11-12T07:00:17+09:00",
+      "source": {
+        "label": "Tibo Sottiaux on X",
+        "url": "https://x.com/thsottiaux/status/2120410480204525936"
+      }
+    },
+    {
+      "id": "qwen4-max-preview-20261111",
+      "eventKey": "qwen4-max-preview-token-plan-2026-11-11",
+      "category": "AI",
+      "topics": [
+        "Qwen",
+        "API"
+      ],
+      "score": 74,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 8,
+        "industryImpact": 4
+      },
+      "title": "Qwen4-Max-Preview、1M contextで期間限定提供",
+      "summary": "QwenCloudが次世代マルチモーダルモデルqwen4-max-previewを公開。1M token context、最大393,216 token出力、画像・動画理解、tool calling、JSON Schema、OpenAI Responses／Anthropic Messages互換を備える。Token Plan限定で、11月25日24時（UTC+8）に終了予定",
+      "publishedAt": "2026/11/11",
+      "sourcePublishedAt": "2026-11-11T02:00:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-12T07:00:17+09:00",
+      "verifiedAt": "2026-11-12T07:00:17+09:00",
+      "source": {
+        "label": "QwenCloud",
+        "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
+      }
+    },
+    {
+      "id": "codex-cli-01672-20261113",
+      "eventKey": "openai-codex-cli-0-167-2-incremental-tools-gcp-2026-11-12",
+      "category": "Codex",
+      "topics": [
+        "Codex CLI",
+        "Google Cloud",
+        "Vertex AI"
+      ],
+      "score": 66,
+      "scoreBreakdown": {
+        "userImpact": 24,
+        "novelty": 15,
+        "technicalImportance": 14,
+        "specificityAvailability": 10,
+        "industryImpact": 3
+      },
+      "title": "Codex CLI 0.167.2、Vertex AIのツール更新を逐次送信",
+      "summary": "OpenAIがCodex CLI 0.167.2を公開。Google Cloud Vertex AI利用時のツール更新を既定で逐次送信し、長いツール定義でのリクエスト処理を改善する。従来方式へ戻す場合はfeaturesでincremental_tools_legacy_gcpをfalseに設定する",
+      "publishedAt": "2026/11/12",
+      "sourcePublishedAt": "2026-11-11T22:46:17Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "verifiedAt": "2026-11-13T07:02:51+09:00",
+      "source": {
+        "label": "OpenAI Codex releases",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2"
+      }
+    },
+    {
+      "id": "nissan-epower-rjc-award-20261113",
+      "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-12",
+      "category": "Nissan",
+      "score": 62,
+      "title": "日産、第3世代e-POWERがRJCテクノロジー・オブ・ザ・イヤー受賞",
+      "summary": "日産の第3世代e-POWERが2027年次RJCテクノロジー・オブ・ザ・イヤーを受賞。発電専用エンジンと、モーター・インバーターなどを統合した5-in-1電動パワートレインにより、燃費と静粛性を改善し、新型KicksとElgrandへ搭載する",
+      "publishedAt": "2026/11/12",
+      "sourcePublishedAt": "2026-11-12",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-13T07:02:51+09:00",
+      "verifiedAt": "2026-11-13T07:02:51+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/4821ef3ed5af11a60e3c129d563d1910dc413750",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/261112-01-e"
+      }
+    },
+    {
+      "id": "vw-infotainment-security-chain-20261116",
+      "eventKey": "volkswagen-id4-bluetooth-carplay-infotainment-security-chain-2026-11-15",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Vehicle cybersecurity",
+        "OTA"
+      ],
+      "score": 61,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 15,
+        "scale": 10,
+        "specificity": 12,
+        "novelty": 6
+      },
+      "title": "VW旧世代インフォテインメントの侵入経路を研究者が実証、OTA修正を展開",
+      "summary": "PCA Cyber SecurityがVolkswagen ID.4のBluetooth／CarPlayを起点にインフォテインメントへ侵入し、位置情報、車内マイク、連絡先などへ到達する攻撃連鎖を実証。悪用には近距離・ペアリング承認などの条件があり、VWは安全系ECUへの介入を否定。旧世代向けにID. Software 3.9.1などのセキュリティ更新を展開している",
+      "publishedAt": "2026/11/16",
+      "sourcePublishedAt": "2026-11-15T21:00:00Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-16T06:58:55+09:00",
+      "verifiedAt": "2026-11-16T06:58:55+09:00",
+      "source": {
+        "label": "The Times / PCA Cyber Security",
+        "url": "https://www.thetimes.com/uk/technology-uk/article/volkswagen-hack-eavesdrop-drivers-x7ksqqpwc"
+      }
+    },
+    {
+      "id": "claude-enterprise-unified-chat-cowork-20261117",
+      "eventKey": "anthropic-claude-enterprise-chat-cowork-unified-auto-enable-2026-11-16",
+      "category": "AI",
+      "topics": [
+        "Claude",
+        "Cowork",
+        "Enterprise"
+      ],
+      "score": 69,
+      "scoreBreakdown": {
+        "userImpact": 12,
+        "novelty": 18,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 7
+      },
+      "title": "Claude Enterprise、ChatとCoworkを一つの会話へ統合",
+      "summary": "AnthropicのEnterprise向け新体験では、会話をChatで開始し、コード実行やファイル作業が必要になると同じ会話のまま隔離クラウド環境へ移行する。既存組織では設定未変更の場合に11月16日から自動有効化され、スケジュール済みタスクと履歴は引き継がれる",
+      "publishedAt": "2026/11/16",
+      "sourceUpdatedAt": "2026-11-16",
+      "sourceUpdatedAtPrecision": "date",
+      "firstSeenAt": "2026-11-17T07:03:18+09:00",
+      "verifiedAt": "2026-11-17T07:03:18+09:00",
+      "source": {
+        "label": "Claude Help Center",
+        "url": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization"
+      }
+    },
+    {
+      "id": "nissan-formula-e-gen4-madrid-20261117",
+      "eventKey": "nissan-formula-e-gen4-madrid-preseason-testing-2026-11-16",
+      "category": "Nissan",
+      "topics": [
+        "Electrification",
+        "Motorsport"
+      ],
+      "score": 62,
+      "title": "日産Formula E、GEN4初年度へ向けマドリードでプレシーズン試験を開始",
+      "summary": "日産Formula Eチームが2027シーズンのGEN4時代へ向け、11月16・18・20日にマドリードで試験を実施。Oliver RowlandとZane Maloneyが新型e-4ORCE 06の設定とデータ収集を進め、12月6日のNISMO Festivalで正式リバリーを公開する",
+      "publishedAt": "2026/11/16",
+      "sourcePublishedAt": "2026-11-16",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-17T07:03:18+09:00",
+      "verifiedAt": "2026-11-17T07:03:18+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.amazonaws.com/photos/5355f2abb38b630455051e40af17948dc6b93bcf/preview-928x522.jpg",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/nissan-formula-e-team-to-launch-gen4-era-at-madrid-pre-season-testing"
+      }
+    },
+    {
+      "id": "nismo-festival-fuji-20261117",
+      "eventKey": "nissan-nismo-festival-fuji-gen4-livery-2026-11-16",
+      "category": "Nissan",
+      "topics": [
+        "NISMO",
+        "Motorsport",
+        "Electrification"
+      ],
+      "score": 46,
+      "title": "NISMO Festival、2年ぶりに富士で開催しFormula E GEN4リバリーを世界初公開",
+      "summary": "日産とNMCが12月6日に富士スピードウェイでNISMO Festivalを開催。2年ぶりの開催で、2026/27 Formula E向けGEN4車両の正式リバリーを世界初公開するほか、歴代レーシングカー展示や走行プログラムを予定する",
+      "publishedAt": "2026/11/16",
+      "sourcePublishedAt": "2026-11-16",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-17T07:03:18+09:00",
+      "verifiedAt": "2026-11-17T07:03:18+09:00",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/the-26th-nismo-festival-highlights"
+      }
+    },
+    {
+      "id": "mistral-vibe-desktop-20261118",
+      "eventKey": "mistral-vibe-desktop-local-cloud-coding-2026-11-17",
+      "category": "AI",
+      "topics": [
+        "Mistral",
+        "Coding agent",
+        "Desktop"
+      ],
+      "score": 72,
+      "scoreBreakdown": {
+        "userImpact": 27,
+        "novelty": 17,
+        "technicalImportance": 14,
+        "specificityAvailability": 10,
+        "industryImpact": 4
+      },
+      "title": "Mistral、ローカルとクラウドのコーディングを統合するVibe Desktopを公開",
+      "summary": "MistralがVibe DesktopをmacOSとWindows向けに公開。ローカル作業、クラウド実行、複数プロジェクトの管理を一つのアプリへ統合し、既存Vibeのエージェント型コーディングをデスクトップから扱える",
+      "publishedAt": "2026/11/18",
+      "sourcePublishedAt": "2026-11-17",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-18T07:08:04+09:00",
+      "verifiedAt": "2026-11-18T07:08:04+09:00",
+      "source": {
+        "label": "Mistral AI Documentation",
+        "url": "https://docs.mistral.ai/resources/release-notes"
+      }
+    },
+    {
+      "id": "openai-costs-api-delay-20261118",
+      "eventKey": "openai-costs-api-data-delay-incident-2026-11-17",
+      "category": "Codex",
+      "topics": [
+        "OpenAI Status",
+        "Costs API",
+        "Usage meter"
+      ],
+      "score": 64,
+      "scoreBreakdown": {
+        "userImpact": 25,
+        "novelty": 14,
+        "technicalImportance": 10,
+        "specificityAvailability": 10,
+        "industryImpact": 5
+      },
+      "title": "OpenAI、Costs APIのデータ反映遅延を調査",
+      "summary": "OpenAI StatusでCosts APIのデータ遅延を確認。Compliance APIとChatGPTのコスト表示に影響し、利用量そのものではなく請求・可視化データの反映が遅れている。監視は継続中",
+      "publishedAt": "2026/11/18",
+      "sourcePublishedAt": "2026-11-17",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-18T07:08:04+09:00",
+      "verifiedAt": "2026-11-18T07:08:04+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/01M7N9VNR6X5SEC90M1YCDB36D"
+      }
+    },
+    {
+      "id": "nissan-pineapple-leaf-panel-20261118",
+      "eventKey": "nissan-pineapple-leaf-natural-fiber-body-panel-2026-11-17",
+      "category": "Nissan",
+      "topics": [
+        "Materials",
+        "Sustainability",
+        "Technology"
+      ],
+      "score": 55,
+      "title": "日産、パイナップル葉由来の天然繊維を車体パネルへ応用",
+      "summary": "日産が廃棄されるパイナップル葉由来の天然繊維を使った車体パネル技術を公開。軽量化と資源循環を狙い、量産車への適用可能性を検証する",
+      "publishedAt": "2026/11/17",
+      "sourcePublishedAt": "2026-11-17",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-18T07:08:04+09:00",
+      "verifiedAt": "2026-11-18T07:08:04+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/8a9257fd1cd07c91f7191f3b08def3f3cfb4776f",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/261117-01-e"
+      }
+    }
+  ]
+}
