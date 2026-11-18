@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-19",
+  "checkedAt": "2026-11-19T07:00:05+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP",
+    "https://usa.nissannews.com/en-US/",
+    "https://europe.nissannews.com/en-GB/",
+    "https://www.nhtsa.gov/recalls",
+    "https://www.reuters.com/business/autos-transportation/"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com November 18 2026 Nissan",
+      "recordedAt": "2026-11-19T07:00:05+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 18 2026 Nissan OR INFINITI",
+      "recordedAt": "2026-11-19T07:00:05+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 18 2026 Nissan",
+      "recordedAt": "2026-11-19T07:00:05+09:00"
+    },
+    {
+      "query": "Nissan November 18 2026 recall production sales executive news",
+      "recordedAt": "2026-11-19T07:00:05+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-americas-mexico-cost-reduction-china-competition-2026-11-18",
+      "sourceUrl": "https://www.reuters.com/business/autos-transportation/nissan-uses-mexico-prep-potential-china-challenge-us-2026-11-18/",
+      "publishedAt": "2026-11-18T19:41:52Z",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "reason": "Reuters本文で米州責任者の発言、コスト改革、商品投入計画を確認"
+    },
+    {
+      "eventKey": "nissan-work-with-pride-gold-award-2026-11-18",
+      "sourceUrl": "https://global.nissannews.com/en/releases/261118-01-e",
+      "publishedAt": "2026-11-18",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "職場包摂の継続表彰で事業・利用者への実質影響が小さい"
+    },
+    {
+      "eventKey": "nissan-elgrand-jahfa-award-2026-11-04",
+      "sourceUrl": "https://global.nissannews.com/en/releases/261104-01-e",
+      "publishedAt": "2026-11-04",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-elgrand-jahfa-award-2026-11-04",
+      "reason": "新着一覧の表示日と本文公開日が異なり、11月4日の既出発表"
+    }
+  ]
+}
