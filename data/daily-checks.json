@@ -1,8 +1,198 @@
 {
   "version": 5,
-  "currentDate": "2026-11-18",
-  "updatedAt": "2026-11-18T07:13:35+09:00",
+  "currentDate": "2026-11-19",
+  "updatedAt": "2026-11-19T07:01:29+09:00",
   "days": [
+    {
+      "date": "2026-11-19",
+      "alerts": [
+        {
+          "id": "google-genie-4-project-genie-20261119",
+          "eventKey": "google-project-genie-4-ultra-rollout-2026-11-18",
+          "category": "AI",
+          "topics": [
+            "Google AI",
+            "Genie 4",
+            "World model"
+          ],
+          "score": 91,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 13,
+            "industryImpact": 5
+          },
+          "title": "Google、Genie 4をProject Genieで提供開始",
+          "summary": "GoogleがGoogle AI Ultraの対象ユーザーへGenie 4を展開。生成世界を探索中に自然言語で天候や登場人物を変更でき、映像に連動するネイティブ音声にも対応した。Genie 3は1回3分、360度画像による世界生成、複数世界の連結へ拡張した",
+          "publishedAt": "2026/11/19",
+          "sourcePublishedAt": "2026-11-18",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月18日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+          "source": {
+            "label": "Google",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+          }
+        }
+      ],
+      "references": [
+        {
+          "id": "github-copilot-team-plugins-20261119",
+          "eventKey": "github-copilot-team-default-agent-plugins-2026-11-18",
+          "category": "AI",
+          "topics": [
+            "GitHub Copilot",
+            "Agent Plugins",
+            "Team administration"
+          ],
+          "score": 72,
+          "scoreBreakdown": {
+            "userImpact": 28,
+            "novelty": 17,
+            "technicalImportance": 14,
+            "specificityAvailability": 9,
+            "industryImpact": 4
+          },
+          "title": "GitHub Copilot、チーム単位のAgent Plugin標準設定に対応",
+          "summary": "GitHubがCopilot BusinessとEnterpriseでチームカスタマイズを一般提供。管理者は承認済みAgent Pluginを直接メンバーの標準設定にでき、VS Code、Copilot app、CLIへ反映する。子チームには継承されず、組織・企業ポリシーが優先される",
+          "publishedAt": "2026/11/19",
+          "sourcePublishedAt": "2026-11-18",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月18日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "thumbnail": "https://github.blog/wp-content/uploads/2026/11/682125868-f1b8f266-b7af-45d3-9337-bee8b85ea55a.png",
+          "source": {
+            "label": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/"
+          }
+        },
+        {
+          "id": "autosar-capi-whitepaper-20261119",
+          "eventKey": "autosar-isoft-capi-ai-defined-vehicle-whitepaper-2026-11-18",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "AUTOSAR Adaptive",
+            "CAPI",
+            "AI-defined vehicle"
+          ],
+          "score": 58,
+          "scoreBreakdown": {
+            "sdvDirectness": 20,
+            "practicalImpact": 12,
+            "scale": 10,
+            "specificity": 9,
+            "novelty": 7
+          },
+          "title": "AUTOSAR、CAPI共通実装による車載基盤再設計の白書を公開",
+          "summary": "AUTOSARがiSOFTのCAPI白書を公開。Adaptive Platformの共通実装で各社の基盤維持を減らし、仕様と実行コードを並行進化させて相互検証する構想を示す。AI活用に必要な精密で機械可読な仕様基盤も論じる",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-18",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "source": {
+            "label": "AUTOSAR",
+            "url": "https://www.autosar.org/news-events/detail/new-capi-white-paper-by-isoft-reengineering-automotive-software-infrastructure"
+          }
+        },
+        {
+          "id": "nissan-mexico-china-us-strategy-20261119",
+          "eventKey": "nissan-americas-mexico-cost-reduction-china-competition-2026-11-18",
+          "category": "Nissan",
+          "topics": [
+            "Business strategy",
+            "North America",
+            "Mexico",
+            "Product development"
+          ],
+          "score": 62,
+          "title": "日産、メキシコで中国勢に対抗するコスト改革を米国へ展開",
+          "summary": "日産米州責任者が、メキシコでの中国車との競争を米国市場に備える実験と位置付けた。開発期間短縮、供給網コスト削減、自動化と設計簡素化を進め、米国ではRogue Hybridを皮切りに新型車投入を強化する",
+          "publishedAt": "2026/11/19",
+          "sourcePublishedAt": "2026-11-18T19:41:52Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "thumbnail": "https://www.reuters.com/resizer/v2/EF6N7N5XEFL7JGBBRUPOUEKABU.jpg?auth=b636b484b347df6916f7d12cb725f9eb8cc3817da668777c010c8d687154f2d8&quality=80&width=1920",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/autos-transportation/nissan-uses-mexico-prep-potential-china-challenge-us-2026-11-18/"
+          }
+        },
+        {
+          "id": "nz-immigration-online-maintenance-20261119",
+          "eventKey": "new-zealand-residence-visa-online-maintenance-2026-11-19",
+          "category": "Permanent Residency",
+          "topics": [
+            "New Zealand",
+            "Permanent Resident Visa",
+            "Online application"
+          ],
+          "score": 50,
+          "title": "NZ移民局、永住関連オンライン申請の停止予定を更新",
+          "summary": "ニュージーランド移民局がMicrosoft障害で延期したシステム更新日程を案内。11月22日8時から23時59分（NZDT）はPermanent Resident Visa、Second or Subsequent Resident Visa、居住ビザの渡航条件変更などを開始・継続できない",
+          "publishedAt": "2026/11/19",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "source": {
+            "label": "Immigration New Zealand",
+            "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/planned-upgrades/"
+          }
+        }
+      ],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "update",
+          "summary": "Genie 4を重要掲載し、Copilotのチーム設定を参考掲載",
+          "checkedAt": "2026-11-19T07:00:05+09:00",
+          "alertCount": 1,
+          "referenceCount": 1
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "clear",
+          "summary": "公式・X経路で新規リセットや利用上限変更なし",
+          "checkedAt": "2026-11-19T07:00:05+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "update",
+          "summary": "AUTOSAR CAPI白書を参考掲載",
+          "checkedAt": "2026-11-19T07:00:05+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "update",
+          "summary": "NZの永住関連オンライン申請停止予定を参考掲載",
+          "checkedAt": "2026-11-19T07:00:05+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "update",
+          "summary": "米州のコスト改革と商品戦略を参考掲載",
+          "checkedAt": "2026-11-19T07:00:05+09:00",
+          "alertCount": 0,
+          "referenceCount": 1
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "alerts": [
@@ -896,245 +1086,41 @@
           "referenceCount": 1
         }
       ]
-    },
-    {
-      "date": "2026-11-12",
-      "alerts": [
-        {
-          "id": "codex-global-reset-20261111",
-          "eventKey": "openai-codex-work-global-reset-2026-11-11",
-          "category": "Codex",
-          "topics": [
-            "Codex",
-            "ChatGPT Work",
-            "Usage reset"
-          ],
-          "score": 95,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 20,
-            "specificityAvailability": 15,
-            "industryImpact": 5
-          },
-          "title": "CodexとChatGPT Workの利用枠を全員対象でリセット",
-          "summary": "Codex責任者Tibo Sottiaux氏が「全Codex・ChatGPT Workユーザーの利用枠をリセットした」と投稿した記録を、同一投稿ID・時刻・本文を保存した複数の独立トラッカーで照合。原投稿は確認時に削除済みのため、対象枠の反映はSettings→Usageでの確認が必要",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-11T10:47:00Z",
-          "sourcePublishedAtPrecision": "minute",
-          "firstSeenAt": "2026-11-12T07:00:17+09:00",
-          "verifiedAt": "2026-11-12T07:00:17+09:00",
-          "source": {
-            "label": "Tibo Sottiaux on X（複数アーカイブで照合）",
-            "url": "https://x.com/thsottiaux/status/2120468523250614272"
-          }
-        },
-        {
-          "id": "nissan-fy2026-h1-results-20261111",
-          "eventKey": "nissan-fy2026-h1-results-outlook-2026-11-11",
-          "category": "Nissan",
-          "score": 84,
-          "title": "日産、上期営業益800億円へ改善し通期2000億円予想を維持",
-          "summary": "日産が2026年度上期決算を発表。売上高6兆720億円、営業利益800億円、純損失397億円。Re:Nissanで1100億円の追加コスト削減を実現した一方、中国の弱さから通期世界販売見通しを315万台から297万〜300万台へ下方修正し、2027年2月に新事業計画を公表する",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-11T06:31:00Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-12T07:00:17+09:00",
-          "verifiedAt": "2026-11-12T07:00:17+09:00",
-          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/42d6d2b4d82048af52b576b757c692cfc25056d2",
-          "source": {
-            "label": "Nissan Global Newsroom",
-            "url": "https://global.nissannews.com/en/releases/261111-01-e"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "codex-banked-reset-hint-20261111",
-          "eventKey": "codex-banked-reset-hint-2026-11-11",
-          "category": "Codex",
-          "topics": [
-            "Codex",
-            "Banked reset"
-          ],
-          "score": 72,
-          "scoreBreakdown": {
-            "userImpact": 29,
-            "novelty": 18,
-            "technicalImportance": 10,
-            "specificityAvailability": 8,
-            "industryImpact": 7
-          },
-          "title": "Codex責任者、banked resetの付与を示唆",
-          "summary": "Tibo Sottiaux氏が「木曜はCodex向きで、banked resetにも良い時期かもしれない」と投稿。付与完了、対象プラン、期限は明言していないため、Settings→Usageの「reset available」で実際の付与を確認する必要がある",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-11T06:57:08Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-12T07:00:17+09:00",
-          "verifiedAt": "2026-11-12T07:00:17+09:00",
-          "source": {
-            "label": "Tibo Sottiaux on X",
-            "url": "https://x.com/thsottiaux/status/2120410480204525936"
-          }
-        },
-        {
-          "id": "qwen4-max-preview-20261111",
-          "eventKey": "qwen4-max-preview-token-plan-2026-11-11",
-          "category": "AI",
-          "topics": [
-            "Qwen",
-            "API"
-          ],
-          "score": 74,
-          "scoreBreakdown": {
-            "userImpact": 24,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 8,
-            "industryImpact": 4
-          },
-          "title": "Qwen4-Max-Preview、1M contextで期間限定提供",
-          "summary": "QwenCloudが次世代マルチモーダルモデルqwen4-max-previewを公開。1M token context、最大393,216 token出力、画像・動画理解、tool calling、JSON Schema、OpenAI Responses／Anthropic Messages互換を備える。Token Plan限定で、11月25日24時（UTC+8）に終了予定",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-11T02:00:00Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-12T07:00:17+09:00",
-          "verifiedAt": "2026-11-12T07:00:17+09:00",
-          "source": {
-            "label": "QwenCloud",
-            "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
-          }
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "Qwen4-Max-Previewの期間限定提供を参考掲載",
-          "checkedAt": "2026-11-12T07:00:17+09:00",
-          "alertCount": 0,
-          "referenceCount": 1
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "全員対象リセットを重要、banked reset示唆を参考掲載",
-          "checkedAt": "2026-11-12T07:00:17+09:00",
-          "alertCount": 1,
-          "referenceCount": 1
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "clear",
-          "summary": "当日掲載条件を満たす独立したSDV変更なし",
-          "checkedAt": "2026-11-12T07:00:17+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
-          "checkedAt": "2026-11-12T07:00:17+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "update",
-          "summary": "2026年度上期決算と通期見通しを重要掲載",
-          "checkedAt": "2026-11-12T07:00:17+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-11-12",
-      "end": "2026-11-18",
-      "generatedAt": "2026-11-18T07:13:35+09:00",
+      "start": "2026-11-13",
+      "end": "2026-11-19",
+      "generatedAt": "2026-11-19T07:01:29+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 13,
-        "reference": 11
+        "important": 12,
+        "reference": 13
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要2件・参考3件"
+          "summary": "重要3件・参考3件"
         },
         {
           "name": "Codex",
-          "summary": "重要6件・参考3件"
+          "summary": "重要5件・参考2件"
         },
         {
           "name": "SDV",
-          "summary": "重要4件・参考1件"
+          "summary": "重要4件・参考2件"
         },
         {
           "name": "Permanent Residency",
-          "summary": "重要0件・参考0件"
+          "summary": "重要0件・参考1件"
         },
         {
           "name": "Nissan",
-          "summary": "重要1件・参考4件"
+          "summary": "重要0件・参考5件"
         }
       ],
       "highlights": [
-        {
-          "id": "codex-global-reset-20261111",
-          "eventKey": "openai-codex-work-global-reset-2026-11-11",
-          "category": "Codex",
-          "topics": [
-            "Codex",
-            "ChatGPT Work",
-            "Usage reset"
-          ],
-          "score": 95,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 20,
-            "specificityAvailability": 15,
-            "industryImpact": 5
-          },
-          "title": "CodexとChatGPT Workの利用枠を全員対象でリセット",
-          "summary": "Codex責任者Tibo Sottiaux氏が「全Codex・ChatGPT Workユーザーの利用枠をリセットした」と投稿した記録を、同一投稿ID・時刻・本文を保存した複数の独立トラッカーで照合。原投稿は確認時に削除済みのため、対象枠の反映はSettings→Usageでの確認が必要",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-11T10:47:00Z",
-          "sourcePublishedAtPrecision": "minute",
-          "firstSeenAt": "2026-11-12T07:00:17+09:00",
-          "verifiedAt": "2026-11-12T07:00:17+09:00",
-          "source": {
-            "label": "Tibo Sottiaux on X（複数アーカイブで照合）",
-            "url": "https://x.com/thsottiaux/status/2120468523250614272"
-          }
-        },
-        {
-          "id": "nissan-fy2026-h1-results-20261111",
-          "eventKey": "nissan-fy2026-h1-results-outlook-2026-11-11",
-          "category": "Nissan",
-          "score": 84,
-          "title": "日産、上期営業益800億円へ改善し通期2000億円予想を維持",
-          "summary": "日産が2026年度上期決算を発表。売上高6兆720億円、営業利益800億円、純損失397億円。Re:Nissanで1100億円の追加コスト削減を実現した一方、中国の弱さから通期世界販売見通しを315万台から297万〜300万台へ下方修正し、2027年2月に新事業計画を公表する",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-11T06:31:00Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-12T07:00:17+09:00",
-          "verifiedAt": "2026-11-12T07:00:17+09:00",
-          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/42d6d2b4d82048af52b576b757c692cfc25056d2",
-          "source": {
-            "label": "Nissan Global Newsroom",
-            "url": "https://global.nissannews.com/en/releases/261111-01-e"
-          }
-        },
         {
           "id": "toyota-arene-50-models-2030-20261113",
           "eventKey": "toyota-arene-50-models-10m-vehicles-2030-2026-11-11",
@@ -1474,65 +1460,40 @@
             "label": "Microchip Technology",
             "url": "https://www.microchip.com/en-us/about/news-releases/products/microchip-introduces-advanced-scalable-self-managed-automotive-ethernet-switch-families"
           }
+        },
+        {
+          "id": "google-genie-4-project-genie-20261119",
+          "eventKey": "google-project-genie-4-ultra-rollout-2026-11-18",
+          "category": "AI",
+          "topics": [
+            "Google AI",
+            "Genie 4",
+            "World model"
+          ],
+          "score": 91,
+          "scoreBreakdown": {
+            "userImpact": 35,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 13,
+            "industryImpact": 5
+          },
+          "title": "Google、Genie 4をProject Genieで提供開始",
+          "summary": "GoogleがGoogle AI Ultraの対象ユーザーへGenie 4を展開。生成世界を探索中に自然言語で天候や登場人物を変更でき、映像に連動するネイティブ音声にも対応した。Genie 3は1回3分、360度画像による世界生成、複数世界の連結へ拡張した",
+          "publishedAt": "2026/11/19",
+          "sourcePublishedAt": "2026-11-18",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月18日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+          "source": {
+            "label": "Google",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+          }
         }
       ],
       "references": [
-        {
-          "id": "codex-banked-reset-hint-20261111",
-          "eventKey": "codex-banked-reset-hint-2026-11-11",
-          "category": "Codex",
-          "topics": [
-            "Codex",
-            "Banked reset"
-          ],
-          "score": 72,
-          "scoreBreakdown": {
-            "userImpact": 29,
-            "novelty": 18,
-            "technicalImportance": 10,
-            "specificityAvailability": 8,
-            "industryImpact": 7
-          },
-          "title": "Codex責任者、banked resetの付与を示唆",
-          "summary": "Tibo Sottiaux氏が「木曜はCodex向きで、banked resetにも良い時期かもしれない」と投稿。付与完了、対象プラン、期限は明言していないため、Settings→Usageの「reset available」で実際の付与を確認する必要がある",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-11T06:57:08Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-12T07:00:17+09:00",
-          "verifiedAt": "2026-11-12T07:00:17+09:00",
-          "source": {
-            "label": "Tibo Sottiaux on X",
-            "url": "https://x.com/thsottiaux/status/2120410480204525936"
-          }
-        },
-        {
-          "id": "qwen4-max-preview-20261111",
-          "eventKey": "qwen4-max-preview-token-plan-2026-11-11",
-          "category": "AI",
-          "topics": [
-            "Qwen",
-            "API"
-          ],
-          "score": 74,
-          "scoreBreakdown": {
-            "userImpact": 24,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 8,
-            "industryImpact": 4
-          },
-          "title": "Qwen4-Max-Preview、1M contextで期間限定提供",
-          "summary": "QwenCloudが次世代マルチモーダルモデルqwen4-max-previewを公開。1M token context、最大393,216 token出力、画像・動画理解、tool calling、JSON Schema、OpenAI Responses／Anthropic Messages互換を備える。Token Plan限定で、11月25日24時（UTC+8）に終了予定",
-          "publishedAt": "2026/11/11",
-          "sourcePublishedAt": "2026-11-11T02:00:00Z",
-          "sourcePublishedAtPrecision": "second",
-          "firstSeenAt": "2026-11-12T07:00:17+09:00",
-          "verifiedAt": "2026-11-12T07:00:17+09:00",
-          "source": {
-            "label": "QwenCloud",
-            "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
-          }
-        },
         {
           "id": "codex-cli-01672-20261113",
           "eventKey": "openai-codex-cli-0-167-2-incremental-tools-gcp-2026-11-12",
@@ -1763,6 +1724,111 @@
           "source": {
             "label": "Nissan Global Newsroom",
             "url": "https://global.nissannews.com/en/releases/261117-01-e"
+          }
+        },
+        {
+          "id": "github-copilot-team-plugins-20261119",
+          "eventKey": "github-copilot-team-default-agent-plugins-2026-11-18",
+          "category": "AI",
+          "topics": [
+            "GitHub Copilot",
+            "Agent Plugins",
+            "Team administration"
+          ],
+          "score": 72,
+          "scoreBreakdown": {
+            "userImpact": 28,
+            "novelty": 17,
+            "technicalImportance": 14,
+            "specificityAvailability": 9,
+            "industryImpact": 4
+          },
+          "title": "GitHub Copilot、チーム単位のAgent Plugin標準設定に対応",
+          "summary": "GitHubがCopilot BusinessとEnterpriseでチームカスタマイズを一般提供。管理者は承認済みAgent Pluginを直接メンバーの標準設定にでき、VS Code、Copilot app、CLIへ反映する。子チームには継承されず、組織・企業ポリシーが優先される",
+          "publishedAt": "2026/11/19",
+          "sourcePublishedAt": "2026-11-18",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "米国公式発表の現地日付は11月18日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "thumbnail": "https://github.blog/wp-content/uploads/2026/11/682125868-f1b8f266-b7af-45d3-9337-bee8b85ea55a.png",
+          "source": {
+            "label": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/"
+          }
+        },
+        {
+          "id": "autosar-capi-whitepaper-20261119",
+          "eventKey": "autosar-isoft-capi-ai-defined-vehicle-whitepaper-2026-11-18",
+          "category": "SDV",
+          "topics": [
+            "SDV",
+            "AUTOSAR Adaptive",
+            "CAPI",
+            "AI-defined vehicle"
+          ],
+          "score": 58,
+          "scoreBreakdown": {
+            "sdvDirectness": 20,
+            "practicalImpact": 12,
+            "scale": 10,
+            "specificity": 9,
+            "novelty": 7
+          },
+          "title": "AUTOSAR、CAPI共通実装による車載基盤再設計の白書を公開",
+          "summary": "AUTOSARがiSOFTのCAPI白書を公開。Adaptive Platformの共通実装で各社の基盤維持を減らし、仕様と実行コードを並行進化させて相互検証する構想を示す。AI活用に必要な精密で機械可読な仕様基盤も論じる",
+          "publishedAt": "2026/11/18",
+          "sourcePublishedAt": "2026-11-18",
+          "sourcePublishedAtPrecision": "date",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "source": {
+            "label": "AUTOSAR",
+            "url": "https://www.autosar.org/news-events/detail/new-capi-white-paper-by-isoft-reengineering-automotive-software-infrastructure"
+          }
+        },
+        {
+          "id": "nissan-mexico-china-us-strategy-20261119",
+          "eventKey": "nissan-americas-mexico-cost-reduction-china-competition-2026-11-18",
+          "category": "Nissan",
+          "topics": [
+            "Business strategy",
+            "North America",
+            "Mexico",
+            "Product development"
+          ],
+          "score": 62,
+          "title": "日産、メキシコで中国勢に対抗するコスト改革を米国へ展開",
+          "summary": "日産米州責任者が、メキシコでの中国車との競争を米国市場に備える実験と位置付けた。開発期間短縮、供給網コスト削減、自動化と設計簡素化を進め、米国ではRogue Hybridを皮切りに新型車投入を強化する",
+          "publishedAt": "2026/11/19",
+          "sourcePublishedAt": "2026-11-18T19:41:52Z",
+          "sourcePublishedAtPrecision": "second",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "thumbnail": "https://www.reuters.com/resizer/v2/EF6N7N5XEFL7JGBBRUPOUEKABU.jpg?auth=b636b484b347df6916f7d12cb725f9eb8cc3817da668777c010c8d687154f2d8&quality=80&width=1920",
+          "source": {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/autos-transportation/nissan-uses-mexico-prep-potential-china-challenge-us-2026-11-18/"
+          }
+        },
+        {
+          "id": "nz-immigration-online-maintenance-20261119",
+          "eventKey": "new-zealand-residence-visa-online-maintenance-2026-11-19",
+          "category": "Permanent Residency",
+          "topics": [
+            "New Zealand",
+            "Permanent Resident Visa",
+            "Online application"
+          ],
+          "score": 50,
+          "title": "NZ移民局、永住関連オンライン申請の停止予定を更新",
+          "summary": "ニュージーランド移民局がMicrosoft障害で延期したシステム更新日程を案内。11月22日8時から23時59分（NZDT）はPermanent Resident Visa、Second or Subsequent Resident Visa、居住ビザの渡航条件変更などを開始・継続できない",
+          "publishedAt": "2026/11/19",
+          "firstSeenAt": "2026-11-19T07:00:05+09:00",
+          "verifiedAt": "2026-11-19T07:00:05+09:00",
+          "source": {
+            "label": "Immigration New Zealand",
+            "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/planned-upgrades/"
           }
         }
       ]
