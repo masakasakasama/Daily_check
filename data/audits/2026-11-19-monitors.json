@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-19",
+  "checkedAt": "2026-11-19T07:00:05+09:00",
+  "windowStart": "2026-11-16T07:13:35+09:00",
+  "publicationWindowStart": "2026-11-18T07:13:35+09:00",
+  "publicationWindowEnd": "2026-11-19T06:56:09+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://developers.openai.com/",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-19T07:00:05+09:00",
+      "result": "公式経路で新規の全員リセット、banked reset、リセットチケット、週次リセット変更、補償リセット、利用上限変更なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-19T07:00:05+09:00",
+      "result": "X公式・関係者・ユーザーコミュニティ・trendingを検索し、新規公式投稿または複数独立ユーザーの同時報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/"
+      ],
+      "checkedAt": "2026-11-19T07:00:05+09:00",
+      "result": "Genie 4とCopilotチームカスタマイズを公式本文で確認し採点"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://immi.homeaffairs.gov.au/",
+        "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/planned-upgrades/",
+        "https://www.make-it-in-germany.com/en/visa-residence/living-permanently",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence",
+        "https://www.moj.go.jp/isa/10_00279.html"
+      ],
+      "checkedAt": "2026-11-19T07:00:05+09:00",
+      "result": "7か国の公式条件を確認。条件変更なし。NZのオンライン申請停止予定を参考掲載"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "google-project-genie-4-ultra-rollout-2026-11-18",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 91,
+      "reason": "Ultra対象者の実利用能力を直接変更"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "github-copilot-team-default-agent-plugins-2026-11-18",
+      "sourceUrl": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "score": 72,
+      "reason": "Copilot Business/Enterpriseのチーム運用を変更"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-reset-public-scan-no-new-event-2026-11-19",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路・X経路とも新規リセット根拠なし"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-composer-predictions-mobile-dot-2026-11-17",
+      "sourceUrl": "https://x.com/thsottiaux",
+      "publishedAt": "2026-11-17T18:11:00Z",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": false,
+      "verified": false,
+      "discoveredLate": true,
+      "decision": "late-audit-only",
+      "score": 55,
+      "reason": "前回成功前の投稿候補で、原投稿の直接確認ができず監査のみ"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "claude-desktop-release-channel-2026-11-17",
+      "sourceUrl": "https://support.claude.com/en/articles/12138966-release-notes",
+      "publishedAt": "2026-11-17",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "discoveredLate": true,
+      "decision": "late-audit-only",
+      "score": 60,
+      "reason": "前回成功前に公開されたデスクトップ設定で過去日候補のため監査のみ"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "new-zealand-residence-visa-online-maintenance-2026-11-19",
+      "sourceUrl": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/planned-upgrades/",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "score": 50,
+      "reason": "永住関連申請の利用不能時間を公式本文で確認"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-condition-change-2026-11-19",
+      "sourceUrl": "https://www.moj.go.jp/isa/10_00279.html",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "7か国公式情報に当日掲載条件を満たす永住条件変更なし"
+    }
+  ]
+}
