@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-19",
+  "alerts": [
+    {
+      "id": "google-genie-4-project-genie-20261119",
+      "eventKey": "google-project-genie-4-ultra-rollout-2026-11-18",
+      "category": "AI",
+      "topics": [
+        "Google AI",
+        "Genie 4",
+        "World model"
+      ],
+      "score": 91,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 13,
+        "industryImpact": 5
+      },
+      "title": "Google、Genie 4をProject Genieで提供開始",
+      "summary": "GoogleがGoogle AI Ultraの対象ユーザーへGenie 4を展開。生成世界を探索中に自然言語で天候や登場人物を変更でき、映像に連動するネイティブ音声にも対応した。Genie 3は1回3分、360度画像による世界生成、複数世界の連結へ拡張した",
+      "publishedAt": "2026/11/19",
+      "sourcePublishedAt": "2026-11-18",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月18日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "verifiedAt": "2026-11-19T07:00:05+09:00",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "github-copilot-team-plugins-20261119",
+      "eventKey": "github-copilot-team-default-agent-plugins-2026-11-18",
+      "category": "AI",
+      "topics": [
+        "GitHub Copilot",
+        "Agent Plugins",
+        "Team administration"
+      ],
+      "score": 72,
+      "scoreBreakdown": {
+        "userImpact": 28,
+        "novelty": 17,
+        "technicalImportance": 14,
+        "specificityAvailability": 9,
+        "industryImpact": 4
+      },
+      "title": "GitHub Copilot、チーム単位のAgent Plugin標準設定に対応",
+      "summary": "GitHubがCopilot BusinessとEnterpriseでチームカスタマイズを一般提供。管理者は承認済みAgent Pluginを直接メンバーの標準設定にでき、VS Code、Copilot app、CLIへ反映する。子チームには継承されず、組織・企業ポリシーが優先される",
+      "publishedAt": "2026/11/19",
+      "sourcePublishedAt": "2026-11-18",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月18日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "verifiedAt": "2026-11-19T07:00:05+09:00",
+      "thumbnail": "https://github.blog/wp-content/uploads/2026/11/682125868-f1b8f266-b7af-45d3-9337-bee8b85ea55a.png",
+      "source": {
+        "label": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/"
+      }
+    },
+    {
+      "id": "autosar-capi-whitepaper-20261119",
+      "eventKey": "autosar-isoft-capi-ai-defined-vehicle-whitepaper-2026-11-18",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "AUTOSAR Adaptive",
+        "CAPI",
+        "AI-defined vehicle"
+      ],
+      "score": 58,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 12,
+        "scale": 10,
+        "specificity": 9,
+        "novelty": 7
+      },
+      "title": "AUTOSAR、CAPI共通実装による車載基盤再設計の白書を公開",
+      "summary": "AUTOSARがiSOFTのCAPI白書を公開。Adaptive Platformの共通実装で各社の基盤維持を減らし、仕様と実行コードを並行進化させて相互検証する構想を示す。AI活用に必要な精密で機械可読な仕様基盤も論じる",
+      "publishedAt": "2026/11/18",
+      "sourcePublishedAt": "2026-11-18",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "verifiedAt": "2026-11-19T07:00:05+09:00",
+      "source": {
+        "label": "AUTOSAR",
+        "url": "https://www.autosar.org/news-events/detail/new-capi-white-paper-by-isoft-reengineering-automotive-software-infrastructure"
+      }
+    },
+    {
+      "id": "nissan-mexico-china-us-strategy-20261119",
+      "eventKey": "nissan-americas-mexico-cost-reduction-china-competition-2026-11-18",
+      "category": "Nissan",
+      "topics": [
+        "Business strategy",
+        "North America",
+        "Mexico",
+        "Product development"
+      ],
+      "score": 62,
+      "title": "日産、メキシコで中国勢に対抗するコスト改革を米国へ展開",
+      "summary": "日産米州責任者が、メキシコでの中国車との競争を米国市場に備える実験と位置付けた。開発期間短縮、供給網コスト削減、自動化と設計簡素化を進め、米国ではRogue Hybridを皮切りに新型車投入を強化する",
+      "publishedAt": "2026/11/19",
+      "sourcePublishedAt": "2026-11-18T19:41:52Z",
+      "sourcePublishedAtPrecision": "second",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "verifiedAt": "2026-11-19T07:00:05+09:00",
+      "thumbnail": "https://www.reuters.com/resizer/v2/EF6N7N5XEFL7JGBBRUPOUEKABU.jpg?auth=b636b484b347df6916f7d12cb725f9eb8cc3817da668777c010c8d687154f2d8&quality=80&width=1920",
+      "source": {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/autos-transportation/nissan-uses-mexico-prep-potential-china-challenge-us-2026-11-18/"
+      }
+    },
+    {
+      "id": "nz-immigration-online-maintenance-20261119",
+      "eventKey": "new-zealand-residence-visa-online-maintenance-2026-11-19",
+      "category": "Permanent Residency",
+      "topics": [
+        "New Zealand",
+        "Permanent Resident Visa",
+        "Online application"
+      ],
+      "score": 50,
+      "title": "NZ移民局、永住関連オンライン申請の停止予定を更新",
+      "summary": "ニュージーランド移民局がMicrosoft障害で延期したシステム更新日程を案内。11月22日8時から23時59分（NZDT）はPermanent Resident Visa、Second or Subsequent Resident Visa、居住ビザの渡航条件変更などを開始・継続できない",
+      "publishedAt": "2026/11/19",
+      "firstSeenAt": "2026-11-19T07:00:05+09:00",
+      "verifiedAt": "2026-11-19T07:00:05+09:00",
+      "source": {
+        "label": "Immigration New Zealand",
+        "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/planned-upgrades/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "Genie 4を重要掲載し、Copilotのチーム設定を参考掲載",
+      "checkedAt": "2026-11-19T07:00:05+09:00",
+      "alertCount": 1,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式・X経路で新規リセットや利用上限変更なし",
+      "checkedAt": "2026-11-19T07:00:05+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "AUTOSAR CAPI白書を参考掲載",
+      "checkedAt": "2026-11-19T07:00:05+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "update",
+      "summary": "NZの永住関連オンライン申請停止予定を参考掲載",
+      "checkedAt": "2026-11-19T07:00:05+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "米州のコスト改革と商品戦略を参考掲載",
+      "checkedAt": "2026-11-19T07:00:05+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    }
+  ]
+}
