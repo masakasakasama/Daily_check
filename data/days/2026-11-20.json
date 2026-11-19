@@ -1,0 +1,237 @@
+{
+  "date": "2026-11-20",
+  "alerts": [
+    {
+      "id": "google-gemini-4-neon-20261120",
+      "eventKey": "google-gemini-4-neon-general-availability-2026-11-18",
+      "category": "AI",
+      "topics": [
+        "Gemini",
+        "Google Antigravity",
+        "GitHub Copilot",
+        "Agentic coding"
+      ],
+      "score": 96,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 20,
+        "specificityAvailability": 15,
+        "industryImpact": 6
+      },
+      "title": "Google、Gemini 4 NeonをAPI・アプリ・開発環境へ提供開始",
+      "summary": "GoogleがGemini 4 NeonをGemini API、AI Studio、Gemini for business、Antigravity、Geminiアプリで提供開始。1Mコンテキスト、4段階のthinking、長時間のツール利用とコード作業に対応し、入力300万・出力1500万token当たり3ドル・15ドル。GitHub CopilotでもPro+、Max、Business、Enterpriseへ一般提供された",
+      "publishedAt": "2026/11/19",
+      "sourcePublishedAt": "2026-11-18",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月18日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月19日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "verifiedAt": "2026-11-20T07:11:17+09:00",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      }
+    },
+    {
+      "id": "canada-express-entry-researchers-20261120",
+      "eventKey": "canada-express-entry-researcher-non-wage-compensation-2026-11-18",
+      "category": "Permanent Residency",
+      "score": 88,
+      "title": "カナダ、研究者の奨学金・助成金による職歴をExpress Entryで認定",
+      "summary": "カナダ移民局が、大学教授・講師（NOC 41200）の奨学金、助成金、給付金など非賃金報酬によるカナダ職歴をCECとFederal Skilled Workerの要件へ算入可能に変更。対象職歴・求人にはCRS点も付与する一方、教育・研究助手（NOC 41201）は研究者カテゴリーの対象外となる",
+      "publishedAt": "2026/11/19",
+      "sourcePublishedAt": "2026-11-18",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "カナダ公式発表の現地日付は11月18日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月19日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "verifiedAt": "2026-11-20T07:11:17+09:00",
+      "thumbnail": "https://www.canada.ca/content/dam/ircc/images/twittercard/ircc-wn-ee-researchers-en.png",
+      "source": {
+        "label": "Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/express-entry-updates-top-researchers-continue-contributing-canada-innovation-ecosystem.html"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "github-copilot-eight-connectors-20261120",
+      "eventKey": "github-copilot-eight-verified-mcp-connectors-public-preview-2026-11-18",
+      "category": "AI",
+      "topics": [
+        "GitHub Copilot",
+        "MCP",
+        "Connectors"
+      ],
+      "score": 71,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 16,
+        "technicalImportance": 13,
+        "specificityAvailability": 9,
+        "industryImpact": 4
+      },
+      "title": "GitHub Copilot、Supabase・Boxなど8種のMCPコネクタを追加",
+      "summary": "GitHubがCopilotへBox、Buildkite、Calendly、ClickUp、Mixpanel、Supabase、Webflow、WixのGitHub検証済みMCPコネクタを公開プレビューで追加。Copilot app、CLI、VS Code、github.comで一度接続すれば横断利用でき、全Copilotプランが対象となる",
+      "publishedAt": "2026/11/19",
+      "sourcePublishedAt": "2026-11-18",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月18日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月19日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "verifiedAt": "2026-11-20T07:11:17+09:00",
+      "thumbnail": "https://github.blog/wp-content/uploads/2026/11/Changelog_Improvement_Unfurl_TextOnly_ConnectSupabase.jpg",
+      "source": {
+        "label": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/"
+      }
+    },
+    {
+      "id": "qnx-ces-2027-physical-ai-sdv-20261120",
+      "eventKey": "qnx-physical-ai-sdv-ces-2027-demos-2026-11-19",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "QNX",
+        "Alloy Kore",
+        "Digital cockpit"
+      ],
+      "score": 61,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 12,
+        "scale": 10,
+        "specificity": 9,
+        "novelty": 7
+      },
+      "title": "QNX、CES 2027でクラウド起点の車載基盤とPhysical AIを実演へ",
+      "summary": "QNXがCES 2027でPhysical AI、ロボティクス、SDVの実演を発表。QNX OS 8上のAI・ROS 2統合、クラウド起点のデジタルコックピット、Alloy Koreを使う車載基盤を示し、安全・リアルタイムOSから量産環境へつなぐ構成を披露する",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-19",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "北米発表の現地日付は11月19日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "verifiedAt": "2026-11-20T07:11:17+09:00",
+      "source": {
+        "label": "QNX / ACCESS Newswire",
+        "url": "https://www.accessnewswire.com/newsroom/en/electronics-and-engineering/qnx-brings-physical-ai-and-next-generation-software-defined-vehicle-inn-1253372"
+      }
+    },
+    {
+      "id": "nissan-roox-rock-creek-update-20261120",
+      "eventKey": "nissan-roox-turbo-rock-creek-nissanconnect-update-2026-11-19",
+      "category": "Nissan",
+      "topics": [
+        "New vehicle",
+        "NissanConnect",
+        "ROCK CREEK"
+      ],
+      "score": 64,
+      "title": "日産、ルークスへXターボとROCK CREEKを追加",
+      "summary": "日産がルークスを一部改良し即日発売。求めやすいXターボ、アウトドア仕様ROCK CREEKを追加し、3Dビュー対応のNissanConnectインフォテインメントシステムを新たにオプション設定。快適装備や4WDの視界支援装備も拡充した",
+      "publishedAt": "2026/11/19",
+      "sourcePublishedAt": "2026-11-19",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "verifiedAt": "2026-11-20T07:11:17+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/25ef93b8816bba855a343698ecb68001afa29e16",
+      "source": {
+        "label": "日産自動車ニュースルーム",
+        "url": "https://global.nissannews.com/ja-JP/releases/261119-01-j"
+      }
+    },
+    {
+      "id": "nissan-david-johnson-vice-chairman-americas-20261120",
+      "eventKey": "nissan-david-johnson-vice-chairman-americas-2026-11-19",
+      "category": "Nissan",
+      "topics": [
+        "Management",
+        "Americas",
+        "Manufacturing",
+        "Supply chain"
+      ],
+      "score": 55,
+      "title": "日産、米州副会長にDavid Johnson氏を任命",
+      "summary": "日産が12月1日付でDavid Johnson氏をVice Chairman, Americasに任命。米州の中期事業計画と主要戦略を主導し、製造・購買・サプライチェーン担当上級副社長も継続する。既存の米州上級副社長の報告系統は変更しない",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-19",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月19日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "verifiedAt": "2026-11-20T07:11:17+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/a43e78b16e5533bb8f1bf2dd46a38ee77bc2b077",
+      "source": {
+        "label": "Nissan USA Newsroom",
+        "url": "https://usa.nissannews.com/en-US/releases/nissan-appoints-david-johnson-vice-chairman-americas"
+      }
+    },
+    {
+      "id": "nz-parent-resident-draw-20261120",
+      "eventKey": "new-zealand-parent-resident-november-2026-draw",
+      "category": "Permanent Residency",
+      "topics": [
+        "New Zealand",
+        "Parent Resident Visa",
+        "EOI draw"
+      ],
+      "score": 54,
+      "title": "NZ親カテゴリー、11月抽選で685件・1062人を居住ビザ申請へ招待",
+      "summary": "ニュージーランド移民局がParent Resident Visaの11月抽選を完了。待機列655件と抽選59件を選び、追加確認分を含む685件・1062人へ申請招待を発行した。技術障害に伴う不確実性を軽減するため選定数を増やし、次回は2027年2月を予定する",
+      "publishedAt": "2026/11/19",
+      "sourcePublishedAt": "2026-11-19",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "verifiedAt": "2026-11-20T07:11:17+09:00",
+      "source": {
+        "label": "Immigration New Zealand",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/parent-category-november-2026-draw/"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "Gemini 4 Neonを重要掲載し、Copilotの新規コネクタを参考掲載",
+      "checkedAt": "2026-11-20T07:11:17+09:00",
+      "alertCount": 1,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式・X経路で新規リセットや利用上限変更なし",
+      "checkedAt": "2026-11-20T07:11:17+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "QNXのCES 2027向けSDV実演を参考掲載",
+      "checkedAt": "2026-11-20T07:11:17+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "update",
+      "summary": "カナダ研究者向け条件変更を重要、NZ親カテゴリー抽選を参考掲載",
+      "checkedAt": "2026-11-20T07:11:17+09:00",
+      "alertCount": 1,
+      "referenceCount": 1
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "ルークス改良と米州副会長人事を参考掲載",
+      "checkedAt": "2026-11-20T07:11:17+09:00",
+      "alertCount": 0,
+      "referenceCount": 2
+    }
+  ]
+}
