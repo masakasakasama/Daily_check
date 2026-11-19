@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-20",
+  "checkedAt": "2026-11-20T07:11:17+09:00",
+  "windowStart": "2026-11-17T07:06:14+09:00",
+  "publicationWindowStart": "2026-11-19T07:06:14+09:00",
+  "publicationWindowEnd": "2026-11-20T07:08:19+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://developers.openai.com/",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-20T07:11:17+09:00",
+      "result": "公式経路で新規の全員リセット、banked reset、リセットチケット、週次リセット変更、補償リセット、利用上限変更なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-20T07:11:17+09:00",
+      "result": "X公式・関係者・ユーザーコミュニティ・trendingを検索し、新規公式投稿または複数独立ユーザーの同時報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/",
+        "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/"
+      ],
+      "checkedAt": "2026-11-20T07:11:17+09:00",
+      "result": "Gemini 4 Neonの一般提供とGitHub Copilot対応、Copilotの8コネクタ追加を公式本文で確認し採点"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/express-entry-updates-top-researchers-continue-contributing-canada-innovation-ecosystem.html",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://immi.homeaffairs.gov.au/visas/permanent-resident/visa-options",
+        "https://www.immigration.govt.nz/about-us/news-centre/parent-category-november-2026-draw/",
+        "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence",
+        "https://www.moj.go.jp/isa/10_00279.html"
+      ],
+      "checkedAt": "2026-11-20T07:11:17+09:00",
+      "result": "7か国の公式情報を確認。カナダ研究者向け条件変更を重要、NZ親カテゴリー抽選を参考掲載。英国、豪州、ドイツ、シンガポール、日本に新規条件変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "google-gemini-4-neon-general-availability-2026-11-18",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 96,
+      "reason": "API、開発環境、業務、消費者向けの実利用能力を直接変更"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "github-copilot-eight-verified-mcp-connectors-public-preview-2026-11-18",
+      "sourceUrl": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "score": 71,
+      "reason": "Copilotの外部サービス連携と開発フローを拡張"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-reset-public-scan-no-new-event-2026-11-20",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路・X経路とも新規リセット根拠なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-express-entry-researcher-non-wage-compensation-2026-11-18",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/express-entry-updates-top-researchers-continue-contributing-canada-innovation-ecosystem.html",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 88,
+      "reason": "対象研究者のExpress Entry資格・CRS点を直接変更"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "new-zealand-parent-resident-november-2026-draw",
+      "sourceUrl": "https://www.immigration.govt.nz/about-us/news-centre/parent-category-november-2026-draw/",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "score": 54,
+      "reason": "親カテゴリー申請者への招待実績と次回抽選時期を公式確認"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-other-condition-change-2026-11-20",
+      "sourceUrl": "https://www.moj.go.jp/isa/10_00279.html",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "英国、豪州、ドイツ、シンガポール、日本に当日掲載条件を満たす変更なし"
+    }
+  ]
+}
