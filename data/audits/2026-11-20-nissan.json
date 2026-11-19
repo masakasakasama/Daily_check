@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-20",
+  "checkedAt": "2026-11-20T07:11:17+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases",
+    "https://usa.nissannews.com/en-US/",
+    "https://europe.nissannews.com/en-GB/",
+    "https://www.nhtsa.gov/recalls",
+    "https://www.reuters.com/business/autos-transportation/"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com/en/releases November 19 2026 Nissan",
+      "recordedAt": "2026-11-20T07:11:17+09:00"
+    },
+    {
+      "query": "site:global.nissannews.com/ja-JP/releases 2026年11月19日 日産",
+      "recordedAt": "2026-11-20T07:11:17+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com OR site:europe.nissannews.com November 19 2026 Nissan",
+      "recordedAt": "2026-11-20T07:11:17+09:00"
+    },
+    {
+      "query": "Nissan November 19 2026 production recall sales executive technology Reuters",
+      "recordedAt": "2026-11-20T07:11:17+09:00"
+    },
+    {
+      "query": "日産 2026年11月19日 新車 技術 リコール 生産 経営 人事 販売",
+      "recordedAt": "2026-11-20T07:11:17+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-roox-turbo-rock-creek-nissanconnect-update-2026-11-19",
+      "sourceUrl": "https://global.nissannews.com/ja-JP/releases/261119-01-j",
+      "publishedAt": "2026-11-19",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "reason": "公式本文でXターボ、ROCK CREEK、NissanConnectオプションと即日発売を確認"
+    },
+    {
+      "eventKey": "nissan-david-johnson-vice-chairman-americas-2026-11-19",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/nissan-appoints-david-johnson-vice-chairman-americas",
+      "publishedAt": "2026-11-19",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "reason": "公式本文で12月1日付の米州副会長任命と担当範囲を確認"
+    },
+    {
+      "eventKey": "nissan-rogue-hybrid-nactoy-finalist-2026-11-19",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/2027-nissan-rogue-hybrid-named-a-finalist-for-north-american-utility-vehicle-of-the-year",
+      "publishedAt": "2026-11-19",
+      "firstSeenAt": "2026-11-20T07:11:17+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "既発売車の賞候補入りで、商品仕様や利用条件を新たに変更しない"
+    }
+  ]
+}
