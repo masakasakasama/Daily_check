@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-21",
+  "alerts": [
+    {
+      "id": "openai-chatgpt-space-plus-20261121",
+      "eventKey": "openai-chatgpt-space-plus-global-rollout-2026-11-20",
+      "category": "AI",
+      "topics": [
+        "ChatGPT Space",
+        "Plus",
+        "Collaboration",
+        "Pages",
+        "Presentations"
+      ],
+      "score": 94,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 6
+      },
+      "title": "OpenAI、ChatGPT SpaceをPlusへ世界展開",
+      "summary": "OpenAIがChatGPT Spaceを18歳以上のPlusユーザーへ世界展開。ページやプレゼンを作成し、接続したアプリの最新情報で自動更新できる共有作業空間で、Web・デスクトップ・iOS・Androidから利用できる。従来のLibraryはSpaceへ移行し、共同編集にも対応する",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-20",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "verifiedAt": "2026-11-21T07:05:49+09:00",
+      "sourceUpdate": {
+        "previousEventKey": "openai-gpt-6-1-terra-work-codex-rollout-2026-10-26",
+        "changeSummary": "同じ公式リリースノートにChatGPT SpaceのPlus向け世界展開という独立した新機能が追記された",
+        "evidenceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "verifiedAt": "2026-11-21T07:05:49+09:00"
+      },
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    },
+    {
+      "id": "google-gemini-mac-computer-use-20261121",
+      "eventKey": "google-gemini-mac-computer-use-preview-2026-11-19",
+      "category": "AI",
+      "topics": [
+        "Gemini",
+        "Computer use",
+        "macOS",
+        "Agent"
+      ],
+      "score": 90,
+      "scoreBreakdown": {
+        "userImpact": 34,
+        "novelty": 19,
+        "technicalImportance": 18,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "Gemini Macアプリ、アプリ横断のComputer useに対応",
+      "summary": "GoogleがGeminiのMacアプリへComputer useを追加。専用ウィンドウで画面を確認しながら、WebやMacアプリを横断してクリック、入力、フォーム操作を実行できる。ログインや支払いなどは一時停止して確認を求め、利用者はいつでも停止可能。米国の18歳以上のGoogle AI Plus・Pro・Ultraへ英語で提供する",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-19",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式リリースの現地日付は11月19日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月20日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "verifiedAt": "2026-11-21T07:05:49+09:00",
+      "source": {
+        "label": "Google Gemini release notes",
+        "url": "https://gemini.google/release-notes/"
+      }
+    },
+    {
+      "id": "aumovio-automotive-rcnet-20261121",
+      "eventKey": "aumovio-automotive-rcnet-open-service-oriented-network-2026-11-19",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Zonal controller",
+        "HPC",
+        "Automotive Ethernet",
+        "Middleware"
+      ],
+      "score": 78,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 17,
+        "scale": 13,
+        "specificity": 12,
+        "novelty": 11
+      },
+      "title": "AUMOVIO、車載ネットワークをサービス化するAutomotive RCNetを公開",
+      "summary": "AUMOVIOがAutomotive RCNetを公開。中央コンピューターからセンサー・アクチュエーターまでEthernet、CAN、LINをまたいで標準サービスインターフェース化し、機能をHPC、ゾーンコントローラー、I/Oへ柔軟に配置できる。Elektrobit・Vectorと連携し、オープン標準として提供する",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-19",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "欧州公式発表の現地日付は11月19日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月20日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "verifiedAt": "2026-11-21T07:05:49+09:00",
+      "source": {
+        "label": "AUMOVIO",
+        "url": "https://www.aumovio.com/en/solutions/software-defined-mobility/automotive-rcnet.html"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "honda-avancier-ota-platform-20261121",
+      "eventKey": "honda-all-new-avancier-modular-platform-ota-2026-11-20",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Honda",
+        "OTA",
+        "Vehicle platform"
+      ],
+      "score": 54,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 11,
+        "scale": 8,
+        "specificity": 10,
+        "novelty": 9
+      },
+      "title": "Honda、新型Avancierにモジュラー基盤とOTA機能追加を採用",
+      "summary": "Hondaが新型Avancierを世界初公開。次世代ハイブリッドシステムとモジュラー車台、Motion Management、DualPower e-AWDを採用し、購入後も機能を追加できるOTA更新を計画する。2027年からタイ、日本、中国などアジアで順次発売する",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-20",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "verifiedAt": "2026-11-21T07:05:49+09:00",
+      "source": {
+        "label": "Honda Global Newsroom",
+        "url": "https://global.honda/en/newsroom/news/2026/4261120eng.html"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "ChatGPT SpaceとGemini MacのComputer useを重要掲載",
+      "checkedAt": "2026-11-21T07:05:49+09:00",
+      "alertCount": 2,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX経路で新規リセットや利用上限変更なし",
+      "checkedAt": "2026-11-21T07:05:49+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "Automotive RCNetを重要、新型AvancierのOTA基盤を参考掲載",
+      "checkedAt": "2026-11-21T07:05:49+09:00",
+      "alertCount": 1,
+      "referenceCount": 1
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要7か国の公式条件を確認し当日掲載対象の変更なし",
+      "checkedAt": "2026-11-21T07:05:49+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "公式地域ニュースルームと信頼できる報道を確認し当日掲載対象なし",
+      "checkedAt": "2026-11-21T07:05:49+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
