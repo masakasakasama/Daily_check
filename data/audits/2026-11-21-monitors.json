@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-21",
+  "checkedAt": "2026-11-21T07:05:49+09:00",
+  "windowStart": "2026-11-18T07:17:41+09:00",
+  "publicationWindowStart": "2026-11-20T07:17:41+09:00",
+  "publicationWindowEnd": "2026-11-21T06:59:09+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://developers.openai.com/",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-21T07:05:49+09:00",
+      "result": "公式Help、release notes、Developers、Status、Codex公式ページを確認。共有利用枠Helpの更新は既出イベントで、新規リセット・上限変更・補償・モデル変更なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-21T07:05:49+09:00",
+      "result": "X公式・関係者・コミュニティ・trendingを検索し、新規公式投稿または複数独立ユーザーによる同時リセット報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://gemini.google/release-notes/"
+      ],
+      "checkedAt": "2026-11-21T07:05:49+09:00",
+      "result": "ChatGPT SpaceのPlus展開とGemini MacのComputer useを公式本文で確認し重要掲載。ChatGPTモバイル新画面等は同一rolling sourceの個別候補として監査に保持"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship.html",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://immi.homeaffairs.gov.au/visas/permanent-resident/visa-options",
+        "https://www.immigration.govt.nz/visas/",
+        "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence",
+        "https://www.moj.go.jp/isa/10_00279.html"
+      ],
+      "checkedAt": "2026-11-21T07:05:49+09:00",
+      "result": "カナダ、英国、豪州、NZ、ドイツ、シンガポール、日本の公式条件を確認し、当日掲載対象の新規条件変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "openai-chatgpt-space-plus-global-rollout-2026-11-20",
+      "sourceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 94,
+      "reason": "Plus利用者の作成・共同作業・接続データ更新機能を直接追加"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "google-gemini-mac-computer-use-preview-2026-11-19",
+      "sourceUrl": "https://gemini.google/release-notes/",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 90,
+      "reason": "Macアプリ横断のComputer useを対象プランへ直接追加"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "openai-chatgpt-mobile-new-experience-2026-11-19",
+      "sourceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 69,
+      "reason": "有用なUI変更だが同一rolling sourceのSpace更新を優先し、独立掲載による同日source重複を回避"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-reset-scan-no-new-event-2026-11-21",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路とX経路の双方で新規リセットを裏付ける根拠なし"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-shared-chatgpt-codex-usage-limit-help-2026-11-20-update",
+      "sourceUrl": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 74,
+      "reason": "共有利用枠の説明は11月1日掲載済みイベントと実質同一で新たな上限変更なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-2027-2029-levels-plan-time-limited-200k-2026-11-05",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/2027-2029-immigration-levels-plan.html",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "discoveredLate": true,
+      "decision": "duplicate",
+      "score": 68,
+      "reason": "当日の報道再浮上は11月5日の既出計画と同一で通常フィードへ再掲載しない"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-condition-change-2026-11-21",
+      "sourceUrl": "https://www.moj.go.jp/isa/10_00279.html",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "主要7か国に当日掲載対象となる新規永住条件変更なし"
+    }
+  ]
+}
