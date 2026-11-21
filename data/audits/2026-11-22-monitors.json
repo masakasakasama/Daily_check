@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-22",
+  "checkedAt": "2026-11-22T06:57:12+09:00",
+  "windowStart": "2026-11-19T07:09:32+09:00",
+  "publicationWindowStart": "2026-11-21T07:09:32+09:00",
+  "publicationWindowEnd": "2026-11-22T06:55:55+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://developers.openai.com/",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-22T06:57:12+09:00",
+      "result": "公式Help、release notes、Developers、Status、Codexページを確認し新規リセット・上限・モデル変更なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-22T06:57:12+09:00",
+      "result": "X公式・関係者・コミュニティ・trendingを検索。新規公式投稿または複数独立ユーザーによる同時リセット報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://gemini.google/release-notes/",
+        "https://www.anthropic.com/news/announcements",
+        "https://github.blog/changelog/label/copilot/"
+      ],
+      "checkedAt": "2026-11-22T06:57:12+09:00",
+      "result": "主要AI公式の11月21日更新を確認。GPT-6.2等は既出で、IPOは実利用を直接変更しないため掲載なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/changes.html",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://immi.homeaffairs.gov.au/visas/permanent-resident/visa-options",
+        "https://www.immigration.govt.nz/visas/",
+        "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence",
+        "https://www.moj.go.jp/isa/10_00279.html"
+      ],
+      "checkedAt": "2026-11-22T06:57:12+09:00",
+      "result": "主要7か国の公式条件を確認。カナダ変更ページは既出イベントで、当日掲載対象の新規変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "openai-gpt-6-2-astra-sol-announcement-activity-2026-11-21",
+      "sourceUrl": "https://community.openai.com/c/announcements/6",
+      "firstSeenAt": "2026-11-22T06:57:12+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 96,
+      "reason": "GPT-6.2 Astra/Sol提供は11月18日の日別掲載済み"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "anthropic-ipo-closing-2026-11-20",
+      "sourceUrl": "https://www.anthropic.com/news/announcements",
+      "firstSeenAt": "2026-11-22T06:57:12+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 38,
+      "reason": "株式市場イベントでClaudeの実利用能力・利用条件を直接変更しない"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-reset-scan-no-new-event-2026-11-22",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-22T06:57:12+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路とX経路の双方で新規リセットを裏付ける根拠なし"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-quota-issue-cluster-unconfirmed-2026-11-21",
+      "sourceUrl": "https://codexreset.app/",
+      "firstSeenAt": "2026-11-22T06:57:12+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 32,
+      "reason": "非公式集計のGitHub issue活動のみで全員リセットや枠回復を示す複数独立報告ではない"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-express-entry-crs-work-experience-high-wage-offer-2026-11-03",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/changes.html",
+      "firstSeenAt": "2026-11-22T06:57:12+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 88,
+      "reason": "高賃金職・LMIA・CRS変更は過去の日別掲載済み"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-condition-change-2026-11-22",
+      "sourceUrl": "https://www.moj.go.jp/isa/10_00279.html",
+      "firstSeenAt": "2026-11-22T06:57:12+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "主要7か国に当日掲載対象の新規永住条件変更なし"
+    }
+  ]
+}
