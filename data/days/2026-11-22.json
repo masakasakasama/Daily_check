@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-22",
+  "alerts": [],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "公式リリースと主要AI各社を確認し重複を除く当日掲載対象なし",
+      "checkedAt": "2026-11-22T06:57:12+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX経路で新規リセット・利用上限変更・モデル変更なし",
+      "checkedAt": "2026-11-22T06:57:12+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "clear",
+      "summary": "6 funnelで本文と履歴を確認し重複を除く当日掲載対象なし",
+      "checkedAt": "2026-11-22T06:57:12+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要7か国の公式条件を確認し当日掲載対象の変更なし",
+      "checkedAt": "2026-11-22T06:57:12+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "地域別公式ニュースと信頼できる報道を確認し当日掲載対象なし",
+      "checkedAt": "2026-11-22T06:57:12+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
