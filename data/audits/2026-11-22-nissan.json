@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-22",
+  "checkedAt": "2026-11-22T06:57:12+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases",
+    "https://usa.nissannews.com/en-US/",
+    "https://europe.nissannews.com/en-GB/",
+    "https://www.nhtsa.gov/recalls",
+    "https://www.reuters.com/business/autos-transportation/"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com/en/releases Nissan November 21 2026",
+      "recordedAt": "2026-11-22T06:57:12+09:00"
+    },
+    {
+      "query": "site:global.nissannews.com/ja-JP/releases 日産 2026年11月21日",
+      "recordedAt": "2026-11-22T06:57:12+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com OR site:europe.nissannews.com Nissan November 21 2026",
+      "recordedAt": "2026-11-22T06:57:12+09:00"
+    },
+    {
+      "query": "Nissan recall production sales management technology November 21 2026 Reuters",
+      "recordedAt": "2026-11-22T06:57:12+09:00"
+    },
+    {
+      "query": "日産 2026年11月21日 新車 技術 リコール 生産 経営 人事 販売",
+      "recordedAt": "2026-11-22T06:57:12+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-formula-e-gen4-preseason-fastest-lap-2026-11-20",
+      "sourceUrl": "https://global.nissannews.com/en/releases/nissan-formula-e-team-sets-fastest-lap-time-during-gen4-pre-season-testing",
+      "publishedAt": "2026-11-20",
+      "firstSeenAt": "2026-11-22T06:57:12+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "discoveredLate": true,
+      "decision": "excluded",
+      "reason": "前々日付の競技結果を遅れて発見したため監査だけに保持し当日へ掲載しない"
+    },
+    {
+      "eventKey": "nissan-rogue-hybrid-first-customer-story-2026-11-20",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/nissan-sells-first-rogue-hybrid-to-arizona-customer",
+      "publishedAt": "2026-11-20",
+      "firstSeenAt": "2026-11-22T06:57:12+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "reason": "前日監査済みの顧客納車紹介で商品仕様・販売条件の新規変更なし"
+    },
+    {
+      "eventKey": "nissan-official-scan-no-new-event-2026-11-22",
+      "sourceUrl": "https://global.nissannews.com/en/channels/news-releases",
+      "firstSeenAt": "2026-11-22T06:57:12+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "地域別公式ニュースルームと信頼できる報道に当日掲載対象なし"
+    }
+  ]
+}
