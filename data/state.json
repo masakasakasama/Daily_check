@@ -2,6 +2,24 @@
   "schema": "split-daily-v1",
   "lastSuccessfulAt": "2026-11-22T06:59:42+09:00",
   "lastAudit": "data/audits/2026-11-22-sdv.json",
-  "pendingBatch": null,
-  "coverageWatermarkNote": "2026-11-22 collection and publication completed; validators and public daily/7-day display verification follow this saved state."
+  "pendingBatch": {
+    "id": "daily-check-2026-11-23T07:05:51+09:00",
+    "date": "2026-11-23",
+    "stagedAt": "2026-11-23T07:05:51+09:00",
+    "collectionWindowStart": "2026-11-20T06:59:42+09:00",
+    "publicationWindowStart": "2026-11-22T06:59:42+09:00",
+    "collectionWindowEnd": "2026-11-23T07:05:51+09:00",
+    "paths": [
+      "data/days/2026-11-23.json",
+      "data/audits/2026-11-23-sdv.json",
+      "data/audits/2026-11-23-monitors.json",
+      "data/audits/2026-11-23-nissan.json",
+      "data/weeks/2026-11-23.json",
+      "data/daily-checks.json",
+      "index.html",
+      "data/sdv-collection-state.json"
+    ],
+    "status": "staged"
+  },
+  "coverageWatermarkNote": "2026-11-23 collection staged; lastSuccessfulAt remains the prior verified boundary until publication and validation complete."
 }
