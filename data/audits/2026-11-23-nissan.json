@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-23",
+  "checkedAt": "2026-11-23T07:10:14+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases",
+    "https://usa.nissannews.com/en-US/",
+    "https://europe.nissannews.com/en-GB/",
+    "https://www.nhtsa.gov/recalls",
+    "https://www.mlit.go.jp/jidosha/carinf/rcl/recall.html",
+    "https://www.reuters.com/business/autos-transportation/"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com/en/releases Nissan November 22 2026",
+      "recordedAt": "2026-11-23T07:10:14+09:00"
+    },
+    {
+      "query": "site:global.nissannews.com/ja-JP/releases 日産 2026年11月22日",
+      "recordedAt": "2026-11-23T07:10:14+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com OR site:europe.nissannews.com Nissan November 22 2026",
+      "recordedAt": "2026-11-23T07:10:14+09:00"
+    },
+    {
+      "query": "Nissan recall production sales management technology November 22 2026 Reuters",
+      "recordedAt": "2026-11-23T07:10:14+09:00"
+    },
+    {
+      "query": "日産 2026年11月22日 新車 技術 リコール 生産 経営 人事 販売",
+      "recordedAt": "2026-11-23T07:10:14+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-recall-5834-hybrid-powertrain-2026-06-26",
+      "sourceUrl": "https://www2.nissan.co.jp/RECALL/DATA/report5834.html",
+      "publishedAt": "2026-06-26",
+      "firstSeenAt": "2026-11-23T07:10:14+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "reason": "検索で再浮上した約60万台規模のリコールは2026年6月26日の既出届出で当日イベントではない"
+    },
+    {
+      "eventKey": "nissan-official-scan-no-new-event-2026-11-23",
+      "sourceUrl": "https://global.nissannews.com/en/channels/news-releases",
+      "firstSeenAt": "2026-11-23T07:10:14+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "地域別公式ニュースルームと信頼できる報道に当日掲載対象なし"
+    }
+  ]
+}
