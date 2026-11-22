@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-23",
+  "checkedAt": "2026-11-23T07:10:14+09:00",
+  "windowStart": "2026-11-20T06:59:42+09:00",
+  "publicationWindowStart": "2026-11-22T06:59:42+09:00",
+  "publicationWindowEnd": "2026-11-23T07:05:51+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001507-how-to-purchase-a-reset-in-codex",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://developers.openai.com/",
+        "https://status.openai.com/",
+        "https://openai.com/codex/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-23T07:10:14+09:00",
+      "result": "公式Help、release notes、Developers、Status、Codexページを確認。既出記事を除き新規リセット・上限・モデル変更・障害なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-23T07:10:14+09:00",
+      "result": "X公式・関係者・コミュニティ・trendingを検索。現在窓の公式投稿または複数独立ユーザーによる同時リセット報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://gemini.google/release-notes/",
+        "https://www.anthropic.com/news/announcements",
+        "https://github.blog/changelog/label/copilot/"
+      ],
+      "checkedAt": "2026-11-23T07:10:14+09:00",
+      "result": "OpenAI dotの一部Plusユーザーへの対象拡大を公式本文で確認し重要掲載。他の主要AI公式に当日掲載対象の新規変更なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/changes.html",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://immi.homeaffairs.gov.au/visas/permanent-resident/visa-options",
+        "https://www.immigration.govt.nz/visas/",
+        "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence",
+        "https://www.moj.go.jp/isa/10_00279.html"
+      ],
+      "checkedAt": "2026-11-23T07:10:14+09:00",
+      "result": "主要7か国の公式条件を確認し当日掲載対象の新規永住条件変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "openai-dots-plus-rollout-2026-11-23",
+      "sourceUrl": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+      "firstSeenAt": "2026-11-23T07:10:14+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 94,
+      "reason": "一部Plusユーザーへ利用対象を拡大する実利用上の新規変更を公式Help本文で確認"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "openai-tts-model-deprecation-undated-2026-11-23",
+      "sourceUrl": "https://developers.openai.com/api/docs/guides/text-to-speech",
+      "firstSeenAt": "2026-11-23T07:10:14+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 55,
+      "reason": "旧TTSモデル廃止案内の実質更新日は確認できず当日窓の新規イベントと判定できない"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-reset-scan-no-new-event-2026-11-23",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-23T07:10:14+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路とX経路の双方で現在窓の新規リセットを裏付ける根拠なし"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-reset-help-20001498-repeat-2026-11-23",
+      "sourceUrl": "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+      "firstSeenAt": "2026-11-23T07:10:14+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 88,
+      "reason": "リセット仕様は過去の日別掲載済みで実質的な新変更なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-condition-change-2026-11-23",
+      "sourceUrl": "https://www.moj.go.jp/isa/10_00279.html",
+      "firstSeenAt": "2026-11-23T07:10:14+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "主要7か国に当日掲載対象の新規永住条件変更なし"
+    }
+  ]
+}
