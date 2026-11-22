@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-23",
+  "alerts": [
+    {
+      "id": "openai-dot-plus-rollout-20261123",
+      "eventKey": "openai-dots-plus-rollout-2026-11-23",
+      "category": "AI",
+      "topics": [
+        "OpenAI dot",
+        "Plus",
+        "Always-on agent",
+        "Scheduled tasks"
+      ],
+      "score": 94,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 18,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "OpenAI、常設エージェント「dot」を一部Plusユーザーへ拡大",
+      "summary": "OpenAIが常時稼働型エージェントdotを、EEA・英国・スイス以外の対応地域にいる18歳以上の一部Plusユーザーへ段階展開。dotは専用クラウドPCと接続アプリを使い、継続作業、スケジュール実行、プロアクティブな調査に対応する。対象アカウントへの提供は段階的で、サポートによる個別有効化はできない",
+      "publishedAt": "2026/11/23",
+      "sourcePublishedAt": "2026-11-23",
+      "sourcePublishedAtPrecision": "date-from-official-update",
+      "firstSeenAt": "2026-11-23T07:10:14+09:00",
+      "verifiedAt": "2026-11-23T07:10:14+09:00",
+      "sourceUpdate": {
+        "previousEventKey": "openai-dots-always-on-agents-2026-09-29",
+        "changeSummary": "初回公開時の限定提供から、EEA・英国・スイス以外の対応地域にいる18歳以上の一部Plusユーザーへ段階展開する対象拡大を公式Helpで確認",
+        "evidenceUrl": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+        "verifiedAt": "2026-11-23T07:10:14+09:00"
+      },
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "OpenAI dotの一部Plusユーザーへの段階展開を重要掲載",
+      "checkedAt": "2026-11-23T07:10:14+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX経路で新規リセット・利用上限変更・モデル変更なし",
+      "checkedAt": "2026-11-23T07:10:14+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "clear",
+      "summary": "6 funnelとDeep Scanで本文・履歴を確認し重複を除く当日掲載対象なし",
+      "checkedAt": "2026-11-23T07:10:14+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要7か国の公式条件を確認し当日掲載対象の変更なし",
+      "checkedAt": "2026-11-23T07:10:14+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "地域別公式ニュースと信頼できる報道を確認し当日掲載対象なし",
+      "checkedAt": "2026-11-23T07:10:14+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
