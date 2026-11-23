@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-24",
+  "alerts": [
+    {
+      "id": "ltts-sdvault-ai-20261124",
+      "eventKey": "ltts-sdvault-ai-sdv-v-cycle-launch-2026-11-23",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "AI engineering",
+        "Virtual ECU",
+        "Functional safety"
+      ],
+      "score": 88,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 21,
+        "scale": 14,
+        "specificity": 15,
+        "novelty": 13
+      },
+      "title": "LTTS、SDV開発・検証を横断するAI基盤「SDVault.ai」を提供開始",
+      "summary": "L&T Technology Servicesが、要件、E/Eアーキテクチャ、機能安全、サイバーセキュリティ、コード、仮想ECU検証、回帰・リリース保証まで12領域をつなぐSDVault.aiを提供開始。250超のドメイン特化AIエージェントと決定論的な自動化を組み合わせ、既存ツールチェーンへの選択導入と顧客管理環境での運用に対応する",
+      "publishedAt": "2026/11/23",
+      "sourcePublishedAt": "2026-11-23T08:55:00+05:30",
+      "sourcePublishedAtPrecision": "datetime",
+      "publicationDateNote": "インド標準時2026年11月23日08:55の取引所開示を、日本時間同日12:25として確認",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "verifiedAt": "2026-11-24T07:04:34+09:00",
+      "source": {
+        "label": "L&T Technology Services",
+        "url": "https://www.ltts.com/press-release/launches-sdvault-ai"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "openai-academic-researchers-plus-20261124",
+      "eventKey": "openai-academic-researchers-three-plus-seats-applications-open-2026-11-23",
+      "category": "AI",
+      "topics": [
+        "ChatGPT",
+        "Academic research",
+        "Plus",
+        "Grant"
+      ],
+      "score": 68,
+      "scoreBreakdown": {
+        "userImpact": 22,
+        "novelty": 18,
+        "technicalImportance": 8,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "OpenAI、研究者向けChatGPTの申請を開始しPlus 3席を最大1年提供",
+      "summary": "OpenAIが対象国の研究教員・ポスドク向け「ChatGPT for Academic Researchers」の申請を11月23日に開始。承認された研究者本人と最大2人の共同研究者にChatGPT Plus計3席を最大12か月無償提供する。対象は直近3年の関連分野の研究実績を持つ研究者で、承認は保証されない",
+      "publishedAt": "2026/11/23",
+      "sourcePublishedAt": "2026-11-23",
+      "sourcePublishedAtPrecision": "date-from-official-update",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "verifiedAt": "2026-11-24T07:04:34+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001406-chatgpt-for-academic-researchers"
+      }
+    },
+    {
+      "id": "nissan-arizona-corrosion-chamber-20261124",
+      "eventKey": "nissan-arizona-corrosion-chamber-durability-testing-2026-11-23",
+      "category": "Nissan",
+      "topics": [
+        "Durability",
+        "Vehicle testing",
+        "Rogue Hybrid",
+        "Arizona Testing Center"
+      ],
+      "score": 58,
+      "title": "日産、北米の10〜15年分の腐食を4か月未満で再現する試験設備を導入",
+      "summary": "日産がアリゾナ試験センターの新しい腐食試験室を公開。塩水、高温、多湿の反復環境により、北米市場の99.5%をカバーする10〜15年相当の腐食を4か月未満で再現し、量産前に材料・部品・塗装の耐久課題を特定する。水の再利用と試験条件の自動監視も強化した",
+      "publishedAt": "2026/11/24",
+      "sourcePublishedAt": "2026-11-23",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月23日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "verifiedAt": "2026-11-24T07:04:34+09:00",
+      "thumbnail": "https://usa.nissannews.com/releases/release-c5a0ff62941ac0c52350a63ad43f4bc0/images/18199d01124c3523291aefb5ec37b28603105212",
+      "source": {
+        "label": "Nissan USA Newsroom",
+        "url": "https://usa.nissannews.com/en-US/releases/stories-inside-nissans-weather-time-machine-engineering-vehicles-for-a-world-of-extremes"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "研究者向けChatGPT Plus無償提供の申請開始を参考掲載",
+      "checkedAt": "2026-11-24T07:04:34+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX経路で新規リセット・利用上限変更・モデル変更なし",
+      "checkedAt": "2026-11-24T07:04:34+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "6 funnelで本文と履歴を確認しSDVault.aiの提供開始を重要掲載",
+      "checkedAt": "2026-11-24T07:04:34+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要7か国の公式条件を確認し当日掲載対象の変更なし",
+      "checkedAt": "2026-11-24T07:04:34+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "北米向け腐食耐久試験設備の新規公式記事を参考掲載",
+      "checkedAt": "2026-11-24T07:04:34+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    }
+  ]
+}
