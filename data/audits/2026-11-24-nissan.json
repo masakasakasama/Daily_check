@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-24",
+  "checkedAt": "2026-11-24T07:04:34+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases",
+    "https://usa.nissannews.com/en-US/",
+    "https://europe.nissannews.com/en-GB/",
+    "https://www.nhtsa.gov/recalls",
+    "https://www.mlit.go.jp/jidosha/carinf/rcl/recall.html",
+    "https://www.reuters.com/business/autos-transportation/"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com November 23 2026 Nissan",
+      "recordedAt": "2026-11-24T07:04:34+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 23 2026 Nissan",
+      "recordedAt": "2026-11-24T07:04:34+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 23 2026 Nissan",
+      "recordedAt": "2026-11-24T07:04:34+09:00"
+    },
+    {
+      "query": "Nissan November 23 2026 Reuters recall production sales",
+      "recordedAt": "2026-11-24T07:04:34+09:00"
+    },
+    {
+      "query": "日産 2026年11月23日 新車 技術 リコール 生産 経営 人事 販売",
+      "recordedAt": "2026-11-24T07:04:34+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-arizona-corrosion-chamber-durability-testing-2026-11-23",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/stories-inside-nissans-weather-time-machine-engineering-vehicles-for-a-world-of-extremes",
+      "publishedAt": "2026-11-23",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "reason": "北米の10〜15年相当の腐食を4か月未満で再現する新設備と試験工程を公式本文で確認"
+    },
+    {
+      "eventKey": "nissan-rogue-hybrid-finalist-repeat-2026-11-24",
+      "sourceUrl": "https://usa.nissannews.com/en-US/releases/2027-nissan-rogue-hybrid-named-a-finalist-for-north-american-utility-vehicle-of-the-year",
+      "publishedAt": "2026-11-19",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "賞の最終候補で事業・利用者への実質影響が限定的かつ当日窓外のため掲載しない"
+    }
+  ]
+}
