@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-24",
+  "checkedAt": "2026-11-24T07:04:34+09:00",
+  "windowStart": "2026-11-21T07:14:04+09:00",
+  "publicationWindowStart": "2026-11-23T07:14:04+09:00",
+  "publicationWindowEnd": "2026-11-24T07:01:15+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://developers.openai.com/",
+        "https://status.openai.com/",
+        "https://openai.com/codex/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-24T07:04:34+09:00",
+      "result": "公式Help、release notes、Developers、Status、Codexページを確認。既出記事を除き新規リセット・上限・モデル変更・障害なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-24T07:04:34+09:00",
+      "result": "X公式・関係者・コミュニティ・trendingを検索。現在窓の公式投稿または複数独立ユーザーによる同時リセット報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001406-chatgpt-for-academic-researchers",
+        "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+        "https://www.anthropic.com/news",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "https://github.blog/changelog/"
+      ],
+      "checkedAt": "2026-11-24T07:04:34+09:00",
+      "result": "研究者向けChatGPT Plus 3席の申請開始を公式Help本文で確認し参考掲載。Gemini 4 Neon等は過去掲載済みで追加掲載なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/building-a-stronger-canada-through-a-well-managed-predictable-immigration-system.html",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://immi.homeaffairs.gov.au/visas/permanent-resident/visa-options",
+        "https://www.immigration.govt.nz/visas/permanent-resident-visa/",
+        "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence/permanent-residence-application",
+        "https://www.moj.go.jp/isa/10_00279"
+      ],
+      "checkedAt": "2026-11-24T07:04:34+09:00",
+      "result": "主要7か国の公式条件を確認。過去日公開のカナダ・ドイツ情報は監査候補として保持し、当日掲載対象の新規永住条件変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "AI",
+      "eventKey": "openai-academic-researchers-three-plus-seats-applications-open-2026-11-23",
+      "sourceUrl": "https://help.openai.com/en/articles/20001406-chatgpt-for-academic-researchers",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "score": 68,
+      "reason": "11月23日の申請開始とPlus 3席・最大12か月の具体的提供条件を公式Help本文で確認"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "google-gemini-4-neon-repeat-2026-11-24",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 88,
+      "reason": "Gemini 4 Neonの一般提供は11月20日の日別掲載済み"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-reset-scan-no-new-event-2026-11-24",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路とX経路の双方で現在窓の新規リセットを裏付ける根拠なし"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-paid-reset-help-repeat-2026-11-24",
+      "sourceUrl": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 88,
+      "reason": "有料週次リセット案内は過去の日別掲載済みで実質的な新変更なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-in-country-workers-initiative-2026-11-20",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/building-a-stronger-canada-through-a-well-managed-predictable-immigration-system.html",
+      "publishedAt": "2026-11-20",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "late-audit-only",
+      "discoveredLate": true,
+      "score": 72,
+      "reason": "収集窓で初見だが前々日以前の公式発表のため監査に保持し、当日フィードへ新規掲載しない"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "germany-settlement-permit-page-2026-11-20",
+      "sourceUrl": "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+      "publishedAt": "2026-11-20",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "late-audit-only",
+      "discoveredLate": true,
+      "score": 45,
+      "reason": "検索上は過去日公開として初見だが実質変更日を確定できず、監査に保持して当日掲載しない"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-current-change-2026-11-24",
+      "sourceUrl": "https://www.moj.go.jp/isa/10_00279",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "主要7か国に当日掲載対象の新規永住条件変更なし"
+    }
+  ]
+}
