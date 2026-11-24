@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-25",
+  "checkedAt": "2026-11-25T07:10:19.829+09:00",
+  "windowStart": "2026-11-22T07:08:29+09:00",
+  "publicationWindowStart": "2026-11-24T07:08:29+09:00",
+  "publicationWindowEnd": "2026-11-25T07:02:33+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://developers.openai.com/",
+        "https://status.openai.com/",
+        "https://openai.com/codex/",
+        "https://github.com/openai/codex/releases/tag/rust-v0.172.0"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-25T07:10:19.829+09:00",
+      "result": "公式Help、release notes、Developers、Status、Codexページを確認。Codex CLI 0.172.0の新機能・修正を公式GitHub本文で確認"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-25T07:10:19.829+09:00",
+      "result": "X公式・関係者・コミュニティ・trendingを検索。現在窓の公式投稿または複数独立ユーザーによる同時リセット報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://openai.com/news/",
+        "https://www.anthropic.com/news",
+        "https://blog.google/technology/ai/",
+        "https://github.blog/changelog/"
+      ],
+      "checkedAt": "2026-11-25T07:10:19.829+09:00",
+      "result": "OpenAI、Anthropic、Google、GitHubの公式更新を確認し、Codex 0.172.0以外に当日掲載対象の実利用変更なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship.html",
+        "https://www.uscis.gov/green-card",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+        "https://immi.homeaffairs.gov.au/visas/permanent-resident/visa-options",
+        "https://www.immigration.govt.nz/visas/permanent-resident-visa/",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence"
+      ],
+      "checkedAt": "2026-11-25T07:10:19.829+09:00",
+      "result": "主要7か国の公式条件を確認。過去日公表のSkillSelect移行等は監査に保持し、当日掲載対象の永住条件変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-cli-0-172-0-2026-11-24",
+      "sourceUrl": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "publishedAt": "2026-11-24T00:03:55Z",
+      "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 88,
+      "reason": "GitHub Releasesのpublished_atと本文で0.172.0の新機能・修正を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-reset-scan-no-new-event-2026-11-25",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路とX経路の双方で現在窓の新規リセットを裏付ける根拠なし"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-paid-reset-help-repeat-2026-11-25",
+      "sourceUrl": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+      "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 88,
+      "reason": "有料週次リセット案内は過去掲載済みで実質的な新変更なし"
+    },
+    {
+      "monitor": "AI",
+      "eventKey": "google-gemini-4-neon-repeat-2026-11-25",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 96,
+      "reason": "Gemini 4 Neonの一般提供は過去の日別掲載済み"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "australia-skillselect-immiaccount-transition-2026-11-18",
+      "sourceUrl": "https://www.homeaffairs.gov.au/News-subsite/Pages/2026-Nov/skillselect-moving-to-immiaccount.aspx",
+      "publishedAt": "2026-11-18",
+      "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "late-audit-only",
+      "discoveredLate": true,
+      "score": 58,
+      "reason": "SkillSelectのImmiAccount移行は過去日公表で今回初見。監査に保持し当日フィードへ掲載しない"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "germany-settlement-permit-page-repeat-2026-11-25",
+      "sourceUrl": "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+      "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 45,
+      "reason": "前日監査済みの既存条件ページで実質的な当日変更なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-current-change-2026-11-25",
+      "sourceUrl": "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence",
+      "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "主要7か国に当日掲載対象の新規永住条件変更なし"
+    }
+  ]
+}
