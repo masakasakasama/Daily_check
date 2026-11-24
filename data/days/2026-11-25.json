@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-25",
+  "alerts": [
+    {
+      "id": "openai-codex-cli-0172-20261125",
+      "eventKey": "openai-codex-cli-0-172-0-2026-11-24",
+      "category": "Codex",
+      "topics": [
+        "Codex CLI",
+        "Codex app",
+        "MCP",
+        "Session resume"
+      ],
+      "score": 88,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 14,
+        "industryImpact": 4
+      },
+      "title": "OpenAI、Codex CLI 0.172.0で会話リンク・MCP遅延起動・再開復元を強化",
+      "summary": "OpenAIがCodex CLI 0.172.0を公開。検索結果や履歴から保存済み会話・子エージェントを開ける機能、スラッシュコマンド引数のTab補完、MCPサーバーの初回ツール呼出時起動、接続アプリ単位の承認レビュアー設定を追加した。codex exec resumeで作業ディレクトリ、workspace roots、sandbox権限を復元する修正も含む",
+      "publishedAt": "2026/11/24",
+      "sourcePublishedAt": "2026-11-24T00:03:55Z",
+      "sourcePublishedAtPrecision": "datetime",
+      "publicationDateNote": "GitHub Releasesのpublished_at 2026年11月24日00:03:55 UTCを日本時間同日09:03:55へ換算",
+      "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+      "verifiedAt": "2026-11-25T07:10:19.829+09:00",
+      "source": {
+        "label": "OpenAI Codex GitHub Releases",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "主要AI公式情報を確認し当日掲載対象の新規変更なし",
+      "checkedAt": "2026-11-25T07:10:19.829+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "公式GitHubでCodex CLI 0.172.0の提供開始を重要掲載",
+      "checkedAt": "2026-11-25T07:10:19.829+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "clear",
+      "summary": "6 funnelで本文・新規性・重複を確認し当日掲載対象なし",
+      "checkedAt": "2026-11-25T07:10:19.829+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要7か国の公式条件を確認し当日掲載対象の変更なし",
+      "checkedAt": "2026-11-25T07:10:19.829+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "clear",
+      "summary": "公式各地域と信頼できる報道を確認し既出イベント以外の当日掲載対象なし",
+      "checkedAt": "2026-11-25T07:10:19.829+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    }
+  ]
+}
