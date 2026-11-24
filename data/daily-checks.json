@@ -1,8 +1,92 @@
 {
   "version": 5,
-  "currentDate": "2026-11-24",
-  "updatedAt": "2026-11-24T07:04:34+09:00",
+  "currentDate": "2026-11-25",
+  "updatedAt": "2026-11-25T07:10:19.829+09:00",
   "days": [
+    {
+      "date": "2026-11-25",
+      "alerts": [
+        {
+          "id": "openai-codex-cli-0172-20261125",
+          "eventKey": "openai-codex-cli-0-172-0-2026-11-24",
+          "category": "Codex",
+          "topics": [
+            "Codex CLI",
+            "Codex app",
+            "MCP",
+            "Session resume"
+          ],
+          "score": 88,
+          "scoreBreakdown": {
+            "userImpact": 32,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 14,
+            "industryImpact": 4
+          },
+          "title": "OpenAI、Codex CLI 0.172.0で会話リンク・MCP遅延起動・再開復元を強化",
+          "summary": "OpenAIがCodex CLI 0.172.0を公開。検索結果や履歴から保存済み会話・子エージェントを開ける機能、スラッシュコマンド引数のTab補完、MCPサーバーの初回ツール呼出時起動、接続アプリ単位の承認レビュアー設定を追加した。codex exec resumeで作業ディレクトリ、workspace roots、sandbox権限を復元する修正も含む",
+          "publishedAt": "2026/11/24",
+          "sourcePublishedAt": "2026-11-24T00:03:55Z",
+          "sourcePublishedAtPrecision": "datetime",
+          "publicationDateNote": "GitHub Releasesのpublished_at 2026年11月24日00:03:55 UTCを日本時間同日09:03:55へ換算",
+          "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+          "verifiedAt": "2026-11-25T07:10:19.829+09:00",
+          "source": {
+            "label": "OpenAI Codex GitHub Releases",
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0"
+          }
+        }
+      ],
+      "references": [],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "主要AI公式情報を確認し当日掲載対象の新規変更なし",
+          "checkedAt": "2026-11-25T07:10:19.829+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "update",
+          "summary": "公式GitHubでCodex CLI 0.172.0の提供開始を重要掲載",
+          "checkedAt": "2026-11-25T07:10:19.829+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "clear",
+          "summary": "6 funnelで本文・新規性・重複を確認し当日掲載対象なし",
+          "checkedAt": "2026-11-25T07:10:19.829+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "clear",
+          "summary": "主要7か国の公式条件を確認し当日掲載対象の変更なし",
+          "checkedAt": "2026-11-25T07:10:19.829+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "clear",
+          "summary": "公式各地域と信頼できる報道を確認し既出イベント以外の当日掲載対象なし",
+          "checkedAt": "2026-11-25T07:10:19.829+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "alerts": [
@@ -894,291 +978,30 @@
           "referenceCount": 1
         }
       ]
-    },
-    {
-      "date": "2026-11-18",
-      "alerts": [
-        {
-          "id": "openai-gpt-62-astra-sol-20261118",
-          "eventKey": "openai-gpt-6-2-astra-sol-chatgpt-codex-api-2026-11-17",
-          "category": "Codex",
-          "topics": [
-            "Codex",
-            "ChatGPT",
-            "GPT-6.2"
-          ],
-          "score": 98,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 20,
-            "specificityAvailability": 15,
-            "industryImpact": 8
-          },
-          "title": "OpenAI、GPT-6.2 AstraとSolをChatGPT・Codex・APIへ提供",
-          "summary": "OpenAIがGPT-6.2 AstraとSolを公開。ChatGPT WorkとCodexではPlus、Pro、Enterprise、Eduへ提供し、Pro 500 Ultrafastは両モデル、Pro 200 UltrafastはSolから対応する。API価格はAstraが入力8ドル・出力40ドル、Solが入力2ドル・出力10ドル/100万token",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "thumbnail": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
-          "source": {
-            "label": "OpenAI",
-            "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
-          }
-        },
-        {
-          "id": "gemini-tasks-free-rollout-20261118",
-          "eventKey": "google-gemini-tasks-free-rollout-hydrogen-2026-11-17",
-          "category": "AI",
-          "topics": [
-            "Gemini",
-            "Tasks",
-            "Gemini 4 Hydrogen"
-          ],
-          "score": 93,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 19,
-            "technicalImportance": 17,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "Google、Geminiの実行型Tasksを無料ユーザーへ展開",
-          "summary": "GoogleがGeminiのTasksを米国、日本、韓国、カナダ、豪州、インドの無料ユーザーへ展開。Gemini 4 Hydrogenを使い、依頼に応じて通話、支払い、予約など複数段階の作業を進める。高度機能はまず米国から提供する",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
-          "source": {
-            "label": "Google",
-            "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
-          }
-        },
-        {
-          "id": "github-copilot-mai-code-2-20261118",
-          "eventKey": "github-copilot-mai-code-2-flash-availability-2026-11-17",
-          "category": "AI",
-          "topics": [
-            "GitHub Copilot",
-            "MAI Code 2",
-            "Coding agent"
-          ],
-          "score": 84,
-          "scoreBreakdown": {
-            "userImpact": 31,
-            "novelty": 18,
-            "technicalImportance": 16,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "GitHub Copilot、MAI Code 2と軽量版Flashを追加",
-          "summary": "GitHub CopilotがMAI Code 2をPro、Pro+、Max、Business、Enterpriseへ、MAI Code 2 FlashをFreeやStudentなどの対象年額プランへ追加。VS Code、CLI、クラウドコーディングエージェントなど主要クライアントで利用できる",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "thumbnail": "https://github.blog/wp-content/uploads/2026/11/708477214-1cb51fc6-9621-41e7-b5bb-ae9007edc021.png",
-          "source": {
-            "label": "GitHub Changelog",
-            "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
-          }
-        },
-        {
-          "id": "microchip-automotive-ethernet-switches-20261118",
-          "eventKey": "microchip-lan9324x-lan9322x-automotive-ethernet-switches-2026-11-17",
-          "category": "SDV",
-          "topics": [
-            "SDV",
-            "Automotive Ethernet",
-            "Zonal architecture",
-            "TSN"
-          ],
-          "score": 78,
-          "scoreBreakdown": {
-            "sdvDirectness": 23,
-            "practicalImpact": 20,
-            "scale": 14,
-            "specificity": 13,
-            "novelty": 8
-          },
-          "title": "Microchip、ゾーナル・中央演算向け車載Ethernetスイッチを投入",
-          "summary": "MicrochipがLAN9324xとLAN9322xの車載Ethernetスイッチを発表。TSN、セキュリティ、自己管理機能を備え、ゾーナル構成、中央コンピュート、ゲートウェイ用途を対象とする。VelocityDRIVE開発基盤に対応し、サンプル提供を開始した",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "source": {
-            "label": "Microchip Technology",
-            "url": "https://www.microchip.com/en-us/about/news-releases/products/microchip-introduces-advanced-scalable-self-managed-automotive-ethernet-switch-families"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "mistral-vibe-desktop-20261118",
-          "eventKey": "mistral-vibe-desktop-local-cloud-coding-2026-11-17",
-          "category": "AI",
-          "topics": [
-            "Mistral",
-            "Coding agent",
-            "Desktop"
-          ],
-          "score": 72,
-          "scoreBreakdown": {
-            "userImpact": 27,
-            "novelty": 17,
-            "technicalImportance": 14,
-            "specificityAvailability": 10,
-            "industryImpact": 4
-          },
-          "title": "Mistral、ローカルとクラウドのコーディングを統合するVibe Desktopを公開",
-          "summary": "MistralがVibe DesktopをmacOSとWindows向けに公開。ローカル作業、クラウド実行、複数プロジェクトの管理を一つのアプリへ統合し、既存Vibeのエージェント型コーディングをデスクトップから扱える",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "source": {
-            "label": "Mistral AI Documentation",
-            "url": "https://docs.mistral.ai/resources/release-notes"
-          }
-        },
-        {
-          "id": "openai-costs-api-delay-20261118",
-          "eventKey": "openai-costs-api-data-delay-incident-2026-11-17",
-          "category": "Codex",
-          "topics": [
-            "OpenAI Status",
-            "Costs API",
-            "Usage meter"
-          ],
-          "score": 64,
-          "scoreBreakdown": {
-            "userImpact": 25,
-            "novelty": 14,
-            "technicalImportance": 10,
-            "specificityAvailability": 10,
-            "industryImpact": 5
-          },
-          "title": "OpenAI、Costs APIのデータ反映遅延を調査",
-          "summary": "OpenAI StatusでCosts APIのデータ遅延を確認。Compliance APIとChatGPTのコスト表示に影響し、利用量そのものではなく請求・可視化データの反映が遅れている。監視は継続中",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "source": {
-            "label": "OpenAI Status",
-            "url": "https://status.openai.com/incidents/01M7N9VNR6X5SEC90M1YCDB36D"
-          }
-        },
-        {
-          "id": "nissan-pineapple-leaf-panel-20261118",
-          "eventKey": "nissan-pineapple-leaf-natural-fiber-body-panel-2026-11-17",
-          "category": "Nissan",
-          "topics": [
-            "Materials",
-            "Sustainability",
-            "Technology"
-          ],
-          "score": 55,
-          "title": "日産、パイナップル葉由来の天然繊維を車体パネルへ応用",
-          "summary": "日産が廃棄されるパイナップル葉由来の天然繊維を使った車体パネル技術を公開。軽量化と資源循環を狙い、量産車への適用可能性を検証する",
-          "publishedAt": "2026/11/17",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/8a9257fd1cd07c91f7191f3b08def3f3cfb4776f",
-          "source": {
-            "label": "Nissan Global Newsroom",
-            "url": "https://global.nissannews.com/en/releases/261117-01-e"
-          }
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "Gemini Tasks、GitHub Copilot、Mistral Vibeの利用可能性変更を掲載",
-          "checkedAt": "2026-11-18T07:08:04+09:00",
-          "alertCount": 2,
-          "referenceCount": 1
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "update",
-          "summary": "GPT-6.2 Astra/Solを重要掲載し、Costs API遅延を参考掲載",
-          "checkedAt": "2026-11-18T07:08:04+09:00",
-          "alertCount": 1,
-          "referenceCount": 1
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "update",
-          "summary": "Microchipの車載Ethernetスイッチを重要掲載",
-          "checkedAt": "2026-11-18T07:08:04+09:00",
-          "alertCount": 1,
-          "referenceCount": 0
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "当日掲載条件を満たす主要国の永住条件変更なし",
-          "checkedAt": "2026-11-18T07:08:04+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "update",
-          "summary": "パイナップル葉由来天然繊維の車体パネル技術を参考掲載",
-          "checkedAt": "2026-11-18T07:08:04+09:00",
-          "alertCount": 0,
-          "referenceCount": 1
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-11-18",
-      "end": "2026-11-24",
-      "generatedAt": "2026-11-24T07:04:34+09:00",
+      "start": "2026-11-19",
+      "end": "2026-11-25",
+      "generatedAt": "2026-11-25T07:10:19.829+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
-        "important": 12,
-        "reference": 15
+        "important": 9,
+        "reference": 12
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要7件・参考4件"
+          "summary": "重要5件・参考3件"
         },
         {
           "name": "Codex",
-          "summary": "重要1件・参考1件"
+          "summary": "重要1件・参考0件"
         },
         {
           "name": "SDV",
-          "summary": "重要3件・参考3件"
+          "summary": "重要2件・参考3件"
         },
         {
           "name": "Permanent Residency",
@@ -1186,134 +1009,10 @@
         },
         {
           "name": "Nissan",
-          "summary": "重要0件・参考5件"
+          "summary": "重要0件・参考4件"
         }
       ],
       "highlights": [
-        {
-          "id": "openai-gpt-62-astra-sol-20261118",
-          "eventKey": "openai-gpt-6-2-astra-sol-chatgpt-codex-api-2026-11-17",
-          "category": "Codex",
-          "topics": [
-            "Codex",
-            "ChatGPT",
-            "GPT-6.2"
-          ],
-          "score": 98,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 20,
-            "specificityAvailability": 15,
-            "industryImpact": 8
-          },
-          "title": "OpenAI、GPT-6.2 AstraとSolをChatGPT・Codex・APIへ提供",
-          "summary": "OpenAIがGPT-6.2 AstraとSolを公開。ChatGPT WorkとCodexではPlus、Pro、Enterprise、Eduへ提供し、Pro 500 Ultrafastは両モデル、Pro 200 UltrafastはSolから対応する。API価格はAstraが入力8ドル・出力40ドル、Solが入力2ドル・出力10ドル/100万token",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "thumbnail": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
-          "source": {
-            "label": "OpenAI",
-            "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
-          }
-        },
-        {
-          "id": "gemini-tasks-free-rollout-20261118",
-          "eventKey": "google-gemini-tasks-free-rollout-hydrogen-2026-11-17",
-          "category": "AI",
-          "topics": [
-            "Gemini",
-            "Tasks",
-            "Gemini 4 Hydrogen"
-          ],
-          "score": 93,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 19,
-            "technicalImportance": 17,
-            "specificityAvailability": 15,
-            "industryImpact": 7
-          },
-          "title": "Google、Geminiの実行型Tasksを無料ユーザーへ展開",
-          "summary": "GoogleがGeminiのTasksを米国、日本、韓国、カナダ、豪州、インドの無料ユーザーへ展開。Gemini 4 Hydrogenを使い、依頼に応じて通話、支払い、予約など複数段階の作業を進める。高度機能はまず米国から提供する",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
-          "source": {
-            "label": "Google",
-            "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
-          }
-        },
-        {
-          "id": "github-copilot-mai-code-2-20261118",
-          "eventKey": "github-copilot-mai-code-2-flash-availability-2026-11-17",
-          "category": "AI",
-          "topics": [
-            "GitHub Copilot",
-            "MAI Code 2",
-            "Coding agent"
-          ],
-          "score": 84,
-          "scoreBreakdown": {
-            "userImpact": 31,
-            "novelty": 18,
-            "technicalImportance": 16,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "GitHub Copilot、MAI Code 2と軽量版Flashを追加",
-          "summary": "GitHub CopilotがMAI Code 2をPro、Pro+、Max、Business、Enterpriseへ、MAI Code 2 FlashをFreeやStudentなどの対象年額プランへ追加。VS Code、CLI、クラウドコーディングエージェントなど主要クライアントで利用できる",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "thumbnail": "https://github.blog/wp-content/uploads/2026/11/708477214-1cb51fc6-9621-41e7-b5bb-ae9007edc021.png",
-          "source": {
-            "label": "GitHub Changelog",
-            "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
-          }
-        },
-        {
-          "id": "microchip-automotive-ethernet-switches-20261118",
-          "eventKey": "microchip-lan9324x-lan9322x-automotive-ethernet-switches-2026-11-17",
-          "category": "SDV",
-          "topics": [
-            "SDV",
-            "Automotive Ethernet",
-            "Zonal architecture",
-            "TSN"
-          ],
-          "score": 78,
-          "scoreBreakdown": {
-            "sdvDirectness": 23,
-            "practicalImpact": 20,
-            "scale": 14,
-            "specificity": 13,
-            "novelty": 8
-          },
-          "title": "Microchip、ゾーナル・中央演算向け車載Ethernetスイッチを投入",
-          "summary": "MicrochipがLAN9324xとLAN9322xの車載Ethernetスイッチを発表。TSN、セキュリティ、自己管理機能を備え、ゾーナル構成、中央コンピュート、ゲートウェイ用途を対象とする。VelocityDRIVE開発基盤に対応し、サンプル提供を開始した",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "source": {
-            "label": "Microchip Technology",
-            "url": "https://www.microchip.com/en-us/about/news-releases/products/microchip-introduces-advanced-scalable-self-managed-automotive-ethernet-switch-families"
-          }
-        },
         {
           "id": "google-genie-4-project-genie-20261119",
           "eventKey": "google-project-genie-4-ultra-rollout-2026-11-18",
@@ -1562,92 +1261,40 @@
             "label": "L&T Technology Services",
             "url": "https://www.ltts.com/press-release/launches-sdvault-ai"
           }
+        },
+        {
+          "id": "openai-codex-cli-0172-20261125",
+          "eventKey": "openai-codex-cli-0-172-0-2026-11-24",
+          "category": "Codex",
+          "topics": [
+            "Codex CLI",
+            "Codex app",
+            "MCP",
+            "Session resume"
+          ],
+          "score": 88,
+          "scoreBreakdown": {
+            "userImpact": 32,
+            "novelty": 20,
+            "technicalImportance": 18,
+            "specificityAvailability": 14,
+            "industryImpact": 4
+          },
+          "title": "OpenAI、Codex CLI 0.172.0で会話リンク・MCP遅延起動・再開復元を強化",
+          "summary": "OpenAIがCodex CLI 0.172.0を公開。検索結果や履歴から保存済み会話・子エージェントを開ける機能、スラッシュコマンド引数のTab補完、MCPサーバーの初回ツール呼出時起動、接続アプリ単位の承認レビュアー設定を追加した。codex exec resumeで作業ディレクトリ、workspace roots、sandbox権限を復元する修正も含む",
+          "publishedAt": "2026/11/24",
+          "sourcePublishedAt": "2026-11-24T00:03:55Z",
+          "sourcePublishedAtPrecision": "datetime",
+          "publicationDateNote": "GitHub Releasesのpublished_at 2026年11月24日00:03:55 UTCを日本時間同日09:03:55へ換算",
+          "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+          "verifiedAt": "2026-11-25T07:10:19.829+09:00",
+          "source": {
+            "label": "OpenAI Codex GitHub Releases",
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0"
+          }
         }
       ],
       "references": [
-        {
-          "id": "mistral-vibe-desktop-20261118",
-          "eventKey": "mistral-vibe-desktop-local-cloud-coding-2026-11-17",
-          "category": "AI",
-          "topics": [
-            "Mistral",
-            "Coding agent",
-            "Desktop"
-          ],
-          "score": 72,
-          "scoreBreakdown": {
-            "userImpact": 27,
-            "novelty": 17,
-            "technicalImportance": 14,
-            "specificityAvailability": 10,
-            "industryImpact": 4
-          },
-          "title": "Mistral、ローカルとクラウドのコーディングを統合するVibe Desktopを公開",
-          "summary": "MistralがVibe DesktopをmacOSとWindows向けに公開。ローカル作業、クラウド実行、複数プロジェクトの管理を一つのアプリへ統合し、既存Vibeのエージェント型コーディングをデスクトップから扱える",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "source": {
-            "label": "Mistral AI Documentation",
-            "url": "https://docs.mistral.ai/resources/release-notes"
-          }
-        },
-        {
-          "id": "openai-costs-api-delay-20261118",
-          "eventKey": "openai-costs-api-data-delay-incident-2026-11-17",
-          "category": "Codex",
-          "topics": [
-            "OpenAI Status",
-            "Costs API",
-            "Usage meter"
-          ],
-          "score": 64,
-          "scoreBreakdown": {
-            "userImpact": 25,
-            "novelty": 14,
-            "technicalImportance": 10,
-            "specificityAvailability": 10,
-            "industryImpact": 5
-          },
-          "title": "OpenAI、Costs APIのデータ反映遅延を調査",
-          "summary": "OpenAI StatusでCosts APIのデータ遅延を確認。Compliance APIとChatGPTのコスト表示に影響し、利用量そのものではなく請求・可視化データの反映が遅れている。監視は継続中",
-          "publishedAt": "2026/11/18",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式発表の現地日付は11月17日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "source": {
-            "label": "OpenAI Status",
-            "url": "https://status.openai.com/incidents/01M7N9VNR6X5SEC90M1YCDB36D"
-          }
-        },
-        {
-          "id": "nissan-pineapple-leaf-panel-20261118",
-          "eventKey": "nissan-pineapple-leaf-natural-fiber-body-panel-2026-11-17",
-          "category": "Nissan",
-          "topics": [
-            "Materials",
-            "Sustainability",
-            "Technology"
-          ],
-          "score": 55,
-          "title": "日産、パイナップル葉由来の天然繊維を車体パネルへ応用",
-          "summary": "日産が廃棄されるパイナップル葉由来の天然繊維を使った車体パネル技術を公開。軽量化と資源循環を狙い、量産車への適用可能性を検証する",
-          "publishedAt": "2026/11/17",
-          "sourcePublishedAt": "2026-11-17",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-18T07:08:04+09:00",
-          "verifiedAt": "2026-11-18T07:08:04+09:00",
-          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/8a9257fd1cd07c91f7191f3b08def3f3cfb4776f",
-          "source": {
-            "label": "Nissan Global Newsroom",
-            "url": "https://global.nissannews.com/en/releases/261117-01-e"
-          }
-        },
         {
           "id": "github-copilot-team-plugins-20261119",
           "eventKey": "github-copilot-team-default-agent-plugins-2026-11-18",
