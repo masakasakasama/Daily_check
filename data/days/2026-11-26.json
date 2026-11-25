@@ -1,0 +1,196 @@
+{
+  "date": "2026-11-26",
+  "alerts": [
+    {
+      "id": "openai-chatgpt-work-codex-cloud-errors-20261126",
+      "eventKey": "openai-chatgpt-work-codex-cloud-elevated-errors-2026-11-25",
+      "category": "Codex",
+      "topics": [
+        "Codex Cloud",
+        "ChatGPT Work",
+        "Service incident"
+      ],
+      "score": 84,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 18,
+        "technicalImportance": 15,
+        "specificityAvailability": 15,
+        "industryImpact": 4
+      },
+      "title": "ChatGPT・Work・Codex Cloudで会話エラー、一時障害は復旧",
+      "summary": "OpenAIはChatGPT、ChatGPT Work、Codex Cloudのスレッドで会話エラー率が上昇した障害を確認。緩和策を適用し、11月26日02:12（日本時間）に全サービスの正常化を発表した。利用枠リセットや補償リセットの告知は確認されていない",
+      "publishedAt": "2026/11/26",
+      "sourcePublishedAt": "2026-11-25T12:48:00Z",
+      "sourcePublishedAtPrecision": "minute",
+      "publicationDateNote": "OpenAI Statusの開始時刻をUTCから日本時間2026年11月25日21:48へ換算。解決時刻は2026年11月26日02:12",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/01M898HVZGXFV2XC4775CG9GF8"
+      }
+    },
+    {
+      "id": "openai-codex-github-review-errors-20261126",
+      "eventKey": "openai-codex-github-review-merge-errors-2026-11-25",
+      "category": "Codex",
+      "topics": [
+        "Codex GitHub",
+        "Pull request review",
+        "Service incident"
+      ],
+      "score": 79,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 18,
+        "technicalImportance": 14,
+        "specificityAvailability": 15,
+        "industryImpact": 3
+      },
+      "title": "CodexのGitHubレビュー・PRマージで障害、復旧を監視中",
+      "summary": "OpenAIはGitHub側のサービス障害により、Codexの自動プルリクエストレビューが届かない、またはCodexからのPRマージでエラーになる事象を確認。GitHub側の緩和後、Codexレビューとマージ操作の安定性を監視している",
+      "publishedAt": "2026/11/25",
+      "sourcePublishedAt": "2026-11-25T10:27:00Z",
+      "sourcePublishedAtPrecision": "minute",
+      "publicationDateNote": "OpenAI Statusの開始時刻をUTCから日本時間2026年11月25日19:27へ換算",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/01M89RGC3STKK2MT53TXHFMY4H"
+      }
+    },
+    {
+      "id": "bmw-software-update-1120263-20261126",
+      "eventKey": "bmw-software-update-11-2026-3-24-functions-2026-11-25",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "OTA",
+        "BMW Operating System",
+        "Driver assistance"
+      ],
+      "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 21,
+        "scale": 17,
+        "specificity": 13,
+        "novelty": 7
+      },
+      "title": "BMW、OTA更新11/2026.3で24機能を追加・強化",
+      "summary": "BMWがSoftware Update 11/2026.3を発表。OS 8.5・9・Xの対象車へ、信号での自動停止・再発進、AI音声、Prime Video、3Dナビ、充電器混雑予測など5件の新機能と19件の改善を12月から配信する。対象市場・車種・装備により利用可否が異なる",
+      "publishedAt": "2026/11/25",
+      "sourcePublishedAt": "2026-11-25T00:01:00+01:00",
+      "sourcePublishedAtPrecision": "minute",
+      "publicationDateNote": "BMW公式のEurope/Amsterdam 2026年11月25日00:01を日本時間同日08:01へ換算",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "source": {
+        "label": "BMW Group",
+        "url": "https://newsroom.bmwgroup.com/global/16-million-bmw-vehicles-in-88-countries-capable-of-over-the-air-updates/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "infineon-sdv-ethernet-20261126",
+      "eventKey": "infineon-inside-mind-tomorrows-car-ethernet-sdv-2026-11-25",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Automotive Ethernet",
+        "Central compute"
+      ],
+      "score": 56,
+      "scoreBreakdown": {
+        "sdvDirectness": 19,
+        "practicalImpact": 11,
+        "scale": 10,
+        "specificity": 7,
+        "novelty": 9
+      },
+      "title": "Infineon、SDVの通信基盤として車載Ethernetを解説",
+      "summary": "Infineonが、センサー、中央演算、電力を結ぶSDVの通信基盤として車載Ethernetを解説。高解像度カメラやレーダー、LiDAR、HPCのデータをリアルタイムに連携し、継続的に進化する車両を支える位置付けを示した",
+      "publishedAt": "2026/11/25",
+      "sourcePublishedAt": "2026-11-25",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "source": {
+        "label": "Infineon Technologies",
+        "url": "https://www.infineon.com/industry-insights/enabling-ethernet"
+      }
+    },
+    {
+      "id": "nissan-epower-rjc-award-20261126",
+      "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-25",
+      "category": "Nissan",
+      "topics": [
+        "e-POWER",
+        "Hybrid",
+        "Europe sales"
+      ],
+      "score": 58,
+      "title": "日産の第3世代e-POWER、RJCテクノロジー・オブ・ザ・イヤー受賞",
+      "summary": "日産の第3世代e-POWERが2027年RJCテクノロジー・オブ・ザ・イヤーを受賞。欧州では2026年1〜10月のQashqai・X-Trail合算販売の約40%をe-POWERが占め、最新Qashqaiではマイルドハイブリッド比でWLTP燃費を最大31%改善するとしている",
+      "publishedAt": "2026/11/25",
+      "sourcePublishedAt": "2026-11-25",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "source": {
+        "label": "Nissan Europe",
+        "url": "https://europe.nissannews.com/en-GB/releases/nissans-e-power-hybrid-wins-top-technology-award-as-european-popularity-grows"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "update",
+      "summary": "OpenAI Statusの会話障害を確認しCodex項目へ統合",
+      "checkedAt": "2026-11-26T07:04:49.069+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "update",
+      "summary": "公式経路とX経路を確認し、Codex CloudとGitHub連携の障害2件を掲載",
+      "checkedAt": "2026-11-26T07:04:49.069+09:00",
+      "alertCount": 2,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "6 funnelと追加Deep Scanを実施し、BMW OTA更新を重要、Infineon解説を参考掲載",
+      "checkedAt": "2026-11-26T07:04:49.069+09:00",
+      "alertCount": 1,
+      "referenceCount": 1
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "clear",
+      "summary": "主要7か国の公式条件を確認し当日掲載対象の変更なし",
+      "checkedAt": "2026-11-26T07:04:49.069+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "各地域公式と報道を確認し第3世代e-POWERの技術賞受賞を参考掲載",
+      "checkedAt": "2026-11-26T07:04:49.069+09:00",
+      "alertCount": 0,
+      "referenceCount": 1
+    }
+  ]
+}
