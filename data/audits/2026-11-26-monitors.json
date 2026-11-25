@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-26",
+  "checkedAt": "2026-11-26T07:04:49.069+09:00",
+  "windowStart": "2026-11-23T07:11:49.911+09:00",
+  "publicationWindowStart": "2026-11-25T07:11:49.911+09:00",
+  "publicationWindowEnd": "2026-11-26T07:01:26+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://developers.openai.com/api/docs/changelog",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-26T07:04:49.069+09:00",
+      "result": "公式Help、Developers、Status、Codex Releasesを確認。新規リセット告知なし。Codex CloudとGitHub連携の障害2件を確認"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit",
+        "usage limit",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-26T07:04:49.069+09:00",
+      "result": "公式・関係者・コミュニティ・trendingを検索。現在窓の公式リセット投稿または複数独立ユーザーによる同時リセット報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://openai.com/news/",
+        "https://www.anthropic.com/news",
+        "https://blog.google/technology/ai/",
+        "https://github.blog/changelog/"
+      ],
+      "checkedAt": "2026-11-26T07:04:49.069+09:00",
+      "result": "主要AI公式を確認し、Status障害以外に当日掲載対象の実利用変更なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship.html",
+        "https://www.uscis.gov/green-card",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+        "https://immi.homeaffairs.gov.au/visas/permanent-resident/visa-options",
+        "https://www.immigration.govt.nz/visas/permanent-resident-visa/",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence"
+      ],
+      "checkedAt": "2026-11-26T07:04:49.069+09:00",
+      "result": "主要7か国の公式条件を確認し当日掲載対象の変更なし"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-chatgpt-work-codex-cloud-elevated-errors-2026-11-25",
+      "sourceUrl": "https://status.openai.com/incidents/01M898HVZGXFV2XC4775CG9GF8",
+      "publishedAt": "2026-11-25T12:48:00Z",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 84,
+      "reason": "OpenAI Status本文で影響範囲、緩和、解決を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-github-review-merge-errors-2026-11-25",
+      "sourceUrl": "https://status.openai.com/incidents/01M89RGC3STKK2MT53TXHFMY4H",
+      "publishedAt": "2026-11-25T10:27:00Z",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 79,
+      "reason": "OpenAI Status本文でCodex GitHubレビュー・マージへの影響と監視状態を確認"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-reset-scan-no-new-event-2026-11-26",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路とX経路の双方で現在窓の新規リセットを裏付ける根拠なし"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-shared-chatgpt-codex-usage-repeat-2026-11-26",
+      "sourceUrl": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 95,
+      "reason": "12月からの共有利用枠は11月1日に掲載済みで実質的な新変更なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "permanent-residency-official-scan-no-current-change-2026-11-26",
+      "sourceUrl": "https://www.immigration.govt.nz/visas/permanent-resident-visa/",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "主要7か国に当日掲載対象の永住条件変更なし"
+    }
+  ]
+}
