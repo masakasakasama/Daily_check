@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-26",
+  "checkedAt": "2026-11-26T07:04:49.069+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases",
+    "https://usa.nissannews.com/en-US/",
+    "https://europe.nissannews.com/en-GB/",
+    "https://www.nhtsa.gov/recalls",
+    "https://www.mlit.go.jp/jidosha/carinf/rcl/recall.html",
+    "https://www.reuters.com/business/autos-transportation/"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com November 25 2026 Nissan",
+      "recordedAt": "2026-11-26T07:04:49.069+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 25 2026 Nissan",
+      "recordedAt": "2026-11-26T07:04:49.069+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 25 2026 Nissan",
+      "recordedAt": "2026-11-26T07:04:49.069+09:00"
+    },
+    {
+      "query": "Nissan November 25 2026 Reuters recall production sales",
+      "recordedAt": "2026-11-26T07:04:49.069+09:00"
+    },
+    {
+      "query": "日産 2026年11月25日 新車 技術 リコール 生産 経営 人事 販売",
+      "recordedAt": "2026-11-26T07:04:49.069+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-25",
+      "sourceUrl": "https://europe.nissannews.com/en-GB/releases/nissans-e-power-hybrid-wins-top-technology-award-as-european-popularity-grows",
+      "publishedAt": "2026-11-25",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-reference",
+      "reason": "日産欧州公式本文で受賞、燃費改善値、欧州販売構成を確認"
+    },
+    {
+      "eventKey": "nissan-lgbt-workplace-gold-2026-11-25",
+      "sourceUrl": "https://global.nissannews.com/en/channels/news-releases",
+      "publishedAt": "2026-11-25",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "reason": "職場包摂の受賞は確認したが、事業・利用者への直接影響が掲載基準未満"
+    }
+  ]
+}
