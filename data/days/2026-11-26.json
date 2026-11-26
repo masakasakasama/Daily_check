@@ -48,14 +48,14 @@
         "specificityAvailability": 15,
         "industryImpact": 3
       },
-      "title": "CodexのGitHubレビュー・PRマージで障害、復旧を監視中",
-      "summary": "OpenAIはGitHub側のサービス障害により、Codexの自動プルリクエストレビューが届かない、またはCodexからのPRマージでエラーになる事象を確認。GitHub側の緩和後、Codexレビューとマージ操作の安定性を監視している",
+      "title": "CodexのGitHubレビュー・PRマージ障害が復旧",
+      "summary": "OpenAIはGitHub側のサービス障害により、Codexの自動プルリクエストレビューが届かない、またはCodexからのPRマージでエラーになる事象を確認した。GitHub側の緩和後に安定性を監視し、Codexレビューとマージ操作の正常化を確認して障害を解決済みとした",
       "publishedAt": "2026/11/25",
       "sourcePublishedAt": "2026-11-25T10:27:00Z",
       "sourcePublishedAtPrecision": "minute",
       "publicationDateNote": "OpenAI Statusの開始時刻をUTCから日本時間2026年11月25日19:27へ換算",
       "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
-      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-27T07:03:51+09:00",
       "source": {
         "label": "OpenAI Status",
         "url": "https://status.openai.com/incidents/01M89RGC3STKK2MT53TXHFMY4H"
