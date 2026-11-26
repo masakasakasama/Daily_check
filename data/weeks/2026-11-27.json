@@ -1,0 +1,485 @@
+{
+  "start": "2026-11-21",
+  "end": "2026-11-27",
+  "generatedAt": "2026-11-27T07:03:51+09:00",
+  "headline": "期間内の重要更新・参考情報",
+  "counts": {
+    "important": 10,
+    "reference": 5
+  },
+  "categories": [
+    {
+      "name": "AI",
+      "summary": "重要3件・参考1件"
+    },
+    {
+      "name": "Codex",
+      "summary": "重要3件・参考0件"
+    },
+    {
+      "name": "SDV",
+      "summary": "重要3件・参考2件"
+    },
+    {
+      "name": "Permanent Residency",
+      "summary": "重要1件・参考0件"
+    },
+    {
+      "name": "Nissan",
+      "summary": "重要0件・参考2件"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "openai-chatgpt-space-plus-20261121",
+      "eventKey": "openai-chatgpt-space-plus-global-rollout-2026-11-20",
+      "category": "AI",
+      "topics": [
+        "ChatGPT Space",
+        "Plus",
+        "Collaboration",
+        "Pages",
+        "Presentations"
+      ],
+      "score": 94,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 6
+      },
+      "title": "OpenAI、ChatGPT SpaceをPlusへ世界展開",
+      "summary": "OpenAIがChatGPT Spaceを18歳以上のPlusユーザーへ世界展開。ページやプレゼンを作成し、接続したアプリの最新情報で自動更新できる共有作業空間で、Web・デスクトップ・iOS・Androidから利用できる。従来のLibraryはSpaceへ移行し、共同編集にも対応する",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-20",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "verifiedAt": "2026-11-21T07:05:49+09:00",
+      "sourceUpdate": {
+        "previousEventKey": "openai-gpt-6-1-terra-work-codex-rollout-2026-10-26",
+        "changeSummary": "同じ公式リリースノートにChatGPT SpaceのPlus向け世界展開という独立した新機能が追記された",
+        "evidenceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "verifiedAt": "2026-11-21T07:05:49+09:00"
+      },
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    },
+    {
+      "id": "google-gemini-mac-computer-use-20261121",
+      "eventKey": "google-gemini-mac-computer-use-preview-2026-11-19",
+      "category": "AI",
+      "topics": [
+        "Gemini",
+        "Computer use",
+        "macOS",
+        "Agent"
+      ],
+      "score": 90,
+      "scoreBreakdown": {
+        "userImpact": 34,
+        "novelty": 19,
+        "technicalImportance": 18,
+        "specificityAvailability": 14,
+        "industryImpact": 5
+      },
+      "title": "Gemini Macアプリ、アプリ横断のComputer useに対応",
+      "summary": "GoogleがGeminiのMacアプリへComputer useを追加。専用ウィンドウで画面を確認しながら、WebやMacアプリを横断してクリック、入力、フォーム操作を実行できる。ログインや支払いなどは一時停止して確認を求め、利用者はいつでも停止可能。米国の18歳以上のGoogle AI Plus・Pro・Ultraへ英語で提供する",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-19",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式リリースの現地日付は11月19日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月20日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "verifiedAt": "2026-11-21T07:05:49+09:00",
+      "source": {
+        "label": "Google Gemini release notes",
+        "url": "https://gemini.google/release-notes/"
+      }
+    },
+    {
+      "id": "aumovio-automotive-rcnet-20261121",
+      "eventKey": "aumovio-automotive-rcnet-open-service-oriented-network-2026-11-19",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Zonal controller",
+        "HPC",
+        "Automotive Ethernet",
+        "Middleware"
+      ],
+      "score": 78,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 17,
+        "scale": 13,
+        "specificity": 12,
+        "novelty": 11
+      },
+      "title": "AUMOVIO、車載ネットワークをサービス化するAutomotive RCNetを公開",
+      "summary": "AUMOVIOがAutomotive RCNetを公開。中央コンピューターからセンサー・アクチュエーターまでEthernet、CAN、LINをまたいで標準サービスインターフェース化し、機能をHPC、ゾーンコントローラー、I/Oへ柔軟に配置できる。Elektrobit・Vectorと連携し、オープン標準として提供する",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-19",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "欧州公式発表の現地日付は11月19日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月20日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "verifiedAt": "2026-11-21T07:05:49+09:00",
+      "source": {
+        "label": "AUMOVIO",
+        "url": "https://www.aumovio.com/en/solutions/software-defined-mobility/automotive-rcnet.html"
+      }
+    },
+    {
+      "id": "openai-dot-plus-rollout-20261123",
+      "eventKey": "openai-dots-plus-rollout-2026-11-23",
+      "category": "AI",
+      "topics": [
+        "OpenAI dot",
+        "Plus",
+        "Always-on agent",
+        "Scheduled tasks"
+      ],
+      "score": 94,
+      "scoreBreakdown": {
+        "userImpact": 35,
+        "novelty": 18,
+        "technicalImportance": 18,
+        "specificityAvailability": 15,
+        "industryImpact": 8
+      },
+      "title": "OpenAI、常設エージェント「dot」を一部Plusユーザーへ拡大",
+      "summary": "OpenAIが常時稼働型エージェントdotを、EEA・英国・スイス以外の対応地域にいる18歳以上の一部Plusユーザーへ段階展開。dotは専用クラウドPCと接続アプリを使い、継続作業、スケジュール実行、プロアクティブな調査に対応する。対象アカウントへの提供は段階的で、サポートによる個別有効化はできない",
+      "publishedAt": "2026/11/23",
+      "sourcePublishedAt": "2026-11-23",
+      "sourcePublishedAtPrecision": "date-from-official-update",
+      "firstSeenAt": "2026-11-23T07:10:14+09:00",
+      "verifiedAt": "2026-11-23T07:10:14+09:00",
+      "sourceUpdate": {
+        "previousEventKey": "openai-dots-always-on-agents-2026-09-29",
+        "changeSummary": "初回公開時の限定提供から、EEA・英国・スイス以外の対応地域にいる18歳以上の一部Plusユーザーへ段階展開する対象拡大を公式Helpで確認",
+        "evidenceUrl": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+        "verifiedAt": "2026-11-23T07:10:14+09:00"
+      },
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot"
+      }
+    },
+    {
+      "id": "ltts-sdvault-ai-20261124",
+      "eventKey": "ltts-sdvault-ai-sdv-v-cycle-launch-2026-11-23",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "AI engineering",
+        "Virtual ECU",
+        "Functional safety"
+      ],
+      "score": 88,
+      "scoreBreakdown": {
+        "sdvDirectness": 25,
+        "practicalImpact": 21,
+        "scale": 14,
+        "specificity": 15,
+        "novelty": 13
+      },
+      "title": "LTTS、SDV開発・検証を横断するAI基盤「SDVault.ai」を提供開始",
+      "summary": "L&T Technology Servicesが、要件、E/Eアーキテクチャ、機能安全、サイバーセキュリティ、コード、仮想ECU検証、回帰・リリース保証まで12領域をつなぐSDVault.aiを提供開始。250超のドメイン特化AIエージェントと決定論的な自動化を組み合わせ、既存ツールチェーンへの選択導入と顧客管理環境での運用に対応する",
+      "publishedAt": "2026/11/23",
+      "sourcePublishedAt": "2026-11-23T08:55:00+05:30",
+      "sourcePublishedAtPrecision": "datetime",
+      "publicationDateNote": "インド標準時2026年11月23日08:55の取引所開示を、日本時間同日12:25として確認",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "verifiedAt": "2026-11-24T07:04:34+09:00",
+      "source": {
+        "label": "L&T Technology Services",
+        "url": "https://www.ltts.com/press-release/launches-sdvault-ai"
+      }
+    },
+    {
+      "id": "openai-codex-cli-0172-20261125",
+      "eventKey": "openai-codex-cli-0-172-0-2026-11-24",
+      "category": "Codex",
+      "topics": [
+        "Codex CLI",
+        "Codex app",
+        "MCP",
+        "Session resume"
+      ],
+      "score": 88,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 20,
+        "technicalImportance": 18,
+        "specificityAvailability": 14,
+        "industryImpact": 4
+      },
+      "title": "OpenAI、Codex CLI 0.172.0で会話リンク・MCP遅延起動・再開復元を強化",
+      "summary": "OpenAIがCodex CLI 0.172.0を公開。検索結果や履歴から保存済み会話・子エージェントを開ける機能、スラッシュコマンド引数のTab補完、MCPサーバーの初回ツール呼出時起動、接続アプリ単位の承認レビュアー設定を追加した。codex exec resumeで作業ディレクトリ、workspace roots、sandbox権限を復元する修正も含む",
+      "publishedAt": "2026/11/24",
+      "sourcePublishedAt": "2026-11-24T00:03:55Z",
+      "sourcePublishedAtPrecision": "datetime",
+      "publicationDateNote": "GitHub Releasesのpublished_at 2026年11月24日00:03:55 UTCを日本時間同日09:03:55へ換算",
+      "firstSeenAt": "2026-11-25T07:10:19.829+09:00",
+      "verifiedAt": "2026-11-25T07:10:19.829+09:00",
+      "source": {
+        "label": "OpenAI Codex GitHub Releases",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0"
+      }
+    },
+    {
+      "id": "openai-chatgpt-work-codex-cloud-errors-20261126",
+      "eventKey": "openai-chatgpt-work-codex-cloud-elevated-errors-2026-11-25",
+      "category": "Codex",
+      "topics": [
+        "Codex Cloud",
+        "ChatGPT Work",
+        "Service incident"
+      ],
+      "score": 84,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 18,
+        "technicalImportance": 15,
+        "specificityAvailability": 15,
+        "industryImpact": 4
+      },
+      "title": "ChatGPT・Work・Codex Cloudで会話エラー、一時障害は復旧",
+      "summary": "OpenAIはChatGPT、ChatGPT Work、Codex Cloudのスレッドで会話エラー率が上昇した障害を確認。緩和策を適用し、11月26日02:12（日本時間）に全サービスの正常化を発表した。利用枠リセットや補償リセットの告知は確認されていない",
+      "publishedAt": "2026/11/26",
+      "sourcePublishedAt": "2026-11-25T12:48:00Z",
+      "sourcePublishedAtPrecision": "minute",
+      "publicationDateNote": "OpenAI Statusの開始時刻をUTCから日本時間2026年11月25日21:48へ換算。解決時刻は2026年11月26日02:12",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/01M898HVZGXFV2XC4775CG9GF8"
+      }
+    },
+    {
+      "id": "openai-codex-github-review-errors-20261126",
+      "eventKey": "openai-codex-github-review-merge-errors-2026-11-25",
+      "category": "Codex",
+      "topics": [
+        "Codex GitHub",
+        "Pull request review",
+        "Service incident"
+      ],
+      "score": 79,
+      "scoreBreakdown": {
+        "userImpact": 29,
+        "novelty": 18,
+        "technicalImportance": 14,
+        "specificityAvailability": 15,
+        "industryImpact": 3
+      },
+      "title": "CodexのGitHubレビュー・PRマージ障害が復旧",
+      "summary": "OpenAIはGitHub側のサービス障害により、Codexの自動プルリクエストレビューが届かない、またはCodexからのPRマージでエラーになる事象を確認した。GitHub側の緩和後に安定性を監視し、Codexレビューとマージ操作の正常化を確認して障害を解決済みとした",
+      "publishedAt": "2026/11/25",
+      "sourcePublishedAt": "2026-11-25T10:27:00Z",
+      "sourcePublishedAtPrecision": "minute",
+      "publicationDateNote": "OpenAI Statusの開始時刻をUTCから日本時間2026年11月25日19:27へ換算",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-27T07:03:51+09:00",
+      "source": {
+        "label": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/01M89RGC3STKK2MT53TXHFMY4H"
+      }
+    },
+    {
+      "id": "bmw-software-update-1120263-20261126",
+      "eventKey": "bmw-software-update-11-2026-3-24-functions-2026-11-25",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "OTA",
+        "BMW Operating System",
+        "Driver assistance"
+      ],
+      "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 21,
+        "scale": 17,
+        "specificity": 13,
+        "novelty": 7
+      },
+      "title": "BMW、OTA更新11/2026.3で24機能を追加・強化",
+      "summary": "BMWがSoftware Update 11/2026.3を発表。OS 8.5・9・Xの対象車へ、信号での自動停止・再発進、AI音声、Prime Video、3Dナビ、充電器混雑予測など5件の新機能と19件の改善を12月から配信する。対象市場・車種・装備により利用可否が異なる",
+      "publishedAt": "2026/11/25",
+      "sourcePublishedAt": "2026-11-25T00:01:00+01:00",
+      "sourcePublishedAtPrecision": "minute",
+      "publicationDateNote": "BMW公式のEurope/Amsterdam 2026年11月25日00:01を日本時間同日08:01へ換算",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "source": {
+        "label": "BMW Group",
+        "url": "https://newsroom.bmwgroup.com/global/16-million-bmw-vehicles-in-88-countries-capable-of-over-the-air-updates/"
+      }
+    },
+    {
+      "id": "nz-smc-prioritisation-20261127",
+      "eventKey": "new-zealand-smc-application-prioritisation-change-2026-11-26",
+      "category": "Permanent Residency",
+      "score": 86,
+      "scoreBreakdown": {
+        "userImpact": 32,
+        "novelty": 19,
+        "technicalImportance": 17,
+        "specificityAvailability": 14,
+        "industryImpact": 4
+      },
+      "title": "ニュージーランド、技能移民ビザ申請の優先順位を11月30日から変更",
+      "summary": "ニュージーランド移民局はSkilled Migrant Category Resident Visaの審査順を変更する。NZの博士・修士、職業登録、中央値賃金の3倍以上を根拠に6点を申告する申請の一律優先を終了し、Green List Tier 1職種は引き続き優先。同一雇用主・職種・教育機関に関係する申請をまとめて処理する場合がある。11月30日から適用する",
+      "publishedAt": "2026/11/26",
+      "sourcePublishedAt": "2026-11-26",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-27T07:03:51+09:00",
+      "verifiedAt": "2026-11-27T07:03:51+09:00",
+      "source": {
+        "label": "Immigration New Zealand",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-prioritisation-for-skilled-migrant-category-resident-visa-applications/"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "honda-avancier-ota-platform-20261121",
+      "eventKey": "honda-all-new-avancier-modular-platform-ota-2026-11-20",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Honda",
+        "OTA",
+        "Vehicle platform"
+      ],
+      "score": 54,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 11,
+        "scale": 8,
+        "specificity": 10,
+        "novelty": 9
+      },
+      "title": "Honda、新型Avancierにモジュラー基盤とOTA機能追加を採用",
+      "summary": "Hondaが新型Avancierを世界初公開。次世代ハイブリッドシステムとモジュラー車台、Motion Management、DualPower e-AWDを採用し、購入後も機能を追加できるOTA更新を計画する。2027年からタイ、日本、中国などアジアで順次発売する",
+      "publishedAt": "2026/11/20",
+      "sourcePublishedAt": "2026-11-20",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-21T07:05:49+09:00",
+      "verifiedAt": "2026-11-21T07:05:49+09:00",
+      "source": {
+        "label": "Honda Global Newsroom",
+        "url": "https://global.honda/en/newsroom/news/2026/4261120eng.html"
+      }
+    },
+    {
+      "id": "openai-academic-researchers-plus-20261124",
+      "eventKey": "openai-academic-researchers-three-plus-seats-applications-open-2026-11-23",
+      "category": "AI",
+      "topics": [
+        "ChatGPT",
+        "Academic research",
+        "Plus",
+        "Grant"
+      ],
+      "score": 68,
+      "scoreBreakdown": {
+        "userImpact": 22,
+        "novelty": 18,
+        "technicalImportance": 8,
+        "specificityAvailability": 15,
+        "industryImpact": 5
+      },
+      "title": "OpenAI、研究者向けChatGPTの申請を開始しPlus 3席を最大1年提供",
+      "summary": "OpenAIが対象国の研究教員・ポスドク向け「ChatGPT for Academic Researchers」の申請を11月23日に開始。承認された研究者本人と最大2人の共同研究者にChatGPT Plus計3席を最大12か月無償提供する。対象は直近3年の関連分野の研究実績を持つ研究者で、承認は保証されない",
+      "publishedAt": "2026/11/23",
+      "sourcePublishedAt": "2026-11-23",
+      "sourcePublishedAtPrecision": "date-from-official-update",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "verifiedAt": "2026-11-24T07:04:34+09:00",
+      "source": {
+        "label": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001406-chatgpt-for-academic-researchers"
+      }
+    },
+    {
+      "id": "nissan-arizona-corrosion-chamber-20261124",
+      "eventKey": "nissan-arizona-corrosion-chamber-durability-testing-2026-11-23",
+      "category": "Nissan",
+      "topics": [
+        "Durability",
+        "Vehicle testing",
+        "Rogue Hybrid",
+        "Arizona Testing Center"
+      ],
+      "score": 58,
+      "title": "日産、北米の10〜15年分の腐食を4か月未満で再現する試験設備を導入",
+      "summary": "日産がアリゾナ試験センターの新しい腐食試験室を公開。塩水、高温、多湿の反復環境により、北米市場の99.5%をカバーする10〜15年相当の腐食を4か月未満で再現し、量産前に材料・部品・塗装の耐久課題を特定する。水の再利用と試験条件の自動監視も強化した",
+      "publishedAt": "2026/11/24",
+      "sourcePublishedAt": "2026-11-23",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "米国公式発表の現地日付は11月23日。時刻非公開のためJST日付は翌日として扱い、初回確認時刻を別記録",
+      "firstSeenAt": "2026-11-24T07:04:34+09:00",
+      "verifiedAt": "2026-11-24T07:04:34+09:00",
+      "thumbnail": "https://usa.nissannews.com/releases/release-c5a0ff62941ac0c52350a63ad43f4bc0/images/18199d01124c3523291aefb5ec37b28603105212",
+      "source": {
+        "label": "Nissan USA Newsroom",
+        "url": "https://usa.nissannews.com/en-US/releases/stories-inside-nissans-weather-time-machine-engineering-vehicles-for-a-world-of-extremes"
+      }
+    },
+    {
+      "id": "infineon-sdv-ethernet-20261126",
+      "eventKey": "infineon-inside-mind-tomorrows-car-ethernet-sdv-2026-11-25",
+      "category": "SDV",
+      "topics": [
+        "SDV",
+        "Automotive Ethernet",
+        "Central compute"
+      ],
+      "score": 56,
+      "scoreBreakdown": {
+        "sdvDirectness": 19,
+        "practicalImpact": 11,
+        "scale": 10,
+        "specificity": 7,
+        "novelty": 9
+      },
+      "title": "Infineon、SDVの通信基盤として車載Ethernetを解説",
+      "summary": "Infineonが、センサー、中央演算、電力を結ぶSDVの通信基盤として車載Ethernetを解説。高解像度カメラやレーダー、LiDAR、HPCのデータをリアルタイムに連携し、継続的に進化する車両を支える位置付けを示した",
+      "publishedAt": "2026/11/25",
+      "sourcePublishedAt": "2026-11-25",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "source": {
+        "label": "Infineon Technologies",
+        "url": "https://www.infineon.com/industry-insights/enabling-ethernet"
+      }
+    },
+    {
+      "id": "nissan-epower-rjc-award-20261126",
+      "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-25",
+      "category": "Nissan",
+      "topics": [
+        "e-POWER",
+        "Hybrid",
+        "Europe sales"
+      ],
+      "score": 58,
+      "title": "日産の第3世代e-POWER、RJCテクノロジー・オブ・ザ・イヤー受賞",
+      "summary": "日産の第3世代e-POWERが2027年RJCテクノロジー・オブ・ザ・イヤーを受賞。欧州では2026年1〜10月のQashqai・X-Trail合算販売の約40%をe-POWERが占め、最新Qashqaiではマイルドハイブリッド比でWLTP燃費を最大31%改善するとしている",
+      "publishedAt": "2026/11/25",
+      "sourcePublishedAt": "2026-11-25",
+      "sourcePublishedAtPrecision": "date",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "verifiedAt": "2026-11-26T07:04:49.069+09:00",
+      "source": {
+        "label": "Nissan Europe",
+        "url": "https://europe.nissannews.com/en-GB/releases/nissans-e-power-hybrid-wins-top-technology-award-as-european-popularity-grows"
+      }
+    }
+  ]
+}
