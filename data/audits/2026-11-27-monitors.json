@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-27",
+  "checkedAt": "2026-11-27T07:03:51+09:00",
+  "windowStart": "2026-11-24T07:04:49.069+09:00",
+  "publicationWindowStart": "2026-11-26T07:04:49.069+09:00",
+  "publicationWindowEnd": "2026-11-27T06:58:17.284+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://developers.openai.com/api/docs/changelog",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-27T07:03:51+09:00",
+      "result": "公式Help、リリースノート、Developers、Status、Codex Releasesを確認。新規リセット、利用枠変更、モデル変更なし。前日のGitHubレビュー・PRマージ障害は解決済みとして同一イベントを更新"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit Codex",
+        "usage limit Codex",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending"
+      ],
+      "checkedAt": "2026-11-27T07:03:51+09:00",
+      "result": "公式・関係者・コミュニティ・trendingを検索。現在窓の公式リセット投稿または複数独立ユーザーによる同時リセット報告なし"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://openai.com/news/",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://www.anthropic.com/news",
+        "https://gemini.google/release-notes/",
+        "https://github.blog/changelog/"
+      ],
+      "checkedAt": "2026-11-27T07:03:51+09:00",
+      "result": "主要AI公式を確認し当日掲載対象の実利用変更なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship.html",
+        "https://www.uscis.gov/green-card",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+        "https://immi.homeaffairs.gov.au/visas/permanent-resident/visa-options",
+        "https://www.immigration.govt.nz/about-us/news-centre/changes-to-prioritisation-for-skilled-migrant-category-resident-visa-applications/",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence"
+      ],
+      "checkedAt": "2026-11-27T07:03:51+09:00",
+      "result": "主要7か国を確認し、ニュージーランドのSkilled Migrant Category申請優先順位変更を確認"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-github-review-merge-errors-2026-11-25",
+      "sourceUrl": "https://status.openai.com/incidents/01M89RGC3STKK2MT53TXHFMY4H",
+      "publishedAt": "2026-11-25T10:27:00Z",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "observedAt": "2026-11-27T07:03:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 79,
+      "reason": "前日掲載の同一障害が解決。告知と完了を一つのイベントとして過去日データを更新し当日へ再掲載しない"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-reset-scan-no-new-event-2026-11-27",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-27T07:03:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路とX経路の双方で現在窓の新規リセットを裏付ける根拠なし"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-shared-chatgpt-codex-usage-repeat-2026-11-27",
+      "sourceUrl": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "firstSeenAt": "2026-11-27T07:03:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 95,
+      "reason": "共有利用枠は11月1日に掲載済みでHelp更新表示に実質的な新変更なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "new-zealand-smc-application-prioritisation-change-2026-11-26",
+      "sourceUrl": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-prioritisation-for-skilled-migrant-category-resident-visa-applications/",
+      "publishedAt": "2026-11-26",
+      "firstSeenAt": "2026-11-27T07:03:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 86,
+      "reason": "公式本文で優先対象の変更、Green List Tier 1の継続、11月30日の適用日を確認"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "canada-well-managed-immigration-system-2026-11-20",
+      "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/building-a-stronger-canada-through-a-well-managed-predictable-immigration-system.html",
+      "publishedAt": "2026-11-20",
+      "firstSeenAt": "2026-11-27T07:03:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "discoveredLate": true,
+      "decision": "late-audit-only",
+      "score": 68,
+      "reason": "公式本文を確認したが通常掲載窓より前の公開であり監査のみに保存"
+    }
+  ]
+}
