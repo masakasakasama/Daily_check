@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-27",
+  "checkedAt": "2026-11-27T07:03:51+09:00",
+  "collectionComplete": true,
+  "scope": "日産独自の新車、技術、リコール、生産、経営、人事、販売など。SDV関連性は必須ではない。",
+  "sourcesChecked": [
+    "https://global.nissannews.com/en/channels/news-releases",
+    "https://global.nissannews.com/ja-JP/channels/news-releases",
+    "https://usa.nissannews.com/en-US/",
+    "https://europe.nissannews.com/en-GB/",
+    "https://www.nhtsa.gov/recalls",
+    "https://www.mlit.go.jp/jidosha/carinf/rcl/recall.html",
+    "https://www.reuters.com/business/autos-transportation/"
+  ],
+  "searches": [
+    {
+      "query": "site:global.nissannews.com November 26 2026 Nissan",
+      "recordedAt": "2026-11-27T07:03:51+09:00"
+    },
+    {
+      "query": "site:usa.nissannews.com November 26 2026 Nissan",
+      "recordedAt": "2026-11-27T07:03:51+09:00"
+    },
+    {
+      "query": "site:europe.nissannews.com November 26 2026 Nissan",
+      "recordedAt": "2026-11-27T07:03:51+09:00"
+    },
+    {
+      "query": "Nissan November 26 2026 Reuters recall production sales",
+      "recordedAt": "2026-11-27T07:03:51+09:00"
+    },
+    {
+      "query": "日産 2026年11月26日 新車 技術 リコール 生産 経営 人事 販売",
+      "recordedAt": "2026-11-27T07:03:51+09:00"
+    }
+  ],
+  "candidates": [
+    {
+      "eventKey": "nissan-third-generation-epower-rjc-technology-award-2026-11-25",
+      "sourceUrl": "https://europe.nissannews.com/en-GB/releases/nissans-e-power-hybrid-wins-top-technology-award-as-european-popularity-grows",
+      "publishedAt": "2026-11-25",
+      "firstSeenAt": "2026-11-26T07:04:49.069+09:00",
+      "observedAt": "2026-11-27T07:03:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-third-generation-epower-rjc-technology-award-2026-11-25",
+      "reason": "11月26日の日別掲載済みで新規変更なし"
+    },
+    {
+      "eventKey": "nissan-fy26-first-half-five-questions-2026-11-13",
+      "sourceUrl": "https://global.nissannews.com/en/releases/251113-01-e",
+      "publishedAt": "2026-11-13",
+      "firstSeenAt": "2026-11-27T07:03:51+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "duplicateOf": "nissan-fy2026-h1-results-outlook-2026-11-11",
+      "reason": "半期決算のFAQは11月12日掲載の同一決算イベントで新規変更なし"
+    }
+  ]
+}
