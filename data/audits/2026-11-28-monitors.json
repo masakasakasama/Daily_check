@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-28",
+  "checkedAt": "2026-11-28T07:04:39+09:00",
+  "windowStart": "2026-11-25T07:07:22+09:00",
+  "publicationWindowStart": "2026-11-27T07:07:22+09:00",
+  "publicationWindowEnd": "2026-11-28T07:00:09+09:00",
+  "collectionComplete": true,
+  "routes": {
+    "codexOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+        "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+        "https://help.openai.com/en/articles/20001516-managing-gpt-6-astra-usage-in-codex",
+        "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-free-go-plus-pro",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://developers.openai.com/api/docs/changelog",
+        "https://status.openai.com/",
+        "https://github.com/openai/codex/releases"
+      ],
+      "queries": [
+        "usage limit rate limit 5-hour weekly limit reset banked reset global reset purchased paid reset credits plan limits usage meter limit bug compensation reset Codex Cloud CLI app model"
+      ],
+      "checkedAt": "2026-11-28T07:04:39+09:00",
+      "result": "公式Help、リリースノート、Developers、Status、Codex関連ページを確認。対象窓の新規リセット、利用枠変更、障害、モデル変更なし"
+    },
+    "codexXCommunity": {
+      "status": "complete",
+      "queries": [
+        "reset Codex",
+        "Codex limits reset",
+        "weekly reset Codex",
+        "5 hour reset Codex",
+        "banked reset",
+        "global reset",
+        "rate limit Codex",
+        "usage limit Codex",
+        "limits restored",
+        "reset ticket",
+        "Tibo reset",
+        "Codex reset today"
+      ],
+      "sources": [
+        "https://x.com/OpenAI",
+        "https://x.com/OpenAIDevs",
+        "https://x.com/thsottiaux",
+        "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+        "https://x.com/i/trending",
+        "https://community.openai.com/"
+      ],
+      "checkedAt": "2026-11-28T07:04:39+09:00",
+      "result": "公式・関係者・コミュニティ・trendingを検索。現在窓の公式リセット投稿または複数独立ユーザーによる同時リセット報告なし。利用率表示の揺れは過去日の未確認報告として監査のみ"
+    },
+    "aiOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://openai.com/news/",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://www.anthropic.com/news",
+        "https://gemini.google/release-notes/",
+        "https://github.blog/changelog/"
+      ],
+      "checkedAt": "2026-11-28T07:04:39+09:00",
+      "result": "主要AI公式を確認し当日掲載対象の実利用変更なし"
+    },
+    "residencyOfficial": {
+      "status": "complete",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship.html",
+        "https://www.uscis.gov/green-card",
+        "https://www.gov.uk/indefinite-leave-to-remain",
+        "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit",
+        "https://immi.homeaffairs.gov.au/visas/permanent-resident/visa-options",
+        "https://www.immigration.govt.nz/about-us/news-centre/two-ways-of-showing-your-commitment-for-permanent-resident-visa-to-be-suspended-from-30-may-2027/",
+        "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence"
+      ],
+      "checkedAt": "2026-11-28T07:04:39+09:00",
+      "result": "主要7か国を確認し、ニュージーランドのPermanent Resident Visaにおける旧投資・事業ルート停止を確認"
+    }
+  },
+  "rawCandidates": [
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-codex-reset-scan-no-new-event-2026-11-28",
+      "sourceUrl": "https://x.com/search?q=%22Codex%20reset%22&src=typed_query",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 0,
+      "reason": "公式経路とX経路の双方で現在窓の新規リセットを裏付ける根拠なし"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "codex-weekly-allowance-display-oscillation-2026-11-25",
+      "sourceUrl": "https://community.openai.com/t/weekly-allowance-repeatedly-switches-between-35-and-100-across-web-and-desktop/1420899",
+      "publishedAt": "2026-11-25",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "observedAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "discoveredLate": true,
+      "decision": "late-audit-only",
+      "score": 62,
+      "reason": "複数ユーザー報告・公式未確認。最初の報告は通常掲載窓より前であり今日へ混入させず監査のみ"
+    },
+    {
+      "monitor": "Codex",
+      "eventKey": "openai-shared-chatgpt-codex-usage-repeat-2026-11-28",
+      "sourceUrl": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 95,
+      "reason": "共有利用枠は11月1日に掲載済みでHelp更新表示に実質的な新変更なし"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "new-zealand-pr-investment-business-commitment-routes-suspension-2027-05-30",
+      "sourceUrl": "https://www.immigration.govt.nz/about-us/news-centre/two-ways-of-showing-your-commitment-for-permanent-resident-visa-to-be-suspended-from-30-may-2027/",
+      "publishedAt": "2026-11-27",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 88,
+      "reason": "公式本文で停止対象、2027年5月30日の期限、投資・事業の要件、既存対象者の経過措置を確認"
+    },
+    {
+      "monitor": "Permanent Residency",
+      "eventKey": "new-zealand-smc-prioritisation-repeat-2026-11-28",
+      "sourceUrl": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-prioritisation-for-skilled-migrant-category-resident-visa-applications/",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 86,
+      "reason": "技能移民申請の優先順位変更は11月27日の日別掲載済み"
+    }
+  ]
+}
