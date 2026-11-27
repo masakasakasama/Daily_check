@@ -1,8 +1,144 @@
 {
   "version": 5,
-  "currentDate": "2026-11-27",
-  "updatedAt": "2026-11-27T07:03:51+09:00",
+  "currentDate": "2026-11-28",
+  "updatedAt": "2026-11-28T07:04:39+09:00",
   "days": [
+    {
+      "date": "2026-11-28",
+      "alerts": [
+        {
+          "id": "nz-pr-commitment-routes-suspension-20261128",
+          "eventKey": "new-zealand-pr-investment-business-commitment-routes-suspension-2027-05-30",
+          "category": "Permanent Residency",
+          "score": 88,
+          "scoreBreakdown": {
+            "userImpact": 34,
+            "novelty": 19,
+            "technicalImportance": 17,
+            "specificityAvailability": 15,
+            "industryImpact": 3
+          },
+          "title": "ニュージーランド、永住ビザの旧投資・事業ルートを2027年5月30日に停止",
+          "summary": "ニュージーランド移民局は、Permanent Resident Visaで定住意思を示す旧来の投資ルートと事業設立ルートを2027年5月30日に停止する。投資100万NZドルを24か月維持、または適格事業を12か月運営する要件を同日までに満たせば申請可能。満たせない既存対象者には条件付きでSecond or Subsequent Resident Visaの選択肢を示した",
+          "publishedAt": "2026/11/27",
+          "sourcePublishedAt": "2026-11-27",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "公式発表は日付のみ。前回Daily Check成功後に初めて通常検出し、確認時刻を別記録",
+          "firstSeenAt": "2026-11-28T07:04:39+09:00",
+          "verifiedAt": "2026-11-28T07:04:39+09:00",
+          "source": {
+            "label": "Immigration New Zealand",
+            "url": "https://www.immigration.govt.nz/about-us/news-centre/two-ways-of-showing-your-commitment-for-permanent-resident-visa-to-be-suspended-from-30-may-2027/"
+          }
+        },
+        {
+          "id": "nissan-october-results-20261128",
+          "eventKey": "nissan-october-2026-global-sales-production-results-2026-11-27",
+          "category": "Nissan",
+          "topics": [
+            "Sales",
+            "Production",
+            "China",
+            "United States",
+            "Japan"
+          ],
+          "score": 84,
+          "title": "日産、10月世界販売18.5%減・生産22.4%減、中国の落ち込みが継続",
+          "summary": "日産の2026年10月世界販売は前年同月比18.5%減の21万803台、世界生産は22.4%減の21万4,338台。中国販売は67.1%減、生産は63.8%減となった。一方、日本販売は5.3%増で5か月連続増、米国販売は8.4%増で2020年以来の好調な10月となった",
+          "publishedAt": "2026/11/27",
+          "sourcePublishedAt": "2026-11-27",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "公式発表は日付のみ。前回Daily Check成功後に初めて通常検出し、確認時刻を別記録",
+          "firstSeenAt": "2026-11-28T07:04:39+09:00",
+          "verifiedAt": "2026-11-28T07:04:39+09:00",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/nissan-production-sales-exports-oct-2026?origin=channel-NNG244"
+          }
+        },
+        {
+          "id": "nissan-nx7-launch-20261128",
+          "eventKey": "dongfeng-nissan-nx7-launch-nissan-os-3-0-2026-11-27",
+          "category": "Nissan",
+          "topics": [
+            "SDV",
+            "Nissan OS 3.0",
+            "Smart cockpit",
+            "LiDAR",
+            "PHEV"
+          ],
+          "score": 76,
+          "scoreBreakdown": {
+            "sdvDirectness": 22,
+            "practicalImpact": 18,
+            "scale": 12,
+            "specificity": 14,
+            "novelty": 10
+          },
+          "title": "東風日産、Nissan OS 3.0搭載PHEV「NX7」を中国で発売",
+          "summary": "東風日産が中国でNX7を発売。Snapdragon 8295Pと24GBメモリで動くNissan OS 3.0、17.3インチ3K画面、55インチAR-HUD、iFLYTEKの対話型コックピットを搭載する。上位車はLiDARとMomenta R7を採用し、価格は12万9,900〜14万9,900元",
+          "publishedAt": "2026/11/27",
+          "sourcePublishedAt": "2026-11-27",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "公式発表は日付のみ。前回Daily Check成功後に初めて通常検出し、確認時刻を別記録",
+          "firstSeenAt": "2026-11-28T07:04:39+09:00",
+          "verifiedAt": "2026-11-28T07:04:39+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/e1168739875dd282a6ef7688e85831ffeba69d1d",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx7-in-china"
+          }
+        }
+      ],
+      "references": [],
+      "checks": [
+        {
+          "id": "ai",
+          "name": "AI",
+          "status": "clear",
+          "summary": "主要AI公式を確認し当日掲載対象の実利用変更なし",
+          "checkedAt": "2026-11-28T07:04:39+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "status": "clear",
+          "summary": "公式経路とX経路を確認し当日掲載対象の利用枠変更・リセット・障害なし",
+          "checkedAt": "2026-11-28T07:04:39+09:00",
+          "alertCount": 0,
+          "referenceCount": 0
+        },
+        {
+          "id": "sdv-nissan",
+          "name": "SDV",
+          "status": "update",
+          "summary": "6 funnelと追加Deep Scanを実施し、Nissan OS 3.0搭載NX7を重要掲載",
+          "checkedAt": "2026-11-28T07:04:39+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "residency",
+          "name": "主要国永住条件",
+          "status": "update",
+          "summary": "主要7か国の公式条件を確認しニュージーランドの永住ビザ旧ルート停止を掲載",
+          "checkedAt": "2026-11-28T07:04:39+09:00",
+          "alertCount": 1,
+          "referenceCount": 0
+        },
+        {
+          "id": "nissan",
+          "name": "日産",
+          "status": "update",
+          "summary": "各地域公式と報道を確認し10月実績とNX7発売を重要掲載",
+          "checkedAt": "2026-11-28T07:04:39+09:00",
+          "alertCount": 2,
+          "referenceCount": 0
+        }
+      ]
+    },
     {
       "date": "2026-11-27",
       "alerts": [
@@ -640,206 +776,22 @@
           "referenceCount": 0
         }
       ]
-    },
-    {
-      "date": "2026-11-21",
-      "alerts": [
-        {
-          "id": "openai-chatgpt-space-plus-20261121",
-          "eventKey": "openai-chatgpt-space-plus-global-rollout-2026-11-20",
-          "category": "AI",
-          "topics": [
-            "ChatGPT Space",
-            "Plus",
-            "Collaboration",
-            "Pages",
-            "Presentations"
-          ],
-          "score": 94,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 6
-          },
-          "title": "OpenAI、ChatGPT SpaceをPlusへ世界展開",
-          "summary": "OpenAIがChatGPT Spaceを18歳以上のPlusユーザーへ世界展開。ページやプレゼンを作成し、接続したアプリの最新情報で自動更新できる共有作業空間で、Web・デスクトップ・iOS・Androidから利用できる。従来のLibraryはSpaceへ移行し、共同編集にも対応する",
-          "publishedAt": "2026/11/20",
-          "sourcePublishedAt": "2026-11-20",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-21T07:05:49+09:00",
-          "verifiedAt": "2026-11-21T07:05:49+09:00",
-          "sourceUpdate": {
-            "previousEventKey": "openai-gpt-6-1-terra-work-codex-rollout-2026-10-26",
-            "changeSummary": "同じ公式リリースノートにChatGPT SpaceのPlus向け世界展開という独立した新機能が追記された",
-            "evidenceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-            "verifiedAt": "2026-11-21T07:05:49+09:00"
-          },
-          "source": {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-          }
-        },
-        {
-          "id": "google-gemini-mac-computer-use-20261121",
-          "eventKey": "google-gemini-mac-computer-use-preview-2026-11-19",
-          "category": "AI",
-          "topics": [
-            "Gemini",
-            "Computer use",
-            "macOS",
-            "Agent"
-          ],
-          "score": 90,
-          "scoreBreakdown": {
-            "userImpact": 34,
-            "novelty": 19,
-            "technicalImportance": 18,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "Gemini Macアプリ、アプリ横断のComputer useに対応",
-          "summary": "GoogleがGeminiのMacアプリへComputer useを追加。専用ウィンドウで画面を確認しながら、WebやMacアプリを横断してクリック、入力、フォーム操作を実行できる。ログインや支払いなどは一時停止して確認を求め、利用者はいつでも停止可能。米国の18歳以上のGoogle AI Plus・Pro・Ultraへ英語で提供する",
-          "publishedAt": "2026/11/20",
-          "sourcePublishedAt": "2026-11-19",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式リリースの現地日付は11月19日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月20日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-21T07:05:49+09:00",
-          "verifiedAt": "2026-11-21T07:05:49+09:00",
-          "source": {
-            "label": "Google Gemini release notes",
-            "url": "https://gemini.google/release-notes/"
-          }
-        },
-        {
-          "id": "aumovio-automotive-rcnet-20261121",
-          "eventKey": "aumovio-automotive-rcnet-open-service-oriented-network-2026-11-19",
-          "category": "SDV",
-          "topics": [
-            "SDV",
-            "Zonal controller",
-            "HPC",
-            "Automotive Ethernet",
-            "Middleware"
-          ],
-          "score": 78,
-          "scoreBreakdown": {
-            "sdvDirectness": 25,
-            "practicalImpact": 17,
-            "scale": 13,
-            "specificity": 12,
-            "novelty": 11
-          },
-          "title": "AUMOVIO、車載ネットワークをサービス化するAutomotive RCNetを公開",
-          "summary": "AUMOVIOがAutomotive RCNetを公開。中央コンピューターからセンサー・アクチュエーターまでEthernet、CAN、LINをまたいで標準サービスインターフェース化し、機能をHPC、ゾーンコントローラー、I/Oへ柔軟に配置できる。Elektrobit・Vectorと連携し、オープン標準として提供する",
-          "publishedAt": "2026/11/20",
-          "sourcePublishedAt": "2026-11-19",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "欧州公式発表の現地日付は11月19日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月20日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-21T07:05:49+09:00",
-          "verifiedAt": "2026-11-21T07:05:49+09:00",
-          "source": {
-            "label": "AUMOVIO",
-            "url": "https://www.aumovio.com/en/solutions/software-defined-mobility/automotive-rcnet.html"
-          }
-        }
-      ],
-      "references": [
-        {
-          "id": "honda-avancier-ota-platform-20261121",
-          "eventKey": "honda-all-new-avancier-modular-platform-ota-2026-11-20",
-          "category": "SDV",
-          "topics": [
-            "SDV",
-            "Honda",
-            "OTA",
-            "Vehicle platform"
-          ],
-          "score": 54,
-          "scoreBreakdown": {
-            "sdvDirectness": 16,
-            "practicalImpact": 11,
-            "scale": 8,
-            "specificity": 10,
-            "novelty": 9
-          },
-          "title": "Honda、新型Avancierにモジュラー基盤とOTA機能追加を採用",
-          "summary": "Hondaが新型Avancierを世界初公開。次世代ハイブリッドシステムとモジュラー車台、Motion Management、DualPower e-AWDを採用し、購入後も機能を追加できるOTA更新を計画する。2027年からタイ、日本、中国などアジアで順次発売する",
-          "publishedAt": "2026/11/20",
-          "sourcePublishedAt": "2026-11-20",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-21T07:05:49+09:00",
-          "verifiedAt": "2026-11-21T07:05:49+09:00",
-          "source": {
-            "label": "Honda Global Newsroom",
-            "url": "https://global.honda/en/newsroom/news/2026/4261120eng.html"
-          }
-        }
-      ],
-      "checks": [
-        {
-          "id": "ai",
-          "name": "AI",
-          "status": "update",
-          "summary": "ChatGPT SpaceとGemini MacのComputer useを重要掲載",
-          "checkedAt": "2026-11-21T07:05:49+09:00",
-          "alertCount": 2,
-          "referenceCount": 0
-        },
-        {
-          "id": "codex",
-          "name": "Codex",
-          "status": "clear",
-          "summary": "公式経路とX経路で新規リセットや利用上限変更なし",
-          "checkedAt": "2026-11-21T07:05:49+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "sdv-nissan",
-          "name": "SDV",
-          "status": "update",
-          "summary": "Automotive RCNetを重要、新型AvancierのOTA基盤を参考掲載",
-          "checkedAt": "2026-11-21T07:05:49+09:00",
-          "alertCount": 1,
-          "referenceCount": 1
-        },
-        {
-          "id": "residency",
-          "name": "主要国永住条件",
-          "status": "clear",
-          "summary": "主要7か国の公式条件を確認し当日掲載対象の変更なし",
-          "checkedAt": "2026-11-21T07:05:49+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        },
-        {
-          "id": "nissan",
-          "name": "日産",
-          "status": "clear",
-          "summary": "公式地域ニュースルームと信頼できる報道を確認し当日掲載対象なし",
-          "checkedAt": "2026-11-21T07:05:49+09:00",
-          "alertCount": 0,
-          "referenceCount": 0
-        }
-      ]
     }
   ],
   "weeks": [
     {
-      "start": "2026-11-21",
-      "end": "2026-11-27",
-      "generatedAt": "2026-11-27T07:03:51+09:00",
+      "start": "2026-11-22",
+      "end": "2026-11-28",
+      "generatedAt": "2026-11-28T07:04:39+09:00",
       "headline": "期間内の重要更新・参考情報",
       "counts": {
         "important": 10,
-        "reference": 5
+        "reference": 4
       },
       "categories": [
         {
           "name": "AI",
-          "summary": "重要3件・参考1件"
+          "summary": "重要1件・参考1件"
         },
         {
           "name": "Codex",
@@ -847,118 +799,18 @@
         },
         {
           "name": "SDV",
-          "summary": "重要3件・参考2件"
+          "summary": "重要3件・参考1件"
         },
         {
           "name": "Permanent Residency",
-          "summary": "重要1件・参考0件"
+          "summary": "重要2件・参考0件"
         },
         {
           "name": "Nissan",
-          "summary": "重要0件・参考2件"
+          "summary": "重要2件・参考2件"
         }
       ],
       "highlights": [
-        {
-          "id": "openai-chatgpt-space-plus-20261121",
-          "eventKey": "openai-chatgpt-space-plus-global-rollout-2026-11-20",
-          "category": "AI",
-          "topics": [
-            "ChatGPT Space",
-            "Plus",
-            "Collaboration",
-            "Pages",
-            "Presentations"
-          ],
-          "score": 94,
-          "scoreBreakdown": {
-            "userImpact": 35,
-            "novelty": 20,
-            "technicalImportance": 18,
-            "specificityAvailability": 15,
-            "industryImpact": 6
-          },
-          "title": "OpenAI、ChatGPT SpaceをPlusへ世界展開",
-          "summary": "OpenAIがChatGPT Spaceを18歳以上のPlusユーザーへ世界展開。ページやプレゼンを作成し、接続したアプリの最新情報で自動更新できる共有作業空間で、Web・デスクトップ・iOS・Androidから利用できる。従来のLibraryはSpaceへ移行し、共同編集にも対応する",
-          "publishedAt": "2026/11/20",
-          "sourcePublishedAt": "2026-11-20",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-21T07:05:49+09:00",
-          "verifiedAt": "2026-11-21T07:05:49+09:00",
-          "sourceUpdate": {
-            "previousEventKey": "openai-gpt-6-1-terra-work-codex-rollout-2026-10-26",
-            "changeSummary": "同じ公式リリースノートにChatGPT SpaceのPlus向け世界展開という独立した新機能が追記された",
-            "evidenceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-            "verifiedAt": "2026-11-21T07:05:49+09:00"
-          },
-          "source": {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-          }
-        },
-        {
-          "id": "google-gemini-mac-computer-use-20261121",
-          "eventKey": "google-gemini-mac-computer-use-preview-2026-11-19",
-          "category": "AI",
-          "topics": [
-            "Gemini",
-            "Computer use",
-            "macOS",
-            "Agent"
-          ],
-          "score": 90,
-          "scoreBreakdown": {
-            "userImpact": 34,
-            "novelty": 19,
-            "technicalImportance": 18,
-            "specificityAvailability": 14,
-            "industryImpact": 5
-          },
-          "title": "Gemini Macアプリ、アプリ横断のComputer useに対応",
-          "summary": "GoogleがGeminiのMacアプリへComputer useを追加。専用ウィンドウで画面を確認しながら、WebやMacアプリを横断してクリック、入力、フォーム操作を実行できる。ログインや支払いなどは一時停止して確認を求め、利用者はいつでも停止可能。米国の18歳以上のGoogle AI Plus・Pro・Ultraへ英語で提供する",
-          "publishedAt": "2026/11/20",
-          "sourcePublishedAt": "2026-11-19",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "米国公式リリースの現地日付は11月19日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月20日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-21T07:05:49+09:00",
-          "verifiedAt": "2026-11-21T07:05:49+09:00",
-          "source": {
-            "label": "Google Gemini release notes",
-            "url": "https://gemini.google/release-notes/"
-          }
-        },
-        {
-          "id": "aumovio-automotive-rcnet-20261121",
-          "eventKey": "aumovio-automotive-rcnet-open-service-oriented-network-2026-11-19",
-          "category": "SDV",
-          "topics": [
-            "SDV",
-            "Zonal controller",
-            "HPC",
-            "Automotive Ethernet",
-            "Middleware"
-          ],
-          "score": 78,
-          "scoreBreakdown": {
-            "sdvDirectness": 25,
-            "practicalImpact": 17,
-            "scale": 13,
-            "specificity": 12,
-            "novelty": 11
-          },
-          "title": "AUMOVIO、車載ネットワークをサービス化するAutomotive RCNetを公開",
-          "summary": "AUMOVIOがAutomotive RCNetを公開。中央コンピューターからセンサー・アクチュエーターまでEthernet、CAN、LINをまたいで標準サービスインターフェース化し、機能をHPC、ゾーンコントローラー、I/Oへ柔軟に配置できる。Elektrobit・Vectorと連携し、オープン標準として提供する",
-          "publishedAt": "2026/11/20",
-          "sourcePublishedAt": "2026-11-19",
-          "sourcePublishedAtPrecision": "date",
-          "publicationDateNote": "欧州公式発表の現地日付は11月19日。時刻非公開で前回成功後に初めて通常検出されたためJST日付は11月20日として扱い、初回確認時刻を別記録",
-          "firstSeenAt": "2026-11-21T07:05:49+09:00",
-          "verifiedAt": "2026-11-21T07:05:49+09:00",
-          "source": {
-            "label": "AUMOVIO",
-            "url": "https://www.aumovio.com/en/solutions/software-defined-mobility/automotive-rcnet.html"
-          }
-        },
         {
           "id": "openai-dot-plus-rollout-20261123",
           "eventKey": "openai-dots-plus-rollout-2026-11-23",
@@ -1171,39 +1023,92 @@
             "label": "Immigration New Zealand",
             "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-prioritisation-for-skilled-migrant-category-resident-visa-applications/"
           }
+        },
+        {
+          "id": "nz-pr-commitment-routes-suspension-20261128",
+          "eventKey": "new-zealand-pr-investment-business-commitment-routes-suspension-2027-05-30",
+          "category": "Permanent Residency",
+          "score": 88,
+          "scoreBreakdown": {
+            "userImpact": 34,
+            "novelty": 19,
+            "technicalImportance": 17,
+            "specificityAvailability": 15,
+            "industryImpact": 3
+          },
+          "title": "ニュージーランド、永住ビザの旧投資・事業ルートを2027年5月30日に停止",
+          "summary": "ニュージーランド移民局は、Permanent Resident Visaで定住意思を示す旧来の投資ルートと事業設立ルートを2027年5月30日に停止する。投資100万NZドルを24か月維持、または適格事業を12か月運営する要件を同日までに満たせば申請可能。満たせない既存対象者には条件付きでSecond or Subsequent Resident Visaの選択肢を示した",
+          "publishedAt": "2026/11/27",
+          "sourcePublishedAt": "2026-11-27",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "公式発表は日付のみ。前回Daily Check成功後に初めて通常検出し、確認時刻を別記録",
+          "firstSeenAt": "2026-11-28T07:04:39+09:00",
+          "verifiedAt": "2026-11-28T07:04:39+09:00",
+          "source": {
+            "label": "Immigration New Zealand",
+            "url": "https://www.immigration.govt.nz/about-us/news-centre/two-ways-of-showing-your-commitment-for-permanent-resident-visa-to-be-suspended-from-30-may-2027/"
+          }
+        },
+        {
+          "id": "nissan-october-results-20261128",
+          "eventKey": "nissan-october-2026-global-sales-production-results-2026-11-27",
+          "category": "Nissan",
+          "topics": [
+            "Sales",
+            "Production",
+            "China",
+            "United States",
+            "Japan"
+          ],
+          "score": 84,
+          "title": "日産、10月世界販売18.5%減・生産22.4%減、中国の落ち込みが継続",
+          "summary": "日産の2026年10月世界販売は前年同月比18.5%減の21万803台、世界生産は22.4%減の21万4,338台。中国販売は67.1%減、生産は63.8%減となった。一方、日本販売は5.3%増で5か月連続増、米国販売は8.4%増で2020年以来の好調な10月となった",
+          "publishedAt": "2026/11/27",
+          "sourcePublishedAt": "2026-11-27",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "公式発表は日付のみ。前回Daily Check成功後に初めて通常検出し、確認時刻を別記録",
+          "firstSeenAt": "2026-11-28T07:04:39+09:00",
+          "verifiedAt": "2026-11-28T07:04:39+09:00",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/nissan-production-sales-exports-oct-2026?origin=channel-NNG244"
+          }
+        },
+        {
+          "id": "nissan-nx7-launch-20261128",
+          "eventKey": "dongfeng-nissan-nx7-launch-nissan-os-3-0-2026-11-27",
+          "category": "Nissan",
+          "topics": [
+            "SDV",
+            "Nissan OS 3.0",
+            "Smart cockpit",
+            "LiDAR",
+            "PHEV"
+          ],
+          "score": 76,
+          "scoreBreakdown": {
+            "sdvDirectness": 22,
+            "practicalImpact": 18,
+            "scale": 12,
+            "specificity": 14,
+            "novelty": 10
+          },
+          "title": "東風日産、Nissan OS 3.0搭載PHEV「NX7」を中国で発売",
+          "summary": "東風日産が中国でNX7を発売。Snapdragon 8295Pと24GBメモリで動くNissan OS 3.0、17.3インチ3K画面、55インチAR-HUD、iFLYTEKの対話型コックピットを搭載する。上位車はLiDARとMomenta R7を採用し、価格は12万9,900〜14万9,900元",
+          "publishedAt": "2026/11/27",
+          "sourcePublishedAt": "2026-11-27",
+          "sourcePublishedAtPrecision": "date",
+          "publicationDateNote": "公式発表は日付のみ。前回Daily Check成功後に初めて通常検出し、確認時刻を別記録",
+          "firstSeenAt": "2026-11-28T07:04:39+09:00",
+          "verifiedAt": "2026-11-28T07:04:39+09:00",
+          "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/e1168739875dd282a6ef7688e85831ffeba69d1d",
+          "source": {
+            "label": "Nissan Global Newsroom",
+            "url": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx7-in-china"
+          }
         }
       ],
       "references": [
-        {
-          "id": "honda-avancier-ota-platform-20261121",
-          "eventKey": "honda-all-new-avancier-modular-platform-ota-2026-11-20",
-          "category": "SDV",
-          "topics": [
-            "SDV",
-            "Honda",
-            "OTA",
-            "Vehicle platform"
-          ],
-          "score": 54,
-          "scoreBreakdown": {
-            "sdvDirectness": 16,
-            "practicalImpact": 11,
-            "scale": 8,
-            "specificity": 10,
-            "novelty": 9
-          },
-          "title": "Honda、新型Avancierにモジュラー基盤とOTA機能追加を採用",
-          "summary": "Hondaが新型Avancierを世界初公開。次世代ハイブリッドシステムとモジュラー車台、Motion Management、DualPower e-AWDを採用し、購入後も機能を追加できるOTA更新を計画する。2027年からタイ、日本、中国などアジアで順次発売する",
-          "publishedAt": "2026/11/20",
-          "sourcePublishedAt": "2026-11-20",
-          "sourcePublishedAtPrecision": "date",
-          "firstSeenAt": "2026-11-21T07:05:49+09:00",
-          "verifiedAt": "2026-11-21T07:05:49+09:00",
-          "source": {
-            "label": "Honda Global Newsroom",
-            "url": "https://global.honda/en/newsroom/news/2026/4261120eng.html"
-          }
-        },
         {
           "id": "openai-academic-researchers-plus-20261124",
           "eventKey": "openai-academic-researchers-three-plus-seats-applications-open-2026-11-23",
