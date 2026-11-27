@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-28",
+  "alerts": [
+    {
+      "id": "nz-pr-commitment-routes-suspension-20261128",
+      "eventKey": "new-zealand-pr-investment-business-commitment-routes-suspension-2027-05-30",
+      "category": "Permanent Residency",
+      "score": 88,
+      "scoreBreakdown": {
+        "userImpact": 34,
+        "novelty": 19,
+        "technicalImportance": 17,
+        "specificityAvailability": 15,
+        "industryImpact": 3
+      },
+      "title": "ニュージーランド、永住ビザの旧投資・事業ルートを2027年5月30日に停止",
+      "summary": "ニュージーランド移民局は、Permanent Resident Visaで定住意思を示す旧来の投資ルートと事業設立ルートを2027年5月30日に停止する。投資100万NZドルを24か月維持、または適格事業を12か月運営する要件を同日までに満たせば申請可能。満たせない既存対象者には条件付きでSecond or Subsequent Resident Visaの選択肢を示した",
+      "publishedAt": "2026/11/27",
+      "sourcePublishedAt": "2026-11-27",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "公式発表は日付のみ。前回Daily Check成功後に初めて通常検出し、確認時刻を別記録",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "verifiedAt": "2026-11-28T07:04:39+09:00",
+      "source": {
+        "label": "Immigration New Zealand",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/two-ways-of-showing-your-commitment-for-permanent-resident-visa-to-be-suspended-from-30-may-2027/"
+      }
+    },
+    {
+      "id": "nissan-october-results-20261128",
+      "eventKey": "nissan-october-2026-global-sales-production-results-2026-11-27",
+      "category": "Nissan",
+      "topics": [
+        "Sales",
+        "Production",
+        "China",
+        "United States",
+        "Japan"
+      ],
+      "score": 84,
+      "title": "日産、10月世界販売18.5%減・生産22.4%減、中国の落ち込みが継続",
+      "summary": "日産の2026年10月世界販売は前年同月比18.5%減の21万803台、世界生産は22.4%減の21万4,338台。中国販売は67.1%減、生産は63.8%減となった。一方、日本販売は5.3%増で5か月連続増、米国販売は8.4%増で2020年以来の好調な10月となった",
+      "publishedAt": "2026/11/27",
+      "sourcePublishedAt": "2026-11-27",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "公式発表は日付のみ。前回Daily Check成功後に初めて通常検出し、確認時刻を別記録",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "verifiedAt": "2026-11-28T07:04:39+09:00",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/nissan-production-sales-exports-oct-2026?origin=channel-NNG244"
+      }
+    },
+    {
+      "id": "nissan-nx7-launch-20261128",
+      "eventKey": "dongfeng-nissan-nx7-launch-nissan-os-3-0-2026-11-27",
+      "category": "Nissan",
+      "topics": [
+        "SDV",
+        "Nissan OS 3.0",
+        "Smart cockpit",
+        "LiDAR",
+        "PHEV"
+      ],
+      "score": 76,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 18,
+        "scale": 12,
+        "specificity": 14,
+        "novelty": 10
+      },
+      "title": "東風日産、Nissan OS 3.0搭載PHEV「NX7」を中国で発売",
+      "summary": "東風日産が中国でNX7を発売。Snapdragon 8295Pと24GBメモリで動くNissan OS 3.0、17.3インチ3K画面、55インチAR-HUD、iFLYTEKの対話型コックピットを搭載する。上位車はLiDARとMomenta R7を採用し、価格は12万9,900〜14万9,900元",
+      "publishedAt": "2026/11/27",
+      "sourcePublishedAt": "2026-11-27",
+      "sourcePublishedAtPrecision": "date",
+      "publicationDateNote": "公式発表は日付のみ。前回Daily Check成功後に初めて通常検出し、確認時刻を別記録",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "verifiedAt": "2026-11-28T07:04:39+09:00",
+      "thumbnail": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/e1168739875dd282a6ef7688e85831ffeba69d1d",
+      "source": {
+        "label": "Nissan Global Newsroom",
+        "url": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx7-in-china"
+      }
+    }
+  ],
+  "references": [],
+  "checks": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "status": "clear",
+      "summary": "主要AI公式を確認し当日掲載対象の実利用変更なし",
+      "checkedAt": "2026-11-28T07:04:39+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "status": "clear",
+      "summary": "公式経路とX経路を確認し当日掲載対象の利用枠変更・リセット・障害なし",
+      "checkedAt": "2026-11-28T07:04:39+09:00",
+      "alertCount": 0,
+      "referenceCount": 0
+    },
+    {
+      "id": "sdv-nissan",
+      "name": "SDV",
+      "status": "update",
+      "summary": "6 funnelと追加Deep Scanを実施し、Nissan OS 3.0搭載NX7を重要掲載",
+      "checkedAt": "2026-11-28T07:04:39+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "residency",
+      "name": "主要国永住条件",
+      "status": "update",
+      "summary": "主要7か国の公式条件を確認しニュージーランドの永住ビザ旧ルート停止を掲載",
+      "checkedAt": "2026-11-28T07:04:39+09:00",
+      "alertCount": 1,
+      "referenceCount": 0
+    },
+    {
+      "id": "nissan",
+      "name": "日産",
+      "status": "update",
+      "summary": "各地域公式と報道を確認し10月実績とNX7発売を重要掲載",
+      "checkedAt": "2026-11-28T07:04:39+09:00",
+      "alertCount": 2,
+      "referenceCount": 0
+    }
+  ]
+}
