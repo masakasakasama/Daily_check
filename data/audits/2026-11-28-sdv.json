@@ -1,0 +1,568 @@
+{
+  "date": "2026-11-28",
+  "checkedAt": "2026-11-28T07:04:39+09:00",
+  "windowStart": "2026-11-25T07:07:22+09:00",
+  "windowEnd": "2026-11-28T07:00:09+09:00",
+  "publicationWindowStart": "2026-11-27T07:07:22+09:00",
+  "publicationWindowEnd": "2026-11-28T07:00:09+09:00",
+  "collectionComplete": true,
+  "completedAt": "2026-11-28T07:04:39+09:00",
+  "anomaly": false,
+  "candidateCount": 12,
+  "deepScanPerformed": true,
+  "deepScanReason": "前日と当日のSDV掲載0件が見込まれたため追加検索を開始。追加検索でNX7を採用し、完了証跡を保持",
+  "deepScanQueries": [
+    {
+      "query": "November 2026 BMW Software Update 11/2026.3 16 million vehicles official",
+      "sourceUrl": "https://newsroom.bmwgroup.com/global/16-million-bmw-vehicles-in-88-countries-capable-of-over-the-air-updates/",
+      "sourceFamily": "Deep OEM OTA",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 AUTOSAR Adaptive R26-11 current release official",
+      "sourceUrl": "https://www.autosar.org/standards/adaptive-platform/",
+      "sourceFamily": "Deep platform release",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 QNX OS 8.0.5 AWS Azure release notes official",
+      "sourceUrl": "https://qnx.com/developers/docs/relnotes8.0/com.qnx.doc.release_notes/topic/qnxcloud_list.html",
+      "sourceFamily": "Deep OS cloud",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 ISO SAE TR 8477 cybersecurity verification validation official",
+      "sourceUrl": "https://www.iso.org/standard/83188.html",
+      "sourceFamily": "Deep regulation ISO",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 UNECE R155 R156 same approval authority amendments official",
+      "sourceUrl": "https://unece.org/sites/default/files/2026-11/ECE-TRANS-WP29-GRVA-26e.pdf",
+      "sourceFamily": "Deep regulation UNECE",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 Bosch mobility virtualization hub virtual release agentic AI automotive official",
+      "sourceUrl": "https://www.bosch-mobility.com/en/solutions/software-and-services/mobility-virtualization-hub/",
+      "sourceFamily": "Deep cloud virtualization",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 AWS AI ECU validation Corellium Atlas official",
+      "sourceUrl": "https://aws.amazon.com/blogs/industries/ai-enabled-ecu-validation-on-aws-using-corellium-atlas-virtual-ecus/",
+      "sourceFamily": "Deep virtual ECU",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 Google Cloud full virtual vehicles AAOS MCU official",
+      "sourceUrl": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu",
+      "sourceFamily": "Deep full vehicle cloud",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 Eclipse Safe Open Vehicle Core 1.0 release official",
+      "sourceUrl": "https://metrics.eclipse.org/projects/automotive.score/",
+      "sourceFamily": "Deep Eclipse platform",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 Infineon AURIX RC1 RISC-V SDV official",
+      "sourceUrl": "https://www.infineon.com/press-release/2026/infpr202611-026",
+      "sourceFamily": "Deep Tier1 compute",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 Microchip LAN9324x LAN9322x TSN SDV official",
+      "sourceUrl": "https://www.microchip.com/en-us/about/news-releases/products/microchip-introduces-advanced-scalable-self-managed-automotive-ethernet-switch-families",
+      "sourceFamily": "Deep Tier1 networking",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    },
+    {
+      "query": "November 2026 Nissan Honda SDV ECU software standardization official",
+      "sourceUrl": "https://global.honda/en/newsroom/news/2026/c260831beng.html",
+      "sourceFamily": "Deep OEM partnership",
+      "rawHitCount": 3,
+      "retrievalStatus": "success"
+    }
+  ],
+  "rawCandidates": [
+    {
+      "funnel": "OEM",
+      "eventKey": "dongfeng-nissan-nx7-launch-nissan-os-3-0-2026-11-27",
+      "primaryUrl": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx7-in-china",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "adopted-important",
+      "score": 76,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 18,
+        "scale": 12,
+        "specificity": 14,
+        "novelty": 10
+      },
+      "reason": "公式本文でNissan OS 3.0、Snapdragon 8295P、LiDAR/Momenta R7、価格と発売を確認",
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "funnel": "OEM",
+      "eventKey": "bmw-software-update-repeat-2026-11-28",
+      "primaryUrl": "https://newsroom.bmwgroup.com/global/16-million-bmw-vehicles-in-88-countries-capable-of-over-the-air-updates/",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 21,
+        "scale": 17,
+        "specificity": 13,
+        "novelty": 7
+      },
+      "reason": "BMW OTA更新11/2026.3は11月26日の日別掲載済みで新規変更なし",
+      "duplicateOf": "bmw-software-update-11-2026-3-24-functions-2026-11-25"
+    },
+    {
+      "funnel": "Platform/ecosystem",
+      "eventKey": "autosar-adaptive-r26-11-current-scan-2026-11-28",
+      "primaryUrl": "https://www.autosar.org/standards/adaptive-platform/",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 39,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 7,
+        "scale": 6,
+        "specificity": 6,
+        "novelty": 4
+      },
+      "reason": "R26-11がCurrent Releaseと表示されるが対象窓内の公開時刻と確定変更本文を検証できない"
+    },
+    {
+      "funnel": "Platform/ecosystem",
+      "eventKey": "android-aaos-sdv-cloud-workstation-current-scan-2026-11-28",
+      "primaryUrl": "https://source.android.com/docs/automotive/sdv",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 58,
+      "scoreBreakdown": {
+        "sdvDirectness": 20,
+        "practicalImpact": 14,
+        "scale": 9,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "reason": "Android 17 dual-VMのクラウド開発手順を本文確認したが追加日は月単位で対象窓内の新規性を確定できない"
+    },
+    {
+      "funnel": "Tier1/semiconductor",
+      "eventKey": "microchip-lan9324x-repeat-2026-11-28",
+      "primaryUrl": "https://www.microchip.com/en-us/about/news-releases/products/microchip-introduces-advanced-scalable-self-managed-automotive-ethernet-switch-families",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 78,
+      "scoreBreakdown": {
+        "sdvDirectness": 23,
+        "practicalImpact": 20,
+        "scale": 14,
+        "specificity": 13,
+        "novelty": 8
+      },
+      "reason": "LAN9324x・LAN9322xは11月18日の日別掲載済み",
+      "duplicateOf": "microchip-lan9324x-lan9322x-automotive-ethernet-switches-2026-11-17"
+    },
+    {
+      "funnel": "Tier1/semiconductor",
+      "eventKey": "infineon-aurix-rc1-repeat-2026-11-28",
+      "primaryUrl": "https://www.infineon.com/press-release/2026/infpr202611-026",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 84,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 21,
+        "scale": 16,
+        "specificity": 13,
+        "novelty": 10
+      },
+      "reason": "AURIX RC1は11月4日公表の既出イベントで新規変更なし",
+      "duplicateOf": "infineon-aurix-rc1-risc-v-sdv-2026-11-04"
+    },
+    {
+      "funnel": "Cloud/OS/development",
+      "eventKey": "qnx-cloud-release-notes-repeat-2026-11-28",
+      "primaryUrl": "https://qnx.com/developers/docs/relnotes8.0/com.qnx.doc.release_notes/topic/qnxcloud_list.html",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 45,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 10,
+        "scale": 7,
+        "specificity": 6,
+        "novelty": 4
+      },
+      "reason": "QNXクラウド製品一覧の更新日は11月19日で対象窓より前、現在窓の新規リリースなし"
+    },
+    {
+      "funnel": "Cloud/OS/development",
+      "eventKey": "aws-corellium-atlas-virtual-ecu-repeat-2026-11-28",
+      "primaryUrl": "https://aws.amazon.com/blogs/industries/ai-enabled-ecu-validation-on-aws-using-corellium-atlas-virtual-ecus/",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 63,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 16,
+        "scale": 10,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "reason": "AWS上のCorellium Atlas仮想ECU検証は過去監査で確認済みの10月26日公開記事",
+      "duplicateOf": "aws-corellium-atlas-virtual-ecu-validation-2026-10-26"
+    },
+    {
+      "funnel": "Regulation/Security",
+      "eventKey": "iso-sae-tr-8477-repeat-2026-11-28",
+      "primaryUrl": "https://www.iso.org/standard/83188.html",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 67,
+      "scoreBreakdown": {
+        "sdvDirectness": 18,
+        "practicalImpact": 18,
+        "scale": 12,
+        "specificity": 12,
+        "novelty": 7
+      },
+      "reason": "ISO/SAE TR 8477:2026は11月6日公開の既出規格で新規変更なし",
+      "duplicateOf": "iso-sae-tr-8477-cybersecurity-verification-validation-2026-11-06"
+    },
+    {
+      "funnel": "Regulation/Security",
+      "eventKey": "unece-grva-r155-r156-amendment-scan-2026-11-28",
+      "primaryUrl": "https://unece.org/sites/default/files/2026-11/ECE-TRANS-WP29-GRVA-26e.pdf",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "excluded",
+      "score": 57,
+      "scoreBreakdown": {
+        "sdvDirectness": 16,
+        "practicalImpact": 15,
+        "scale": 11,
+        "specificity": 10,
+        "novelty": 5
+      },
+      "reason": "GRVA第26回会合報告の採択案を確認したが会合は9月、文書公開も対象窓より前で当日の新規確定変更ではない"
+    },
+    {
+      "funnel": "Cross",
+      "eventKey": "dongfeng-nissan-nx7-cross-2026-11-28",
+      "primaryUrl": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx7-in-china",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 76,
+      "scoreBreakdown": {
+        "sdvDirectness": 22,
+        "practicalImpact": 18,
+        "scale": 12,
+        "specificity": 14,
+        "novelty": 10
+      },
+      "reason": "OEM funnelで採用した同一NX7イベントへeventKey統合",
+      "duplicateOf": "dongfeng-nissan-nx7-launch-nissan-os-3-0-2026-11-27"
+    },
+    {
+      "funnel": "Cross",
+      "eventKey": "bmw-software-update-cross-repeat-2026-11-28",
+      "primaryUrl": "https://newsroom.bmwgroup.com/global/16-million-bmw-vehicles-in-88-countries-capable-of-over-the-air-updates/",
+      "firstSeenAt": "2026-11-28T07:04:39+09:00",
+      "bodyVerified": true,
+      "verified": true,
+      "decision": "duplicate",
+      "score": 82,
+      "scoreBreakdown": {
+        "sdvDirectness": 24,
+        "practicalImpact": 21,
+        "scale": 17,
+        "specificity": 13,
+        "novelty": 7
+      },
+      "reason": "OEM funnelと過去日掲載の同一BMW OTAイベントへ統合",
+      "duplicateOf": "bmw-software-update-11-2026-3-24-functions-2026-11-25"
+    }
+  ],
+  "funnels": [
+    {
+      "name": "OEM",
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "November 27 2026 OEM vehicle OS E/E architecture central compute zonal OTA official",
+          "sourceUrl": "https://global.nissannews.com/en/channels/news-releases",
+          "sourceFamily": "OEM fixed official newsrooms",
+          "rawHitCount": 5,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "November 27 2026 Nissan Honda vehicle OS software-defined vehicle official",
+          "sourceUrl": "https://global.honda/en/newsroom/",
+          "sourceFamily": "Nissan Honda specific",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:bmwgroup.com OR site:media.mercedes-benz.com November 2026 OTA SOTA software-defined vehicle",
+          "sourceUrl": "https://newsroom.bmwgroup.com/",
+          "sourceFamily": "OEM OTA and SOTA",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:volkswagen-group.com OR site:global.toyota/en/newsroom November 2026 vehicle software E/E architecture",
+          "sourceUrl": "https://www.volkswagen-group.com/en/press-releases",
+          "sourceFamily": "OEM architecture cross-search",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        }
+      ],
+      "rawHitCount": 17,
+      "candidateCount": 2,
+      "adoptedCount": 1,
+      "excludedCount": 0,
+      "duplicateCount": 1,
+      "pendingCount": 0
+    },
+    {
+      "name": "Platform/ecosystem",
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "November 27 2026 automotive platform ecosystem AUTOSAR Adaptive COVESA Eclipse SDV SOAFEE official",
+          "sourceUrl": "https://www.autosar.org/news-events",
+          "sourceFamily": "Platform fixed official",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:eclipse.org OR site:sdv.eclipse.org November 2026 software-defined vehicle release",
+          "sourceUrl": "https://eclipsesdv.org/news-press/",
+          "sourceFamily": "Eclipse SDV",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:covesa.global November 2026 vehicle API connected vehicle release",
+          "sourceUrl": "https://covesa.global/",
+          "sourceFamily": "COVESA vehicle API",
+          "rawHitCount": 3,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:soafee.io OR site:qnx.com November 2026 automotive middleware hypervisor SDV",
+          "sourceUrl": "https://www.soafee.io/",
+          "sourceFamily": "SOAFEE QNX middleware",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        }
+      ],
+      "rawHitCount": 15,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 2,
+      "duplicateCount": 0,
+      "pendingCount": 0
+    },
+    {
+      "name": "Tier1/semiconductor",
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "November 27 2026 automotive semiconductor central compute zonal ECU NXP Infineon Qualcomm official",
+          "sourceUrl": "https://www.infineon.com/press-release/2026",
+          "sourceFamily": "Tier1 fixed official",
+          "rawHitCount": 5,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:infineon.com/press-release/2026 November 2026 automotive Ethernet zone controller SDV",
+          "sourceUrl": "https://www.infineon.com/press-release/2026/infpr202611-026",
+          "sourceFamily": "Infineon compute",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:nxp.com/company/about-nxp/newsroom November 2026 automotive central compute software-defined vehicle",
+          "sourceUrl": "https://www.nxp.com/company/about-nxp/newsroom",
+          "sourceFamily": "NXP central compute",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:qualcomm.com/news/releases November 2026 Snapdragon Ride automotive cockpit",
+          "sourceUrl": "https://www.qualcomm.com/news/releases",
+          "sourceFamily": "Qualcomm cockpit",
+          "rawHitCount": 3,
+          "retrievalStatus": "success"
+        }
+      ],
+      "rawHitCount": 16,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "duplicateCount": 2,
+      "pendingCount": 0
+    },
+    {
+      "name": "Cloud/OS/development",
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "November 27 2026 virtual ECU automotive SIL HIL CI/CD cloud development platform official",
+          "sourceUrl": "https://aws.amazon.com/blogs/industries/",
+          "sourceFamily": "Cloud fixed official",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:aws.amazon.com/blogs/industries November 2026 automotive virtual ECU software-defined vehicle",
+          "sourceUrl": "https://aws.amazon.com/blogs/industries/ai-enabled-ecu-validation-on-aws-using-corellium-atlas-virtual-ecus/",
+          "sourceFamily": "AWS virtual ECU",
+          "rawHitCount": 3,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:learn.microsoft.com OR site:azure.microsoft.com November 2026 automotive SIL HIL CI/CD vehicle software",
+          "sourceUrl": "https://learn.microsoft.com/azure/architecture/industries/automotive/software-defined-vehicle-reference-architecture",
+          "sourceFamily": "Azure SIL HIL",
+          "rawHitCount": 3,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:cloud.google.com/blog November 2026 Android Automotive SDV virtual development",
+          "sourceUrl": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu",
+          "sourceFamily": "Google Cloud AAOS",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        }
+      ],
+      "rawHitCount": 14,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "duplicateCount": 1,
+      "pendingCount": 0
+    },
+    {
+      "name": "Regulation/Security",
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "November 27 2026 UNECE R155 R156 vehicle cybersecurity software update official",
+          "sourceUrl": "https://unece.org/transport/road-transport/reference-documents",
+          "sourceFamily": "Regulation fixed official",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "November 27 2026 ISO 21434 ISO 24089 automotive cybersecurity update official",
+          "sourceUrl": "https://www.iso.org/standard/70918.html",
+          "sourceFamily": "ISO cybersecurity",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:nhtsa.gov November 2026 vehicle cybersecurity software update connected vehicle",
+          "sourceUrl": "https://www.nhtsa.gov/research/vehicle-cybersecurity",
+          "sourceFamily": "NHTSA cybersecurity",
+          "rawHitCount": 3,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "site:eur-lex.europa.eu November 2026 connected vehicle cybersecurity software updates regulation",
+          "sourceUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/699/oj",
+          "sourceFamily": "EU vehicle regulation",
+          "rawHitCount": 3,
+          "retrievalStatus": "success"
+        }
+      ],
+      "rawHitCount": 14,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 1,
+      "duplicateCount": 1,
+      "pendingCount": 0
+    },
+    {
+      "name": "Cross",
+      "retrievalStatus": "complete",
+      "queries": [
+        {
+          "query": "November 27 2026 software-defined vehicle in-vehicle Ethernet cockpit software central compute cross industry",
+          "sourceUrl": "https://www.infineon.com/technology/software-defined-vehicle",
+          "sourceFamily": "Cross fixed technology search",
+          "rawHitCount": 5,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "November 2026 Nissan OS 3.0 Snapdragon 8295P LiDAR official NX7",
+          "sourceUrl": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx7-in-china",
+          "sourceFamily": "Cross Nissan product software",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "November 2026 Android 17 AAOS SDV Cloud Workstations dual VM official",
+          "sourceUrl": "https://source.android.com/docs/automotive/sdv",
+          "sourceFamily": "Cross OS cloud development",
+          "rawHitCount": 4,
+          "retrievalStatus": "success"
+        },
+        {
+          "query": "November 2026 in-vehicle Ethernet TSN consolidated compute official automotive",
+          "sourceUrl": "https://www.microchip.com/en-us/about/news-releases/products/microchip-introduces-advanced-scalable-self-managed-automotive-ethernet-switch-families",
+          "sourceFamily": "Cross Ethernet compute",
+          "rawHitCount": 5,
+          "retrievalStatus": "success"
+        }
+      ],
+      "rawHitCount": 18,
+      "candidateCount": 2,
+      "adoptedCount": 0,
+      "excludedCount": 0,
+      "duplicateCount": 2,
+      "pendingCount": 0
+    }
+  ]
+}
