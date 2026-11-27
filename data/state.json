@@ -2,6 +2,25 @@
   "schema": "split-daily-v1",
   "lastSuccessfulAt": "2026-11-27T07:07:22+09:00",
   "lastAudit": "data/audits/2026-11-27-sdv.json",
-  "pendingBatch": null,
+  "pendingBatch": {
+    "id": "daily-check-2026-11-28T07:00:09+09:00",
+    "date": "2026-11-28",
+    "stagedAt": "2026-11-28T07:00:09+09:00",
+    "collectionWindowStart": "2026-11-25T07:07:22+09:00",
+    "publicationWindowStart": "2026-11-27T07:07:22+09:00",
+    "collectionWindowEnd": "2026-11-28T07:00:09+09:00",
+    "status": "staged",
+    "paths": [
+      "data/days/2026-11-28.json",
+      "data/audits/2026-11-28-sdv.json",
+      "data/audits/2026-11-28-monitors.json",
+      "data/audits/2026-11-28-nissan.json",
+      "data/weeks/2026-11-28.json",
+      "data/daily-checks.json",
+      "data/index.json",
+      "index.html",
+      "data/sdv-collection-state.json"
+    ]
+  },
   "coverageWatermarkNote": "Last successful boundary is the verified completion time; the next collection starts 48 hours before it for audit overlap."
 }
